@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026.0-beta-1",
-  "generatedAt": "2026-05-23T10:46:26Z",
+  "contentVersion": "2026.0-beta-2",
+  "generatedAt": "2026-05-23T11:20:04Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -29,8 +29,8 @@
     },
     {
       "filename": "si_requirements.json",
-      "size": 52411,
-      "checksum": "1f2e09d5a0d8a96d18728dd969506d92c323580e63c0cc143bff782dad6a5a2d"
+      "size": 52585,
+      "checksum": "c3349a8f411abe54f0a12c7fb5e7979f1ecbab73bc5aade21d5f7b9c1a191dfc"
     },
     {
       "filename": "thresholds.json",

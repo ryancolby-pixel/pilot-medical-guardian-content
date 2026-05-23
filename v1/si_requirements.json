@@ -49,7 +49,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
       "reviewStatus": "draft"
     },
-    "requirementText": "A treatment-adherence report (for CPAP, a device usage/compliance download) covering the look-back period, demonstrating effective and consistent use, as outlined in the AME Guide."
+    "requirementText": "A treatment-adherence report — for CPAP, a usage/compliance download covering at least the most recent 30-day window at the time of submission, typically showing device use of about 6 hours or more per night on 75% or more of nights. Confirm the current required format and thresholds against the AME Guide OSA recertification form and a qualified AME."
   },
   {
     "cadenceRaw": "annual",
