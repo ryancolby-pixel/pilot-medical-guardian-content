@@ -1,0 +1,3405 @@
+[
+  {
+    "genericName": "lisinopril",
+    "brandNames": [
+      "Prinivil",
+      "Zestril"
+    ],
+    "category": "ACE inhibitor (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "The FAA's primary concern is the underlying hypertension, not the drug; hypertension is a condition the AME may certify under a CACI worksheet.",
+    "faaStatusDescription": "Hypertension treated with an ACE inhibitor is addressed by the FAA's CACI (Conditions AMEs Can Issue) program; the AME may issue with conditions if the worksheet criteria are met. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-lisinopril",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "enalapril",
+    "brandNames": [
+      "Vasotec"
+    ],
+    "category": "ACE inhibitor (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with an ACE inhibitor is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-enalapril",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "losartan",
+    "brandNames": [
+      "Cozaar"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with an angiotensin receptor blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-losartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "valsartan",
+    "brandNames": [
+      "Diovan"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with an angiotensin receptor blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-valsartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "amlodipine",
+    "brandNames": [
+      "Norvasc"
+    ],
+    "category": "Calcium channel blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with a calcium channel blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-amlodipine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "diltiazem",
+    "brandNames": [
+      "Cardizem",
+      "Tiazac"
+    ],
+    "category": "Calcium channel blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with a calcium channel blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-diltiazem",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "metoprolol",
+    "brandNames": [
+      "Lopressor",
+      "Toprol-XL"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug.",
+    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program; a cardiac indication may instead require Special Issuance. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-metoprolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "atenolol",
+    "brandNames": [
+      "Tenormin"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the underlying condition, not the drug.",
+    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-atenolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "hydrochlorothiazide",
+    "brandNames": [
+      "HCTZ",
+      "Microzide"
+    ],
+    "category": "Thiazide diuretic (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with a thiazide diuretic is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-hydrochlorothiazide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "chlorthalidone",
+    "brandNames": [
+      "Thalitone"
+    ],
+    "category": "Thiazide-like diuretic (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
+    "faaStatusDescription": "Hypertension treated with a thiazide-like diuretic is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-chlorthalidone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "atorvastatin",
+    "brandNames": [
+      "Lipitor"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable in the AME Guide pharmaceuticals guidance when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-atorvastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "rosuvastatin",
+    "brandNames": [
+      "Crestor"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-rosuvastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "simvastatin",
+    "brandNames": [
+      "Zocor"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-simvastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "pravastatin",
+    "brandNames": [
+      "Pravachol"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-pravastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "ezetimibe",
+    "brandNames": [
+      "Zetia"
+    ],
+    "category": "Cholesterol absorption inhibitor",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Non-statin cholesterol agents are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-ezetimibe",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "metformin",
+    "brandNames": [
+      "Glucophage",
+      "Fortamet"
+    ],
+    "category": "Biguanide (Type 2 diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not metformin; oral-agent diabetes is addressed under CACI, while insulin-treated diabetes follows a Special Issuance pathway.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Diabetes worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-metformin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "glipizide",
+    "brandNames": [
+      "Glucotrol"
+    ],
+    "category": "Sulfonylurea (Type 2 diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the diabetes, not the drug; non-insulin diabetes is CACI-addressed.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Diabetes worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-glipizide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "empagliflozin",
+    "brandNames": [
+      "Jardiance"
+    ],
+    "category": "SGLT2 inhibitor (Type 2 diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the diabetes, not the drug.",
+    "faaStatusDescription": "SGLT2 inhibitors for Type 2 diabetes are addressed in FAA diabetes guidance/CACI. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-empagliflozin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "sitagliptin",
+    "brandNames": [
+      "Januvia"
+    ],
+    "category": "DPP-4 inhibitor (Type 2 diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the diabetes, not the drug.",
+    "faaStatusDescription": "DPP-4 inhibitors for Type 2 diabetes are addressed in FAA diabetes guidance/CACI. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sitagliptin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "semaglutide",
+    "brandNames": [
+      "Ozempic",
+      "Rybelsus",
+      "Wegovy"
+    ],
+    "category": "GLP-1 receptor agonist (diabetes / weight)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the underlying condition (diabetes or obesity), not the drug.",
+    "faaStatusDescription": "GLP-1 receptor agonists are addressed in FAA diabetes/weight guidance, often with an observation period for tolerance. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-semaglutide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes / Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "insulin",
+    "brandNames": [
+      "Humalog",
+      "Lantus",
+      "Novolog"
+    ],
+    "category": "Insulin (diabetes)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is insulin-treated diabetes itself; this follows a Special Issuance pathway, not the AME's desk.",
+    "faaStatusDescription": "Insulin-treated diabetes is handled through an FAA Special Issuance protocol rather than issued by the AME. Confirm against the current AME Guide diabetes protocol and a qualified AME.",
+    "envelope": {
+      "code": "med-insulin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes Mellitus (Insulin-Treated) protocol",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "levothyroxine",
+    "brandNames": [
+      "Synthroid",
+      "Levoxyl"
+    ],
+    "category": "Thyroid hormone (hypothyroidism)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the thyroid condition and stability, not the drug; hypothyroidism is CACI-addressed.",
+    "faaStatusDescription": "Hypothyroidism on thyroid-replacement therapy is addressed by the FAA CACI program when stable. Confirm against the current AME Guide CACI — Hypothyroidism worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-levothyroxine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypothyroidism Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "omeprazole",
+    "brandNames": [
+      "Prilosec"
+    ],
+    "category": "Proton pump inhibitor (GERD)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Proton pump inhibitors for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-omeprazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "pantoprazole",
+    "brandNames": [
+      "Protonix"
+    ],
+    "category": "Proton pump inhibitor (GERD)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Proton pump inhibitors for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-pantoprazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "famotidine",
+    "brandNames": [
+      "Pepcid"
+    ],
+    "category": "H2 blocker (GERD)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "H2 blockers for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-famotidine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fluoxetine",
+    "brandNames": [
+      "Prozac"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying depression/anxiety and its stability; this is one of the four SSRIs handled under the FAA SSRI Decision Path.",
+    "faaStatusDescription": "Fluoxetine is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process (a HIMS-style monitored pathway), not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "envelope": {
+      "code": "med-fluoxetine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "sertraline",
+    "brandNames": [
+      "Zoloft"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
+    "faaStatusDescription": "Sertraline is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "envelope": {
+      "code": "med-sertraline",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "citalopram",
+    "brandNames": [
+      "Celexa"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
+    "faaStatusDescription": "Citalopram is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "envelope": {
+      "code": "med-citalopram",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "escitalopram",
+    "brandNames": [
+      "Lexapro"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
+    "faaStatusDescription": "Escitalopram is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "envelope": {
+      "code": "med-escitalopram",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "paroxetine",
+    "brandNames": [
+      "Paxil"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "treatedConditionNote": "Notably NOT among the SSRIs the FAA accepts through its Decision Path, even though the condition itself may be certifiable on a different agent.",
+    "faaStatusDescription": "Paroxetine is generally not among the SSRIs the FAA accepts via its SSRI Decision Path. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "envelope": {
+      "code": "med-paroxetine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "bupropion",
+    "brandNames": [
+      "Wellbutrin",
+      "Zyban"
+    ],
+    "category": "Atypical antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying condition; handled through FAA review rather than the AME's desk.",
+    "faaStatusDescription": "Bupropion is handled through FAA review and depends on the underlying condition and formulation. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-bupropion",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Antidepressant policy / Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "alprazolam",
+    "brandNames": [
+      "Xanax"
+    ],
+    "category": "Benzodiazepine (anxiety)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Benzodiazepines fall under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-alprazolam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "zolpidem",
+    "brandNames": [
+      "Ambien"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "preFlightWaitHours": 24,
+    "treatedConditionNote": "Both the insomnia and the sedating drug matter; chronic use is generally disqualifying.",
+    "faaStatusDescription": "Sedative hypnotics such as zolpidem fall under Do Not Fly guidance with a substantial no-fly interval after use; chronic use is generally disqualifying. Confirm the current required wait and status against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-zolpidem",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "methylphenidate",
+    "brandNames": [
+      "Ritalin",
+      "Concerta"
+    ],
+    "category": "CNS stimulant (ADHD)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "treatedConditionNote": "Both the underlying ADHD diagnosis and the stimulant are of concern to the FAA.",
+    "faaStatusDescription": "ADHD stimulants fall under FAA Do Not Issue guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-methylphenidate",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "amphetamine/dextroamphetamine",
+    "brandNames": [
+      "Adderall"
+    ],
+    "category": "CNS stimulant (ADHD)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "treatedConditionNote": "Both the underlying ADHD diagnosis and the stimulant are of concern to the FAA.",
+    "faaStatusDescription": "ADHD stimulants fall under FAA Do Not Issue guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-amphetamine-dextroamphetamine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "hydrocodone/acetaminophen",
+    "brandNames": [
+      "Vicodin",
+      "Norco",
+      "Lortab"
+    ],
+    "category": "Opioid analgesic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Centrally-acting opioid analgesics fall under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-hydrocodone-acetaminophen",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "oxycodone",
+    "brandNames": [
+      "OxyContin",
+      "Roxicodone",
+      "Percocet"
+    ],
+    "category": "Opioid analgesic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Centrally-acting opioid analgesics fall under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-oxycodone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "tramadol",
+    "brandNames": [
+      "Ultram"
+    ],
+    "category": "Opioid analgesic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Tramadol is a centrally-acting analgesic addressed under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-tramadol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "cyclobenzaprine",
+    "brandNames": [
+      "Flexeril"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Muscle relaxants are addressed under FAA Do Not Fly guidance due to CNS effects. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-cyclobenzaprine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "ibuprofen",
+    "brandNames": [
+      "Advil",
+      "Motrin"
+    ],
+    "category": "NSAID (pain / inflammation)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Over-the-counter NSAIDs are generally addressed as acceptable for short-term/minor use when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-ibuprofen",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "naproxen",
+    "brandNames": [
+      "Aleve",
+      "Naprosyn"
+    ],
+    "category": "NSAID (pain / inflammation)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Over-the-counter NSAIDs are generally addressed as acceptable for short-term/minor use when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-naproxen",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "acetaminophen",
+    "brandNames": [
+      "Tylenol"
+    ],
+    "category": "Analgesic / antipyretic",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Acetaminophen is generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-acetaminophen",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fexofenadine",
+    "brandNames": [
+      "Allegra"
+    ],
+    "category": "Non-sedating antihistamine (allergy)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Non-sedating antihistamines are generally addressed as acceptable when the allergic condition is not itself limiting and no adverse effects occur. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-fexofenadine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "loratadine",
+    "brandNames": [
+      "Claritin"
+    ],
+    "category": "Non-sedating antihistamine (allergy)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Non-sedating antihistamines are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-loratadine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "cetirizine",
+    "brandNames": [
+      "Zyrtec"
+    ],
+    "category": "Antihistamine (allergy)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "preFlightWaitHours": 48,
+    "faaStatusDescription": "Cetirizine carries a no-fly interval after the last dose under FAA Do Not Fly guidance due to potential sedation. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-cetirizine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "diphenhydramine",
+    "brandNames": [
+      "Benadryl"
+    ],
+    "category": "Sedating antihistamine (allergy)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "preFlightWaitHours": 60,
+    "faaStatusDescription": "Diphenhydramine is a sedating antihistamine on FAA Do Not Fly guidance, with a substantial no-fly interval after the last dose. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-diphenhydramine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "pseudoephedrine",
+    "brandNames": [
+      "Sudafed"
+    ],
+    "category": "Decongestant (allergy / cold)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Plain decongestants are generally addressed as acceptable when well tolerated; sedating antihistamine combinations are treated differently. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-pseudoephedrine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "albuterol",
+    "brandNames": [
+      "Proventil",
+      "Ventolin",
+      "ProAir"
+    ],
+    "category": "Short-acting bronchodilator (asthma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the asthma and its control, not the inhaler; mild-to-moderate asthma is CACI-addressed.",
+    "faaStatusDescription": "Asthma controlled with an inhaler is addressed by the FAA CACI program when criteria are met. Confirm against the current AME Guide CACI — Asthma worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-albuterol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fluticasone (inhaled)",
+    "brandNames": [
+      "Flovent",
+      "Flonase"
+    ],
+    "category": "Inhaled corticosteroid (asthma / rhinitis)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the asthma/rhinitis and its control, not the inhaler.",
+    "faaStatusDescription": "Inhaled corticosteroids for asthma/allergic rhinitis are generally addressed as acceptable, with asthma itself addressed under CACI. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-fluticasone-inhaled",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "montelukast",
+    "brandNames": [
+      "Singulair"
+    ],
+    "category": "Leukotriene modifier (asthma / allergy)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "Concern is the asthma/allergy and its control, not the drug.",
+    "faaStatusDescription": "Leukotriene modifiers for asthma/allergy are generally addressed alongside asthma's CACI pathway. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-montelukast",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "warfarin",
+    "brandNames": [
+      "Coumadin",
+      "Jantoven"
+    ],
+    "category": "Anticoagulant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone.",
+    "faaStatusDescription": "Anticoagulation is handled based on the underlying condition, often via FAA review/Special Issuance. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-warfarin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "apixaban",
+    "brandNames": [
+      "Eliquis"
+    ],
+    "category": "Anticoagulant (DOAC)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "treatedConditionNote": "Concern is the underlying condition requiring anticoagulation, not the drug alone.",
+    "faaStatusDescription": "Direct oral anticoagulants are handled based on the underlying condition, often via FAA review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-apixaban",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "aspirin (low-dose)",
+    "brandNames": [
+      "Bayer",
+      "Ecotrin"
+    ],
+    "category": "Antiplatelet",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Low-dose aspirin is generally addressed as acceptable; the underlying reason for use is the FAA's primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-aspirin-low-dose",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "sildenafil",
+    "brandNames": [
+      "Viagra"
+    ],
+    "category": "PDE5 inhibitor (erectile dysfunction)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "preFlightWaitHours": 6,
+    "faaStatusDescription": "PDE5 inhibitors are generally addressed as acceptable with a no-fly interval after use due to potential transient visual effects. Confirm the current required wait against the AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sildenafil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "tadalafil",
+    "brandNames": [
+      "Cialis"
+    ],
+    "category": "PDE5 inhibitor (erectile dysfunction)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "preFlightWaitHours": 36,
+    "faaStatusDescription": "Longer-acting PDE5 inhibitors are generally addressed as acceptable with a longer no-fly interval after use. Confirm the current required wait against the AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-tadalafil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "spironolactone",
+    "brandNames": [
+      "Aldactone"
+    ],
+    "category": "Potassium-sparing diuretic (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Potassium-sparing diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-spironolactone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "furosemide",
+    "brandNames": [
+      "Lasix"
+    ],
+    "category": "Loop diuretic",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Loop diuretic is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-furosemide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "triamterene/hydrochlorothiazide",
+    "brandNames": [
+      "Dyazide",
+      "Maxzide"
+    ],
+    "category": "Combination diuretic (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Combination diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-triamterene-hydrochlorothiazide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "carvedilol",
+    "brandNames": [
+      "Coreg"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension or cardiac condition treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-carvedilol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension or cardiac condition"
+  },
+  {
+    "genericName": "propranolol",
+    "brandNames": [
+      "Inderal"
+    ],
+    "category": "Beta blocker",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension or other labeled condition treated with Beta blocker is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-propranolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension or other labeled condition"
+  },
+  {
+    "genericName": "nadolol",
+    "brandNames": [
+      "Corgard"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-nadolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "bisoprolol",
+    "brandNames": [
+      "Zebeta"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-bisoprolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "nebivolol",
+    "brandNames": [
+      "Bystolic"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-nebivolol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "labetalol",
+    "brandNames": [
+      "Trandate"
+    ],
+    "category": "Beta blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-labetalol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "nifedipine",
+    "brandNames": [
+      "Procardia",
+      "Adalat"
+    ],
+    "category": "Calcium channel blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-nifedipine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "verapamil",
+    "brandNames": [
+      "Calan",
+      "Verelan"
+    ],
+    "category": "Calcium channel blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-verapamil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "felodipine",
+    "brandNames": [
+      "Plendil"
+    ],
+    "category": "Calcium channel blocker (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-felodipine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "ramipril",
+    "brandNames": [
+      "Altace"
+    ],
+    "category": "ACE inhibitor (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-ramipril",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "benazepril",
+    "brandNames": [
+      "Lotensin"
+    ],
+    "category": "ACE inhibitor (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-benazepril",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "quinapril",
+    "brandNames": [
+      "Accupril"
+    ],
+    "category": "ACE inhibitor (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-quinapril",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "irbesartan",
+    "brandNames": [
+      "Avapro"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-irbesartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "olmesartan",
+    "brandNames": [
+      "Benicar"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-olmesartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "candesartan",
+    "brandNames": [
+      "Atacand"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-candesartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "telmisartan",
+    "brandNames": [
+      "Micardis"
+    ],
+    "category": "ARB (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-telmisartan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "indapamide",
+    "brandNames": [
+      "Lozol"
+    ],
+    "category": "Thiazide-like diuretic (hypertension)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypertension treated with Thiazide-like diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-indapamide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "clonidine",
+    "brandNames": [
+      "Catapres"
+    ],
+    "category": "Central alpha-agonist (hypertension)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Clonidine is treated cautiously in FAA guidance and is generally not issued by the AME without FAA review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-clonidine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "clopidogrel",
+    "brandNames": [
+      "Plavix"
+    ],
+    "category": "Antiplatelet",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Clopidogrel is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-clopidogrel",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The condition requiring antiplatelet therapy is the FAA's primary interest."
+  },
+  {
+    "genericName": "rivaroxaban",
+    "brandNames": [
+      "Xarelto"
+    ],
+    "category": "Anticoagulant (DOAC)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Rivaroxaban is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-rivaroxaban",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest."
+  },
+  {
+    "genericName": "dabigatran",
+    "brandNames": [
+      "Pradaxa"
+    ],
+    "category": "Anticoagulant (DOAC)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Dabigatran is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-dabigatran",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest."
+  },
+  {
+    "genericName": "edoxaban",
+    "brandNames": [
+      "Savaysa"
+    ],
+    "category": "Anticoagulant (DOAC)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Edoxaban is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-edoxaban",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest."
+  },
+  {
+    "genericName": "amiodarone",
+    "brandNames": [
+      "Cordarone",
+      "Pacerone"
+    ],
+    "category": "Antiarrhythmic",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Amiodarone and the arrhythmia it treats are evaluated through a full FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-amiodarone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "sotalol",
+    "brandNames": [
+      "Betapace"
+    ],
+    "category": "Antiarrhythmic / beta blocker",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Sotalol and the underlying arrhythmia are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sotalol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "flecainide",
+    "brandNames": [
+      "Tambocor"
+    ],
+    "category": "Antiarrhythmic",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Flecainide and the underlying arrhythmia are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-flecainide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "digoxin",
+    "brandNames": [
+      "Lanoxin"
+    ],
+    "category": "Cardiac glycoside",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Digoxin and the condition it treats are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-digoxin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "dofetilide",
+    "brandNames": [
+      "Tikosyn"
+    ],
+    "category": "Antiarrhythmic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Dofetilide is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-dofetilide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "lovastatin",
+    "brandNames": [
+      "Mevacor"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Lovastatin (Statin (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-lovastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "pitavastatin",
+    "brandNames": [
+      "Livalo"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Pitavastatin (Statin (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-pitavastatin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fenofibrate",
+    "brandNames": [
+      "Tricor"
+    ],
+    "category": "Fibrate (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Fenofibrate (Fibrate (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-fenofibrate",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "gemfibrozil",
+    "brandNames": [
+      "Lopid"
+    ],
+    "category": "Fibrate (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Gemfibrozil (Fibrate (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-gemfibrozil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "niacin",
+    "brandNames": [
+      "Niaspan"
+    ],
+    "category": "Nicotinic acid (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Niacin (Nicotinic acid (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-niacin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "colesevelam",
+    "brandNames": [
+      "WelChol"
+    ],
+    "category": "Bile acid sequestrant (cholesterol)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Colesevelam (Bile acid sequestrant (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-colesevelam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "evolocumab",
+    "brandNames": [
+      "Repatha"
+    ],
+    "category": "PCSK9 inhibitor (cholesterol)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Evolocumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-evolocumab",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "glimepiride",
+    "brandNames": [
+      "Amaryl"
+    ],
+    "category": "Sulfonylurea (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with Sulfonylurea (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-glimepiride",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "glyburide",
+    "brandNames": [
+      "DiaBeta",
+      "Glynase"
+    ],
+    "category": "Sulfonylurea (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with Sulfonylurea (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-glyburide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "pioglitazone",
+    "brandNames": [
+      "Actos"
+    ],
+    "category": "Thiazolidinedione (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with Thiazolidinedione (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-pioglitazone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "dapagliflozin",
+    "brandNames": [
+      "Farxiga"
+    ],
+    "category": "SGLT2 inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with SGLT2 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-dapagliflozin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "canagliflozin",
+    "brandNames": [
+      "Invokana"
+    ],
+    "category": "SGLT2 inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with SGLT2 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-canagliflozin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "linagliptin",
+    "brandNames": [
+      "Tradjenta"
+    ],
+    "category": "DPP-4 inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with DPP-4 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-linagliptin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "dulaglutide",
+    "brandNames": [
+      "Trulicity"
+    ],
+    "category": "GLP-1 receptor agonist (diabetes)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes treated with GLP-1 receptor agonist (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-dulaglutide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes"
+  },
+  {
+    "genericName": "liraglutide",
+    "brandNames": [
+      "Victoza",
+      "Saxenda"
+    ],
+    "category": "GLP-1 receptor agonist (diabetes / weight)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes or obesity treated with GLP-1 receptor agonist (diabetes / weight) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-liraglutide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes or obesity"
+  },
+  {
+    "genericName": "tirzepatide",
+    "brandNames": [
+      "Mounjaro",
+      "Zepbound"
+    ],
+    "category": "GIP/GLP-1 agonist (diabetes / weight)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Type 2 diabetes or obesity treated with GIP/GLP-1 agonist (diabetes / weight) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-tirzepatide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Type 2 diabetes or obesity"
+  },
+  {
+    "genericName": "liothyronine",
+    "brandNames": [
+      "Cytomel"
+    ],
+    "category": "Thyroid hormone (hypothyroidism)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Hypothyroidism treated with Thyroid hormone (hypothyroidism) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-liothyronine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypothyroidism Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Hypothyroidism"
+  },
+  {
+    "genericName": "methimazole",
+    "brandNames": [
+      "Tapazole"
+    ],
+    "category": "Antithyroid (hyperthyroidism)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Methimazole is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-methimazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest."
+  },
+  {
+    "genericName": "propylthiouracil",
+    "brandNames": [
+      "PTU"
+    ],
+    "category": "Antithyroid (hyperthyroidism)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Propylthiouracil is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-propylthiouracil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest."
+  },
+  {
+    "genericName": "esomeprazole",
+    "brandNames": [
+      "Nexium"
+    ],
+    "category": "Proton pump inhibitor (GERD)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Esomeprazole (Proton pump inhibitor (GERD)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-esomeprazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "lansoprazole",
+    "brandNames": [
+      "Prevacid"
+    ],
+    "category": "Proton pump inhibitor (GERD)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Lansoprazole (Proton pump inhibitor (GERD)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-lansoprazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "loperamide",
+    "brandNames": [
+      "Imodium"
+    ],
+    "category": "Antidiarrheal",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Loperamide (Antidiarrheal) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-loperamide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "mesalamine",
+    "brandNames": [
+      "Asacol",
+      "Lialda",
+      "Pentasa"
+    ],
+    "category": "Aminosalicylate (IBD)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Mesalamine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-mesalamine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The inflammatory bowel condition is the FAA's primary interest."
+  },
+  {
+    "genericName": "sulfasalazine",
+    "brandNames": [
+      "Azulfidine"
+    ],
+    "category": "Aminosalicylate (IBD / arthritis)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Sulfasalazine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sulfasalazine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "ondansetron",
+    "brandNames": [
+      "Zofran"
+    ],
+    "category": "Antiemetic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Ondansetron is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-ondansetron",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "dicyclomine",
+    "brandNames": [
+      "Bentyl"
+    ],
+    "category": "Antispasmodic (IBS)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Dicyclomine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-dicyclomine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "amoxicillin",
+    "brandNames": [
+      "Amoxil"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-amoxicillin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "amoxicillin/clavulanate",
+    "brandNames": [
+      "Augmentin"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-amoxicillin-clavulanate",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "azithromycin",
+    "brandNames": [
+      "Zithromax",
+      "Z-Pak"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-azithromycin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "doxycycline",
+    "brandNames": [
+      "Vibramycin"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-doxycycline",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "cephalexin",
+    "brandNames": [
+      "Keflex"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-cephalexin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "ciprofloxacin",
+    "brandNames": [
+      "Cipro"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-ciprofloxacin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "levofloxacin",
+    "brandNames": [
+      "Levaquin"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-levofloxacin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "metronidazole",
+    "brandNames": [
+      "Flagyl"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-metronidazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "nitrofurantoin",
+    "brandNames": [
+      "Macrobid"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-nitrofurantoin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "sulfamethoxazole/trimethoprim",
+    "brandNames": [
+      "Bactrim",
+      "Septra"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sulfamethoxazole-trimethoprim",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "clarithromycin",
+    "brandNames": [
+      "Biaxin"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-clarithromycin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "clindamycin",
+    "brandNames": [
+      "Cleocin"
+    ],
+    "category": "Antibiotic",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-clindamycin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fluconazole",
+    "brandNames": [
+      "Diflucan"
+    ],
+    "category": "Antifungal",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Fluconazole is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-fluconazole",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "terbinafine",
+    "brandNames": [
+      "Lamisil"
+    ],
+    "category": "Antifungal",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Terbinafine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-terbinafine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "acyclovir",
+    "brandNames": [
+      "Zovirax"
+    ],
+    "category": "Antiviral",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Acyclovir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-acyclovir",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "valacyclovir",
+    "brandNames": [
+      "Valtrex"
+    ],
+    "category": "Antiviral",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Valacyclovir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-valacyclovir",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "oseltamivir",
+    "brandNames": [
+      "Tamiflu"
+    ],
+    "category": "Antiviral (influenza)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Oseltamivir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-oseltamivir",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "fluticasone/salmeterol",
+    "brandNames": [
+      "Advair"
+    ],
+    "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Asthma treated with Inhaled corticosteroid/LABA (asthma/COPD) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-fluticasone-salmeterol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Asthma"
+  },
+  {
+    "genericName": "budesonide/formoterol",
+    "brandNames": [
+      "Symbicort"
+    ],
+    "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Asthma treated with Inhaled corticosteroid/LABA (asthma/COPD) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-budesonide-formoterol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Asthma"
+  },
+  {
+    "genericName": "tiotropium",
+    "brandNames": [
+      "Spiriva"
+    ],
+    "category": "Long-acting anticholinergic (COPD/asthma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "COPD or asthma treated with Long-acting anticholinergic (COPD/asthma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-tiotropium",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "COPD or asthma"
+  },
+  {
+    "genericName": "mometasone (nasal)",
+    "brandNames": [
+      "Nasonex"
+    ],
+    "category": "Intranasal corticosteroid (rhinitis)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Mometasone (nasal) (Intranasal corticosteroid (rhinitis)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-mometasone-nasal",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "levocetirizine",
+    "brandNames": [
+      "Xyzal"
+    ],
+    "category": "Antihistamine (allergy)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Levocetirizine carries a no-fly interval after the last dose under FAA Do Not Fly guidance due to potential sedation. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-levocetirizine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    },
+    "preFlightWaitHours": 48
+  },
+  {
+    "genericName": "chlorpheniramine",
+    "brandNames": [
+      "Chlor-Trimeton"
+    ],
+    "category": "Sedating antihistamine (allergy)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Chlorpheniramine is a sedating antihistamine on FAA Do Not Fly guidance with a multi-day no-fly interval after the last dose. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-chlorpheniramine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    },
+    "preFlightWaitHours": 120
+  },
+  {
+    "genericName": "sumatriptan",
+    "brandNames": [
+      "Imitrex"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Sumatriptan is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-sumatriptan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "rizatriptan",
+    "brandNames": [
+      "Maxalt"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Rizatriptan is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-rizatriptan",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "erenumab",
+    "brandNames": [
+      "Aimovig"
+    ],
+    "category": "Anti-CGRP (migraine prevention)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Erenumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-erenumab",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "topiramate",
+    "brandNames": [
+      "Topamax"
+    ],
+    "category": "Anticonvulsant (migraine/seizure)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Topiramate is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-topiramate",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "lorazepam",
+    "brandNames": [
+      "Ativan"
+    ],
+    "category": "Benzodiazepine (anxiety)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Lorazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-lorazepam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "clonazepam",
+    "brandNames": [
+      "Klonopin"
+    ],
+    "category": "Benzodiazepine (anxiety/seizure)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Clonazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-clonazepam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "diazepam",
+    "brandNames": [
+      "Valium"
+    ],
+    "category": "Benzodiazepine (anxiety)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Diazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-diazepam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "buspirone",
+    "brandNames": [
+      "Buspar"
+    ],
+    "category": "Anxiolytic (non-benzodiazepine)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Buspirone is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-buspirone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The underlying anxiety condition is the FAA's primary interest."
+  },
+  {
+    "genericName": "venlafaxine",
+    "brandNames": [
+      "Effexor"
+    ],
+    "category": "SNRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Venlafaxine is among the medications the FAA may consider through its antidepressant decision process (a HIMS-style monitored pathway), not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "envelope": {
+      "code": "med-venlafaxine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "duloxetine",
+    "brandNames": [
+      "Cymbalta"
+    ],
+    "category": "SNRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Duloxetine is among the medications the FAA may consider through its antidepressant decision process, not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "envelope": {
+      "code": "med-duloxetine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "desvenlafaxine",
+    "brandNames": [
+      "Pristiq"
+    ],
+    "category": "SNRI antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Desvenlafaxine is among the medications the FAA may consider through its antidepressant decision process, not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "envelope": {
+      "code": "med-desvenlafaxine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "mirtazapine",
+    "brandNames": [
+      "Remeron"
+    ],
+    "category": "Atypical antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Mirtazapine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-mirtazapine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "amitriptyline",
+    "brandNames": [
+      "Elavil"
+    ],
+    "category": "Tricyclic antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Amitriptyline is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-amitriptyline",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "trazodone",
+    "brandNames": [
+      "Desyrel"
+    ],
+    "category": "Serotonin modulator (sleep/depression)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Trazodone is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-trazodone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "eszopiclone",
+    "brandNames": [
+      "Lunesta"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Sedative hypnotics such as eszopiclone fall under Do Not Fly guidance with a substantial no-fly interval after use; chronic use is generally disqualifying. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-eszopiclone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    },
+    "preFlightWaitHours": 24
+  },
+  {
+    "genericName": "melatonin",
+    "brandNames": [
+      "(supplement)"
+    ],
+    "category": "Sleep aid (supplement)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Melatonin is generally addressed as acceptable when there is no underlying sleep disorder and no adverse effects. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-melatonin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "lisdexamfetamine",
+    "brandNames": [
+      "Vyvanse"
+    ],
+    "category": "CNS stimulant (ADHD)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Lisdexamfetamine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-lisdexamfetamine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "atomoxetine",
+    "brandNames": [
+      "Strattera"
+    ],
+    "category": "Non-stimulant ADHD agent",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Atomoxetine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-atomoxetine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "modafinil",
+    "brandNames": [
+      "Provigil"
+    ],
+    "category": "Wakefulness agent",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Modafinil is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-modafinil",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "celecoxib",
+    "brandNames": [
+      "Celebrex"
+    ],
+    "category": "COX-2 inhibitor (NSAID)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Celecoxib (COX-2 inhibitor (NSAID)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-celecoxib",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "meloxicam",
+    "brandNames": [
+      "Mobic"
+    ],
+    "category": "NSAID",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Meloxicam (NSAID) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-meloxicam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "diclofenac",
+    "brandNames": [
+      "Voltaren"
+    ],
+    "category": "NSAID",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Diclofenac (NSAID) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-diclofenac",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "gabapentin",
+    "brandNames": [
+      "Neurontin"
+    ],
+    "category": "Gabapentinoid (nerve pain/seizure)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Gabapentin is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-gabapentin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "pregabalin",
+    "brandNames": [
+      "Lyrica"
+    ],
+    "category": "Gabapentinoid (nerve pain/seizure)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Pregabalin is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-pregabalin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "baclofen",
+    "brandNames": [
+      "Lioresal"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Baclofen is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-baclofen",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "tizanidine",
+    "brandNames": [
+      "Zanaflex"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Tizanidine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-tizanidine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "methocarbamol",
+    "brandNames": [
+      "Robaxin"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Methocarbamol is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-methocarbamol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "tamsulosin",
+    "brandNames": [
+      "Flomax"
+    ],
+    "category": "Alpha blocker (BPH)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Tamsulosin is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-tamsulosin",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Generally acceptable; the FAA's interest is tolerance and the underlying condition."
+  },
+  {
+    "genericName": "finasteride",
+    "brandNames": [
+      "Proscar",
+      "Propecia"
+    ],
+    "category": "5-alpha reductase inhibitor (BPH/hair)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Finasteride (5-alpha reductase inhibitor (BPH/hair)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-finasteride",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "dutasteride",
+    "brandNames": [
+      "Avodart"
+    ],
+    "category": "5-alpha reductase inhibitor (BPH)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Dutasteride (5-alpha reductase inhibitor (BPH)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-dutasteride",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "alendronate",
+    "brandNames": [
+      "Fosamax"
+    ],
+    "category": "Bisphosphonate (osteoporosis)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Alendronate (Bisphosphonate (osteoporosis)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-alendronate",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "denosumab",
+    "brandNames": [
+      "Prolia"
+    ],
+    "category": "RANKL inhibitor (osteoporosis)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Denosumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-denosumab",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "allopurinol",
+    "brandNames": [
+      "Zyloprim"
+    ],
+    "category": "Xanthine oxidase inhibitor (gout)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Allopurinol (Xanthine oxidase inhibitor (gout)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-allopurinol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "colchicine",
+    "brandNames": [
+      "Colcrys"
+    ],
+    "category": "Anti-gout",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Colchicine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-colchicine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "febuxostat",
+    "brandNames": [
+      "Uloric"
+    ],
+    "category": "Xanthine oxidase inhibitor (gout)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Febuxostat is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-febuxostat",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "varenicline",
+    "brandNames": [
+      "Chantix"
+    ],
+    "category": "Smoking cessation",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Varenicline is generally addressed with an initial grounding/observation period to confirm no adverse mood or neurologic effects. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-varenicline",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "nicotine",
+    "brandNames": [
+      "Nicoderm",
+      "Nicorette"
+    ],
+    "category": "Nicotine replacement",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Nicotine (Nicotine replacement) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-nicotine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "latanoprost",
+    "brandNames": [
+      "Xalatan"
+    ],
+    "category": "Prostaglandin analog (glaucoma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Prostaglandin analog (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-latanoprost",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "timolol (ophthalmic)",
+    "brandNames": [
+      "Timoptic"
+    ],
+    "category": "Beta blocker eye drop (glaucoma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Beta blocker eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-timolol-ophthalmic",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "brimonidine",
+    "brandNames": [
+      "Alphagan"
+    ],
+    "category": "Alpha-agonist eye drop (glaucoma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Alpha-agonist eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-brimonidine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "dorzolamide",
+    "brandNames": [
+      "Trusopt"
+    ],
+    "category": "Carbonic anhydrase inhibitor eye drop (glaucoma)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Carbonic anhydrase inhibitor eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "envelope": {
+      "code": "med-dorzolamide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "levetiracetam",
+    "brandNames": [
+      "Keppra"
+    ],
+    "category": "Anticonvulsant (seizure)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Levetiracetam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-levetiracetam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "lamotrigine",
+    "brandNames": [
+      "Lamictal"
+    ],
+    "category": "Anticonvulsant (seizure/mood)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Lamotrigine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "envelope": {
+      "code": "med-lamotrigine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "prednisone",
+    "brandNames": [
+      "Deltasone"
+    ],
+    "category": "Oral corticosteroid",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Short courses of oral corticosteroid are generally addressed as acceptable within dose limits noted in FAA guidance; the underlying condition is the primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-prednisone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "hydrocortisone",
+    "brandNames": [
+      "Cortef"
+    ],
+    "category": "Oral corticosteroid",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Oral corticosteroid within the dose context noted in FAA guidance; the underlying condition is the primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-hydrocortisone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "ethinyl estradiol/norethindrone",
+    "brandNames": [
+      "(combined oral contraceptive)"
+    ],
+    "category": "Oral contraceptive",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Oral contraceptives are generally addressed as acceptable. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-ethinyl-estradiol-norethindrone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "estradiol",
+    "brandNames": [
+      "Estrace",
+      "Climara"
+    ],
+    "category": "Estrogen (hormone replacement)",
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Estradiol (Estrogen (hormone replacement)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-estradiol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    }
+  },
+  {
+    "genericName": "testosterone",
+    "brandNames": [
+      "AndroGel",
+      "Depo-Testosterone"
+    ],
+    "category": "Androgen (replacement)",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "Testosterone is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "envelope": {
+      "code": "med-testosterone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
+      "reviewStatus": "draft"
+    },
+    "treatedConditionNote": "The reason for use and underlying condition are the FAA's primary interest."
+  }
+]

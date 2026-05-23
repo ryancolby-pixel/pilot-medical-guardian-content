@@ -1,0 +1,41 @@
+{
+  "contentVersion": "2026.0-beta-1",
+  "generatedAt": "2026-05-23T10:46:26Z",
+  "files": [
+    {
+      "filename": "ame_directory.json",
+      "size": 198407,
+      "checksum": "ef6e8112ae6e068e641d3a60e25025fe347236ffe2229240a06bc35c6d6d88e7"
+    },
+    {
+      "filename": "cert_durations.json",
+      "size": 4513,
+      "checksum": "e5d620956ce5412cadb3b883f72860054d3e2f8712e7079a0bfcf2ebc7afb948"
+    },
+    {
+      "filename": "item18.json",
+      "size": 10289,
+      "checksum": "b4052582b8f5d6dfdf779ca8b4cbab4aa709b0cd8e4f36dcdc3e39f2d35d2108"
+    },
+    {
+      "filename": "medications.json",
+      "size": 149740,
+      "checksum": "5e9fc0a56c9201e3d011648e950bb936e75a1e7adf2b2b33ed34640d8d3c97d3"
+    },
+    {
+      "filename": "si_conditions.json",
+      "size": 28853,
+      "checksum": "582547f6d06ae2427d0999065147be4ccb4d9295fd3defad2c28861ac81a5e00"
+    },
+    {
+      "filename": "si_requirements.json",
+      "size": 52411,
+      "checksum": "1f2e09d5a0d8a96d18728dd969506d92c323580e63c0cc143bff782dad6a5a2d"
+    },
+    {
+      "filename": "thresholds.json",
+      "size": 6501,
+      "checksum": "865ef1b891117186a25a82538f71a22894d52217c565f98abf927f0685735683"
+    }
+  ]
+}

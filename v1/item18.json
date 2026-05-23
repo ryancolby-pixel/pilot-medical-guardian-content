@@ -1,0 +1,277 @@
+[
+  {
+    "description": "Frequent or severe headaches",
+    "itemLetter": "a",
+    "envelope": {
+      "code": "item18-headaches",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Dizziness or fainting spell",
+    "itemLetter": "b",
+    "envelope": {
+      "code": "item18-dizziness",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Unconsciousness for any reason",
+    "itemLetter": "c",
+    "envelope": {
+      "code": "item18-unconscious",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Eye or vision trouble except glasses",
+    "itemLetter": "d",
+    "envelope": {
+      "code": "item18-vision",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Hay fever or allergy",
+    "itemLetter": "e",
+    "envelope": {
+      "code": "item18-allergy",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Asthma or lung disease",
+    "itemLetter": "f",
+    "envelope": {
+      "code": "item18-asthma",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Heart or vascular trouble",
+    "itemLetter": "g",
+    "envelope": {
+      "code": "item18-heart",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "High or low blood pressure",
+    "itemLetter": "h",
+    "envelope": {
+      "code": "item18-bp",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Stomach, liver, or intestinal trouble",
+    "itemLetter": "i",
+    "envelope": {
+      "code": "item18-gi",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Kidney stone or blood in urine",
+    "itemLetter": "j",
+    "envelope": {
+      "code": "item18-kidney",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Diabetes",
+    "itemLetter": "k",
+    "envelope": {
+      "code": "item18-diabetes",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Neurological disorders; epilepsy, seizures, stroke, paralysis, etc.",
+    "itemLetter": "l",
+    "envelope": {
+      "code": "item18-neuro",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Mental disorders of any sort; depression, anxiety, etc.",
+    "itemLetter": "m",
+    "envelope": {
+      "code": "item18-mental",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Substance dependence; or failed a drug test ever; or substance abuse or use of illegal substance in the last 2 years",
+    "itemLetter": "n",
+    "envelope": {
+      "code": "item18-substance",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Alcohol dependence or abuse",
+    "itemLetter": "o",
+    "envelope": {
+      "code": "item18-alcohol",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Suicide attempt",
+    "itemLetter": "p",
+    "envelope": {
+      "code": "item18-suicide",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Motion sickness requiring medication",
+    "itemLetter": "q",
+    "envelope": {
+      "code": "item18-motion-sickness",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Military medical discharge",
+    "itemLetter": "r",
+    "envelope": {
+      "code": "item18-military-discharge",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Medical rejection by military service",
+    "itemLetter": "s",
+    "envelope": {
+      "code": "item18-military-rejection",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Rejection for life or health insurance",
+    "itemLetter": "t",
+    "envelope": {
+      "code": "item18-insurance-rejection",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Admission to hospital",
+    "itemLetter": "u",
+    "envelope": {
+      "code": "item18-hospital",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Conviction and/or administrative action history",
+    "itemLetter": "v",
+    "envelope": {
+      "code": "item18-admin-action",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "History of nontraffic convictions",
+    "itemLetter": "w",
+    "envelope": {
+      "code": "item18-nontraffic-conviction",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Other illness, disability, or surgery",
+    "itemLetter": "x",
+    "envelope": {
+      "code": "item18-other",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  },
+  {
+    "description": "Medical disability benefits",
+    "itemLetter": "y",
+    "envelope": {
+      "code": "item18-disability-benefits",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-22T12:00:00Z",
+      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+    }
+  }
+]
