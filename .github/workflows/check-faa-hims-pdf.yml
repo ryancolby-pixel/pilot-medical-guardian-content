@@ -1,0 +1,97 @@
+name: Check FAA HIMS-AME PDF for reissue
+
+# Polls the FAA's public HIMS-trained AME PDF weekly. When the file changes
+# (FAA reissues, typically every couple of months), opens a PR updating the
+# tracked SHA — that PR is the maintainer's signal to re-parse the PDF and
+# refresh v1/ame_directory.json. Manual parse step for now; can be replaced
+# with end-to-end automation later.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # every Monday at 13:00 UTC (≈ 9 AM ET)
+  workflow_dispatch: {}    # also runnable on-demand from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  PDF_URL: https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf
+  TRACK_FILE: .faa-hims-pdf-sha
+  BRANCH_PREFIX: faa-hims-pdf
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download FAA HIMS-AME PDF
+        run: |
+          set -euo pipefail
+          curl -sS -L --fail --max-time 60 \
+            -A "pilot-medical-guardian-content/1.0 (+https://github.com/ryancolby-pixel/pilot-medical-guardian-content)" \
+            -o /tmp/hims.pdf "$PDF_URL"
+          ls -la /tmp/hims.pdf
+
+      - name: Compare SHA against tracked value
+        id: cmp
+        run: |
+          set -euo pipefail
+          NEW_SHA=$(shasum -a 256 /tmp/hims.pdf | awk '{print $1}')
+          OLD_SHA=$(cat "$TRACK_FILE" 2>/dev/null || echo "none")
+          echo "new_sha=$NEW_SHA"  >> "$GITHUB_OUTPUT"
+          echo "old_sha=$OLD_SHA"  >> "$GITHUB_OUTPUT"
+          if [ "$NEW_SHA" = "$OLD_SHA" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "✅ PDF unchanged (sha $NEW_SHA)"
+          else
+            echo "changed=true"  >> "$GITHUB_OUTPUT"
+            echo "ℹ️ PDF changed: old=$OLD_SHA  new=$NEW_SHA"
+          fi
+
+      - name: Open PR with new SHA
+        if: steps.cmp.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_SHA:  ${{ steps.cmp.outputs.new_sha }}
+          OLD_SHA:  ${{ steps.cmp.outputs.old_sha }}
+        run: |
+          set -euo pipefail
+          BRANCH="${BRANCH_PREFIX}-${NEW_SHA:0:8}"
+          git config user.name  "pmg-content-bot"
+          git config user.email "ryan.colby@me.com"
+
+          # If a PR is already open for this exact SHA, don't open another.
+          EXISTING=$(gh pr list --state open --head "$BRANCH" --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            echo "PR #$EXISTING already open for this SHA — skipping."
+            exit 0
+          fi
+
+          git checkout -b "$BRANCH"
+          echo "$NEW_SHA" > "$TRACK_FILE"
+          git add "$TRACK_FILE"
+          git commit -m "FAA HIMS-AME PDF reissued (sha ${NEW_SHA:0:8})"
+          git push -u origin "$BRANCH"
+
+          gh pr create \
+            --title "FAA HIMS-AME PDF reissued — re-parse needed (${NEW_SHA:0:8})" \
+            --body  "The FAA's public HIMS-trained AME PDF has changed.
+
+          - **Old SHA:** \`${OLD_SHA}\`
+          - **New SHA:** \`${NEW_SHA}\`
+          - **Source:** ${PDF_URL}
+
+          ### What to do
+          1. Download the new PDF from the link above.
+          2. Re-parse it into the directory entry format (\`v1/ame_directory.json\`).
+          3. Commit the regenerated \`v1/ame_directory.json\` to this branch.
+          4. Run \`CONTENT_VERSION=<next-version> python3 scripts/gen_manifest.py\` to refresh the manifest.
+          5. \`python3 scripts/validate.py\` will run in CI on push.
+          6. Merge — GitHub Pages republishes, the app picks it up on its next refresh.
+
+          (Re-parse is currently manual; future enhancement: automate the parser inside this workflow.)" \
+            --head "$BRANCH" \
+            --base main
