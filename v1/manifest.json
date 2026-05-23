@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026.0-beta-2",
-  "generatedAt": "2026-05-23T11:20:04Z",
+  "contentVersion": "2026-05-23",
+  "generatedAt": "2026-05-23T13:23:50Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -19,8 +19,8 @@
     },
     {
       "filename": "medications.json",
-      "size": 149740,
-      "checksum": "5e9fc0a56c9201e3d011648e950bb936e75a1e7adf2b2b33ed34640d8d3c97d3"
+      "size": 146733,
+      "checksum": "0fc5a71778e7657e6b87dcbbb9370dff13ba22180cc4c07b4047698bf298bceb"
     },
     {
       "filename": "si_conditions.json",
@@ -34,8 +34,8 @@
     },
     {
       "filename": "thresholds.json",
-      "size": 6501,
-      "checksum": "865ef1b891117186a25a82538f71a22894d52217c565f98abf927f0685735683"
+      "size": 6439,
+      "checksum": "454ad4fdac95cedb77f6a84289258efe19b0dda7531c53a7a382766afc338e22"
     }
   ]
 }
