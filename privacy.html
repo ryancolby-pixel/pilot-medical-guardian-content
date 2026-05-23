@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Pilot Medical Guardian</title>
+  <meta name="description" content="Privacy policy for Pilot Medical Guardian, a privacy-first iOS app for FAA medical certificate management.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #111418;
+      --muted: #5a6271;
+      --rule: #e3e7ee;
+      --accent: #0a64f4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1116;
+        --card: #181b22;
+        --text: #f0f2f6;
+        --muted: #9aa3b3;
+        --rule: #262a33;
+        --accent: #58a6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 28px 22px 80px; }
+    header {
+      display: flex; align-items: center; gap: 12px;
+      padding-bottom: 18px; border-bottom: 1px solid var(--rule);
+    }
+    header .mark {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: linear-gradient(135deg, #0a64f4, #2bb8d6);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 20px;
+    }
+    header h1 { margin: 0; font-size: 1.05rem; font-weight: 600; }
+    header .sub { color: var(--muted); font-size: 0.85rem; }
+    h2 { font-size: 1.8rem; margin: 28px 0 8px; line-height: 1.2; }
+    h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+    p { margin: 8px 0; color: var(--text); }
+    .lede {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 22px 0 12px;
+    }
+    .lede p { margin: 0; font-size: 1.02rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 14px 0;
+    }
+    .card h3 { margin-top: 0; }
+    .muted { color: var(--muted); font-size: 0.92rem; }
+    footer {
+      margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule);
+      color: var(--muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .meta { color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark" aria-hidden="true">✈︎</div>
+      <div>
+        <h1>Pilot Medical Guardian</h1>
+        <div class="sub">Privacy Policy</div>
+      </div>
+    </header>
+
+    <h2>Privacy Policy</h2>
+    <p class="meta">Effective May 23, 2026 · Beta version of the app</p>
+
+    <div class="lede">
+      <p><strong>Pilot Medical Guardian is built so that we — the developer — cannot see your health, disclosure, or Special Issuance data. This isn't a promise to behave; it's how the app is built.</strong></p>
+    </div>
+
+    <div class="card">
+      <h3>What we store, and where</h3>
+      <p>Your records — health readings, doctor visits, medications, medical history, Special Issuance profiles, documents, and certificates — are stored on your device and sync only through <strong>your own iCloud private database</strong>. We operate no server that holds this data and cannot query it.</p>
+    </div>
+
+    <div class="card">
+      <h3>Apple Health</h3>
+      <p>If you connect Apple Health, we request <strong>read-only</strong> access to the metric types you choose. We never write to Health, never use health data for advertising, and never send it to any server. It flows only: Apple Health → your device → your own iCloud.</p>
+    </div>
+
+    <div class="card">
+      <h3>Location</h3>
+      <p>If you tap "Use Current Location" in the AME Directory, your location is used <strong>only on your device</strong> to sort AMEs by distance. It is never stored or sent anywhere.</p>
+    </div>
+
+    <div class="card">
+      <h3>Documents you scan</h3>
+      <p>Scanned documents are turned into PDFs on your device, encrypted at rest, and synced only through your iCloud private database. On-device text recognition (OCR) never leaves your device.</p>
+    </div>
+
+    <div class="card">
+      <h3>FAA reference content</h3>
+      <p>The app downloads public FAA reference data (thresholds, medications, requirements, AME data) as <strong>anonymous static files</strong>. These requests carry no identifier and no health data — they look like any other file download. Nothing about you is ever sent back.</p>
+    </div>
+
+    <div class="card">
+      <h3>No tracking, no ads, no selling</h3>
+      <p>There is no analytics SDK on your health data, no advertising, and we never sell your data. If product analytics are ever added, they will be anonymous, opt-in, and will never include health content.</p>
+    </div>
+
+    <div class="card">
+      <h3>Your control</h3>
+      <p>You can archive or permanently delete any record, and <strong>"Erase All Data &amp; Start Over"</strong> removes everything from your device and iCloud. Because your data lives in your iCloud, it is also governed by your Apple account security.</p>
+    </div>
+
+    <div class="card">
+      <h3>Contact</h3>
+      <p>Questions about this policy or how the app handles data: <a href="mailto:ryan.colby@me.com">ryan.colby@me.com</a>.</p>
+    </div>
+
+    <p class="muted" style="margin-top: 22px;">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice.</p>
+
+    <footer>
+      <p>Pilot Medical Guardian · Operated by Ryan Colby · <a href="https://github.com/ryancolby-pixel/pilot-medical-guardian-content">Public content repository</a></p>
+      <p>This policy will be reviewed by a healthcare/aviation attorney before the app's public (non-beta) launch.</p>
+    </footer>
+  </div>
+</body>
+</html>
