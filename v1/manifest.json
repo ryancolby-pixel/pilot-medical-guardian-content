@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-05-27.2",
-  "generatedAt": "2026-05-27T19:24:43Z",
+  "contentVersion": "2026-05-27.3-aspirin-test",
+  "generatedAt": "2026-05-27T19:56:48Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -19,8 +19,8 @@
     },
     {
       "filename": "medications.json",
-      "size": 146767,
-      "checksum": "a1f58adad4d593584ff459445b64c22713b2c3f9d323f07256cd534fd3370339"
+      "size": 146765,
+      "checksum": "55df43d960e241361fbd7f318173d2cfa70b7dbb37a6b225296f10e0e4c52574"
     },
     {
       "filename": "si_conditions.json",
