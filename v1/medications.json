@@ -958,11 +958,12 @@
     }
   },
   {
-    "genericName": "aspirin lowdose",
+    "genericName": "aspirin (low-dose)",
     "brandNames": [
       "Bayer",
       "Ecotrin"
     ],
+    "medxpressName": "ASPIR-LOW",
     "category": "Antiplatelet",
     "faaStatus": "acceptable",
     "isCACI": false,
