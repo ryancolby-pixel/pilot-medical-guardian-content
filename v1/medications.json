@@ -958,7 +958,7 @@
     }
   },
   {
-    "genericName": "aspirin (low-dose)",
+    "genericName": "aspirin lowdose",
     "brandNames": [
       "Bayer",
       "Ecotrin"
@@ -970,7 +970,7 @@
     "envelope": {
       "code": "med-aspirin-low-dose",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-05-27T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/",
       "reviewStatus": "draft"
