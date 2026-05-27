@@ -630,6 +630,7 @@
     "brandNames": [
       "Adderall"
     ],
+    "medxpressName": "ADDERALL",
     "category": "CNS stimulant (ADHD)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
@@ -650,6 +651,7 @@
       "Norco",
       "Lortab"
     ],
+    "medxpressName": "VICODIN",
     "category": "Opioid analgesic",
     "faaStatus": "notAcceptable",
     "isCACI": false,
@@ -887,6 +889,7 @@
       "Flovent",
       "Flonase"
     ],
+    "medxpressName": "FLUTICASONE",
     "category": "Inhaled corticosteroid (asthma / rhinitis)",
     "faaStatus": "conditional",
     "isCACI": true,
@@ -1057,6 +1060,7 @@
       "Dyazide",
       "Maxzide"
     ],
+    "medxpressName": "DYAZIDE",
     "category": "Combination diuretic (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
@@ -2059,6 +2063,7 @@
     "brandNames": [
       "Augmentin"
     ],
+    "medxpressName": "AUGMENTIN",
     "category": "Antibiotic",
     "faaStatus": "conditional",
     "isCACI": false,
@@ -2205,6 +2210,7 @@
       "Bactrim",
       "Septra"
     ],
+    "medxpressName": "BACTRIM",
     "category": "Antibiotic",
     "faaStatus": "conditional",
     "isCACI": false,
@@ -2349,6 +2355,7 @@
     "brandNames": [
       "Advair"
     ],
+    "medxpressName": "ADVAIR",
     "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
     "faaStatus": "conditional",
     "isCACI": true,
@@ -2367,6 +2374,7 @@
     "brandNames": [
       "Symbicort"
     ],
+    "medxpressName": "SYMBICORT",
     "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
     "faaStatus": "conditional",
     "isCACI": true,
@@ -2403,6 +2411,7 @@
     "brandNames": [
       "Nasonex"
     ],
+    "medxpressName": "MOMETASONE",
     "category": "Intranasal corticosteroid (rhinitis)",
     "faaStatus": "acceptable",
     "isCACI": false,
@@ -3130,6 +3139,7 @@
     "brandNames": [
       "Timoptic"
     ],
+    "medxpressName": "TIMOLOL",
     "category": "Beta blocker eye drop (glaucoma)",
     "faaStatus": "conditional",
     "isCACI": true,
