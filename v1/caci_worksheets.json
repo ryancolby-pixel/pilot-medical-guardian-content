@@ -1,25 +1,658 @@
 [
   {
-    "envelope" : {
-      "code" : "caci-hypertension",
-      "contentVersion" : "2026.0-sample",
-      "lastVerified" : "2026-05-28T00:00:00Z",
-      "sourceCitation" : "FAA Guide for AMEs — CACI Hypertension Worksheet (updated 04/13/2022)",
-      "sourceURL" : "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+    "envelope": {
+      "code": "caci-arthritis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ArthritisDispositionTable.pdf"
     },
-    "conditionName" : "Hypertension",
-    "item18Codes" : [
+    "conditionName": "Arthritis",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "arthritis",
+      "osteoarthritis",
+      "rheumatoid"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "ARTHRITIS\n                                                All Classes\n                                           (Updated 04/29/2026)\n\n  DISEASE/CONDITION                       EVALUATION DATA                             DISPOSITION\nA. Osteoarthritis              •   Well controlled, no persistent daily\n                                   symptoms;                                               ISSUE\n                               •   No functional limitations; and\n                               •   Treatment is NSAIDS or anti-inflammatory        Summarize this\n                                   medication only.                                History, annotate\n                                                                                   Block 60.\n\nB. Osteoarthritis on     See CACI worksheet                                         Follow the CACI -\n   additional medication                                                            Arthritis Worksheet\n                         This will require a current, detailed clinical\n   OR                    progress note.                                             Annotate Block 60.\n\n Autoimmune arthritis      and Hydroxychloroquine (HCQ)/ Chloroquine\n                           (CQ) Status Summary (Plaquenil/Aralen) if taking\n                           plaquenil.\n\n C. All others              Submit the following to the FAA for review:\n    • Complications*;                                                                     DEFER\n    • Symptomatic; or           A current, detailed Clinical Progress Note\n    • Underlying                generated from a clinic visit with the treating     Submit the\n         cause with             physician no more than 90 days before the           information to the\n         complications          AME exam. It must include a detailed                FAA for a possible\n         or systemic            summary of the history of the condition;            Special Issuance.\n         disease, etc.          current medications, dosage, and side effects\n                                (if any); physical exam findings; results of any    Follow up Issuance\n                                testing performed; diagnosis; assessment;           Will be per the\n                                plan (prognosis); and follow-up.                    airman’s\n                                 It should note if there are any functional         authorization letter.\n                                limitations.\n                                Operative notes (if applicable); and\n                                Copies of imaging reports and lab (if already\n                                performed by treating physician)\n\n\n*Complications include:\n  • Joint deformity or decreased range of motion or strength that would impair flight duties\n  • Systemic disease",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/ArthritisDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-asthma",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Asthma Worksheet (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
+    },
+    "conditionName": "Asthma",
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "matchKeywords": [
+      "asthma"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed\nClinical Progress Note generated from a clinic visit with the treating physician or specialist no\nmore than 90 days prior to the AME exam. If the applicant meets ALL the acceptable\ncertification criteria listed below, the AME can issue. Applicants for first- or second- class must\nprovide this information annually; applicants for third-class must provide the information with\neach required exam.",
+    "documentsRequired": "AME MUST REVIEW                              ACCEPTABLE CERTIFICATION CRITERIA\n\nTreating physician finds the condition    [ ] Yes\nstable on current regimen and no\nchanges recommended.\n\nSymptoms: Stable and well-controlled      [ ] Yes for all of the following:\n(either on or off medication)              - Frequency of symptoms - no more than 2 days per week\n                                           - Use of inhaled short-acting beta agonist (rescue inhaler) -\n                                               no more than 2 times per week\n                                           - Use of oral corticosteroids for exacerbations - no more than\n                                               2 times per year\n                                           - In the last year:\n                                              o No in-patient hospitalizations\n                                              o No more than 2 outpatient clinic/urgent care visits for\n                                                   exacerbations (with symptoms fully resolved).\nAcceptable Medications                    [ ] One or more of the following\n                                           - Inhaled long-acting beta agonist\n                                           - Inhaled short-acting beta agonist (e.g., albuterol)\n                                           - Inhaled corticosteroid\n                                           - leukotriene receptor antagonist, (e.g. montelukast [Singulair])\n\nNOT acceptable                            Note: A short course of oral or IM steroids during an exacerbation is\nfor CACI:                                 acceptable. The AME must caution airman not to fly until course of\nMonoclonal antibodies                     oral steroids is completed and airman is symptom free.\n\nSpirometry (previously PFT)               [ ] Current within last 90 days\nSpirometry is not required if the only    [ ] FEV1 and FVC are both equal to or greater than 80%\ntreatment is PRN use on one or two days\n                                          predicted before bronchodilators.\na week of a short-acting beta agonist\n(e.g., albuterol).\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified asthma. (Documents do not need to be submitted to the FAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified asthma.\n\n[ ] NOT CACI qualified asthma. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-bladder-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Bladder Cancer Worksheet (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf"
+    },
+    "conditionName": "Bladder Cancer",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "bladder cancer"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\nProgress Note generated from a clinic visit with the treating physician or specialist no more than 90\ndays prior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed\nbelow, the AME can issue. Applicants for first- or second-class must provide this information annually;\napplicants for third-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                                   ACCEPTABLE CERTIFICATION\n                                                                    CRITERIA\n\n  The treating physician’s current, detailed Clinical               [ ] Yes\n  Progress Note verifies:\n\n     •   Condition is stable;\n     •   If recurrence, there has been NO spread outside\n         the bladder;\n     •   There is no current or historic evidence of any\n         metastatic disease or muscle invasion;\n     •   Active treatment is completed\n         (chemotherapy/radiation, etc.) and no new\n         treatment is recommended at this time; and/or\n     •   If surgery has been performed, the airman is off\n         pain medication(s), has made a full recovery, and\n         has been released by the surgeon.\n\n  Symptoms                                                          [ ] None\n\n  Current treatment                                                 [ ] None or maintenance intravesical\n                                                                    BCG or mitomycin.\n  Notes: If it has been 5 or more years since the airman has        (If these medications are used, the\n  had any treatment for this condition, with no history of          airman should not fly until 24 hours\n  metastatic disease, and no reoccurrence, CACI is not              post treatment and asymptomatic.)\n  required. Note this in Block 60. (See disposition table.)\n\n  If the airman is currently on chemotherapy or radiation\n  treatment, defer the exam. (See disposition table.\n\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified bladder cancer. (Documents do not need to be submitted to the FAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified bladder cancer.\n\n[ ] NOT CACI qualified bladder cancer. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-breast-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Breast Cancer Worksheet (updated 09/27/2017)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf"
+    },
+    "conditionName": "Breast Cancer",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "breast cancer"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "BREAST CANCER\n                                All Classes\n                            (Updated 09/27/2017)\n\n DISEASE/CONDITION          EVALUATION DATA                      DISPOSITION\n A.                     If no recurrence, current\n Non metastatic –       problems, or ongoing                ISSUE\n treatment completed    treatment:                          Summarize this\n5 or more years ago                                         history in Block 60.\n                        Continued hormone treatment\n                        is allowed (tamoxifen,\n                        aromatase inhibitor)\n\n\n B.                     See CACI worksheet                  Follow the CACI –\n Non metastatic –                                           Breast Cancer\n treatment completed                                        Worksheet.\nLess than 5 years ago                                       Annotate Block 60.\n\n\nC.                      Submit the following to the\nAll others              FAA for review:                     DEFER\n   Chemotherapy used       Status report or treatment       Submit the information\n   Lymph node spread       records from treating            to the FAA for a\n   Metastatic disease      oncologist that provides         possible Special\n   Stage IA or higher      the following information:       Issuance.\n                               o   Initial staging,\n                               o   Disease course           Follow up Issuance Will\n                                   including                be per the airman’s\n                                   recurrence(s),           authorization letter.\n                               o   Location(s) of\n                                   metastatic disease (if\n                                   any),\n                               o   Treatments used,\n                               o   How long the\n                                   condition has been\n                                   stable,\n                               o   If any upcoming\n                                   treatment change is\n                                   planned or expected\n                                   and prognosis;\n\n                           Medication list. Dates\n                           started and stopped.\n\nDISEASE/CONDITION        EVALUATION DATA                  DISPOSITION\n                        Description of side effects,\n                        if any;\n                        Operative notes and\n                        discharge summary\n                         (if applicable);\n                        Copies of lab including\n                        pathology reports, tumor\n                        markers (if already\n                        performed by treating\n                        physician);\n                    Copies of imaging such as\n                    mammogram, MRI/CT or\n                    PET scan reports that have\n                    already been performed.\n\n                    (In some cases, the actual CDs will\n                    be required in DICOM format for\n                    FAA review).",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-c-itp-chronic-immune-thrombocytopenia",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI C-ITP (Chronic Immune Thrombocytopenia) Worksheet (updated 09/25/2019)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ThrombocytopeniaDispositionTable.pdf"
+    },
+    "conditionName": "C-ITP (Chronic Immune Thrombocytopenia)",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "thrombocytopenia",
+      "c-itp",
+      "itp",
+      "immune thrombocytopenia"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "THROMBOCYTOPENIA\n                                 (Platelet count < 150,000)\n                                         All Classes\n                                     (Updated 09/25/2019)\n\n\n  DISEASE/CONDITION                 EVALUATION DATA                        DISPOSITION\nA. 5 or more years ago      No symptoms or current problems. No\nMost recent                 ongoing treatment OR surveillance           ISSUE\nevent/diagnosis             needed.                                     Summarize this\n                                                                        history in Block 60.\n\nB. Less than 5 years           • Treating physician report verifies      ISSUE\nago                              condition has resolved or, if due       Summarize this\nDue to:                          to a medication, it has been            history in Block 60\nDrugs (including HIT*),          stopped with no plan to re-start.\nInfection (now resolved),      • No symptoms or current\nPregnancy, etc.                  problems.\n                               • No ongoing treatment OR\n*Heparin induced                 surveillance needed.\nthrombocytopenia\n\n                            Note: If an underlying condition is\n                            identified, see that section. Example:\n                            Thrombocytopenia due to\n                            chemotherapy, malignancy,\n                            autoimmune disorders, or alcohol use.\nC. Less than 5 years         See CACI worksheet                         Follow the CACI –\nago                                                                     Chronic Immune\nImmune                       Note: CACI is for Chronic ITP only.        Thrombocytopenia\nthrombocytopenia (ITP)       All other causes of thrombocytopenia,      (cITP) Worksheet\n                             See item “D. All Others” below.\n                                                                        Annotate Block 60.\n\nD. All others                Submit the following to the FAA for\n                             review:                                     DEFER\n                                 Current status report from the         Submit the\n                                 treating Hematologist with             information to the\n                                 diagnosis, treatment plan and          FAA for a possible\n                                 prognosis;                             Special Issuance.\n                                 If an underlying cause is\n                                 identified, the status report should   Follow up Issuance\n                                                                        will be per the\n                                 include diagnosis, treatment plan,\n                                                                        airman’s\n                                 prognosis, and adherence to\n                                                                        authorization letter.\n                                 treatment for this condition;\n                                 List of medications and side\n                                 effects, if any;\n                                 Operative notes and discharge\n                                 summary (if applicable);\n                                 Copies of imaging reports or other\n                                 lab (if already performed by\n                                 treating hematologist); and\n                                 CBC within the past 90 days.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/ThrombocytopeniaDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-carotid-vertebral-artery-stenosis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
+    },
+    "conditionName": "Carotid / Vertebral Artery Stenosis",
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "matchKeywords": [
+      "carotid",
+      "vertebral artery",
+      "stenosis"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current,\ndetailed Clinical Progress Note generated from a clinic visit with the treating physician or\nspecialist no more than 90 days prior to the AME exam. If the applicant meets ALL the\nacceptable certification criteria listed below, the AME can issue. Applicants for first- or\nsecond- class must provide this information annually; applicants for third-class must provide\nthe information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                           ACCEPTABLE CERTIFICATION CRITERIA\n\n A current, detailed Clinical Progress     [ ] Condition is stable with NO symptoms.\n Note from the treating physician\n performed no more than 90 days prior      AND\n to AME exam finds:\n                                           [ ] There has been NO clinically significant increase in stenosis\n                                               that would prompt a change in treatment or surveillance\n\n\n                                           NOTE: History of stroke or TIA, are not CACI. See\n                                                  corresponding page.\n Causes                                    [ ] Carotid / Vertebral Artery Stenosis\n                                           OR\n                                           [ ] Carotid / Vertebral Artery Stenosis surveillance 2 or more\n                                           years AFTER surgery to correct stenosis (carotid\n                                           endarterectomy, stent, etc.)\n\n Imaging                                   [ ] 79% or less on both sides (right and left)\n\n Carotid ultrasound, CT Angiogram          AND\n (CTA), Magnetic resonance\n angiography (MRA), or angiogram           [ ] performed within the previous ONE YEAR\n\n Medications for condition (any            [ ] None\n combination of the following)             [ ] ASA (aspirin)\n                                           [ ] Plavix or Brilinta (ASA allowed in combination)\n\n                                           Note: DOAC/NOAC/coumadin do not qualify for CACI, see\n                                           Special Issuance guidelines, row C\n\n\nAME MUST NOTE in Block 60 one of the following:\n[ ] CACI qualified Carotid/Vertebral Artery Stenosis. (Documents do not need to be submitted to the FAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified Carotid /Vertebral Artery Stenosis.\n\n[ ] NOT CACI qualified Carotid/Vertebral Artery Stenosis. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-chronic-kidney-disease",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Chronic Kidney Disease Worksheet (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf"
+    },
+    "conditionName": "Chronic Kidney Disease",
+    "item18Codes": [
+      "item18-kidney"
+    ],
+    "matchKeywords": [
+      "chronic kidney disease",
+      "ckd",
+      "renal insufficiency"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current,\ndetailed Clinical Progress Note generated from a clinic visit with the treating physician\nor specialist no more than 90 days prior to the AME exam. If the applicant meets\nALL the acceptable certification criteria listed below, the AME can issue. Applicants\nfor first- or second-class must provide this information annually; applicants for third-\nclass must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                               ACCEPTABLE CERTIFICATION\n                                                               CRITERIA\n The treating physician’s current, detailed Clinical           [ ] Yes\n Progress Note verifies:\n\n    •   Is asymptomatic and stable;\n    •   Has not developed any new conditions or\n        complications that would affect renal function;\n    •   Has 2 functioning kidneys;\n    •   Any underlying conditions (such as diabetes,\n        HTN, glomerulonephritis, PKD, or chronic\n        obstruction) are well controlled; and\n    •   Dialysis or transplant is not recommended or\n        anticipated at this time.\n\n  eGFR is 35 or higher                                         [ ] Yes\n  (Most recent value, must be within the last six (6)\n  months.)\n  Albumin on urine dipstick is trace or negative               [ ] Yes\n  OR albumin creatinine ratio (ACR) is 29 or less\n\n  Hemoglobin is at least 10 gm/dL AND hematocrit is            [ ] Yes\n  at least 30%\n\n  Current treatment                                            [ ] Allowed HTN medication\n\n\n AME MUST NOTE in Block 60 one of the following:\n\n [ ] CACI qualified Chronic Kidney Disease.\n\n [ ] Has current OR previous SI/AASI but now CACI qualified Chronic Kidney Disease.\n\n [ ] NOT CACI qualified Chronic Kidney Disease. I have deferred. (Submit\n supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL) Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CLL_SLL_dispo_table.pdf"
+    },
+    "conditionName": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "cll",
+      "chronic lymphocytic leukemia",
+      "sll",
+      "small lymphocytic lymphoma"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "CHRONIC LYMPHOCYTIC LEUKEMIA (CLL)/\n                         SMALL LYMPHOCYTIC LYMPHOMA (SLL)\n                                        All Classes\n                                        (05/31/2023)\n\n\n    DISEASE/CONDITION                    EVALUATION DATA                       DISPOSITION\nA.                              See the CACI - Chronic Lymphocytic\nRai stage 0 – 1                 Leukemia (CLL)/ Small Lymphocytic                 ISSUE\n                                Lymphoma (SLL) Worksheet.\nAND/OR                                                                             Annotate\n                                This requires a current, detailed               (elements or\nBinet stage A                   Clinical Progress Note from the treating         findings) in\n                                oncologist and lab.                                Item 60.\nFollowed by oncology\nfor 5 or more years             If the pilot meets all CACI worksheet           Annotate the\n                                criteria and is otherwise qualified             correct CACI\n AND\n                                                                                 statement in\n   • Asymptomatic with no\n                                                                             Block 60 and keep\n     evidence of active\n                                                                                 the required\n     disease;\n                                                                                  supporting\n   • Treated with                                                            information on file.\n     observation only\n   • Age 40 or older at time\n     of diagnosis\n\nB.                              Submit the following:\n                                                                                  DEFER\nRai stage 0 – 2                 1. A CLL/SLL Status Summary (to\n                                   expedite case processing);                    Submit the\nAND/OR                                                                       information to the\n                                2. A current, detailed Clinical Progress     FAA for a possible\nBinet stage A or B                 Note generated from a clinic visit with   Special Issuance\n                                   a board-certified ONCOLOGIST no\nAND                                more than 90 days before the AME\n                                                                                   Annotate\n                                   exam. It must include:\nFollowed by oncology                                                            (elements or\n                                      • A detailed summary of the\nfor less than 5 years                                                            findings) in\n                                          history of the condition;\n                                                                                   Item 60.\n                                      • Current medications, dosage,\nAND                                       and side effects (if any);\n  •      Asymptomatic with no         • Physical exam findings;\n         evidence of active           • Results of any testing\n         disease; and                     performed;\n     •   Treated with                 • Diagnosis;\n         observation only             • Assessment and plan;\n                                      • Prognosis based on Rai/Binet\n                                          stage and other clinically\n                                          indicated markers; and\n                                      • Follow-up;\n\n     DISEASE/CONDITION                    EVALUATION DATA                    DISPOSITION\n                                 3. It must specifically include\n                                    performance status, disease staging,\n                                    and treatment plan (including\n                                    observation);\n\n                                 4. Lab performed no more than 90 days\n                                    before the AME exam to include:\n                                       • CBC\n                                       • Beta-2 microglobulin;\n\n                                 5. Flow cytometry; and\n\n                                 6. Any other testing already performed\n                                    or deemed clinically necessary by the\n                                    treating physician.\n\nC. All others                    Submit the following:\n                                                                                DEFER\nRai stage 3 or 4                 1. ALL information in Row B\n                                                                                Submit the\nAND/OR                                                                      information to the\n                                                                            FAA for a possible\nBinet stage C                                                               Special Issuance\n\nOR\n                                                                                 Annotate\nFollowed by oncology                                                          (elements or\nfor less than 5 years                                                          findings) in\n                                                                                 Item 60.\nOR\n     •   Active disease or\n         symptomatic;\n     •   Relapsed disease; or\n     •   Treated with targeted\n         therapy and/or\n         chemotherapy\n\nNote: Rows B and C require the same initial evaluation data. Row B may qualify for\nAASI consideration after follow-up.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CLL_SLL_dispo_table.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-colitis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+    },
+    "conditionName": "Colitis",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "colitis",
+      "ulcerative colitis",
+      "crohn"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\nProgress Note generated from a clinic visit with the treating physician or specialist no more than 90 days\nprior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the\nAME can issue. Applicants for first- or second-class must provide this information annually; applicants for\nthird-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                               ACCEPTABLE CERTIFICATION CRITERIA\n\n  A current, detailed Clinical   [ ] Condition is stable with no effects that would interfere with flight duties,\n  Progress Note from the             AND\n  treating physician             [ ] No surgery for the condition in the last 6 (six) weeks.\n  Symptoms                       [ ] None or mild diarrhea (less than 4 bowel movements/day) with or without\n                                     mild abdominal pain/cramping AND\n                                 [ ] No severe abdominal symptoms or fatigue which limits activity.\n  Cause of Colitis               [ ] Crohn’s disease, ulcerative colitis, microscopic colitis, or irritable bowel\n                                    syndrome\n                                 Any other causes require an FAA decision.\n  Medications for condition      [ ] One or more of the following:\n                                     •   Guanylate Cyclase-C (GC-C) Agonist\n                                         • linaclotide(Linzess), plecanatide (Trulance)\n                                     •   Sodium/Hydrogen Exchanger 3 Inhibitor\n                                         • tenapanor (Ibsrela)\n                                     •   Steroids\n  KEY:                                    Oral formulations prednisone 20 mg/day equivalent or less (see steroid\n                                             conversion calculator)\n  Interleukin Inhibitors (IL)             Oral budesonide 9mg or less\n  Phosphodiesterase-4                     Steroid foams or enemas/ budesonide enema\n  Enzyme Inhibitor (PDE4)            •   azathioprine (Imuran)\n                                     •   hyoscyamine - use 1-2 times a week with no side effects and no-fly 48 hours\n  Tumor necrosis factor                  after use\n  inhibitors (TNF)                   •   loperamide less than or equal to 16 mg a day and no side effects\n                                     •   mercaptopurine (6-MP)\n  Selective Adhesion-                •   mesalamine (Asacol, Pentasa, Lialda)\n  Molecule Inhibitor (SAM)           •   methotrexate (Trexall)\n                                     •   sulfasalazine (Azulfidine)\n                                     •   Any single medication listed below after a 2-week ground trial and:\n                                          No post-dose observation time:\n                                                o JAK: tofacitinib (Xeljanz) and upadacitinib (Rinvoq)\n                                          4-hour post-dose observation time:\n                                                o TNF: adalimumab (Humira and all biosimilars),certolizumab\n                                                    (Cimzia), golimumab (Simponi)\n                                                o IL: guselkumab (Tremfya), mirikizumab (Omvoh), risankizumab\n                                                    (Skyrizi), ustekinumab (Stelara)\n                                                o SAM: vedolizumab (Entyvio)\n                                          24-hour post-dose observation time:\n                                                o TNF: infliximab (Inflectra, Remicade, Renflexis)\n\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified colitis. (Documents do not need to be submitted to the FAA.)\n[ ] Has current OR previous SI/AASI but now CACI qualified colitis.\n[ ] NOT CACI qualified. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-colon-cancer-colorectal-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Colon Cancer / Colorectal Cancer Worksheet (updated 02/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ColonCancerDispositionTable.pdf"
+    },
+    "conditionName": "Colon Cancer / Colorectal Cancer",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "colon cancer",
+      "colorectal cancer",
+      "rectal cancer"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "COLON CANCER/ COLORECTAL CANCER\n                                             All Classes\n                                          (Updated 02/25/2026)\n\n DISEASE/CONDITION                       EVALUATION DATA                           DISPOSITION\nA.                               If no recurrence or ongoing treatment:\nNon metastatic -                                                               ISSUE\ntreatment completed                                                            Summarize this history\n5 or more years ago                                                            in Block 60.\n\n B.                               Review current, detailed Clinical\n Pedunculated                     Progress Note.                               ISSUE\n cancerous polyp                  If it shows:                                 Summarize this\n (Adenocarcinoma)                          • Local lesion only (TNM            history in Block 60.\n removed by colonoscopy                        stage 0 or I);\n Less than 5 years ago                     • Complete resection with no\n                                               additional treatment\n                                               needed;\n                                           • Follow up is annual or less\n                                               frequent colonoscopy;\n                                           • No clinical concerns.\n C.                                                                           Follow the CACI-Colon\n Non metastatic and no High-     Follow CACI worksheet.                       Cancer/ Colorectal\n Risk features*                                                               Cancer Worksheet\n\nTreatment completed                                                           Note in Block 60\nLess than 5 years ago\n\n D.                               Submit the following to the FAA for\n HIGH RISK features*              review:                                      DEFER\n                                          Status report or treatment\n Or                                       records from treating oncologist     Submit the information\n                                          that provide the following           to the FAA for a possible\n Metastatic disease                       information:                         Special Issuance.\n (Refers to distant metastatic                 o Initial staging;\n disease such as: lung, liver,                 o Disease course\n lymph nodes, peritoneum,                          including recurrence(s);    Follow-up Special\n brain.)                                       o Location(s) of                Issuance –\n                                                   metastatic disease (if      Will be per the airman’s\n                                                   any);                       authorization letter\n                                               o Treatments used;\n                                               o How long the condition\n                                                   has been stable; and\n                                               o If any upcoming\n                                                   treatment change is\n                                                   planned or expected\n                                                   and prognosis.\n                                          Medication list. Dates started\n                                          and stopped. Description of\n                                          side effects.\n\n   DISEASE/CONDITION                        EVALUATION DATA                          DISPOSITION\n                                             Treatment records including\n                                             clinic notes.\n                                             Operative notes and discharge\n                                             summary, if applicable.\n                                             Colonoscopy reports.\n                                             Pathology reports.\n                                             Results of MRI/CT or PET scan\n                                             reports that have already been\n                                             performed (In some cases, the\n                                             actual CDs will be required in\n                                             DICOM format for FAA review.)\n                                             Lab reports.\n                                                  o CBC and CEA\n                                                      performed within\n                                                      the last 90 days;\n                                                  o Previous tumor marker\n                                                      lab results (such as\n                                                      CEA).\n\n\n *Notes: High-Risk features for FAA purposes include the following. These DO NOT CACI qualify:\n\n     •   CEA increase or CEA did not decrease with colectomy;\n     •   Chemotherapy ever (including neoadjuvant);\n     •   Familial Adenomatous Polyposis (FAP);\n     •   High risk pathology per the treating oncologist;\n     •   Incomplete resection or positive margins;\n     •   Lynch syndrome;\n     •   Metastatic disease (Refers to distant metastatic disease such as: lung, liver, lymph nodes,\n         peritoneum, brain)\n     •   Pathology of any type other than adenoma (ex: lymphoma, GIST, carcinoid)\n     •   Radiation therapy;\n     •   Recurrence; and or\n     •   Sessile polyp with invasive cancer surgically treated only, no additional chemo/radiation.\n\nAn applicant with an ileostomy or colostomy may also receive FAA consideration. A report is necessary\nto confirm that the applicant has fully recovered from the surgery and is completely asymptomatic.\n\nIn the case of a history of bowel obstruction, a report on the cause and present status of the condition\nmust be obtained from the treating physician.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/ColonCancerDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-eosinophilic-esophagitis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Eosinophilic Esophagitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Eosinophilic_Esophagitis.pdf"
+    },
+    "conditionName": "Eosinophilic Esophagitis",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "eosinophilic esophagitis",
+      "eoe"
+    ],
+    "eligibilityCriteria": "CACI – Eosinophilic Esophagitis\n                                             (Updated 04/29/2026)\n\n\nTo determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\nProgress Note generated from a clinic visit with the treating physician or specialist no more than 90\ndays prior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed\nbelow, the Examiner can issue. Applicants for first or second- class must provide this information\nannually; applicants for third-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                            ACCEPTABLE CERTIFICATION\n                                                                    CRITERIA\n Treating physician finds the individual is                [ ] Yes\n compliant with treatment, condition is well-\n controlled, and no medication side-effects.\n\n\n Documentation of the most recent endoscopy                [ ] Yes\n with biopsy, performed within a timeframe\n consistent with the treating gastroenterologist’s\n recommended surveillance interval, shows:\n\n Evidence of histologic remission (less than 15\n eos/hpf) and no evidence of fibrostenotic disease,\n (no esophageal rings, no strictures, and no\n narrow-caliber esophagus.)\n\n NO history of food impaction:                             [ ] Yes\n   • In the last 12 months OR\n   • While on treatment\n\n Treated with one or more of the following:                [ ] Yes\n\n     •   Proton pump inhibitor\n     •   Topical or oral steroids that do not exceed\n         20 mg prednisone per day\n     •   dupilumab (Dupixent) (requires 4-hour\n         post dose observation/no-fly)\n\n\n AME MUST NOTE in Block 60 one of the following:\n\n [ ] CACI qualified Eosinophilic Esophagitis.\n\n [ ] Has current OR previous SI/AASI but now CACI qualified Eosinophilic Esophagitis.\n\n [ ] NOT CACI qualified Eosinophilic Esophagitis. I have deferred. (Submit supporting\n documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_Eosinophilic_Esophagitis.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-essential-tremor",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Essential Tremor Worksheet (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Tremor.pdf"
+    },
+    "conditionName": "Essential Tremor",
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "matchKeywords": [
+      "essential tremor",
+      "tremor"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "Guide for Aviation Medical Examiners – Version 01/25/2023\n\n\n                                                    Tremor\n                                                   All Classes\n                                             (Updated 01/25/2023)\n\n  DISEASE/CONDITION                        EVALUATION DATA                              DISPOSITION\nA. Physiologic tremor             If the AME can determine the pilot has\n                                  no symptoms that would interfere with                    ISSUE\n   •   Not requiring              flight duties:\n       medication                                                                       Annotate this\n   •   Not progressing                                                                  information in\n   •   No functional                                                                       Block 60\n       limitations\n\nNote: This is not a disease. It\ncan be a normal physiological\nfinding for the situation.\n\nB. Essential Tremor               Follow the CACI – Essential Tremor\nTreated with an acceptable        Worksheet.                                                ISSUE\nmedication.                                                                              with no time\n                                  This requires a current, detailed Clinical              limitation\n                                  Progress Note from the treating\n                                  physician.                                         Annotate the\n                                                                                     correct CACI\nNote: Previous term was           Acceptable medication for CACI is                  statement in\n“Benign Essential Tremor”         NONE or a beta-blocker.                            Block 60 and\n                                  (All others go to Row C).                        keep the required\n                                                                                      supporting\n                                                                                      information\n                                  If the pilot meets all CACI worksheet                  on file.\n                                  criteria and is otherwise qualified:\n\nC. All others                  Submit the following to the FAA for\n                               review:                                             DEFER\nThe diagnosis is suspect or        1. A current, detailed neurological\nuncertain;                             evaluation that                             Submit the\n                                       meets FAA Specifications for                information to the\nThe individual is dependent            Neurologic Evaluation generated             FAA for a possible\non medication to be functional         from a clinic visit with the                Special Issuance\nor requires a medication               treating neurologist no more\nchange;                                than 90 days before the AME                 Annotate elements\n                                       exam.                                       or findings in Block\nAssistive devices (such as                                                         60.\nweighted gloves, utensils) are     2. MRI and/or CT of the brain (the\nused;                                  most recent test).\n\nCondition is clinically\nuncontrolled or disabling                      •    Submit the interpretive\n(limits any day-to-day function                     report on paper and\nsuch as holding cup,                                imaging on CD in DICOM\nhandwriting, flipping switches,                     readable format (there\netc.); and/or                                       must be a file named\n                                                    'DICOMDIR' in the root\n\n                            Guide for Aviation Medical Examiners – Version 01/25/2023\n\n\n   DISEASE/CONDITION                       EVALUATION DATA                              DISPOSITION\n dependent on medication;                          directory of the CD-\n                                                   ROM). Please verify the\n Note: Most medication to                          CD will display the\n treat tremor is not acceptable                    images before\n (e.g., gabapentin, mysoline                       sending. You may wish\n [primadone]).                                     to retain a copy of all\n                                                   films as a safeguard if\n                                                   lost in the mail.\n                                      3. Electroencephalogram\n                                         (EEG) performed no more\n                                         than 12 months before\n                                         the AME exam. It must be\n                                         sleep-deprived EEG: awake,\n                                         asleep, and with provocation\n                                         (hyperventilation, photic/strobe\n                                         light).\n                                             • Include any previous\n                                                 EEG(s) available for\n                                                 comparison.\n                                               •   Submit BOTH the final\n                                                   interpretive report(s) and\n                                                   the actual tracings (ALL\n                                                   pages) for any EEGs on\n                                                   CD.\n                                               •   The CDs of EEG\n                                                   recordings must have\n                                                   proprietary opening\n                                                   software that is\n                                                   compatible with Windows\n                                                   10.\n                                      4. Other testing already\n                                         performed the treating physician\n                                         for this condition\n\n\nNote: If the tremor is due to a specific condition (e.g., Parkinson’s disease, multiple sclerosis,\nstroke, traumatic brain injury, etc.) - see that section.\n\nIf a deep brain stimulator (DBS) is in place - see that section.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Tremor.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-glaucoma",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Glaucoma Worksheet (updated 04/13/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
+    },
+    "conditionName": "Glaucoma",
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "matchKeywords": [
+      "glaucoma"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\n Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days\n prior to the AME exam.If the applicant meets ALL the acceptable certification criteria listed below, the\n AME can issue. Applicants for first- or second- class must provide this information annually; applicants for\n third-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                       ACCEPTABLE CERTIFICATION CRITERIA\n\nTreating ophthalmologist finds the          [ ] Yes\ncondition stable on current regimen\nand no changes recommended.\nAge at diagnosis                            [ ] 40 or older\nFAA Form 8500-14 or equivalent              [ ] Yes\ntreating physician report that\ndocuments the considerations below:\nAcceptable types of glaucoma                [ ] Open Angle being monitored and stable, Ocular Hypertension or\n                                            Glaucoma Suspect being monitored and stable, or previous history of\n                                            Narrow Angle/Angle Closure Glaucoma which has been treated with\n                                            iridectomy/iridotomy (surgical or laser) and is currently stable.\n\n                                            NOT acceptable: Normal Tension Glaucoma, secondary glaucoma due\n                                            to inflammation, trauma, or the presence of any other significant eye\n                                            pathology (e.g. neovascular glaucoma due to proliferative diabetic\n                                            retinopathy or an ischemic central vein occlusion or uveitic glaucoma)\nDocumented nerve damage or                  [ ] No\ntrabeculectomy (filtration surgery)\nMedications                                 [ ] None or Prostaglandin analogs (Xalatan, Lumigan, Travatan or\n                                            Travatan Z), Carbonic anhydrase inhibitor (Trusopt and Azopt), Beta\n                                            blockers (Timoptic, etc), or Alpha agonist (Alphagan). Combination eye\n                                            drops are acceptable\n\n                                            NOT acceptable for CACI: Pilocarpine or other miotics, cycloplegics\n                                            (Atropine), or oral medications.\nMedication side effects                     [ ] None\nIntraocular pressure                        [ ] 23 mm Hg or less in both eyes\nANY evidence of defect or reported          [ ] No\nUnreliable Visual Fields\n\nAcceptable visual field tests:\nHumphrey 24-2 or 30-2 (either SITA or\nfull threshold), Octopus (either TOP or\nfull threshold). Other formal visual\nfield testing may be acceptable but you\nmust call for approval. Confrontation\nor screening visual field testing is not\nacceptable.\n\n    AME MUST NOTE in Block 60 one of the following:\n\n    [ ] CACI qualified glaucoma. (Documents do not need to be submitted to the FAA.)\n\n    [ ] Has current OR previous SI/AASI but now CACI qualified glaucoma.\n\n    [ ] NOT CACI qualified glaucoma. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-hepatitis-c-chronic",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Hepatitis C – Chronic Worksheet (updated 11/24/2021)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf"
+    },
+    "conditionName": "Hepatitis C – Chronic",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "hepatitis c",
+      "hcv",
+      "hepatitis"
+    ],
+    "eligibilityCriteria": "The Examiner must review a current status report by the treating physician and any\nsupporting documents to determine the applicant’s eligibility for certification. If the applicant\nmeets ALL the acceptable certification criteria listed below, the Examiner can issue.\nApplicants for first- or second- class must provide this information annually; applicants for\nthird-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                          ACCEPTABLE CERTIFICATION CRITERIA\n Treating physician finds the        [ ] Yes\n condition stable on current\n regimen and no changes\n recommended\n\n Complications or symptoms from      [ ] None\n Chronic Hepatitis C\n Medications for condition           [ ] None\n\n Current Labs                        [ ] Within last 90 days\n\n                                     [ ] AST (SGOT), ALT (SGPT), Albumin, and PT all within 10% of\n                                     normal lab scale.\n\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified Hepatitis C - Chronic.\n\n[ ] Has current OR previous SI/AASI but now CACI qualified.\n\n[ ] NOT CACI qualified Hepatitis C - Chronic. I have deferred. (Submit supporting\ndocuments.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-hypertension",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Hypertension Worksheet (updated 04/13/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+    },
+    "conditionName": "Hypertension",
+    "item18Codes": [
       "item18-bp"
     ],
-    "matchKeywords" : [
+    "matchKeywords": [
       "hypertension",
       "high blood pressure",
       "htn"
     ],
-    "eligibilityCriteria" : "To determine the applicant's eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. HOWEVER, the AME is not required to review a Clinical Progress Note from the treating physician IF the AME can otherwise determine that the applicant has had stable clinical blood pressure control on the current antihypertensive medication for at least 7 days, without symptoms from the hypertension or adverse medication side-effects, and no treatment changes are recommended. If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.",
-    "documentsRequired" : "AME MUST REVIEW — ACCEPTABLE CERTIFICATION CRITERIA:\n\n• Treating physician (or the AME) finds the condition stable on current regimen for at least 7 days, and no changes recommended.\n• Symptoms: None.\n• Blood pressure in office: Less than or equal to 155 systolic and 95 diastolic. (Although 155/95 is acceptable for certification, the airman should be referred to their primary provider for further management if the blood pressure is above clinical practice standards.)\n• Acceptable medication(s) — see the Medication criteria section.\n• Side effects from medications: None.\n\nAME MUST NOTE in Block 60 one of the following:\n[ ] CACI qualified hypertension. (Documents do not need to be submitted to the FAA.)\n[ ] Has current OR previous SI/AASI but now CACI qualified hypertension.\n[ ] NOT CACI qualified hypertension. I have deferred. (Submit supporting documents.)",
-    "medicationCriteria" : "Combinations of up to 3 of the following acceptable medication classes are allowed: Alpha blockers, Beta-blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors, and/or direct vasodilators.\n\nNOT acceptable: Centrally acting antihypertensives (e.g., clonidine).\n\nNote: Number of medications counts each component. Example: lisinopril/HCTZ counts as 2 medications.\n\nSee the FAA AME Guide \"Pharmaceuticals — Antihypertensive\" page for the complete list of acceptable medications.",
-    "disqualifyingFactors" : "The AME must DEFER (submit to the FAA for possible Special Issuance) if ANY of the following apply (per the FAA AME Guide Item 36. Heart — Hypertension Disposition Table, Section C):\n\n• Treated with 4 or more acceptable medications (combination medications count as the sum of their components).\n• Hypertension is clinically uncontrolled.\n• Unacceptable medications are used.\n• Side effects from medications are present.\n• Medical status of the airman is unclear.\n• Certification has been specifically reserved to the FAA.\n\nIf the airman did not meet standards on exam (BP exceeded 155/95), see the FAA AME Guide Item 55. Blood Pressure for recheck options.",
-    "worksheetURL" : "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+    "eligibilityCriteria": "To determine the applicant's eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. HOWEVER, the AME is not required to review a Clinical Progress Note from the treating physician IF the AME can otherwise determine that the applicant has had stable clinical blood pressure control on the current antihypertensive medication for at least 7 days, without symptoms from the hypertension or adverse medication side-effects, and no treatment changes are recommended. If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW — ACCEPTABLE CERTIFICATION CRITERIA:\n\n• Treating physician (or the AME) finds the condition stable on current regimen for at least 7 days, and no changes recommended.\n• Symptoms: None.\n• Blood pressure in office: Less than or equal to 155 systolic and 95 diastolic. (Although 155/95 is acceptable for certification, the airman should be referred to their primary provider for further management if the blood pressure is above clinical practice standards.)\n• Acceptable medication(s) — see the Medication criteria section.\n• Side effects from medications: None.\n\nAME MUST NOTE in Block 60 one of the following:\n[ ] CACI qualified hypertension. (Documents do not need to be submitted to the FAA.)\n[ ] Has current OR previous SI/AASI but now CACI qualified hypertension.\n[ ] NOT CACI qualified hypertension. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": "Combinations of up to 3 of the following acceptable medication classes are allowed: Alpha blockers, Beta-blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors, and/or direct vasodilators.\n\nNOT acceptable: Centrally acting antihypertensives (e.g., clonidine).\n\nNote: Number of medications counts each component. Example: lisinopril/HCTZ counts as 2 medications.\n\nSee the FAA AME Guide \"Pharmaceuticals — Antihypertensive\" page for the complete list of acceptable medications.",
+    "disqualifyingFactors": "The AME must DEFER (submit to the FAA for possible Special Issuance) if ANY of the following apply (per the FAA AME Guide Item 36. Heart — Hypertension Disposition Table, Section C):\n\n• Treated with 4 or more acceptable medications (combination medications count as the sum of their components).\n• Hypertension is clinically uncontrolled.\n• Unacceptable medications are used.\n• Side effects from medications are present.\n• Medical status of the airman is unclear.\n• Certification has been specifically reserved to the FAA.\n\nIf the airman did not meet standards on exam (BP exceeded 155/95), see the FAA AME Guide Item 55. Blood Pressure for recheck options.",
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-hypothyroidism",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Hypothyroidism Worksheet (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
+    },
+    "conditionName": "Hypothyroidism",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "hypothyroidism",
+      "hypothyroid",
+      "thyroid"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "Guide for Aviation Medical Examiners – Version 01/25/2023\n\n                                HYPOTHYROID or HYPOTHYROIDISM\n                                   (Including Hashimoto's Disease)\n                                                    All Classes\n                                               (Updated 01/25/2023)\n\n   DISEASE/CONDITION                            EVALUATION DATA                             DISPOSITION\nA. Resolved                         If the AME is able to determine through\nNo treatment required               history and exam no treatment necessary, no                 ISSUE\n                                    symptoms, and no clinical concern:\n                                                                                             Annotate this\n                                                                                             information in\n                                                                                                Block 60.\n\nB. Primary Hypothyroidism           See the CACI - Hypothyroidism Worksheet.                    If the pilot\n                                                                                             meets all CACI\n                                    This will require a current, detailed Clinical       worksheet criteria and\n                                    Progress Note generated from a clinic visit          is otherwise qualified,\n                                    with the treating physician no more than 90\n                                    days before the AME exam AND TSH.                           ISSUE\n                                                                                             with no time\n                                                                                              limitation\n\n                                    Note: As of 1/25/2023, TSH up to 9.9 can be          Annotate the correct\n                                    considered for CACI if other criteria are met.        CACI statement in\n                                                                                          Block 60 and keep\n                                                                                             the required\n                                                                                              supporting\n                                                                                         information on file.\n\nC. Primary Hypothyroidism           Submit the following for FAA review:\n                                                                                                 DEFER\nSymptomatic                             1. A current, detailed Clinical\n                                           Progress Note generated from a                      Submit the\nTSH 10 mIU/L or higher                     clinic visit with the treating physician        information to the\n                                           performed no more than 90 days                  FAA for a possible\nCentral Hypothyroidism                     before the AME exam. (Diagnosis\n                                                                                           Special Issuance.\n                                           of Central Hypothyroidism should be\n(Due to pituitary or hypothalamic          evaluated by an endocrinologist.) It\ndisease)                                   must include a detailed summary of\n                                           the history of the condition; current\n                                           medications, dosage, and side effects\n                                           (if any); physical exam findings;\n                                           results of any testing performed;\n                                           diagnosis; assessment; plan\n                                           (prognosis); and follow-up.\n\n                                        2. Lab: Performed within 90 days of\n                                           the AME exam to include:\n                                               o Thyroid Stimulating Hormone\n                                                 (TSH), and\n                                               o Any other lab already\n                                                 performed (Ex. T3, Free T4)\n                                                 by the treating physician.\n\n                Guide for Aviation Medical Examiners – Version 01/25/2023\n\nDISEASE/CONDITION                  EVALUATION DATA                          DISPOSITION\n                           3. Imaging: Copies of any imaging\n                              reports (MRI, CT, ultrasound, X-\n                              ray) already performed.\n\n                                   •   Submit the interpretive report\n                                       on paper and imaging on CD\n                                       in DICOM readable format\n                                       (there must be a file named\n                                       'DICOMDIR' in the root\n                                       directory of the CD-ROM).\n                                       Please verify the CD will\n                                       display the images before\n                                       sending. Retain a copy of all\n                                       films as a safeguard if lost in\n                                       the mail.\n                           4. Any other testing deemed clinically\n                              necessary by the treating physician.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-low-testosterone-low-t-hypogonadism",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Low Testosterone (Low T) Hypogonadism Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
+    },
+    "conditionName": "Low Testosterone (Low T) Hypogonadism",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "low testosterone",
+      "low t",
+      "hypogonadism",
+      "testosterone"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "LOW TESTOSTERONE (LOW T) HYPOGONADISM\n                                                  All Classes\n                                             (Updated 04/29/2026)\n\n      DISEASE/CONDITION                               EVALUATION DATA                             DISPOSITION\nA. Treated with topical              If the AME can determine the condition is under\n   testosterone only                 control, current medications are acceptable, and no             ISSUE\n                                     symptoms that would interfere with flight or safety\n                                     related duties:                                            Annotate Block 60.\n\n\nB. Treated with one or more of the   See the CACI - Hypogonadism Worksheet.\n   following:                                                                                            ISSUE\n                                     This requires a complete blood count (CBC) lab           Annotate (elements or\n     •   Anastrozole                 AND a current, detailed Clinical Progress Note from              findings) in\n     •   Clomiphene citrate          the treating physician OR a completed Low                          Item 60.\n     •   Human Chorionic             Testosterone (Low T) Hypogonadism Status                Annotate the correct CACI\n         Gonadotropin (HCG)          Summary                                                         statement in\n     •   Testosterone (Oral or                                                                Block 60 and keep the\n         Injectable)                 If the pilot meets all CACI worksheet criteria and is      required supporting\n     •   Testopel                    otherwise qualified:                                        information on file.\n     •   Tamoxifen\n\nC. All others                        Submit the following for FAA review:\n\n   OR                                1. Low Testosterone (Low T) Hypogonadism Status                 DEFER\n                                         Summary.                                            Submit the information to\n   Requires or concurrent                                                                     the FAA for a possible\n   treatment with phlebotomy (See    OR                                                          Special Issuance\n   Blood Donation page.)\n                                     A current, detail ed Clinical Progress Note\n                                     generated from a clinic visit with the treating          Annotate (elements or\nNote: Use of enclomiphene citrate    urologist, endocrinologist (preferred), or treating      findings) in Block 60.\nis NOT acceptable.                   physician no more than 90 days prior to the AME\n                                     exam. It must address all items listed on the Status\n                                     Summary:\n                                         • A detailed summary of the history of the\n                                            condition\n                                         • Current medications, dosage, and side\n                                            effects (if any);\n                                         • Physical exam findings;\n                                         • Results of any testing performed;\n                                         • Diagnosis;\n                                         • Assessment and plan;\n                                         • Prognosis; and Follow-up.\n\n                                     2. It must specifically include:\n                                         • Current medications; and\n                                         • If there is any history of cardiovascular\n                                             disease, thromboembolic events, or prostate\n                                             cancer.\n\n                                     3. Lab - CBC performed no more than 90 days\n                                         before the AME exam.\n\n                                     See “Pilot Information – Clinical Progress Note",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-mash-nash-liver",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI MASH / NASH (Liver) Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf"
+    },
+    "conditionName": "MASH / NASH (Liver)",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "mash",
+      "nash",
+      "fatty liver",
+      "steatohepatitis"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed\nClinical Progress Note generated from a clinic visit with the treating physician or specialist no\nmore than 90 days prior to the AME exam. If the applicant meets ALL the acceptable\ncertification criteria listed below, the AME can issue. Applicants for first- or second-class must\nprovide this information annually; applicants for third-class must provide the information with\neach required exam.",
+    "documentsRequired": "AME MUST REVIEW                             ACCEPTABLE CERTIFICATION CRITERIA\n\n A current, detailed Clinical       [ ] Condition is under control, insulin resistance (if present) is\n Progress Note from the             adequately treated, and no symptoms (such as fatigue or malaise) that\n Hepatologist or treating           would interfere with flight or safety related duties.\n physician verifies:\n\n Any clinical evidence or           [ ] None\n diagnosis of cirrhosis:\n\n\n Fibrosis score from lab or         [ ] FIB-4 index* is less than 2.68; or\n imaging performed no more\n than 90 day ago                    [ ] Ultrasound-based vibration-controlled transient elastography\n                                    (VCTE) is less than 8 kPa; or\n None of the values are\n exceeded:                          [ ] Magnetic resonance elastography is less than 2.55 kPa\n\n\n                                    *If an imaging study has not been performed, calculate the FIB-4 index\n                                    (requires age, platelet count, AST, and ALT).\n Medications for condition          [ ] None\n (any combination of):              [ ] Vitamin E\n                                    [ ] Weight loss medication (see that page)\n\n\nAME MUST NOTE one of the following in Block 60:\n[ ] CACI qualified MASH/NASH. (Documents do not need to be submitted to the FAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified MASH/NASH.\n\n[ ] NOT CACI qualified MASH/NASH. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-migraine-and-chronic-headache",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Migraine and Chronic Headache Worksheet (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+    },
+    "conditionName": "Migraine and Chronic Headache",
+    "item18Codes": [
+      "item18-headaches"
+    ],
+    "matchKeywords": [
+      "migraine",
+      "chronic headache",
+      "tension headache",
+      "cluster headache"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed\nClinical Progress Note generated from a clinic visit with the treating physician or specialist no\nmore than 90 days prior to the AME exam which explains all items below. If the applicant meets\nALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or\nsecond- class must provide this information annually; applicants for third-class must provide the\ninformation with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                            ACCEPTABLE CERTIFICATION CRITERIA\n  A current, detailed clinical progress   [ ] The condition stable on current regimen and no\n  note from the treating physician            management changes are recommended.\n  verifies:\n\n  Type of headache                        [ ] Migraine (with or without aura), tension headache,\n                                              cluster headache\n\n  Frequency and severity                  [ ] No more than one episode per month\n                                          [ ] In the last 12 months, no more than 2 outpatient\n                                              clinic/urgent care visits for symptom exacerbation (even if\n                                              symptoms fully resolved)\n                                          [ ] No history of in-patient hospitalizations for headaches\n\n  Symptoms                                [ ] Only mild non-disabling symptoms.\n                                          [ ] No symptoms that functionally impair vision.\n                                          [ ] NONE of the following:\n                                               • Any neurological impairment or TIA-type symptoms;\n                                               • Auras WITHOUT headaches;\n                                               • Impairment of central vision or functionally significant\n                                                   impairment of peripheral vision;\n                                               • Vertigo; syncope; or mental status change\n\n  Medications - Preventive                [ ] None\n\n                                          OR\n  NOT acceptable: Tricyclic               [ ] Any of the following alone or in combination, provided no\n  antidepressants (TCAs),                     side effects and completed ground trial.\n  anticonvulsants                               • ACE inhibitors (ACE-I)\n                                                • Angiotensin receptor blockers (ARB)\n                                                • Beta blockers\n                                                • Calcium channel blockers (CCB),\n                                                •   CGRP antagonists used only for prophylaxis.\n\n          Continued next page                    Detailed list of migraine medications can be found\n                                                        Pharmaceuticals - Migraine Medications\n\n         AME MUST REVIEW                            ACCEPTABLE CERTIFICATION CRITERIA\n Medications or treatment - Abortive     [ ] None; or Over the Counter (OTC) headache medications; or\n                                             other modalities such as heat, traction, acupressure, and\n NOT acceptable: Narcotics, Fiorinal,        massage devices, to prevent, abort, and treat headaches.\n Fioricet, or Midrin.\n                                         OR\n\n Detailed list of migraine medications   [ ] One or more of the following:\n can be found Pharmaceuticals -               • Triptans (monotherapy or with NSAID combination) 24\n Migraine Medications                             hour no-fly\n                                                  Except eletriptan (Relpax) and frovatriptan (Frova): 72\n                                                  hours\n                                              • metoclopramide (Reglan): 36 hour no-fly\n                                              • promethazine (Phenergan): 96 hour no-fly\n                                              • Calcitonin Gene-Related Peptide (CGRP) Receptor\n                                                  Antagonist with 48 hour no fly time: ubrogepant\n                                                  (Ubrelvy); Rimegepant (Nurtec)\n\n Transcutaneous electrical nerve         [ ] None\n stimulation (TENS) units\n                                         OR\n\n NOT acceptable: If device causes        [ ] Used alone or with acceptable adjunctive medications.\n sedation or cognitive changes.          TENS units (such as Cefaly, gammaCore, Relivion MG, or\n                                             Nerivio)\n                                              • Prophylactic use: 8 hour no fly\n                                              • Abortive and therapeutic use: 24 hour no-fly\n\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified migraine and chronic headaches. (Documents do not need to be submitted to the\nFAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified migraine and chronic headaches.\n\n[ ] NOT CACI qualified migraine and chronic headaches. I have deferred. (Submit supporting\n   documents.)\n\n                                AASI for Migraines\n\nAME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-\nissue an airman medical certificate under the provisions of an Authorization for Special\nIssuance of a Medical Certificate (Authorization) to an applicant who has a medical\ncondition that is disqualifying under Title 14 of the Code of Federal Regulations (14\nCFR) part 67.\n\nAn FAA physician provides the initial certification decision and grants the Authorization\nin accordance with 14 CFR § 67.401. The Authorization letter is accompanied by\nattachments that specify the information that treating physician(s) must provide for the\nre-issuance determination. If this is a first-time application for an AASI for the above\ndisease/condition, and the applicant has all the requisite medical information necessary\nfor a determination, the AME must defer and submit all of the documentation to the\nAMCD or RFS for the initial determination.\n\nAMEs may re-issue an airman medical certificate under the provisions of an\nAuthorization, if the applicant provides the following:\n\n   •   An Authorization granted by the FAA;\n   •   A statement regarding the frequency of headaches and/or other associated\n       symptoms since last follow-up report;\n   •   A statement regarding if the characteristics of the headaches changed; and\n   •   The name and dosage of medication(s) used for treatment and/or prevention with\n       comment regarding side effects.\n\nThe AME must defer to the AMCD or Region if:\n\n   •  The frequency of headaches and/or other symptoms increase since the last\n      follow-up report; or\nThe applicant is placed on medication(s), such as isometheptene mucate, narcotic\nanalgesic, tramadol, tricyclic-antidepressant medication, etc.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-mitral-valve-repair",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Mitral Valve Repair Worksheet (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
+    },
+    "conditionName": "Mitral Valve Repair",
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "matchKeywords": [
+      "mitral valve",
+      "valve repair",
+      "valve replacement"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "MITRAL VALVE REPAIR\n                                                          All Classes\n                                                     (Updated 05/29/2024)\n\n\n   DISEASE/CONDITION                                    EVALUATION DATA                                 DISPOSITION\nA.\n5 or more years ago                       See CACI – Mitral Valve Repair                             Follow the\nand no co-morbid conditions*              Worksheet.                                                 CACI – Mitral\n                                                                                                     Valve Repair\n                                          Note to pilot: Take the CACI worksheet                     Worksheet\n                                          to your cardiologist so they can fully\n                                          address the FAA requirements.                              Annotate Block\n                                                                                                     60.\nB.\n Less than 5 years ago                    After a 3-month recovery period submit                     DEFER\n                                          the following to the FAA for review:                       Submit the\n OR                                                                                                  information to the\n                                               Hospital admission history and physical;              FAA for review.\n Any of the co-morbid                          Operative report/surgical report;\n conditions below*                             Hospital discharge summary;                           Follow up Issuance\n                                               Current status report from the treating               Will be per the\n                                               cardiologist which should describe the                airman’s\n                                               type of repair, any complications, current            authorization\n                                               treatment needed, and follow up plan;                 letter\n                                               List of medications and side effects, if\n                                               any;\n                                               Cardiac testing performed AFTER the 3\n                                               month recovery period and within the last\n                                               90 days:\n                                                        o 24-hour Holter;\n                                                        o Electrocardiogram (ECG);\n                                                        o Echo; and\n\n                                               Other imaging reports (if any) for studies\n                                               performed by the treating cardiologist\n                                               (e.g., Cath, CTA, or MRA).\n\n\n      Notes:\n      *Co-morbid conditions for FAA purposes include:\n         •   Cardiac disease (disease of other valves, ischemia, CHF, Left Ventricular Systolic Dysfunction (LVSD),\n             Secondary or Functional mitral valve disease, arrhythmia, etc.);\n         •   Connective tissue disorder (such as Marfan’s or Ehlers-Danlos, etc.);\n         •   Warfarin (Jantoven) or other anticoagulation (other than ASA) due to a cardiac condition;\n         •   Lung disease such as COPD (considered moderate to severe; any FEV1 or FVC less than 70%) or\n             Pulmonary Hypertension; or\n         •   Residual Mitral valve regurgitation listed as moderate or higher on cardiac echo.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-polycystic-ovarian-syndrome-pcos",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 09/27/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf"
+    },
+    "conditionName": "Polycystic Ovarian Syndrome (PCOS)",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "pcos",
+      "polycystic ovarian",
+      "polycystic ovary"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "Polycystic Ovarian Syndrome (PCOS)\n                                                  All Classes\n                                              (Updated 09/27/2023)\n\n\n DISEASE/CONDITION                        EVALUATION DATA                            DISPOSITION\nA.                          If the AME can determine:\nNot requiring medication;        • Condition is under control;\ntreated with lifestyle           • No medications used; and                             ISSUE\nintervention only                • No symptoms that would interfere with              Annotate this\n                                    flight or safety related duties              information in Block 60.\n\n\nB.                          See the CACI - Polycystic Ovarian Syndrome\nTreated with acceptable     (PCOS) Worksheet.\nmedication(s).                                                                          ISSUE\n                            This will require a current, detailed Clinical       with no time limitation\n                            Progress Note.\n                                                                                  Annotate the correct\n                            If the pilot meets all CACI worksheet criteria and     CACI statement in\n                            is otherwise qualified:                              Block 60 and keep the\n                                                                                  required supporting\n                                                                                   information on file.\n\nC.                          Submit the following for FAA review:\nAll others\n                            1. A current, detailed Clinical Progress Note               DEFER\n                               generated from a clinic visit with the treating   Submit the information\n                               endocrinologist, OB/GYN, or treating                to the FAA for a\n                               physician no more than 90 days before the           possible Special\n                               AME exam. It must include:                              Issuance\n                               • A detailed summary of the history of the\n                                  condition;\n                               • Current medications, dosage, and side\n                                  effects (if any); physical exam findings;\n                                  results of any testing performed;\n                                  diagnosis; assessment and plan;\n                                  prognosis; and follow-up.\n\n                            2. The Clinical Progress Note must specifically\n                               include if there is any:\n                               • History of obstructive sleep apnea;\n                               • Evidence of depression or anxiety as\n                                   indicated; by current PHQ-9/GAD-7\n                                   score); and/or\n                               • Evidence of diabetes.\n\n                            3. Any other testing already completed or\n                               deemed necessary by the treating physician.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-prediabetes",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Prediabetes Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf"
+    },
+    "conditionName": "Prediabetes",
+    "item18Codes": [
+      "item18-diabetes"
+    ],
+    "matchKeywords": [
+      "prediabetes",
+      "pre-diabetes",
+      "impaired glucose"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "PREDIABETES\n                             (Metabolic Syndrome, Impaired Fasting Glucose,\n                           Insulin Resistance, or Glucose Elevation/Intolerance)\n                                              All Classes\n                                              (09/27/2023)\n\n      DISEASE/CONDITION                      EVALUATION DATA                         DISPOSITION\n A.                               If the AME can determine the condition is:\n Treated with lifestyle                • Under control;                                  ISSUE\n intervention                          • Current medications are acceptable;\n                                         and                                           Annotate this\n                                       • The individual has no symptoms that       information in Block\n                                         would interfere with flight duties:               60.\n\n B.                               See the CACI – Prediabetes Worksheet\n Treated with                     and the Weight Loss Management or\n ONE diabetic medication          Prediabetes Status Report                              ISSUE\n (non-insulin) component\n                                  This requires a current, detailed Clinical       Annotate the correct\n                                  Progress Note from the treating physician         CACI statement in\n                                  and Hemoglobin A1c lab performed no               Block 60 and keep\n                                  more than 90 days before the AME                      the required\n                                                                                         supporting\n                                  exam.\n                                                                                    information on file.\n                                  If the pilot meets all CACI worksheet\n                                  criteria and is otherwise qualified:\n\n C.                               Submit either:\n Treated with                                                                           DEFER\n TWO (2) or more                  1. Diabetes or Hyperglycemia on\n diabetic medication                 Medications Status Report                         Submit the\n (non-insulin) components            (The treating physician must clearly          information to the\n                                     indicate the reason for the                   FAA for a possible\n                                     medication and if there is any history         Special Issuance\n                                     of diabetes.)\n Note: If the medication is\n taken for weight loss, and the                 OR\n                                                                                   Annotate (elements\n individual has a diagnosis of                                                       or findings) in\n                                  2. A current, detailed Clinical Progress\n diabetes, see                                                                         Block 60.\n                                     Note from the treating physician which\n www.faa.gov/go/diabetic\n                                     contains all the required information\n                                     listed in the above status report.\n\n                                      • It must include the indication for\n                                        the medication and if there is any\n                                        history of diabetes or not;\n\n                                      • Hemoglobin A1c lab performed no\n                                        more than 90 days before the AME\n                                        exam.\n\n\nNote: For Polycystic Ovarian Syndrome (PCOS), see that page.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-primary-hemochromatosis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Primary Hemochromatosis Worksheet (updated 10/27/2021)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PrimaryHemochromatosisDispositionTable.pdf"
+    },
+    "conditionName": "Primary Hemochromatosis",
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "matchKeywords": [
+      "hemochromatosis",
+      "iron overload"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "PRIMARY HEMOCHROMATOSIS\n                                  All Classes\n                               (Updated 10/27/2021)\n\n  DISEASE/CONDITION               EVALUATION DATA                       DISPOSITION\nA. Tested and found not to   No evaluations or follow up\n   have the disease.         needed.                              ISSUE\n                                                                  Summarize this\n   Carrier status in the                                          history in Block 60.\n   Absence of disease is\n   not disqualifying.\n\n\n B. Asymptomatic              See CACI worksheet                 Follow the CACI-Primary\n                                                                 Hemochromatosis\n                                                                 Worksheet.\n                                                                 Annotate Block 60.\n\n C. Symptomatic               Submit the following to the FAA\n                              for review:                         DEFER\n   OR\n                                                                  Submit the information to\n   Evidence of End Organ         Current evaluation from a        the FAA for a possible\n   Damage                        board-certified                  Special Issuance.\n                                 gastroenterologist,\n    OR                           hepatologist, or hematologist Follow up Issuance will be\n    Co-morbid conditions*        which documents course of      per the airman’s authorization\n                                 disease from diagnosis to      letter.\n    •   Unacceptable             present; severity of the\n        medications are          condition; presence or\n        used;                    absence of joint, liver, CNS,\n                                 endocrine, renal or\n    •   Side effects are         hematologic disease;\n        present;                 pertinent historical lab\n                                 summary; and evidence of\n    •   Phlebotomy               any cognitive changes.\n        performed more           Evaluation should document\n        than monthly;            stability, treatment plan, and\n        and/or                   prognosis.\n                                 List of medications and side\n    •   Iron overload\n                                 effects, if any\n        caused by other\n                                 Current Lab (within the past\n        mechanisms or\n        diseases (e.g.           90 days)\n        secondary                    CBC, serum iron, ferritin\n        hemochromatosis              level, and transferrin\n                                     saturation\n                                     Comprehensive\n                                     metabolic panel\n                                     Hemoglobin A1c\n                                     TSH\n\n DISEASE/CONDITION                 EVALUATION DATA                   DISPOSITION\n                                 Resting EKG\n                                 Echocardiogram\n                                 Liver/cardiac imaging and\n                                 biopsies (only if clinically\n                                 indicated)\n                                 Any other testing clinically\n                                 indicated\n\n*Note:\nCo-morbid conditions for FAA purposes include:\n  •   Arthropathy;\n  •   Cardiomyopathy or other cardiac disease;\n  •   Cirrhosis or other documented hepatic disease;\n  •   CNS disease (including cognitive deficits);\n  •   Endocrine disease including diabetes, hypopituitarism, hypogonadism, or\n      hypothyroidism;\n  •   Kidney disease;\n  •   Polycythemia;\n  •   Myeloproliferative disorders; and/or\n  •   Other condition requiring multiple transfusions",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/PrimaryHemochromatosisDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-prostate-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Prostate Cancer Worksheet (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf"
+    },
+    "conditionName": "Prostate Cancer",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "prostate cancer"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\nProgress Note generated from a clinic visit with the treating physician or specialist no more than 90 days\nprior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the\nAME can issue. Applicants for first- or second- class must provide this information annually; applicants for\nthird-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                         ACCEPTABLE CERTIFICATION CRITERIA\n\n\n  The treating physician’s current, detailed Clinical      [ ] Yes\n  Progress Note verifies:\n    • Condition is stable with no spread or\n        recurrence;\n    • There is no current or historical evidence\n        of any metastatic disease;\n    • Active treatment is completed\n        (Chemotherapy/radiation, etc.) and no\n        further treatment is recommended at this\n        time; and\n    • If surgery has been performed, the airman\n            o Is off pain medications;\n            o Has made a full recovery; and\n            o Has been released by the surgeon\n\n\n Current PSA (within the last 6 months)                    [ ] 20 or less if no prostatectomy\n                                                           [ ] 0.2 or less after prostatectomy\n  Symptoms                                                 [ ] None\n  Current treatment                                        [ ] None or\n                                                               active surveillance/watchful waiting\n  Notes: If it has been 5 or more years since the              or Brachytherapy\n  airman has had any treatment for this condition,\n  with no history of metastatic disease and no\n  reoccurrence, CACI is not required. Note this in\n  Block 60. (See disposition table.)\n\n\n AME MUST NOTE in Block 60 one of the following:\n\n [ ] CACI qualified prostate cancer. (Documents do not need to be submitted to the FAA.)\n\n [ ] Has current OR previous SI/AASI but now CACI qualified prostate cancer.\n\n [ ] NOT CACI qualified prostate cancer. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-psoriasis",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Psoriasis Worksheet (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Psoriasis_dispo_table.pdf"
+    },
+    "conditionName": "Psoriasis",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "psoriasis"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "PSORIASIS\n                                                  All Classes\n                                              (Updated 08/27/2025)\n\n    DISEASE/CONDITION                               EVALUATION DATA                         DISPOSITION\nA. Mild to moderate disease           If the AME can determine the condition is under\n   confined to the skin               control, current medications are acceptable,              ISSUE\n                                      and no symptoms that would interfere with flight\n   AND                                or safety related duties:                              Annotate this\n                                                                                             information in\n   Treated with topical                                                                         Block 60.\n   medication only\n\nB. Mild to moderate disease           See the CACI - Psoriasis Worksheet.\n   AND                                This requires a current, detailed Clinical                  ISSUE\n                                      Progress Note from the treating physician.         Annotate (elements or\n   Treated with oral or\n                                                                                               findings) in\n   injectable medication\n                                                                                                Block 60.\n                                                                                          Annotate the correct\n                                      If the pilot meets all CACI worksheet criteria       CACI statement in\nIf psoriatic arthritis present, see   and is otherwise qualified:                        Block 60 and keep the\nCACI – Arthritis Worksheet\n                                                                                          required supporting\n                                                                                           information on file.\nC. All others including:              Submit the following for FAA review:\n\n    •   Erythrodermic psoriasis       A current, detailed Clinical Progress Note                 DEFER\n    •   Pustular psoriasis            generated from a clinic visit with the treating    Submit the information\n    •   Severe psoriasis              Dermatologist or Rheumatologist no more               to the FAA for a\n                                      than 90 days prior to the AME exam. It must          possible Special\n                                      include:                                                  Issuance\n\n                                         •   A detailed summary of the history of the\n                                             condition;                                  Annotate (elements or\n                                         •   Current medications, dosage, and side       findings) in Block 60.\n                                             effects (if any);\n                                         •   Physical exam findings;\n                                         •   Results of any testing performed;\n                                         •   Diagnosis;\n                                         •   Assessment and plan;\n                                         •   Prognosis; and\n                                         •   Follow-up.\n\n                                      The Clinical Progress Note must specifically\n                                      include:\n                                          • If any co-morbid conditions are present\n                                          • Documentation of counseling on\n                                             guideline-directed screening for co-\n                                             morbid conditions\n\n                                      See Pilot Information – Clinical Progress Note.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Psoriasis_dispo_table.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-renal-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Renal Cancer Worksheet (updated 04/13/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf"
+    },
+    "conditionName": "Renal Cancer",
+    "item18Codes": [
+      "item18-kidney"
+    ],
+    "matchKeywords": [
+      "renal cancer",
+      "kidney cancer",
+      "renal cell carcinoma"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical\nProgress Note generated from a clinic visit with the treating physician or specialist no more than 90 days\nprior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the\nAME can issue. Applicants for first- or second-class must provide this information annually; applicants for\nthird-class must provide the information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                                ACCEPTABLE CERTIFICATION\n                                                                CRITERIA\n  Treating physician finds the condition stable on                   [ ] Yes\n  current regimen and no changes recommended.\n  Any current or historic evidence of:                               [ ] No\n        • Chemotherapy\n        • Disease recurrence;\n        • Extra capsular extension;\n        • Metastatic disease;\n        • Stage 4 disease; or\n        • Paraneoplastic syndrome\n  If surgery was performed - the airman is off pain                  [ ] Yes\n  medication(s), has made a full recovery, and has been\n  released by the surgeon.\n\n  Symptoms                                                           [ ] No\n  Treatment completed and back to full, unrestricted                 [ ] Yes\n  activities (ECOG performance status or equivalent\n  is 0).\n  Current treatment:                                                 [ ] None\n\n  Notes: If it has been 5 or more years since the airman\n  has had any treatment for this condition, with no history\n  of metastatic disease and no reoccurrence, CACI is not\n  required. Note this in Block 60. (See disposition table.)\n\n\n AME MUST NOTE in Block 60 one of the following:\n\n [ ] CACI qualified renal cancer. (Documents do not need to be submitted to the FAA.)\n\n [ ] Has current OR previous SI/AASI but now CACI qualified renal cancer.\n\n [ ] NOT CACI qualified renal cancer. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-retained-kidney-stone-s",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Retained Kidney Stone(s) Worksheet (updated 06/28/2017)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf"
+    },
+    "conditionName": "Retained Kidney Stone(s)",
+    "item18Codes": [
+      "item18-kidney"
+    ],
+    "matchKeywords": [
+      "kidney stone",
+      "kidney stones",
+      "nephrolithiasis",
+      "retained kidney stone"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "KIDNEY STONE(S)\n                             (NEPHROLITHIASIS, RENAL CALCULI)\n                                     OR RENAL COLIC\n                                               All Classes\n                                            (Updated 06/28/2017)\n\n\n    DISEASE/CONDITION                          EVALUATION DATA                            DISPOSITION\n  A. Most recent event/diagnosis     No symptoms or current problems. Renal\n  5 or more years ago.               function has returned to normal. No            ISSUE\n                                     ongoing treatment or surveillance needed.\n                                                                                    Summarize this\n                                                                                    history in Block 60.\n\n  B. Single stone                    If a single stone passed or is in the\n  that passed                        bladder with no further problems               ISSUE\n  Less than 5 years ago              and imaging (such as a KUB) verifies no        Summarize this\n  with no complications*             retained stones:                               history in Block 60.\n  C. Multiple or Retained              See CACI worksheet                           Follow the CACI – Retained\n  asymptomatic stone(s)                                                             Kidney Stone(s) Worksheet.\n  Less than 5 years ago                                                             Annotate Block 60\n  with no complications*\n\n  Note: Use this for incidental\n  findings.\n  D. All others                       Submit the following to the FAA for review:\n     Complications*                      Current, detailed Clinical Progress        DEFER\n    Symptomatic                          Note generated from a clinic visit with    Submit the information to the\n     Underlying cause for                the treating urologist no more than 90     FAA for a possible Special\n     recurrent stones                    days before the AME exam with              Issuance.\n                                         treatment plan and prognosis.\n                                         If underlying cause is identified, the     Follow up Issuance Will be\n                                         status report should include diagnosis,    per the airman’s authorization\n                                         treatment plan, prognosis and              letter\n                                         adherence to treatment for this\n                                         condition;\n                                         List of medications and side effects (if\n                                         any);\n                                         Operative notes and discharge\n                                         summary (if applicable);and\n                                          Copies of imaging reports and lab (if\n                                         already performed by treating\n                                         physician)\n *Complications include:\n   • Hydronephrosis (chronic).\n   • Metabolic/underlying condition requiring treatment/surveillance/monitoring\n   • Procedures (3 or more for kidney stones within the last 5 years)\n   • Renal failure or obstruction (acute or chronic).\n   • Sepsis or recurrent urinary tract infections due to stones\n\nMetabolic evaluations and imaging should be performed as clinically indicated by the treating\nphysician. Acceptable imaging includes KUB, ultrasound, IVP, or CT/MRI as clinically appropriate per the\ntreating physician.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-testicular-cancer",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Testicular Cancer Worksheet (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACITesticularCancer.pdf"
+    },
+    "conditionName": "Testicular Cancer",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "testicular cancer"
+    ],
+    "eligibilityCriteria": "To determine the applicant’s eligibility for certification, the AME must review a current,\ndetailed Clinical Progress Note generated from a clinic visit with the treating physician or\nspecialist no more than 90 days prior to the AME exam. If the applicant meets ALL the\nacceptable certification criteria listed below, the AME can issue. Applicants for first- or\nsecond-class must provide this information annually; applicants for third-class must provide\nthe information with each required exam.",
+    "documentsRequired": "AME MUST REVIEW                                            ACCEPTABLE CERTIFICATION\n                                                            CRITERIA\n The treating physician’s current, detailed Clinical         [ ] Yes\n Progress Note verifies:\n\n   •   Condition is stable with no spread or\n       recurrence;\n   •   There is no current or historic evidence of\n       any metastatic disease;\n   •   Active treatment is completed\n       (chemotherapy/radiation, etc.) and no new\n       treatment is recommended at this time; and\n   •   If surgery has been performed, the airman is\n       off pain medication(s), has made a full\n       recovery, and has been released by the\n       surgeon.\n Symptoms                                                   [ ] None\n Current treatment                                          [ ] None, surveillance or watchful\n                                                            waiting\n Notes: If it has been 5 or more years since the\n airman has had any treatment for this condition,\n with no history of metastatic disease and no\n reoccurrence, CACI is not required. Note this in\n Block 60. (See disposition table.)\n\n If the airman is currently on chemo or radiation\n treatment, defer the exam. (See disposition table.)\n\n\nAME MUST NOTE in Block 60 one of the following:\n\n[ ] CACI qualified testicular cancer. (Documents do not need to be submitted to the FAA.)\n\n[ ] Has current OR previous SI/AASI but now CACI qualified testicular cancer.\n\n[ ] NOT CACI qualified testicular cancer. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/C-CACITesticularCancer.pdf"
+  },
+  {
+    "envelope": {
+      "code": "caci-weight-loss-management",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-05-28T00:00:00Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Weight Loss Management Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf"
+    },
+    "conditionName": "Weight Loss Management",
+    "item18Codes": [
+      "item18-other"
+    ],
+    "matchKeywords": [
+      "weight loss",
+      "bariatric",
+      "obesity"
+    ],
+    "eligibilityCriteria": "The full FAA worksheet for this condition is reproduced below. The AME determines eligibility based on whether the applicant meets all the criteria listed; if any criteria are not met, the AME defers to the FAA for possible Special Issuance.",
+    "documentsRequired": "Weight Loss Management\n                            (Use of Medication for Obesity or Overweight)\n                                            All Classes\n                                            (03/27/2024)\n\n      DISEASE/CONDITION                      EVALUATION DATA                     DISPOSITION\n A.                               If the AME can determine the condition\n Treated with lifestyle           is:                                               ISSUE\n intervention                          • Under control;\n or acceptable over-the-counter        • Current medications are                 Annotate this\n (OTC) medications                       acceptable; and                         information in\n                                       • The individual has no symptoms             Block 60.\n See Weight Loss Medications             that would interfere with flight\n                                         duties:\n B.                               See the CACI – Weight Loss\n Treated with                     Management Worksheet\n ONE diabetic medication                                                            ISSUE\n (non-insulin) component          This requires a current, detailed Clinical\n                                  Progress Note from the treating                 Annotate the\n                                  physician and Hemoglobin A1c lab                correct CACI\n                                                                                   statement in\n                                  performed no more than 90 days\n                                                                               Block 60 and keep\n                                  before the AME exam.\n                                                                                   the required\n                                                      OR                            supporting\n                                   Weight Loss Management Status               information on file.\n                                   Report\n\n                                  If the pilot meets all CACI worksheet\n                                  criteria and is otherwise qualified:\n C.                               Submit either:\n Treated with                                                                       DEFER\n TWO (2) or more                  1. Weight Loss Management Status\n diabetic medication                 Report                                        Submit the\n (non-insulin) components            (The treating physician must clearly      information to the\n                                     indicate the reason for the               FAA for a possible\n                                     medication and if there is any            Special Issuance\n                                     history of diabetes.)\n Note: If the medication is\n taken for weight loss, and the                      OR\n                                                                                     Annotate\n individual has a diagnosis of                                                    (elements or\n                                  2. A current, detailed Clinical\n diabetes, see                                                                     findings) in\n                                     Progress Note from the treating\n www.faa.gov/go/diabetic                                                            Block 60.\n                                     physician which contains all the\n                                     required information listed in the\n                                     above status report.\n\n                                     • It must include the indication for\n                                       the medication and if there is\n                                       any history of diabetes or not;\n\n                                     • Hemoglobin A1c lab performed no\n                                       more than 90 days before the\n                                       AME exam.\n\nNote: For Polycystic Ovarian Syndrome (PCOS), see that page.",
+    "medicationCriteria": null,
+    "disqualifyingFactors": null,
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf"
   }
 ]
