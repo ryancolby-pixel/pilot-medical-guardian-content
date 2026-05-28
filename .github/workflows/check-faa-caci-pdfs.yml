@@ -1,0 +1,121 @@
+name: Check FAA CACI Worksheet PDFs for reissue
+
+# Polls every FAA CACI Worksheet PDF weekly. When any PDF's SHA changes
+# (FAA reissues a worksheet -- typically tied to an AME Guide update or a
+# specific worksheet revision), opens a PR listing which worksheets
+# changed. The maintainer downloads the new PDFs, drops them into
+# /Users/ryan/pilot-medical-guardian/PilotMedicalGuardian/Reference/
+# BundledContent/CACIWorksheets/, bumps the manifest, ships.
+#
+# Tracked URL map is hard-coded below (the 29 worksheet PDF URLs from
+# https://www.faa.gov/ame_guide/certification_ws as of 2026-05-28).
+# When the FAA adds a new CACI condition (rare), update this file and
+# the app's CACIWorksheet entries; when an existing condition's URL
+# changes (also rare), update the URL map.
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"   # every Monday at 14:00 UTC (≈ 10 AM ET, an hour after HIMS check)
+  workflow_dispatch: {}    # also runnable on-demand
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  TRACK_FILE: .faa-caci-pdf-shas
+  BRANCH_PREFIX: faa-caci-pdfs
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all 29 CACI Worksheet PDFs
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/caci_check
+          UA="pilot-medical-guardian-content/1.0 (+https://github.com/ryancolby-pixel/pilot-medical-guardian-content)"
+          while read line; do
+            fname=$(echo "$line" | awk '{print $2}')
+            url="https://www.faa.gov/ame_guide/media/$fname"
+            if curl -sS -L --fail --max-time 60 -A "$UA" -o "/tmp/caci_check/$fname" "$url"; then
+              echo "  ✓ $fname"
+            else
+              echo "  ✗ FAILED $fname ($url)"
+              exit 1
+            fi
+          done < "$TRACK_FILE"
+          ls -la /tmp/caci_check/ | tail -5
+
+      - name: Compare SHAs against tracked values
+        id: cmp
+        run: |
+          set -euo pipefail
+          CHANGED_LIST=""
+          CHANGE_COUNT=0
+          # Build a new SHA file in /tmp and diff against tracked.
+          : > /tmp/caci_new_shas
+          while read line; do
+            fname=$(echo "$line" | awk '{print $2}')
+            old_sha=$(echo "$line" | awk '{print $1}')
+            new_sha=$(shasum -a 256 "/tmp/caci_check/$fname" | awk '{print $1}')
+            echo "$new_sha  $fname" >> /tmp/caci_new_shas
+            if [ "$new_sha" != "$old_sha" ]; then
+              CHANGED_LIST="$CHANGED_LIST $fname"
+              CHANGE_COUNT=$((CHANGE_COUNT + 1))
+            fi
+          done < "$TRACK_FILE"
+          echo "change_count=$CHANGE_COUNT" >> "$GITHUB_OUTPUT"
+          echo "changed_list=$CHANGED_LIST" >> "$GITHUB_OUTPUT"
+          if [ $CHANGE_COUNT -eq 0 ]; then
+            echo "✅ All 29 PDFs unchanged"
+          else
+            echo "ℹ️ $CHANGE_COUNT PDFs changed:$CHANGED_LIST"
+            cp /tmp/caci_new_shas "$TRACK_FILE"
+          fi
+
+      - name: Open PR with updated SHAs
+        if: steps.cmp.outputs.change_count != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COUNT:    ${{ steps.cmp.outputs.change_count }}
+          CHANGED:  ${{ steps.cmp.outputs.changed_list }}
+        run: |
+          set -euo pipefail
+          STAMP=$(date -u +%Y%m%d-%H%M%S)
+          BRANCH="${BRANCH_PREFIX}-${STAMP}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "$TRACK_FILE"
+          git commit -m "FAA CACI: $COUNT worksheet(s) changed at upstream (auto-detected)"
+          git push -u origin "$BRANCH"
+
+          # Build the PR body
+          BODY=$(cat <<EOF
+          The FAA has reissued **$COUNT** CACI worksheet PDF(s) since the last check.
+
+          Changed:
+          $(echo "$CHANGED" | tr ' ' '\n' | grep -v '^$' | sed 's/^/- /')
+
+          ### Maintainer action
+
+          For each changed PDF, download the new version from
+          \`https://www.faa.gov/ame_guide/media/<filename>\` and replace the
+          corresponding file in the app repo at
+          \`PilotMedicalGuardian/Reference/BundledContent/CACIWorksheets/\`.
+          Then bump the content manifest and ship a content release.
+
+          Worksheets without structural changes (typo fixes, date refreshes)
+          can ship as-is. Worksheets with new criteria or eligibility changes
+          should be reviewed by the AME advisor before publication.
+          EOF
+          )
+          gh pr create \
+            --title "FAA CACI: $COUNT worksheet(s) reissued — drop in new PDFs" \
+            --body "$BODY" \
+            --base main \
+            --head "$BRANCH"

@@ -8,9 +8,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/ArthritisDispositionTable.pdf"
     },
     "conditionName": "Arthritis",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "arthritis",
       "osteoarthritis",
@@ -54,9 +52,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf"
     },
     "conditionName": "Bladder Cancer",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "bladder cancer"
     ],
@@ -76,9 +72,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf"
     },
     "conditionName": "Breast Cancer",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "breast cancer"
     ],
@@ -98,9 +92,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/ThrombocytopeniaDispositionTable.pdf"
     },
     "conditionName": "C-ITP (Chronic Immune Thrombocytopenia)",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "thrombocytopenia",
       "c-itp",
@@ -123,9 +115,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
     },
     "conditionName": "Carotid / Vertebral Artery Stenosis",
-    "item18Codes": [
-      "item18-heart"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "carotid",
       "vertebral artery",
@@ -147,9 +137,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf"
     },
     "conditionName": "Chronic Kidney Disease",
-    "item18Codes": [
-      "item18-kidney"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "chronic kidney disease",
       "ckd",
@@ -171,9 +159,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CLL_SLL_dispo_table.pdf"
     },
     "conditionName": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "cll",
       "chronic lymphocytic leukemia",
@@ -196,9 +182,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     },
     "conditionName": "Colitis",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "colitis",
       "ulcerative colitis",
@@ -220,9 +204,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/ColonCancerDispositionTable.pdf"
     },
     "conditionName": "Colon Cancer / Colorectal Cancer",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "colon cancer",
       "colorectal cancer",
@@ -244,9 +226,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Eosinophilic_Esophagitis.pdf"
     },
     "conditionName": "Eosinophilic Esophagitis",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "eosinophilic esophagitis",
       "eoe"
@@ -267,9 +247,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Tremor.pdf"
     },
     "conditionName": "Essential Tremor",
-    "item18Codes": [
-      "item18-neuro"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "essential tremor",
       "tremor"
@@ -290,9 +268,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "conditionName": "Glaucoma",
-    "item18Codes": [
-      "item18-vision"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "glaucoma"
     ],
@@ -312,9 +288,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf"
     },
     "conditionName": "Hepatitis C – Chronic",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "hepatitis c",
       "hcv"
@@ -359,9 +333,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
     "conditionName": "Hypothyroidism",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "hypothyroidism",
       "hypothyroid",
@@ -383,9 +355,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
     },
     "conditionName": "Low Testosterone (Low T) Hypogonadism",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "low testosterone",
       "low t",
@@ -408,9 +378,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf"
     },
     "conditionName": "MASH / NASH (Liver)",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "mash",
       "nash",
@@ -458,9 +426,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
     },
     "conditionName": "Mitral Valve Repair",
-    "item18Codes": [
-      "item18-heart"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "mitral valve",
       "valve repair",
@@ -482,9 +448,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf"
     },
     "conditionName": "Polycystic Ovarian Syndrome (PCOS)",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "pcos",
       "polycystic ovarian",
@@ -506,9 +470,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf"
     },
     "conditionName": "Prediabetes",
-    "item18Codes": [
-      "item18-diabetes"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "prediabetes",
       "pre-diabetes",
@@ -530,9 +492,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/PrimaryHemochromatosisDispositionTable.pdf"
     },
     "conditionName": "Primary Hemochromatosis",
-    "item18Codes": [
-      "item18-gi"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "hemochromatosis",
       "iron overload"
@@ -553,9 +513,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf"
     },
     "conditionName": "Prostate Cancer",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "prostate cancer"
     ],
@@ -575,9 +533,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Psoriasis_dispo_table.pdf"
     },
     "conditionName": "Psoriasis",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "psoriasis"
     ],
@@ -597,9 +553,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf"
     },
     "conditionName": "Renal Cancer",
-    "item18Codes": [
-      "item18-kidney"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "renal cancer",
       "kidney cancer",
@@ -621,9 +575,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf"
     },
     "conditionName": "Retained Kidney Stone(s)",
-    "item18Codes": [
-      "item18-kidney"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "kidney stone",
       "kidney stones",
@@ -646,9 +598,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACITesticularCancer.pdf"
     },
     "conditionName": "Testicular Cancer",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "testicular cancer"
     ],
@@ -668,9 +618,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf"
     },
     "conditionName": "Weight Loss Management",
-    "item18Codes": [
-      "item18-other"
-    ],
+    "item18Codes": [],
     "matchKeywords": [
       "weight loss",
       "bariatric",
