@@ -1,6 +1,6 @@
 {
   "contentVersion": "2026-05-28",
-  "generatedAt": "2026-05-28T16:02:29Z",
+  "generatedAt": "2026-05-28T17:28:51Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -29,8 +29,8 @@
     },
     {
       "filename": "regulation_requirements.json",
-      "size": 2862,
-      "checksum": "6d551328e9a5d7ef7453f3e13c8287ec1836ce0ba768565e275c029c1d1e513d"
+      "size": 2124,
+      "checksum": "d422f43327e25187528275e349850cd55065bfc2fc77e9664a0db5f816c68ac3"
     },
     {
       "filename": "si_conditions.json",
