@@ -1,0 +1,54 @@
+[
+  {
+    "appliesToClass" : [
+      "first"
+    ],
+    "displayName" : "First-Class Electrocardiogram (EKG)",
+    "envelope" : {
+      "code" : "reg-67111-class1-ekg",
+      "contentVersion" : "2026.0-sample",
+      "lastVerified" : "2026-05-28T00:00:00Z",
+      "sourceCitation" : "14 CFR 67.111",
+      "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.111"
+    },
+    "regulationCitation" : "14 CFR 67.111",
+    "states" : [
+      {
+        "body" : "Under 14 CFR 67.111(b)(1), a First-Class airman must show an EKG at the first application after reaching the 35th birthday. We don't have one logged for you yet. Plan to have it done at your next AME visit; the EKG must be dated within 60 days of that exam to qualify (14 CFR 67.111(c)).",
+        "citation" : "14 CFR 67.111(b)(1)",
+        "icon" : "waveform.path.ecg",
+        "key" : "baselineDue",
+        "tint" : "orange",
+        "title" : "Baseline EKG due at your next exam"
+      },
+      {
+        "body" : "Your baseline EKG is recorded. Under 14 CFR 67.111(b)(1), this one-time baseline satisfies the EKG requirement for first-class applications between ages 35-39 — the annual EKG cadence in 14 CFR 67.111(b)(2) doesn't kick in until your 40th birthday.",
+        "citation" : "14 CFR 67.111(b)(1)",
+        "icon" : "checkmark.seal",
+        "key" : "baselineSatisfied",
+        "tint" : "green",
+        "title" : "Baseline EKG done — no annual EKG until age 40"
+      },
+      {
+        "body" : "Under 14 CFR 67.111(b)(2), a First-Class airman at age 40+ must show an EKG on an annual basis. Our records don't show one in the last 12 months. Plan to have it done at your next AME visit; the EKG must be dated within 60 days of that exam to qualify (14 CFR 67.111(c)). Class-1 medicals at 40+ are 6-month cycles, so the EKG is effectively every other exam, not every exam.",
+        "citation" : "14 CFR 67.111(b)(2)",
+        "icon" : "waveform.path.ecg",
+        "key" : "annualDue",
+        "tint" : "orange",
+        "title" : "Your EKG is due at your next exam"
+      },
+      {
+        "body" : "Your most recent EKG is within the last 12 months. Under 14 CFR 67.111(b)(2), First-Class airmen at age 40+ must show an EKG on an annual basis — at the 6-month exam cycles, your most recent EKG counts as long as it's still within the rolling 12-month window. The specific EKG offered at exam time must be dated within 60 days of that exam (14 CFR 67.111(c)).",
+        "citation" : "14 CFR 67.111(b)(2)",
+        "icon" : "checkmark.seal",
+        "key" : "annualSatisfiedFresh",
+        "tint" : "green",
+        "title" : "Your EKG is current — not due at your next exam"
+      }
+    ],
+    "triggerAgeBaseline" : 35,
+    "triggerAgeRecurring" : 40,
+    "recurringCadenceMonths" : 12,
+    "validityWindowDays" : 60
+  }
+]
