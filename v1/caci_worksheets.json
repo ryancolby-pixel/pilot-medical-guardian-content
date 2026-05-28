@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "envelope" : {
+      "code" : "caci-hypertension",
+      "contentVersion" : "2026.0-sample",
+      "lastVerified" : "2026-05-28T00:00:00Z",
+      "sourceCitation" : "FAA Guide for AMEs — CACI Hypertension Worksheet (updated 04/13/2022)",
+      "sourceURL" : "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+    },
+    "conditionName" : "Hypertension",
+    "item18Codes" : [
+      "item18-bp"
+    ],
+    "matchKeywords" : [
+      "hypertension",
+      "high blood pressure",
+      "htn"
+    ],
+    "eligibilityCriteria" : "To determine the applicant's eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. HOWEVER, the AME is not required to review a Clinical Progress Note from the treating physician IF the AME can otherwise determine that the applicant has had stable clinical blood pressure control on the current antihypertensive medication for at least 7 days, without symptoms from the hypertension or adverse medication side-effects, and no treatment changes are recommended. If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.",
+    "documentsRequired" : "AME MUST REVIEW — ACCEPTABLE CERTIFICATION CRITERIA:\n\n• Treating physician (or the AME) finds the condition stable on current regimen for at least 7 days, and no changes recommended.\n• Symptoms: None.\n• Blood pressure in office: Less than or equal to 155 systolic and 95 diastolic. (Although 155/95 is acceptable for certification, the airman should be referred to their primary provider for further management if the blood pressure is above clinical practice standards.)\n• Acceptable medication(s) — see the Medication criteria section.\n• Side effects from medications: None.\n\nAME MUST NOTE in Block 60 one of the following:\n[ ] CACI qualified hypertension. (Documents do not need to be submitted to the FAA.)\n[ ] Has current OR previous SI/AASI but now CACI qualified hypertension.\n[ ] NOT CACI qualified hypertension. I have deferred. (Submit supporting documents.)",
+    "medicationCriteria" : "Combinations of up to 3 of the following acceptable medication classes are allowed: Alpha blockers, Beta-blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors, and/or direct vasodilators.\n\nNOT acceptable: Centrally acting antihypertensives (e.g., clonidine).\n\nNote: Number of medications counts each component. Example: lisinopril/HCTZ counts as 2 medications.\n\nSee the FAA AME Guide \"Pharmaceuticals — Antihypertensive\" page for the complete list of acceptable medications.",
+    "disqualifyingFactors" : "The AME must DEFER (submit to the FAA for possible Special Issuance) if ANY of the following apply (per the FAA AME Guide Item 36. Heart — Hypertension Disposition Table, Section C):\n\n• Treated with 4 or more acceptable medications (combination medications count as the sum of their components).\n• Hypertension is clinically uncontrolled.\n• Unacceptable medications are used.\n• Side effects from medications are present.\n• Medical status of the airman is unclear.\n• Certification has been specifically reserved to the FAA.\n\nIf the airman did not meet standards on exam (BP exceeded 155/95), see the FAA AME Guide Item 55. Blood Pressure for recheck options.",
+    "worksheetURL" : "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+  }
+]
