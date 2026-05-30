@@ -79,6 +79,14 @@
     }
     .card h3 { margin-top: 0; }
     .card a { color: var(--accent); }
+    .shots { display: flex; gap: 12px; overflow-x: auto; padding: 4px 2px 10px; }
+    .shots figure { margin: 0; width: 200px; flex: none; }
+    .shots img {
+      width: 200px; height: auto; display: block;
+      border-radius: 18px; border: 1px solid var(--rule);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.14);
+    }
+    .shots figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 8px; text-align: center; line-height: 1.35; }
     .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 4px; }
     .links a {
       display: inline-block;
@@ -143,6 +151,49 @@
     <div class="card">
       <h3>What it does</h3>
       <p>Tracks your certificate's expiration from the real 14 CFR rules, charts your health metrics against the FAA's own cited thresholds, organizes your doctor visits and medications to match the MedXPress questions, autofills the parts of MedXPress you'd otherwise retype, surfaces the FAA's CACI worksheets when a new diagnosis might qualify, tracks your Special Issuance requirements, and helps you find an AME.</p>
+    </div>
+
+    <!--
+      ====================================================================
+      SCREENSHOTS SECTION - ready to publish, commented out so the live
+      site never shows broken images. TO GO LIVE:
+        1. Add four portrait iPhone PNGs to the /screenshots/ folder
+           (capture specs in /screenshots/README.md):
+             screenshots/home.png       - Home: renewal countdown
+             screenshots/medxpress.png  - MedXPress prep
+             screenshots/si.png         - Special Issuance checklist
+             screenshots/health.png     - Health metric vs FAA threshold
+        2. Delete the "<!--" line above and the "-->" line below.
+      ====================================================================
+    <div class="card">
+      <h3>See it in action</h3>
+      <div class="shots">
+        <figure>
+          <img src="/screenshots/home.png" alt="Home screen showing days until the medical certificate expires">
+          <figcaption>Know exactly when your medical expires</figcaption>
+        </figure>
+        <figure>
+          <img src="/screenshots/medxpress.png" alt="MedXPress prep screen with medications and doctor visits organized">
+          <figcaption>Your MedXPress answers, ready to go</figcaption>
+        </figure>
+        <figure>
+          <img src="/screenshots/si.png" alt="Special Issuance checklist with requirements and reminders">
+          <figcaption>Stay on top of Special Issuance</figcaption>
+        </figure>
+        <figure>
+          <img src="/screenshots/health.png" alt="A health metric charted against the FAA's cited threshold">
+          <figcaption>Your numbers vs. the FAA's own thresholds</figcaption>
+        </figure>
+      </div>
+      <p class="muted" style="margin: 6px 0 0;">Screens use sample data and reflect an app in active private beta.</p>
+    </div>
+    -->
+
+    <div class="card">
+      <h3>Why I built this</h3>
+      <p>I'm a pilot at a major U.S. airline. Over the years I watched friends — healthy, capable aviators — get blindsided not by their health, but by the paperwork around it: a renewal that slipped, a Special Issuance requirement that got missed, a MedXPress answer that didn't match last cycle's. Your medical certificate is one of the few things that can ground a career overnight, and almost no one has a system for protecting it.</p>
+      <p>So I built the one I wanted — private by design, grounded in the FAA's own published rules, and built so that I (or anyone else) can never see your data. It keeps you organized; your AME still makes every certification decision.</p>
+      <p class="muted">— The pilot behind Pilot Medical Guardian</p>
     </div>
 
     <div class="card">
