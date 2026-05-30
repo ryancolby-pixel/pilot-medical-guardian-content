@@ -28,3 +28,58 @@ seed only what each shot needs so no real data sneaks in.
 
 Set covers: orientation → headline autofill → Special Issuance → data
 credibility. Doing only three? Drop `health.png` and remove its `<figure>` block.
+
+## Step by step (recommended device: iOS Simulator)
+
+**Use the iOS Simulator (iPhone 16 Pro), not your real iPhone.** Two reasons: a
+clean status bar (always 9:41, full signal/battery — looks professional), and
+**zero risk of your real medical data landing in a public screenshot.** (On a
+real device you'd have to erase your actual records to avoid showing real
+conditions/meds — don't.)
+
+**One-time setup**
+1. Open the app project in Xcode.
+2. In the toolbar run-destination menu (top, next to the scheme), choose
+   **iPhone 16 Pro** (a Simulator, not your iPad).
+3. Press **⌘R**; wait for the Simulator to boot and the app to launch.
+4. Set Light mode: Simulator menu bar → **Features → Toggle Appearance** until
+   light (or in the simulated phone, Settings → Display & Brightness → Light).
+5. If any data exists, open **About (ⓘ) → Erase All Data**.
+6. Run onboarding with demo info — name "Demo Pilot" (or blank), any DOB, Class 1.
+- **Screenshot key:** with the Simulator focused, press **⌘S** (or menu →
+  File → Save Screen). PNG lands on your Desktop.
+
+**`home.png`** — My Medical tab → add a certificate (Class 1, exam date ~7 months
+ago so the countdown shows a healthy ~150 days, not expired/red) → tap Home tab → ⌘S.
+
+**`medxpress.png`** — My Records → Medications → add "Lisinopril" 10mg once daily
++ "Vitamin D". My Records → Doctor Visits → add "Dr. Smith", Family Medicine,
+recent date, reason "Annual physical". My Records → MedXPress Prep → ⌘S.
+
+**`si.png`** — Special Issuance tab → Add a condition → Hypertension. (Optional:
+set a reminder on one item, mark one document submitted.) Open the Hypertension
+detail → ⌘S.
+
+**`health.png`** — Health tab → Add a reading → Blood Pressure → add 3 readings on
+different dates (e.g. 118/78, 121/80, 119/79). Tap Blood Pressure to expand its
+chart (orange dashed 155 mmHg line + citation appear) → ⌘S.
+
+**Finish** — rename the 4 Desktop PNGs to `home.png` / `medxpress.png` / `si.png`
+/ `health.png`, move them into this folder, then uncomment the gallery in
+`index.html` (delete the `<!--` and `-->` lines around "See it in action").
+
+## Keep in sync as features change
+
+**Screenshots are versioned content, not set-and-forget.** When a build changes,
+redesigns, or removes a feature shown here, update or remove the affected shot in
+the same pass — a public screenshot of a screen that no longer matches the app is
+a credibility (and, for medical copy, an accuracy) problem.
+
+Current shot → feature mapping:
+- `home.png` → Home renewal countdown
+- `medxpress.png` → MedXPress Prep (Items 17/19)
+- `si.png` → Special Issuance checklist
+- `health.png` → Health metric vs FAA threshold (Blood Pressure)
+
+If a feature in a shot is removed from the app, remove that shot **and** its
+`<figure>` block from `index.html`. If a shot's screen is redesigned, recapture it.
