@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pilot Medical Guardian</title>
+  <meta name="description" content="Pilot Medical Guardian — a privacy-first iOS app that helps pilots protect their FAA medical certificate. Your health data stays on your device and your own iCloud.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #111418;
+      --muted: #5a6271;
+      --rule: #e3e7ee;
+      --accent: #0a64f4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1116;
+        --card: #181b22;
+        --text: #f0f2f6;
+        --muted: #9aa3b3;
+        --rule: #262a33;
+        --accent: #58a6ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 28px 22px 80px; }
+    header {
+      display: flex; align-items: center; gap: 12px;
+      padding-bottom: 18px; border-bottom: 1px solid var(--rule);
+    }
+    header .mark {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: linear-gradient(135deg, #0a64f4, #2bb8d6);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 20px;
+    }
+    header h1 { margin: 0; font-size: 1.05rem; font-weight: 600; }
+    header .sub { color: var(--muted); font-size: 0.85rem; }
+    h2 { font-size: 1.8rem; margin: 28px 0 8px; line-height: 1.2; }
+    h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+    p { margin: 8px 0; color: var(--text); }
+    .lede {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 22px 0 12px;
+    }
+    .lede p { margin: 0; font-size: 1.02rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 14px 0;
+    }
+    .card h3 { margin-top: 0; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 4px; }
+    .links a {
+      display: inline-block;
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .links a:hover { border-color: var(--accent); }
+    .muted { color: var(--muted); font-size: 0.92rem; }
+    footer {
+      margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule);
+      color: var(--muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .meta { color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
+    .badge {
+      display: inline-block; font-size: 0.72rem; font-weight: 600;
+      color: var(--muted); border: 1px solid var(--rule); border-radius: 999px;
+      padding: 3px 10px; margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark" aria-hidden="true">✈︎</div>
+      <div>
+        <h1>Pilot Medical Guardian</h1>
+        <div class="sub">FAA medical certificate, organized and protected</div>
+      </div>
+    </header>
+
+    <span class="badge" style="margin-top: 22px;">Private beta</span>
+    <h2>Protect your FAA medical certificate.</h2>
+
+    <div class="lede">
+      <p><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress prep organized — so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud. The developer can never see it.</p>
+    </div>
+
+    <div class="card">
+      <h3>Built so we can't see your data</h3>
+      <p>Your records sync only through your own iCloud private database. There's no Pilot Medical Guardian server holding your health, disclosure, or Special Issuance data — that isn't a promise to behave, it's how the app is built.</p>
+    </div>
+
+    <div class="card">
+      <h3>What it does</h3>
+      <p>Tracks your certificate's expiration from the real 14 CFR rules, charts your health metrics against the FAA's own cited thresholds, organizes your doctor visits and medications to match the MedXPress questions, autofills the parts of MedXPress you'd otherwise retype, surfaces the FAA's CACI worksheets when a new diagnosis might qualify, tracks your Special Issuance requirements, and helps you find an AME.</p>
+    </div>
+
+    <div class="links">
+      <a href="/faq.html">Read the FAQ</a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </div>
+
+    <p class="muted" style="margin-top: 22px;">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
+
+    <footer>
+      <p>Pilot Medical Guardian · Private beta</p>
+      <p>This site describes an app currently in private beta. Content is draft and pending review by an Aviation Medical Examiner before public launch.</p>
+    </footer>
+  </div>
+</body>
+</html>
