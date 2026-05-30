@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questions &amp; Answers — Pilot Medical Guardian</title>
+  <meta name="description" content="Plain-language answers about Pilot Medical Guardian, a privacy-first iOS app that helps pilots protect their FAA medical certificate.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #111418;
+      --muted: #5a6271;
+      --rule: #e3e7ee;
+      --accent: #0a64f4;
+      --warnbg: #fff7e6;
+      --warnrule: #f0d9a6;
+      --warntext: #6b4e12;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1116;
+        --card: #181b22;
+        --text: #f0f2f6;
+        --muted: #9aa3b3;
+        --rule: #262a33;
+        --accent: #58a6ff;
+        --warnbg: #2a2310;
+        --warnrule: #4a3d18;
+        --warntext: #e8cf95;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 28px 22px 80px; }
+    header {
+      display: flex; align-items: center; gap: 12px;
+      padding-bottom: 18px; border-bottom: 1px solid var(--rule);
+    }
+    header .mark {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: linear-gradient(135deg, #0a64f4, #2bb8d6);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 20px;
+    }
+    header h1 { margin: 0; font-size: 1.05rem; font-weight: 600; }
+    header .sub { color: var(--muted); font-size: 0.85rem; }
+    h2 { font-size: 1.8rem; margin: 28px 0 8px; line-height: 1.2; }
+    h3 { font-size: 1.45rem; margin: 30px 0 4px; }
+    p { margin: 8px 0; color: var(--text); }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 5px 0; }
+    .lede {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 22px 0 12px;
+    }
+    .lede p { margin: 0; font-size: 1.02rem; }
+    .banner {
+      background: var(--warnbg);
+      border: 1px solid var(--warnrule);
+      color: var(--warntext);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin: 22px 0 8px;
+    }
+    .banner p { margin: 0; color: var(--warntext); font-size: 0.98rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 14px 0;
+    }
+    .card h4 { font-size: 1.05rem; margin: 0 0 6px; }
+    .muted { color: var(--muted); font-size: 0.92rem; }
+    footer {
+      margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule);
+      color: var(--muted); font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .meta { color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark" aria-hidden="true">✈︎</div>
+      <div>
+        <h1>Pilot Medical Guardian</h1>
+        <div class="sub">Questions &amp; Answers</div>
+      </div>
+    </header>
+
+    <h2>Questions &amp; Answers</h2>
+    <p class="meta">Updated May 30, 2026 · Beta version of the app</p>
+
+    <div class="banner">
+      <p><strong>Please read first:</strong> Pilot Medical Guardian is in beta and under active development. It is an <strong>information and record-keeping tool — not medical advice, not legal advice, and not FAA compliance certification.</strong> It never tells you whether you are fit to fly. It is <strong>not affiliated with, endorsed by, or approved by the FAA.</strong> Some FAA reference content is still marked "draft — pending review by an Aviation Medical Examiner." Always consult your AME for medical certification decisions.</p>
+    </div>
+
+    <div class="lede">
+      <p><strong>The short version:</strong> Pilot Medical Guardian helps pilots — any class of medical (1, 2, or 3) — protect their FAA medical certificate. Everything stays encrypted on your own device and your own iCloud; the developer can never see your health or medical data.</p>
+    </div>
+
+    <h3>How is this different from what I already use?</h3>
+
+    <div class="card">
+      <h4>I already have AOPA and/or AMAS — how is Pilot Medical Guardian different?</h4>
+      <p>Short version: <strong>AOPA and AMAS are services you call when you need help. Pilot Medical Guardian is a tool you own that keeps you organized and prepared so you need that help less often — and it never sees your data.</strong></p>
+      <ul>
+        <li><strong>It's a tool, not a consulting service.</strong> AMAS and AOPA's pilot-protection services connect you with people who advise you on a specific problem, usually after it already exists. PMG organizes <em>your own</em> records and surfaces the FAA's <em>own</em> cited reference material so you walk into your exam — and into those conversations — already prepared.</li>
+        <li><strong>Privacy is the real difference.</strong> To help you, a consulting service necessarily has to know your situation — your conditions, medications, history. Pilot Medical Guardian is built so that no one but you can ever see your medical information, not even the developer. There is no PMG server that holds your data.</li>
+        <li><strong>It's always-on, not engaged-when-something-breaks.</strong> The app continuously tracks your certificate's expiration, watches your health trends against the FAA's cited thresholds, keeps your Special Issuance checklist on cadence, and pre-builds your MedXPress every cycle.</li>
+        <li><strong>It complements them — it doesn't replace them.</strong> When something genuinely goes sideways, a human expert like AMAS or an aviation attorney is exactly who you want. PMG's job is to keep you organized so fewer things go sideways, and so you're prepared when one does.</li>
+      </ul>
+      <p>On MedXPress specifically: PMG's Safari extension fills the live MedXPress form fields directly in Safari — the medications and doctor visits you'd otherwise retype every cycle — entirely on your device with nothing sent to a server. It also warns you when this cycle's answers drift from last cycle's.</p>
+    </div>
+
+    <div class="card">
+      <h4>Do I still need my AME?</h4>
+      <p>Yes — absolutely. PMG is a record-keeping and information tool, not a substitute for your Aviation Medical Examiner. It never tells you whether you're fit to fly and never makes a certification decision. It helps you show up to your AME organized and prepared. Your AME is the one who examines you and issues (or defers) your certificate.</p>
+    </div>
+
+    <div class="card">
+      <h4>Is this the same as a logbook app or an EFB?</h4>
+      <p>No. Logbook apps track flight time; EFBs handle charts and flight planning. PMG is focused entirely on protecting your <strong>medical</strong> certificate — disclosure prep, renewal timing, Special Issuance tracking, health trends against FAA thresholds, and MedXPress autofill.</p>
+    </div>
+
+    <h3>Privacy &amp; your data</h3>
+
+    <div class="card">
+      <h4>Can the developer (or anyone) see my medical information?</h4>
+      <p>No. The app stores everything on your device and syncs only through <em>your</em> personal iCloud private database, tied to your Apple ID. There is no PMG server, no analytics on your health data, and no third party in the loop. The developer cannot see your conditions, medications, history, Special Issuance details, or documents — by design.</p>
+    </div>
+
+    <div class="card">
+      <h4>Where is my data stored?</h4>
+      <p>On your iPhone/iPad (encrypted at rest), and synced to your own iCloud account so it's available across your Apple devices and survives a lost phone. That's it — it never goes anywhere else.</p>
+    </div>
+
+    <div class="card">
+      <h4>What happens to my data if I stop using the app or delete it?</h4>
+      <p>It's yours. You can erase everything from inside the app (About &rarr; Erase All Data). If you delete the app, your local copy goes with it; your iCloud copy follows your normal iCloud data controls. Because nothing is on a PMG server, there's no account for us to close and no copy of your data for us to keep.</p>
+    </div>
+
+    <div class="card">
+      <h4>Does it read my Apple Health / Apple Watch data?</h4>
+      <p>Only with your permission, and only read-only — PMG never writes to Apple Health. It pulls metrics like heart rate, HRV, SpO2, and VO2 max so it can chart your trends against the FAA's cited thresholds. Wearables like Garmin, Whoop, Oura, Fitbit, and CGMs flow in through Apple Health too. You can decline and still use everything else.</p>
+    </div>
+
+    <h3>What the app does (and doesn't do)</h3>
+
+    <div class="card">
+      <h4>Does it tell me whether I'm fit to fly, or whether I should disclose something?</h4>
+      <p>No — and this is deliberate. The app is strictly descriptive: it shows you your reading, the FAA's cited threshold, and the source, but it never renders a pass/fail or fitness verdict and never advises you on a disclosure decision. Those judgments are between you and your AME.</p>
+    </div>
+
+    <div class="card">
+      <h4>Is this medical or legal advice?</h4>
+      <p>No. Pilot Medical Guardian is not medical advice, not legal advice, and not FAA compliance certification. It helps you keep records and surfaces the FAA's own published reference material with citations. Always consult your AME for medical certification questions.</p>
+    </div>
+
+    <div class="card">
+      <h4>Which classes of medical does it support?</h4>
+      <p>All of them — Class 1, 2, and 3. The certificate-duration math, renewal reminders, and reference content all work for professional and general-aviation pilots alike.</p>
+    </div>
+
+    <div class="card">
+      <h4>I have a Special Issuance — what does the app do for me?</h4>
+      <p>Special Issuance tracking is one of the deepest parts of the app, because an SI is where pilots most often get tripped up. Once you add your condition, PMG:</p>
+      <ul>
+        <li><strong>Builds your requirements checklist</strong> from the FAA's published requirements for that condition, with each item cited to its source.</li>
+        <li><strong>Keeps you on cadence</strong> — set a reminder for a recurring requirement (e.g., "annual stress test, three months before my medical is due") and the app reminds you, on whatever schedule you pick. Reminders are deliberately generic on your lock screen so your condition never shows there.</li>
+        <li><strong>Stores your documentation encrypted</strong> — physician letters, test results, your Authorization letter — on your device and your private iCloud, and can assemble it all into a single share-ready package when it's time to submit.</li>
+        <li><strong>Tracks what you've sent to the FAA</strong> — the #1 cause of an SI problem is "they never received it," so each document shows whether it's been submitted.</li>
+        <li><strong>Alerts you when a requirement changes</strong> — if the FAA's published requirements for your condition change, the app flags it and shows you the old wording next to the new wording so nothing slips by.</li>
+        <li><strong>Explains AASI vs. full Special Issuance</strong> in plain language, cited to the source — descriptive, never a recommendation about your path.</li>
+      </ul>
+      <p>If your condition isn't in our curated list, you can add a <strong>custom Special Issuance</strong> and build the checklist yourself from your own Authorization letter. Custom SIs are purely your personal tracking — they never leave your device, and they're not FAA reference content, so the app labels them as such.</p>
+    </div>
+
+    <h3>MedXPress autofill</h3>
+
+    <div class="card">
+      <h4>How does the MedXPress autofill work?</h4>
+      <p>It's a Safari Web Extension. You open MedXPress in Safari, tap the PMG button, and it fills the form fields from the data you've already entered in the app — so you don't retype your medications and doctor visits every cycle. You always review everything before you submit; the app never auto-submits for you.</p>
+    </div>
+
+    <div class="card">
+      <h4>Why doesn't it autofill the entire form?</h4>
+      <p>Two reasons. First, MedXPress already remembers your static demographic info (name, address, etc.) for returning applicants, so there's no point duplicating that. Second, the medical-history section sits behind bot-protection on the FAA's site that blocks bulk automated filling; the app fills a handful of your "Yes" answers with their saved explanations and shows you the rest as a reference card to fill in by hand. The autofill focuses on the genuinely painful, retype-every-cycle parts: your medications and your visits.</p>
+    </div>
+
+    <div class="card">
+      <h4>Is it safe to use on the FAA's website?</h4>
+      <p>Yes. The extension only fills fields you can see, using data that's already on your device, and it never submits anything — you review and click Submit yourself. Browser form-fillers (password managers and the like) work this same well-established way.</p>
+    </div>
+
+    <h3>Trust &amp; content</h3>
+
+    <div class="card">
+      <h4>Is the FAA reference content reviewed by a doctor?</h4>
+      <p>During the beta, the FAA reference content is currently marked <strong>"draft — pending AME review"</strong> in the app. Before public launch, an Aviation Medical Examiner reviews the interpretive content — the Special Issuance summaries, requirement checklists, and similar material — and <strong>verifies that each citation actually matches what the cited FAA source says.</strong> That check is the whole point of the review: it's not a doctor's opinion about you, it's a credentialed examiner confirming we quoted and pointed to the FAA correctly. Once an entry is verified, the app shows who reviewed it and the date, alongside the citation.</p>
+      <p>Everything carries its citation and source link so you can verify it against the FAA yourself, too. And we never invent a value or rule — if it isn't in an authoritative FAA source, it doesn't ship.</p>
+    </div>
+
+    <div class="card">
+      <h4>Is this affiliated with or endorsed by the FAA?</h4>
+      <p>No. Pilot Medical Guardian is an independent app. It is not affiliated with, endorsed by, or approved by the FAA. It cites the FAA's published materials so you can read the source yourself, but the FAA has no involvement in the app.</p>
+    </div>
+
+    <div class="card">
+      <h4>Who built this, and why?</h4>
+      <p>It's built by an airline pilot who watched too many colleagues get blindsided by medical-certification paperwork problems — denials, lost Special Issuance authorizations, MedXPress mistakes — and wanted the tool he wished existed. It's a privacy-first project meant to be sustainable so it can keep helping pilots, not a data business.</p>
+    </div>
+
+    <h3>Practical</h3>
+
+    <div class="card">
+      <h4>What does it cost?</h4>
+      <p>During the beta it's free. Final pricing isn't locked yet — we're calibrating it with beta testers to make sure it's fair for what it delivers. We'll be upfront about pricing well before anything changes.</p>
+    </div>
+
+    <div class="card">
+      <h4>Does it work on iPad?</h4>
+      <p>Yes. It's a universal app and runs on iPhone and iPad. The MedXPress autofill is especially handy on iPad, where you can keep Safari and the form side-by-side.</p>
+    </div>
+
+    <div class="card">
+      <h4>Do I need an Apple Watch?</h4>
+      <p>No. The health-trends feature is richer if you have one (or another wearable that syncs to Apple Health), but every other feature — renewal tracking, disclosure prep, MedXPress autofill, Special Issuance, AME directory — works without one.</p>
+    </div>
+
+    <div class="card">
+      <h4>Why does the AME directory only show some examiners?</h4>
+      <p>Right now it's limited to a verified subset (HIMS-trained AMEs and others we've confirmed) while we wait on a fuller FAA designee list we've formally requested. The app tells you this directly and points you to the FAA's official locator in the meantime.</p>
+    </div>
+
+    <div class="card">
+      <h4>How do I give feedback or report a problem?</h4>
+      <p>Reply to the beta email or use the feedback channel noted in TestFlight, or email <a href="mailto:ryan.colby@me.com">ryan.colby@me.com</a> — it goes straight to the developer. Tester feedback is exactly how the app gets better; nothing is too small.</p>
+    </div>
+
+    <p class="muted" style="margin-top: 22px;">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice.</p>
+
+    <footer>
+      <p>Pilot Medical Guardian · Operated by Ryan Colby · <a href="privacy.html">Privacy Policy</a> · <a href="https://github.com/ryancolby-pixel/pilot-medical-guardian-content">Public content repository</a></p>
+      <p>This page describes an app in private beta and will be reviewed by a healthcare/aviation attorney before the app's public (non-beta) launch.</p>
+    </footer>
+  </div>
+</body>
+</html>
