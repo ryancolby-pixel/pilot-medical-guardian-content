@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pilot Medical Guardian</title>
   <meta name="description" content="Pilot Medical Guardian — a privacy-first iOS app that helps pilots protect their FAA medical certificate. Your health data stays on your device and your own iCloud.">
+  <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/logo.png">
   <style>
     :root {
       color-scheme: light dark;
@@ -40,9 +42,7 @@
     }
     header .mark {
       width: 44px; height: 44px; border-radius: 10px;
-      background: linear-gradient(135deg, #0a64f4, #2bb8d6);
-      display: flex; align-items: center; justify-content: center;
-      color: #fff; font-weight: 700; font-size: 20px;
+      object-fit: cover; display: block;
     }
     header h1 { margin: 0; font-size: 1.05rem; font-weight: 600; }
     header .sub { color: var(--muted); font-size: 0.85rem; }
@@ -95,7 +95,7 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="mark" aria-hidden="true">✈︎</div>
+      <img class="mark" src="/logo.png" alt="Pilot Medical Guardian logo" width="44" height="44">
       <div>
         <h1>Pilot Medical Guardian</h1>
         <div class="sub">FAA medical certificate, organized and protected</div>
