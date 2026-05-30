@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pilot Medical Guardian</title>
-  <meta name="description" content="Pilot Medical Guardian — a privacy-first iOS app that helps pilots protect their FAA medical certificate. Your health data stays on your device and your own iCloud.">
+  <title>What's New — Pilot Medical Guardian</title>
+  <meta name="description" content="What's recently shipped in Pilot Medical Guardian, and what we're working on next.">
   <meta name="theme-color" content="#1c66d9">
   <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
@@ -41,7 +41,6 @@
       font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    /* Full-bleed brand gradient hero — the app's BrandHeader, on the web. */
     .hero { background: var(--brand-grad); color: #fff; padding: 34px 22px 26px; }
     .hero-inner { max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 18px; }
     .hero-logo {
@@ -78,24 +77,13 @@
       margin: 14px 0;
     }
     .card h3 { margin-top: 0; }
-    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 4px; }
-    .links a {
-      display: inline-block;
-      border-radius: var(--radius-chip);
-      padding: 13px 18px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .links a.primary {
-      background: var(--brand-grad); color: #fff; border: 0;
-      box-shadow: 0 4px 14px rgba(28,102,217,0.30);
-    }
-    .links a.primary:hover { filter: brightness(1.05); }
-    .links a.secondary {
-      background: var(--card); border: 1px solid var(--rule); color: var(--accent);
-    }
-    .links a.secondary:hover { border-color: var(--accent); }
+    .card ul { margin: 8px 0 2px; padding-left: 20px; }
+    .card li { margin: 6px 0; }
     .muted { color: var(--muted); font-size: 0.92rem; }
+    .eyebrow {
+      display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+      color: var(--accent); letter-spacing: 0.04em; margin: 26px 0 2px;
+    }
     footer {
       margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule);
       color: var(--muted); font-size: 0.85rem;
@@ -115,12 +103,12 @@
       <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
       <div>
         <div class="hero-name">Pilot Medical Guardian</div>
-        <div class="hero-tag">FAA medical certificate, organized and protected</div>
+        <div class="hero-tag">What's new, and what's next</div>
       </div>
     </div>
     <nav class="hero-nav">
-      <a href="/" aria-current="page">Home</a>
-      <a href="/whats-new.html">What's New</a>
+      <a href="/">Home</a>
+      <a href="/whats-new.html" aria-current="page">What's New</a>
       <a href="/faq.html">FAQ</a>
       <a href="/privacy.html">Privacy</a>
     </nav>
@@ -128,32 +116,46 @@
 
   <div class="wrap">
     <span class="badge">Private beta</span>
-    <h2>Protect your FAA medical certificate.</h2>
+    <h2>What's new, and what's next</h2>
 
     <div class="lede">
-      <p><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress prep organized — so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud. The developer can never see it.</p>
+      <p><strong>Pilot Medical Guardian is built in the open with our beta pilots.</strong> Here's what's recently landed in the app and what we're working on now. The app is in private beta, so things move quickly — this page is a snapshot, not a schedule.</p>
     </div>
 
+    <span class="eyebrow">Recently shipped</span>
     <div class="card">
-      <h3>Built so we can't see your data</h3>
-      <p>Your records sync only through your own iCloud private database. There's no Pilot Medical Guardian server holding your health, disclosure, or Special Issuance data — that isn't a promise to behave, it's how the app is built.</p>
+      <h3>Now in the beta</h3>
+      <ul>
+        <li><strong>MedXPress autofill</strong> — fills your medications and doctor visits straight into the FAA form so you don't retype them every cycle.</li>
+        <li><strong>CACI worksheet surfacing</strong> — when you log a diagnosis the FAA's CACI worksheets cover, the app pulls up the FAA's own documents-required checklist so you walk in prepared.</li>
+        <li><strong>Prior-cycle answer check</strong> — snapshots each cycle's prep and flags when this cycle's answers drift from last time.</li>
+        <li><strong>Special Issuance tracking</strong> — keeps your SI requirements, checklist, and physician letters organized, with reminders for recurring tests.</li>
+        <li><strong>Health metrics vs. the FAA's own thresholds</strong> — charts your Apple Health data against the FAA's cited numbers, with the source shown.</li>
+        <li><strong>Renewal countdown</strong> — calculates your certificate's expiration from the real 14 CFR rules and reminds you before it lapses.</li>
+        <li><strong>AME directory</strong> — searchable, factual list of Aviation Medical Examiners, sortable by distance.</li>
+        <li><strong>iPad layout</strong> — a proper sidebar on iPad, plus polish across the app.</li>
+      </ul>
     </div>
 
+    <span class="eyebrow">What we're working on</span>
     <div class="card">
-      <h3>What it does</h3>
-      <p>Tracks your certificate's expiration from the real 14 CFR rules, charts your health metrics against the FAA's own cited thresholds, organizes your doctor visits and medications to match the MedXPress questions, autofills the parts of MedXPress you'd otherwise retype, surfaces the FAA's CACI worksheets when a new diagnosis might qualify, tracks your Special Issuance requirements, and helps you find an AME.</p>
+      <h3>In progress</h3>
+      <p class="muted" style="margin-top:0;">Directions we're actively building. No promises on dates — beta priorities shift with tester feedback.</p>
+      <ul>
+        <li><strong>Apple Health Records import</strong> — pull your real medications and lab results from your healthcare provider, on your device, to speed up your prep.</li>
+        <li><strong>Home Screen &amp; Lock Screen widgets</strong> — a glanceable countdown to your next deadline: medical expiration, an SI test that's due, or a document that's expiring.</li>
+        <li><strong>Siri &amp; Spotlight</strong> — ask "when does my medical expire?" or jump straight to MedXPress prep.</li>
+        <li><strong>Maps in the AME directory</strong> — see nearby AMEs on a map and get directions.</li>
+        <li><strong>Faster visit entry</strong> — reuse a saved provider or duplicate a past visit in one tap.</li>
+        <li><strong>Calendar-based reminders</strong> — add your renewal deadlines to your own calendar so it can remind you however you've set it up.</li>
+      </ul>
     </div>
 
-    <div class="links">
-      <a class="primary" href="/faq.html">Read the FAQ</a>
-      <a class="secondary" href="/privacy.html">Privacy Policy</a>
-    </div>
-
-    <p class="muted" style="margin-top: 22px;">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
+    <p class="muted" style="margin-top: 22px;">Found a bug or have a request? Beta testers can send feedback right from the app (About &rarr; Send feedback), or email <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a>.</p>
 
     <footer>
       <p>Pilot Medical Guardian · Private beta</p>
-      <p>This site describes an app currently in private beta. Content is draft and pending review by an Aviation Medical Examiner before public launch.</p>
+      <p>This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. Content is draft and pending review by an Aviation Medical Examiner before public launch.</p>
     </footer>
   </div>
 </body>
