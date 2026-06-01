@@ -8,59 +8,10 @@
   <meta name="theme-color" content="#1c66d9">
   <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
+  <link rel="stylesheet" href="/site.css">
   <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f6f7f9;
-      --card: #ffffff;
-      --text: #111418;
-      --muted: #525a68;
-      --rule: #e3e7ee;
-      /* Brand palette — matches the app exactly (DesignSystem/BrandMark.swift). */
-      --accent: #1c66d9;            /* Brand.primary */
-      --accent-2: #2e9ecc;          /* gradient end (medical teal) */
-      --brand-grad: linear-gradient(135deg, #1c66d9 0%, #2e9ecc 100%);
-      --radius-card: 14px;
-      --radius-chip: 10px;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f1116;
-        --card: #181b22;
-        --text: #f0f2f6;
-        --muted: #9aa3b3;
-        --rule: #262a33;
-        --accent: #5b9cf0;
-      }
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    .hero { background: var(--brand-grad); color: #fff; padding: 34px 22px 26px; }
-    .hero-inner { max-width: 720px; margin: 0 auto; display: flex; align-items: center; gap: 18px; }
-    .hero-logo {
-      width: 88px; height: 88px; border-radius: 20px; display: block; flex: none;
-      box-shadow: 0 8px 22px rgba(0,0,0,0.24), 0 0 0 1px rgba(255,255,255,0.22);
-    }
-    .hero-name { font-size: 1.55rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.15; }
-    .hero-tag { font-size: 0.98rem; opacity: 0.92; margin-top: 4px; }
-    .hero-nav { max-width: 720px; margin: 20px auto 0; display: flex; gap: 10px; flex-wrap: wrap; }
-    .hero-nav a {
-      color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 600;
-      padding: 7px 14px; border-radius: 999px;
-      background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.30);
-    }
-    .hero-nav a:hover { background: rgba(255,255,255,0.27); }
-    .hero-nav a[aria-current="page"] { background: #fff; color: var(--accent); border-color: #fff; }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 26px 22px 80px; }
-    h2 { font-size: 1.8rem; margin: 14px 0 8px; line-height: 1.2; }
+    /* Page-specific styles for the What's New page. */
     h3 { font-size: 1.05rem; margin: 22px 0 6px; }
-    p { margin: 8px 0; color: var(--text); }
     .lede {
       background: var(--card);
       border: 1px solid var(--rule);
@@ -69,32 +20,8 @@
       margin: 18px 0 12px;
     }
     .lede p { margin: 0; font-size: 1.02rem; }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--rule);
-      border-radius: var(--radius-card);
-      padding: 16px 18px;
-      margin: 14px 0;
-    }
-    .card h3 { margin-top: 0; }
     .card ul { margin: 8px 0 2px; padding-left: 20px; }
     .card li { margin: 6px 0; }
-    .muted { color: var(--muted); font-size: 0.92rem; }
-    .eyebrow {
-      display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
-      color: var(--accent); letter-spacing: 0.04em; margin: 26px 0 2px;
-    }
-    footer {
-      margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule);
-      color: var(--muted); font-size: 0.85rem;
-    }
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-    .badge {
-      display: inline-block; font-size: 0.72rem; font-weight: 700;
-      color: var(--accent); border: 1px solid var(--accent); border-radius: 999px;
-      padding: 3px 11px; margin-bottom: 8px; letter-spacing: 0.02em;
-    }
   </style>
 </head>
 <body>
@@ -140,7 +67,7 @@
     <span class="eyebrow">What we're working on</span>
     <div class="card">
       <h3>In progress</h3>
-      <p class="muted" style="margin-top:0;">Directions we're actively building. No promises on dates — beta priorities shift with tester feedback.</p>
+      <p class="muted">Directions we're actively building. No promises on dates — beta priorities shift with tester feedback.</p>
       <ul>
         <li><strong>Apple Health Records import</strong> — pull your real medications and lab results from your healthcare provider, on your device, to speed up your prep.</li>
         <li><strong>Home Screen &amp; Lock Screen widgets</strong> — a glanceable countdown to your next deadline: medical expiration, an SI test that's due, or a document that's expiring.</li>
@@ -151,7 +78,7 @@
       </ul>
     </div>
 
-    <p class="muted" style="margin-top: 22px;">Found a bug or have a request? Beta testers can send feedback right from the app (About &rarr; Send feedback), or email <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a>.</p>
+    <p class="disclaimer">Found a bug or have a request? Beta testers can send feedback right from the app (About &rarr; Send feedback), or email <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a>.</p>
 
     <footer>
       <p>Pilot Medical Guardian · Private beta</p>
