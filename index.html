@@ -83,6 +83,11 @@
     }
     .card h3 { margin-top: 0; }
     .card a { color: var(--accent); }
+    /* Scannable feature list — replaces the old "What it does" wall of text. */
+    .features { list-style: none; margin: 4px 0 0; padding: 0; }
+    .features li { padding: 9px 0; border-top: 1px solid var(--rule); color: var(--muted); }
+    .features li:first-child { border-top: 0; padding-top: 2px; }
+    .features b { color: var(--text); font-weight: 600; }
     /* Attention callout — the "why this matters" stats block, near the top. */
     .highlight {
       background: var(--accent-tint);
@@ -158,6 +163,23 @@
       <p><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress prep organized — so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud. The developer can never see it.</p>
     </div>
 
+    <div class="links" style="margin: 14px 0 4px;">
+      <a class="primary" href="mailto:support@pilotmedicalguardian.com?subject=Beta%20tester%20interest">Join the private beta</a>
+      <a class="secondary" href="#features">See what it does</a>
+    </div>
+
+    <div class="card" id="features">
+      <h3>What it does</h3>
+      <ul class="features">
+        <li><b>MedXPress autofill</b> — fills the parts of the FAA form you'd otherwise retype every cycle.</li>
+        <li><b>Renewal countdown</b> — your expiration date from the real 14 CFR rules, with reminders before it lapses.</li>
+        <li><b>Special Issuance tracking</b> — requirements, documents, and change-alerts in one encrypted place.</li>
+        <li><b>Health vs. FAA thresholds</b> — charts your metrics against the FAA's own cited limits, so you spot a problem early.</li>
+        <li><b>CACI pathway</b> — surfaces the FAA's worksheet when a new diagnosis might be issued at the desk.</li>
+        <li><b>AME directory</b> — find an examiner by location, including HIMS-trained.</li>
+      </ul>
+    </div>
+
     <div class="card">
       <h3>Built so we can't see your data</h3>
       <p>Your records sync only through your own iCloud private database. There's no Pilot Medical Guardian server holding your health, disclosure, or Special Issuance data — that isn't a promise to behave, it's how the app is built.</p>
@@ -165,14 +187,9 @@
 
     <div class="highlight">
       <h3>The problem is usually the paperwork — not your health</h3>
-      <p>When a pilot runs into trouble with their FAA medical, the agency says it's typically not their health — it's the documentation. In the Federal Air Surgeon's own words, <em>"most of these denials resulted because of a failure of the applicants to provide sufficient information."</em> Incomplete or inconsistent records are what turn a routine renewal into months of back-and-forth — exactly what this app keeps organized.</p>
-      <p>It's common, too: about <strong>1 in 16</strong> certified airmen fly on a Special Issuance, climbing to nearly <strong>1 in 5 past age 65</strong>.</p>
-      <p class="muted" style="margin: 6px 0 0;">Sources: <a href="https://www.faa.gov/faq/how-common-are-denials-third-class-airman-medical-certificates">FAA Federal Air Surgeon</a> · <a href="https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/2024_statistical_handbook.pdf">FAA 2024 Aerospace Medical Certification Statistical Handbook</a> (Oct 2025).</p>
-    </div>
-
-    <div class="card">
-      <h3>What it does</h3>
-      <p>Tracks your certificate's expiration from the real 14 CFR rules, charts your health metrics against the FAA's own cited thresholds, organizes your doctor visits and medications to match the MedXPress questions, autofills the parts of MedXPress you'd otherwise retype, surfaces the FAA's CACI worksheets when a new diagnosis might qualify, tracks your Special Issuance requirements, and helps you find an AME.</p>
+      <p>When a pilot runs into trouble with their FAA medical, it's usually not their health — it's the documentation. In the Federal Air Surgeon's own words, <em>"most of these denials resulted because of a failure of the applicants to provide sufficient information."</em> And it's common: about <strong>1 in 16</strong> certified airmen fly on a Special Issuance — nearly <strong>1 in 5 past age 65</strong>.</p>
+      <p>The FAA says so itself: in its April 2025 review, the agency named <em>"incomplete information on airmen's submissions"</em> a top challenge, and noted Special Issuances have roughly <strong>doubled since 2019</strong>. Its own fix — better paperwork prep and a clearer MedXPress — is exactly what this app does.</p>
+      <p class="muted" style="margin: 6px 0 0;">Sources: <a href="https://www.faa.gov/faq/how-common-are-denials-third-class-airman-medical-certificates">FAA Federal Air Surgeon</a> · <a href="https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/2024_statistical_handbook.pdf">FAA 2024 Aerospace Medical Certification Statistical Handbook</a> (Oct 2025) · <a href="https://www.faa.gov/newsroom/faa-seeks-input-improving-medical-process">FAA "Improving the Medical Process"</a> (Apr 2025).</p>
     </div>
 
     <div class="card">
@@ -200,8 +217,7 @@
 
     <div class="card">
       <h3>Why I built this</h3>
-      <p>I'm a pilot at a major U.S. airline. Over the years I watched friends — healthy, capable aviators — get blindsided not by their health, but by the paperwork around it: a renewal that slipped, a Special Issuance requirement that got missed, a MedXPress answer that didn't match last cycle's. Your medical certificate is one of the few things that can ground a career overnight, and almost no one has a system for protecting it.</p>
-      <p>So I built the one I wanted — private by design, grounded in the FAA's own published rules, and built so that I (or anyone else) can never see your data. It keeps you organized; your AME still makes every certification decision.</p>
+      <p>I'm a pilot at a major U.S. airline. Over the years I watched friends — healthy, capable aviators — get blindsided not by their health, but by the paperwork around it: a renewal that slipped, a Special Issuance requirement that got missed, a MedXPress answer that didn't match last cycle's. So I built the tool I wanted — private by design, grounded in the FAA's own published rules, and built so that no one but you can ever see your data. It keeps you organized; your AME still makes every certification decision.</p>
       <p class="muted">— Ryan, founder of Pilot Medical Guardian</p>
     </div>
 
