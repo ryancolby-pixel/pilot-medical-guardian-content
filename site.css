@@ -66,7 +66,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
   width: 84px; height: 84px; border-radius: 20px; display: block; flex: none;
   box-shadow: 0 10px 26px rgba(0,0,0,0.26), 0 0 0 1px rgba(255,255,255,0.20);
 }
-.hero-name { font-size: clamp(1.4rem, 5.4vw, 1.6rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.12; }
+.hero-name { font-size: clamp(1.4rem, 5.4vw, 1.6rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.12; margin: 0; }
 .hero-tag { font-size: 0.98rem; opacity: 0.9; margin-top: 5px; line-height: 1.35; }
 .hero-nav { max-width: 720px; margin: 20px auto 0; display: flex; gap: 9px; flex-wrap: wrap; }
 .hero-nav a {

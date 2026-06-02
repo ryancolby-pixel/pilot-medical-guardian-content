@@ -8,6 +8,39 @@
   <meta name="theme-color" content="#1c66d9">
   <link rel="canonical" href="https://pilotmedicalguardian.com/">
 
+  <!-- Structured data: helps search engines understand the site + app (no pricing/ratings asserted). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pilotmedicalguardian.com/#org",
+        "name": "Pilot Medical Guardian",
+        "url": "https://pilotmedicalguardian.com/",
+        "logo": "https://pilotmedicalguardian.com/logo.png"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://pilotmedicalguardian.com/#website",
+        "name": "Pilot Medical Guardian",
+        "url": "https://pilotmedicalguardian.com/",
+        "publisher": { "@id": "https://pilotmedicalguardian.com/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pilot Medical Guardian",
+        "operatingSystem": "iOS",
+        "applicationCategory": "UtilitiesApplication",
+        "description": "A privacy-first iPhone and iPad app that helps pilots protect their FAA medical certificate. Prefill MedXPress with your meds and doctor visits, keep your records organized, and stay ahead of your Special Issuance — all on your own device.",
+        "url": "https://pilotmedicalguardian.com/",
+        "image": "https://pilotmedicalguardian.com/og-card.png",
+        "publisher": { "@id": "https://pilotmedicalguardian.com/#org" }
+      }
+    ]
+  }
+  </script>
+
   <!-- Social share (Open Graph + Twitter Card) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Pilot Medical Guardian">
@@ -100,7 +133,7 @@
     <div class="hero-inner">
       <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
       <div>
-        <div class="hero-name">Pilot Medical Guardian</div>
+        <h1 class="hero-name">Pilot Medical Guardian</h1>
         <div class="hero-tag">FAA medical certificate, organized and protected</div>
       </div>
     </div>
