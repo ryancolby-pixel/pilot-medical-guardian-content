@@ -68,6 +68,36 @@ chart (orange dashed 155 mmHg line + citation appear) → ⌘S.
 / `health.png`, move them into this folder, then uncomment the gallery in
 `index.html` (delete the `<!--` and `-->` lines around "See it in action").
 
+## Autofill before/after shots (live MedXPress form)
+
+These four show the Safari extension autofilling the **live** `medxpress.faa.gov`
+form — the headline feature. **This can't be done in the Simulator** (it needs the
+extension running against the real, logged-in FAA form), so it requires a **real
+iPad or iPhone**. That removes the Simulator's clean-room safety, so:
+
+- **Seed DEMO data first.** The autofill types whatever's in the app, so add fake
+  records (or erase your real ones) before capturing — e.g. one med
+  (`Omeprazole 40 mg once daily`) and a couple visits (`Dr. Lee` / `Jordan Avery, FNP`,
+  generic addresses). Never your real meds, providers, or addresses.
+- **Frame to Item 17 or 19 only.** You're logged into your real FAA account, so keep
+  the account header + demographics (Items 1–16: your name, airman number, address)
+  **out of frame.**
+- **Capture two states per item:** *before* (blank form with the "Fill from Pilot
+  Medical Guardian" button) and *after* (panel open + fields filled).
+- **Hand the raw PNGs to Claude for a PII pass.** Claude crops the iOS status bar
+  (time/battery) while keeping the `medxpress.faa.gov` URL pill, swaps any real
+  data to demo values, and web-optimizes. **Raw originals stay local — only the
+  scrubbed `medxpress-*` versions go in git.**
+- **Accuracy:** only Items **17 & 19** autofill — never show or imply Item 18
+  autofilling (Akamai blocks bulk fill there; it's a reference-card path).
+
+| File | Page | What to show |
+|------|------|--------------|
+| `medxpress-autofill-before.png` | MedXPress Item 17 | Blank medication form + the floating "Fill from Pilot Medical Guardian" button |
+| `medxpress-autofill-after.png`  | MedXPress Item 17 | Panel open + a demo medication filled into the fields, verify-accuracy note visible |
+| `medxpress-visit-before.png`    | MedXPress Item 19 | Blank doctor-visits form |
+| `medxpress-visit-after.png`     | MedXPress Item 19 | Panel open + a demo visit filled in (provider, date, full address) |
+
 ## Keep in sync as features change
 
 **Screenshots are versioned content, not set-and-forget.** When a build changes,
@@ -77,9 +107,11 @@ a credibility (and, for medical copy, an accuracy) problem.
 
 Current shot → feature mapping:
 - `home.png` → Home renewal countdown
-- `medxpress.png` → MedXPress Prep (Items 17/19)
+- `medxpress.png` → MedXPress Prep (Items 17/19, in-app)
 - `si.png` → Special Issuance checklist
 - `health.png` → Health metric vs FAA threshold (Blood Pressure)
+- `medxpress-autofill-before.png` / `medxpress-autofill-after.png` → Safari extension autofilling MedXPress Item 17 (live form)
+- `medxpress-visit-before.png` / `medxpress-visit-after.png` → Safari extension autofilling MedXPress Item 19 (live form)
 
 If a feature in a shot is removed from the app, remove that shot **and** its
 `<figure>` block from `index.html`. If a shot's screen is redesigned, recapture it.
