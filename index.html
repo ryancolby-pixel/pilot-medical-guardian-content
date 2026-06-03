@@ -129,16 +129,19 @@
     .cta-note { font-size: 0.9rem; color: var(--muted); margin: 2px 0 4px; }
     .cta-note b { color: var(--text); font-weight: 600; }
 
-    /* MedXPress autofill before/after demo (wide iPad shots). */
-    .demo h4 { margin: 18px 0 6px; font-size: 1rem; color: var(--text); }
+    /* MedXPress autofill demo (wide iPad shots, tap to enlarge). */
+    .demo a { display: block; border-radius: 14px; }
     .demo figure { margin: 0 0 16px; }
     .demo img {
       width: 100%; height: auto; display: block;
       border-radius: 14px; border: 1px solid var(--rule);
       box-shadow: 0 8px 22px rgba(16,22,34,0.16);
+      transition: transform .2s ease, box-shadow .2s ease;
     }
+    .demo a:hover img { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(16,22,34,0.22); }
     .demo figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
     .demo figcaption b { color: var(--text); }
+    .demo .tap { color: var(--accent); font-weight: 600; }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -188,23 +191,17 @@
       <h3>See the MedXPress autofill in action</h3>
       <p>The Safari extension fills the parts of FAA MedXPress you'd otherwise retype every renewal — your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review every field and tap <b>Add</b> yourself; it never submits for you, and your data never leaves your device.</p>
       <div class="demo">
-        <h4>Medications</h4>
         <figure>
-          <img src="/screenshots/medxpress-autofill-before.png" alt="The blank MedXPress Item 17 medication page on medxpress.faa.gov, with the Fill from Pilot Medical Guardian button">
-          <figcaption><b>Before</b> — Item 17 on MedXPress, blank.</figcaption>
+          <a href="/screenshots/medxpress-autofill-after.png" target="_blank" rel="noopener">
+            <img src="/screenshots/medxpress-autofill-after.png" alt="MedXPress Item 17 with a medication filled in by Pilot Medical Guardian, next to the app's panel and a reminder to verify each field">
+          </a>
+          <figcaption><b>Medications (Item 17)</b> — one tap fills the blank form, with a reminder to verify each field before you add it. <span class="tap">Tap to enlarge.</span></figcaption>
         </figure>
         <figure>
-          <img src="/screenshots/medxpress-autofill-after.png" alt="The same MedXPress page with a medication filled in by Pilot Medical Guardian and a reminder to verify each field">
-          <figcaption><b>After one tap</b> — your medication filled in, with a reminder to verify each field before you add it.</figcaption>
-        </figure>
-        <h4>Doctor visits</h4>
-        <figure>
-          <img src="/screenshots/medxpress-visit-before.png" alt="The blank MedXPress Item 19 doctor-visits page">
-          <figcaption><b>Before</b> — Item 19, blank. Otherwise you retype every visit and address by hand.</figcaption>
-        </figure>
-        <figure>
-          <img src="/screenshots/medxpress-visit-after.png" alt="The same page with a doctor visit filled in — provider, date, and full address">
-          <figcaption><b>After one tap</b> — provider, date, and full address filled in.</figcaption>
+          <a href="/screenshots/medxpress-visit-after.png" target="_blank" rel="noopener">
+            <img src="/screenshots/medxpress-visit-after.png" alt="MedXPress Item 19 with a doctor visit filled in — provider, date, and full address — next to the app's panel listing visits to tap">
+          </a>
+          <figcaption><b>Doctor visits (Item 19)</b> — provider, date, and full address, filled the same way. <span class="tap">Tap to enlarge.</span></figcaption>
         </figure>
       </div>
       <p class="fineprint">Screens use sample data on the live FAA form and reflect an app in active private beta.</p>

@@ -98,6 +98,12 @@ iPad or iPhone**. That removes the Simulator's clean-room safety, so:
 | `medxpress-visit-before.png`    | MedXPress Item 19 | Blank doctor-visits form |
 | `medxpress-visit-after.png`     | MedXPress Item 19 | Panel open + a demo visit filled in (provider, date, full address) |
 
+**Live layout (2026-06-03):** to keep the home page short and legible on phones, the
+site shows only the **two cropped "after" shots** (form + panel, FAA chrome trimmed)
+as **tap-to-enlarge** figures — not the full four-image before/after set. The two
+`-before` shots stay here for an optional before/after layout later. When recapturing,
+the `-after` files are stored already cropped tight to the form + autofill panel.
+
 ## Keep in sync as features change
 
 **Screenshots are versioned content, not set-and-forget.** When a build changes,
