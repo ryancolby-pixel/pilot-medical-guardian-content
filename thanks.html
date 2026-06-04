@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>You're on the list — Pilot Medical Guardian</title>
+  <meta name="description" content="Thanks for signing up for the Pilot Medical Guardian private beta. Here's what happens next.">
+  <meta name="theme-color" content="#1c66d9">
+  <!-- Post-submit landing page: not meant to be found in search. -->
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/logo.png">
+  <link rel="stylesheet" href="/site.css">
+  <style>
+    /* Page-specific bits for the thank-you page. */
+    .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
+    .lede strong { color: var(--text); font-weight: 600; }
+    .steps { margin: 8px 0 2px; padding-left: 22px; }
+    .steps li { margin: 9px 0; color: var(--muted); }
+    .steps b { color: var(--text); font-weight: 600; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
+    .links a {
+      display: inline-flex; align-items: center; justify-content: center;
+      border-radius: var(--radius-chip); padding: 13px 20px;
+      text-decoration: none; font-weight: 600; line-height: 1;
+    }
+    .links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
+    .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); }
+    .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
+    .links a.secondary:hover { border-color: var(--accent); }
+  </style>
+  <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-inner">
+      <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
+      <div>
+        <div class="hero-name">Pilot Medical Guardian</div>
+        <div class="hero-tag">You're on the list</div>
+      </div>
+    </div>
+    <nav class="hero-nav">
+      <a href="/">Home</a>
+      <a href="/whats-new.html">What's New</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+
+  <div class="wrap">
+    <span class="badge">Private beta</span>
+    <h2>Thanks — you're on the list!</h2>
+
+    <p class="lede"><strong>I got your sign-up.</strong> I review every one personally and send the TestFlight invites out myself, so this isn't an instant download — give it a little time (especially around trips and holidays; it's just me here).</p>
+
+    <div class="card">
+      <h3>What happens next</h3>
+      <ol class="steps">
+        <li><b>I'll email you an Apple TestFlight invite</b> — to the address you just signed up with. Keep an eye out for it (a quick peek in spam doesn't hurt).</li>
+        <li><b>Install Apple's free TestFlight app first</b>, from the App Store — that's how Apple hands out beta apps.</li>
+        <li><b>Tap the invite</b> and it opens Pilot Medical Guardian inside TestFlight. <b>No invitation code needed</b> — if TestFlight asks you for a code, you've opened it on its own; just tap the invite link from your email instead.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>While you wait</h3>
+      <p>Have a look at the <a href="/faq.html">FAQ</a> — it covers what the app does, how your data stays private, how it's different from the services you may already use, and how to get started once you're in. Anything else, just email <a href="mailto:support@pilotmedicalguardian.com?subject=Beta%20question">support@pilotmedicalguardian.com</a> and it reaches me directly.</p>
+    </div>
+
+    <div class="links">
+      <a class="primary" href="/faq.html">Read the FAQ</a>
+      <a class="secondary" href="/">Back to home</a>
+    </div>
+
+    <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
+
+    <footer>
+      <p>Pilot Medical Guardian · Private beta</p>
+      <p>This site describes an app currently in private beta. Content is draft and pending review by an Aviation Medical Examiner before public launch.</p>
+    </footer>
+  </div>
+</body>
+</html>
