@@ -142,6 +142,24 @@
     .demo figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
     .demo figcaption b { color: var(--text); }
     .demo .tap { color: var(--accent); font-weight: 600; }
+
+    /* Beta-tester pull-quote — breaks the card stack, accent-styled to echo .highlight. */
+    .quote {
+      background: var(--accent-tint);
+      border: 1px solid var(--accent-edge);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius-card);
+      padding: 20px 22px;
+      margin: 14px 0;
+    }
+    .quote-eyebrow { font-size: 0.78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); margin: 0 0 9px; }
+    .quote blockquote { margin: 0; font-size: clamp(1.15rem, 3vw, 1.4rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
+    .quote figcaption { margin-top: 12px; font-size: 0.92rem; color: var(--muted); }
+
+    /* Quiet hero proof line — a small credibility cue, NOT a box (avoids colliding with the stats callout below). */
+    .proof { font-size: 0.9rem; color: var(--muted); margin: 9px 0 2px; text-wrap: pretty; }
+    .proof .q { color: var(--text); }
+    .proof .q b { font-weight: 600; }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -174,6 +192,7 @@
       <a class="secondary" href="#features">See what it does</a>
     </div>
     <p class="cta-note"><b>Free during the private beta</b> — installs in a couple of minutes through Apple's TestFlight.</p>
+    <p class="proof">A beta tester who prepped his real FAA medical: <span class="q">"Worked seamlessly… maybe <b>two minutes</b>."</span></p>
 
     <div class="highlight">
       <h3>The problem is usually the paperwork — not your health</h3>
@@ -213,6 +232,12 @@
       </div>
       <p class="fineprint">Screens use sample data on the live FAA form and reflect an app in active private beta.</p>
     </div>
+
+    <figure class="quote">
+      <p class="quote-eyebrow">From a beta tester</p>
+      <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."</blockquote>
+      <figcaption>— a pilot who used Pilot Medical Guardian to prep his real FAA medical</figcaption>
+    </figure>
 
     <div class="card">
       <h3>A look inside the app</h3>
