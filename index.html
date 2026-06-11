@@ -156,6 +156,12 @@
     .quote blockquote { margin: 0; font-size: clamp(1.15rem, 3vw, 1.4rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
     .quote figcaption { margin-top: 12px; font-size: 0.92rem; color: var(--muted); }
 
+    /* Two-quote testimonial row — same accent treatment, two distinct voices, divided. */
+    .quotes { background: var(--accent-tint); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); border-radius: var(--radius-card); padding: 20px 22px; margin: 14px 0; }
+    .quotes blockquote { margin: 0; font-size: clamp(1.02rem, 2.5vw, 1.2rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
+    .quotes blockquote + blockquote { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--accent-edge); }
+    .quotes .who { display: block; margin-top: 8px; font-size: 0.9rem; font-weight: 400; color: var(--muted); }
+
     /* Quiet hero proof line — a small credibility cue, NOT a box (avoids colliding with the stats callout below). */
     .proof { font-size: 0.9rem; color: var(--muted); margin: 9px 0 2px; text-wrap: pretty; }
     .proof .q { color: var(--text); }
@@ -192,7 +198,7 @@
       <a class="secondary" href="#features">See what it does</a>
     </div>
     <p class="cta-note"><b>Free during the private beta</b> — installs in a couple of minutes through Apple's TestFlight.</p>
-    <p class="proof">A beta tester prepped his real MedXPress in <span class="q">"maybe <b>two minutes</b>."</span></p>
+    <p class="proof">Real pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
 
     <div class="highlight">
       <h3>The problem is usually the paperwork — not your health</h3>
@@ -216,6 +222,7 @@
     <div class="card">
       <h3>See the MedXPress autofill in action</h3>
       <p>The Safari extension fills the parts of FAA MedXPress you'd otherwise retype every renewal — your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review every field and tap <b>Add</b> yourself; it never submits for you, and your data never leaves your device.</p>
+      <p>And it's all saved on your device — so next cycle, you're not starting from a blank form. <b>MedXPress doesn't remember your last application; the app does.</b></p>
       <div class="demo">
         <figure>
           <a href="/screenshots/medxpress-autofill-after.png?v=2" target="_blank" rel="noopener">
@@ -233,10 +240,14 @@
       <p class="fineprint">Screens use sample data on the live FAA form and reflect an app in active private beta.</p>
     </div>
 
-    <figure class="quote">
-      <p class="quote-eyebrow">From a beta tester</p>
-      <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."</blockquote>
-      <figcaption>— a pilot who used Pilot Medical Guardian to prep his real FAA medical</figcaption>
+    <figure class="quotes">
+      <p class="quote-eyebrow">From beta testers</p>
+      <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."
+        <span class="who">— a pilot, on his real MedXPress</span>
+      </blockquote>
+      <blockquote>"I entered all of my meds and doctor visits and they showed up in order — everything transferred over nicely."
+        <span class="who">— another beta tester, prepping his real exam</span>
+      </blockquote>
     </figure>
 
     <div class="card">
