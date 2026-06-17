@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turn on MedXPress autofill — Pilot Medical Guardian</title>
+  <meta name="description" content="How to set up the Pilot Medical Guardian MedXPress autofill — a one-time setup, done entirely on your iPhone or iPad. No desktop needed.">
+  <meta name="theme-color" content="#1c66d9">
+  <!-- Beta help page: linked directly to testers, not meant to be found in search yet. -->
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/logo.png">
+  <link rel="stylesheet" href="/site.css">
+  <style>
+    /* Page-specific bits for the autofill setup walkthrough. */
+    .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
+    .lede strong { color: var(--text); font-weight: 600; }
+
+    .callout {
+      background: var(--accent-tint); border: 1px solid var(--accent-edge);
+      border-radius: var(--radius-chip); padding: 14px 16px; margin: 16px 0;
+      font-size: 0.95rem; color: var(--muted);
+    }
+    .callout strong { color: var(--text); font-weight: 600; }
+
+    .step { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0; }
+    .step:first-child { margin-top: 4px; }
+    .step-num {
+      flex: none; width: 30px; height: 30px; border-radius: 50%;
+      background: var(--accent); color: #fff; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; font-size: 0.95rem;
+    }
+    .step-body { flex: 1; }
+    .step-body h4 { margin: 3px 0 4px; font-size: 1.02rem; letter-spacing: -0.01em; }
+    .step-body p { margin: 0; color: var(--muted); }
+    .step-body code {
+      background: var(--accent-tint); color: var(--text);
+      padding: 1px 6px; border-radius: 6px; font-size: 0.9em;
+    }
+
+    details {
+      background: var(--card); border: 1px solid var(--rule);
+      border-radius: var(--radius-chip); padding: 2px 16px; margin: 10px 0;
+      box-shadow: var(--shadow-sm);
+    }
+    summary { cursor: pointer; font-weight: 600; padding: 13px 0; color: var(--text); }
+    summary::marker { color: var(--accent); }
+    details p { color: var(--muted); margin: 0 0 13px; }
+
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 6px; }
+    .links a {
+      display: inline-flex; align-items: center; justify-content: center;
+      border-radius: var(--radius-chip); padding: 13px 20px;
+      text-decoration: none; font-weight: 600; line-height: 1;
+    }
+    .links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
+    .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); }
+    .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
+    .links a.secondary:hover { border-color: var(--accent); }
+  </style>
+  <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-inner">
+      <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
+      <div>
+        <div class="hero-name">Pilot Medical Guardian</div>
+        <div class="hero-tag">Turn on MedXPress autofill</div>
+      </div>
+    </div>
+    <nav class="hero-nav">
+      <a href="/">Home</a>
+      <a href="/whats-new.html">What's New</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </div>
+
+  <div class="wrap">
+    <span class="badge">Setup guide</span>
+    <h2>Turn on MedXPress autofill</h2>
+
+    <p class="lede"><strong>It's all done on your iPhone or iPad — no desktop needed.</strong> The autofill is a Safari extension built into the app. You switch it on once, then use it right in Safari whenever you fill out MedXPress.</p>
+
+    <div class="callout">
+      <strong>Why a few manual steps?</strong> Apple requires you to turn Safari extensions on yourself, in Settings — no app is allowed to do it for you. It only takes a minute, and it's a one-time setup.
+    </div>
+
+    <span class="eyebrow">One-time setup</span>
+    <div class="card">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h4>Open the Settings app</h4>
+          <p>The gray gear icon on your Home Screen.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h4>Go to Safari &rarr; Extensions</h4>
+          <p>On <strong>iOS / iPadOS 18 or later:</strong> <code>Settings &rarr; Apps &rarr; Safari &rarr; Extensions</code>.<br>On <strong>iOS 17 or earlier:</strong> <code>Settings &rarr; Safari &rarr; Extensions</code>. It's near the bottom of Safari's settings.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h4>Find &ldquo;MedXPressAutofill&rdquo; and turn it on</h4>
+          <p>It appears once Pilot Medical Guardian is installed. If you don't see it, force-quit Safari (swipe up from the app switcher) and reopen Settings.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h4>Allow it on medxpress.faa.gov</h4>
+          <p>Tap the extension and set <strong>medxpress.faa.gov</strong> to <strong>Allow</strong>. Allowing just that one site (instead of all websites) is the more private choice — the extension only runs where it's needed.</p>
+        </div>
+      </div>
+    </div>
+
+    <span class="eyebrow">Using it</span>
+    <div class="card">
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <h4>Enter your records in the app, then open it once</h4>
+          <p>The extension fills from a private snapshot of your data that the app saves on your device — so your medications and visits need to be in Pilot Medical Guardian, and the app needs to have been opened at least once after you enabled the extension.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-body">
+          <h4>Open MedXPress in Safari — in a normal tab</h4>
+          <p>Sign in at <strong>medxpress.faa.gov</strong> and go to <strong>Medication, Medical History, or Medical Visits</strong>. Use a regular Safari tab, <strong>not a Private Browsing window</strong> — private tabs don't run extensions and don't keep you signed in.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">7</div>
+        <div class="step-body">
+          <h4>Tap the blue &ldquo;Fill from Pilot Medical Guardian&rdquo; button</h4>
+          <p>It appears at the <strong>bottom-right</strong> of those pages. Review every entry it fills in, then tap MedXPress's own <strong>Add / Submit</strong> — the app never submits anything for you. You always stay in control.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>What it fills:</strong> the genuinely repetitive parts — your medications (Item 17) and doctor visits (Item 19), so you don't retype them every cycle. MedXPress already remembers your name and address, and the medical-history Yes/No section (Item 18) sits behind the FAA site's bot-protection, so the app shows that as a reference card to fill in by hand. More in the <a href="/faq.html">FAQ</a>.
+    </div>
+
+    <span class="eyebrow">Troubleshooting</span>
+    <details>
+      <summary>The extension isn't in the list</summary>
+      <p>Force-quit Safari (swipe up from the app switcher), then restart your iPhone or iPad. iOS sometimes takes a moment to register a new extension after the app installs.</p>
+    </details>
+    <details>
+      <summary>The blue button doesn't appear on MedXPress</summary>
+      <p>It only shows on the <strong>Medication, Medical History, and Medical Visits</strong> pages (Items 17, 18, and 19) — not on the welcome, demographics, or declarations pages.</p>
+    </details>
+    <details>
+      <summary>It says &ldquo;Open Pilot Medical Guardian first&rdquo;</summary>
+      <p>Open the app once after you enable the extension. It saves a fresh, private snapshot of your data on your device that the extension reads — that snapshot has to exist before it can fill anything.</p>
+    </details>
+    <details>
+      <summary>MedXPress keeps logging me out</summary>
+      <p>You're probably in a Private Browsing window. Private tabs don't keep you signed in, so MedXPress makes you log in again each time you switch back. Open it in a normal Safari tab and it'll stay signed in while you work.</p>
+    </details>
+    <details>
+      <summary>I use a different Apple ID on my iPad and iPhone</summary>
+      <p>The extension reads your data from the device it's running on. iCloud sync keeps your records the same across your devices, so set up whichever device you'll use for MedXPress.</p>
+    </details>
+
+    <div class="links">
+      <a class="primary" href="/faq.html">Read the FAQ</a>
+      <a class="secondary" href="/">Back to home</a>
+    </div>
+
+    <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized and prepare; your AME makes the certification decisions.</p>
+
+    <footer>
+      <p>Pilot Medical Guardian · Private beta</p>
+      <p>This site describes an app currently in private beta. Content is draft and pending review by an Aviation Medical Examiner before public launch.</p>
+    </footer>
+  </div>
+</body>
+</html>
