@@ -189,12 +189,12 @@
       "Lipitor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable in the AME Guide pharmaceuticals guidance when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -206,12 +206,12 @@
       "Crestor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -223,12 +223,12 @@
       "Zocor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -240,12 +240,12 @@
       "Pravachol"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Statins used for cholesterol management are generally addressed as routinely acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -257,12 +257,12 @@
       "Zetia"
     ],
     "category": "Cholesterol absorption inhibitor",
-    "faaStatusDescription": "Non-statin cholesterol agents are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -350,12 +350,12 @@
     ],
     "category": "GLP-1 receptor agonist (diabetes / weight)",
     "treatedConditionNote": "Concern is the underlying condition (diabetes or obesity), not the drug.",
-    "faaStatusDescription": "GLP-1 receptor agonists are addressed in FAA diabetes/weight guidance, often with an observation period for tolerance. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-semaglutide",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes / Pharmaceuticals",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes / Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -406,12 +406,12 @@
       "Prilosec"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Proton pump inhibitors for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-omeprazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -423,12 +423,12 @@
       "Protonix"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Proton pump inhibitors for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-pantoprazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -440,12 +440,12 @@
       "Pepcid"
     ],
     "category": "H2 blocker (GERD)",
-    "faaStatusDescription": "H2 blockers for reflux/GERD are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-famotidine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -549,12 +549,12 @@
     ],
     "category": "Atypical antidepressant",
     "treatedConditionNote": "Concern is the underlying condition; handled through FAA review rather than the AME's desk.",
-    "faaStatusDescription": "Bupropion is handled through FAA review and depends on the underlying condition and formulation. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-bupropion",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Antidepressant policy / Pharmaceuticals",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Antidepressant policy / Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -714,12 +714,12 @@
       "Motrin"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "Over-the-counter NSAIDs are generally addressed as acceptable for short-term/minor use when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-ibuprofen",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -732,12 +732,12 @@
       "Naprosyn"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "Over-the-counter NSAIDs are generally addressed as acceptable for short-term/minor use when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-naproxen",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -749,12 +749,12 @@
       "Tylenol"
     ],
     "category": "Analgesic / antipyretic",
-    "faaStatusDescription": "Acetaminophen is generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-acetaminophen",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -766,12 +766,12 @@
       "Allegra"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "Non-sedating antihistamines are generally addressed as acceptable when the allergic condition is not itself limiting and no adverse effects occur. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-fexofenadine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -783,12 +783,12 @@
       "Claritin"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "Non-sedating antihistamines are generally addressed as acceptable when well tolerated. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-loratadine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -836,12 +836,12 @@
       "Sudafed"
     ],
     "category": "Decongestant (allergy / cold)",
-    "faaStatusDescription": "Plain decongestants are generally addressed as acceptable when well tolerated; sedating antihistamine combinations are treated differently. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-pseudoephedrine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -913,12 +913,12 @@
     ],
     "category": "Anticoagulant",
     "treatedConditionNote": "The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone.",
-    "faaStatusDescription": "Anticoagulation is handled based on the underlying condition, often via FAA review/Special Issuance. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-warfarin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -931,12 +931,12 @@
     ],
     "category": "Anticoagulant (DOAC)",
     "treatedConditionNote": "Concern is the underlying condition requiring anticoagulation, not the drug alone.",
-    "faaStatusDescription": "Direct oral anticoagulants are handled based on the underlying condition, often via FAA review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-apixaban",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -950,12 +950,12 @@
     ],
     "medxpressName": "ASPIRIN",
     "category": "Antiplatelet",
-    "faaStatusDescription": "Low-dose aspirin is generally addressed as acceptable; the underlying reason for use is the FAA's primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-aspirin-low-dose",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-27T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -967,12 +967,12 @@
       "Viagra"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "PDE5 inhibitors are generally addressed as acceptable with a no-fly interval after use due to potential transient visual effects. Confirm the current required wait against the AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-sildenafil",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -984,12 +984,12 @@
       "Cialis"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "Longer-acting PDE5 inhibitors are generally addressed as acceptable with a longer no-fly interval after use. Confirm the current required wait against the AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-tadalafil",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1365,12 +1365,12 @@
       "Catapres"
     ],
     "category": "Central alpha-agonist (hypertension)",
-    "faaStatusDescription": "Clonidine is treated cautiously in FAA guidance and is generally not issued by the AME without FAA review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-clonidine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -1382,12 +1382,12 @@
       "Plavix"
     ],
     "category": "Antiplatelet",
-    "faaStatusDescription": "Clopidogrel is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-clopidogrel",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "treatedConditionNote": "The condition requiring antiplatelet therapy is the FAA's primary interest.",
@@ -1400,12 +1400,12 @@
       "Xarelto"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Rivaroxaban is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-rivaroxaban",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
@@ -1418,12 +1418,12 @@
       "Pradaxa"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Dabigatran is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-dabigatran",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
@@ -1436,12 +1436,12 @@
       "Savaysa"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Edoxaban is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-edoxaban",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
@@ -1455,12 +1455,12 @@
       "Pacerone"
     ],
     "category": "Antiarrhythmic",
-    "faaStatusDescription": "Amiodarone and the arrhythmia it treats are evaluated through a full FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-amiodarone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -1472,12 +1472,12 @@
       "Betapace"
     ],
     "category": "Antiarrhythmic / beta blocker",
-    "faaStatusDescription": "Sotalol and the underlying arrhythmia are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-sotalol",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -1489,12 +1489,12 @@
       "Tambocor"
     ],
     "category": "Antiarrhythmic",
-    "faaStatusDescription": "Flecainide and the underlying arrhythmia are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-flecainide",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -1506,12 +1506,12 @@
       "Lanoxin"
     ],
     "category": "Cardiac glycoside",
-    "faaStatusDescription": "Digoxin and the condition it treats are evaluated through FAA cardiovascular review. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-digoxin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
@@ -1540,12 +1540,12 @@
       "Mevacor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Lovastatin (Statin (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1557,12 +1557,12 @@
       "Livalo"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Pitavastatin (Statin (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-pitavastatin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1574,12 +1574,12 @@
       "Tricor"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "Fenofibrate (Fibrate (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-fenofibrate",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1591,12 +1591,12 @@
       "Lopid"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "Gemfibrozil (Fibrate (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1608,12 +1608,12 @@
       "Niaspan"
     ],
     "category": "Nicotinic acid (cholesterol)",
-    "faaStatusDescription": "Niacin (Nicotinic acid (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1625,12 +1625,12 @@
       "WelChol"
     ],
     "category": "Bile acid sequestrant (cholesterol)",
-    "faaStatusDescription": "Colesevelam (Bile acid sequestrant (cholesterol)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-colesevelam",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1642,12 +1642,12 @@
       "Repatha"
     ],
     "category": "PCSK9 inhibitor (cholesterol)",
-    "faaStatusDescription": "Evolocumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-evolocumab",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1842,12 +1842,12 @@
       "Tapazole"
     ],
     "category": "Antithyroid (hyperthyroidism)",
-    "faaStatusDescription": "Methimazole is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-methimazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest.",
@@ -1860,12 +1860,12 @@
       "PTU"
     ],
     "category": "Antithyroid (hyperthyroidism)",
-    "faaStatusDescription": "Propylthiouracil is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-propylthiouracil",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest.",
@@ -1878,12 +1878,12 @@
       "Nexium"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Esomeprazole (Proton pump inhibitor (GERD)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-esomeprazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1895,12 +1895,12 @@
       "Prevacid"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Lansoprazole (Proton pump inhibitor (GERD)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-lansoprazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1912,12 +1912,12 @@
       "Imodium"
     ],
     "category": "Antidiarrheal",
-    "faaStatusDescription": "Loperamide (Antidiarrheal) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-loperamide",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -1931,12 +1931,12 @@
       "Pentasa"
     ],
     "category": "Aminosalicylate (IBD)",
-    "faaStatusDescription": "Mesalamine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-mesalamine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The inflammatory bowel condition is the FAA's primary interest.",
@@ -1949,12 +1949,12 @@
       "Azulfidine"
     ],
     "category": "Aminosalicylate (IBD / arthritis)",
-    "faaStatusDescription": "Sulfasalazine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-sulfasalazine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2000,12 +2000,12 @@
       "Amoxil"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-amoxicillin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2018,12 +2018,12 @@
     ],
     "medxpressName": "AUGMENTIN",
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-amoxicillin-clavulanate",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2036,12 +2036,12 @@
       "Z-Pak"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-azithromycin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2053,12 +2053,12 @@
       "Vibramycin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-doxycycline",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2070,12 +2070,12 @@
       "Keflex"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-cephalexin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2087,12 +2087,12 @@
       "Cipro"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-ciprofloxacin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2104,12 +2104,12 @@
       "Levaquin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-levofloxacin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2121,12 +2121,12 @@
       "Flagyl"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-metronidazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2138,12 +2138,12 @@
       "Macrobid"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-nitrofurantoin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2157,12 +2157,12 @@
     ],
     "medxpressName": "BACTRIM",
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-sulfamethoxazole-trimethoprim",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2174,12 +2174,12 @@
       "Biaxin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-clarithromycin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2191,12 +2191,12 @@
       "Cleocin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Antibiotics are generally addressed as acceptable once an initial observation period (commonly noted as around 48 hours) confirms no adverse reaction, provided the underlying infection is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-clindamycin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2208,12 +2208,12 @@
       "Diflucan"
     ],
     "category": "Antifungal",
-    "faaStatusDescription": "Fluconazole is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-fluconazole",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2225,12 +2225,12 @@
       "Lamisil"
     ],
     "category": "Antifungal",
-    "faaStatusDescription": "Terbinafine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-terbinafine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2242,12 +2242,12 @@
       "Zovirax"
     ],
     "category": "Antiviral",
-    "faaStatusDescription": "Acyclovir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-acyclovir",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2259,12 +2259,12 @@
       "Valtrex"
     ],
     "category": "Antiviral",
-    "faaStatusDescription": "Valacyclovir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-valacyclovir",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2276,12 +2276,12 @@
       "Tamiflu"
     ],
     "category": "Antiviral (influenza)",
-    "faaStatusDescription": "Oseltamivir is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-oseltamivir",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2350,12 +2350,12 @@
     ],
     "medxpressName": "MOMETASONE",
     "category": "Intranasal corticosteroid (rhinitis)",
-    "faaStatusDescription": "Mometasone (nasal) (Intranasal corticosteroid (rhinitis)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-mometasone-nasal",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2403,12 +2403,12 @@
       "Imitrex"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "Sumatriptan is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-sumatriptan",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
@@ -2421,12 +2421,12 @@
       "Maxalt"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "Rizatriptan is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-rizatriptan",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
@@ -2439,12 +2439,12 @@
       "Aimovig"
     ],
     "category": "Anti-CGRP (migraine prevention)",
-    "faaStatusDescription": "Erenumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-erenumab",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
@@ -2525,12 +2525,12 @@
       "Buspar"
     ],
     "category": "Anxiolytic (non-benzodiazepine)",
-    "faaStatusDescription": "Buspirone is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-buspirone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The underlying anxiety condition is the FAA's primary interest.",
@@ -2663,12 +2663,12 @@
       "(supplement)"
     ],
     "category": "Sleep aid (supplement)",
-    "faaStatusDescription": "Melatonin is generally addressed as acceptable when there is no underlying sleep disorder and no adverse effects. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-melatonin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2731,12 +2731,12 @@
       "Celebrex"
     ],
     "category": "COX-2 inhibitor (NSAID)",
-    "faaStatusDescription": "Celecoxib (COX-2 inhibitor (NSAID)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-celecoxib",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2748,12 +2748,12 @@
       "Mobic"
     ],
     "category": "NSAID",
-    "faaStatusDescription": "Meloxicam (NSAID) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-meloxicam",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2765,12 +2765,12 @@
       "Voltaren"
     ],
     "category": "NSAID",
-    "faaStatusDescription": "Diclofenac (NSAID) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-diclofenac",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2867,12 +2867,12 @@
       "Flomax"
     ],
     "category": "Alpha blocker (BPH)",
-    "faaStatusDescription": "Tamsulosin is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-tamsulosin",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "Generally acceptable; the FAA's interest is tolerance and the underlying condition.",
@@ -2886,12 +2886,12 @@
       "Propecia"
     ],
     "category": "5-alpha reductase inhibitor (BPH/hair)",
-    "faaStatusDescription": "Finasteride (5-alpha reductase inhibitor (BPH/hair)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-finasteride",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2903,12 +2903,12 @@
       "Avodart"
     ],
     "category": "5-alpha reductase inhibitor (BPH)",
-    "faaStatusDescription": "Dutasteride (5-alpha reductase inhibitor (BPH)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-dutasteride",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2920,12 +2920,12 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "Alendronate (Bisphosphonate (osteoporosis)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2937,12 +2937,12 @@
       "Prolia"
     ],
     "category": "RANKL inhibitor (osteoporosis)",
-    "faaStatusDescription": "Denosumab is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-denosumab",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2954,12 +2954,12 @@
       "Zyloprim"
     ],
     "category": "Xanthine oxidase inhibitor (gout)",
-    "faaStatusDescription": "Allopurinol (Xanthine oxidase inhibitor (gout)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-allopurinol",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2971,12 +2971,12 @@
       "Colcrys"
     ],
     "category": "Anti-gout",
-    "faaStatusDescription": "Colchicine is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-colchicine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -2988,12 +2988,12 @@
       "Uloric"
     ],
     "category": "Xanthine oxidase inhibitor (gout)",
-    "faaStatusDescription": "Febuxostat is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-febuxostat",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3005,12 +3005,12 @@
       "Chantix"
     ],
     "category": "Smoking cessation",
-    "faaStatusDescription": "Varenicline is generally addressed with an initial grounding/observation period to confirm no adverse mood or neurologic effects. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-varenicline",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3023,12 +3023,12 @@
       "Nicorette"
     ],
     "category": "Nicotine replacement",
-    "faaStatusDescription": "Nicotine (Nicotine replacement) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-nicotine",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3147,12 +3147,12 @@
       "Deltasone"
     ],
     "category": "Oral corticosteroid",
-    "faaStatusDescription": "Short courses of oral corticosteroid are generally addressed as acceptable within dose limits noted in FAA guidance; the underlying condition is the primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-prednisone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3164,12 +3164,12 @@
       "Cortef"
     ],
     "category": "Oral corticosteroid",
-    "faaStatusDescription": "Oral corticosteroid within the dose context noted in FAA guidance; the underlying condition is the primary interest. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-hydrocortisone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3181,12 +3181,12 @@
       "(combined oral contraceptive)"
     ],
     "category": "Oral contraceptive",
-    "faaStatusDescription": "Oral contraceptives are generally addressed as acceptable. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-ethinyl-estradiol-norethindrone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3199,12 +3199,12 @@
       "Climara"
     ],
     "category": "Estrogen (hormone replacement)",
-    "faaStatusDescription": "Estradiol (Estrogen (hormone replacement)) is generally addressed as acceptable in the AME Guide pharmaceuticals guidance when well tolerated and the underlying condition is not itself limiting. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-estradiol",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
@@ -3217,12 +3217,12 @@
       "Depo-Testosterone"
     ],
     "category": "Androgen (replacement)",
-    "faaStatusDescription": "Testosterone is handled based on the underlying condition being treated, often through FAA review rather than at the AME's desk. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-testosterone",
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals (Therapeutic Medications)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "treatedConditionNote": "The reason for use and underlying condition are the FAA's primary interest.",
