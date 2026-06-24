@@ -64,6 +64,21 @@ detail → ⌘S.
 different dates (e.g. 118/78, 121/80, 119/79). Tap Blood Pressure to expand its
 chart (orange dashed 155 mmHg line + citation appear) → ⌘S.
 
+**`documents.png`** (the My Documents shot — leans on the docs + Share-with-AME
+workflow) — My Records → **My Documents**. Tap **+** and add 3 sample documents so
+the list + the blue **"Share with my AME"** button + a **"General · 3"** section all
+show. **Use only benign, non-real samples — the row title AND the thumbnail both
+render, so import placeholder PDFs, never a real document:**
+- "SI Authorization Letter" → type **Authorization Letter**
+- "Lipid panel results" → type **Test Result**
+- "Cardiology clearance letter" → type **Physician Letter**
+Then ⌘S. **Hard no's (from the privacy audit):** no oncology/PET/CT/MRI terms, no
+real meds/providers/AME names, no "YellowArc"/Virginia/LLC references, no raw
+`Screenshot YYYY-MM-DD at H.MM.SS` filenames. (A clean Simulator capture with these
+samples needs no scrubbing.) **Then:** rename to `documents.png`, drop it in this
+folder, and uncomment the `<figure>` in `index.html` (the `<!-- TODO: ... documents.png -->`
+block in the "A look inside the app" rail).
+
 **Finish** — rename the 4 Desktop PNGs to `home.png` / `medxpress.png` / `si.png`
 / `health.png`, move them into this folder, then uncomment the gallery in
 `index.html` (delete the `<!--` and `-->` lines around "See it in action").
@@ -116,6 +131,7 @@ Current shot → feature mapping:
 - `medxpress.png` → MedXPress Prep (Items 17/19, in-app)
 - `si.png` → Special Issuance checklist
 - `health.png` → Health metric vs FAA threshold (Blood Pressure)
+- `documents.png` → My Documents library + Share-with-AME (Build 20)
 - `medxpress-autofill-before.png` / `medxpress-autofill-after.png` → Safari extension autofilling MedXPress Item 17 (live form)
 - `medxpress-visit-before.png` / `medxpress-visit-after.png` → Safari extension autofilling MedXPress Item 19 (live form)
 
