@@ -38,6 +38,26 @@
       padding: 1px 6px; border-radius: 6px; font-size: 0.9em;
     }
 
+    /* A styled stand-in for Safari's per-site permission menu (the one that pops
+       up when you tap the extension on the page). Not a screenshot, so it can't
+       go stale across iOS versions. Highlights "Always Allow". */
+    .permbox {
+      border: 1px solid var(--rule); border-radius: 12px; overflow: hidden;
+      background: var(--card); max-width: 330px; margin: 12px 0;
+      box-shadow: var(--shadow-sm);
+    }
+    .permrow {
+      display: flex; align-items: center; gap: 10px;
+      padding: 11px 14px; font-size: 0.95rem; color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+    .permrow:first-child { border-top: 0; }
+    .permrow .mark { flex: none; width: 16px; text-align: center; color: var(--muted-2, #9aa3ad); }
+    .permrow.correct { color: var(--text); font-weight: 600; background: rgba(40,167,69,0.09); }
+    .permrow.correct .mark { color: #28a745; }
+    .permrow .note { margin-left: auto; font-size: 0.76rem; font-weight: 700; color: var(--muted); }
+    .permrow.correct .note { color: #28a745; }
+
     details {
       background: var(--card); border: 1px solid var(--rule);
       border-radius: var(--radius-chip); padding: 2px 16px; margin: 10px 0;
@@ -102,20 +122,29 @@
         <div class="step-body">
           <h4>Go to Safari &rarr; Extensions</h4>
           <p>On <strong>iOS / iPadOS 18 or later:</strong> <code>Settings &rarr; Apps &rarr; Safari &rarr; Extensions</code>.<br>On <strong>iOS 17 or earlier:</strong> <code>Settings &rarr; Safari &rarr; Extensions</code>. It's near the bottom of Safari's settings.</p>
+          <p style="font-size:0.88rem;">Not sure which iOS you have? <code>Settings &rarr; General &rarr; About &rarr; Software Version</code>. Or skip Settings entirely: in Safari, tap the <strong>page menu</strong> (the <strong>aA</strong> button at the left of the address bar) &rarr; <strong>Manage Extensions</strong>.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">3</div>
         <div class="step-body">
           <h4>Find &ldquo;MedXPressAutofill&rdquo; and turn it on</h4>
-          <p>It appears once Pilot Medical Guardian is installed. If you don't see it, force-quit Safari (swipe up from the app switcher) and reopen Settings.</p>
+          <p>That's Pilot Medical Guardian's extension. It appears once the app is installed. If you don't see it, force-quit Safari (swipe up from the app switcher) and reopen Settings.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-num">4</div>
         <div class="step-body">
           <h4>Allow it on medxpress.faa.gov — the step most people miss</h4>
-          <p><strong>This is the step that silently breaks everything</strong> — the extension can look enabled but do nothing until you do this. Tap the extension and set <strong>medxpress.faa.gov</strong> to <strong>Allow</strong> (not “Ask”). Allowing just that one site instead of all websites is the more private choice — the extension only runs where it's needed.</p>
+          <p><strong>This is the step that silently breaks everything</strong> — the extension can look switched on but do nothing until you allow it on the FAA site. On a new setup the reliable way is <strong>right on the page</strong>:</p>
+          <p>1. Open <strong>medxpress.faa.gov</strong> in Safari.<br>2. Tap the <strong>page menu</strong> (the <strong>aA</strong> / extension button at the left of the address bar).<br>3. Tap <strong>MedXPressAutofill</strong>, then choose <strong>Always Allow</strong>.</p>
+          <div class="permbox" role="img" aria-label="Safari's permission menu — choose Always Allow, not Allow for One Day, which expires">
+            <div class="permrow"><span class="mark">&#9675;</span> Allow for One Day <span class="note">expires &mdash; skip</span></div>
+            <div class="permrow correct"><span class="mark">&#10003;</span> Always Allow <span class="note">use this</span></div>
+            <div class="permrow"><span class="mark">&#9675;</span> Don't Allow</div>
+          </div>
+          <p><strong>Pick &ldquo;Always Allow,&rdquo; not &ldquo;Allow for One Day&rdquo;</strong> — the one-day option silently expires, and the autofill quietly stops working next time.</p>
+          <p style="font-size:0.88rem;">Prefer Settings? Same thing, different words — there it reads <strong>Allow / Ask / Deny</strong>; set medxpress.faa.gov to <strong>Allow</strong>. But on a brand-new setup the site often <strong>isn't listed there yet</strong> (it only appears after the extension has run on it once), so the on-the-page route above is the sure one.</p>
         </div>
       </div>
     </div>
@@ -126,7 +155,7 @@
         <div class="step-num">5</div>
         <div class="step-body">
           <h4>Enter your records in the app, then open it once</h4>
-          <p>The extension fills from a private snapshot of your data that the app saves on your device — so your medications and visits need to be in Pilot Medical Guardian, and the app needs to have been opened at least once after you enabled the extension.</p>
+          <p>The extension fills from a private snapshot of your data that the app saves on your device — so your medications and visits need to be in Pilot Medical Guardian. <strong>Important: after you switch the extension on, open the app once</strong> so it writes that snapshot — otherwise you'll see an &ldquo;Open Pilot Medical Guardian first&rdquo; message and nothing fills.</p>
         </div>
       </div>
       <div class="step">
@@ -150,6 +179,18 @@
     </div>
 
     <span class="eyebrow">Troubleshooting</span>
+    <details>
+      <summary>I turned it on but the button does nothing</summary>
+      <p>This is almost always the per-site permission. On <strong>medxpress.faa.gov</strong>, tap the page menu (<strong>aA</strong>) &rarr; <strong>MedXPressAutofill</strong>, and make sure it's set to <strong>Always Allow</strong> — not &ldquo;Allow for One Day&rdquo; (which expires) or &ldquo;Ask.&rdquo; On &ldquo;Ask,&rdquo; the extension looks enabled but never runs on the form.</p>
+    </details>
+    <details>
+      <summary>medxpress.faa.gov isn't in the permission list in Settings</summary>
+      <p>That's normal on a new setup — a site only appears there after the extension has run on it once. Do it on the page instead: open medxpress.faa.gov, tap the page menu (aA), tap MedXPressAutofill, and choose Always Allow.</p>
+    </details>
+    <details>
+      <summary>I use Safari profiles</summary>
+      <p>If you have Safari profiles set up, an extension switched on in one profile isn't on in the others. Turn MedXPressAutofill on in the profile you'll use for MedXPress, and open the site in that same profile.</p>
+    </details>
     <details>
       <summary>The extension isn't in the list</summary>
       <p>Force-quit Safari (swipe up from the app switcher), then restart your iPhone or iPad. iOS sometimes takes a moment to register a new extension after the app installs.</p>
