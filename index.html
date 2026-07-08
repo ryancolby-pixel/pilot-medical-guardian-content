@@ -96,11 +96,17 @@
     }
     .plane-c172 { width: 200px; aspect-ratio: 845 / 487; top: 14px; left: 43%;
       -webkit-mask-image: url(/assets/aircraft/cessna-172.png); mask-image: url(/assets/aircraft/cessna-172.png); }
-    .plane-b737 { width: 285px; aspect-ratio: 729 / 329; top: 37%; left: 49%;
+    .plane-b737 { width: 335px; aspect-ratio: 729 / 329; top: 36%; left: 47%; opacity: 0.18;
       -webkit-mask-image: url(/assets/aircraft/boeing-737.png); mask-image: url(/assets/aircraft/boeing-737.png); }
     .plane-g600 { width: 250px; aspect-ratio: 656 / 373; top: 63%; left: 47%;
       -webkit-mask-image: url(/assets/aircraft/gulfstream-g600.png); mask-image: url(/assets/aircraft/gulfstream-g600.png); }
-    @media (max-width: 900px) { .plane { display: none; } }
+    /* Phones: the hero stacks, so reposition (don't hide) — spread the three
+       faintly down the single-column hero background. */
+    @media (max-width: 760px) {
+      .plane-c172 { width: 118px; top: 0.5%; left: auto; right: 4%; }
+      .plane-b737 { width: 210px; top: 29%; left: 0; opacity: 0.17; }
+      .plane-g600 { width: 140px; top: 55%; left: 44%; }
+    }
     .hero2 h1 { font-size: clamp(2rem, 5.6vw, 3.05rem); line-height: 1.06; letter-spacing: -0.03em; margin: 14px 0 0; text-wrap: balance; }
     .hero2-sub { font-size: clamp(1.05rem, 2.4vw, 1.22rem); line-height: 1.5; color: var(--muted); margin: 16px 0 0; max-width: 46ch; text-wrap: pretty; }
     .hero2-sub strong { color: var(--text); font-weight: 600; }
