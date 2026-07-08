@@ -390,5 +390,33 @@
     </div>
   </footer>
 
+  <!-- Gentle hero parallax: the aircraft drift a touch slower than the page
+       as you scroll past the hero. Transform-based (smooth on mobile),
+       rAF-throttled, and disabled for reduced-motion. Decorative only. -->
+  <script>
+  (function () {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var planes = Array.prototype.slice.call(document.querySelectorAll('.plane'));
+    var hero = document.querySelector('.hero2');
+    if (!planes.length || !hero) return;
+    var factor = { 'plane-c172': 0.15, 'plane-b737': 0.28, 'plane-g600': 0.20 };
+    var ticking = false;
+    function update() {
+      ticking = false;
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (y > hero.offsetHeight + 120) return; // hero has scrolled away
+      for (var i = 0; i < planes.length; i++) {
+        var f = 0.20, cl = planes[i].classList;
+        for (var k in factor) { if (cl.contains(k)) { f = factor[k]; break; } }
+        planes[i].style.transform = 'translate3d(0,' + (y * f).toFixed(1) + 'px,0)';
+      }
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+    }, { passive: true });
+    update();
+  })();
+  </script>
+
 </body>
 </html>
