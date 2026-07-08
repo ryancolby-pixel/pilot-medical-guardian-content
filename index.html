@@ -75,12 +75,32 @@
 
     /* --- Hero: benefit headline + CTA on the left, phone on the right --- */
     .hero2 {
+      position: relative; overflow: hidden;
       background:
         radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,0.16), transparent 60%),
         linear-gradient(180deg, var(--accent-tint), var(--bg) 70%);
       border-bottom: 1px solid var(--rule);
     }
-    .hero2 .container { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: 56px; }
+    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: 56px; }
+    /* Faint aircraft motif: GA single / narrowbody / business jet =
+       the three worlds of pilots we serve (Class 3 / 1 / 2). Decorative.
+       Silhouettes tinted to brand blue via CSS mask so they adapt to
+       light + dark automatically. */
+    .sky { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+    .plane {
+      position: absolute; display: block; background: var(--accent);
+      -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+      -webkit-mask-size: contain; mask-size: contain;
+      -webkit-mask-position: center; mask-position: center;
+      opacity: 0.10;
+    }
+    .plane-c172 { width: 200px; aspect-ratio: 845 / 487; top: 14px; left: 43%;
+      -webkit-mask-image: url(/assets/aircraft/cessna-172.png); mask-image: url(/assets/aircraft/cessna-172.png); }
+    .plane-b737 { width: 285px; aspect-ratio: 729 / 329; top: 37%; left: 49%;
+      -webkit-mask-image: url(/assets/aircraft/boeing-737.png); mask-image: url(/assets/aircraft/boeing-737.png); }
+    .plane-g600 { width: 250px; aspect-ratio: 656 / 373; top: 63%; left: 47%;
+      -webkit-mask-image: url(/assets/aircraft/gulfstream-g600.png); mask-image: url(/assets/aircraft/gulfstream-g600.png); }
+    @media (max-width: 900px) { .plane { display: none; } }
     .hero2 h1 { font-size: clamp(2rem, 5.6vw, 3.05rem); line-height: 1.06; letter-spacing: -0.03em; margin: 14px 0 0; text-wrap: balance; }
     .hero2-sub { font-size: clamp(1.05rem, 2.4vw, 1.22rem); line-height: 1.5; color: var(--muted); margin: 16px 0 0; max-width: 46ch; text-wrap: pretty; }
     .hero2-sub strong { color: var(--text); font-weight: 600; }
@@ -172,6 +192,11 @@
 
   <!-- HERO -->
   <section class="hero2">
+    <div class="sky" aria-hidden="true">
+      <span class="plane plane-b737"></span>
+      <span class="plane plane-c172"></span>
+      <span class="plane plane-g600"></span>
+    </div>
     <div class="container">
       <div class="hero2-text">
         <span class="badge">Private beta</span>
