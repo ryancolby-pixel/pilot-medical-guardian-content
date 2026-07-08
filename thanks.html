@@ -10,7 +10,7 @@
   <meta name="robots" content="noindex">
   <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
-  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/site.css?v=20260708">
   <style>
     /* Page-specific bits for the thank-you page. */
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
@@ -18,43 +18,34 @@
     .steps { margin: 8px 0 2px; padding-left: 22px; }
     .steps li { margin: 9px 0; color: var(--muted); }
     .steps b { color: var(--text); font-weight: 600; }
-    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
-    .links a {
-      display: inline-flex; align-items: center; justify-content: center;
-      border-radius: var(--radius-chip); padding: 13px 20px;
-      text-decoration: none; font-weight: 600; line-height: 1;
-    }
-    .links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
-    .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); }
-    .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
-    .links a.secondary:hover { border-color: var(--accent); }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
 </head>
 <body>
-  <div class="hero">
-    <div class="hero-inner">
-      <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
-      <div>
-        <div class="hero-name">Pilot Medical Guardian</div>
-        <div class="hero-tag">You're on the list</div>
-      </div>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="nav-brand" href="/"><img src="/logo.png" alt="Pilot Medical Guardian logo"><span>Pilot Medical Guardian</span></a>
+      <nav class="nav-links">
+        <a class="nav-hide-sm" href="/whats-new.html">What's New</a>
+        <a class="nav-hide-sm" href="/faq.html">FAQ</a>
+        <a class="nav-hide-sm" href="/privacy.html">Privacy</a>
+        <a class="nav-cta" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the beta</a>
+      </nav>
     </div>
-    <nav class="hero-nav">
-      <a href="/">Home</a>
-      <a href="/whats-new.html">What's New</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/privacy.html">Privacy</a>
-    </nav>
-  </div>
+  </header>
 
-  <div class="wrap">
-    <span class="badge">Private beta</span>
-    <h2>Thanks — you're on the list!</h2>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="badge">Private beta</span>
+      <h1>Thanks — you're on the list!</h1>
+      <p class="page-sub"><strong>I got your sign-up.</strong> I review every one personally and send the TestFlight invites out myself, so this isn't an instant download — give it a little time (especially around trips and holidays; it's just me here).</p>
+    </div>
+  </section>
 
-    <p class="lede"><strong>I got your sign-up.</strong> I review every one personally and send the TestFlight invites out myself, so this isn't an instant download — give it a little time (especially around trips and holidays; it's just me here).</p>
-
+  <main class="section">
+    <div class="wrap">
     <div class="card">
       <h3>What happens next</h3>
       <ol class="steps">
@@ -75,11 +66,15 @@
     </div>
 
     <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
+    </div>
+  </main>
 
-    <footer>
+  <footer>
+    <div class="wrap">
       <p>Pilot Medical Guardian · Private beta</p>
+      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
       <p>This site describes an app currently in private beta.</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

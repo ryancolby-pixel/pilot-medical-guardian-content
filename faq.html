@@ -25,7 +25,7 @@
 
   <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
-  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/site.css?v=20260708">
   <style>
     /* Page-specific styles for the FAQ page. */
     h3 { font-size: 1.45rem; margin: 30px 0 4px; }
@@ -88,26 +88,28 @@
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
 </head>
 <body>
-  <div class="hero">
-    <div class="hero-inner">
-      <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
-      <div>
-        <div class="hero-name">Pilot Medical Guardian</div>
-        <div class="hero-tag">Questions &amp; Answers</div>
-      </div>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="nav-brand" href="/"><img src="/logo.png" alt="Pilot Medical Guardian logo"><span>Pilot Medical Guardian</span></a>
+      <nav class="nav-links">
+        <a class="nav-hide-sm" href="/whats-new.html">What's New</a>
+        <a class="nav-hide-sm" href="/faq.html" aria-current="page">FAQ</a>
+        <a class="nav-hide-sm" href="/privacy.html">Privacy</a>
+        <a class="nav-cta" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the beta</a>
+      </nav>
     </div>
-    <nav class="hero-nav">
-      <a href="/">Home</a>
-      <a href="/whats-new.html">What's New</a>
-      <a href="/faq.html" aria-current="page">FAQ</a>
-      <a href="/privacy.html">Privacy</a>
-    </nav>
-  </div>
+  </header>
 
-  <div class="wrap">
-    <h2>Questions &amp; Answers</h2>
-    <p class="meta">Updated May 30, 2026 · Beta version of the app</p>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Questions &amp; Answers</h1>
+      <p class="meta">Updated May 30, 2026 · Beta version of the app</p>
+    </div>
+  </section>
 
+  <main class="section">
+    <div class="wrap">
     <div class="banner">
       <p><strong>Please read first:</strong> Pilot Medical Guardian is in beta and under active development. It is an <strong>information and record-keeping tool — not medical advice, not legal advice, and not FAA compliance certification.</strong> It never tells you whether you are fit to fly. It is <strong>not affiliated with, endorsed by, or approved by the FAA.</strong> Always consult your AME for medical certification decisions.</p>
     </div>
@@ -282,11 +284,15 @@
     </details>
 
     <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice.</p>
+    </div>
+  </main>
 
-    <footer>
-      <p>Pilot Medical Guardian · Private beta · <a href="/">Home</a> · <a href="privacy.html">Privacy Policy</a></p>
+  <footer>
+    <div class="wrap">
+      <p>Pilot Medical Guardian · Private beta</p>
+      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
       <p>This page describes an app in private beta and will be reviewed by a healthcare/aviation attorney before the app's public (non-beta) launch.</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -58,7 +58,7 @@
 
   <link rel="icon" type="image/png" href="/logo.png">
   <link rel="apple-touch-icon" href="/logo.png">
-  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/site.css?v=20260708">
   <style>
     /* ============================================================
        REDESIGN PREVIEW (2026-07-08) — crewwx-inspired structure.
@@ -69,30 +69,9 @@
 
     body { background: var(--bg); }
 
-    /* Wider container for nav / hero / feature grid (the reading
-       sections below keep the narrow .wrap column). */
-    .container { max-width: 1060px; margin: 0 auto; padding: 0 24px; }
-
-    /* --- Sticky top nav --- */
-    .site-nav {
-      position: sticky; top: 0; z-index: 20;
-      background: color-mix(in srgb, var(--card) 88%, transparent);
-      backdrop-filter: saturate(180%) blur(12px);
-      -webkit-backdrop-filter: saturate(180%) blur(12px);
-      border-bottom: 1px solid var(--rule);
-    }
-    .site-nav .container { display: flex; align-items: center; justify-content: space-between; height: 60px; }
-    .nav-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; letter-spacing: -0.01em; }
-    .nav-brand img { width: 30px; height: 30px; border-radius: 8px; box-shadow: 0 0 0 1px rgba(16,22,34,0.06); }
-    .nav-brand span { font-size: 1.02rem; }
-    .nav-links { display: flex; align-items: center; gap: 6px; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
-    .nav-links a:hover { color: var(--text); background: var(--bg); }
-    .nav-links a.nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); }
-    .nav-links a.nav-cta:hover { filter: brightness(1.05); color: #fff; background: var(--brand-grad); }
-    @media (max-width: 620px) {
-      .nav-links .nav-hide-sm { display: none; }
-    }
+    /* Sticky nav, .container, .section rhythm, shared buttons and the
+       footer now live in site.css (one source of truth for every page).
+       What remains here is the homepage-only hero + feature grid. */
 
     /* --- Hero: benefit headline + CTA on the left, phone on the right --- */
     .hero2 {
@@ -120,14 +99,6 @@
       .hero2 .proof { text-align: center; }
     }
 
-    /* --- Section rhythm --- */
-    .section { padding: 52px 0; }
-    .section.tint { background: var(--card); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
-    .section-head { max-width: 720px; margin: 0 auto 22px; text-align: center; }
-    .section-head h2 { margin: 0; }
-    .section-head p { color: var(--muted); margin: 8px auto 0; max-width: 60ch; }
-    .section-head .eyebrow { display: block; margin: 0 0 6px; }
-
     /* --- Feature grid (replaces the single-column bullet list) --- */
     .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
     @media (max-width: 900px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
@@ -144,9 +115,6 @@
     .feature h3 { font-size: 1.02rem; margin: 0 0 5px; }
     .feature p { font-size: 0.92rem; color: var(--muted); margin: 0; text-wrap: pretty; }
 
-    /* Reading column for the prose/media sections. */
-    .wrap { max-width: 720px; margin: 0 auto; padding: 0 22px; }
-
     /* --- Page-specific components carried over from the live page --- */
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
     .lede strong { color: var(--text); font-weight: 600; }
@@ -162,15 +130,6 @@
     .shots img { width: 200px; height: auto; display: block; border-radius: 18px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,0.16); transition: transform .2s ease, box-shadow .2s ease; }
     .shots img:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(16,22,34,0.22); }
     .shots figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 9px; text-align: center; line-height: 1.35; }
-    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
-    .links.cta { margin: 16px 0 6px; }
-    .card .links { margin-bottom: 0; }
-    .links a { display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-chip); padding: 13px 22px; text-decoration: none; font-weight: 600; line-height: 1; }
-    .links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
-    .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); box-shadow: 0 9px 24px rgba(28,102,217,0.36); }
-    .links a.primary:active { transform: translateY(0); }
-    .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
-    .links a.secondary:hover { border-color: var(--accent); }
     .cta-note { font-size: 0.9rem; color: var(--muted); margin: 10px 0 4px; }
     .cta-note b { color: var(--text); font-weight: 600; }
     .proof { font-size: 0.9rem; color: var(--muted); margin: 8px 0 2px; text-wrap: pretty; }
@@ -193,8 +152,6 @@
     .prose-card h3 { font-size: 1.15rem; }
     .fineprint { color: var(--muted); font-size: 0.86rem; margin: 10px 0 0; }
     .disclaimer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; text-align: center; }
-    footer { margin-top: 34px; padding: 22px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; text-align: center; }
-    footer a { color: var(--accent); text-decoration: none; }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
