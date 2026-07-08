@@ -60,168 +60,244 @@
   <link rel="apple-touch-icon" href="/logo.png">
   <link rel="stylesheet" href="/site.css">
   <style>
-    /* Page-specific components for the home page. */
+    /* ============================================================
+       REDESIGN PREVIEW (2026-07-08) — crewwx-inspired structure.
+       Reuses site.css tokens; all copy is verbatim from index.html.
+       Layout only: sticky nav, benefit hero + phone, feature grid,
+       sectioned rhythm. Nothing here asserts a new claim.
+       ============================================================ */
 
-    /* Editorial lead — intentionally unboxed, to break the stack of cards. */
+    body { background: var(--bg); }
+
+    /* Wider container for nav / hero / feature grid (the reading
+       sections below keep the narrow .wrap column). */
+    .container { max-width: 1060px; margin: 0 auto; padding: 0 24px; }
+
+    /* --- Sticky top nav --- */
+    .site-nav {
+      position: sticky; top: 0; z-index: 20;
+      background: color-mix(in srgb, var(--card) 88%, transparent);
+      backdrop-filter: saturate(180%) blur(12px);
+      -webkit-backdrop-filter: saturate(180%) blur(12px);
+      border-bottom: 1px solid var(--rule);
+    }
+    .site-nav .container { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; letter-spacing: -0.01em; }
+    .nav-brand img { width: 30px; height: 30px; border-radius: 8px; box-shadow: 0 0 0 1px rgba(16,22,34,0.06); }
+    .nav-brand span { font-size: 1.02rem; }
+    .nav-links { display: flex; align-items: center; gap: 6px; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
+    .nav-links a:hover { color: var(--text); background: var(--bg); }
+    .nav-links a.nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); }
+    .nav-links a.nav-cta:hover { filter: brightness(1.05); color: #fff; background: var(--brand-grad); }
+    @media (max-width: 620px) {
+      .nav-links .nav-hide-sm { display: none; }
+    }
+
+    /* --- Hero: benefit headline + CTA on the left, phone on the right --- */
+    .hero2 {
+      background:
+        radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,0.16), transparent 60%),
+        linear-gradient(180deg, var(--accent-tint), var(--bg) 70%);
+      border-bottom: 1px solid var(--rule);
+    }
+    .hero2 .container { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: 56px; }
+    .hero2 h1 { font-size: clamp(2rem, 5.6vw, 3.05rem); line-height: 1.06; letter-spacing: -0.03em; margin: 14px 0 0; text-wrap: balance; }
+    .hero2-sub { font-size: clamp(1.05rem, 2.4vw, 1.22rem); line-height: 1.5; color: var(--muted); margin: 16px 0 0; max-width: 46ch; text-wrap: pretty; }
+    .hero2-sub strong { color: var(--text); font-weight: 600; }
+    .hero2 .links.cta { margin-top: 24px; }
+    .hero2-media { justify-self: center; }
+    .hero2-media img {
+      width: 260px; max-width: 100%; height: auto; display: block;
+      border-radius: 30px; border: 1px solid var(--rule);
+      box-shadow: 0 26px 60px rgba(16,22,34,0.22), 0 6px 16px rgba(16,22,34,0.10);
+    }
+    @media (max-width: 760px) {
+      .hero2 .container { grid-template-columns: 1fr; gap: 28px; text-align: center; padding-top: 40px; padding-bottom: 40px; }
+      .hero2-sub { margin-left: auto; margin-right: auto; }
+      .hero2 .links.cta { justify-content: center; }
+      .hero2-media img { width: 220px; }
+      .hero2 .proof { text-align: center; }
+    }
+
+    /* --- Section rhythm --- */
+    .section { padding: 52px 0; }
+    .section.tint { background: var(--card); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .section-head { max-width: 720px; margin: 0 auto 22px; text-align: center; }
+    .section-head h2 { margin: 0; }
+    .section-head p { color: var(--muted); margin: 8px auto 0; max-width: 60ch; }
+    .section-head .eyebrow { display: block; margin: 0 0 6px; }
+
+    /* --- Feature grid (replaces the single-column bullet list) --- */
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 900px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .feature-grid { grid-template-columns: 1fr; } }
+    .feature {
+      background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card);
+      padding: 18px 18px 16px; box-shadow: var(--shadow-sm);
+    }
+    .feature .ficon {
+      width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center;
+      background: var(--brand-grad); color: #fff; margin-bottom: 12px;
+    }
+    .feature .ficon svg { width: 20px; height: 20px; stroke: #fff; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .feature h3 { font-size: 1.02rem; margin: 0 0 5px; }
+    .feature p { font-size: 0.92rem; color: var(--muted); margin: 0; text-wrap: pretty; }
+
+    /* Reading column for the prose/media sections. */
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 22px; }
+
+    /* --- Page-specific components carried over from the live page --- */
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
     .lede strong { color: var(--text); font-weight: 600; }
-
-    /* Scannable feature list. */
-    .features { list-style: none; margin: 2px 0 0; padding: 0; }
-    .features li { padding: 11px 0; border-top: 1px solid var(--rule); color: var(--muted); text-wrap: pretty; }
-    .features li:first-child { border-top: 0; padding-top: 2px; }
-    .features b { color: var(--text); font-weight: 600; }
-
-    /* "What testing involves" checklist in the beta-recruit card. */
     .checklist { margin: 10px 0 4px; padding-left: 22px; }
     .checklist li { margin: 7px 0; color: var(--muted); }
     .checklist b { color: var(--text); font-weight: 600; }
-
-    /* Attention callout — the "why this matters" stats block. */
-    .highlight {
-      background: var(--accent-tint);
-      border: 1px solid var(--accent-edge);
-      border-left: 4px solid var(--accent);
-      border-radius: var(--radius-card);
-      padding: 18px 20px;
-      margin: 14px 0;
-    }
-    .highlight h3 { color: var(--accent); }
+    .highlight { background: var(--accent-tint); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); border-radius: var(--radius-card); padding: 20px 22px; margin: 0; }
+    .highlight h3 { color: var(--accent); margin-top: 0; }
     .highlight a { color: var(--accent); }
     .highlight > :last-child { margin-bottom: 0; }
-
-    /* Screenshot rail. */
     .shots { display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 12px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
     .shots figure { margin: 0; width: 200px; flex: none; scroll-snap-align: start; }
-    .shots img {
-      width: 200px; height: auto; display: block;
-      border-radius: 18px; border: 1px solid var(--rule);
-      box-shadow: 0 8px 22px rgba(16,22,34,0.16);
-      transition: transform .2s ease, box-shadow .2s ease;
-    }
+    .shots img { width: 200px; height: auto; display: block; border-radius: 18px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,0.16); transition: transform .2s ease, box-shadow .2s ease; }
     .shots img:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(16,22,34,0.22); }
     .shots figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 9px; text-align: center; line-height: 1.35; }
-
-    /* Call-to-action buttons. */
     .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
     .links.cta { margin: 16px 0 6px; }
     .card .links { margin-bottom: 0; }
-    .links a {
-      display: inline-flex; align-items: center; justify-content: center;
-      border-radius: var(--radius-chip);
-      padding: 13px 20px;
-      text-decoration: none;
-      font-weight: 600;
-      line-height: 1;
-    }
-    .links a.primary {
-      background: var(--brand-grad); color: #fff; border: 0;
-      box-shadow: var(--shadow-cta);
-    }
+    .links a { display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-chip); padding: 13px 22px; text-decoration: none; font-weight: 600; line-height: 1; }
+    .links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
     .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); box-shadow: 0 9px 24px rgba(28,102,217,0.36); }
     .links a.primary:active { transform: translateY(0); }
-    .links a.secondary {
-      background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm);
-    }
+    .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
     .links a.secondary:hover { border-color: var(--accent); }
-
-    /* Reassurance line under the hero call-to-action. */
-    .cta-note { font-size: 0.9rem; color: var(--muted); margin: 2px 0 4px; }
+    .cta-note { font-size: 0.9rem; color: var(--muted); margin: 10px 0 4px; }
     .cta-note b { color: var(--text); font-weight: 600; }
-
-    /* MedXPress autofill demo (wide iPad shots, tap to enlarge). */
+    .proof { font-size: 0.9rem; color: var(--muted); margin: 8px 0 2px; text-wrap: pretty; }
+    .proof .q { color: var(--text); }
     .demo a { display: block; border-radius: 14px; }
     .demo figure { margin: 0 0 16px; }
-    .demo img {
-      width: 100%; height: auto; display: block;
-      border-radius: 14px; border: 1px solid var(--rule);
-      box-shadow: 0 8px 22px rgba(16,22,34,0.16);
-      transition: transform .2s ease, box-shadow .2s ease;
-    }
+    .demo img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,0.16); transition: transform .2s ease, box-shadow .2s ease; }
     .demo a:hover img { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(16,22,34,0.22); }
     .demo figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
     .demo figcaption b { color: var(--text); }
     .demo .tap { color: var(--accent); font-weight: 600; }
-
-    /* Beta-tester pull-quote — breaks the card stack, accent-styled to echo .highlight. */
-    .quote {
-      background: var(--accent-tint);
-      border: 1px solid var(--accent-edge);
-      border-left: 4px solid var(--accent);
-      border-radius: var(--radius-card);
-      padding: 20px 22px;
-      margin: 14px 0;
-    }
-    .quote-eyebrow { font-size: 0.78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); margin: 0 0 9px; }
-    .quote blockquote { margin: 0; font-size: clamp(1.15rem, 3vw, 1.4rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
-    .quote figcaption { margin-top: 12px; font-size: 0.92rem; color: var(--muted); }
-
-    /* Testimonial row — same accent treatment, distinct voices, divided. */
-    .quotes { background: var(--accent-tint); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); border-radius: var(--radius-card); padding: 20px 22px; margin: 14px 0; }
+    .quotes { background: var(--accent-tint); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); border-radius: var(--radius-card); padding: 20px 22px; margin: 0; }
     .quotes blockquote { margin: 0; font-size: clamp(1.02rem, 2.5vw, 1.2rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
     .quotes blockquote + blockquote { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--accent-edge); }
-    .quotes .who { display: block; margin-top: 8px; font-size: 0.9rem; font-weight: 400; color: var(--muted); }
-
-    /* Quiet hero proof line — a small credibility cue, NOT a box (avoids colliding with the stats callout below). */
-    .proof { font-size: 0.9rem; color: var(--muted); margin: 9px 0 2px; text-wrap: pretty; }
-    .proof .q { color: var(--text); }
-    .proof .q b { font-weight: 600; }
+    .quote-eyebrow { font-size: 0.78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); margin: 0 0 9px; }
+    .prose-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
+    .prose-card + .prose-card { margin-top: 16px; }
+    .prose-card > :first-child { margin-top: 0; }
+    .prose-card > :last-child { margin-bottom: 0; }
+    .prose-card h3 { font-size: 1.15rem; }
+    .fineprint { color: var(--muted); font-size: 0.86rem; margin: 10px 0 0; }
+    .disclaimer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; text-align: center; }
+    footer { margin-top: 34px; padding: 22px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; text-align: center; }
+    footer a { color: var(--accent); text-decoration: none; }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
 </head>
 <body>
-  <div class="hero">
-    <div class="hero-inner">
-      <img class="hero-logo" src="/logo.png" alt="Pilot Medical Guardian logo" width="88" height="88">
-      <div>
-        <h1 class="hero-name">Pilot Medical Guardian</h1>
-        <div class="hero-tag">FAA medical certificate, organized and protected</div>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="nav-brand" href="/"><img src="/logo.png" alt="Pilot Medical Guardian logo"><span>Pilot Medical Guardian</span></a>
+      <nav class="nav-links">
+        <a class="nav-hide-sm" href="/whats-new.html">What's New</a>
+        <a class="nav-hide-sm" href="/faq.html">FAQ</a>
+        <a class="nav-hide-sm" href="/privacy.html">Privacy</a>
+        <a class="nav-cta" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the beta</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero2">
+    <div class="container">
+      <div class="hero2-text">
+        <span class="badge">Private beta</span>
+        <h1>Protect your FAA medical certificate.</h1>
+        <p class="hero2-sub"><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress prep organized — so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud.</p>
+        <div class="links cta">
+          <a class="primary" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the private beta</a>
+          <a class="secondary" href="#features">See what it does</a>
+        </div>
+        <p class="cta-note"><b>Free during the private beta</b> — installs in a couple of minutes through Apple's TestFlight.</p>
+        <p class="proof">Pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
+      </div>
+      <div class="hero2-media">
+        <img src="/screenshots/home.png" alt="Pilot Medical Guardian home screen showing the time until the medical certificate expires">
       </div>
     </div>
-    <nav class="hero-nav">
-      <a href="/" aria-current="page">Home</a>
-      <a href="/whats-new.html">What's New</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/privacy.html">Privacy</a>
-    </nav>
-  </div>
+  </section>
 
-  <div class="wrap">
-    <span class="badge">Private beta</span>
-    <h2>Protect your FAA medical certificate.</h2>
-
-    <p class="lede"><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress prep organized — so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud.</p>
-
-    <div class="links cta">
-      <a class="primary" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the private beta</a>
-      <a class="secondary" href="#features">See what it does</a>
+  <!-- WHY IT MATTERS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="highlight">
+        <h3>The problem is usually the paperwork — not your health</h3>
+        <p>When a pilot runs into trouble with their FAA medical, it's usually not their health — it's the documentation. In the Federal Air Surgeon's own words, <em>"most of these denials resulted because of a failure of the applicants to provide sufficient information."</em> And it's common: about <strong>1 in 16</strong> certified airmen fly on a Special Issuance — nearly <strong>1 in 5 past age 65</strong>.</p>
+        <p>The FAA says so itself: in its April 2025 review, the agency named <em>"incomplete information on airmen's submissions"</em> a top challenge, and noted Special Issuances have roughly <strong>doubled since 2019</strong>. Its own fix — better paperwork prep and a clearer MedXPress — is exactly what this app does.</p>
+        <p class="fineprint">Sources: <a href="https://www.faa.gov/faq/how-common-are-denials-third-class-airman-medical-certificates">FAA Federal Air Surgeon</a> · <a href="https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/2024_statistical_handbook.pdf">FAA 2024 Aerospace Medical Certification Statistical Handbook</a> (Oct 2025) · <a href="https://www.faa.gov/newsroom/faa-seeks-input-improving-medical-process">FAA "Improving the Medical Process"</a> (Apr 2025).</p>
+      </div>
     </div>
-    <p class="cta-note"><b>Free during the private beta</b> — installs in a couple of minutes through Apple's TestFlight.</p>
-    <p class="proof">Pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
+  </section>
 
-    <div class="highlight">
-      <h3>The problem is usually the paperwork — not your health</h3>
-      <p>When a pilot runs into trouble with their FAA medical, it's usually not their health — it's the documentation. In the Federal Air Surgeon's own words, <em>"most of these denials resulted because of a failure of the applicants to provide sufficient information."</em> And it's common: about <strong>1 in 16</strong> certified airmen fly on a Special Issuance — nearly <strong>1 in 5 past age 65</strong>.</p>
-      <p>The FAA says so itself: in its April 2025 review, the agency named <em>"incomplete information on airmen's submissions"</em> a top challenge, and noted Special Issuances have roughly <strong>doubled since 2019</strong>. Its own fix — better paperwork prep and a clearer MedXPress — is exactly what this app does.</p>
-      <p class="fineprint">Sources: <a href="https://www.faa.gov/faq/how-common-are-denials-third-class-airman-medical-certificates">FAA Federal Air Surgeon</a> · <a href="https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/2024_statistical_handbook.pdf">FAA 2024 Aerospace Medical Certification Statistical Handbook</a> (Oct 2025) · <a href="https://www.faa.gov/newsroom/faa-seeks-input-improving-medical-process">FAA "Improving the Medical Process"</a> (Apr 2025).</p>
+  <!-- FEATURES -->
+  <section class="section tint" id="features">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What it does</span>
+        <h2>Everything for your medical, in one private place</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M5 3l1.5 3.5L10 8 6.5 9.5 5 13 3.5 9.5 0 8l3.5-1.5z" transform="translate(6 2)"/><path d="M14 11v8M10 15h8"/></svg></div>
+          <h3>MedXPress autofill</h3>
+          <p>Fills the parts of the FAA form you'd otherwise retype every cycle.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M4 4h11l5 5v11a0 0 0 0 1 0 0H4z"/><path d="M15 4v5h5M8 14h8M8 17h5"/></svg></div>
+          <h3>My Documents &amp; Share with your AME</h3>
+          <p>Scan, import, or share a PDF or photo, keep it organized, then bundle what you choose into one PDF and send it to your AME from your phone — built on-device.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>Renewal countdown</h3>
+          <p>Your expiration date from the real 14 CFR rules, with reminders before it lapses.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Special Issuance tracking</h3>
+          <p>Requirements, documents, and change-alerts in one encrypted place.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M3 13h4l2 5 4-12 2 7h6"/></svg></div>
+          <h3>Health vs. FAA thresholds</h3>
+          <p>Charts your metrics against the FAA's own cited limits, so you spot a problem early.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M4 5h13v11H9l-4 3z"/><path d="M8 9h6M8 12h4"/></svg></div>
+          <h3>CACI pathway</h3>
+          <p>Surfaces the FAA's worksheet when a new diagnosis might be issued at the desk.</p>
+        </div>
+        <div class="feature">
+          <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+          <h3>AME directory</h3>
+          <p>Find an examiner by location, including HIMS-trained.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="card" id="features">
-      <h3>What it does</h3>
-      <ul class="features">
-        <li><b>MedXPress autofill</b> — fills the parts of the FAA form you'd otherwise retype every cycle.</li>
-        <li><b>My Documents &amp; Share with your AME</b> — scan, import, or share in a PDF or photo (a lab result your doctor emailed, or one you saved from your patient portal), keep it organized, then bundle what you choose into one PDF and send it to your AME from your phone — built on-device.</li>
-        <li><b>Renewal countdown</b> — your expiration date from the real 14 CFR rules, with reminders before it lapses.</li>
-        <li><b>Special Issuance tracking</b> — requirements, documents, and change-alerts in one encrypted place.</li>
-        <li><b>Health vs. FAA thresholds</b> — charts your metrics against the FAA's own cited limits, so you spot a problem early.</li>
-        <li><b>CACI pathway</b> — surfaces the FAA's worksheet when a new diagnosis might be issued at the desk.</li>
-        <li><b>AME directory</b> — find an examiner by location, including HIMS-trained.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h3>See the MedXPress autofill in action</h3>
+  <!-- MEDXPRESS DEMO -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head" style="text-align:left; margin-bottom:14px;">
+        <h2 style="text-align:left;">See the MedXPress autofill in action</h2>
+      </div>
       <p>The Safari extension fills the parts of FAA MedXPress you'd otherwise retype every renewal — your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review every field and tap <b>Add</b> yourself; it never submits for you, and your data never leaves your device.</p>
       <p>And it's all saved on your device — so next cycle, you're not starting from a blank form. <b>MedXPress doesn't remember your last application; the app does.</b></p>
       <div class="demo">
@@ -241,87 +317,90 @@
       <p class="fineprint">Screens use sample data on the live FAA form and reflect an app in active private beta.</p>
       <p style="margin-top:12px;"><a href="/autofill.html"><strong>How to turn on the autofill &rarr;</strong></a></p>
     </div>
+  </section>
 
-    <div class="card">
-      <h3>Bring your records together — then send them to your AME</h3>
-      <p>Lab results, physician letters, test reports, your Special Issuance authorization — they arrive as PDFs and paper from every direction. Bring them all into one place: scan a paper letter, import a PDF or photo you already have (a result your doctor emailed, or one you saved from your patient portal), or share one straight in from Mail or Files. The app keeps them organized — filed on their own or linked to the Special Issuance condition they belong to.</p>
-      <p>When it's time for your exam, bundle what you choose into one clean PDF and send it to your AME right from your phone — your certificate, medications, visits, Special Issuance, and the documents you've saved. You pick what goes in; it's built on your device and only leaves when you hit share.</p>
-      <p class="fineprint">Everything stays on your device and your own iCloud — nothing is uploaded to us.</p>
+  <!-- TESTIMONIALS -->
+  <section class="section tint">
+    <div class="wrap">
+      <figure class="quotes" style="margin:0;">
+        <p class="quote-eyebrow">From beta testers</p>
+        <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."</blockquote>
+        <blockquote>"It worked really well and made it quick and easy. I definitely see the value in this product."</blockquote>
+        <blockquote>"I completed a new MedXPress application and the autofill put in exactly what I'd entered in the app. Easy to set up and use. It's a good product."</blockquote>
+      </figure>
     </div>
+  </section>
 
-    <figure class="quotes">
-      <p class="quote-eyebrow">From beta testers</p>
-      <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."
-      </blockquote>
-      <blockquote>"It worked really well and made it quick and easy. I definitely see the value in this product."
-      </blockquote>
-      <blockquote>"I completed a new MedXPress application and the autofill put in exactly what I'd entered in the app. Easy to set up and use. It's a good product."
-      </blockquote>
-    </figure>
-
-    <div class="card">
-      <h3>A look inside the app</h3>
+  <!-- A LOOK INSIDE -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head" style="text-align:left; margin-bottom:12px;">
+        <h2 style="text-align:left;">A look inside the app</h2>
+      </div>
       <div class="shots">
-        <figure>
-          <img src="/screenshots/home.png" alt="Home screen showing the time until the medical certificate expires">
-          <figcaption>Know exactly when your medical expires</figcaption>
-        </figure>
-        <figure>
-          <img src="/screenshots/medxpress.png" alt="The in-app records screen with medications and doctor visits organized to match the FAA form">
-          <figcaption>Your records, organized and ready to autofill</figcaption>
-        </figure>
-        <figure>
-          <img src="/screenshots/si.png" alt="Special Issuance checklist with requirements and reminders">
-          <figcaption>Stay on top of Special Issuance</figcaption>
-        </figure>
-        <figure>
-          <img src="/screenshots/health.png" alt="A health metric charted against the FAA's cited threshold">
-          <figcaption>Your numbers vs. the FAA's own thresholds</figcaption>
-        </figure>
-        <figure>
-          <img src="/screenshots/documents.png" alt="The My Documents screen, with a Share-with-your-AME button and options to scan or import a document">
-          <figcaption>Your documents, ready to share with your AME</figcaption>
-        </figure>
+        <figure><img src="/screenshots/home.png" alt="Home screen showing the time until the medical certificate expires"><figcaption>Know exactly when your medical expires</figcaption></figure>
+        <figure><img src="/screenshots/medxpress.png" alt="The in-app records screen with medications and doctor visits organized to match the FAA form"><figcaption>Your records, organized and ready to autofill</figcaption></figure>
+        <figure><img src="/screenshots/si.png" alt="Special Issuance checklist with requirements and reminders"><figcaption>Stay on top of Special Issuance</figcaption></figure>
+        <figure><img src="/screenshots/health.png" alt="A health metric charted against the FAA's cited threshold"><figcaption>Your numbers vs. the FAA's own thresholds</figcaption></figure>
+        <figure><img src="/screenshots/documents.png" alt="The My Documents screen, with a Share-with-your-AME button and options to scan or import a document"><figcaption>Your documents, ready to share with your AME</figcaption></figure>
       </div>
       <p class="fineprint">Screens use sample data and reflect an app in active private beta.</p>
     </div>
+  </section>
 
-    <div class="card">
-      <h3>Built so I can't see your data</h3>
-      <p>Your records sync only through your own iCloud private database. There's no Pilot Medical Guardian server holding your health, disclosure, or Special Issuance data — that isn't a promise to behave, it's how the app is built.</p>
-    </div>
-
-    <div class="card">
-      <h3>Why I built this</h3>
-      <p>I'm a pilot at a major U.S. airline. Over the years I watched friends — healthy, capable aviators — get blindsided not by their health, but by the paperwork around it: a renewal that slipped, a Special Issuance requirement that got missed, a MedXPress answer that didn't match last cycle's. So I built the tool I wanted — private by design, grounded in the FAA's own published rules, and built so that no one but you can ever see your data. It keeps you organized; your AME still makes every certification decision.</p>
-      <p class="muted">— Ryan, founder of Pilot Medical Guardian</p>
-    </div>
-
-    <div class="card">
-      <h3>Want to help test it?</h3>
-      <p>I'm running a small private beta before a wider release — and I'd especially love to hear from pilots flying on a Special Issuance. Here's what testing involves:</p>
-      <ul class="checklist">
-        <li><b>Free to use during the beta</b>, installed through Apple's TestFlight — a few minutes to get started.</li>
-        <li><b>Use it the way you normally would</b> — prepping for an exam, tracking an SI, or watching a renewal date.</li>
-        <li><b>Tell me what's confusing, missing, or wrong</b> — I read every note and reply personally.</li>
-      </ul>
-      <p>Sign up with the quick form and tell me a bit about your flying — or, if you'd rather, just email <a href="mailto:support@pilotmedicalguardian.com?subject=Beta%20tester%20interest">support@pilotmedicalguardian.com</a>.</p>
-      <div class="links">
-        <a class="primary" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the private beta</a>
+  <!-- RECORDS + PRIVACY + FOUNDER -->
+  <section class="section tint">
+    <div class="wrap">
+      <div class="prose-card">
+        <h3>Bring your records together — then send them to your AME</h3>
+        <p>Lab results, physician letters, test reports, your Special Issuance authorization — they arrive as PDFs and paper from every direction. Bring them all into one place: scan a paper letter, import a PDF or photo you already have (a result your doctor emailed, or one you saved from your patient portal), or share one straight in from Mail or Files. The app keeps them organized — filed on their own or linked to the Special Issuance condition they belong to.</p>
+        <p>When it's time for your exam, bundle what you choose into one clean PDF and send it to your AME right from your phone — your certificate, medications, visits, Special Issuance, and the documents you've saved. You pick what goes in; it's built on your device and only leaves when you hit share.</p>
+        <p class="fineprint">Everything stays on your device and your own iCloud — nothing is uploaded to us.</p>
+      </div>
+      <div class="prose-card">
+        <h3>Built so I can't see your data</h3>
+        <p>Your records sync only through your own iCloud private database. There's no Pilot Medical Guardian server holding your health, disclosure, or Special Issuance data — that isn't a promise to behave, it's how the app is built.</p>
+      </div>
+      <div class="prose-card">
+        <h3>Why I built this</h3>
+        <p>I'm a pilot at a major U.S. airline. Over the years I watched friends — healthy, capable aviators — get blindsided not by their health, but by the paperwork around it: a renewal that slipped, a Special Issuance requirement that got missed, a MedXPress answer that didn't match last cycle's. So I built the tool I wanted — private by design, grounded in the FAA's own published rules, and built so that no one but you can ever see your data. It keeps you organized; your AME still makes every certification decision.</p>
+        <p class="muted">— Ryan, founder of Pilot Medical Guardian</p>
       </div>
     </div>
+  </section>
 
-    <div class="links">
-      <a class="primary" href="/faq.html">Read the FAQ</a>
-      <a class="secondary" href="/privacy.html">Privacy Policy</a>
+  <!-- BETA CTA -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Want to help test it?</h2>
+        <p>I'm running a small private beta before a wider release — and I'd especially love to hear from pilots flying on a Special Issuance.</p>
+      </div>
+      <div class="prose-card">
+        <p style="margin-top:0;">Here's what testing involves:</p>
+        <ul class="checklist">
+          <li><b>Free to use during the beta</b>, installed through Apple's TestFlight — a few minutes to get started.</li>
+          <li><b>Use it the way you normally would</b> — prepping for an exam, tracking an SI, or watching a renewal date.</li>
+          <li><b>Tell me what's confusing, missing, or wrong</b> — I read every note and reply personally.</li>
+        </ul>
+        <p>Sign up with the quick form and tell me a bit about your flying — or, if you'd rather, just email <a href="mailto:support@pilotmedicalguardian.com?subject=Beta%20tester%20interest">support@pilotmedicalguardian.com</a>.</p>
+        <div class="links" style="margin-bottom:0;">
+          <a class="primary" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the private beta</a>
+          <a class="secondary" href="/faq.html">Read the FAQ</a>
+        </div>
+      </div>
+
+      <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
     </div>
+  </section>
 
-    <p class="disclaimer">This app is an information and record-keeping tool — not medical, legal, or FAA compliance certification, and not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
-
-    <footer>
+  <footer>
+    <div class="wrap">
       <p>Pilot Medical Guardian · Private beta</p>
+      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
       <p>This site describes an app currently in private beta.</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
+
 </body>
 </html>
