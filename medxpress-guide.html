@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Fill Out FAA MedXPress (Form 8500-8): A Pilot's Guide</title>
+  <meta name="description" content="A plain-language walkthrough of FAA MedXPress — what it is, the 30- and 60-day timing rules, your confirmation number, and what Items 17, 18, and 19 ask. Links to the official FAA sources for every rule. Not medical or legal advice.">
+  <meta name="theme-color" content="#1c66d9">
+  <link rel="canonical" href="https://pilotmedicalguardian.com/medxpress-guide.html">
+
+  <!-- Structured data: an explainer article + a FAQ that mirrors the visible FAQ below.
+       No pricing, ratings, medical claims, or FAA endorsement asserted. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "How to Fill Out FAA MedXPress (Form 8500-8): A Pilot's Guide",
+        "description": "A plain-language walkthrough of FAA MedXPress — what it is, the timing rules, your confirmation number, and what Items 17, 18, and 19 ask.",
+        "author": { "@type": "Organization", "name": "Pilot Medical Guardian" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Pilot Medical Guardian",
+          "logo": { "@type": "ImageObject", "url": "https://pilotmedicalguardian.com/logo.png" }
+        },
+        "mainEntityOfPage": "https://pilotmedicalguardian.com/medxpress-guide.html"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long is a MedXPress confirmation number valid?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Per the FAA, after you submit your application your medical examination must occur within 60 days or the application is deleted. Separately, an application you've created but not submitted is removed after 30 days. Always confirm the current rules on the FAA's MedXPress FAQ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I have to use MedXPress?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Applying for an FAA medical certificate means completing FAA Form 8500-8, and MedXPress is the FAA's system for submitting that form electronically before your exam. Check the FAA's current guidance for how it applies to you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does MedXPress replace the medical exam?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. MedXPress is only the application. A medical examination by an FAA-designated AME is still required to complete the certification process; your AME reviews your MedXPress information at the exam using your confirmation number."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I bring to my AME appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Per the FAA, bring your MedXPress confirmation number and valid photo identification. Your AME cannot access your application without the confirmation number."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the app fill in the whole form for me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No — and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. The medical-history Yes/No section (Item 18) is yours to complete by hand, following the FAA's own instructions."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Social share (Open Graph + Twitter Card) -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Pilot Medical Guardian">
+  <meta property="og:title" content="How to Fill Out FAA MedXPress (Form 8500-8): A Pilot's Guide">
+  <meta property="og:description" content="What MedXPress is, the 30- and 60-day timing rules, your confirmation number, and what Items 17, 18, and 19 ask — in plain language, with links to the official FAA sources.">
+  <meta property="og:url" content="https://pilotmedicalguardian.com/medxpress-guide.html">
+  <meta property="og:image" content="https://pilotmedicalguardian.com/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pilot Medical Guardian — your FAA medical paperwork, handled.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Fill Out FAA MedXPress (Form 8500-8): A Pilot's Guide">
+  <meta name="twitter:description" content="What MedXPress is, the timing rules, your confirmation number, and what Items 17, 18, and 19 ask — in plain language, with links to the official FAA sources.">
+  <meta name="twitter:image" content="https://pilotmedicalguardian.com/og-card.png">
+
+  <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/logo.png">
+  <link rel="stylesheet" href="/site.css?v=20260708">
+  <style>
+    /* Page-specific bits for the MedXPress guide (prose, callouts, steps, FAQ). */
+    .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 62ch; text-wrap: pretty; }
+    .lede strong { color: var(--text); font-weight: 600; }
+
+    .callout {
+      background: var(--accent-tint); border: 1px solid var(--accent-edge);
+      border-radius: var(--radius-chip); padding: 14px 16px; margin: 18px 0;
+      font-size: 0.95rem; color: var(--muted);
+    }
+    .callout strong { color: var(--text); font-weight: 600; }
+    .callout a { color: var(--accent); }
+
+    .step { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0; }
+    .step:first-child { margin-top: 4px; }
+    .step-num {
+      flex: none; width: 30px; height: 30px; border-radius: 50%;
+      background: var(--accent); color: #fff; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; font-size: 0.95rem;
+    }
+    .step-body { flex: 1; }
+    .step-body h4 { margin: 3px 0 4px; font-size: 1.02rem; letter-spacing: -0.01em; }
+    .step-body p { margin: 0 0 6px; color: var(--muted); }
+    .step-body p:last-child { margin-bottom: 0; }
+    .step-body a { color: var(--accent); }
+
+    /* Item 17/18/19 reference cards. */
+    .item { margin: 0 0 4px; }
+    .item h3 { margin: 0 0 2px; }
+    .item .tag {
+      display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--accent); margin-bottom: 6px;
+    }
+    .quote {
+      border-left: 3px solid var(--accent-edge); padding: 2px 0 2px 14px; margin: 8px 0;
+      color: var(--text); font-style: italic;
+    }
+    .card p a, .prose a { color: var(--accent); }
+
+    details {
+      background: var(--card); border: 1px solid var(--rule);
+      border-radius: var(--radius-chip); padding: 2px 16px; margin: 10px 0;
+      box-shadow: var(--shadow-sm);
+    }
+    summary { cursor: pointer; font-weight: 600; padding: 13px 0; color: var(--text); }
+    summary::marker { color: var(--accent); }
+    details p { color: var(--muted); margin: 0 0 13px; }
+    details a { color: var(--accent); }
+
+    .prose p { color: var(--text); }
+    .prose p a { color: var(--accent); }
+    .source-note { color: var(--muted); font-size: 0.86rem; margin-top: 6px; }
+    .source-note a { color: var(--accent); }
+  </style>
+  <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="nav-brand" href="/"><img src="/logo.png" alt="Pilot Medical Guardian logo"><span>Pilot Medical Guardian</span></a>
+      <nav class="nav-links">
+        <a class="nav-hide-sm" href="/whats-new.html">What's New</a>
+        <a class="nav-hide-sm" href="/faq.html">FAQ</a>
+        <a class="nav-hide-sm" href="/privacy.html">Privacy</a>
+        <a class="nav-cta" href="https://tally.so/r/gDvK8P" target="_blank" rel="noopener">Join the beta</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="badge">Pilot's guide</span>
+      <h1>How to fill out FAA MedXPress</h1>
+      <p class="page-sub"><strong>A plain-language walkthrough of the FAA's online medical application (Form 8500-8)</strong> — what it is, the timing rules that catch pilots out, your confirmation number, and what Items 17, 18, and 19 actually ask. Written by a pilot, with a link to the official FAA source for every rule.</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="wrap prose">
+
+    <div class="callout">
+      <strong>This is a plain-language guide to the FAA's own process — not medical or legal advice, and not affiliated with or endorsed by the FAA.</strong> What you must report, and how, is governed by the FAA's instructions and the judgment of your Aviation Medical Examiner. We link to the FAA's official pages throughout — always rely on those.
+    </div>
+
+    <span class="eyebrow">The basics</span>
+    <h2>What is MedXPress?</h2>
+    <p><strong>FAA MedXPress</strong> is the FAA's free web application for submitting <strong>FAA Form 8500-8</strong> — the Application for Airman Medical Certificate — electronically, before your exam. Anyone who needs an FAA medical certificate (or a student pilot medical certificate) can use it; all you need is a valid email address to create an account.</p>
+    <p>You fill in your application online (Items 1–20), submit it, and the information is then available for your FAA-designated <strong>Aviation Medical Examiner (AME)</strong> to review at the time of your exam. One thing worth being clear on up front: <strong>MedXPress is only the application.</strong> A medical examination by an AME is still required to actually complete the certification process — the form doesn't replace the exam.</p>
+    <p class="source-note">Source: <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">FAA MedXPress</a> and the <a href="https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/medxpress.pdf" target="_blank" rel="noopener">FAA MedXPress brochure</a>.</p>
+
+    <span class="eyebrow">Step by step</span>
+    <h2>How the MedXPress process works</h2>
+    <div class="card">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h4>Create your MedXPress account</h4>
+          <p>Register at <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">medxpress.faa.gov</a> with a valid email address. It's free.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h4>Complete the application (Items 1–20)</h4>
+          <p>Fill in your personal information, certificate details, medications, medical history, and visits to health professionals. You can save and come back to it.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h4>Submit it and save your MedXPress confirmation number</h4>
+          <p>When you submit, the FAA gives you a <strong>confirmation number</strong>. Your AME uses this number to pull up your application — and cannot access it without the confirmation number.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h4>Bring your confirmation number and photo ID to the exam</h4>
+          <p>The FAA instructs applicants to bring their MedXPress confirmation number and valid photo identification to the appointment. Your AME reviews your application with you, performs the exam, and handles the certification decision.</p>
+        </div>
+      </div>
+    </div>
+    <p class="source-note">Source: <a href="https://medxpress.faa.gov/MedXPress/Help/FAQ.htm" target="_blank" rel="noopener">FAA MedXPress FAQ</a> and <a href="https://medxpress.faa.gov/MedXPress/Help/Instructions.htm" target="_blank" rel="noopener">MedXPress instructions</a>.</p>
+
+    <span class="eyebrow">Don't get caught out</span>
+    <h2>The two timing rules that trip pilots up</h2>
+    <p>MedXPress has two deadlines, and missing either one means your application gets deleted and you start over:</p>
+    <div class="callout">
+      <p style="margin-top:0"><strong>30 days to submit.</strong> Per the FAA, if an application you've created is <strong>not submitted within 30 days</strong>, it is removed from the system.</p>
+      <p style="margin-bottom:0"><strong>60 days to your exam.</strong> After you submit, your <strong>medical examination must occur within 60 days</strong>, or the application is deleted.</p>
+    </div>
+    <p>What that means in practice: an application created too far ahead can be removed before you ever submit it, and one submitted before your exam is scheduled can be deleted before you get there.</p>
+    <p class="source-note">Source: FAA — <a href="https://www.faa.gov/faq/how-long-will-my-application-remain-medxpress-system" target="_blank" rel="noopener">"How long will my application remain in the MedXPress system?"</a> Confirm the current rules there before relying on them.</p>
+
+    <span class="eyebrow">The parts you re-enter every cycle</span>
+    <h2>Items 17, 18, and 19 — the sections that take the most work</h2>
+    <p>Most of Form 8500-8 is quick. Three sections are where pilots spend real time — and where they end up digging through last cycle's paperwork. Here's what each one asks, in the FAA's own words.</p>
+
+    <div class="card item">
+      <span class="tag">Item 17 &middot; Medications</span>
+      <h3>Medications you currently use</h3>
+      <p>Item 17 asks whether you currently use any medication, prescription or nonprescription — and if so, to list them. It's about what you use <strong>now</strong>, not your whole history.</p>
+      <p class="source-note"><a href="https://www.faa.gov/forms/index.cfm/go/document.information/documentID/185786" target="_blank" rel="noopener">FAA Form 8500-8</a> (Item 17a).</p>
+    </div>
+
+    <div class="card item">
+      <span class="tag">Item 18 &middot; Medical history</span>
+      <h3>Your lifetime medical history (the Yes/No grid)</h3>
+      <p>Item 18 is the long list of Yes/No conditions. FAA Form 8500-8 phrases the question as:</p>
+      <p class="quote">"Have you ever in your life been diagnosed with, had, or do you presently have any of the following?"</p>
+      <p>For anything you mark Yes, the FAA asks for an explanation — a description and approximate date — in the Explanations box. <strong>What to report here is governed entirely by the FAA's instructions and your AME</strong>; we don't interpret it for you. Read the FAA's own guidance before you fill it in.</p>
+      <p class="source-note">Question wording: <a href="https://www.faa.gov/forms/index.cfm/go/document.information/documentID/185786" target="_blank" rel="noopener">FAA Form 8500-8</a>. Explanations requirement: <a href="https://www.faa.gov/ame_guide/app_process/app_history/item18/instructions" target="_blank" rel="noopener">FAA AME Guide — Item 18 instructions</a>.</p>
+    </div>
+
+    <div class="card item">
+      <span class="tag">Item 19 &middot; Visits to health professionals</span>
+      <h3>Visits to health professionals in the last 3 years</h3>
+      <p>Item 19 asks you to list your visits to health professionals within the past three years — doctors, and also professionals like a physician assistant, nurse practitioner, psychologist, psychiatrist, chiropractor, clinical social worker, or substance abuse specialist — for treatment, examination, or evaluation. For each, you note the date, the provider, and the reason.</p>
+      <p class="source-note"><a href="https://www.faa.gov/ame_guide/app_process/app_history/item19" target="_blank" rel="noopener">FAA AME Guide — Item 19</a> and <a href="https://www.faa.gov/forms/index.cfm/go/document.information/documentID/185786" target="_blank" rel="noopener">FAA Form 8500-8</a> (Item 19).</p>
+    </div>
+
+    <div class="callout">
+      <strong>Why these three are a pain:</strong> Items 17 and 19 are the same information every renewal cycle — the same medications and the same routine visits — that you end up hunting for and retyping. And because Item 18 asks about your <em>lifetime</em> history, keeping your answers consistent from one application to the next matters. Staying organized between exams is most of the battle.
+    </div>
+
+    <span class="eyebrow">A hand with the busywork</span>
+    <h2>How Pilot Medical Guardian helps you prepare</h2>
+    <p>This guide is free, and it stands on its own. But keeping your meds and visits organized between exams — so you're not reconstructing them from memory every cycle — is exactly what we built <strong>Pilot Medical Guardian</strong> to do.</p>
+    <div class="card">
+      <p style="margin-top:0">It's a <strong>privacy-first iPhone and iPad app</strong> that keeps your medications, doctor visits, and medical records organized on <strong>your own device and iCloud</strong> — the developer can never see your health data. When it's time to renew, its Safari extension can <strong>prefill Items 17 and 19</strong> (your medications and visits) straight into MedXPress, so you don't retype the same information every cycle. You review every entry and tap Submit yourself — the app never submits anything for you.</p>
+      <p style="margin-bottom:0">It's an information and record-keeping tool — it shows you the FAA's own cited thresholds and sources, and it never renders a pass/fail or tells you whether you're fit to fly. You stay in control.</p>
+      <div class="links">
+        <a class="primary" href="/">See what it does</a>
+        <a class="secondary" href="/autofill.html">Set up MedXPress autofill</a>
+      </div>
+    </div>
+
+    <span class="eyebrow">Quick answers</span>
+    <h2>MedXPress FAQ</h2>
+    <details>
+      <summary>How long is a MedXPress confirmation number valid?</summary>
+      <p>Per the FAA, after you submit your application your medical examination must occur within 60 days or the application is deleted. Separately, an application you've created but not submitted is removed after 30 days. Always confirm the current rules on the <a href="https://www.faa.gov/faq/how-long-will-my-application-remain-medxpress-system" target="_blank" rel="noopener">FAA's MedXPress FAQ</a>.</p>
+    </details>
+    <details>
+      <summary>Do I have to use MedXPress?</summary>
+      <p>Applying for an FAA medical certificate means completing FAA Form 8500-8, and MedXPress is the FAA's system for submitting that form electronically before your exam. Check the <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">FAA's current guidance</a> for how it applies to you.</p>
+    </details>
+    <details>
+      <summary>Does MedXPress replace the medical exam?</summary>
+      <p>No. MedXPress is only the application. A medical examination by an FAA-designated AME is still required to complete the certification process; your AME reviews your MedXPress information at the exam using your confirmation number.</p>
+    </details>
+    <details>
+      <summary>What do I bring to my AME appointment?</summary>
+      <p>Per the FAA, bring your MedXPress confirmation number and valid photo identification. Your AME cannot access your application without the confirmation number.</p>
+    </details>
+    <details>
+      <summary>Can the app fill in the whole form for me?</summary>
+      <p>No — and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. The medical-history Yes/No section (Item 18) is yours to complete by hand, following the FAA's own instructions.</p>
+    </details>
+
+    <div class="links">
+      <a class="primary" href="/">Back to home</a>
+      <a class="secondary" href="/faq.html">Read the full FAQ</a>
+    </div>
+
+    <p class="disclaimer">This guide describes the FAA's own process and forms in plain language. It is an information resource — not medical, legal, or FAA compliance advice, and it is not affiliated with or endorsed by the FAA. What you must report on your application, and whether you meet the medical standards, is determined by the FAA and your Aviation Medical Examiner. Always rely on the official FAA sources linked above.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Pilot Medical Guardian · Private beta</p>
+      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
+      <p>This site describes an app currently in private beta.</p>
+    </div>
+  </footer>
+</body>
+</html>
