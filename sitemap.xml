@@ -16,6 +16,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://pilotmedicalguardian.com/medxpress-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilotmedicalguardian.com/basicmed-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://pilotmedicalguardian.com/privacy.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
