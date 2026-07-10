@@ -15,16 +15,16 @@ Public FAA reference content for the [Pilot Medical Guardian](https://github.com
 | [`v1/cert_durations.json`](v1/cert_durations.json) | 14 CFR 61.23(d) duration cascade |
 | [`v1/ame_directory.json`](v1/ame_directory.json) | Curated AME directory (factual, no ratings) |
 
-## Status: beta
+## Content status
 
-⚠️ The Tier-B medical content (medications, SI requirements, thresholds with cited figures) is **draft pending AME advisor review** — `reviewStatus: "draft"` in the envelope. The app surfaces a *"Pending AME review — not yet verified"* badge on each draft entry. Do not rely on these values for a real certification decision.
+The reference data here is curated from **authoritative FAA sources and cited to them** — per the project's north-star rule, if a value isn't in an authoritative FAA source, it doesn't ship. The app displays it **descriptively** (the reading, the cited FAA threshold, and the source) and, wherever practical, **links to the FAA's own page rather than paraphrasing it** — the app never puts words in the FAA's mouth. It is reference *information*, not medical advice, and it does not certify FAA medical fitness or make any pass/fail determination.
 
 ## How a content update flows
 
 1. Open a PR editing JSON in `v1/`.
 2. Run `python3 scripts/gen_manifest.py` to refresh the manifest (CI also checks this).
 3. The CI workflow ([`.github/workflows/validate.yml`](.github/workflows/validate.yml)) validates: JSON well-formedness, required envelope fields, duplicate codes, SI cross-refs, and manifest consistency.
-4. For **Tier-B medical content** changes (meds / SI / thresholds-with-numbers), an AME advisor review is required before merge (per the project's content pipeline). **Tier-A** factual changes (Item 18 form text, CFR 61.23 durations, AME-directory facts) follow the lighter curator + CI path.
+4. Medical / **Tier-B** content (meds / SI / thresholds-with-numbers) follows the project's content-pipeline direction — **verbatim-first / link-to-FAA**: quote or link the FAA's own source rather than paraphrase it, with editorial-advisor input where any authored text remains. **Tier-A** factual changes (Item 18 form text, CFR 61.23 durations, AME-directory facts) follow the lighter curator + CI path.
 5. Merge to `main` → GitHub Pages publishes within a minute → the app picks it up on its next refresh (cold launch + foreground re-check + best-effort daily background fetch).
 
 ## Privacy
