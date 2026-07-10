@@ -85,8 +85,11 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 .nav-links a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
 .nav-links a:hover { color: var(--text); background: var(--bg); }
 .nav-links a[aria-current="page"] { color: var(--text); background: var(--bg); }
-.nav-links a.nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); }
+.nav-links .nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
 .nav-links a.nav-cta:hover { filter: brightness(1.05); color: #fff; background: var(--brand-grad); }
+/* Pre-launch "coming soon" pill (hero + closing CTA). Swap to the linked Apple
+   "Download on the App Store" badge on release day. */
+.appstore-soon { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px; background: var(--brand-grad); color: #fff; font-weight: 700; box-shadow: var(--shadow-cta); }
 @media (max-width: 620px) {
   .nav-links .nav-hide-sm { display: none; }
 }
