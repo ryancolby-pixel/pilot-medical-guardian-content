@@ -1,0 +1,6 @@
+# Security contact for pilotmedicalguardian.com
+# https://pilotmedicalguardian.com
+Contact: mailto:support@pilotmedicalguardian.com
+Expires: 2027-07-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://pilotmedicalguardian.com/.well-known/security.txt
