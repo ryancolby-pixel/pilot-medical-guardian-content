@@ -1,0 +1,51 @@
+name: Rebuild content manifest
+
+# When any CDN content file in v1/ changes on main, automatically regenerate
+# v1/manifest.json (checksums + generatedAt) and commit it back. This is the step
+# that used to be a manual `python3 scripts/gen_manifest.py` — and skipping it is
+# exactly what let the CDN manifest drift out of sync with the files. Now it's
+# automatic: edit a content file, push, and the manifest rebuilds itself.
+#
+# paywallActiveDate + contentVersion handling live in gen_manifest.py (paywallActiveDate
+# is preserved; contentVersion defaults to the run date). The commit-back is guarded so
+# a manifest-only change can't loop.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'v1/*.json'
+      - '!v1/manifest.json'   # our own commit must not re-trigger the loop
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate manifest
+        run: python3 scripts/gen_manifest.py
+
+      - name: Validate content
+        run: python3 scripts/validate.py
+
+      - name: Commit the rebuilt manifest (only if it changed)
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- v1/manifest.json; then
+            echo "✅ manifest already up to date — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "pmg-content-bot"
+          git config user.email "ryan.colby@me.com"
+          git add v1/manifest.json
+          git commit -m "Auto-rebuild v1/manifest.json (checksums refreshed after content change)"
+          git push
+          echo "🔁 manifest rebuilt + committed"

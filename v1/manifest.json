@@ -1,11 +1,17 @@
 {
-  "contentVersion": "2026-06-19",
-  "generatedAt": "2026-06-19T17:14:58Z",
+  "contentVersion": "2026-07-10",
+  "generatedAt": "2026-07-11T20:31:21Z",
+  "paywallActiveDate": "2026-07-10T00:00:00Z",
   "files": [
     {
       "filename": "ame_directory.json",
       "size": 198407,
       "checksum": "ef6e8112ae6e068e641d3a60e25025fe347236ffe2229240a06bc35c6d6d88e7"
+    },
+    {
+      "filename": "basicmed_requirements.json",
+      "size": 11372,
+      "checksum": "540b3068547626231221e1e35104b373b7ba9e4d5702b9e843bea1f4795f497c"
     },
     {
       "filename": "caci_worksheets.json",
@@ -34,8 +40,8 @@
     },
     {
       "filename": "si_conditions.json",
-      "size": 28853,
-      "checksum": "582547f6d06ae2427d0999065147be4ccb4d9295fd3defad2c28861ac81a5e00"
+      "size": 28552,
+      "checksum": "e329c58417f9346d9922905ee15df980d35f9b265f086b5b00ad564654a04952"
     },
     {
       "filename": "si_requirements.json",
