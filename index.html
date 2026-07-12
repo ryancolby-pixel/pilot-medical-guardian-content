@@ -79,10 +79,10 @@
       position: relative; overflow: hidden;
       background:
         radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,0.16), transparent 60%),
-        linear-gradient(180deg, var(--accent-tint), var(--bg) 70%);
-      border-bottom: 1px solid var(--rule);
+        linear-gradient(180deg, var(--accent-tint), var(--accent-tint));
+      /* border-bottom removed: the tint flows into the .hero-quotes shelf below */
     }
-    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: 56px; }
+    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: clamp(78px, 9vw, 108px); }
     /* Faint aircraft motif: GA single / narrowbody / business jet =
        the three worlds of pilots we serve (Class 3 / 1 / 2). Decorative.
        Silhouettes tinted to brand blue via CSS mask so they adapt to
@@ -119,7 +119,7 @@
       box-shadow: 0 26px 60px rgba(16,22,34,0.22), 0 6px 16px rgba(16,22,34,0.10);
     }
     @media (max-width: 760px) {
-      .hero2 .container { grid-template-columns: 1fr; gap: 28px; text-align: center; padding-top: 40px; padding-bottom: 40px; }
+      .hero2 .container { grid-template-columns: 1fr; gap: 28px; text-align: center; padding-top: 40px; padding-bottom: 52px; }
       .hero2-sub { margin-left: auto; margin-right: auto; }
       .hero2 .links.cta { justify-content: center; }
       .hero2-media img { width: 220px; }
@@ -172,6 +172,16 @@
     .quotes blockquote { margin: 0; font-size: clamp(1.02rem, 2.5vw, 1.2rem); line-height: 1.4; font-weight: 600; color: var(--text); text-wrap: pretty; }
     .quotes blockquote + blockquote { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--accent-edge); }
     .quote-eyebrow { font-size: 0.78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); margin: 0 0 9px; }
+    /* Quote Shelf: the hero tint continues into this band and the quote cards pull up so they straddle the hero's lower edge on one continuous wash */
+    .hero-quotes { position: relative; z-index: 2; background: linear-gradient(180deg, var(--accent-tint), var(--bg) 82%); border-bottom: 1px solid var(--rule); padding-bottom: clamp(30px, 5vw, 46px); }
+    .hero-quotes .wrap { max-width: 1080px; margin-top: clamp(-72px, -6.5vw, -44px); }
+    .qs-eyebrow { text-align: center; margin: 0 0 14px; }
+    .quote-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .qcard { margin: 0; background: var(--card); border: 1px solid var(--accent-edge); border-top: 3px solid var(--accent); border-radius: var(--radius-card); padding: 18px 20px 20px; box-shadow: 0 18px 40px rgba(16,22,34,.13), 0 4px 12px rgba(16,22,34,.07); }
+    .qcard blockquote { margin: 0; font-weight: 600; line-height: 1.42; color: var(--text); font-size: clamp(.98rem, 1.4vw, 1.06rem); text-wrap: pretty; }
+    .qcard::before { content: "\201C"; display: block; font-size: 2.1rem; line-height: .6; color: var(--accent); opacity: .5; margin-bottom: 6px; }
+    @media (max-width: 980px) { .quote-cards { grid-template-columns: 1fr 1fr; } .qcard:nth-child(3) { grid-column: 1 / -1; } }
+    @media (max-width: 760px) { .hero-quotes .wrap { margin-top: clamp(-34px, -8vw, -18px); } .quote-cards { grid-template-columns: 1fr; gap: 12px; } }
     .prose-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
     .prose-card + .prose-card { margin-top: 16px; }
     .prose-card > :first-child { margin-top: 0; }
@@ -224,15 +234,15 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS (moved up — social proof right under the hero) -->
-  <section class="section tint">
+  <!-- TESTIMONIALS — "Quote Shelf": the hero tint flows into cards that straddle the seam -->
+  <section class="hero-quotes" aria-label="From pilots who tested it">
     <div class="wrap">
-      <figure class="quotes" style="margin:0;">
-        <p class="quote-eyebrow">From pilots</p>
-        <blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."</blockquote>
-        <blockquote>"It worked really well and made it quick and easy. I definitely see the value in this product."</blockquote>
-        <blockquote>"I completed a new MedXPress application and the autofill put in exactly what I'd entered in the app. Easy to set up and use. It's a good product."</blockquote>
-      </figure>
+      <p class="quote-eyebrow qs-eyebrow">From pilots who tested it</p>
+      <div class="quote-cards">
+        <figure class="qcard"><blockquote>"Worked seamlessly… the MedXPress application took maybe two minutes."</blockquote></figure>
+        <figure class="qcard"><blockquote>"It worked really well and made it quick and easy. I definitely see the value in this product."</blockquote></figure>
+        <figure class="qcard"><blockquote>"I completed a new MedXPress application and the autofill put in exactly what I'd entered in the app. Easy to set up and use. It's a good product."</blockquote></figure>
+      </div>
     </div>
   </section>
 
