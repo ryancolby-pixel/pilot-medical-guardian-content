@@ -189,7 +189,24 @@
     .prose-card h3 { font-size: 1.15rem; }
     .fineprint { color: var(--muted); font-size: 0.86rem; margin: 10px 0 0; }
     .disclaimer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; text-align: center; }
-  </style>
+      /* MedXPress + BasicMed — two-pillar alternating rows */
+    .pillars { display: grid; gap: clamp(20px, 3vw, 32px); }
+    .pillar { display: grid; align-items: center; gap: clamp(22px,4vw,46px); grid-template-columns: 1.08fr 0.92fr; }
+    .pillar.reverse { grid-template-columns: 0.92fr 1.08fr; }
+    .pillar-text h3 { font-size: 1.2rem; margin: 0 0 6px; }
+    .pillar-text p { font-size: .96rem; color: var(--muted); margin: 0 0 12px; text-wrap: pretty; }
+    .pillar-link { font-weight: 600; color: var(--accent); text-decoration: none; }
+    .pillar-link:hover { text-decoration: underline; }
+    .pillar-media { margin: 0; min-width: 0; }
+    .pillar-media a { display: block; border-radius: 14px; }
+    .pillar-media img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,.16); transition: transform .2s ease, box-shadow .2s ease; }
+    .pillar-media a:hover img { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(16,22,34,.22); }
+    .pillar-media figcaption { font-size: .84rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
+    .pillar-stage { display: grid; place-items: center; padding: clamp(16px,2.5vw,24px); background: linear-gradient(160deg, var(--accent-tint), var(--card)); border: 1px solid var(--accent-edge); border-radius: var(--radius-card); }
+    .pillar-stage img { width: auto; max-height: 260px; border-radius: 20px; border: 1px solid var(--rule); box-shadow: 0 14px 34px rgba(16,22,34,.20); }
+    @media (max-width: 760px) { .pillar, .pillar.reverse { grid-template-columns: 1fr; gap: 16px; } .pillar.reverse .pillar-media { order: 1; } .pillar.reverse .pillar-text { order: 2; } .pillar-stage img { max-height: 300px; } }
+    @media (prefers-reduced-motion: reduce) { .pillar-media a:hover img { transform: none; } }
+</style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
 </head>
@@ -326,30 +343,41 @@
     </div>
   </section>
 
-  <!-- MEDXPRESS DEMO -->
+  <!-- MEDXPRESS + BASICMED — two pillars, alternating rows -->
   <section class="section">
-    <div class="wrap">
-      <div class="section-head" style="text-align:left; margin-bottom:14px;">
-        <h2 style="text-align:left;">See the MedXPress autofill in action</h2>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">See it in action</span>
+        <h2>MedXPress autofill and BasicMed tracking</h2>
       </div>
-      <p>The Safari extension fills the parts of FAA MedXPress you'd otherwise retype every renewal — your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review every field and tap <b>Add</b> yourself; it never submits for you, and your data never leaves your device.</p>
-      <p>And it's all saved on your device — so next cycle, you're not starting from a blank form. <b>MedXPress doesn't remember your last application; the app does.</b></p>
-      <div class="demo">
-        <figure>
-          <a href="/screenshots/medxpress-autofill-after.png?v=2" target="_blank" rel="noopener">
-            <img src="/screenshots/medxpress-autofill-after.png?v=2" alt="MedXPress Item 17 with a medication filled in by Pilot Medical Guardian, next to the app's panel and a reminder to verify each field">
-          </a>
-          <figcaption><b>Medications (Item 17)</b> — one tap fills the blank form, with a reminder to verify each field before you add it. <span class="tap">Tap to enlarge.</span></figcaption>
-        </figure>
-        <figure>
-          <a href="/screenshots/medxpress-visit-after.png?v=2" target="_blank" rel="noopener">
-            <img src="/screenshots/medxpress-visit-after.png?v=2" alt="MedXPress Item 19 with a doctor visit filled in — provider, date, and full address — next to the app's panel listing visits to tap">
-          </a>
-          <figcaption><b>Doctor visits (Item 19)</b> — provider, date, and full address, filled the same way. <span class="tap">Tap to enlarge.</span></figcaption>
-        </figure>
+      <div class="pillars">
+        <div class="pillar">
+          <figure class="pillar-media">
+            <a href="/screenshots/medxpress-autofill-after.png?v=2" target="_blank" rel="noopener">
+              <img src="/screenshots/medxpress-autofill-after.png?v=2" alt="MedXPress Item 17 with a medication filled into the live FAA form by Pilot Medical Guardian, beside the app panel and a reminder to verify each field">
+            </a>
+            <figcaption>Item 17 filled on the live FAA form. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
+          </figure>
+          <div class="pillar-text">
+            <h3>MedXPress autofill</h3>
+            <p>A Safari extension fills the parts of FAA MedXPress you'd retype every renewal &mdash; your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review each field and tap <b>Add</b> yourself; it never submits, and nothing leaves your device.</p>
+            <a class="pillar-link" href="/autofill.html">How to turn on the autofill &rarr;</a>
+          </div>
+        </div>
+        <div class="pillar reverse">
+          <div class="pillar-text">
+            <h3>BasicMed tracking</h3>
+            <p>Fly under BasicMed? The app tracks your <b>24-month medical course</b> and <b>48-month comprehensive medical exam (CMEC)</b> against the FAA's cited intervals, with reminders &mdash; and fills the pilot section of <b>FAA Form 8700-2</b> from records you already entered.</p>
+            <a class="pillar-link" href="/basicmed-guide.html">BasicMed, explained &rarr;</a>
+          </div>
+          <figure class="pillar-media">
+            <div class="pillar-stage">
+              <img src="/screenshots/basicmed.png?v=20260709" alt="BasicMed screen showing the 24-month medical education course and 48-month comprehensive medical exam countdowns, each with its FAA citation">
+            </div>
+            <figcaption>Course and exam countdowns with FAA citations. Sample data.</figcaption>
+          </figure>
+        </div>
       </div>
-      <p class="fineprint">Screens use sample data on the live FAA form.</p>
-      <p style="margin-top:12px;"><a href="/autofill.html"><strong>How to turn on the autofill &rarr;</strong></a></p>
     </div>
   </section>
 
@@ -361,7 +389,6 @@
       </div>
       <div class="shots">
         <figure><img src="/screenshots/home.png?v=20260709" alt="Home screen showing the time until the medical certificate expires, with BasicMed course and exam countdowns"><figcaption>Know exactly when your medical expires</figcaption></figure>
-        <figure><img src="/screenshots/basicmed.png?v=20260709" alt="BasicMed screen showing the 24-month medical education course and 48-month comprehensive medical exam countdowns, with FAA citations"><figcaption>Fly BasicMed? Track your course and exam, too</figcaption></figure>
         <figure><img src="/screenshots/medxpress.png?v=20260709" alt="The in-app records screen with medications and doctor visits organized to match the FAA form"><figcaption>Your records, organized and ready to autofill</figcaption></figure>
         <figure><img src="/screenshots/si.png?v=20260709" alt="Special Issuance checklist with requirements and reminders"><figcaption>Stay on top of Special Issuance</figcaption></figure>
         <figure><img src="/screenshots/health.png?v=20260709" alt="A health metric charted against the FAA's cited threshold"><figcaption>Your numbers vs. the FAA's own thresholds</figcaption></figure>
