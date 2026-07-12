@@ -202,6 +202,8 @@
     .pillar-media img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,.16); transition: transform .2s ease, box-shadow .2s ease; }
     .pillar-media a:hover img { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(16,22,34,.22); }
     .pillar-media figcaption { font-size: .84rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
+    .pillar-media.stack { display: grid; gap: 16px; }
+    .pillar-media.stack figure { margin: 0; }
     .pillar-stage { display: grid; place-items: center; padding: clamp(16px,2.5vw,24px); background: linear-gradient(160deg, var(--accent-tint), var(--card)); border: 1px solid var(--accent-edge); border-radius: var(--radius-card); }
     .pillar-stage img { width: auto; max-height: 260px; border-radius: 20px; border: 1px solid var(--rule); box-shadow: 0 14px 34px rgba(16,22,34,.20); }
     @media (max-width: 760px) { .pillar, .pillar.reverse { grid-template-columns: 1fr; gap: 16px; } .pillar.reverse .pillar-media { order: 1; } .pillar.reverse .pillar-text { order: 2; } .pillar-stage img { max-height: 300px; } }
@@ -352,12 +354,20 @@
       </div>
       <div class="pillars">
         <div class="pillar">
-          <figure class="pillar-media">
-            <a href="/screenshots/medxpress-autofill-after.png?v=2" target="_blank" rel="noopener">
-              <img src="/screenshots/medxpress-autofill-after.png?v=2" alt="MedXPress Item 17 with a medication filled into the live FAA form by Pilot Medical Guardian, beside the app panel and a reminder to verify each field">
-            </a>
-            <figcaption>Item 17 filled on the live FAA form. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
-          </figure>
+          <div class="pillar-media stack">
+            <figure>
+              <a href="/screenshots/medxpress-autofill-after.png?v=2" target="_blank" rel="noopener">
+                <img src="/screenshots/medxpress-autofill-after.png?v=2" alt="MedXPress Item 17 with a medication filled into the live FAA form by Pilot Medical Guardian, beside the app panel and a reminder to verify each field">
+              </a>
+              <figcaption><b>Item 17 &mdash; medications</b>, filled on the live FAA form. <span class="tap">Tap to enlarge.</span></figcaption>
+            </figure>
+            <figure>
+              <a href="/screenshots/medxpress-visit-after.png?v=2" target="_blank" rel="noopener">
+                <img src="/screenshots/medxpress-visit-after.png?v=2" alt="MedXPress Item 19 with a doctor visit filled in &mdash; provider, date, and full address &mdash; beside the app panel listing visits to tap">
+              </a>
+              <figcaption><b>Item 19 &mdash; doctor visits</b>, filled the same way. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
+            </figure>
+          </div>
           <div class="pillar-text">
             <h3>MedXPress autofill</h3>
             <p>A Safari extension fills the parts of FAA MedXPress you'd retype every renewal &mdash; your <b>medications (Item 17)</b> and <b>doctor visits (Item 19)</b>. You review each field and tap <b>Add</b> yourself; it never submits, and nothing leaves your device.</p>
