@@ -140,7 +140,7 @@
       <p>Yes — absolutely. PMG is a record-keeping and information tool, not a substitute for your Aviation Medical Examiner. It never tells you whether you're fit to fly and never makes a certification decision. It helps you show up to your AME organized and prepared. Your AME is the one who examines you and issues (or defers) your certificate.</p>
     </details>
 
-    <details class="qa">
+    <details class="qa" id="faq-share-ame">
       <summary>How do I get my records to my AME?</summary>
       <p>Pilot Medical Guardian bundles what you choose — your medical certificate, medications, doctor visits, Special Issuance details, and any documents you've saved — into one clean PDF you hand to your AME straight from your phone (email, AirDrop, or print). You pick exactly what to include and preview it first. It's built entirely on your device and only leaves when you send it — it never passes through me. You can also bring in documents you already have: scan a paper letter, import a PDF or photo (like a lab result your doctor emailed you, or one you saved from MyChart or another portal), or share a PDF straight into the app from Mail or Files in a single tap.</p>
     </details>
@@ -172,7 +172,7 @@
       <p>It's yours. You can erase everything from inside the app (About &rarr; Erase All Data). If you delete the app, your local copy goes with it; your iCloud copy follows your normal iCloud data controls. Because nothing is on a PMG server, there's no account for me to close and no copy of your data for me to keep.</p>
     </details>
 
-    <details class="qa">
+    <details class="qa" id="faq-health">
       <summary>Does it read my Apple Health / Apple Watch data?</summary>
       <p>Only with your permission, and only read-only — PMG never writes to Apple Health. It pulls metrics like heart rate, HRV, SpO2, and VO2 max so it can chart your trends against the FAA's cited thresholds. Wearables like Garmin, Whoop, Oura, Fitbit, and CGMs flow in through Apple Health too. You can decline and still use everything else.</p>
     </details>
@@ -202,7 +202,7 @@
       <p>New to BasicMed? I wrote a <a href="/basicmed-guide.html">plain-language guide to the Part 68 rules</a> — eligibility, the two clocks (the 24-month course and 48-month exam), and the CMEC (Form 8700-2).</p>
     </details>
 
-    <details class="qa">
+    <details class="qa" id="faq-si">
       <summary>I have a Special Issuance — what does the app do for me?</summary>
       <p>Special Issuance tracking is one of the deepest parts of the app, because an SI is where pilots most often get tripped up. Once you add your condition, PMG:</p>
       <ul>
@@ -284,7 +284,7 @@
       <p>No. The health-trends feature is richer if you have one (or another wearable that syncs to Apple Health), but every other feature — renewal tracking, disclosure prep, MedXPress autofill, Special Issuance, AME directory — works without one.</p>
     </details>
 
-    <details class="qa">
+    <details class="qa" id="faq-ame-directory">
       <summary>Why does the AME directory only show some examiners?</summary>
       <p>Right now it's limited to a verified subset of HIMS-trained AMEs while I wait on a fuller FAA designee list I've formally requested. The app tells you this directly and points you to the FAA's official locator in the meantime.</p>
     </details>
@@ -305,5 +305,16 @@
       <p>Guides: <a href="/medxpress-guide.html">How to fill out MedXPress</a> · <a href="/basicmed-guide.html">BasicMed, explained</a> · <a href="/faa-medical-duration.html">How long is my medical good for?</a></p>
     </div>
   </footer>
+  <script>
+    // Open (and scroll to) a FAQ answer when linked directly (e.g. from the homepage feature cards).
+    function openTargetFAQ() {
+      var h = location.hash;
+      if (!h || h.length < 2) return;
+      var el; try { el = document.querySelector(h); } catch (e) { return; }
+      if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView({ block: 'start' }); }
+    }
+    addEventListener('DOMContentLoaded', openTargetFAQ);
+    addEventListener('hashchange', openTargetFAQ);
+  </script>
 </body>
 </html>

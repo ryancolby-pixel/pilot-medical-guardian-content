@@ -141,6 +141,9 @@
     .feature .ficon svg { width: 20px; height: 20px; stroke: #fff; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
     .feature h3 { font-size: 1.02rem; margin: 0 0 5px; }
     .feature p { font-size: 0.92rem; color: var(--muted); margin: 0; text-wrap: pretty; }
+    a.feature { display: block; color: inherit; text-decoration: none; transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+    a.feature:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(16,22,34,0.13); border-color: var(--accent-edge); }
+    @media (prefers-reduced-motion: reduce) { a.feature { transition: none; } a.feature:hover { transform: none; } }
 
     /* --- Page-specific components carried over from the live page --- */
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
@@ -301,46 +304,46 @@
         <h2>Everything for your medical, in one private place</h2>
       </div>
       <div class="feature-grid">
-        <div class="feature">
+        <a class="feature" href="/medxpress-guide.html">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M5 3l1.5 3.5L10 8 6.5 9.5 5 13 3.5 9.5 0 8l3.5-1.5z" transform="translate(6 2)"/><path d="M14 11v8M10 15h8"/></svg></div>
           <h3>MedXPress autofill</h3>
           <p>Fills the parts of the FAA form you'd otherwise retype every cycle.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faq.html#faq-share-ame">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M4 4h11l5 5v11a0 0 0 0 1 0 0H4z"/><path d="M15 4v5h5M8 14h8M8 17h5"/></svg></div>
           <h3>My Documents &amp; Share with your AME</h3>
           <p>Scan, import, or share a PDF or photo, keep it organized, then bundle what you choose into one PDF and send it to your AME from your phone — built on-device.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faa-medical-duration.html">
           <div class="ficon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
           <h3>Renewal countdown</h3>
           <p>Your certificate expiration — or your BasicMed course and exam dates — from the real 14 CFR rules, with reminders before anything lapses.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faq.html#faq-si">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
           <h3>Special Issuance tracking</h3>
           <p>Requirements, documents, and change-alerts in one encrypted place.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faq.html#faq-health">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M3 13h4l2 5 4-12 2 7h6"/></svg></div>
           <h3>Health vs. FAA thresholds</h3>
           <p>Charts your metrics against the FAA's own cited limits, so you can see where each of your numbers stands.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faq.html">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M4 5h13v11H9l-4 3z"/><path d="M8 9h6M8 12h4"/></svg></div>
           <h3>CACI pathway</h3>
           <p>Surfaces the FAA's worksheet when a new diagnosis might be issued at the desk.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/basicmed-guide.html">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
           <h3>BasicMed & CMEC prep</h3>
           <p>Track your Part 68 course and exam dates, and fill the pilot section of FAA Form 8700-2 from records you already entered.</p>
-        </div>
-        <div class="feature">
+        </a>
+        <a class="feature" href="/faq.html#faq-ame-directory">
           <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
           <h3>AME directory</h3>
           <p>Find an examiner by location, including HIMS-trained.</p>
-        </div>
+        </a>
       </div>
     </div>
   </section>
