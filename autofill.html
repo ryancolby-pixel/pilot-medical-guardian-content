@@ -69,13 +69,14 @@
     details p { color: var(--muted); margin: 0 0 13px; }
 
     /* One-time-setup screen recording (simulator demo data). */
-    .setup-clip { margin: 18px auto 8px; max-width: 250px; }
+    .setup-clip { margin: 18px auto 8px; max-width: 280px; }
     .setup-clip video {
       display: block; width: 100%; height: auto;
       border-radius: 22px; background: #0b0f16;
       box-shadow: var(--shadow-sm);
     }
     .setup-clip figcaption { text-align: center; font-size: 0.82rem; color: var(--muted); margin-top: 9px; }
+    .setup-clip figcaption a { color: var(--accent); font-weight: 600; display: inline-block; padding: 6px 2px; }
 
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
@@ -111,17 +112,18 @@
       <strong>Why a few manual steps?</strong> Apple requires you to turn Safari extensions on yourself, in Settings — no app is allowed to do it for you. It only takes a minute, and it's a one-time setup.
     </div>
 
+    <span class="eyebrow">See it done — 45 seconds</span>
     <figure class="setup-clip">
-      <video autoplay loop muted playsinline preload="metadata"
+      <video controls autoplay loop muted playsinline preload="metadata"
              poster="/screenshots/autofill-setup-poster.webp?v=2"
              width="336" height="732"
              aria-label="Screen recording: turning on the MedXPress autofill Safari extension in Settings, then setting it to Always Allow on medxpress.faa.gov">
         <source src="/screenshots/autofill-setup.mp4?v=2" type="video/mp4">
       </video>
-      <figcaption>The whole setup, start to finish — the written steps are below.</figcaption>
+      <figcaption>The whole one-time setup, start to finish. It loops on its own — <a href="#written-steps">prefer to read? Jump to the steps.</a></figcaption>
     </figure>
 
-    <span class="eyebrow">One-time setup</span>
+    <span class="eyebrow" id="written-steps">One-time setup</span>
     <div class="card">
       <div class="step">
         <div class="step-num">1</div>
@@ -245,5 +247,9 @@
       <p>Guides: <a href="/medxpress-guide.html">How to fill out MedXPress</a> · <a href="/basicmed-guide.html">BasicMed, explained</a> · <a href="/faa-medical-duration.html">How long is my medical good for?</a></p>
     </div>
   </footer>
+  <script>
+    // Motion-sensitive users: don't autoplay the setup clip; hold the poster (controls still let them play it).
+    (function(){var v=document.querySelector('.setup-clip video');if(!v)return;if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.loop=false;try{v.pause();v.currentTime=0;}catch(e){}}})();
+  </script>
 </body>
 </html>
