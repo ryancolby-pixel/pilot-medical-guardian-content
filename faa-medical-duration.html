@@ -25,7 +25,7 @@
           "logo": { "@type": "ImageObject", "url": "https://pilotmedicalguardian.com/logo.png" }
         },
         "datePublished": "2026-07-09",
-        "dateModified": "2026-07-09",
+        "dateModified": "2026-07-13",
         "mainEntityOfPage": "https://pilotmedicalguardian.com/faa-medical-duration.html"
       },
       {
@@ -121,6 +121,19 @@
     .ages li b { color: var(--text); min-width: 8.5em; }
     .ages .big { color: var(--accent); font-weight: 700; }
 
+    /* Duration summary table — the at-a-glance chart (snippet-friendly). */
+    .table-wrap { overflow-x: auto; margin: 8px 0 4px; }
+    .dur-table { width: 100%; border-collapse: collapse; font-size: 0.98rem; min-width: 30rem; }
+    .dur-table th, .dur-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    .dur-table thead th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 700; }
+    .dur-table tbody th { font-weight: 700; color: var(--text); }
+    .dur-table tbody th .sub { display: block; font-weight: 400; font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+    .dur-table tbody td { color: var(--text); }
+    .dur-table tbody td .big { color: var(--accent); font-weight: 700; }
+    .dur-table .yr { color: var(--muted); font-size: 0.85em; }
+    .dur-table tbody tr:last-child th, .dur-table tbody tr:last-child td { border-bottom: 0; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
     details {
       background: var(--card); border: 1px solid var(--rule);
       border-radius: var(--radius-chip); padding: 2px 16px; margin: 10px 0;
@@ -174,30 +187,36 @@
     <h2>FAA medical certificate duration, by class</h2>
     <p>A medical's validity is measured by <strong>what you're exercising</strong> — first-, second-, or third-class privileges — and your <strong>age on the date of the exam</strong>. These are the periods from <a href="https://www.law.cornell.edu/cfr/text/14/61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>:</p>
 
-    <div class="card dur">
-      <span class="tag">First-class privileges</span>
-      <h3>First-class medical (ATP / airline pilot-in-command)</h3>
-      <ul class="ages">
-        <li><b>Under 40 at exam</b><span><span class="big">12 calendar months</span></span></li>
-        <li><b>Age 40 or older</b><span><span class="big">6 calendar months</span></span></li>
-      </ul>
-    </div>
-
-    <div class="card dur">
-      <span class="tag">Second-class privileges</span>
-      <h3>Second-class medical (commercial pilot operations)</h3>
-      <ul class="ages">
-        <li><b>Any age</b><span><span class="big">12 calendar months</span></span></li>
-      </ul>
-    </div>
-
-    <div class="card dur">
-      <span class="tag">Third-class privileges</span>
-      <h3>Third-class medical (private, recreational, or student)</h3>
-      <ul class="ages">
-        <li><b>Under 40 at exam</b><span><span class="big">60 calendar months</span> (5 years)</span></li>
-        <li><b>Age 40 or older</b><span><span class="big">24 calendar months</span> (2 years)</span></li>
-      </ul>
+    <div class="card">
+      <div class="table-wrap">
+        <table class="dur-table">
+          <caption class="visually-hidden">FAA medical certificate duration by class and age at exam, per 14 CFR 61.23(d)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Class of privileges</th>
+              <th scope="col">Under 40 at exam</th>
+              <th scope="col">Age 40 or older</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">First-class<span class="sub">ATP / airline pilot-in-command</span></th>
+              <td><span class="big">12 calendar months</span></td>
+              <td><span class="big">6 calendar months</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Second-class<span class="sub">commercial pilot operations</span></th>
+              <td><span class="big">12 calendar months</span></td>
+              <td><span class="big">12 calendar months</span></td>
+            </tr>
+            <tr>
+              <th scope="row">Third-class<span class="sub">private, recreational, or student</span></th>
+              <td><span class="big">60 calendar months</span> <span class="yr">(5 years)</span></td>
+              <td><span class="big">24 calendar months</span> <span class="yr">(2 years)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <p class="source-note">Source: <a href="https://www.law.cornell.edu/cfr/text/14/61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>; the FAA AME Guide's <a href="https://www.faa.gov/ame_guide/app_process/general/validity" target="_blank" rel="noopener">certificate validity</a> page; and the FAA FAQ <a href="https://www.faa.gov/faq/what-class-medical-certificate-must-i-hold-and-how-long-it-valid" target="_blank" rel="noopener">"What class of medical certificate must I hold and how long is it valid?"</a></p>
 
