@@ -92,7 +92,8 @@
     .wd-track .step .step-num { position: relative; z-index: 1; box-shadow: 0 0 0 4px var(--card); }
     .wd-track .step-key .step-num { box-shadow: 0 0 0 4px var(--card), 0 0 0 6px var(--accent-edge); }
     @media (min-width: 720px) {
-      .watchdo { display: grid; grid-template-columns: minmax(240px, 300px) 1fr; gap: 0; padding: 22px 26px; align-items: start; }
+      /* Break the panel out wider than the 720px reading column so the steps get room (capped at 94vw, so it never overflows; negative margins keep the sticky video intact). */
+      .watchdo { display: grid; grid-template-columns: minmax(240px, 300px) 1fr; gap: 0; padding: 22px 30px; align-items: start; margin-inline: calc((100% - min(940px, 94vw)) / 2); }
       .wd-video { position: sticky; top: 76px; align-self: start; margin: 0; padding: 0 26px 0 0; border-bottom: 0; border-right: 1px solid var(--rule); }
       .wd-video .setup-clip { margin: 0; max-width: 300px; }
       .wd-steps { padding-left: 26px; }
