@@ -78,6 +78,29 @@
     .setup-clip figcaption { text-align: center; font-size: 0.82rem; color: var(--muted); margin-top: 9px; }
     .setup-clip figcaption a { color: var(--accent); font-weight: 600; display: inline-block; padding: 6px 2px; }
 
+    /* Watch-and-Do panel: the video + steps 1-4 fused into one card. */
+    .watchdo { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); box-shadow: var(--shadow-sm); padding: 18px; margin: 14px 0 6px; }
+    .wd-video { margin: 0 0 14px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
+    .wd-video .setup-clip { margin: 0 auto; max-width: 288px; }
+    .wd-steps-eyebrow { margin-top: 2px; }
+    /* Accent "spine" threading the step numbers so video + steps read as one flow. */
+    .wd-track { list-style: none; margin: 6px 0 0; padding: 0; }
+    .wd-track .step { position: relative; margin: 18px 0; }
+    .wd-track .step:first-child { margin-top: 8px; }
+    .wd-track .step:last-child { margin-bottom: 4px; }
+    .wd-track .step:not(:last-child)::before { content: ""; position: absolute; left: 14px; top: 34px; bottom: -20px; width: 2px; background: var(--accent-edge); }
+    .wd-track .step .step-num { position: relative; z-index: 1; box-shadow: 0 0 0 4px var(--card); }
+    .wd-track .step-key .step-num { box-shadow: 0 0 0 4px var(--card), 0 0 0 6px var(--accent-edge); }
+    @media (min-width: 720px) {
+      .watchdo { display: grid; grid-template-columns: minmax(240px, 300px) 1fr; gap: 0; padding: 22px 26px; align-items: start; }
+      .wd-video { position: sticky; top: 76px; align-self: start; margin: 0; padding: 0 26px 0 0; border-bottom: 0; border-right: 1px solid var(--rule); }
+      .wd-video .setup-clip { margin: 0; max-width: 300px; }
+      .wd-steps { padding-left: 26px; }
+      .wd-track .step:first-child { margin-top: 2px; }
+    }
+    @media (min-width: 960px) { .watchdo { grid-template-columns: minmax(260px, 320px) 1fr; } }
+    @media (prefers-reduced-motion: reduce) { .wd-video { position: static; } }
+
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -112,54 +135,59 @@
       <strong>Why a few manual steps?</strong> Apple requires you to turn Safari extensions on yourself, in Settings — no app is allowed to do it for you. It only takes a minute, and it's a one-time setup.
     </div>
 
-    <span class="eyebrow">See it done — 45 seconds</span>
-    <figure class="setup-clip">
-      <video controls autoplay loop muted playsinline preload="metadata"
-             poster="/screenshots/autofill-setup-poster.webp?v=2"
-             width="336" height="732"
-             aria-label="Screen recording: turning on the MedXPress autofill Safari extension in Settings, then setting it to Always Allow on medxpress.faa.gov">
-        <source src="/screenshots/autofill-setup.mp4?v=2" type="video/mp4">
-      </video>
-      <figcaption>The whole one-time setup, start to finish. It loops on its own — <a href="#written-steps">prefer to read? Jump to the steps.</a></figcaption>
-    </figure>
-
-    <span class="eyebrow" id="written-steps">One-time setup</span>
-    <div class="card">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-body">
-          <h4>Open the Settings app</h4>
-          <p>The gray gear icon on your Home Screen.</p>
-        </div>
+    <span class="eyebrow">Watch and follow along — 45 seconds</span>
+    <div class="watchdo">
+      <div class="wd-video">
+        <figure class="setup-clip">
+          <video controls autoplay loop muted playsinline preload="metadata"
+                 poster="/screenshots/autofill-setup-poster.webp?v=2"
+                 width="336" height="732"
+                 aria-label="Screen recording: turning on the MedXPress autofill Safari extension in Settings, then setting it to Always Allow on medxpress.faa.gov">
+            <source src="/screenshots/autofill-setup.mp4?v=2" type="video/mp4">
+          </video>
+          <figcaption>The whole one-time setup, start to finish. Muted; it loops on its own.</figcaption>
+        </figure>
       </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <h4>Go to Safari &rarr; Extensions</h4>
-          <p>On <strong>iOS / iPadOS 18 or later:</strong> <code>Settings &rarr; Apps &rarr; Safari &rarr; Extensions</code>.<br>On <strong>iOS 17 or earlier:</strong> <code>Settings &rarr; Safari &rarr; Extensions</code>. It's near the bottom of Safari's settings.</p>
-          <p style="font-size:0.88rem;">Not sure which iOS you have? <code>Settings &rarr; General &rarr; About &rarr; Software Version</code>. Or skip Settings entirely: in Safari, tap the <strong>page menu</strong> (the <strong>aA</strong> button at the left of the address bar) &rarr; <strong>Manage Extensions</strong>.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <h4>Find &ldquo;MedXPressAutofill&rdquo; and turn it on</h4>
-          <p>That's Pilot Medical Guardian's extension. It appears once the app is installed. If you don't see it, force-quit Safari (swipe up from the app switcher) and reopen Settings.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <h4>Allow it on medxpress.faa.gov — the step most people miss</h4>
-          <p><strong>This is the step that silently breaks everything</strong> — the extension can look switched on but do nothing until you allow it on the FAA site. On a new setup the reliable way is <strong>right on the page</strong>:</p>
-          <p>1. Open <strong>medxpress.faa.gov</strong> in Safari.<br>2. Tap the <strong>page menu</strong> (the <strong>aA</strong> / extension button at the left of the address bar).<br>3. Tap <strong>MedXPressAutofill</strong>, then choose <strong>Always Allow</strong>.</p>
-          <div class="permbox" role="img" aria-label="Safari's permission menu — choose Always Allow, not Allow for One Day, which expires">
-            <div class="permrow"><span class="mark">&#9675;</span> Allow for One Day <span class="note">expires &mdash; skip</span></div>
-            <div class="permrow correct"><span class="mark">&#10003;</span> Always Allow <span class="note">use this</span></div>
-            <div class="permrow"><span class="mark">&#9675;</span> Don't Allow</div>
+      <div class="wd-steps">
+        <span class="eyebrow wd-steps-eyebrow" id="written-steps">Do it as you watch — one-time setup</span>
+        <div class="wd-track">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h4>Open the Settings app</h4>
+              <p>The gray gear icon on your Home Screen.</p>
+            </div>
           </div>
-          <p><strong>Pick &ldquo;Always Allow,&rdquo; not &ldquo;Allow for One Day&rdquo;</strong> — the one-day option silently expires, and the autofill quietly stops working next time.</p>
-          <p style="font-size:0.88rem;">Prefer Settings? Same thing, different words — there it reads <strong>Allow / Ask / Deny</strong>; set medxpress.faa.gov to <strong>Allow</strong>. But on a brand-new setup the site often <strong>isn't listed there yet</strong> (it only appears after the extension has run on it once), so the on-the-page route above is the sure one.</p>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h4>Go to Safari &rarr; Extensions</h4>
+              <p>On <strong>iOS / iPadOS 18 or later:</strong> <code>Settings &rarr; Apps &rarr; Safari &rarr; Extensions</code>.<br>On <strong>iOS 17 or earlier:</strong> <code>Settings &rarr; Safari &rarr; Extensions</code>. It's near the bottom of Safari's settings.</p>
+              <p style="font-size:0.88rem;">Not sure which iOS you have? <code>Settings &rarr; General &rarr; About &rarr; Software Version</code>. Or skip Settings entirely: in Safari, tap the <strong>page menu</strong> (the <strong>aA</strong> button at the left of the address bar) &rarr; <strong>Manage Extensions</strong>.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h4>Find &ldquo;MedXPressAutofill&rdquo; and turn it on</h4>
+              <p>That's Pilot Medical Guardian's extension. It appears once the app is installed. If you don't see it, force-quit Safari (swipe up from the app switcher) and reopen Settings.</p>
+            </div>
+          </div>
+          <div class="step step-key">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h4>Allow it on medxpress.faa.gov — the step most people miss</h4>
+              <p><strong>This is the step that silently breaks everything</strong> — the extension can look switched on but do nothing until you allow it on the FAA site. On a new setup the reliable way is <strong>right on the page</strong>:</p>
+              <p>1. Open <strong>medxpress.faa.gov</strong> in Safari.<br>2. Tap the <strong>page menu</strong> (the <strong>aA</strong> / extension button at the left of the address bar).<br>3. Tap <strong>MedXPressAutofill</strong>, then choose <strong>Always Allow</strong>.</p>
+              <div class="permbox" role="img" aria-label="Safari's permission menu — choose Always Allow, not Allow for One Day, which expires">
+                <div class="permrow"><span class="mark">&#9675;</span> Allow for One Day <span class="note">expires &mdash; skip</span></div>
+                <div class="permrow correct"><span class="mark">&#10003;</span> Always Allow <span class="note">use this</span></div>
+                <div class="permrow"><span class="mark">&#9675;</span> Don't Allow</div>
+              </div>
+              <p><strong>Pick &ldquo;Always Allow,&rdquo; not &ldquo;Allow for One Day&rdquo;</strong> — the one-day option silently expires, and the autofill quietly stops working next time.</p>
+              <p style="font-size:0.88rem;">Prefer Settings? Same thing, different words — there it reads <strong>Allow / Ask / Deny</strong>; set medxpress.faa.gov to <strong>Allow</strong>. But on a brand-new setup the site often <strong>isn't listed there yet</strong> (it only appears after the extension has run on it once), so the on-the-page route above is the sure one.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
