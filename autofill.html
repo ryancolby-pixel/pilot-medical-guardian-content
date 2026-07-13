@@ -22,6 +22,7 @@
       font-size: 0.95rem; color: var(--muted);
     }
     .callout strong { color: var(--text); font-weight: 600; }
+    .callout a { color: var(--accent); }
 
     .step { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0; }
     .step:first-child { margin-top: 4px; }
@@ -67,6 +68,15 @@
     summary::marker { color: var(--accent); }
     details p { color: var(--muted); margin: 0 0 13px; }
 
+    /* One-time-setup screen recording (simulator demo data). */
+    .setup-clip { margin: 18px auto 8px; max-width: 250px; }
+    .setup-clip video {
+      display: block; width: 100%; height: auto;
+      border-radius: 22px; background: #0b0f16;
+      box-shadow: var(--shadow-sm);
+    }
+    .setup-clip figcaption { text-align: center; font-size: 0.82rem; color: var(--muted); margin-top: 9px; }
+
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -100,6 +110,16 @@
     <div class="callout">
       <strong>Why a few manual steps?</strong> Apple requires you to turn Safari extensions on yourself, in Settings — no app is allowed to do it for you. It only takes a minute, and it's a one-time setup.
     </div>
+
+    <figure class="setup-clip">
+      <video autoplay loop muted playsinline preload="metadata"
+             poster="/screenshots/autofill-setup-poster.webp?v=2"
+             width="336" height="732"
+             aria-label="Screen recording: turning on the MedXPress autofill Safari extension in Settings, then setting it to Always Allow on medxpress.faa.gov">
+        <source src="/screenshots/autofill-setup.mp4?v=2" type="video/mp4">
+      </video>
+      <figcaption>The whole setup, start to finish — the written steps are below.</figcaption>
+    </figure>
 
     <span class="eyebrow">One-time setup</span>
     <div class="card">
@@ -204,6 +224,10 @@
       <summary>I use a different Apple ID on my iPad and iPhone</summary>
       <p>The extension reads your data from the device it's running on. iCloud sync keeps your records the same across your devices, so set up whichever device you'll use for MedXPress.</p>
     </details>
+
+    <div class="callout">
+      <strong>Still stuck?</strong> Email <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a> and tell me what you're seeing — I'll walk you through it. Setup is a one-time thing, and I'd rather get you past it than have you give up.
+    </div>
 
     <div class="links">
       <a class="primary" href="/faq.html">Read the FAQ</a>
