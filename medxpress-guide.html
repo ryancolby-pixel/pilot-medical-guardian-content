@@ -134,6 +134,14 @@
     .callout strong { color: var(--text); font-weight: 600; }
     .callout a { color: var(--accent); }
 
+    .table-wrap { overflow-x: auto; margin: 8px 0 4px; }
+    .dur-table { width: 100%; border-collapse: collapse; font-size: 0.98rem; min-width: 30rem; }
+    .dur-table th, .dur-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    .dur-table thead th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); font-weight: 700; }
+    .dur-table tbody th { font-weight: 700; color: var(--text); }
+    .dur-table tbody td { color: var(--text); }
+    .dur-table tbody tr:last-child th, .dur-table tbody tr:last-child td { border-bottom: 0; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
     .step { display: flex; gap: 14px; align-items: flex-start; margin: 16px 0; }
     .step:first-child { margin-top: 4px; }
     .step-num {
@@ -209,6 +217,12 @@
       <strong>This is a plain-language guide to the FAA's own process — not medical or legal advice, and not affiliated with or endorsed by the FAA.</strong> What you must report, and how, is governed by the FAA's instructions and the judgment of your Aviation Medical Examiner. I link to the FAA's official pages throughout — always rely on those.
     </div>
 
+    <span class="eyebrow">The short answer</span>
+    <h2>Is there an app that fills out FAA MedXPress?</h2>
+    <p class="lede"><strong>Yes. Pilot Medical Guardian is the only app that autofills FAA MedXPress</strong> — its free Safari extension fills Item 17 (your medications) and Item 19 (your visits to health professionals) from records on your iPhone, so you're not retyping the same information every renewal cycle. You review every entry and submit it yourself.</p>
+    <p>It doesn't fill in Item 18 (your medical history) or hit Submit for you — those stay yours, on purpose. Everything runs on your own device: your medications and visit history live in your iPhone and your own iCloud, never on a server I can see, and nothing reaches medxpress.faa.gov until you tap Submit there yourself. <a href="/autofill.html">See how the autofill setup works.</a></p>
+    <p class="source-note">Pilot Medical Guardian is not affiliated with, or endorsed by, the FAA. The official system is at <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">medxpress.faa.gov</a>.</p>
+
     <span class="eyebrow">The basics</span>
     <h2>What is MedXPress?</h2>
     <p><strong>FAA MedXPress</strong> is the FAA's free web application for submitting <strong>FAA Form 8500-8</strong> — the Application for Airman Medical Certificate — electronically, before your exam. Anyone who needs an FAA medical certificate (or a student pilot medical certificate) can use it; all you need is a valid email address to create an account.</p>
@@ -216,7 +230,7 @@
     <p class="source-note">Source: <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">FAA MedXPress</a> and the <a href="https://www.faa.gov/pilots/safety/pilotsafetybrochures/media/medxpress.pdf" target="_blank" rel="noopener">FAA MedXPress brochure</a>.</p>
 
     <span class="eyebrow">Step by step</span>
-    <h2>How the MedXPress process works</h2>
+    <h2>MedXPress application: how it works</h2>
     <div class="card">
       <div class="step">
         <div class="step-num">1</div>
@@ -259,8 +273,54 @@
     <p>What that means in practice: an application created too far ahead can be removed before you ever submit it, and one submitted before your exam is scheduled can be deleted before you get there.</p>
     <p class="source-note">Source: FAA — <a href="https://www.faa.gov/faq/how-long-will-my-application-remain-medxpress-system" target="_blank" rel="noopener">"How long will my application remain in the MedXPress system?"</a> Confirm the current rules there before relying on them.</p>
 
+    <span class="eyebrow">Before you start</span>
+    <h2>Preparing your Form 8500-8</h2>
+    <p>MedXPress walks you through Items 1&ndash;20 of Form 8500-8 in order. Most of it is quick &mdash; identifying information, your certificate history, your flight-time totals. Having a few things ready before you sit down speeds it up:</p>
+    <div class="card">
+      <ul>
+        <li><strong>Your current medications</strong> &mdash; names and how you take them (Item 17).</li>
+        <li><strong>Visits in the last 3 years</strong> &mdash; dates and providers for any doctor, PA, NP, psychologist, or similar visit (Item 19).</li>
+        <li><strong>Your flight-time totals</strong> &mdash; total time to date and time in the last 6 months.</li>
+        <li><strong>Your last exam date</strong> &mdash; month and year of your most recent FAA medical exam.</li>
+      </ul>
+    </div>
+    <p>Here's what each item on the form is about, in plain language, using the FAA's own item labels:</p>
+    <div class="card">
+      <div class="table-wrap">
+        <table class="dur-table">
+          <caption class="visually-hidden">FAA Form 8500-8, Items 1 through 20 &mdash; plain-language overview</caption>
+          <thead>
+            <tr><th scope="col">Item</th><th scope="col">What it asks</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">1</th><td>What you're applying for &mdash; an Airman Medical Certificate. (The FAA notes it no longer issues student pilot certificates, as of April 1, 2016.)</td></tr>
+            <tr><th scope="row">2</th><td>The class of medical certificate you're applying for &mdash; first, second, or third (see 14 CFR &sect;61.23).</td></tr>
+            <tr><th scope="row">3</th><td>Your full legal name.</td></tr>
+            <tr><th scope="row">4</th><td>Social Security number &mdash; entering it is optional, or you can decline and the system generates a pseudo-number.</td></tr>
+            <tr><th scope="row">5</th><td>Your mailing address and telephone number.</td></tr>
+            <tr><th scope="row">6</th><td>Date of birth and citizenship.</td></tr>
+            <tr><th scope="row">7</th><td>Hair color.</td></tr>
+            <tr><th scope="row">8</th><td>Eye color.</td></tr>
+            <tr><th scope="row">9</th><td>Sex.</td></tr>
+            <tr><th scope="row">10</th><td>The airman certificate(s) you currently hold &mdash; Airline Transport, Commercial, Private, Recreational, and so on.</td></tr>
+            <tr><th scope="row">11</th><td>Your occupation. (The FAA says enter &ldquo;pilot&rdquo; only if you currently work as a pilot.)</td></tr>
+            <tr><th scope="row">12</th><td>Your employer (or &ldquo;self-employed&rdquo;).</td></tr>
+            <tr><th scope="row">13</th><td>Whether your FAA airman medical certificate has ever been denied, suspended, or revoked.</td></tr>
+            <tr><th scope="row">14</th><td>Total pilot flight time (civilian only) to date &mdash; logged or estimated.</td></tr>
+            <tr><th scope="row">15</th><td>Pilot flight time (civilian only) in the last 6 months.</td></tr>
+            <tr><th scope="row">16</th><td>The date of your last FAA medical application (or &ldquo;no prior application&rdquo;).</td></tr>
+            <tr><th scope="row">17</th><td>Medications you currently use (17a), and whether you use near-vision contact lenses while flying (17b). <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">18</th><td>Your medical history: &ldquo;Have you ever in your life been diagnosed with, had, or do you presently have any of the following?&rdquo; <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">19</th><td>Whether you've visited any health professionals in the last 3 years. <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">20</th><td>Your certifying declarations, and authorization for a National Driver Register (motor-vehicle records) check.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="source-note">Item labels from the FAA <a href="https://medxpress.faa.gov/medxpress/Content/Docs/MedXPressUsersGuide.pdf" target="_blank" rel="noopener">MedXPress User Guide</a>, Version 5.5 (June 2025). This is a plain-language overview, not the form itself &mdash; for the FAA's exact wording, see <a href="https://www.faa.gov/forms/index.cfm/go/document.information/documentID/185786" target="_blank" rel="noopener">FAA Form 8500-8</a>.</p>
+
     <span class="eyebrow">The parts you re-enter every cycle</span>
-    <h2>Items 17, 18, and 19 — the sections that take the most work</h2>
+    <h2 id="item-17-19">MedXPress medical questions (Items 17/18/19)</h2>
     <p>Most of Form 8500-8 is quick. Three sections are where pilots spend real time — and where they end up digging through last cycle's paperwork. Here's what each one asks, in the FAA's own words.</p>
 
     <div class="card item">
