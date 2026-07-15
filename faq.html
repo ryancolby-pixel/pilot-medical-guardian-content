@@ -8,6 +8,88 @@
   <meta name="theme-color" content="#1c66d9">
   <link rel="canonical" href="https://pilotmedicalguardian.com/faq.html">
 
+  <!-- Structured data: FAQ mirroring the visible questions below + breadcrumb.
+       No pricing, ratings, medical claims, or FAA endorsement asserted. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilotmedicalguardian.com/" },
+          { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://pilotmedicalguardian.com/faq.html" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "I already have a pilot medical service - how is this different?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The services pilots use are people you call when you need help. Pilot Medical Guardian is a tool you own that keeps you organized and prepared so you are ready when you walk into your exam - and so you get more value out of any service you already use. It complements a service; it does not replace one." }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I still need my AME?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes - absolutely. Pilot Medical Guardian is a record-keeping and information tool, not a substitute for your Aviation Medical Examiner. It never tells you whether you are fit to fly and never makes a certification decision. Your AME examines you and issues or defers your certificate." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the developer (or anyone) see my medical information?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. The app stores everything on your device and syncs only through your own iCloud private database, tied to your Apple ID. There is no Pilot Medical Guardian server, no analytics on your health data, and no third party in the loop. The developer cannot see your conditions, medications, history, Special Issuance details, or documents - by design." }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is my data stored?",
+            "acceptedAnswer": { "@type": "Answer", "text": "On your iPhone or iPad, encrypted at rest, and synced to your own iCloud account so it is available across your Apple devices and survives a lost phone. It never goes anywhere else." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it tell me whether I am fit to fly, or whether I should disclose something?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No - and this is deliberate. The app is strictly descriptive: it shows you your reading, the FAA's cited threshold, and the source, but it never renders a pass/fail or fitness verdict and never advises you on a disclosure decision. Those judgments are between you and your AME." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this medical or legal advice?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Pilot Medical Guardian is not medical advice, not legal advice, and not FAA compliance certification. It helps you keep records and surfaces the FAA's own published reference material with citations. Always consult your AME for medical certification questions." }
+          },
+          {
+            "@type": "Question",
+            "name": "Which classes of medical does it support?",
+            "acceptedAnswer": { "@type": "Answer", "text": "All of them - Class 1, 2, and 3 - and BasicMed (14 CFR Part 68). The certificate-duration math, renewal reminders, BasicMed date tracking, and reference content all work for professional and general-aviation pilots alike." }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you support BasicMed (Part 68)?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. If you fly under BasicMed, the app gives you a plain-language guide to the FAA's Part 68 requirements - quoted from, or linked straight to, the FAA's own pages - plus tracking for the two clocks that matter: your medical-education course (every 24 months) and your physician exam or CMEC (every 48 months)." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I turn on the MedXPress autofill?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It is a one-time setup, done entirely on your iPhone or iPad - no desktop needed. Switch on the Safari extension in Settings, then tap the Fill from Pilot Medical Guardian button when you are filling out MedXPress." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the MedXPress autofill work?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It is a Safari Web Extension. You open MedXPress in Safari, tap the Pilot Medical Guardian button, and it fills the form fields from the data you have already entered in the app - so you do not retype your medications and doctor visits every cycle. You always review everything before you submit; the app never auto-submits for you." }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does it not autofill the entire MedXPress form?",
+            "acceptedAnswer": { "@type": "Answer", "text": "MedXPress already remembers your static demographic info for returning applicants, and the medical-history section sits behind bot-protection on the FAA's site that blocks bulk automated filling. The autofill focuses on the genuinely painful, retype-every-cycle parts: your medications and your visits. You complete the rest yourself." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the MedXPress autofill safe to use on the FAA's website?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. The extension only fills fields you can see, using data that is already on your device, and it never submits anything - you review and click Submit yourself. Browser form-fillers such as password managers work this same well-established way." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <!-- Social share (Open Graph + Twitter Card) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Pilot Medical Guardian">
