@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .claude/
+
+# press.html is UNFINISHED — it still contains visible "[PLACEHOLDER: App Store URL]"
+# text and 404s on the live site. Ignored so a careless `git add -A` can't publish a
+# placeholder page under our own domain. It stays on disk, editable and previewable
+# locally; DELETE THIS LINE when the real copy and the App Store URL are in place.
+press.html
