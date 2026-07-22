@@ -134,6 +134,17 @@
     .callout strong { color: var(--text); font-weight: 600; }
     .callout a { color: var(--accent); }
 
+    /* Autofill proof shots inside the CTA card. */
+    .shots { display: grid; gap: 18px; margin: 18px 0 0; }
+    .shot { margin: 0; }
+    .shot img {
+      width: 100%; height: auto; display: block;
+      border-radius: var(--radius-chip); border: 1px solid var(--accent-edge);
+    }
+    .shot figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+    .shot figcaption b { color: var(--text); font-weight: 600; }
+    .shot .tap { color: var(--accent); white-space: nowrap; }
+
     .table-wrap { overflow-x: auto; margin: 8px 0 4px; }
     .dur-table { width: 100%; border-collapse: collapse; font-size: 0.98rem; min-width: 30rem; }
     .dur-table th, .dur-table td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
@@ -355,6 +366,21 @@
     <h2>How Pilot Medical Guardian helps you prepare</h2>
     <div class="card">
       <p style="margin-top:0">This guide is free and stands on its own — the app is the other half. It keeps your medications, doctor visits, and records organized between exams, encrypted on <strong>your own device and iCloud</strong> where I can never see them, so you're not reconstructing everything from memory each cycle — and when it's time to renew, it autofills Items 17 and 19 for you (you review and submit yourself).</p>
+      <div class="shots">
+        <figure class="shot">
+          <a href="/screenshots/medxpress-autofill-after.webp?v=2" target="_blank" rel="noopener">
+            <img src="/screenshots/medxpress-autofill-after.webp?v=2" width="1800" height="731" loading="lazy" decoding="async" alt="Item 17 on the live FAA MedXPress form with a medication filled in - Omeprazole, 40 mg, once daily - beside the Pilot Medical Guardian panel and its reminder to verify each field before submitting">
+          </a>
+          <figcaption><b>Item 17 — medications</b>, filled on the live FAA form. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
+        </figure>
+        <figure class="shot">
+          <a href="/screenshots/medxpress-visit-after.webp?v=2" target="_blank" rel="noopener">
+            <img src="/screenshots/medxpress-visit-after.webp?v=2" width="1800" height="859" loading="lazy" decoding="async" alt="Item 19 on the live FAA MedXPress form with a doctor visit filled in - date, provider name, type, and full address - beside the Pilot Medical Guardian panel listing visits to tap">
+          </a>
+          <figcaption><b>Item 19 — doctor visits</b>, filled the same way. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
+        </figure>
+      </div>
+      <p class="fineprint" style="margin-top:14px;">You review every entry and tap Submit yourself. <strong>Item 18 stays yours to complete by hand</strong> — see <a href="#item-17-19">Items 17/18/19</a> above.</p>
       <div class="links" style="margin-bottom:0;">
         <a class="primary" href="/faa-medxpress-app.html">See the MedXPress autofill app</a>
         <a class="secondary" href="/medxpress-checklist.html">Get the free prep checklist</a>
