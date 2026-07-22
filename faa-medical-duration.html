@@ -112,6 +112,14 @@
     .callout strong { color: var(--text); font-weight: 600; }
     .callout a { color: var(--accent); }
 
+    /* App screenshot inside a card. */
+    .shot { margin: 18px 0 6px; }
+    .shot img {
+      width: 100%; height: auto; display: block;
+      border-radius: var(--radius-chip); border: 1px solid var(--accent-edge);
+    }
+    .shot figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+
     /* Duration cards. */
     .dur { margin: 0 0 4px; }
     .dur h3 { margin: 0 0 2px; }
@@ -252,6 +260,26 @@
     <p>A <strong>second-class</strong> certificate works the same way — good for commercial ops for 12 months, then continuing at third-class-length validity for the full 60 or 24 months. So the same certificate an airline pilot renews every 6 or 12 months stays valid at the third-class tier much longer — whether any specific operation is permitted is governed by the FAA's rules for that operation.</p>
     <p class="source-note">Source: <a href="https://www.law.cornell.edu/cfr/text/14/61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>. Whether any specific operation is permitted is governed by the FAA's rules for that operation.</p>
 
+    <span class="eyebrow">Worked example</span>
+    <h2>One exam date, all three rules at once</h2>
+    <p>Say you take a <strong>first-class</strong> exam on <strong>July 1, 2026</strong>. Here is what that single date produces, using the rules above.</p>
+    <div class="card">
+      <ul class="ages">
+        <li><b>If you were 41 at the exam</b><span>first-class through <strong>Jan 31, 2027</strong> — the 6th month after July</span></li>
+        <li><b>then second-class</b><span>through <strong>Jul 31, 2027</strong> — the 12th month</span></li>
+        <li><b>then third-class</b><span>through <strong>Jul 31, 2028</strong> — the 24th month</span></li>
+      </ul>
+    </div>
+    <p>Change one thing — your age on exam day — and the same July 1 exam reads differently:</p>
+    <div class="card">
+      <ul class="ages">
+        <li><b>If you were 39 at the exam</b><span>first-class through <strong>Jul 31, 2027</strong> — the 12th month</span></li>
+        <li><b>then third-class</b><span>through <strong>Jul 31, 2031</strong> — the 60th month</span></li>
+      </ul>
+    </div>
+    <div class="callout"><strong>Note the two traps.</strong> Nothing expires on July 1 — every date above lands on the <strong>last day</strong> of its month. And turning 40 on July 2 changes none of it: your age is fixed on the <strong>exam date</strong>.</div>
+    <p class="source-note">Worked from <a href="https://www.law.cornell.edu/cfr/text/14/61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>. Example dates for illustration — check your own certificate.</p>
+
     <span class="eyebrow">Which one do you need?</span>
     <h2>What class of medical do I need?</h2>
     <p>That's set by the operations you fly, not by preference — broadly, <strong>first-class</strong> for airline pilot-in-command, <strong>second-class</strong> for commercial flying, and <strong>third-class</strong> for private, recreational, or student flying. For the exact requirement, see the FAA's <a href="https://www.faa.gov/faq/what-class-medical-certificate-must-i-hold-and-how-long-it-valid" target="_blank" rel="noopener">guidance on class and validity</a>.</p>
@@ -262,6 +290,10 @@
     <p>The rules above are simple in principle and easy to get wrong in practice — the age split, the calendar-month end date, the step-down. That's arithmetic a phone should do for you.</p>
     <div class="card">
       <p style="margin-top:0"><strong>Pilot Medical Guardian</strong> calculates your certificate's expiration from these actual <strong>14 CFR 61.23</strong> rules — your class, your age at the exam, the end-of-month convention — and reminds you before it lapses, on a schedule you choose. It's a <strong>privacy-first iPhone and iPad app</strong>: your records stay on your own device and iCloud, and I can never see them.</p>
+      <figure class="shot">
+        <img src="/screenshots/renewal-countdown.webp?v=20260722" width="1185" height="490" loading="lazy" decoding="async" alt="Pilot Medical Guardian home screen showing 130 days remaining on a Class 1 medical certificate, with the expiration date November 16, 2026">
+        <figcaption>The countdown on the app's home screen. Sample data.</figcaption>
+      </figure>
       <p style="margin-bottom:0">It's an information and record-keeping tool — it shows you the rules and the dates; it doesn't make any determination for you. You stay in control.</p>
       <div class="links">
         <a class="primary" href="https://tally.so/r/VLAoej">Get notified at launch</a>
