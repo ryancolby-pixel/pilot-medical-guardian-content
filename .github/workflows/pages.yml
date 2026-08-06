@@ -1,0 +1,63 @@
+# Deploy the site to GitHub Pages via Actions.
+#
+# WHY THIS EXISTS (2026-08-06): the LEGACY Pages builder broke for this site and
+# would not recover. Four consecutive deploys failed, each running almost exactly
+# 10 minutes and reporting only the generic "Page build failed":
+#
+#   0627d82  auto-build on push   errored
+#   0627d82  manual re-run        errored
+#   0627d82  API rebuild request  errored
+#   4cb9201  EMPTY commit         errored   <- changes zero files
+#
+# The empty commit is what settles it. Ruled out with evidence, not assumption:
+# the content (21 lines of printable ASCII, no Liquid, and .nojekyll means Jekyll
+# never runs), repo size (70 files, 10MB, against a 1GB limit), a GitHub-wide
+# incident (Pages and Actions both reported operational), workflow interference
+# (nothing else here touches Pages), an approval gate (deployments reach
+# in_progress within 2 seconds), symlinks, odd filenames, and submodules.
+#
+# The legacy builder is deprecated. This moves deployment onto Actions, which
+# does not use it at all.
+#
+# NOTE: the artifact is the whole repo root, so CNAME (the custom domain
+# pilotmedicalguardian.com) and .nojekyll are included. Do not narrow the upload
+# path without carrying both across, or the custom domain drops.
+
+name: Deploy site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it mid-flight.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
