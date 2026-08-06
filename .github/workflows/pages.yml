@@ -30,14 +30,17 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# ACTION VERSIONS ARE LOAD-BEARING HERE. GitHub runners switched to Node 24 by
-# default on 2026-06-16. The v3/v4/v5-era actions target Node 20 and get FORCE-RUN
-# on Node 24, and under that the deploy step hangs and dies at the 10 minute
-# timeout. That is what broke this site's deploys on 2026-08-06, and it hit the
-# legacy "pages build and deployment" pipeline too, because that is itself an
-# Actions workflow using actions/deploy-pages internally. Same action, same hang,
-# which is why BOTH pipelines failed identically including on an empty commit.
-# Keep these on current majors. Do not pin them back.
+# KEEP THE ACTIONS ON CURRENT MAJORS. GitHub runners switched to Node 24 by
+# default on 2026-06-16, and stale actions get force-run under it. That is worth
+# avoiding on its own.
+#
+# CORRECTION (2026-08-06, later the same day): an earlier version of this comment
+# blamed the Node 24 force-run for the 10 minute deploy hang. That was wrong, and
+# it sent the diagnosis sideways for hours. actions/deploy-pages@v5 declares
+# `using: node24` in its own action.yml, so it was never being force-run, and the
+# identical 601 second wall persisted after every action here was bumped. Bumping
+# them was correct hygiene. It was not the cure. See the Deploy step below for
+# what the wall actually is.
 
 permissions:
   contents: read
@@ -56,8 +59,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 0 is required by the sitemap lastmod check below, which asks
+      # `git log -1 -- <file>` for each page. At the default depth of 1 that returns
+      # nothing for every file the head commit did not touch, so the check would
+      # report "accurate" no matter how stale the dates were. The repo is small
+      # enough that full history costs a couple of seconds.
       - name: Check out the site
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
@@ -80,19 +90,91 @@ jobs:
         with:
           path: _site
 
-      # TIMEOUT IS RAISED ON PURPOSE. The default is 600000ms (10 minutes) and on
-      # 2026-08-06 that was marginal: GitHub's Pages backend was running roughly 8x
-      # slower than normal, and deploys of THIS SITE landed either side of the limit
-      # on essentially identical content:
+      # Advisory only, never fails the build. sitemap.xml carries a hand-maintained
+      # <lastmod> per URL, and on 2026-08-06 all nine had drifted three to four weeks
+      # behind the commits they describe. This surfaces that at deploy time instead of
+      # waiting for someone to notice. Fix with: python3 scripts/sync-sitemap-lastmod.py
+      - name: Check sitemap lastmod dates
+        continue-on-error: true
+        run: |
+          python3 scripts/sync-sitemap-lastmod.py --check \
+            || echo "::warning title=Stale sitemap lastmod::Run python3 scripts/sync-sitemap-lastmod.py and commit the result."
+
+      - name: Record the time the deploy started
+        id: t0
+        run: echo "epoch=$(date -u +%s)" >> "$GITHUB_OUTPUT"
+
+      # WHY continue-on-error IS SET, AND WHY THERE IS NO `timeout:` INPUT HERE.
       #
-      #   9786360  8m38s  success
-      #   f0657fd  10m20s timeout   (differs by 21 lines of HTML)
+      # actions/deploy-pages HARD-CAPS its own timeout at 600000ms and silently
+      # clamps anything larger. From src/internal/deployment.js:
       #
-      # That variance, not the content, is what caused an afternoon of failures. A
-      # deploy that takes 12 minutes is slow; a deploy killed at 10 is a false alarm
-      # that then leaves a stuck deployment blocking the next attempt.
+      #     const MAX_TIMEOUT = 600000
+      #     this.timeout = Math.min(timeoutInput, MAX_TIMEOUT)
+      #
+      # An earlier commit here set `timeout: 1800000` believing it bought 30 minutes.
+      # It bought nothing. That run's own log prints `with: timeout: 1800000` in the
+      # step header and still aborts at 601 seconds. The input is gone rather than
+      # set to 600000, because carrying a value that reads like a tuning knob invites
+      # the next person to raise it again.
+      #
+      # The real behaviour: when GitHub's Pages backend is slow, a deploy of this site
+      # takes roughly 12 minutes. The action stops waiting at 10, prints
+      # "Timeout reached, aborting!", and issues a cancel. THE CANCEL DOES NOT STICK.
+      # Measured 2026-08-06 on 535b120: deploy started 15:06:30Z, the action aborted
+      # 15:16:39Z, and the live page's last-modified is 15:18:46Z. It published about
+      # two minutes after the action gave up and called it a failure.
+      #
+      # So the step's verdict is not evidence in either direction, and the only thing
+      # that is, is the live URL. The step no longer decides the job. The step after
+      # it does.
       - name: Deploy
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v5
-        with:
-          timeout: 1800000
+
+      # THE ACTUAL VERDICT. Polls the live custom domain until its Last-Modified moves
+      # past the moment this deploy started, which is what proves THIS run's content
+      # reached the CDN. Last-Modified on Pages is the publish time, not the file's
+      # edit time, so it moves on every deploy even for files that did not change.
+      #
+      # Three outcomes are distinguished on purpose, because 2026-08-06 produced all
+      # three within a few hours and they were repeatedly mistaken for each other:
+      #   - the deploy step succeeded and the site updated        -> green, the normal case
+      #   - the deploy step "failed" on its timeout but published -> green, and says so
+      #   - nothing reached the CDN                               -> red, and means it
+      - name: Verify the site actually updated
+        env:
+          T0: ${{ steps.t0.outputs.epoch }}
+          DEPLOY_OUTCOME: ${{ steps.deployment.outcome }}
+        run: |
+          set -uo pipefail
+          URL="https://pilotmedicalguardian.com/"
+          DEADLINE=$(( $(date -u +%s) + 900 ))   # 15 minutes past the 10 minute cap
+
+          echo "deploy step outcome: ${DEPLOY_OUTCOME}"
+          echo "watching ${URL} for a Last-Modified at or after epoch ${T0}"
+
+          # HTTP dates are parsed with python3, not `date -d`. `date -d` is GNU-only,
+          # so it works on ubuntu-latest but cannot be exercised on a Mac, and an
+          # unverifiable line in a step whose whole job is verification is not worth
+          # the two characters it saves.
+          while :; do
+            LM=$(curl -sSI --max-time 20 "${URL}?cb=$(date +%s)" 2>/dev/null \
+                 | tr -d '\r' | awk 'tolower($1)=="last-modified:"{ $1=""; sub(/^ /,""); print }')
+            if [ -n "${LM:-}" ]; then
+              LM_EPOCH=$(python3 -c 'import email.utils,sys; print(int(email.utils.parsedate_to_datetime(sys.argv[1]).timestamp()))' "${LM}" 2>/dev/null || echo 0)
+              if [ "${LM_EPOCH}" -ge "${T0}" ]; then
+                echo "PUBLISHED. Last-Modified: ${LM}"
+                if [ "${DEPLOY_OUTCOME}" != "success" ]; then
+                  echo "::notice title=Published despite a failed deploy step::The deploy step reported ${DEPLOY_OUTCOME}, almost certainly its 10 minute client-side timeout, but the content reached the CDN. This is the known false alarm."
+                fi
+                exit 0
+              fi
+            fi
+            if [ "$(date -u +%s)" -ge "${DEADLINE}" ]; then
+              echo "::error title=Site did not update::Nothing reached the CDN within 15 minutes. Last-Modified is still '${LM:-unavailable}'. Check https://www.githubstatus.com before assuming the repo is at fault, and do NOT re-run this run: a re-run uploads a second artifact named github-pages and deploy-pages rejects it. Dispatch a fresh run instead."
+              exit 1
+            fi
+            sleep 15
+          done
