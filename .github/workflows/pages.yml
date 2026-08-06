@@ -30,6 +30,15 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# ACTION VERSIONS ARE LOAD-BEARING HERE. GitHub runners switched to Node 24 by
+# default on 2026-06-16. The v3/v4/v5-era actions target Node 20 and get FORCE-RUN
+# on Node 24, and under that the deploy step hangs and dies at the 10 minute
+# timeout. That is what broke this site's deploys on 2026-08-06, and it hit the
+# legacy "pages build and deployment" pipeline too, because that is itself an
+# Actions workflow using actions/deploy-pages internally. Same action, same hang,
+# which is why BOTH pipelines failed identically including on an empty commit.
+# Keep these on current majors. Do not pin them back.
+
 permissions:
   contents: read
   pages: write
@@ -48,10 +57,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the site
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       # Stage a CLEAN copy rather than uploading the repo root. Uploading "." sweeps in
       # .git (about 20MB) and .github, which do not belong in a published site.
@@ -67,10 +76,10 @@ jobs:
           echo "staged $(find _site -type f | wc -l) files, $(du -sh _site | cut -f1)"
 
       - name: Upload the site as a Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
