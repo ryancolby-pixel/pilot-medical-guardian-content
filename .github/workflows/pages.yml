@@ -53,10 +53,23 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      # Stage a CLEAN copy rather than uploading the repo root. Uploading "." sweeps in
+      # .git (about 20MB) and .github, which do not belong in a published site.
+      # CNAME and .nojekyll MUST be copied across: CNAME holds the custom domain
+      # pilotmedicalguardian.com, and without .nojekyll GitHub would run Jekyll over
+      # the site. Losing either one breaks the published site.
+      - name: Stage the site
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_site' ./ _site/
+          test -f _site/CNAME || { echo "CNAME missing from the artifact, refusing to deploy"; exit 1; }
+          test -f _site/.nojekyll || { echo ".nojekyll missing from the artifact, refusing to deploy"; exit 1; }
+          echo "staged $(find _site -type f | wc -l) files, $(du -sh _site | cut -f1)"
+
       - name: Upload the site as a Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy
         id: deployment
