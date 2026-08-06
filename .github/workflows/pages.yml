@@ -80,6 +80,19 @@ jobs:
         with:
           path: _site
 
+      # TIMEOUT IS RAISED ON PURPOSE. The default is 600000ms (10 minutes) and on
+      # 2026-08-06 that was marginal: GitHub's Pages backend was running roughly 8x
+      # slower than normal, and deploys of THIS SITE landed either side of the limit
+      # on essentially identical content:
+      #
+      #   9786360  8m38s  success
+      #   f0657fd  10m20s timeout   (differs by 21 lines of HTML)
+      #
+      # That variance, not the content, is what caused an afternoon of failures. A
+      # deploy that takes 12 minutes is slow; a deploy killed at 10 is a false alarm
+      # that then leaves a stuck deployment blocking the next attempt.
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          timeout: 1800000
