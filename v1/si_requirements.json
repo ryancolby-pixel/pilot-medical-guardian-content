@@ -161,12 +161,12 @@
     "envelope": {
       "code": "si-cardiac-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T16:51:11Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD)",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "Functional cardiac testing of the type specified by the FAA for your situation (which may include items such as a stress test or imaging). The exact testing and intervals are set by the AME Guide and confirmed by your AME and cardiologist."
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",
@@ -226,12 +226,12 @@
     "envelope": {
       "code": "si-cad-pci-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T16:51:11Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD)",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "Functional cardiac testing of the type specified by the FAA (which may include a stress test or imaging), at the required interval."
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",
@@ -278,12 +278,12 @@
     "envelope": {
       "code": "si-cabg-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T16:51:11Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD)",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "Functional cardiac testing of the type specified by the FAA (e.g., stress test or imaging), at the interval set by the AME Guide."
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",

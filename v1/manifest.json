@@ -1,6 +1,6 @@
 {
   "contentVersion": "2026-08-07",
-  "generatedAt": "2026-08-07T13:14:55Z",
+  "generatedAt": "2026-08-07T16:51:28Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -44,8 +44,8 @@
     },
     {
       "filename": "si_requirements.json",
-      "size": 51159,
-      "checksum": "a712bc3cb65ef2784d94bf73170f93a97ffcfd86a84c9f754a95221576b7f9e4"
+      "size": 53162,
+      "checksum": "b384fec49c284b0645ea868012562c2cea17b26d7199dd29b76745e9cf9f3241"
     },
     {
       "filename": "thresholds.json",
