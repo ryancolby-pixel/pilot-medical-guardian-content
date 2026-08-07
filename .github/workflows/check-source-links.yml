@@ -1,0 +1,82 @@
+name: Check FAA source links
+
+# Weekly check that every FAA source the app and the website cite still resolves.
+#
+# WHY. On 2026-08-07 three cited URLs turned out to be 404, covering 176 of the 622
+# reference entries the app ships. They had rotted silently when the FAA reorganised its
+# site. Nothing noticed, because nothing was looking: the two existing watchers track
+# whether specific FAA PDFs have been REISSUED (by SHA), and the app repo's drift check
+# tracks whether the CDN and the bundle agree. Neither asks whether the thing we point a
+# pilot at is still there.
+#
+# That matters more than a normal broken link. The app's promise, and the FAQ answer
+# published the same morning, is that where it describes an FAA rule in its own words it
+# names the document and links straight to it so a pilot can read the original. A dead
+# link makes that promise hollow.
+#
+# Runs Monday at 15:00 UTC, an hour after the CACI PDF check and two after the HIMS one,
+# so the three do not hit faa.gov at once.
+
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch: {}
+  # No push trigger, deliberately. A branch-filtered push trigger makes GitHub send a
+  # "Run failed: No jobs were run" email every time this file lands on a non-default
+  # branch. One of those hit Ryan's inbox on 2026-08-07 from a different workflow, and a
+  # false alarm is the fastest way to teach someone to ignore a real one.
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the content
+        uses: actions/checkout@v5
+
+      - name: Check every cited FAA source
+        id: check
+        run: |
+          set +e
+          python3 scripts/check-source-links.py | tee link-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      # Exit 2 means the runner could not reach anything at all (DNS, TLS, network). That
+      # is a problem with this job, not with the citations, and filing an issue saying
+      # every FAA source has vanished would be worse than saying nothing.
+      - name: Note an unreachable run
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not check the source links::The runner could not reach any of the cited URLs. Not a content problem. See the log."
+
+      - name: Open or update the dead-link issue
+        if: steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create faa-link-rot --color d93f0b \
+            --description "A cited FAA source no longer resolves" 2>/dev/null || true
+          {
+            echo "Checked $(date -u +%Y-%m-%dT%H:%MZ)."
+            echo
+            cat source-link-report.md 2>/dev/null || cat link-output.txt
+          } > link-comment.md
+          EXISTING=$(gh issue list --state open --label faa-link-rot --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            echo "issue #$EXISTING already open, commenting"
+            gh issue comment "$EXISTING" --body-file link-comment.md
+          else
+            gh issue create \
+              --title "A cited FAA source no longer resolves" \
+              --label faa-link-rot \
+              --body-file link-comment.md
+          fi
+
+      - name: Fail the run so a red scheduled run also emails the owner
+        if: steps.check.outputs.code == '1'
+        run: |
+          echo "One or more cited FAA sources are dead. See the issue above."
+          exit 1
