@@ -18,12 +18,12 @@
     "envelope": {
       "code": "si-htn-bp-log",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Hypertension",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of your blood pressure readings demonstrating control over time. The specific format and look-back period are set by the AME Guide and confirmed by your AME."
+    "requirementText": "Not listed among the FAA's own reissue items for this condition. The FAA asks for the Authorization plus a current status report from your treating physician, including the name and dosage of your medications. Keep your readings in case your physician or AME wants them when writing that report."
   },
   {
     "cadenceRaw": "annual",
@@ -44,12 +44,12 @@
     "envelope": {
       "code": "si-osa-compliance-report",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47 — Sleep Disturbances / OSA",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Sleep Apnea (OSA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A treatment-adherence report — for CPAP, a usage/compliance download covering at least the most recent 30-day window at the time of submission, typically showing device use of about 6 hours or more per night on 75% or more of nights. Confirm the current required format and thresholds against the AME Guide OSA recertification form and a qualified AME."
+    "requirementText": "A copy of the cumulative annual PAP device report showing actual time used. The FAA notes this is not the report insurers typically generate, which only shows whether use was more or less than 4 hours. The FAA's stated target is use on at least 75% of sleep periods, with an average minimum of 6 hours per sleep period. Confirm the current required format against the AME Guide and a qualified AME."
   },
   {
     "cadenceRaw": "annual",

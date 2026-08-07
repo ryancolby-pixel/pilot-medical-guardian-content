@@ -53,9 +53,32 @@ for name in FILES:
     p = V1 / name
     entries.append({"filename": name, "size": p.stat().st_size, "checksum": sha256_of(p)})
 
+# IDEMPOTENT ON generatedAt. Only stamp a new time when a file's bytes actually changed.
+#
+# This matters because the app's ReferenceContentLoader decides whether to use CDN content
+# by comparing the CDN manifest's generatedAt against the one baked into the build. Bumping
+# it on every run would tell every installed app that the reference data changed each time
+# this script runs, including on website-only deploys where not one byte of v1/ moved.
+#
+# It also lets this script run safely inside the Pages deploy: regenerating on every deploy
+# guarantees the published manifest always matches the published files, without inventing a
+# content change to announce.
+existing_entries = None
+try:
+    with open(MANIFEST) as _f:
+        _prev = json.load(_f)
+    existing_entries = _prev.get("files")
+    existing_generated = _prev.get("generatedAt")
+except (json.JSONDecodeError, OSError, NameError):
+    existing_generated = None
+
+unchanged = existing_entries == entries and bool(existing_generated)
+generated_at = existing_generated if unchanged else datetime.datetime.now(
+    datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
 manifest = {
     "contentVersion": version,
-    "generatedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "generatedAt": generated_at,
 }
 # Keep paywallActiveDate BEFORE files (matches the app's bundled manifest ordering).
 if flip:

@@ -85,6 +85,24 @@ jobs:
           test -f _site/.nojekyll || { echo ".nojekyll missing from the artifact, refusing to deploy"; exit 1; }
           echo "staged $(find _site -type f | wc -l) files, $(du -sh _site | cut -f1)"
 
+      # THE PUBLISHED MANIFEST MUST MATCH THE PUBLISHED FILES, whatever is committed.
+      #
+      # Why this is here: rebuild-manifest.yml regenerates the manifest and commits it, but
+      # GitHub does not run workflows for pushes made with GITHUB_TOKEN, so that commit never
+      # triggers a deploy. Found 2026-08-07: git held generatedAt 12:42:35 while the CDN
+      # served 12:41:54. Harmless that time, but the general case is worse. A human pushes a
+      # changed v1/ file with a stale manifest, this deploys the stale manifest, and the app
+      # then rejects the file whose checksum no longer matches.
+      #
+      # Regenerating here closes it at the point that matters: the artifact. gen_manifest.py
+      # is idempotent on generatedAt (it only restamps when a file's bytes changed), so this
+      # does NOT announce a phantom content change on website-only deploys.
+      - name: Regenerate the content manifest in the staged copy
+        run: |
+          python3 scripts/gen_manifest.py
+          rsync -a v1/ _site/v1/
+          python3 scripts/verify_manifest.py _site/v1
+
       - name: Upload the site as a Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
