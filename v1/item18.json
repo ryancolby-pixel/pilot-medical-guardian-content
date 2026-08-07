@@ -5,9 +5,9 @@
     "envelope": {
       "code": "item18-headaches",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -16,9 +16,9 @@
     "envelope": {
       "code": "item18-dizziness",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -27,9 +27,9 @@
     "envelope": {
       "code": "item18-unconscious",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -38,9 +38,9 @@
     "envelope": {
       "code": "item18-vision",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -49,9 +49,9 @@
     "envelope": {
       "code": "item18-allergy",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -60,9 +60,9 @@
     "envelope": {
       "code": "item18-asthma",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -71,9 +71,9 @@
     "envelope": {
       "code": "item18-heart",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -82,9 +82,9 @@
     "envelope": {
       "code": "item18-bp",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -93,9 +93,9 @@
     "envelope": {
       "code": "item18-gi",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -104,9 +104,9 @@
     "envelope": {
       "code": "item18-kidney",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -115,9 +115,9 @@
     "envelope": {
       "code": "item18-diabetes",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -126,9 +126,9 @@
     "envelope": {
       "code": "item18-neuro",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -137,9 +137,9 @@
     "envelope": {
       "code": "item18-mental",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -148,9 +148,9 @@
     "envelope": {
       "code": "item18-substance",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -159,9 +159,9 @@
     "envelope": {
       "code": "item18-alcohol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -170,9 +170,9 @@
     "envelope": {
       "code": "item18-suicide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -181,9 +181,9 @@
     "envelope": {
       "code": "item18-motion-sickness",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -192,9 +192,9 @@
     "envelope": {
       "code": "item18-military-discharge",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -203,9 +203,9 @@
     "envelope": {
       "code": "item18-military-rejection",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -214,9 +214,9 @@
     "envelope": {
       "code": "item18-insurance-rejection",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -225,20 +225,20 @@
     "envelope": {
       "code": "item18-hospital",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
-    "description": "Conviction and/or administrative action history",
+    "description": "Arrest(s), conviction(s), and/or administrative action(s) involving driving while intoxicated or impaired by alcohol or a drug",
     "itemLetter": "v",
     "envelope": {
       "code": "item18-admin-action",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -247,9 +247,9 @@
     "envelope": {
       "code": "item18-nontraffic-conviction",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -258,9 +258,9 @@
     "envelope": {
       "code": "item18-other",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   },
   {
@@ -269,9 +269,9 @@
     "envelope": {
       "code": "item18-disability-benefits",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Form 8500-8, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/licenses_certificates/medical_certification/media/Form8500-8.pdf"
+      "lastVerified": "2026-08-07T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
     }
   }
 ]
