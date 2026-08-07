@@ -7,11 +7,21 @@ name: Check FAA CACI Worksheet PDFs for reissue
 # /Users/ryan/pilot-medical-guardian/PilotMedicalGuardian/Reference/
 # BundledContent/CACIWorksheets/, bumps the manifest, ships.
 #
-# Tracked URL map is hard-coded below (the 29 worksheet PDF URLs from
-# https://www.faa.gov/ame_guide/certification_ws as of 2026-05-28).
-# When the FAA adds a new CACI condition (rare), update this file and
-# the app's CACIWorksheet entries; when an existing condition's URL
-# changes (also rare), update the URL map.
+# Tracked list lives in .faa-caci-pdf-shas. When the FAA adds a new CACI
+# condition (rare), update that file and the app's CACIWorksheet entries.
+#
+# 2026-08-07: broadened past CACI. A coverage check while building
+# check-source-freshness.py found we cited 34 FAA PDFs and watched only 29
+# of them. The 4 unwatched ones were AASI_Sleep_Apnea_OSA.pdf,
+# Stroke-CVA-TIA.pdf, Seizures_Epilepsy.pdf and Head-Injury.pdf -- all under
+# the same /ame_guide/media/ path, so they cost nothing to add. Notably the
+# OSA one is the source of a live content error found the same morning (we
+# asked for a 30-day PAP report where the FAA asks for the cumulative
+# annual one), so it was the single worst PDF to have unwatched.
+# The job name still says CACI; what it actually watches is "every FAA PDF
+# we cite", which is the useful definition.
+#
+# hims-ames.pdf is deliberately NOT here: check-faa-hims-pdf.yml owns it.
 
 on:
   schedule:
@@ -33,7 +43,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download all 29 CACI Worksheet PDFs
+      - name: Download every FAA PDF we cite
         run: |
           set -euo pipefail
           mkdir -p /tmp/caci_check

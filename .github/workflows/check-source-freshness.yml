@@ -1,0 +1,125 @@
+name: Check whether cited FAA pages changed
+
+# Weekly check of the FAA's OWN "Last updated" date on every page the app cites.
+#
+# WHY. check-source-links.yml asks whether a cited page is still THERE. It cannot ask
+# whether the page still SAYS what we claim, and on 2026-08-07 that gap had a price: the
+# app was telling post-cardiac-event pilots to get annual functional cardiac testing
+# "such as a stress test", while the page we cite had carried the opposite since
+# 2024-05-29:
+#
+#   "NOTE: As of 05/29/24 - For routine cases, follow-up stress test is no longer
+#    required provided ALL items on the CHD/CAD Recertification Status Summary are in
+#    the 'YES' column."
+#   https://www.faa.gov/ame_guide/special_iss/third_class/chd
+#
+# The URL never moved, so the link checker passed it every week for 26 months, correctly.
+# A pilot following our checklist was booking a yearly nuclear stress test nobody had
+# required since 2024: real money, real radiation, and incidental findings that can
+# themselves cause a deferral.
+#
+# THE SIGNAL IS THE FAA'S OWN. That CHD page reads "Last updated: Wednesday, May 29,
+# 2024" -- the exact date of the change. Every faa.gov HTML page we cite publishes one
+# (verified: 32 of 32, zero exceptions). We watch that field rather than hashing the
+# page, because a whole-page hash fires on nav and banner churn, and a weekly false alarm
+# is how an alert teaches its reader to ignore it. Four of the eight pages sampled while
+# designing this had not moved since 2023, so firings are rare and each one means
+# something.
+#
+# COVERAGE, honestly. 32 HTML pages here. The 34 FAA PDFs we cite carry no such line and
+# are watched by SHA in check-faa-caci-pdfs.yml and check-faa-hims-pdf.yml instead. That
+# leaves eCFR (17 entries), which publishes neither -- a known, stated gap.
+#
+# WHAT IT CANNOT DO. It says WHEN to look, never WHAT to conclude, and it cannot catch
+# text that was wrong the day it was written, because there is no change to detect.
+#
+# Monday 16:00 UTC, an hour after the link check, so the four FAA jobs do not pile onto
+# faa.gov at once (13:00 HIMS, 14:00 CACI PDFs, 15:00 links, 15:30 watchdog, 16:00 this).
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch: {}
+  # No push trigger, deliberately: a branch-filtered push trigger makes GitHub email
+  # "Run failed: No jobs were run" whenever this file lands on a non-default branch. One
+  # of those reached Ryan's inbox on 2026-08-07 and a false alarm is the fastest way to
+  # teach someone to ignore a real one.
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the content
+        uses: actions/checkout@v5
+
+      - name: Compare each cited FAA page against its recorded date
+        id: check
+        run: |
+          set +e
+          python3 scripts/check-source-freshness.py | tee freshness-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      # Exit 2 means the runner reached nothing at all (DNS, TLS, network). That is this
+      # job failing, not the FAA changing 32 pages at once. Filing an issue claiming
+      # everything moved would be worse than saying nothing.
+      - name: Note an unreachable run
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not reach the FAA::The runner reached none of the cited pages. Not a content problem. See the log."
+
+      # NOTIFY ON CHANGE, NOT ON STATE, same as the link checker. An FAA change that is
+      # already filed and still being read should not re-email every Monday. The issue
+      # stays open as the record and carries a fingerprint of exactly which pages moved;
+      # we speak up only when that set changes.
+      - name: Report only if the set of changed pages changed
+        if: steps.check.outputs.code == '1'
+        id: notify
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create faa-source-changed --color 1d76db \
+            --description "An FAA page we cite has been updated" 2>/dev/null || true
+          FP=$(cat source-freshness-fingerprint.txt)
+          EXISTING=$(gh issue list --state open --label faa-source-changed --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
+            if [ "$PREV" = "$FP" ]; then
+              echo "same pages as issue #$EXISTING already reports. Staying quiet."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            gh issue comment "$EXISTING" --body-file source-freshness-report.md
+            gh issue edit "$EXISTING" --body-file source-freshness-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            gh issue create \
+              --title "An FAA page we cite has been updated" \
+              --label faa-source-changed \
+              --body-file source-freshness-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Closing happens only when a human has committed the reviewed dates, because the
+      # script deliberately does NOT advance the registry on a detected change. That is
+      # the point: an unread FAA update keeps firing rather than being silently absorbed.
+      - name: Close the issue once the reviewed dates are committed
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --state open --label faa-source-changed --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every cited FAA page matches its recorded date as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
+      # Red only when the set CHANGED, so a new FAA update emails the owner while an
+      # already-filed one stays quiet and lives in the open issue.
+      - name: Fail the run when a new FAA change appears, so the owner is emailed
+        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+        run: |
+          echo "An FAA page we cite has changed. See the issue above."
+          exit 1
