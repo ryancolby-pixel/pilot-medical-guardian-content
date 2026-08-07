@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAA Form 8700-2 (BasicMed CMEC): the form, and what it gets wrong</title>
+  <meta name="description" content="FAA Form 8700-2, the BasicMed Comprehensive Medical Examination Checklist, in plain language. Where to get the official file, what each section is for, who fills in what, why you keep it instead of sending it, and the operating limits the form still prints that the current regulation has replaced.">
+  <meta name="theme-color" content="#1c66d9">
+  <link rel="canonical" href="https://pilotmedicalguardian.com/faa-form-8700-2.html">
+
+  <!-- Structured data: an explainer article. Deliberately NO FAQPage or HowTo markup.
+       Google retired FAQ rich results for non-government sites in Aug 2023 and removed
+       HowTo entirely, so those blocks produce no search appearance and are pure weight. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://pilotmedicalguardian.com/faa-form-8700-2.html#article",
+        "headline": "FAA Form 8700-2 (BasicMed CMEC): the form, and what it gets wrong",
+        "description": "A plain-language walkthrough of FAA Form 8700-2, the BasicMed Comprehensive Medical Examination Checklist, with the current regulatory text for every point.",
+        "author": { "@type": "Person", "name": "Ryan Colby" },
+        "publisher": { "@id": "https://pilotmedicalguardian.com/#org" },
+        "mainEntityOfPage": "https://pilotmedicalguardian.com/faa-form-8700-2.html",
+        "about": [
+          { "@type": "Thing", "name": "FAA Form 8700-2" },
+          { "@type": "Thing", "name": "BasicMed" },
+          { "@type": "Thing", "name": "Comprehensive Medical Examination Checklist" }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pilotmedicalguardian.com/" },
+          { "@type": "ListItem", "position": 2, "name": "BasicMed, explained", "item": "https://pilotmedicalguardian.com/basicmed-guide.html" },
+          { "@type": "ListItem", "position": 3, "name": "FAA Form 8700-2 (CMEC)", "item": "https://pilotmedicalguardian.com/faa-form-8700-2.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Social share (Open Graph + Twitter Card) -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Pilot Medical Guardian">
+  <meta property="og:title" content="FAA Form 8700-2 (BasicMed CMEC): the form, and what it gets wrong">
+  <meta property="og:description" content="Where to get the official file, what each section is for, who fills in what, why you keep it instead of sending it, and the operating limits the form still prints that the regulation has replaced.">
+  <meta property="og:url" content="https://pilotmedicalguardian.com/faa-form-8700-2.html">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="/logo.png">
+  <link rel="stylesheet" href="/site.css?v=20260708">
+  <style>
+    /* Side-by-side comparison of the form's printed limits against the current rule.
+       Two columns on desktop, stacked on phones. The point of the component is that
+       both figures sit at the same visual weight: this page reports a difference, it
+       does not tell a pilot which one governs his flight. */
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 20px 0; }
+    @media (max-width: 660px) { .compare { grid-template-columns: 1fr; } }
+    .compare > div { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 16px 18px; }
+    .compare h4 { margin: 0 0 4px; font-size: 0.95rem; }
+    .compare .src { font-size: 0.78rem; color: var(--muted); margin: 0 0 10px; }
+    .compare dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: 0.92rem; }
+    .compare dt { color: var(--muted); }
+    .compare dd { margin: 0; font-weight: 600; }
+    .compare .stale dd { color: var(--muted); }
+
+    blockquote.reg {
+      margin: 14px 0; padding: 12px 16px; background: var(--bg);
+      border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;
+      font-size: 0.94rem; line-height: 1.6;
+    }
+    blockquote.reg cite { display: block; margin-top: 6px; font-size: 0.8rem; color: var(--muted); font-style: normal; }
+
+    .sources { font-size: 0.88rem; }
+    .sources li { margin-bottom: 6px; }
+
+    /* .prose and .highlight are NOT in site.css. They live in the inline styles of
+       basicmed-guide.html and index.html respectively, so they have to be repeated
+       here or this page renders them unstyled. Copied verbatim from those files so
+       the guides stay visually identical. */
+    .prose p { color: var(--text); }
+    .prose p a, .card p a { color: var(--accent); }
+    .highlight { background: var(--accent-tint); border: 1px solid var(--accent-edge); border-left: 4px solid var(--accent); border-radius: var(--radius-card); padding: 20px 22px; margin: 0; }
+    .highlight h3 { color: var(--accent); margin-top: 0; }
+    .highlight a { color: var(--accent); }
+    .highlight > :last-child { margin-bottom: 0; }
+  </style>
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="nav-brand" href="/"><img src="/logo.png" alt="Pilot Medical Guardian logo"><span>Pilot Medical Guardian</span></a>
+      <input type="checkbox" id="navtoggle" class="nav-toggle-cb" hidden>
+      <label for="navtoggle" class="nav-toggle" aria-label="Menu" role="button">&#9776;</label>
+      <nav class="nav-links">
+        <a class="nav-hide-sm" href="/whats-new.html">What's New</a>
+        <a class="nav-hide-sm" href="/faq.html">FAQ</a>
+        <a class="nav-hide-sm" href="/privacy.html">Privacy</a>
+        <a class="nav-cta" href="/#notify">Coming to the App Store</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="badge">Pilot's guide</span>
+      <h1>FAA Form 8700-2, explained</h1>
+      <p class="page-sub"><strong>The BasicMed Comprehensive Medical Examination Checklist, in plain language.</strong> Where to get the official file, what each section is for, who fills in what, and why you keep it rather than send it. Every rule on this page is quoted from the FAA or the current regulation, with a link to the source.</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="wrap prose">
+
+      <h2>Get the official form</h2>
+      <p>The current file is published by the FAA and titled <strong>Comprehensive Medical Examination Checklist (BasicMed)</strong>. It carries the edition marking <strong>(04-17)</strong> and OMB control number 2120-0770, and it runs nine pages.</p>
+      <p><a class="primary" href="https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8700-2_.pdf" target="_blank" rel="noopener">Download FAA Form 8700-2 from faa.gov</a></p>
+      <p class="fineprint">Always take the form from the FAA rather than from a third party. Copies circulate on sites that host an older file, and some of them ask you to type your medical history into their system before they will give it to you.</p>
+      <p><strong>You do not need to pay anyone to fill it in.</strong> The FAA's PDF is natively fillable. It carries 125 form fields, so you can complete your section on a computer in Preview, Acrobat, or any browser that opens PDFs, then print it for the exam.</p>
+
+      <h2>The numbers on the form are out of date, and the FAA has not reprinted it</h2>
+      <p>This is the part worth knowing before you read the form. Page one of Form 8700-2 describes the aircraft you may fly under BasicMed. <strong>Those printed limits were superseded on 18 November 2024</strong> and the form still shows the old ones.</p>
+
+      <div class="compare">
+        <div class="stale">
+          <h4>What the form prints</h4>
+          <p class="src">FAA Form 8700-2, edition (04-17)</p>
+          <dl>
+            <dt>Occupants</dt><dd>6</dd>
+            <dt>Max takeoff weight</dt><dd>6,000 pounds</dd>
+          </dl>
+        </div>
+        <div>
+          <h4>What the regulation says now</h4>
+          <p class="src">14 CFR 61.113(i)(1), current</p>
+          <dl>
+            <dt>Occupants</dt><dd>7</dd>
+            <dt>Max takeoff weight</dt><dd>12,500 pounds</dd>
+            <dt>Passengers</dt><dd>6</dd>
+          </dl>
+        </div>
+      </div>
+
+      <p>The regulation reads:</p>
+      <blockquote class="reg">
+        "The aircraft is authorized to carry not more than 7 occupants, has a maximum takeoff weight of not more than 12,500 pounds, is operated with no more than 6 passengers on board, and is not a transport category rotorcraft certified to airworthiness standards under part 29 of this chapter"
+        <cite>14 CFR 61.113(i)(1). Amended by Amdt. 61-158, 89 FR 90577, effective 18 November 2024.</cite>
+      </blockquote>
+
+      <p>The regulation is the rule. A form is a form. We are pointing out that the two disagree so that you are not surprised by it, and linking both so you can read them yourself. <a href="/basicmed-guide.html">Our BasicMed guide</a> covers the 2024 expansion in more detail.</p>
+
+      <p>The same section also limits the flight itself. It may not be conducted above 18,000 feet MSL, at an indicated airspeed exceeding 250 knots, or outside the United States unless the country you are flying in authorizes it.</p>
+
+      <h2>What is actually in the checklist</h2>
+      <p>The contents are not left to the physician. They are specified in the regulation, which requires the checklist to contain three parts.</p>
+
+      <h3>1. Your section</h3>
+      <p>The regulation calls for a section for you to complete containing "Boxes 3 through 13 and boxes 16 through 19 of the FAA Form 8500-8 (3-99), or any successor form." If you have held a Part 67 medical, those boxes will look familiar. Box 18 is the medical history section.</p>
+      <p>It also carries a signature line where you affirm three things: that your answers including your medical history are true and complete, that you understand you may not act as pilot in command if you know or have reason to know of a medical deficiency that would make you unable to operate the aircraft safely, and that you are aware of the regulations on operating during medical deficiency.</p>
+
+      <h3>2. Instructions to hand it over</h3>
+      <p>A short section telling you to give the completed checklist to the State-licensed physician performing the examination.</p>
+
+      <h3>3. The physician's section</h3>
+      <p>A section instructing the physician what to examine, item by item, starting with head, face, neck and scalp, then nose, sinuses and mouth, and continuing through a full clinical examination. The physician works through the list and signs.</p>
+      <p class="fineprint">Source for all three: <a href="https://www.ecfr.gov/current/title-14/section-68.7" target="_blank" rel="noopener">14 CFR 68.7</a>.</p>
+
+      <h2>You keep it. You do not send it to the FAA</h2>
+      <p>This is the single most common misunderstanding about the form, and the regulation is direct about it. The completed checklist and your course completion certificate are things you must have available in your logbook.</p>
+      <blockquote class="reg">
+        "(3) The pilot has available in his or her logbook&mdash;<br>
+        (i) The completed medical examination checklist required under &sect; 68.7 of this chapter; and<br>
+        (ii) The certificate of course completion required under &sect; 61.23(c)(3)."
+        <cite>14 CFR 61.113(i)(3).</cite>
+      </blockquote>
+      <p>So there is no submission step and no confirmation number for the CMEC. You complete your part, the physician completes and signs their part, and the finished form stays with you.</p>
+
+      <h2>The two clocks</h2>
+      <p>BasicMed runs on two separate intervals, and they drift apart because they start on different dates. Both are stated in calendar months.</p>
+      <ul>
+        <li><strong>The medical education course, every 24 calendar months.</strong> The regulation requires you to complete the course in 14 CFR 68.3 "during the 24 calendar months before acting as pilot in command," and to retain the certificate of completion.</li>
+        <li><strong>The comprehensive medical examination, every 48 calendar months.</strong> The regulation requires you to receive it from a State-licensed physician "during the 48 calendar months before acting as pilot in command," conducted in accordance with Part 68. This is the exam that produces the completed Form 8700-2.</li>
+      </ul>
+      <p class="fineprint">Source: <a href="https://www.ecfr.gov/current/title-14/section-61.23" target="_blank" rel="noopener">14 CFR 61.23(c)(3)(i)(C) and (D)</a>.</p>
+
+      <h2>Who can use BasicMed at all</h2>
+      <p>The eligibility conditions sit in the same subsection. In summary, and quoting the regulation's own terms: you must comply with any medical requirements or restrictions on your U.S. driver's license, and you must at some point after 14 July 2006 have held a medical certificate issued under Part 67. Your most recent medical certificate may include an authorization for special issuance and may be expired, but it cannot have been suspended or revoked. Your most recent Authorization for a Special Issuance cannot have been withdrawn, and your most recent application for an airman medical certificate cannot have been completed and denied.</p>
+      <p>The regulation also provides that if you have been diagnosed with a medical condition that may impact your ability to fly, you must be under the care and treatment of a State-licensed physician when acting as pilot in command.</p>
+      <p class="fineprint">Source: <a href="https://www.ecfr.gov/current/title-14/section-61.23" target="_blank" rel="noopener">14 CFR 61.23(c)(3)</a>. This page describes what the regulation says. Whether you qualify is a question for your physician and the FAA, not for a website.</p>
+
+      <div class="highlight">
+        <p style="margin-top:0"><strong>Keeping both clocks straight is exactly what the app does.</strong></p>
+        <p>Pilot Medical Guardian tracks your 24-month course date and your 48-month exam date against the FAA's cited intervals and reminds you on your own device before either runs out. With Guardian Pro it also prepares the pilot section of Form 8700-2 from records you already keep, so you print and sign a clean form instead of filling it in by hand. Your records stay on your device and in your own iCloud, where I cannot see them.</p>
+        <div class="links">
+          <a class="primary" href="/#notify">Get notified at launch &rarr;</a>
+          <a class="secondary" href="/basicmed-guide.html">BasicMed, explained</a>
+        </div>
+        <p class="fineprint" style="margin-bottom:0">One email when it is available on the App Store. That is it.</p>
+      </div>
+
+      <h2>Sources</h2>
+      <ul class="sources">
+        <li><a href="https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8700-2_.pdf" target="_blank" rel="noopener">FAA Form 8700-2, Comprehensive Medical Examination Checklist (BasicMed)</a>, edition (04-17), OMB 2120-0770.</li>
+        <li><a href="https://www.ecfr.gov/current/title-14/section-61.113" target="_blank" rel="noopener">14 CFR 61.113(i)</a>, private pilot privileges and limitations, the BasicMed operating conditions.</li>
+        <li><a href="https://www.ecfr.gov/current/title-14/section-61.23" target="_blank" rel="noopener">14 CFR 61.23(c)(3)</a>, the eligibility conditions and the two intervals.</li>
+        <li><a href="https://www.ecfr.gov/current/title-14/section-68.7" target="_blank" rel="noopener">14 CFR 68.7</a>, the required contents of the checklist.</li>
+        <li><a href="https://www.ecfr.gov/current/title-14/section-68.3" target="_blank" rel="noopener">14 CFR 68.3</a>, the medical education course.</li>
+      </ul>
+
+      <p class="fineprint">Pilot Medical Guardian is an information and record-keeping tool. It is not medical advice, not legal advice, and not FAA compliance certification, and it is not affiliated with, endorsed by, or operated by the FAA. This page describes what the FAA's published form and the current regulations say. It does not tell you whether you are fit to fly or whether you qualify for BasicMed. Those are decisions for you, your physician, and the FAA. Regulations change; check the linked sources before relying on anything here.</p>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p>
+      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
+      <p>Guides: <a href="/medxpress-guide.html">How to fill out MedXPress</a> · <a href="/faa-medxpress-app.html">MedXPress autofill app</a> · <a href="/medxpress-checklist.html">MedXPress prep checklist</a> · <a href="/basicmed-guide.html">BasicMed, explained</a> · <a href="/faa-medical-duration.html">How long is my medical good for?</a></p>
+    </div>
+  </footer>
+</body>
+</html>
