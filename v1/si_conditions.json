@@ -3,14 +3,13 @@
     "envelope": {
       "code": "si-htn",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hypertension on medication",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
     },
     "displayName": "Hypertension on medication",
-    "summary": "Pilots whose blood pressure is controlled on antihypertensive medication are commonly certified. Many cases are handled at the AME's desk through the CACI (Conditions AMEs Can Issue) pathway rather than a full Special Issuance, when the treating physician documents adequate control and acceptable medications. The exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Controlled hypertension is frequently an AME-issued (CACI) condition rather than a full FAA Special Issuance, provided the worksheet criteria are met. Your AME and the FAA determine which path applies to your case; this is general cited guidance, not a determination for you.",
+    "summary": "Track your hypertension Special Issuance: your Authorization dates, the physician reporting you gather each cycle, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-htn-physician-letter",
       "si-htn-bp-log",
@@ -21,14 +20,13 @@
     "envelope": {
       "code": "si-osa",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Obstructive Sleep Apnea on CPAP",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
     },
     "displayName": "Obstructive Sleep Apnea on CPAP",
-    "summary": "Pilots treated for obstructive sleep apnea are commonly certified when treatment is effective and adherence is documented. The FAA looks for evidence of adequate, ongoing treatment (for CPAP, that typically means a usage/compliance report) plus a treating-physician statement that symptoms are controlled. The exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Effectively treated OSA is often handled through a streamlined AME-issued pathway when adherence and symptom control are documented, rather than a full FAA Special Issuance. Your AME and the FAA determine which path applies; this is general cited guidance, not a determination for you.",
+    "summary": "Track your sleep apnea Special Issuance: your Authorization dates, your PAP device reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-osa-compliance-report",
       "si-osa-physician-letter"
@@ -38,14 +36,13 @@
     "envelope": {
       "code": "si-dm2",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Type 2 Diabetes on oral medication",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "displayName": "Type 2 Diabetes on oral medication",
-    "summary": "Pilots managing Type 2 diabetes without insulin are commonly certified, often through the CACI pathway, when control is documented and the medications are acceptable. The FAA's central interest is glycemic control and the absence of disqualifying complications or hypoglycemia. Insulin-treated diabetes follows a separate, more involved Special Issuance protocol. The exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Non-insulin Type 2 diabetes with documented control is frequently an AME-issued (CACI) condition; insulin-treated diabetes is handled as a full FAA Special Issuance under a specific protocol. Your AME and the FAA determine which path applies; this is general cited guidance, not a determination for you.",
+    "summary": "Track your Type 2 diabetes Special Issuance: your Authorization dates, the lab work and physician reporting you collect each cycle, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-dm2-a1c-report",
       "si-dm2-physician-letter",
@@ -56,14 +53,13 @@
     "envelope": {
       "code": "si-ssri",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Depression / anxiety on an approved SSRI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     },
     "displayName": "Depression / anxiety on an approved SSRI",
-    "summary": "The FAA may certify pilots taking one of a limited set of approved SSRIs through a monitored decision pathway. This is an involved process: it generally requires a period of stability on a stable dose, treating-physician documentation, and specialized evaluation, and it is administered by the FAA rather than issued at the AME's desk. Pilots in or near a HIMS program should coordinate closely with HIMS resources. The exact requirements are set by the AME Guide / SSRI policy and confirmed by your AME.",
-    "pathGuidance": "Certification on an approved SSRI is a full FAA Special Issuance handled through the antidepressant decision pathway, not an AME-desk issuance. Your AME, the FAA, and (where applicable) HIMS determine the path; this is general cited guidance, not a determination for you.",
+    "summary": "Track your SSRI Special Issuance: your Authorization dates, the specialist reporting and follow-up schedule you keep, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-ssri-stability-period",
       "si-ssri-physician-letter",
@@ -75,14 +71,13 @@
     "envelope": {
       "code": "si-cardiac",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Post-cardiac event (e.g., MI, stent, bypass)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
     "displayName": "Post-cardiac event (e.g., MI, stent, bypass)",
-    "summary": "Pilots who have had a significant cardiac event can often return to flying under a Special Issuance after a required recovery period and a defined cardiac evaluation package. The FAA typically expects a maintenance work-up (which may include items such as a current cardiology evaluation and functional testing) and periodic follow-up. This is a full Special Issuance handled by the FAA. The exact required testing and intervals are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "A post-cardiac-event certification is a full FAA Special Issuance with a defined recovery period and an evaluation package, not an AME-desk issuance. Your AME, cardiologist, and the FAA determine the specifics; this is general cited guidance, not a determination for you.",
+    "summary": "Track your post-cardiac-event Special Issuance: your Authorization dates, the cardiology reporting and testing you gather, and a link to the FAA's own page for coronary heart disease.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-cardiac-cardiology-eval",
       "si-cardiac-functional-test",
@@ -94,14 +89,13 @@
     "envelope": {
       "code": "si-cad-pci",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Coronary artery disease with stent (PCI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
     "displayName": "Coronary artery disease with stent (PCI)",
-    "summary": "Pilots who have had a coronary stent placed can often return to flying under a Special Issuance after a required recovery period and a defined cardiac evaluation package (which may include items such as a current cardiology evaluation and functional testing). This is a full FAA Special Issuance with periodic follow-up. Exact testing and intervals are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "A coronary-stent certification is a full FAA Special Issuance with a defined recovery period and evaluation package, not an AME-desk issuance. Your AME, cardiologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance after a stent: your Authorization dates, the cardiology reporting you collect each cycle, and a link to the FAA's own page for coronary heart disease.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-cad-pci-stability",
       "si-cad-pci-specialist-eval",
@@ -113,14 +107,13 @@
     "envelope": {
       "code": "si-cabg",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Coronary bypass (CABG)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
     "displayName": "Coronary bypass (CABG)",
-    "summary": "Pilots who have undergone coronary bypass surgery can often be certified under a Special Issuance after a recovery period and a cardiac evaluation package, with periodic follow-up. This is a full FAA Special Issuance. Exact requirements are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "A post-CABG certification is a full FAA Special Issuance, not an AME-desk issuance. Your AME, cardiologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance after bypass surgery: your Authorization dates, the cardiology reporting you collect each cycle, and a link to the FAA's own page for coronary heart disease.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-cabg-stability",
       "si-cabg-specialist-eval",
@@ -132,14 +125,13 @@
     "envelope": {
       "code": "si-afib",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Atrial fibrillation",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
     },
     "displayName": "Atrial fibrillation",
-    "summary": "Pilots with atrial fibrillation are commonly certified under a Special Issuance when the condition is evaluated and managed, including any anticoagulation. The FAA typically expects a cardiology evaluation and may require rhythm monitoring. Exact requirements are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "Atrial fibrillation is generally handled as an FAA Special Issuance with a cardiac work-up; some stable cases may be addressed more simply. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your atrial fibrillation Special Issuance: your Authorization dates, your cardiology reporting and any anticoagulation monitoring, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-afib-specialist-eval",
       "si-afib-monitoring",
@@ -151,14 +143,13 @@
     "envelope": {
       "code": "si-pacemaker",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pacemaker",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
     },
     "displayName": "Pacemaker",
-    "summary": "Pilots with an implanted pacemaker may be certified under a Special Issuance after evaluation and a stability period, with regular device interrogation and cardiology follow-up. This is a full FAA Special Issuance. Exact requirements are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "A pacemaker certification is a full FAA Special Issuance. Your AME, cardiologist, and the FAA determine specifics; this is general cited guidance, not a determination of eligibility.",
+    "summary": "Track your pacemaker Special Issuance: your Authorization dates, your device checks and cardiology reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-pacemaker-stability",
       "si-pacemaker-specialist-eval",
@@ -169,14 +160,13 @@
     "envelope": {
       "code": "si-valve",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Heart valve replacement or repair",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular"
     },
     "displayName": "Heart valve replacement or repair",
-    "summary": "Pilots who have had heart valve surgery can often be certified under a Special Issuance after recovery and a cardiac evaluation package, including any anticoagulation management, with periodic follow-up. Exact requirements are set by the AME Guide and confirmed by your AME and cardiologist.",
-    "pathGuidance": "A heart-valve certification is a full FAA Special Issuance. Your AME, cardiologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your heart valve Special Issuance: your Authorization dates, the cardiology reporting and imaging you gather, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-valve-stability",
       "si-valve-specialist-eval",
@@ -188,14 +178,13 @@
     "envelope": {
       "code": "si-dm-insulin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Insulin-treated diabetes",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm"
     },
     "displayName": "Insulin-treated diabetes",
-    "summary": "Insulin-treated diabetes is handled through a specific FAA Special Issuance protocol that is more involved than non-insulin diabetes. The FAA's central concerns are glycemic control and the avoidance of hypoglycemia, and the protocol typically requires glucose monitoring data and endocrinology/treating-physician reporting. Exact requirements are set by the AME Guide diabetes protocol and confirmed by your AME.",
-    "pathGuidance": "Insulin-treated diabetes is a full FAA Special Issuance under a defined protocol, not an AME-desk (CACI) issuance. Your AME and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your insulin-treated diabetes Special Issuance: your Authorization dates, your glucose records, lab work and specialist reporting, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-dm-insulin-glucose-data",
       "si-dm-insulin-a1c",
@@ -207,14 +196,13 @@
     "envelope": {
       "code": "si-thyroid",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Thyroid disease",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
     "displayName": "Thyroid disease",
-    "summary": "Thyroid conditions (such as hypo- or hyperthyroidism) are commonly certifiable once the pilot is stable on treatment; many hypothyroid cases are handled at the AME's desk under CACI rather than a full Special Issuance. The FAA's interest is stability and the absence of complications. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Stable thyroid disease is frequently an AME-issued (CACI) condition; more complex cases may require a Special Issuance. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your thyroid Special Issuance: your Authorization dates, the lab work and physician reporting you collect, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-thyroid-labs",
       "si-thyroid-med-list",
@@ -225,14 +213,13 @@
     "envelope": {
       "code": "si-stroke",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Stroke or TIA",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
     },
     "displayName": "Stroke or TIA",
-    "summary": "Pilots who have had a stroke or transient ischemic attack can often be certified under a Special Issuance after a required recurrence-free interval and a neurological evaluation. The FAA evaluates the cause, residual effects, and risk of recurrence. Exact requirements are set by the AME Guide and confirmed by your AME and neurologist.",
-    "pathGuidance": "A stroke/TIA certification is a full FAA Special Issuance with a defined waiting period. Your AME, neurologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance after a stroke or TIA: your Authorization dates, your neurology reporting and imaging, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-stroke-stability",
       "si-stroke-specialist-eval",
@@ -244,14 +231,13 @@
     "envelope": {
       "code": "si-seizure",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Seizure disorder / epilepsy",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
     },
     "displayName": "Seizure disorder / epilepsy",
-    "summary": "A history of seizures is evaluated carefully by the FAA. Certification, when granted, is a Special Issuance that typically requires a substantial seizure-free interval (often off medication, per FAA policy) and a neurological evaluation. Exact requirements are set by the AME Guide and confirmed by your AME and neurologist.",
-    "pathGuidance": "Seizure-history certification is a full FAA Special Issuance with strict seizure-free-interval requirements. Your AME, neurologist, and the FAA determine specifics; this is general cited guidance, not a determination of eligibility.",
+    "summary": "Track your seizure disorder Special Issuance: your Authorization dates, your neurology reporting and any required seizure-free interval documentation, and a link to the FAA's page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-seizure-stability",
       "si-seizure-specialist-eval",
@@ -262,14 +248,13 @@
     "envelope": {
       "code": "si-tbi",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Traumatic brain injury",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
     },
     "displayName": "Traumatic brain injury",
-    "summary": "Pilots who have had a traumatic brain injury can often be certified under a Special Issuance after a recovery/observation period and a neurological (and sometimes neuropsychological) evaluation, depending on severity and residual effects. Exact requirements are set by the AME Guide and confirmed by your AME and neurologist.",
-    "pathGuidance": "A TBI certification is typically a full FAA Special Issuance. Your AME, neurologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance after a traumatic brain injury: your Authorization dates, your neurology and neuropsychological reporting, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-tbi-stability",
       "si-tbi-specialist-eval",
@@ -280,14 +265,13 @@
     "envelope": {
       "code": "si-migraine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Migraine",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd"
     },
     "displayName": "Migraine",
-    "summary": "Migraine is often certifiable, in some cases at the AME's desk (CACI) when well controlled and without disqualifying features, or via Special Issuance for more significant cases. The FAA's interest is frequency, severity, treatment, and any neurological or visual symptoms. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Well-controlled migraine may be an AME-issued (CACI) condition; more significant cases may require a Special Issuance. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your migraine Special Issuance: your Authorization dates, the physician reporting and medication records you keep, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-migraine-physician-letter",
       "si-migraine-med-list"
@@ -297,14 +281,13 @@
     "envelope": {
       "code": "si-hims",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Substance or alcohol dependence (HIMS)",
-      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep/amd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep/amd"
     },
     "displayName": "Substance or alcohol dependence (HIMS)",
-    "summary": "Pilots with a history of substance or alcohol dependence are addressed through the FAA's HIMS program — a structured monitoring and recovery pathway. Certification, when granted, is a Special Issuance that typically requires ongoing **monthly** sponsor/monitoring reports, random drug and alcohol testing, **quarterly** psychiatric evaluations, aftercare attendance, and an annual HIMS-AME status report. Exact requirements are set by FAA HIMS policy and confirmed by your HIMS team.",
-    "pathGuidance": "Substance/alcohol-dependence certification runs through the FAA HIMS program — a full Special Issuance with ongoing monitoring, not an AME-desk issuance. Your HIMS AME and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your HIMS Special Issuance: your Authorization dates, and the sponsor, peer, psychiatric and AME reporting that runs on its own schedule. Links to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-hims-specialist-eval",
       "si-hims-monitoring",
@@ -320,14 +303,13 @@
     "envelope": {
       "code": "si-adhd",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — ADHD",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
     },
     "displayName": "ADHD",
-    "summary": "A history of ADHD is evaluated by the FAA, particularly where stimulant medication or a formal diagnosis is involved. Certification, when granted, typically requires being off disqualifying medication for a specified period and a cognitive/neuropsychological evaluation. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "ADHD certification is generally a full FAA Special Issuance involving specialized testing. Your AME and the FAA determine specifics; this is general cited guidance, not a determination of eligibility.",
+    "summary": "Track your ADHD Special Issuance: your Authorization dates, your specialist reporting and any testing you gather, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-adhd-med-free",
       "si-adhd-neuropsych",
@@ -338,14 +320,13 @@
     "envelope": {
       "code": "si-asthma",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Asthma",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
     "displayName": "Asthma",
-    "summary": "Asthma is commonly certifiable; mild-to-moderate, well-controlled asthma is frequently handled at the AME's desk under CACI rather than a full Special Issuance. The FAA's interest is control, medication, and the absence of significant exacerbations. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Well-controlled asthma is frequently an AME-issued (CACI) condition; severe cases may require a Special Issuance. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your asthma Special Issuance: your Authorization dates, the pulmonary reporting and medication records you keep, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-asthma-physician-letter",
       "si-asthma-med-list",
@@ -356,14 +337,13 @@
     "envelope": {
       "code": "si-copd",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — COPD",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd"
     },
     "displayName": "COPD",
-    "summary": "Pilots with COPD may be certified, by CACI for milder cases or Special Issuance for more significant disease, based on lung function, oxygenation, and stability. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Milder COPD may be an AME-issued (CACI) condition; more significant disease may require a Special Issuance. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your COPD Special Issuance: your Authorization dates, the pulmonary function testing and physician reporting you gather, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-copd-pft",
       "si-copd-physician-letter",
@@ -374,14 +354,13 @@
     "envelope": {
       "code": "si-pe-dvt",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary embolism / DVT (anticoagulation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
     },
     "displayName": "Pulmonary embolism / DVT (anticoagulation)",
-    "summary": "Pilots treated for a pulmonary embolism or deep vein thrombosis can often be certified under a Special Issuance once stable on anticoagulation, with the FAA's interest in the underlying cause and stability of treatment. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "PE/DVT certification is generally a Special Issuance focused on the cause and anticoagulation stability. Your AME and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance for a pulmonary embolism or DVT: your Authorization dates, your anticoagulation monitoring and physician reporting, and a link to the FAA's page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-pe-dvt-physician-letter",
       "si-pe-dvt-med-list",
@@ -392,14 +371,13 @@
     "envelope": {
       "code": "si-kidney-stones",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Kidney stones",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi"
     },
     "displayName": "Kidney stones",
-    "summary": "A history of kidney stones is commonly certifiable; recurrent or retained stones may require evaluation. Some cases are handled at the AME's desk (CACI) and others by Special Issuance, based on stone status and symptoms. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Kidney stones may be an AME-issued (CACI) condition or a Special Issuance depending on stone status. Your AME and the FAA determine the path; this is general cited guidance.",
+    "summary": "Track your kidney stone Special Issuance: your Authorization dates, the imaging and physician reporting you collect, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-kidney-stones-imaging",
       "si-kidney-stones-physician-letter"
@@ -409,14 +387,13 @@
     "envelope": {
       "code": "si-cancer-melanoma",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Melanoma",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma"
     },
     "displayName": "Melanoma",
-    "summary": "Pilots with a history of melanoma can often be certified under a Special Issuance based on stage, treatment, and disease-free status, with oncology reporting and periodic follow-up. Exact requirements are set by the AME Guide and confirmed by your AME and oncologist.",
-    "pathGuidance": "Melanoma certification is generally a Special Issuance keyed to stage and disease-free status. Your AME, oncologist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your melanoma Special Issuance: your Authorization dates, your surveillance appointments and oncology reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-cancer-melanoma-specialist-eval",
       "si-cancer-melanoma-staging",
@@ -427,14 +404,13 @@
     "envelope": {
       "code": "si-cancer-prostate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Prostate cancer",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic"
     },
     "displayName": "Prostate cancer",
-    "summary": "Pilots with a history of prostate cancer can often be certified under a Special Issuance based on stage, treatment, and current status (e.g., PSA trend), with periodic follow-up. Exact requirements are set by the AME Guide and confirmed by your AME and oncologist/urologist.",
-    "pathGuidance": "Prostate-cancer certification is generally a Special Issuance keyed to stage, treatment, and current status. Your AME, specialist, and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your prostate cancer Special Issuance: your Authorization dates, your lab work and oncology reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-cancer-prostate-specialist-eval",
       "si-cancer-prostate-labs",
@@ -445,14 +421,13 @@
     "envelope": {
       "code": "si-bariatric",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Bariatric surgery",
-      "sourceURL": "https://www.faa.gov/ame_guide",
-      "reviewStatus": "reviewed"
+      "sourceURL": "https://www.faa.gov/ame_guide"
     },
     "displayName": "Bariatric surgery",
-    "summary": "Pilots who have had bariatric (weight-loss) surgery can often be certified under a Special Issuance after a recovery/observation period, with attention to nutrition, stability, and any related conditions. Exact requirements are set by the AME Guide and confirmed by your AME.",
-    "pathGuidance": "Bariatric-surgery certification is generally a Special Issuance with a recovery period. Your AME and the FAA determine specifics; this is general cited guidance.",
+    "summary": "Track your Special Issuance after bariatric surgery: your Authorization dates, the physician reporting and lab work you gather, and a link to the FAA's own page.",
+    "pathGuidance": "",
     "requirementCodes": [
       "si-bariatric-stability",
       "si-bariatric-physician-letter",
