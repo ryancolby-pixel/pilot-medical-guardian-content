@@ -13,9 +13,9 @@
     "envelope": {
       "code": "med-lisinopril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -31,9 +31,9 @@
     "envelope": {
       "code": "med-enalapril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -49,9 +49,9 @@
     "envelope": {
       "code": "med-losartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -67,9 +67,9 @@
     "envelope": {
       "code": "med-valsartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -85,9 +85,9 @@
     "envelope": {
       "code": "med-amlodipine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -104,9 +104,9 @@
     "envelope": {
       "code": "med-diltiazem",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -123,9 +123,9 @@
     "envelope": {
       "code": "med-metoprolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -141,9 +141,9 @@
     "envelope": {
       "code": "med-atenolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -160,9 +160,9 @@
     "envelope": {
       "code": "med-hydrochlorothiazide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -178,9 +178,9 @@
     "envelope": {
       "code": "med-chlorthalidone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
   },
   {
@@ -278,13 +278,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not metformin; oral-agent diabetes is addressed under CACI, while insulin-treated diabetes follows a Special Issuance pathway.",
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Diabetes worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-metformin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
   },
   {
@@ -296,13 +296,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the diabetes, not the drug; non-insulin diabetes is CACI-addressed.",
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Diabetes worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glipizide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
   },
   {
@@ -314,13 +314,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the diabetes, not the drug.",
-    "faaStatusDescription": "SGLT2 inhibitors for Type 2 diabetes are addressed in FAA diabetes guidance/CACI. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-empagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
   },
   {
@@ -332,13 +332,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the diabetes, not the drug.",
-    "faaStatusDescription": "DPP-4 inhibitors for Type 2 diabetes are addressed in FAA diabetes guidance/CACI. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-sitagliptin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
   },
   {
@@ -395,9 +395,9 @@
     "envelope": {
       "code": "med-levothyroxine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypothyroidism Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Hypothyroid / Hypothyroidism disposition",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     }
   },
   {
@@ -862,9 +862,9 @@
     "envelope": {
       "code": "med-albuterol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     }
   },
   {
@@ -882,9 +882,9 @@
     "envelope": {
       "code": "med-fluticasone-inhaled",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     }
   },
   {
@@ -900,9 +900,9 @@
     "envelope": {
       "code": "med-montelukast",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     }
   },
   {
@@ -1007,9 +1007,9 @@
     "envelope": {
       "code": "med-spironolactone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1025,9 +1025,9 @@
     "envelope": {
       "code": "med-furosemide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1045,9 +1045,9 @@
     "envelope": {
       "code": "med-triamterene-hydrochlorothiazide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1063,9 +1063,9 @@
     "envelope": {
       "code": "med-carvedilol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension or cardiac condition"
   },
@@ -1081,9 +1081,9 @@
     "envelope": {
       "code": "med-propranolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension or other labeled condition"
   },
@@ -1099,9 +1099,9 @@
     "envelope": {
       "code": "med-nadolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1117,9 +1117,9 @@
     "envelope": {
       "code": "med-bisoprolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1135,9 +1135,9 @@
     "envelope": {
       "code": "med-nebivolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1153,9 +1153,9 @@
     "envelope": {
       "code": "med-labetalol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1172,9 +1172,9 @@
     "envelope": {
       "code": "med-nifedipine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1191,9 +1191,9 @@
     "envelope": {
       "code": "med-verapamil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1209,9 +1209,9 @@
     "envelope": {
       "code": "med-felodipine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1227,9 +1227,9 @@
     "envelope": {
       "code": "med-ramipril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1245,9 +1245,9 @@
     "envelope": {
       "code": "med-benazepril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1263,9 +1263,9 @@
     "envelope": {
       "code": "med-quinapril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1281,9 +1281,9 @@
     "envelope": {
       "code": "med-irbesartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1299,9 +1299,9 @@
     "envelope": {
       "code": "med-olmesartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1317,9 +1317,9 @@
     "envelope": {
       "code": "med-candesartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1335,9 +1335,9 @@
     "envelope": {
       "code": "med-telmisartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1353,9 +1353,9 @@
     "envelope": {
       "code": "med-indapamide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypertension Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
   },
@@ -1661,13 +1661,13 @@
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with Sulfonylurea (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glimepiride",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1680,13 +1680,13 @@
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with Sulfonylurea (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glyburide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1698,13 +1698,13 @@
     "category": "Thiazolidinedione (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with Thiazolidinedione (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-pioglitazone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1716,13 +1716,13 @@
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with SGLT2 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-dapagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1734,13 +1734,13 @@
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with SGLT2 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-canagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1752,13 +1752,13 @@
     "category": "DPP-4 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with DPP-4 inhibitor (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-linagliptin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1770,13 +1770,13 @@
     "category": "GLP-1 receptor agonist (diabetes)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes treated with GLP-1 receptor agonist (diabetes) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-dulaglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes"
   },
@@ -1789,13 +1789,13 @@
     "category": "GLP-1 receptor agonist (diabetes / weight)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes or obesity treated with GLP-1 receptor agonist (diabetes / weight) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-liraglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes or obesity"
   },
@@ -1808,13 +1808,13 @@
     "category": "GIP/GLP-1 agonist (diabetes / weight)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Type 2 diabetes or obesity treated with GIP/GLP-1 agonist (diabetes / weight) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-tirzepatide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Diabetes Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
     "treatedConditionNote": "Type 2 diabetes or obesity"
   },
@@ -1830,9 +1830,9 @@
     "envelope": {
       "code": "med-liothyronine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Hypothyroidism Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Hypothyroid / Hypothyroidism disposition",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
     "treatedConditionNote": "Hypothyroidism"
   },
@@ -2300,9 +2300,9 @@
     "envelope": {
       "code": "med-fluticasone-salmeterol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
     "treatedConditionNote": "Asthma"
   },
@@ -2319,9 +2319,9 @@
     "envelope": {
       "code": "med-budesonide-formoterol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
     "treatedConditionNote": "Asthma"
   },
@@ -2337,9 +2337,9 @@
     "envelope": {
       "code": "med-tiotropium",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Asthma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
     "treatedConditionNote": "COPD or asthma"
   },
@@ -3046,9 +3046,9 @@
     "envelope": {
       "code": "med-latanoprost",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
   },
@@ -3065,9 +3065,9 @@
     "envelope": {
       "code": "med-timolol-ophthalmic",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
   },
@@ -3083,9 +3083,9 @@
     "envelope": {
       "code": "med-brimonidine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
   },
@@ -3101,9 +3101,9 @@
     "envelope": {
       "code": "med-dorzolamide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — CACI Glaucoma Worksheet; Pharmaceuticals",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/caci/"
+      "lastVerified": "2026-08-07T13:20:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
   },

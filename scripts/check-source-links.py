@@ -28,6 +28,7 @@ USAGE
 """
 
 import glob
+import hashlib
 import json
 import pathlib
 import re
@@ -183,7 +184,14 @@ def main() -> int:
         "update `envelope.sourceURL` in the affected `v1/*.json` files and push. The manifest "
         "rebuilds itself.",
     ]
-    (ROOT / "source-link-report.md").write_text("\n".join(report) + "\n")
+    # A stable fingerprint of WHICH urls are dead, so the workflow can tell a new failure
+    # from the same known one it already reported. Weekly re-notification about a problem
+    # already filed is how an alert trains its reader to ignore it.
+    dead_urls = sorted(re.findall(r"`(https?://[^`]+)`", "\n".join(dead)))
+    fingerprint = hashlib.sha256("\n".join(dead_urls).encode()).hexdigest()[:16]
+    (ROOT / "source-link-report.md").write_text(
+        "\n".join(report) + f"\n\n<!-- fingerprint:{fingerprint} -->\n")
+    (ROOT / "source-link-fingerprint.txt").write_text(fingerprint + "\n")
 
     print(f"{len(dead)} cited source(s) are dead. Wrote source-link-report.md")
     return 1

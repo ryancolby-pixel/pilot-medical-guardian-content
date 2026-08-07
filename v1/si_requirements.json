@@ -5,9 +5,9 @@
     "envelope": {
       "code": "si-htn-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Hypertension",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
     "requirementText": "A current statement from your treating physician describing your blood pressure control, current medications, and absence of side effects, as outlined in the AME Guide for this condition."
@@ -31,9 +31,9 @@
     "envelope": {
       "code": "si-htn-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Hypertension",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your antihypertensive medications and doses, so the FAA can confirm they are among those accepted for this condition."
@@ -57,9 +57,9 @@
     "envelope": {
       "code": "si-osa-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47 — Sleep Disturbances / OSA",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Sleep Apnea (OSA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf",
       "reviewStatus": "draft"
     },
     "requirementText": "A statement from your treating physician that your sleep condition is effectively treated and you have no residual daytime sleepiness, as outlined in the AME Guide."
@@ -70,9 +70,9 @@
     "envelope": {
       "code": "si-dm2-a1c-report",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 — Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
       "reviewStatus": "draft"
     },
     "requirementText": "Recent laboratory results documenting your glycemic control (such as a hemoglobin A1c). The specific values and recency are set by the AME Guide and confirmed by your AME."
@@ -83,9 +83,9 @@
     "envelope": {
       "code": "si-dm2-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 — Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
       "reviewStatus": "draft"
     },
     "requirementText": "A statement from your treating physician on your diabetes control, treatment, absence of hypoglycemic episodes, and any complications, as outlined in the AME Guide."
@@ -96,9 +96,9 @@
     "envelope": {
       "code": "si-dm2-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 — Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your diabetes medications and doses, so the FAA can confirm the regimen and that you are not using insulin (which follows a separate protocol)."
@@ -148,9 +148,9 @@
     "envelope": {
       "code": "si-cardiac-cardiology-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Cardiovascular (post-event)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist summarizing the event, treatment, and recovery, as part of the FAA cardiac maintenance package. The specific contents are set by the AME Guide and confirmed by your AME and cardiologist."
@@ -161,9 +161,9 @@
     "envelope": {
       "code": "si-cardiac-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Cardiovascular (post-event)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Functional cardiac testing of the type specified by the FAA for your situation (which may include items such as a stress test or imaging). The exact testing and intervals are set by the AME Guide and confirmed by your AME and cardiologist."
@@ -174,9 +174,9 @@
     "envelope": {
       "code": "si-cardiac-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Cardiovascular (post-event)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your cardiac medications and doses, so the FAA can confirm the regimen is acceptable for certification."
@@ -187,9 +187,9 @@
     "envelope": {
       "code": "si-cardiac-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 — Cardiovascular (post-event)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Periodic follow-up reporting on your cardiac status to maintain the Special Issuance. The reporting interval is set by the AME Guide and confirmed by your AME."
@@ -200,9 +200,9 @@
     "envelope": {
       "code": "si-cad-pci-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Coronary Artery Disease / PCI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -213,9 +213,9 @@
     "envelope": {
       "code": "si-cad-pci-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Coronary Artery Disease / PCI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -226,9 +226,9 @@
     "envelope": {
       "code": "si-cad-pci-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Coronary Artery Disease / PCI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Functional cardiac testing of the type specified by the FAA (which may include a stress test or imaging), at the required interval."
@@ -239,9 +239,9 @@
     "envelope": {
       "code": "si-cad-pci-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Coronary Artery Disease / PCI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -252,9 +252,9 @@
     "envelope": {
       "code": "si-cabg-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (CABG)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -265,9 +265,9 @@
     "envelope": {
       "code": "si-cabg-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (CABG)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -278,9 +278,9 @@
     "envelope": {
       "code": "si-cabg-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (CABG)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Functional cardiac testing of the type specified by the FAA (e.g., stress test or imaging), at the interval set by the AME Guide."
@@ -291,9 +291,9 @@
     "envelope": {
       "code": "si-cabg-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (CABG)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -304,9 +304,9 @@
     "envelope": {
       "code": "si-afib-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Arrhythmia / Atrial Fibrillation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -317,9 +317,9 @@
     "envelope": {
       "code": "si-afib-monitoring",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Arrhythmia / Atrial Fibrillation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
     "requirementText": "Rhythm monitoring or other cardiac testing of the type and duration specified by the FAA for your situation."
@@ -330,9 +330,9 @@
     "envelope": {
       "code": "si-afib-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Arrhythmia / Atrial Fibrillation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -343,9 +343,9 @@
     "envelope": {
       "code": "si-afib-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Arrhythmia / Atrial Fibrillation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your atrial fibrillation, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -356,9 +356,9 @@
     "envelope": {
       "code": "si-pacemaker-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Pacemaker)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -369,9 +369,9 @@
     "envelope": {
       "code": "si-pacemaker-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Pacemaker)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -382,9 +382,9 @@
     "envelope": {
       "code": "si-pacemaker-device-check",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Pacemaker)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A pacemaker interrogation/device report at the interval specified by the FAA."
@@ -395,9 +395,9 @@
     "envelope": {
       "code": "si-valve-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Valve Replacement)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -408,9 +408,9 @@
     "envelope": {
       "code": "si-valve-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Valve Replacement)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -421,9 +421,9 @@
     "envelope": {
       "code": "si-valve-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Valve Replacement)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Cardiac imaging/functional testing of the type specified by the FAA, at the required interval."
@@ -434,9 +434,9 @@
     "envelope": {
       "code": "si-valve-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Cardiovascular (Valve Replacement)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -499,9 +499,9 @@
     "envelope": {
       "code": "si-thyroid-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Endocrine (Thyroid)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
     "requirementText": "Recent thyroid function labs demonstrating stability, as specified by the AME Guide."
@@ -512,9 +512,9 @@
     "envelope": {
       "code": "si-thyroid-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Endocrine (Thyroid)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -525,9 +525,9 @@
     "envelope": {
       "code": "si-thyroid-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Endocrine (Thyroid)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your thyroid condition, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -538,9 +538,9 @@
     "envelope": {
       "code": "si-stroke-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Stroke / TIA)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -551,9 +551,9 @@
     "envelope": {
       "code": "si-stroke-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Stroke / TIA)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -564,9 +564,9 @@
     "envelope": {
       "code": "si-stroke-imaging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Stroke / TIA)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Brain imaging and any vascular work-up specified by the FAA."
@@ -577,9 +577,9 @@
     "envelope": {
       "code": "si-stroke-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Stroke / TIA)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -590,9 +590,9 @@
     "envelope": {
       "code": "si-seizure-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Seizures / Epilepsy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -603,9 +603,9 @@
     "envelope": {
       "code": "si-seizure-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Seizures / Epilepsy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -616,9 +616,9 @@
     "envelope": {
       "code": "si-seizure-eeg",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Seizures / Epilepsy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "EEG and any other testing specified by the FAA protocol."
@@ -629,9 +629,9 @@
     "envelope": {
       "code": "si-tbi-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Head Injury / TBI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -642,9 +642,9 @@
     "envelope": {
       "code": "si-tbi-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Head Injury / TBI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -655,9 +655,9 @@
     "envelope": {
       "code": "si-tbi-neuropsych",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Head Injury / TBI)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Neuropsychological testing if specified by the FAA for your case."
@@ -668,9 +668,9 @@
     "envelope": {
       "code": "si-migraine-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Migraine / Headache)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your migraine, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -681,9 +681,9 @@
     "envelope": {
       "code": "si-migraine-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Neurology (Migraine / Headache)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -772,9 +772,9 @@
     "envelope": {
       "code": "si-asthma-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (Asthma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your asthma, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -785,9 +785,9 @@
     "envelope": {
       "code": "si-asthma-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (Asthma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -798,9 +798,9 @@
     "envelope": {
       "code": "si-asthma-pft",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (Asthma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
     "requirementText": "Pulmonary function testing if specified by the AME Guide for your case."
@@ -811,9 +811,9 @@
     "envelope": {
       "code": "si-copd-pft",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (COPD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
       "reviewStatus": "draft"
     },
     "requirementText": "Pulmonary function testing (and oxygenation assessment if specified) per the AME Guide."
@@ -824,9 +824,9 @@
     "envelope": {
       "code": "si-copd-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (COPD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your COPD, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -837,9 +837,9 @@
     "envelope": {
       "code": "si-copd-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary (COPD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -850,9 +850,9 @@
     "envelope": {
       "code": "si-pe-dvt-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hematology (Thromboembolic Disease / Anticoagulation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your clotting condition, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -863,9 +863,9 @@
     "envelope": {
       "code": "si-pe-dvt-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hematology (Thromboembolic Disease / Anticoagulation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
     "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
@@ -876,9 +876,9 @@
     "envelope": {
       "code": "si-pe-dvt-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hematology (Thromboembolic Disease / Anticoagulation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
     "requirementText": "Any labs/monitoring related to anticoagulation specified by the AME Guide."
@@ -889,9 +889,9 @@
     "envelope": {
       "code": "si-kidney-stones-imaging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Genitourinary (Renal Calculi / Kidney Stones)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi",
       "reviewStatus": "draft"
     },
     "requirementText": "Imaging documenting current stone status (e.g., presence/absence of retained stones), as specified by the AME Guide."
@@ -902,9 +902,9 @@
     "envelope": {
       "code": "si-kidney-stones-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Genitourinary (Renal Calculi / Kidney Stones)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your kidney stone history, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -915,9 +915,9 @@
     "envelope": {
       "code": "si-cancer-melanoma-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Melanoma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your oncologist or dermatologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -928,9 +928,9 @@
     "envelope": {
       "code": "si-cancer-melanoma-staging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Melanoma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of stage, treatment, and current disease-free status as required by the FAA."
@@ -941,9 +941,9 @@
     "envelope": {
       "code": "si-cancer-melanoma-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Melanoma)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Periodic surveillance/follow-up reporting at the interval specified by the FAA."
@@ -954,9 +954,9 @@
     "envelope": {
       "code": "si-cancer-prostate-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Prostate Cancer)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current evaluation from your oncologist or urologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
@@ -967,9 +967,9 @@
     "envelope": {
       "code": "si-cancer-prostate-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Prostate Cancer)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Relevant labs/markers (e.g., PSA) and staging/treatment documentation as required by the FAA."
@@ -980,9 +980,9 @@
     "envelope": {
       "code": "si-cancer-prostate-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Oncology (Prostate Cancer)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Periodic follow-up reporting at the interval specified by the FAA."
@@ -993,9 +993,9 @@
     "envelope": {
       "code": "si-bariatric-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Gastrointestinal (Bariatric Surgery)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
@@ -1006,9 +1006,9 @@
     "envelope": {
       "code": "si-bariatric-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Gastrointestinal (Bariatric Surgery)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "A current status report from your treating physician on your post-bariatric status, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
@@ -1019,9 +1019,9 @@
     "envelope": {
       "code": "si-bariatric-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Gastrointestinal (Bariatric Surgery)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_values/med_dict/aero_disp/ov_dis/",
+      "lastVerified": "2026-08-07T13:25:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
       "reviewStatus": "draft"
     },
     "requirementText": "Nutritional/metabolic labs as specified by the AME Guide."

@@ -52,31 +52,53 @@ jobs:
         run: |
           echo "::warning title=Could not check the source links::The runner could not reach any of the cited URLs. Not a content problem. See the log."
 
-      - name: Open or update the dead-link issue
+      # NOTIFY ON CHANGE, NOT ON STATE. A known unfixed problem should not re-email every
+      # Monday: that is how an alert teaches its reader to ignore it, which is the failure
+      # mode this whole exercise was about. The issue stays OPEN as the visible record, and
+      # a fingerprint of exactly which URLs are dead is embedded in it. We only speak up
+      # when that set CHANGES, or when it clears.
+      - name: Report only if the set of dead links changed
         if: steps.check.outputs.code == '1'
+        id: notify
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh label create faa-link-rot --color d93f0b \
-            --description "A cited FAA source no longer resolves" 2>/dev/null || true
-          {
-            echo "Checked $(date -u +%Y-%m-%dT%H:%MZ)."
-            echo
-            cat source-link-report.md 2>/dev/null || cat link-output.txt
-          } > link-comment.md
+          gh label create faa-link-rot --color d93f0b             --description "A cited FAA source no longer resolves" 2>/dev/null || true
+          FP=$(cat source-link-fingerprint.txt)
           EXISTING=$(gh issue list --state open --label faa-link-rot --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
-            echo "issue #$EXISTING already open, commenting"
-            gh issue comment "$EXISTING" --body-file link-comment.md
+            PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
+            if [ "$PREV" = "$FP" ]; then
+              echo "same dead links as issue #$EXISTING already reports. Staying quiet."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            gh issue comment "$EXISTING" --body-file source-link-report.md
+            gh issue edit "$EXISTING" --body-file source-link-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            gh issue create \
-              --title "A cited FAA source no longer resolves" \
-              --label faa-link-rot \
-              --body-file link-comment.md
+            gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --body-file source-link-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Fail the run so a red scheduled run also emails the owner
-        if: steps.check.outputs.code == '1'
+      # Everything resolves again. Close the record, once, rather than leaving a stale
+      # open issue that quietly stops meaning anything.
+      - name: Close the issue when every source resolves again
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo "One or more cited FAA sources are dead. See the issue above."
+          EXISTING=$(gh issue list --state open --label faa-link-rot --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "All cited FAA sources resolve again as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
+      # Fails only when the dead set CHANGED. A red run emails the owner, which is right
+      # for new rot and wrong for a problem already filed and still being worked. When the
+      # set is unchanged the run is green and the OPEN ISSUE carries the truth, so nothing
+      # is hidden: it is recorded in the one place that is actually actionable.
+      - name: Fail the run when new rot appears, so the owner is emailed
+        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+        run: |
+          echo "The set of dead FAA sources changed. See the issue above."
           exit 1
