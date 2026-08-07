@@ -1,0 +1,110 @@
+[
+  {
+    "envelope": {
+      "code": "basicmed-overview",
+      "sourceCitation": "14 CFR 61.113(i); 14 CFR 61.23(c)(3); 14 CFR Part 68",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "What BasicMed is",
+    "iconSystemName": "airplane",
+    "body": "BasicMed is an FAA-authorized alternative to holding a Part 67 medical certificate. Under 14 CFR 61.113(i), the FAA allows a private pilot to act as pilot in command (or serve as a required flightcrew member) without a Part 67 medical certificate, provided the pilot holds a valid U.S. driver's license, meets the requirements of 14 CFR 61.23(c)(3), and complies with the covered-aircraft conditions and operating limitations. It has two recurring pieces set out in 14 CFR Part 68: a medical education course and a comprehensive physician examination. BasicMed applies to private-pilot operations only and does not authorize flying for compensation or hire (14 CFR 61.113(a)). This is a summary of what the FAA requires; whether BasicMed applies to you is a determination for you and your physician.",
+    "links": [
+      { "title": "14 CFR 61.113 - BasicMed privileges", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113" },
+      { "title": "14 CFR Part 68 - BasicMed requirements", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-course-24mo",
+      "sourceCitation": "14 CFR 68.3 (course content); 14 CFR 61.23(c)(3)(i)(C) (24-calendar-month interval)",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.3",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "Medical education course - every 24 calendar months",
+    "iconSystemName": "graduationcap",
+    "body": "BasicMed requires a medical education course. The FAA specifies what the course must cover in 14 CFR 68.3 - medical self-assessment, warning signs of serious conditions, risk mitigation, the effects of over-the-counter and prescription medications, and the applicable regulations. The timing requirement is separate: under 14 CFR 61.23(c)(3)(i)(C), a pilot must complete the course during the 24 calendar months before acting as pilot in command. The FAA lists approved course providers (including AOPA and the Mayo Clinic), offered free of charge - see the FAA BasicMed page below for the current providers and their links. When you finish, you keep the certificate of completion in your logbook. This is a summary of what the FAA requires; your own course-due timing is a determination for you.",
+    "links": [
+      { "title": "14 CFR 68.3 - course content", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.3" },
+      { "title": "14 CFR 61.23 - 24-calendar-month timing", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23" },
+      { "title": "FAA BasicMed page - approved course providers", "url": "https://www.faa.gov/licenses_certificates/airmen_certification/basic_med" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-cmec-48mo",
+      "sourceCitation": "14 CFR 68.7 (checklist contents); 14 CFR 61.23(c)(3)(i)(D) (48-calendar-month interval); FAA Form 8700-2 / CMEC per FAA and 89 FR 90572",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.7",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "Physician exam / CMEC - every 48 calendar months",
+    "iconSystemName": "stethoscope",
+    "body": "BasicMed requires a comprehensive medical examination by a State-licensed physician. The FAA specifies the contents of the examination checklist in 14 CFR 68.7 (Comprehensive Medical Examination Checklist) and documents it on the FAA's Comprehensive Medical Examination Checklist, FAA Form 8700-2 (CMEC). The timing requirement is separate: under 14 CFR 61.23(c)(3)(i)(D), a pilot must receive the examination during the 48 calendar months before acting as pilot in command. Any State-licensed physician may perform the exam using the FAA's checklist. You keep the completed checklist in your logbook and present it to the FAA on request; it is not mailed to the FAA. This is a summary of what the FAA requires; your own exam-due timing is a determination for you and your physician.",
+    "links": [
+      { "title": "14 CFR 68.7 - CMEC checklist contents", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.7" },
+      { "title": "14 CFR 61.23 - 48-calendar-month timing", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23" },
+      { "title": "FAA BasicMed page", "url": "https://www.faa.gov/licenses_certificates/airmen_certification/basic_med" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-operating-limits",
+      "sourceCitation": "14 CFR 61.113(i)(1)-(2) and 61.113(a); current per 89 FR 90572 (eff. 2024-11-18)",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "Operating limits",
+    "iconSystemName": "ruler",
+    "body": "When flying under BasicMed, the FAA limits the operation in 14 CFR 61.113(i). The aircraft must be authorized to carry not more than 7 occupants, have a maximum takeoff weight of not more than 12,500 pounds, be operated with no more than 6 passengers on board, and not be a transport-category rotorcraft certified under Part 29 (14 CFR 61.113(i)(1)). The flight may not be conducted above 18,000 feet MSL, at an indicated airspeed exceeding 250 knots, or outside the United States unless authorized by the country in which the flight is conducted (14 CFR 61.113(i)(2)). BasicMed does not authorize flying for compensation or hire (14 CFR 61.113(a)). Note: the 12,500 lb / 7-occupant / 6-passenger limits are the current figures, raised from the earlier 6,000 lb / 6 / 5 by a final rule effective November 18, 2024 (89 FR 90572); the 18,000 ft and 250-knot limits are unchanged. This is a summary of what the FAA requires.",
+    "links": [
+      { "title": "14 CFR 61.113 - operating limits", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113" },
+      { "title": "Regulatory Updates to BasicMed - 89 FR 90572 (eff. 2024-11-18)", "url": "https://www.federalregister.gov/documents/2024/11/18/2024-26935/regulatory-updates-to-basicmed" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-eligibility",
+      "sourceCitation": "14 CFR 61.23(c)(3) - prior Part 67 certificate after July 14, 2006; driver's-license and no suspension/revocation/withdrawal/denial conditions",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "Eligibility conditions",
+    "iconSystemName": "checklist",
+    "body": "The FAA sets the BasicMed eligibility conditions in 14 CFR 61.23(c)(3). The FAA requires that, at any point after July 14, 2006, you have held a medical certificate issued under Part 67; that certificate may be expired, but it cannot have been suspended or revoked, your most recently issued Authorization for Special Issuance cannot have been withdrawn, and your most recent application for an airman medical certificate cannot have been completed and denied. The FAA also requires that you hold a valid U.S. driver's license and comply with all medical requirements or restrictions associated with it. This card describes what the FAA lists; it does not tell you whether you qualify. Whether these conditions are met is a determination for you and your physician.",
+    "links": [
+      { "title": "14 CFR 61.23 - BasicMed eligibility", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23" },
+      { "title": "FAA BasicMed page", "url": "https://www.faa.gov/licenses_certificates/airmen_certification/basic_med" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-onetime-si",
+      "sourceCitation": "14 CFR 68.9 - Special Issuance process (Part 68); distinct from the recurring Part 67 special issuance",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.9",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "One-time Special Issuance for certain conditions",
+    "iconSystemName": "heart.text.square",
+    "body": "If you have a medical history or clinical diagnosis of certain conditions, the FAA requires that you complete the Authorization for Special Issuance process before you may operate under BasicMed (14 CFR 68.9). The FAA lists these in three groups: mental health (a severe personality disorder manifested by overt acts, a psychosis, a bipolar disorder, or a substance dependence), neurological (epilepsy, a disturbance of consciousness without satisfactory medical explanation, or a transient loss of control of nervous-system functions without satisfactory medical explanation), and cardiovascular (myocardial infarction, coronary heart disease that has required treatment, cardiac valve replacement, or heart replacement). For a cardiovascular condition, the FAA provides a one-time special issuance for each diagnosis (14 CFR 68.9(a)(3)). For a mental-health or neurological condition, the FAA also requires certifying every 2 years that you are under a State-licensed specialist's care (14 CFR 68.9(c)(2), (d)(2)). This is separate from the recurring Part 67 special issuance that the app's Special Issuance tab tracks. Whether any of this applies to you is a determination for you and your physician.",
+    "links": [
+      { "title": "14 CFR 68.9 - BasicMed Special Issuance process", "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-68/section-68.9" },
+      { "title": "FAA BasicMed page", "url": "https://www.faa.gov/licenses_certificates/airmen_certification/basic_med" }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "basicmed-not-advice",
+      "sourceCitation": "Pilot Medical Guardian",
+      "lastVerified": "2026-07-05T12:00:00Z",
+      "contentVersion": "2026-07-05"
+    },
+    "cardTitle": "Information, not advice",
+    "body": "Pilot Medical Guardian is a record-keeping and information tool. It shows what the FAA requires, cites the section, and links you to the FAA's own source so you can read it yourself. It does not give medical advice, it is not FAA compliance certification, and it never tells you whether you qualify for BasicMed or whether you are fit to fly. Whether any requirement applies to you, and every eligibility and disclosure decision, is a determination for you and your physician. Your data stays encrypted on your own device and iCloud; the developer can never see it. Always confirm anything here against the current FAA source before you rely on it."
+  }
+]
