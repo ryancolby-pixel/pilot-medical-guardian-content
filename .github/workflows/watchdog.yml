@@ -1,0 +1,62 @@
+name: Watchdog - are the safeguards actually running
+
+# WHY THIS EXISTS, and it is the least obvious of the checks.
+#
+# On 2026-07-11 Ryan asked for automated drift alerting. It was built the same day. It
+# then did not run once for 27 days, for three independent reasons that each concealed
+# the next: it lived on a branch where a cron trigger cannot fire, its activation was
+# gated behind an App Review that never came, and its YAML was unparseable. Nobody
+# noticed, because a workflow that never runs produces no output to notice. It looked
+# like insurance the whole time and provided none.
+#
+# A safeguard that has never executed is not a safeguard. This is the thing that watches
+# for that: it asks whether each scheduled workflow has actually run recently, and says
+# so if one has gone quiet. It is deliberately the simplest job here, because a watchdog
+# that is itself elaborate is just one more thing that can silently stop.
+#
+# It cannot watch itself. That is unavoidable and worth stating: if this job disappears,
+# nothing will say so. Its own last-run time is visible on the Actions tab.
+
+on:
+  schedule:
+    - cron: "30 15 * * 1"   # Monday, after the three FAA checks have had their turn
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: read
+  issues: write
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v5
+
+      - name: Check every scheduled workflow has run recently
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          python3 scripts/check-watchdog.py | tee watchdog-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Report a silent safeguard
+        if: steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create silent-safeguard --color 5319e7 \
+            --description "A scheduled check has stopped running" 2>/dev/null || true
+          EXISTING=$(gh issue list --state open --label silent-safeguard --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file watchdog-report.md
+          else
+            gh issue create \
+              --title "A scheduled safeguard has stopped running" \
+              --label silent-safeguard \
+              --body-file watchdog-report.md
+          fi
+          exit 1
