@@ -23,7 +23,8 @@
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
-    "requirementText": "Not listed among the FAA's own reissue items for this condition. The FAA asks for the Authorization plus a current status report from your treating physician, including the name and dosage of your medications. Keep your readings in case your physician or AME wants them when writing that report."
+    "requirementText": "Not listed among the FAA's own reissue items for this condition. The FAA asks for the Authorization plus a current status report from your treating physician, including the name and dosage of your medications. Keep your readings in case your physician or AME wants them when writing that report.",
+    "faaListed": false
   },
   {
     "cadenceRaw": "annual",
