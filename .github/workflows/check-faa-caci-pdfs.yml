@@ -33,6 +33,13 @@ permissions:
   pull-requests: write
 
 env:
+  # Push half of the alerting. The issue/PR is the durable QUEUE; this is what
+  # actually REACHES Ryan, who receives no GitHub notifications. Fail-soft: if
+  # these are unset the script warns and exits 0, so a missing secret can never
+  # suppress the PR that does work.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
   TRACK_FILE: .faa-caci-pdf-shas
   BRANCH_PREFIX: faa-caci-pdfs
 
@@ -130,3 +137,6 @@ jobs:
             --base main \
             --assignee ryancolby-pixel \
             --head "$BRANCH"
+
+          printf '%s\n' "$BODY" > pr-alert-body.md
+          ./scripts/send-alert-email.sh "PMG: FAA CACI worksheet(s) reissued" pr-alert-body.md

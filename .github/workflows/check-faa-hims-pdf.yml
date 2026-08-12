@@ -16,6 +16,13 @@ permissions:
   pull-requests: write
 
 env:
+  # Push half of the alerting. The issue/PR is the durable QUEUE; this is what
+  # actually REACHES Ryan, who receives no GitHub notifications. Fail-soft: if
+  # these are unset the script warns and exits 0, so a missing secret can never
+  # suppress the PR that does work.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
   PDF_URL: https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf
   TRACK_FILE: .faa-hims-pdf-sha
   BRANCH_PREFIX: faa-hims-pdf
@@ -96,3 +103,16 @@ jobs:
             --assignee ryancolby-pixel \
             --head "$BRANCH" \
             --base main
+
+          # Body built here rather than reusing a $BODY var: this workflow passes its
+          # body INLINE to `gh pr create`, so there is no variable to reuse.
+          {
+            echo "The FAA's public HIMS-trained AME PDF has changed, so v1/ame_directory.json needs a re-parse."
+            echo ""
+            echo "Old SHA: ${OLD_SHA}"
+            echo "New SHA: ${NEW_SHA}"
+            echo "Source:  ${PDF_URL}"
+            echo ""
+            echo "A pull request has been opened on branch ${BRANCH} with the steps."
+          } > pr-alert-body.md
+          ./scripts/send-alert-email.sh "PMG: FAA HIMS-AME PDF reissued" pr-alert-body.md

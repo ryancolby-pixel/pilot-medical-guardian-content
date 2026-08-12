@@ -49,6 +49,15 @@ permissions:
   contents: read
   issues: write
 
+env:
+  # Push half of the alerting. The issue/PR is the durable QUEUE; this is what
+  # actually REACHES Ryan, who receives no GitHub notifications. Fail-soft: if
+  # these are unset the script warns and exits 0, so a missing secret can never
+  # suppress the issue or PR that does work.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -101,6 +110,7 @@ jobs:
               --label faa-source-changed \
               --assignee ryancolby-pixel \
               --body-file source-freshness-report.md
+            ./scripts/send-alert-email.sh "PMG: an FAA page we cite has been updated" source-freshness-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 

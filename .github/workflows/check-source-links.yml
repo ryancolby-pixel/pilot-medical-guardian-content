@@ -30,6 +30,15 @@ permissions:
   contents: read
   issues: write
 
+env:
+  # Push half of the alerting. The issue/PR is the durable QUEUE; this is what
+  # actually REACHES Ryan, who receives no GitHub notifications. Fail-soft: if
+  # these are unset the script warns and exits 0, so a missing secret can never
+  # suppress the issue or PR that does work.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -74,6 +83,7 @@ jobs:
               exit 0
             fi
             gh issue comment "$EXISTING" --body-file source-link-report.md
+            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md
             gh issue edit "$EXISTING" --body-file source-link-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
