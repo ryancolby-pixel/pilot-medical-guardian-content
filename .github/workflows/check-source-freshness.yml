@@ -99,6 +99,7 @@ jobs:
             gh issue create \
               --title "An FAA page we cite has been updated" \
               --label faa-source-changed \
+              --assignee ryancolby-pixel \
               --body-file source-freshness-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

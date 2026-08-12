@@ -128,4 +128,5 @@ jobs:
             --title "FAA CACI: $COUNT worksheet(s) reissued — drop in new PDFs" \
             --body "$BODY" \
             --base main \
+            --assignee ryancolby-pixel \
             --head "$BRANCH"

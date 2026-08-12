@@ -77,7 +77,7 @@ jobs:
             gh issue edit "$EXISTING" --body-file source-link-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --body-file source-link-report.md
+            gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --assignee ryancolby-pixel               --body-file source-link-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 

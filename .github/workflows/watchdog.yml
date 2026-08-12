@@ -57,6 +57,7 @@ jobs:
             gh issue create \
               --title "A scheduled safeguard has stopped running" \
               --label silent-safeguard \
+              --assignee ryancolby-pixel \
               --body-file watchdog-report.md
           fi
           exit 1

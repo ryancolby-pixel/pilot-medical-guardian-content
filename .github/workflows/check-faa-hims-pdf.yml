@@ -93,5 +93,6 @@ jobs:
           6. Merge — GitHub Pages republishes, the app picks it up on its next refresh.
 
           (Re-parse is currently manual; future enhancement: automate the parser inside this workflow.)" \
+            --assignee ryancolby-pixel \
             --head "$BRANCH" \
             --base main
