@@ -1,0 +1,136 @@
+name: Check medication claims
+
+# Claim-shaped checks on medications.json. Everything else in this repo is
+# shape-shaped: validate.py checks envelope fields and manifest checksums,
+# check-source-links.py checks that URLs resolve. Neither can tell you that an entry
+# is WRONG.
+#
+# WHY. On 2026-08-13 two defects surfaced that every existing check passed:
+#   - 13 non-insulin diabetes medications carried isCACI:true, while the FAA routes
+#     them to a protocol reading "Requires FAA review and determination. The AME must
+#     defer." The chip asserted the inverse of the FAA's instruction.
+#   - clonidine told pilots "The FAA does not name clonidine in ... Do Not Issue / Do
+#     Not Fly" while sitting on the FAA's DO NOT ISSUE list under its own brand name.
+#
+# Both were well-formed. Both had resolving citations. clonidine's citation pointed at
+# the AME Guide front door, a page that names no drugs, so no link check could ever
+# have contradicted it.
+#
+# CONTENT_PIPELINE.md 14.10 predicted this class on 2026-05-29, costed the fix at 2-3
+# hours, and deferred it for eleven weeks. This is that fix.
+#
+# WHY IT ALSO RUNS ON A SCHEDULE. This is not only a cleanup gate. The FAA edits these
+# lists: the pharmaceuticals index was last updated 2026-04-29. If the FAA adds a drug
+# to DO NOT ISSUE that we currently describe as unnamed, our content becomes wrong with
+# no commit of ours involved. Only a scheduled run catches that.
+#
+# Runs Monday 16:00 UTC, an hour after the source-link check and two after the CACI PDF
+# one, so the four safeguards do not hit faa.gov at the same moment.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "v1/medications.json"
+      - "v1/caci_worksheets.json"
+      - "scripts/check-med-claims.py"
+      - "scripts/med-claims-baseline.json"
+  pull_request:
+    paths:
+      - "v1/medications.json"
+      - "v1/caci_worksheets.json"
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  # Push half of the alerting. The issue is the durable QUEUE; this is what actually
+  # REACHES Ryan, who receives no GitHub notifications. Fail-soft by design: if these
+  # are unset the script warns and exits 0, so a missing secret can never suppress the
+  # issue that does work.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the content
+        uses: actions/checkout@v5
+
+      - name: Install the PDF reader
+        run: python3 -m pip install --quiet pypdf
+
+      - name: Check every medication claim against the live FAA sources
+        id: check
+        run: |
+          set +e
+          python3 scripts/check-med-claims.py | tee med-claims-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      # Exit 2 is UNREACHABLE, not WRONG. A TLS or DNS failure on the runner says
+      # nothing about whether our content is accurate, and filing an issue claiming
+      # otherwise would be worse than saying nothing. This distinction has burned this
+      # repo before: a link checker once reported all 84 FAA sources dead because the
+      # local Python had no CA bundle.
+      - name: Note a run that could not verify
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not verify the medication claims::The runner could not reach the FAA sources. Not a content problem. See the log."
+
+      # NOTIFY ON CHANGE, NOT ON STATE, matching check-source-links.yml. A known unfixed
+      # contradiction must not re-email every Monday; that is precisely how an alert
+      # teaches its reader to ignore it. The open issue carries the truth in between.
+      - name: Report only if the set of contradictions changed
+        if: steps.check.outputs.code == '1'
+        id: notify
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create med-claim-contradiction --color b60205 --description "Our medication content contradicts what the FAA publishes" 2>/dev/null || true
+          FP=$(cat med-claims-fingerprint.txt)
+          EXISTING=$(gh issue list --state open --label med-claim-contradiction --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
+            if [ "$PREV" = "$FP" ]; then
+              echo "same contradictions as issue #$EXISTING already reports. Staying quiet."
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            gh issue comment "$EXISTING" --body-file med-claims-report.md
+            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md
+            gh issue edit "$EXISTING" --body-file med-claims-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            gh issue create --title "Medication content contradicts what the FAA publishes" --label med-claim-contradiction --assignee ryancolby-pixel --body-file med-claims-report.md
+            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Close the issue when every claim checks out again
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --state open --label med-claim-contradiction --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every medication claim checks out against the live FAA sources as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
+      # Red only when the set CHANGED. A red run emails the owner, which is right for a
+      # new contradiction and wrong for one already filed and being worked.
+      #
+      # This does NOT block publishing: pages.yml triggers on push independently with no
+      # needs: on this job. That is deliberate. During a content incident the CDN is the
+      # only channel that reaches already-installed builds, and a correctness checker
+      # must never be the thing standing between a pilot and a fix.
+      - name: Fail the run when a new contradiction appears, so the owner is emailed
+        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+        run: |
+          echo "The set of medication-claim contradictions changed. See the issue above."
+          exit 1

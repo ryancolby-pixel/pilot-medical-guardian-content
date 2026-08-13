@@ -1,0 +1,6 @@
+{
+  "unsupportedCitations": 11,
+  "recordedAt": "2026-08-13",
+  "meaning": "Absence-claiming medication entries whose sourceURL points outside https://www.faa.gov/ame_guide/pharm, so the claim cannot be checked at its own citation. This is a RATCHET: the number may go down, never up. It is not a target that has been met; it is a debt that is being tolerated so the check could land on legacy content without wedging the repo. Lower it whenever entries are repointed.",
+  "howToFix": "Point the entry's envelope.sourceURL at the relevant https://www.faa.gov/ame_guide/pharm/... page (the index lists per-topic pages: Antidepressants, Antihypertensive, Anticoagulants, Sedatives, Sleep Aids, Smoking Cessation, Weight Loss, and more), then lower this number by the count fixed."
+}
