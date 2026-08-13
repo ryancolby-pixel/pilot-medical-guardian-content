@@ -1365,16 +1365,17 @@
       "Catapres"
     ],
     "category": "Central alpha-agonist (hypertension)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names clonidine directly. Its Pharmaceuticals - Antihypertensive page lists it under UNACCEPTABLE HTN Medications (as a single agent or in any combination product), DO NOT ISSUE: Clonidine (ex. Catapres/Clorpres). The CACI Hypertension Worksheet separately states: NOT acceptable: Centrally acting antihypertensive (ex: clonidine). That is what the FAA publishes; it is not a determination about you. Worth raising with the physician who prescribed it, and with your AME, well before your exam.",
     "envelope": {
       "code": "med-clonidine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals - Antihypertensive (UNACCEPTABLE HTN Medications / DO NOT ISSUE), with the CACI Hypertension Worksheet",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antihyp"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name clonidine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Central alpha-agonist (hypertension). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "notAcceptable",
+    "isCACI": false
   },
   {
     "genericName": "clopidogrel",
