@@ -549,16 +549,15 @@
     ],
     "category": "Atypical antidepressant",
     "treatedConditionNote": "Concern is the underlying condition; handled through FAA review rather than the AME's desk.",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Which FAA answer applies depends on your product: Wellbutrin SR/ER for depression, Wellbutrin IR, Zyban for smoking cessation, or Contrave for weight loss. Open the one you take. The FAA publishes a different status for each, and only the SR/ER antidepressant use has a certification pathway.",
     "envelope": {
       "code": "med-bupropion",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Antidepressant policy / Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (08/27/2025), Smoking Cessation Medications (04/29/2026), and Weight Loss Medication (04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name bupropion in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Concern is the underlying condition; handled through FAA review rather than the AME's desk. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false
   },
   {
     "genericName": "alprazolam",
@@ -583,18 +582,143 @@
       "Ambien"
     ],
     "category": "Sedative hypnotic (insomnia)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "preFlightWaitHours": 24,
     "treatedConditionNote": "Both the insomnia and the sedating drug matter; chronic use is generally disqualifying.",
-    "faaStatusDescription": "Sedative hypnotics such as zolpidem fall under Do Not Fly guidance with a substantial no-fly interval after use; chronic use is generally disqualifying. Confirm the current required wait and status against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Zolpidem's required minimum wait before pilot duties depends on the product, 24 to 48 hours: Ambien and Ambien CR 24, Edluar and Intermezzo 36, Zolpimist 48. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.",
     "envelope": {
       "code": "med-zolpidem",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
-    }
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "informationalOnly": false
+  },
+  {
+    "genericName": "zolpidem oral spray (Zolpimist)",
+    "brandNames": [
+      "Zolpimist"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "isCACI": false,
+    "faaStatusDescription": "Zolpimist oral spray: the FAA publishes a required minimum wait of 48 hours after the last dose before resuming pilot duties. It also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zolpimist",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "faaStatus": "conditional",
+    "preFlightWaitHours": 48
+  },
+  {
+    "genericName": "zolpidem sublingual (Edluar, Intermezzo)",
+    "brandNames": [
+      "Edluar",
+      "Intermezzo"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "isCACI": false,
+    "faaStatusDescription": "Edluar and Intermezzo: the FAA publishes a required minimum wait of 36 hours after the last dose before resuming pilot duties. It also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zolpidem-edluar",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "faaStatus": "conditional",
+    "preFlightWaitHours": 36
+  },
+  {
+    "genericName": "zolpidem (Ambien, Ambien CR)",
+    "brandNames": [
+      "Ambien",
+      "Ambien CR"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "isCACI": false,
+    "faaStatusDescription": "Ambien and Ambien CR: the FAA publishes a required minimum wait of 24 hours after the last dose before resuming pilot duties. Other zolpidem products run to 48 hours, so check yours. It also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.",
+    "envelope": {
+      "code": "med-zolpidem-ambien",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "faaStatus": "conditional",
+    "preFlightWaitHours": 24
+  },
+  {
+    "genericName": "bupropion + naltrexone (for weight loss)",
+    "brandNames": [
+      "Contrave"
+    ],
+    "category": "Weight loss combination",
+    "isCACI": false,
+    "faaStatusDescription": "For weight loss the FAA lists bupropion plus naltrexone (Contrave) as DO NOT ISSUE, prohibited as a single agent or in any combination product. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-contrave",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_pharm.pdf"
+    },
+    "faaStatus": "notAcceptable"
+  },
+  {
+    "genericName": "bupropion SR (for smoking cessation)",
+    "brandNames": [
+      "Zyban"
+    ],
+    "category": "Smoking cessation aid",
+    "isCACI": false,
+    "faaStatusDescription": "For smoking cessation the FAA lists bupropion SR (Zyban) as UNACCEPTABLE. On a first treatment course no medical is issued during active treatment, and a 7 day no-fly runs from the last dose once treatment is complete. Recurrent or extended therapy over 6 months routes to the FAA's anxiety and depression table. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zyban",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
+    },
+    "faaStatus": "notAcceptable"
+  },
+  {
+    "genericName": "bupropion IR (immediate release)",
+    "brandNames": [
+      "Wellbutrin"
+    ],
+    "category": "NDRI antidepressant",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists bupropion (Wellbutrin) IR formulations under UNACCEPTABLE Antidepressant Medications, as a single agent or in any combination product. Only the SR and ER formulations appear on its conditionally acceptable list. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bupropion-ir",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    },
+    "faaStatus": "notAcceptable"
+  },
+  {
+    "genericName": "bupropion SR/ER (as an antidepressant)",
+    "brandNames": [
+      "Wellbutrin SR",
+      "Wellbutrin XL"
+    ],
+    "category": "NDRI antidepressant",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA states the AME may not issue for bupropion (Wellbutrin) SR/ER. As an antidepressant it lists SR/ER formulations ONLY as conditionally acceptable with a Special Issuance, used as a single agent. Its criteria include at least 3 continuous months clinically stable on a stable dose and a HIMS AME evaluation.",
+    "envelope": {
+      "code": "med-bupropion-sr-er",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47 Psychiatric: Use of Antidepressant Medications, with the Antidepressant Medications table (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+    },
+    "faaStatus": "caseByCase"
   },
   {
     "genericName": "methylphenidate",
