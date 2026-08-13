@@ -803,14 +803,15 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "preFlightWaitHours": 48,
-    "faaStatusDescription": "Cetirizine carries a no-fly interval after the last dose under FAA Do Not Fly guidance due to potential sedation. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Two forms, two rules. Oral (Zyrtec) is FAA sedating, conditionally acceptable: 1-2 times a week, never daily, no flying while taking it, 48 hours after the last dose, alone or in any combination product. The eye drop (Zerviate) is on the FAA acceptable non-sedating list with no wait required, but is not to be instilled right before or during flight or safety duties. New meds need a 48-hour ground trial; symptoms mean no flying. FAA policy, not a determination about you.",
     "envelope": {
       "code": "med-cetirizine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
-    }
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+    },
+    "informationalOnly": false
   },
   {
     "genericName": "diphenhydramine",
@@ -818,17 +819,18 @@
       "Benadryl"
     ],
     "category": "Sedating antihistamine (allergy)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
     "preFlightWaitHours": 60,
-    "faaStatusDescription": "Diphenhydramine is a sedating antihistamine on FAA Do Not Fly guidance, with a substantial no-fly interval after the last dose. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 60 hours after the last dose. Oral, nasal and ophthalmic forms, alone or in any combination product. Also on the FAA Do Not Fly list; routine use means the AME defers. New meds need a 48-hour ground trial; symptoms mean no flying. FAA policy, not a determination about you.",
     "envelope": {
       "code": "med-diphenhydramine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
-    }
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+    },
+    "informationalOnly": false
   },
   {
     "genericName": "pseudoephedrine",
@@ -1526,14 +1528,15 @@
     "category": "Antiarrhythmic",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Dofetilide is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Not individually listed in an FAA medication list. Informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-dofetilide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
-    }
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals (Therapeutic Medications) index. This medication is not individually listed.",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+    },
+    "informationalOnly": true
   },
   {
     "genericName": "lovastatin",
@@ -1984,14 +1987,14 @@
       "Bentyl"
     ],
     "category": "Antispasmodic (IBS)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Dicyclomine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA does not name dicyclomine, but tells the AME to defer a Colitis or IBS applicant on antispasmodics or anticholinergics. Its Do Not Issue oral anticholinergic heading names only atropine, overactive bladder drugs and benztropine, and calls its lists not all-inclusive, so neither the heading nor the absence settles it. The CACI IBS worksheet lists the drugs an AME may issue on; this is not one, and your AME can ask the FAA. What the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dicyclomine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Version 07/29/2026: Do Not Issue / Do Not Fly section preamble and DNI table (pp. 615 to 616), CACI Colitis Worksheet (p. 201, updated 04/29/2026), and AASI for Colitis (Ulcerative or Crohn's Disease) or Irritable Bowel Syndrome (p. 683). Dicyclomine is not named anywhere in the Guide.",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
     }
   },
@@ -2386,17 +2389,18 @@
       "Chlor-Trimeton"
     ],
     "category": "Sedating antihistamine (allergy)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Chlorpheniramine is a sedating antihistamine on FAA Do Not Fly guidance with a multi-day no-fly interval after the last dose. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 120 hours (5 days) after the last dose. Oral, nasal and ophthalmic forms, alone or in any combination product such as Coricidin or Chlor-Trimeton. Also on the FAA Do Not Fly list; routine use means the AME defers. New meds need a 48-hour ground trial; symptoms mean no flying. FAA policy, not a determination about you.",
     "envelope": {
       "code": "med-chlorpheniramine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "preFlightWaitHours": 120
+    "preFlightWaitHours": 120,
+    "informationalOnly": false
   },
   {
     "genericName": "sumatriptan",
@@ -3041,16 +3045,17 @@
       "Nicorette"
     ],
     "category": "Nicotine replacement",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "What the FAA requires depends on the form. The FAA lists gum, lozenge and patch as acceptable with no ground trial and no wait after a dose. Nasal spray has a one-time 48 hour ground trial when starting, not a wait after each dose. No other form is named. That is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nicotine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026), ACCEPTABLE Smoking Cessation Medications table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name nicotine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Nicotine replacement. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional",
+    "isCACI": false
   },
   {
     "genericName": "latanoprost",
@@ -3182,16 +3187,16 @@
       "Cortef"
     ],
     "category": "Oral corticosteroid",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA sets this by dose, not by drug: Do Not Issue above \"20 mg prednisone or prednisone equivalent per day\". That is the prednisone equivalent of your dose, not 20 mg of hydrocortisone; the FAA states the figure only in prednisone terms and links a conversion calculator, so your prescriber and AME do that math. Doses at or below it, inhaled, topical and nasal corticosteroids, and a short oral or IM course during a flare all appear in FAA acceptable lists, the short course with a caution not to fly until it is finished and symptoms are gone. Any history of adrenal insufficiency (Addison's) is a DEFER for possible Special Issuance whatever the dose. That is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-hydrocortisone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue table, STEROIDS, HIGH DOSE (greater than 20 mg prednisone or prednisone equivalent per day), read with the CACI Colitis, Eosinophilic Esophagitis and Asthma worksheets and the Adrenal Insufficiency (Addison's Disease) disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name hydrocortisone in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Oral corticosteroid. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "ethinyl estradiol/norethindrone",
