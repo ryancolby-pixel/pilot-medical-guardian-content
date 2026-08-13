@@ -276,13 +276,13 @@
     ],
     "category": "Biguanide (Type 2 diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
-    "treatedConditionNote": "The FAA's concern is the diabetes itself, not metformin; oral-agent diabetes is addressed under CACI, while insulin-treated diabetes follows a Special Issuance pathway.",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-metformin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
@@ -294,13 +294,13 @@
     ],
     "category": "Sulfonylurea (Type 2 diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
-    "treatedConditionNote": "Concern is the diabetes, not the drug; non-insulin diabetes is CACI-addressed.",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glipizide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
@@ -312,13 +312,13 @@
     ],
     "category": "SGLT2 inhibitor (Type 2 diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
-    "treatedConditionNote": "Concern is the diabetes, not the drug.",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-empagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
@@ -330,13 +330,13 @@
     ],
     "category": "DPP-4 inhibitor (Type 2 diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
-    "treatedConditionNote": "Concern is the diabetes, not the drug.",
+    "isCACI": false,
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-sitagliptin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     }
@@ -1660,16 +1660,16 @@
     ],
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glimepiride",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "glyburide",
@@ -1679,16 +1679,16 @@
     ],
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-glyburide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "pioglitazone",
@@ -1697,16 +1697,16 @@
     ],
     "category": "Thiazolidinedione (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-pioglitazone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "dapagliflozin",
@@ -1715,16 +1715,16 @@
     ],
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-dapagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "canagliflozin",
@@ -1733,16 +1733,16 @@
     ],
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-canagliflozin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "linagliptin",
@@ -1751,16 +1751,16 @@
     ],
     "category": "DPP-4 inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-linagliptin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "dulaglutide",
@@ -1769,16 +1769,16 @@
     ],
     "category": "GLP-1 receptor agonist (diabetes)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-dulaglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes"
+    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "liraglutide",
@@ -1788,16 +1788,16 @@
     ],
     "category": "GLP-1 receptor agonist (diabetes / weight)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-liraglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes or obesity"
+    "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. Used for Type 2 diabetes, it is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol. Prescribed for weight management instead, a different FAA pathway may apply. Confirm which applies to you with your AME."
   },
   {
     "genericName": "tirzepatide",
@@ -1807,16 +1807,16 @@
     ],
     "category": "GIP/GLP-1 agonist (diabetes / weight)",
     "faaStatus": "conditional",
-    "isCACI": true,
+    "isCACI": false,
     "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-tirzepatide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-13T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "Type 2 diabetes or obesity"
+    "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. Used for Type 2 diabetes, it is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol. Prescribed for weight management instead, a different FAA pathway may apply. Confirm which applies to you with your AME."
   },
   {
     "genericName": "liothyronine",
