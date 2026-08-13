@@ -531,14 +531,14 @@
     "category": "SSRI antidepressant",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "treatedConditionNote": "Notably NOT among the SSRIs the FAA accepts through its Decision Path, even though the condition itself may be certifiable on a different agent.",
-    "faaStatusDescription": "Paroxetine is generally not among the SSRIs the FAA accepts via its SSRI Decision Path. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "treatedConditionNote": "The FAA lists the medication, not the condition; paroxetine is not on its conditionally acceptable Antidepressant Medications list.",
+    "faaStatusDescription": "The FAA lists paroxetine (Paxil) under UNACCEPTABLE Antidepressant Medications, used as a single agent or in any combination product. Its separate list, CONDITIONALLY Acceptable Antidepressant Medications with SI, names other SSRIs. That is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-paroxetine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -612,6 +612,128 @@
     },
     "faaStatus": "conditional",
     "preFlightWaitHours": 48
+  },
+  {
+    "genericName": "temazepam",
+    "brandNames": [
+      "Restoril"
+    ],
+    "category": "Benzodiazepine hypnotic (insomnia)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Restoril (temazepam) is named on the FAA's Do Not Fly list, under its anti-anxiety heading. The FAA's sleep aid table lists a required minimum wait of 72 hours after the last dose before resuming pilot duties, and its Do Not Fly section states that if an applicant is using a listed medication routinely, AMEs should defer. The FAA also states that occasional or limited use of sleep aids is allowable for pilots but that daily or nightly use is not allowed regardless of the underlying cause or reason, and that medical conditions chronically interfering with sleep are disqualifying whether or not a sleep aid is used. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-temazepam",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "preFlightWaitHours": 72
+  },
+  {
+    "genericName": "ramelteon",
+    "brandNames": [
+      "Rozerem"
+    ],
+    "category": "Melatonin receptor agonist (insomnia)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Rozerem (ramelteon): the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 24 hours after the last dose before resuming pilot duties. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that medical conditions chronically interfering with sleep are disqualifying whether or not a sleep aid is used. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ramelteon",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "preFlightWaitHours": 24
+  },
+  {
+    "genericName": "zaleplon",
+    "brandNames": [
+      "Sonata"
+    ],
+    "category": "Sedative hypnotic (insomnia)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "Sonata (zaleplon): the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 12 hours after the last dose before resuming pilot duties. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that medical conditions chronically interfering with sleep are disqualifying whether or not a sleep aid is used. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zaleplon",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
+    },
+    "preFlightWaitHours": 12
+  },
+  {
+    "genericName": "fluvoxamine",
+    "brandNames": [
+      "Luvox"
+    ],
+    "category": "SSRI antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists fluvoxamine (Luvox) under UNACCEPTABLE Antidepressant Medications, used as a single agent or in any combination product. Its separate list, CONDITIONALLY Acceptable Antidepressant Medications with SI, names other SSRIs. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-fluvoxamine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    }
+  },
+  {
+    "genericName": "levomilnacipran",
+    "brandNames": [
+      "Fetzima"
+    ],
+    "category": "SNRI antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists levomilnacipran (Fetzima) under UNACCEPTABLE Antidepressant Medications, used as a single agent or in any combination product. Its separate list, CONDITIONALLY Acceptable Antidepressant Medications with SI, names other SNRIs. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-levomilnacipran",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    }
+  },
+  {
+    "genericName": "vortioxetine",
+    "brandNames": [
+      "Trintellix"
+    ],
+    "category": "SSRI / 5-HT1A partial agonist antidepressant",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists vortioxetine (Trintellix) under UNACCEPTABLE Antidepressant Medications, used as a single agent or in any combination product. Its separate list, CONDITIONALLY Acceptable Antidepressant Medications with SI, names other antidepressants. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-vortioxetine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    }
+  },
+  {
+    "genericName": "esketamine",
+    "brandNames": [
+      "Spravato"
+    ],
+    "category": "NMDA receptor antagonist (treatment-resistant depression)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists esketamine (Spravato) under UNACCEPTABLE Antidepressant Medications, used as a single agent or in any combination product. That is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-esketamine",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    }
   },
   {
     "genericName": "zolpidem sublingual (Edluar, Intermezzo)",
