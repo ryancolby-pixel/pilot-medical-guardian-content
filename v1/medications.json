@@ -1365,7 +1365,7 @@
       "Catapres"
     ],
     "category": "Central alpha-agonist (hypertension)",
-    "faaStatusDescription": "The FAA names clonidine directly. Its Pharmaceuticals - Antihypertensive page lists it under UNACCEPTABLE HTN Medications (as a single agent or in any combination product), DO NOT ISSUE: Clonidine (ex. Catapres/Clorpres). The CACI Hypertension Worksheet separately states: NOT acceptable: Centrally acting antihypertensive (ex: clonidine). That is what the FAA publishes; it is not a determination about you. Worth raising with the physician who prescribed it, and with your AME, well before your exam.",
+    "faaStatusDescription": "The FAA lists clonidine (Catapres) as DO NOT ISSUE, under UNACCEPTABLE HTN Medications on its Pharmaceuticals - Antihypertensive page, as a single agent or in any combination product. The CACI Hypertension Worksheet separately states: NOT acceptable: Centrally acting antihypertensive (ex: clonidine). That is what the FAA publishes; it is not a determination about you. Worth raising with the physician who prescribed it, and with your AME, well before your exam.",
     "envelope": {
       "code": "med-clonidine",
       "contentVersion": "2026.0-sample",
@@ -2665,7 +2665,7 @@
     "category": "Sedative hypnotic (insomnia)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's Sleep Aids table gives eszopiclone (Lunesta) a required minimum waiting time after the last dose, before resuming pilot duties, of 30 hours. The FAA also states that all currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times even when the individual feels fully awake, and that medical conditions which chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used. That is what the FAA publishes; it is not a determination about you. Confirm the current interval against the FAA's Sleep Aids table and your AME.",
+    "faaStatusDescription": "Eszopiclone (Lunesta): the FAA publishes a required minimum wait of 30 hours after the last dose before resuming pilot duties. The FAA also states that all currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times even when the individual feels fully awake, and that medical conditions which chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used. That is what the FAA publishes; it is not a determination about you. Confirm the current interval against the FAA's Sleep Aids table and your AME.",
     "envelope": {
       "code": "med-eszopiclone",
       "contentVersion": "2026.0-sample",
