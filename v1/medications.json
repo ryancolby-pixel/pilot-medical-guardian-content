@@ -2590,6 +2590,23 @@
     }
   },
   {
+    "genericName": "vilazodone",
+    "brandNames": [
+      "Viibryd"
+    ],
+    "category": "SSRI / 5-HT1A partial agonist antidepressant",
+    "faaStatus": "caseByCase",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists vilazodone (Viibryd) under CONDITIONALLY Acceptable Antidepressant Medications with SI, used as a single agent, if otherwise qualified. Its antidepressant policy states that individuals can be considered for first, second, or third-class medical certificates while being treated with one of several specific antidepressants, that the Authorization decision is made on a case-by-case basis, and that the AME may not issue. That is what the FAA publishes; it is not a determination about you. Confirm with your AME.",
+    "envelope": {
+      "code": "med-vilazodone",
+      "contentVersion": "2026.0-sample",
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (Updated 08/27/2025), CONDITIONALLY Acceptable with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+    }
+  },
+  {
     "genericName": "mirtazapine",
     "brandNames": [
       "Remeron"

@@ -107,7 +107,7 @@ jobs:
             gh issue edit "$EXISTING" --body-file med-claims-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            gh issue create --title "Medication content contradicts what the FAA publishes" --label med-claim-contradiction --assignee ryancolby-pixel --body-file med-claims-report.md
+            gh issue create --title "Medication content contradicts what the FAA publishes" --label med-claim-contradiction --body-file med-claims-report.md
             ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

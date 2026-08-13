@@ -1,6 +1,6 @@
 {
   "contentVersion": "2026-08-13",
-  "generatedAt": "2026-08-13T13:53:59Z",
+  "generatedAt": "2026-08-13T14:23:16Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -29,8 +29,8 @@
     },
     {
       "filename": "medications.json",
-      "size": 177584,
-      "checksum": "38a7a52494d1925005f8d3c3a807b35cba26ccad69e641db4f5b04448493b30d"
+      "size": 178732,
+      "checksum": "a790f88c85ad3d2fff81c20bf0096b90f6cefa2df0e602d612a0aa59ed5aae99"
     },
     {
       "filename": "regulation_requirements.json",
