@@ -2665,15 +2665,15 @@
     "category": "Sedative hypnotic (insomnia)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Sedative hypnotics such as eszopiclone fall under Do Not Fly guidance with a substantial no-fly interval after use; chronic use is generally disqualifying. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA's Sleep Aids table gives eszopiclone (Lunesta) a required minimum waiting time after the last dose, before resuming pilot duties, of 30 hours. The FAA also states that all currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times even when the individual feels fully awake, and that medical conditions which chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used. That is what the FAA publishes; it is not a determination about you. Confirm the current interval against the FAA's Sleep Aids table and your AME.",
     "envelope": {
       "code": "med-eszopiclone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-13T12:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals, Sleep Aids (table last updated 05/07/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
-    "preFlightWaitHours": 24
+    "preFlightWaitHours": 30
   },
   {
     "genericName": "melatonin",
