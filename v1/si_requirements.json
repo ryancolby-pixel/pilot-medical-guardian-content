@@ -5,12 +5,12 @@
     "envelope": {
       "code": "si-htn-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current statement from your treating physician describing your blood pressure control, current medications, and absence of side effects, as outlined in the AME Guide for this condition."
+    "requirementText": "The FAA lists two things at reissue for hypertension: the Authorization it granted you, and a current status report from your treating physician. The AME Guide says that report must detail whether the condition is stable and, if so, for how long; any secondary cause for the HTN; any co-morbid condition such as diabetes or obstructive sleep apnea; any history of end organ damage such as heart failure, myocardial infarction, cerebrovascular accident, kidney disease or eye disease; and the name and dosage of your medication(s) with the presence or absence of any side effects. The FAA's wording is presence or absence, so side effects are addressed either way rather than left unmentioned. Your Authorization letter comes with attachments that specify what your treating physician must provide, and where those attachments ask for more than this list, they govern."
   },
   {
     "cadenceRaw": "annual",
@@ -23,8 +23,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
-    "requirementText": "Not listed among the FAA's own reissue items for this condition. The FAA asks for the Authorization plus a current status report from your treating physician, including the name and dosage of your medications. Keep your readings in case your physician or AME wants them when writing that report.",
-    "faaListed": false
+    "requirementText": "Not listed among the FAA's own reissue items for this condition. The FAA asks for the Authorization plus a current status report from your treating physician, including the name and dosage of your medications. Keep your readings in case your physician or AME wants them when writing that report."
   },
   {
     "cadenceRaw": "annual",
@@ -32,12 +31,12 @@
     "envelope": {
       "code": "si-htn-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your antihypertensive medications and doses, so the FAA can confirm they are among those accepted for this condition."
+    "requirementText": "The FAA does not list a standalone medication list at reissue. It is one line inside your treating physician's status report: \"The name and dosage of medication(s) and presence or absence of any side effects.\" Which medications are acceptable is published separately on the FAA's Antihypertensive page (faa.gov/ame_guide/pharm/antihyp), which the hypertension AASI page links to for exactly this question. That page lists alpha adrenergic blockers, beta-adrenergic blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors and direct vasodilators as acceptable \"when certification criteria are met,\" and names clonidine, guanabenz, guanfacine, methyldopa, reserpine and nitrates, which the FAA illustrates with nitroglycerin, isosorbide dinitrate and isosorbide mononitrate, as unacceptable \"as a single agent or in any combination product.\" The same page states: \"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\" Your Examiner must defer to the FAA if you are taking a medication that is not acceptable."
   },
   {
     "cadenceRaw": "annual",
@@ -45,12 +44,12 @@
     "envelope": {
       "code": "si-osa-compliance-report",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:00:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Sleep Apnea (OSA)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A copy of the cumulative annual PAP device report showing actual time used. The FAA notes this is not the report insurers typically generate, which only shows whether use was more or less than 4 hours. The FAA's stated target is use on at least 75% of sleep periods, with an average minimum of 6 hours per sleep period. Confirm the current required format against the AME Guide and a qualified AME."
+    "requirementText": "If your OSA is treated with CPAP, BiPAP, or APAP, the FAA asks for \"a copy of the cumulative annual PAP device report which shows actual time used (rather than a report typically generated for insurance providers which only shows if use is greater or less than 4 hours).\" The FAA's stated target is use on at least 75% of sleep periods with an average minimum of 6 hours per sleep period, and its OSA Treated Status Report adds a treated Apnea Hypopnea Index of 5 or less. If you use more than one machine, such as a travel unit, the FAA's guidance on two or more machines says continuation is based on the cumulative time used: submit the downloads from every machine over the same one year date range where possible, submit all device downloads for the past year, and state how many machines you use on your 8500-8, in a letter from you, or on your physician's status report. For an established OSA diagnosis with a CPAP that does not record data, the FAA allows a one year exception for a personal statement that you regularly use CPAP and use it before each shift when performing flight or safety duties."
   },
   {
     "cadenceRaw": "annual",
@@ -58,12 +57,12 @@
     "envelope": {
       "code": "si-osa-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Sleep Apnea (OSA)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A statement from your treating physician that your sleep condition is effectively treated and you have no residual daytime sleepiness, as outlined in the AME Guide."
+    "requirementText": "At reissue the FAA accepts one of two documents covering your OSA treatment: a completed and signed FAA \"OSA Treated Status Report,\" or \"a current Detailed Clinical Progress Note from your treating physician indicating that OSA treatment is still effective,\" submitted together with your device usage report. On the Status Report you first mark that you have been using your prescribed device and sign that you are \"tolerating therapy well and have no symptoms of OSA (e.g., daytime sleepiness, lack of mental attention or concentration, or cognitive impairment).\" Your physician then records your initial untreated Apnea Hypopnea Index and answers four questions: whether the primary diagnosis is uncomplicated OSA; whether you fly or work safely, which the FAA illustrates with not using a medication from its Do Not Issue or Do Not Fly list, such as trazodone or ropinirole, not using a sleep aid such as zolpidem or eszopiclone chronically, which the FAA defines as more than two times per week, and complying with no fly periods; whether current treatment is effective and well tolerated with no clinical concerns; and whether there is evidence of adequate compliance. If your physician writes a progress note instead, the FAA asks that it address all of the same items. Bring the completed report to your AME for upload into your FAA file."
   },
   {
     "cadenceRaw": "annual",
@@ -71,12 +70,12 @@
     "envelope": {
       "code": "si-dm2-a1c-report",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Diabetes Mellitus Treated with Any Medication Other Than Insulin",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med",
       "reviewStatus": "draft"
     },
-    "requirementText": "Recent laboratory results documenting your glycemic control (such as a hemoglobin A1c). The specific values and recency are set by the AME Guide and confirmed by your AME."
+    "requirementText": "A current hemoglobin A1C lab result. The FAA's protocol for diabetes treated with any medication other than insulin asks for a \"Current Hemoglobin A1C lab test performed no more than 90 days* prior to the AME exam (and 30 days after medication change)\", and adds \"*Note: This was previously 30 days.\" The FAA's own status report form states the same rule: the A1C \"must be taken more than 30 days after medication change and within 90 days of re/certification\". Both halves matter. A lab drawn less than 30 days after any change to your diabetes medication does not count, however recent it is. Note that the FAA's AASI page for this condition still words the physician letter alternative differently, as including \"a current HgA1c level performed within last 30 days.\" A result drawn within 30 days meets both versions."
   },
   {
     "cadenceRaw": "annual",
@@ -84,12 +83,12 @@
     "envelope": {
       "code": "si-dm2-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
       "reviewStatus": "draft"
     },
-    "requirementText": "A statement from your treating physician on your diabetes control, treatment, absence of hypoglycemic episodes, and any complications, as outlined in the AME Guide."
+    "requirementText": "The FAA gives you two ways to satisfy this and you provide one of them. Its AASI for this condition says an Examiner may reissue when you provide \"An Authorization granted by the FAA AND either\" a \"Diabetes or Hyperglycemia on Medications Status Report\" or \"A current status report from the physician treating the airman's diabetes\". The status report is a single page your provider fills in and signs, and the form itself notes that \"copies of this status report for future follow-ups can be found at www.faa.gov/go/diabetic.\" If your physician writes their own report instead, the AASI names three things it must include: \"A statement attesting that the airman is maintaining his or her diabetic diet\"; \"A statement regarding any diabetic symptomatology, including any history of hypoglycemic events and any cardiovascular, renal, neurologic, or ophthalmologic complications\"; and \"The results of a current HgA1c level performed within last 30 days.\" Read that second item closely: the FAA asks your physician to report any hypoglycemic events, not to certify that none occurred. Note also that the FAA's protocol describes this free text route more demandingly than the AASI does, as \"A current Detailed Clinical Progress Note from the treating physician, which contains the above information,\" where that information includes history of the condition, treatments and outcomes, current medications and side effects, physical exam findings, test results, diagnosis, assessment, plan and follow-up. The FAA's own status report form is the one route whose required contents are not in question. The protocol sets the interval: \"Follow-up evaluation by the treating physician is required annually\"."
   },
   {
     "cadenceRaw": "annual",
@@ -97,12 +96,12 @@
     "envelope": {
       "code": "si-dm2-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Acceptable Combinations of Diabetes Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your diabetes medications and doses, so the FAA can confirm the regimen and that you are not using insulin (which follows a separate protocol)."
+    "requirementText": "The FAA's status report asks your provider to \"List ALL current medications (for any condition)\", not only your diabetes medications, and to give the \"Date of most recent DIABETES MEDICATION change\". That date does more than fill a blank. It sets when your A1C can be drawn, and it starts a waiting period. The FAA's chart of Acceptable Combinations of Diabetes Medications publishes \"Observation times\" that run from a medication change, and the length depends on which group the drug falls in and on whether you are starting new therapy, adding to an established regimen, or switching dose or formulation within the same drug class. For the non-insulin medications this pathway covers, the published times run from 3 days to 60 days, so look up your own situation on the chart rather than assuming. The same chart says to \"Use no more than one medication from each group (A-F)\", counts each component of a fixed dose combination as an individual medication, and states that \"Up to 3 medications total are considered acceptable for routine treatment\". The protocol adds that \"The individual should not perform pilot or safety-related duties until required recovery periods have elapsed and the treating physician has consulted with the AME who issued the certificate, AMCD, or RFS and has determined that the condition is\" under control, stable, and presents no risk to aviation safety. Reissue under your Authorization depends on remaining \"on an acceptable oral medication therapy according to the chart\". If you have started insulin this pathway no longer applies, and the FAA's form says so at the top: \"If you take any type of insulin. STOP. Do not use this page.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -110,25 +109,25 @@
     "envelope": {
       "code": "si-ssri-stability-period",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47, Use of Antidepressant Medications (Antidepressant Protocol)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of a period of stability on a single, stable dose of an approved SSRI with no concerning side effects, as required by the FAA antidepressant decision pathway. The required length of stability is set by the policy and confirmed by your AME."
+    "requirementText": "The FAA sets this interval and states it plainly. Under Item 47 you may be considered only if, \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms.\" The medication must be one on the FAA's conditionally acceptable Antidepressant Medications list, used as a single agent and not in combination. Each provider who reports on you verifies the same fact independently: the HIMS AME Checklist for initial certification asks your HIMS AME, your board certified psychiatrist, and your prescribing physician if that person is not a psychiatrist, to each confirm you have been \"on the same medication at the same dose for a minimum of 3 months.\" If you have been on the medication for less than 3 months, the FAA instructs the examiner to advise you that 3 months of continuous use is required before a Special Issuance can be considered."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-ssri-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Certification Aid, SSRI Recertification/Follow Up Clearance",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A statement from your treating physician on your diagnosis, current treatment, stability, and absence of disqualifying symptoms, as outlined in the antidepressant policy."
+    "requirementText": "The FAA's interval for this report is every 6 months, not annual. Its certification aid for SSRI recertification lists the psychiatrist interim history report at \"Every 6 months or per Authorization Letter,\" and asks the report to cover: a summary of your clinical findings and how you are doing, any new symptoms or hospitalizations, whether a change in dose or medication occurred or is anticipated, any clinical concerns or changes in the treatment plan, whether the diagnosis has changed, the psychiatrist's agreement to notify the FAA immediately if your condition, dosage, or medication changes or the medication is stopped, and interval treatment records such as clinic or hospital notes. If the doctor who prescribes your medication is not a psychiatrist, the FAA requires items 2 through 7 of that same list from the prescribing physician in addition to the psychiatrist report. Reports have a shelf life: the FAA states that all reports must be current, \"within the last 90 days,\" for FAA purposes."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -136,12 +135,12 @@
     "envelope": {
       "code": "si-ssri-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A specialized evaluation (such as the neuropsychological/psychiatric assessment specified by the FAA antidepressant pathway). The exact battery and provider qualifications are set by the policy and confirmed by your AME / HIMS resources."
+    "requirementText": "Required for initial certification: a neuropsychological evaluation including CogScreen-AE. The FAA specifies who may perform it, \"a licensed clinical psychologist who is either board certified or 'board eligible' in clinical neuropsychology.\" The report must include a review of all available records, a thorough clinical interview and history, a mental status examination, interpretation of the testing, and an integrated summary with an explicit diagnostic statement. You submit the neuropsychologist's report, all computer score reports including the CogScreen-AE printout of roughly 13 pages, and an appended score summary sheet that includes all scores for all tests administered. The itemized test battery is not published. The FAA moved it to a secure site for test security, so your neuropsychologist requests access rather than you looking it up. For renewal the FAA changed this on 12/15/2022: the neuropsychologist report and routine CogScreen-AE administration \"are no longer necessary for RENEWAL of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter.\" Authorization letters written before that date may still ask for a CogScreen, and the FAA addresses that case in its published FAQ on the change."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -149,12 +148,12 @@
     "envelope": {
       "code": "si-cardiac-cardiology-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist summarizing the event, treatment, and recovery, as part of the FAA cardiac maintenance package. The specific contents are set by the AME Guide and confirmed by your AME and cardiologist."
+    "requirementText": "The FAA publishes the package for a first application after a coronary event in two documents: Protocol for Coronary Heart Disease 1st and 2nd Class and ATCS, and Protocol for Coronary Heart Disease (CHD) 3rd Class. Use the one for your class. Your AME must defer, and the package goes to the FAA. Item 2 in both is the cardiology narrative: \"A current evaluation by the cardiologist in the form of a detailed Clinical Progress Note.\" The FAA lists what it must include: a detailed summary of the history of any cardiac or co-morbid conditions; personal and family medical history including premature heart disease; current medications, dosage and side effects; clinical cardiac and general physical exam findings; results of any testing performed; diagnosis; assessment and plan; and prognosis and follow-up. It must also specifically include a summary of the events that led to the intervention or treatment, a statement on your functional capacity and whether you have been returned to regular activity, attempts to meet the guidelines for modifiable risk factors such as lipid levels, aspirin use, beta blocker use and smoking cessation per the American College of Cardiology and American Heart Association, and a prognosis for incapacitation. Timing matters. For first and second class the FAA sets a recovery period first (6 months after coronary artery bypass grafting, 3 months after a myocardial infarction, 3 months after a stent in any coronary artery including left main) and states \"Post-event testing should NOT be obtained until AFTER the recovery period.\" For third class the FAA states there is no mandatory recovery period per Public Law 114-190, but says you should be released by your treating physician before obtaining the evaluations. This narrative is one numbered item of several, and the FAA states that no consideration will be given until all the required data has been received. The third class protocol lists four items: hospital records, this narrative, labs performed no more than 90 days before the AME exam, and an exercise stress test with electrical tracings performed after the event and within 90 days of the exam. The first and second class protocol lists six: hospital records, this narrative, the same labs, a post-event radionuclide stress test with imaging (the FAA notes \"A Stress echo cannot take the place of the stress RS for 1st or 2nd class\"), a CAMI Limited Certificate Petition, which the FAA says \"should be submitted regardless of the answer chosen,\" and, for first class and full second class, a post-event heart catheterization with imaging."
   },
   {
     "cadenceRaw": "annual",
@@ -167,7 +166,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. A NO answer on that form does two things. It calls for another document, in the form's own words to you: \"If any 'NO*' responses or change in your condition(s), you must also submit a current, detailed Clinical Progress Note addressing ALL items.\" The same applies after a significant interval change, not only a NO. And it stops a reissue at the desk: \"The AME must defer medical certification if: Any item falls into the 'NO*' column on the Coronary Heart Disease (CHD)/ Coronary Artery Disease (CAD) Recertification Status Summary.\" The form repeats that in capitals: \"IF ANY ANSWER FALLS IN NO* COLUMN ABOVE OR THERE HAS BEEN SIGNIFICANT INTERVAL HISTORY CHANGE OR ANY CONCERNS, THE AME MUST DEFER.\" On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",
@@ -175,12 +174,12 @@
     "envelope": {
       "code": "si-cardiac-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your cardiac medications and doses, so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does not ask for a separate medication letter for coronary heart disease. Your medications go on the CHD/CAD Recertification Status Summary, on the line that reads \"Current medication list attached OR list all current therapy (medication and dose).\" Read that literally: it is all of your current therapy, not only your cardiac medications, and it asks for the dose. The form's first question is whether you are \"on guideline directed medical therapy\" in accordance with the reference the FAA names on the form, the 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease. Your cardiologist answers that question and signs the form. One medication item stands on its own: the FAA's AASI page lists \"Nitrate - Is placed on a long acting nitrate for any reason\" among the situations in which the AME must defer instead of reissuing. If this is a first application rather than a reissue, the same information belongs in the cardiology narrative, where the FAA asks for \"Current medications, dosage, and side effects (if any).\""
   },
   {
     "cadenceRaw": "annual",
@@ -188,12 +187,12 @@
     "envelope": {
       "code": "si-cardiac-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD), and General Information on Authorizations for Special Issuance",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "Periodic follow-up reporting on your cardiac status to maintain the Special Issuance. The reporting interval is set by the AME Guide and confirmed by your AME."
+    "requirementText": "The FAA does not publish a separate periodic follow-up report for coronary heart disease. Its published reissue list is two items: the Authorization granted by the FAA, and the CHD/CAD Recertification Status Summary completed within the past 90 days. What else you owe, and how often, comes from your own paperwork. The FAA states that \"The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" and it quotes the letter itself: \"as long as reports are submitted as outlined in your Authorization letter, certificates are issued correctly, and there have been no changes in your medical condition(s), no further correspondence will be sent from our office.\" So the attachments to your own Authorization letter are where your reporting interval and any items specific to you are written. Your Authorization also carries a specified validity period, and a certificate issued under it \"expires no later than the Authorization expiration date.\" Between exams, the AASI page lists what obliges your AME to defer rather than reissue: another event, a new condition, or an additional cardiac condition not previously reported; chest pain at any time, other than chest pain with a firm diagnosis of a non-cardiac cause; bleeding that required medical intervention; being placed on a long acting nitrate for any reason; inadequately controlled risk factors; or any other disqualifying condition or therapy not previously reported."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -201,12 +200,12 @@
     "envelope": {
       "code": "si-cad-pci-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "For a coronary stent the FAA publishes a recovery period, not a recurrence-free interval, and it runs from the date of your procedure rather than from a symptom-free stretch. In the Protocol for Coronary Heart Disease 1st and 2nd Class and ATCS, the FAA's recovery table sets 3 months for a \"Stent placed in any coronary artery including LEFT MAIN\" and 3 months for a myocardial infarction. The 6 month figure in that same table belongs to coronary bypass grafting, not to a stent. Timing matters for the rest of your package, because the protocol states: \"After the required recovery period, obtain the following and submit to the FAA. Post-event testing should NOT be obtained until AFTER the recovery period.\" For third class the FAA states the opposite in its Protocol for Coronary Heart Disease 3rd Class: \"There is NO mandatory recovery period per Public Law 114-190 5/2017, but the applicant should be released by the treating physician before obtaining the following evaluations.\" So what belongs here is your stent date, your certificate class, and your treating physician's release. If you already hold an Authorization, the attachments to your own Authorization letter state what your treating physicians must provide in your case."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -214,12 +213,12 @@
     "envelope": {
       "code": "si-cad-pci-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "At initial certification the FAA asks for a current evaluation by your cardiologist in the form of a detailed Clinical Progress Note. The Protocol for Coronary Heart Disease lists what it must contain: a detailed summary of the history of any cardiac or co-morbid conditions; personal and family medical history including premature heart disease; current medications, dosage and side effects; clinical cardiac and general physical exam findings; results of any testing performed; diagnosis; assessment and plan; and prognosis and follow-up. It must also specifically include a summary of the events that led to your stent, a statement on your functional capacity and whether you have been returned to your regular activity, your attempts to meet the guidelines for modifiable risk factors such as lipid levels, aspirin use, beta-blocker use and smoking cessation, and a prognosis for incapacitation. The same protocol lists the rest of the initial package alongside it, and the FAA states that no consideration will be given until all of the required data has been received, so it is worth treating the list as one package rather than a set of options. Hospital records: the admission history and physical, the operative report for the stent, the discharge summary from the physician, which the FAA specifically notes is not the discharge instructions handed to you when you left, and the coronary catheterization or ischemia work up if one was performed, submitted as both the printed report and the images on CD. Labs performed no more than 90 days before the AME exam: hemoglobin A1c, and a lipid profile with total cholesterol, HDL, LDL and triglycerides, plus monthly INR readings if you take warfarin. Post-event stress testing, which for first and second class is a radionuclide stress test with imaging, and the FAA states a stress echo cannot take its place, and for third class is an exercise stress test with electrical tracings within 90 days of the AME exam. For first and second class the FAA also lists a Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition, which tells the FAA whether you would accept a lower class of certificate, and the protocol says it should be submitted regardless of the answer you choose. First class and full second class also require a post-event heart catheterization with images. At reissue you do not send this narrative routinely. The FAA asks for it only if an item on the Recertification Status Summary falls in the NO column or your condition has changed."
   },
   {
     "cadenceRaw": "annual",
@@ -232,7 +231,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. A NO answer on that form does two things. It calls for another document, in the form's own words to you: \"If any 'NO*' responses or change in your condition(s), you must also submit a current, detailed Clinical Progress Note addressing ALL items.\" The same applies after a significant interval change, not only a NO. And it stops a reissue at the desk: \"The AME must defer medical certification if: Any item falls into the 'NO*' column on the Coronary Heart Disease (CHD)/ Coronary Artery Disease (CAD) Recertification Status Summary.\" The form repeats that in capitals: \"IF ANY ANSWER FALLS IN NO* COLUMN ABOVE OR THERE HAS BEEN SIGNIFICANT INTERVAL HISTORY CHANGE OR ANY CONCERNS, THE AME MUST DEFER.\" On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",
@@ -240,12 +239,12 @@
     "envelope": {
       "code": "si-cad-pci-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA collects your medications on the CHD/CAD Recertification Status Summary itself rather than as a separate letter. The form carries the line \"Current medication list attached OR list all current therapy (medication and dose)\", so either attach a current printed list or have your cardiologist write out each medication and its dose on the form. The FAA does not describe this as checking your regimen against an approved list. Question 1 on the form asks whether you are \"on guideline directed medical therapy in accordance with the above reference\", and the reference the form names is the 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease. One medication change stands on its own for certification. The FAA's AASI page for Coronary Heart Disease lists among the reasons an AME must defer: \"Nitrate - Is placed on a long acting nitrate for any reason.\" Question 5 on the form asks the same thing, whether you have been free of \"use of nitrates for any reason\" in the past year. At initial certification the same medication information goes inside the cardiology Clinical Progress Note, which the protocol requires to state \"Current medications, dosage, and side effects (if any).\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -253,12 +252,12 @@
     "envelope": {
       "code": "si-cabg-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA does not publish a recurrence-free interval for a coronary bypass. What it does publish is a recovery period that has to pass before it will look at your case. In its Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS, the recovery period table lists Coronary Artery Bypass Graft (CABG) at 6 months for first or second class pilots and 3 months for air traffic control specialists. That is longer than the 3 months the same table gives for a heart attack or for a stent, so bypass runs on its own clock. The protocol then says: \"Post-event testing should NOT be obtained until AFTER the recovery period.\" Schedule the stress test and any catheterization after that window closes, not during it. Third class is different. The Protocol for Coronary Heart Disease (CHD) 3rd Class says: \"There is NO mandatory recovery period per Public Law 114-190 5/2017, but the applicant should be released by the treating physician before obtaining the following evaluations.\" This is a one time step for your initial Authorization. Once you hold one, reissue runs on the CHD/CAD Recertification Status Summary instead."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -266,12 +265,12 @@
     "envelope": {
       "code": "si-cabg-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "The FAA calls this the Cardiology narrative, and it is specific about what goes in it. Its Protocol for Coronary Heart Disease asks for \"A current evaluation by the cardiologist in the form of a detailed Clinical Progress Note which must include\" a detailed summary of the history of any cardiac or co-morbid conditions, personal and family medical history including premature heart disease, current medications with dosage and side effects, clinical cardiac and general physical exam findings, results of any testing performed, diagnosis, assessment and plan, and prognosis and follow-up. The FAA then says it must specifically include a summary of the events that led to the bypass, \"A statement regarding the individual's functional capacity and if they have been returned to their regular activity,\" attempts to meet the guidelines for modifiable risk factors such as lipid levels, aspirin use, beta-blocker use and smoking cessation, and \"Prognosis for incapacitation.\" The same protocol asks for labs performed no more than 90 days before the AME exam: hemoglobin A1c, a lipid profile with total cholesterol, HDL, LDL and triglycerides, and monthly INR readings if you take warfarin. The narrative goes in alongside your hospital records, which include the operative report from the bypass. The FAA publishes this protocol in two versions, one for 1st and 2nd class and ATCS and one for 3rd class, and both carry the same narrative contents and the same 90 day labs in nearly identical words, so the note your cardiologist writes is the same either way. The two versions do not match on the rest of the package, and the post-event testing they name is not the same for every class, so read the version for the class you are applying for before booking anything. The FAA also says your Authorization letter \"is accompanied by attachments that specify the information that treating physician(s) must provide for the issuance determination,\" so once you hold an Authorization, its attachments are the controlling list. You are not asked for a fresh narrative every year. At reissue the FAA asks for a current, detailed Clinical Progress Note when an item on the Recertification Status Summary is answered NO or your condition has changed, and again if the FAA reviews your file and determines a stress test is required."
   },
   {
     "cadenceRaw": "annual",
@@ -284,7 +283,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd",
       "reviewStatus": "draft"
     },
-    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. If any item on the form is answered NO, the FAA also asks for a current, detailed Clinical Progress Note addressing all items. On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
+    "requirementText": "A Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary, completed, signed and dated by your cardiologist within the past 90 days. This is the form the FAA names for reissue, alongside your Authorization. It carries your blood pressure, LDL-C and A1c from labs collected no more than 90 days before your exam, plus your current medication list, and the FAA notes A1c must be submitted even if you have no diagnosis of diabetes. A NO answer on that form does two things. It calls for another document, in the form's own words to you: \"If any 'NO*' responses or change in your condition(s), you must also submit a current, detailed Clinical Progress Note addressing ALL items.\" The same applies after a significant interval change, not only a NO. And it stops a reissue at the desk: \"The AME must defer medical certification if: Any item falls into the 'NO*' column on the Coronary Heart Disease (CHD)/ Coronary Artery Disease (CAD) Recertification Status Summary.\" The form repeats that in capitals: \"IF ANY ANSWER FALLS IN NO* COLUMN ABOVE OR THERE HAS BEEN SIGNIFICANT INTERVAL HISTORY CHANGE OR ANY CONCERNS, THE AME MUST DEFER.\" On stress testing, the FAA's AASI page states: \"As of 05/29/24 - For routine cases, follow-up stress test is no longer required provided ALL items on the CHD/CAD Recertification Status Summary are in the 'YES' column.\""
   },
   {
     "cadenceRaw": "annual",
@@ -292,12 +291,12 @@
     "envelope": {
       "code": "si-cabg-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does ask for your medications, but not as a separate letter. The line is on the Coronary Heart Disease (CHD) / Coronary Artery Disease (CAD) Recertification Status Summary your cardiologist completes, signs and dates: \"Current medication list attached OR list all current therapy (medication and dose).\" What you take also feeds two of the questions on that same form. Question 1 asks \"Is the individual on guideline directed medical therapy in accordance with the above reference?\", and the reference the form names is the 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease. Question 5 asks your cardiologist to confirm you have been free of new events or procedures, bleeding which required intervention, \"or use of nitrates for any reason\" in the past year. Nitrates appear a second time outside the form: the FAA's CHD AASI page lists \"Nitrate - Is placed on a long acting nitrate for any reason\" among the situations in which the AME must defer rather than reissue. Having your current medications and doses written down before the appointment is what lets your cardiologist complete this section from a record instead of from memory."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -305,25 +304,25 @@
     "envelope": {
       "code": "si-afib-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "The FAA asks for a completed Non-Valvular Atrial Fibrillation (AFIB)/A-Flutter Status Summary plus \"a cardiologist evaluation that addresses all items on the status report.\" The form is linked from the FAA's AASI page for Atrial Fibrillation, and its instructions say: \"Please have the cardiologist who treats your AFib or A-Flutter complete, sign, and date this sheet or submit a current, detailed Clinical Progress Note that addresses ALL items below,\" then \"Return this sheet (or a current, Detailed Clinical Progress note from the cardiologist) AND a current cardiac monitor report to your AME for electronic upload to the FAA.\" Its eight items cover whether your condition worsened in the past year, any definitive or suspicious history of stroke, TIA, or other thromboembolic event, whether treatment is indicated and what it is, your CHA2DS2-VASc score, and any significant clinical history changes since your last evaluation."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-afib-monitoring",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
-    "requirementText": "Rhythm monitoring or other cardiac testing of the type and duration specified by the FAA for your situation."
+    "requirementText": "The FAA asks for \"a report of a minimum 24-hour cardiac monitor performed within last 90 days,\" and it is specific about what that report contains: the \"cardiac monitor report must be submitted, even if findings are normal, and should include 1-page computerized summary and the representative full-scale multi-lead ECG tracings.\" The 90 day window runs to the date of your exam, so the monitor has to be a current one, not the report from your last cycle. The status summary form asks your cardiologist to address any concerns if the average heart rate is above 100, the maximum non-exertional rate is above 120, or there is a single pause longer than 3 seconds. What the form does not say on its face is what a concern costs you. Those answers sit in a YES* column, and the form closes: \"IF ANY ANSWER FALLS IN YES* COLUMN ABOVE, THE AME MUST DEFER.\" The FAA's page lists the same thing among its deferral triggers: \"Cardiology interpretation indicates questionable or poor rate control. Average heart rate is > 100, maximum (non-exercise) is > 120, or a single pause is > 3 seconds.\" So the numbers are your cardiologist's prompt, and his answer is what decides whether your AME can reissue."
   },
   {
     "cadenceRaw": "annual",
@@ -331,12 +330,12 @@
     "envelope": {
       "code": "si-afib-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does not publish a general medication list requirement for atrial fibrillation. What it asks about is emboli mitigation. The status summary form records your CHA2DS2-VASc score and then asks, \"If CHA2DS2-VASc is 2 or more, is the patient treated with NOAC/DOAC, LAA closure, or warfarin (Jantoven)?\" The AASI page narrows that for reissue: \"Acceptable emboli mitigation under AASI authorization is anti-coagulation with either NOAC/DOAC/warfarin,\" and it tells the Examiner to defer to the FAA if you have had left atrial appendage (LAA) occlusion (Watchman) or excision. On warfarin the form says it \"requires 6 weeks of stabilization with 80% of INRs between 2.0 and 3.0. Submit a copy of the last 6 monthly INR values.\" At a score of 0 or 1, the FAA's emboli mitigation table says mitigation is \"usually not required for FAA purposes.\" The form also asks whether you are not tolerating the treatment or having significant side effects."
   },
   {
     "cadenceRaw": "annual",
@@ -344,12 +343,12 @@
     "envelope": {
       "code": "si-afib-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your atrial fibrillation, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "The FAA's reissue list for atrial fibrillation is three items: \"An Authorization granted by the FAA,\" the cardiac monitor report, and the status summary with a cardiologist evaluation. There is no separate treating physician letter beyond those. What the FAA says the data must verify is: \"No interval evidence or suspicion of stroke, TIA, or other thromboembolic event\"; \"Heart rate is well controlled on cardiac monitor by cardiologist interpretation\"; whether symptom, rate, or rhythm control is indicated and, if so, how it is managed; and, when the CHA2DS2-VASc score is 2 or higher, that emboli mitigation is in place without side effects. The FAA also asks about interval bleeding that required medical intervention and about any new cardiac condition. Your own Authorization letter carries attachments that \"specify the information that treating physician(s) must provide for the re-issuance determination,\" so read those attachments first. They are the list that governs your case."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -357,12 +356,12 @@
     "envelope": {
       "code": "si-pacemaker-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Initial Evaluation of Implanted Pacemaker",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA requires a wait after implantation before it will review your case: \"A 2-month recovery period is required after pacemaker implantation to allow for recovery and stabilization.\" The FAA's pacemaker disposition table adds that all testing must be performed after that 2-month period, so tests run too early will not count.\n\nWhat documents it is your hospital record set: admission summary and history and physical, operative report, discharge summary, any coronary catheterization or ischemia workup, and all ECG tracings. The FAA also requires the pacemaker's \"make of the generator and leads, model, and serial number.\"\n\nLater device work carries its own intervals. A lead replacement has a separate 2-month recovery period \"(to ensure lead stability),\" and the FAA notes that under 14 CFR 61.53 an airman who already holds a medical certificate and has a lead replaced \"should NOT fly\" until the FAA authorizes the Special Issuance. A battery or generator replacement has a 14-day recovery period, after which the cardiologist or AME verifies the pocket is healing well, you are off pain medications, and there are no complications. The FAA publishes the same 61.53 caution for that case: \"pilots who currently hold a medical certificate and have not yet met the above criteria, should NOT fly.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -370,12 +369,12 @@
     "envelope": {
       "code": "si-pacemaker-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Initial Evaluation of Implanted Pacemaker",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "The FAA asks for \"a typed narrative or clinical note from your cardiologist detailing your interim and current cardiac condition, functional capacity, medical history, and medications.\" For a pacemaker it must also address the device itself: \"Evaluation of pacemaker function, programmed pacemaker parameters, exclusion of myopotential inhibition and pacemaker induced hypotension (pacemaker syndrome), elective replacement indicator/end of life (ERI/EOL), and battery voltage.\"\n\nThe FAA's initial protocol lists four more items alongside that narrative, all dated after the 2-month recovery period:\n\nLab: hemoglobin A1c and a current blood lipid profile including total cholesterol, HDL, LDL, and triglycerides.\n\nCardiac monitor: a current Holter or similar evaluation over at least 24 consecutive hours with representative tracings, listing atrial and ventricular ectopic counts, hourly tabular data including the longest pause and counts of all pauses over 2.0 or 2.5 seconds, maximum and minimum heart rate with histograms and frequency graphs, and percentage of time in atrial fibrillation or flutter.\n\nEcho: a current M-mode, 2-dimensional echocardiogram with Doppler.\n\nStress test: a current maximal Graded Exercise Stress Test. If a radionuclide stress test or cardiac angiogram was performed, submit those images and reports too. The FAA warns that \"Due to poor image quality, Xeroxed or faxed images will not be accepted.\"\n\nOne thing the FAA has dropped: \"Evaluation of Pacemaker Dependency is no longer required for any class as of 08/25/2021.\""
   },
   {
     "cadenceRaw": "annual",
@@ -383,12 +382,12 @@
     "envelope": {
       "code": "si-pacemaker-device-check",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pacemaker Status Summary",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A pacemaker interrogation/device report at the interval specified by the FAA."
+    "requirementText": "The FAA does not publish a generic reissue checklist for a pacemaker. There is no pacemaker AASI page in either the all classes or the third class AME Assisted Special Issuance index, and every time the FAA's pacemaker disposition table addresses follow-up, it gives the same answer: \"Follow up Issuance Will be per the airman's authorization letter.\" Your Authorization letter and its attachments are your list. Work from that, not from a generic template.\n\nThe FAA does publish two things about follow-up. On duration: \"Routine medical certificate will be annually until there is less than 12 months until the Elective Replacement Interval (ERI). At that point, the aeromedical certification will terminate the month before the ERI.\" So as your device nears replacement, expect a certificate shorter than a year that ends the month before your ERI.\n\nOn the device data itself, the FAA publishes a Pacemaker Status Summary your cardiologist completes. It captures the date the pacer data was obtained, manufacturer and model, implant date, whether a defibrillator circuit is enabled, the ERI, pacer mode, current atrial and ventricular output in volts, current and previous atrial and ventricular impedance, whether the pacemaker has functioned normally with no significant abnormality in cardiac response for the past 6 months (the form directs that if a lead or generator was replaced, the answer is No), and whether any lead or generator has been recalled. The FAA says this form \"is NOT required; however, it will help to streamline and significantly DECREASE FAA review time,\" and that you submit either the summary or all supporting documentation addressing each item to your AME, who uploads it as \"Cardiac - Pacemaker Info.\"\n\nTwo model-specific notes appear in the same table and apply only to those models: the \"Medtronic EnRhythm Pacemaker is not acceptable for medical certification,\" and for the Medtronic REVO, \"Estimated battery longevity is required for recertification and we cannot issue without this specific piece of information,\" with battery voltage and RRT, ERI, or EOL flags expressly not acceptable substitutes."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -396,25 +395,25 @@
     "envelope": {
       "code": "si-valve-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Cardiac Valve Replacement",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA's Protocol for Cardiac Valve Replacement sets a post-operative waiting period, not a recurrence-free interval. A repaired or replaced valve cannot recur, so there is nothing of that kind to document. For first and second class the protocol states applicants \"must have a 6-month recovery period after procedure to ensure stabilization,\" and that they \"may be reviewed by the Federal Air Surgeon's (FAS) Cardiology Panel or FAS Cardiology Consultant.\" The protocol does not mention third class anywhere, so it sets no recovery period for third class; if that is your class, go by your treating physician and by your own FAA Authorization letter rather than assuming an interval in either direction. Your AME cannot issue your first certificate after valve surgery. The AME must defer the package to the FAA for the initial decision. For all classes the protocol lists six items in that initial package: hospital records (admission history and physical, discharge summary, pathology report, and the operative report with the valve make, model, serial number and size); a current report from your treating cardiologist on the status of the valve replacement; if you are on warfarin (Jantoven), your attending physician's confirmation of stability, with dose history, schedule and monthly INR values for the past six months; a current 24-hour Holter monitor with select representative tracings; a current M-mode, 2-dimensional and M-mode Doppler echocardiogram showing chamber dimensions and valvular gradients, on CD-ROM in DICOM format; and, if cardiac catheterization and coronary angiography have been performed, all reports and films. Ask for the operative report before you leave the hospital. The valve serial number is difficult to retrieve years later."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "annual",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-valve-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your cardiologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "At each reissue the FAA's AASI for Single Valve Replacement or Repair asks for a \"Status report\" that is \"performed within the past 90 days in accordance with the appropriate CHD Protocol (1st or 2nd Class; 3rd Class).\" So it is a report from your treating cardiologist dated inside the 90 days before your exam. The AASI does not spell out the contents beyond that reference. The section of the CHD Protocol that describes a status report is the cardiology narrative: \"A current evaluation by the cardiologist in the form of a detailed Clinical Progress Note\" covering cardiac and co-morbid history, family history, current medications with dosage and side effects, exam findings, results of any testing, diagnosis, assessment and plan, prognosis and follow-up, plus a statement on your functional capacity and return to regular activity and a prognosis for incapacitation. The Protocol for Cardiac Valve Replacement says all classes are \"usually followed at 12-month intervals\" and lists a \"Current clinical status report from your treating cardiologist.\" Your own Authorization letter and its attachments state the interval and the exact items the FAA wants from you; go by those."
   },
   {
     "cadenceRaw": "annual",
@@ -422,12 +421,12 @@
     "envelope": {
       "code": "si-valve-functional-test",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep",
       "reviewStatus": "draft"
     },
-    "requirementText": "Cardiac imaging/functional testing of the type specified by the FAA, at the required interval."
+    "requirementText": "The FAA's AASI for Single Valve Replacement or Repair names two tests for reissue. An ECG, \"Required annually.\" And an echocardiogram: \"Current 2D echocardiogram performed within 90 days.\" Book the echo inside the 90 days before your AME exam; one from earlier in the year will not satisfy it. The Protocol for Cardiac Valve Replacement lists the same two in its follow-up items and asks for the ECG as an \"actual LEGIBLE tracing,\" plus a \"Doppler echocardiogram report.\" Neither document lists a routine stress test for reissue. The protocol says only that a \"Holter and GXT may be required periodically, if clinically indicated.\" The AASI page also lists specific echocardiogram findings under which your AME may not reissue and must send the case to the FAA instead; that list is on the page cited here."
   },
   {
     "cadenceRaw": "annual",
@@ -435,25 +434,25 @@
     "envelope": {
       "code": "si-valve-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does not publish a generic medication list requirement for this condition. What it names is anticoagulation. For a mechanical valve, the AASI for Single Valve Replacement or Repair asks for \"A minimum of monthly International Normalized Ratio (INR) results for the immediate prior six months,\" which means the draws need to be happening every month across those six months, not assembled at the end. The Protocol for Cardiac Valve Replacement calls the same thing a warfarin (Jantoven) status report and says to \"Include dose; monthly INRs; any complications from treatment and subsequent actions taken.\" It applies only \"If used,\" so a tissue valve with no anticoagulation has no INR item. The AASI states the AME must defer if \"More than 20% of INR values are less than 2.5 or greater than 3.5,\" and adds that \"In select cases of a Bileaflet (St. Jude) valve in the aortic position, INR values between 2.0 and 3.0 may be accepted (check with FAA).\" Your other medications go in the cardiologist's status report, which per the CHD Protocol includes \"Current medications, dosage, and side effects (if any).\""
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "monthly",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm-insulin-glucose-data",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes Mellitus (Insulin-Treated) protocol",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Renewal Certificate Requirements",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Glucose-monitoring data (e.g., CGM or logs) covering the look-back period specified by the FAA protocol."
+    "requirementText": "Under the FAA's CGM protocol you stay on an FAA-qualifying real-time CGM and keep monthly data reports. The FAA's renewal sheet, in its 6-month block, says 'ITEM #3 Monthly CGM data reports for the previous 6 months' and 'Collect data for each month. Separate the data by month (e.g., Jan. 1-31, Feb. 1-28, March 1-31, etc.).' So pull a report every month and file the full 6-month set at each submission. Send the original digital reports in color when possible. Dexcom: Overview Report, Ambulatory Glucose Profile (AGP) Report, Alert Settings, and weekly overlays/graphs for each week of the month. Medtronic: Assessment & Progress Report plus weekly overlays/graphs. Other devices: a report showing estimated A1c or GMI, average glucose, coefficient of variation, standard deviation, time in range, sensor usage, and weekly overlays/graphs. The FAA adds that 'CGM Alarm Settings and Repeat Alarm Settings should be turned ON.' Third-class airmen who chose the non-CGM option instead carry a whole blood glucose measuring device with memory, and the treating physician reviews the record of daily blood glucose measurements and comments on the results. Your own Authorization letter still governs: the renewal sheet says that once you hold an Authorization you 'should submit the requirements specified in their Authorization Letter,' and calls the published list what is required 'in general.'"
   },
   {
     "cadenceRaw": "annual",
@@ -461,25 +460,25 @@
     "envelope": {
       "code": "si-dm-insulin-a1c",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes Mellitus (Insulin-Treated) protocol",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Certification Aid",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Recent hemoglobin A1c and related labs as specified by the protocol."
+    "requirementText": "Every 12 months the FAA's CGM renewal sheet requires 'ITEM #2 - Lab - Annual comprehensive panel.' The FAA's Certification Aid sets what that panel contains, drawn 'within the past 90 days': A1c from the last 90 days plus 'all prior values from the preceding 12 months'; CBC; lipids (total, LDL, HDL, cholesterol, and triglycerides); liver function tests; microalbumin or a spot urinary albumin-to-creatinine ratio; renal function (serum creatinine, BUN, eGFR); TSH; vitamin B12 when clinically indicated; and serum potassium when clinically indicated or when you take an ACE inhibitor, an ARB, or a diuretic. If you are third class on the non-CGM option instead, the FAA's Diabetes on Insulin Re-Certification Status Report has a table for four quarterly A1c values with dates, and states that 'A1c's must be done > 30 days after meds change and < 90 days of recertification.'"
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "quarterly",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm-insulin-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes Mellitus (Insulin-Treated) protocol",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Renewal Certificate Requirements",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your endocrinologist or treating physician, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "The FAA's CGM renewal sheet requires 'Every 3 months, a comprehensive endocrinology clinical examination,' and adds that 'Every 6-month visit must be in-person and performed by your endocrinologist.' The visits in between may be in person or virtual at the endocrinologist's discretion, and may be done by a physician assistant or nurse practitioner associated with your endocrinologist. What you submit is the actual record, not a summary. The FAA states: 'A letter from your endocrinologist is NOT sufficient and cannot substitute for a current detailed Clinical Progress Note.' The note should cover the history of the condition, current medications with dosages and any side effects, clinical exam findings, a 'comprehensive foot exam (e.g., visual inspection, sensation, 10-g monofilament exam, etc.)', results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. If additional visits occur, send those clinic records to the FAA as well. On the non-CGM third-class option the treating physician evaluates you at 3-month intervals with a general physical examination, a review of the interval medical history and a glycosylated hemoglobin test, and 'the results of these quarterly evaluations must be accumulated and submitted annually unless there has been a change.'"
   },
   {
     "cadenceRaw": "annual",
@@ -487,51 +486,51 @@
     "envelope": {
       "code": "si-dm-insulin-no-hypoglycemia",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Diabetes Mellitus (Insulin-Treated) protocol",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Disease Protocols, Insulin Treated Diabetes Mellitus",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation addressing the absence of disqualifying hypoglycemic events, as required by the protocol."
+    "requirementText": "The FAA does not publish a standalone 'no hypoglycemia' letter for insulin-treated diabetes. Under the CGM option it is covered inside your endocrinologist's clinical progress note: the FAA's Certification Aid requires that note to address 'Any symptomatic episodes in the past 12 months requiring treatment or assistance by another individual, with comment on timing, awareness, frequency, causes, and treatment,' plus 'Sustained episodes, e.g., CGM/FSBG values below 70 mg/dL for over 30 minutes or below 54 mg/dL for over 15 minutes.' On the non-CGM third-class option, the FAA's Diabetes on Insulin Re-Certification Status Report puts it to your provider as a yes/no item: 'ANY episode of hypoglycemia in the past year REQUIRING ASSISTANCE from another person,' and the form says that if any answer is yes, 'please attach narrative, tests, etc.' Separate from the yearly paperwork, the FAA's non-CGM third-class re-certification page says you 'must report to the FAA immediately any hypoglycemic incidents' and that 'With any of these occurrences, the individual must cease flying until cleared by the FAA.'"
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-thyroid-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
-    "requirementText": "Recent thyroid function labs demonstrating stability, as specified by the AME Guide."
+    "requirementText": "The FAA sets this on its AASI page for your specific thyroid condition. For hypothyroidism it asks for \"A statement regarding the current thyroid stimulating hormone (TSH) level performed within last 90 days.\" For hyperthyroidism it asks for \"Current thyroid function studies performed within last 90 days.\" Either way the FAA ties the lab to a 90 day window before your AME exam, so schedule the draw close to the appointment rather than early in the year. The FAA also tells the examiner to defer instead of reissuing if \"The TSH level is elevated\" (hypothyroidism) or if \"The thyroid function studies are elevated, suggesting inadequate treatment\" (hyperthyroidism)."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-thyroid-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA's wording is \"The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects.\" The same sentence appears on both the Hypothyroidism and the Hyperthyroidism AASI page. The comment on side effects is part of what the FAA asks for, so a bare list of drug names and doses is less than the page requires. Under an AASI your examiner uses these items at the exam to reissue under your existing Authorization. The FAA does not describe this as a review of whether your regimen is acceptable."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-thyroid-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your thyroid condition, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "For hypothyroidism the FAA asks for \"A statement regarding any other associated problems, such as cardiac or visual.\" For hyperthyroidism it asks for a \"current statement of the condition since last FAA medical examination.\" Neither AASI page sets a stability period or a recurrence free interval for thyroid disease. Your own Authorization letter is the controlling list: the FAA states the letter \"is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination.\" Bring those attachments to the appointment and give them to your treating physician."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -539,38 +538,38 @@
     "envelope": {
       "code": "si-stroke-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Stroke (CVA) or Transient Ischemic Attack (TIA) disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA sets a recovery period that runs from the date of injury or event, not a recurrence-free interval. Its table states: \"Cortical stroke or TIA: 2-year recovery\" and \"Sub-cortical stroke: 1-year recovery.\" It adds that if the specific cause of a TIA or subcortical stroke is known and corrected, for example a high-grade carotid stenosis fully treated or a PFO with a known acute venous clot fully treated, \"these may be considered on a case-by-case basis sooner than one year,\" while \"Cortical strokes typically require a 2-year recovery period, regardless of cause.\" Your event date and your stroke type come from the hospital record, so request it early. The FAA lists what it wants from the hospitalization: the admission History and Physical; the hospital discharge summary; the Emergency Medical Services or ambulance run sheet, if applicable; hospital consultant reports; lab reports; operative or procedure reports, if applicable; and the interpretive radiology report for every imaging study performed. It warns that patient portal notes or an after visit summary printed from an electronic medical record \"are NOT sufficient for pilot medical certification purposes,\" and it says do not submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "annual",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-stroke-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Cerebrovascular Disease (CVA/Stroke/TIA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "Once you hold an Authorization this is an annual item. The FAA's AASI requires an \"Annual current, detailed Clinical Progress Note generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.\" It must include \"a detailed interim summary; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up,\" and it must \"specifically describe if there has been any change in symptoms, exam findings, or control of risk factors.\" Book the neurology visit first and the AME exam second, so the note stays inside that 90 day window. For a first application, before any Authorization exists, the FAA instead requires \"a detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation,\" also from a visit within 90 days. That specification sheet requires a neurologist holding current board certification from the American Board of Psychiatry and Neurology or an equivalent authority, and a mental status screen using the MoCA, the Kokmen Short Test of Mental Status, or SLUMS. It states the Folstein MMSE \"is NOT acceptable,\" and that an evaluation which does not meet its criteria will \"cause a delay in the processing of your medical application.\" The FAA recommends sharing all pages of that specification sheet with your neurologist."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-stroke-imaging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Stroke (CVA) or Transient Ischemic Attack (TIA) disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Brain imaging and any vascular work-up specified by the FAA."
+    "requirementText": "The FAA requires one imaging study for this condition, a brain MRI. For a first application it must have been \"performed within the previous 12 months,\" and the FAA notes that \"New imaging may be required after FAA physician review.\" Once you hold an Authorization, the AASI requires a \"Brain MRI (report with comparison to prior studies) every 24-months,\" so ask the radiologist to compare against your earlier scans rather than reading the new one on its own. Send the interpretive report on paper and the images on a CD in DICOM readable format, and note the FAA's specific instruction that there must be a file named DICOMDIR in the root directory of the CD-ROM. The FAA asks you to verify the CD displays the images before sending, and to retain a copy of all films \"as a safeguard if lost in the mail.\" Send copies of imaging you have already had, \"such as CT, MRI, MRA, or other radiological tests,\" rather than repeating those studies. For tests you have not had, the FAA publishes an optional list that includes carotid ultrasound, echocardiogram, stress test and Holter monitor, and says \"New testing should not be obtained for aeromedical purposes until requested by FAA physicians.\" It also notes that a carotid ultrasound \"is NOT acceptable in place of an MRA or CTA.\" Read that gate narrowly. It covers that optional list and the case-by-case items such as neuropsychological testing. It does not cover what the FAA requires up front, which includes the cardiac monitoring it asks for after a TIA or a cryptogenic stroke."
   },
   {
     "cadenceRaw": "annual",
@@ -578,12 +577,12 @@
     "envelope": {
       "code": "si-stroke-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Cerebrovascular Disease (CVA/Stroke/TIA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does not ask you for a standalone medication list for this condition. It asks that your medications appear inside the neurologist's note. The AASI states that the annual note must include \"current medications, dosage, and side effects (if any).\" For a first application the FAA Specifications for Neurologic Evaluation ask the neurologist to \"include all herbal, over-the-counter, and/or prescription medications,\" to document \"the name, dosage, frequency, reason for use, and side effects,\" to note the date and reason for anything \"recently started, stopped, or changed,\" and to note any drug allergies. So the practical step is to bring your own current list, including over-the-counter and herbal products, to the neurology appointment, because the note is what your AME reads. If you already hold an Authorization, its attachments \"specify the information that treating physician(s) must provide for the re-issuance determination,\" so check your own letter against this."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -591,12 +590,12 @@
     "envelope": {
       "code": "si-seizure-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Seizure and Epilepsy disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA publishes a different recovery interval for each seizure pathway, so start by identifying which one applies to you. From the FAA's Seizures and Epilepsy disposition table: single seizure provoked by a known cause that has been corrected, \"After a One (1)-year recovery period, submit the following for FAA review,\" with the note \"In some cases, a longer recovery period will be required based on the underlying cause.\" The FAA routes two causes out of that row entirely: \"If due to TBI or post concussive seizure - see that section\" and \"If due to drug or alcohol withdrawal - see D&A section.\" Both of those read in plain English as a corrected known cause, so check them before you count a year. Single seizure event UNPROVOKED, or a complex febrile seizure, \"After a four (4)-year recovery period and the last two (2) years must be without anticonvulsant medication.\" Epilepsy by history, \"Seizure-free for ten (10) years AND Off medication for the last 3 years.\" SeLECTS, also called Rolandic or Benign Rolandic Epilepsy, BECTS or CECTS, \"Seizure-free for four (4) years AND Off medication for the last two (2) years.\" The FAA adds: \"If 2 or more seizures in a lifetime, from any cause, go to the Epilepsy section.\" Alongside the interval, the FAA requires the \"FAA Airman Seizure Questionnaire completed by the applicant,\" which is printed inside the same PDF. The FAA does not list seizure or epilepsy on its AASI page, so it publishes no standing reissue checklist for this condition; it states that the Authorization letter \"is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" so work from your own Authorization attachments at each renewal."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -604,12 +603,12 @@
     "envelope": {
       "code": "si-seizure-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Seizure and Epilepsy disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "A current, detailed neurological evaluation that meets the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with your treating neurologist \"no more than 90 days before the AME exam.\" For epilepsy the FAA names the treating neurologist \"(epileptologist preferred).\" The FAA requires that the evaluation \"must specifically include the date of last seizure activity and dates medication(s) discontinued.\" The specification sheet adds that the neurologist must hold \"a current board certification by the American Board of Psychiatry and Neurology or equivalent accrediting authority,\" and that the report must cover a detailed chronological history of the condition, all herbal, over-the-counter and prescription medications with name, dosage, frequency, reason for use and side effects, a comprehensive neurological exam including a mental status screen using the MoCA, Kokmen Short Test of Mental Status or SLUMS (the FAA states \"The Folstein Mini Mental Status Examination (MMSE) is NOT acceptable\"), diagnosis and etiology, the treatment plan, and the neurologist's opinion on the potential for sudden or subtle incapacitation. The FAA tells the airman directly: \"we strongly recommend that you share all pages of this specification sheet with your neurologist.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -617,12 +616,12 @@
     "envelope": {
       "code": "si-seizure-eeg",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Seizure and Epilepsy disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "EEG and any other testing specified by the FAA protocol."
+    "requirementText": "Two studies, both named by the FAA. EEG: \"performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light).\" For epilepsy the FAA adds \"A 24-hour EEG study is preferred.\" If one has not already been done, a current EEG is required, and the FAA asks you to \"Submit any previous EEG(s) available for comparison.\" Submit both the interpretive report on paper and a copy of the EEG recording on CD \"with proprietary opening software that is compatible with Windows 10.\" Brain MRI: \"MRI brain performed at any time after the seizure activity started,\" and \"If not already performed, a current brain MRI is required.\" Submit both the interpretive report on paper and the imaging on CD in DICOM readable format, which the FAA specifies means \"there must be a file named 'DICOMDIR' in the root directory of the CD-ROM.\" The FAA advises verifying the CD will display the images before sending, and retaining a copy in case it is lost in the mail."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -630,12 +629,12 @@
     "envelope": {
       "code": "si-tbi-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Head Injury or Brain Injury disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA sets a recovery period that runs from the date of injury, not a recurrence-free interval. A brain injury is an event, not something that recurs, so there is no symptom-free clock to run here. The interval is published and tiered by severity in the FAA's Head Injury or Brain Injury disposition table (updated 12/03/2025). Read that table yourself before you count days. Which row you are in turns on details a summary cannot carry.\n\nMild brain injury or concussion within the past 5 years, with loss of consciousness, alteration of consciousness and post-traumatic amnesia all less than 1 hour, and no seizure (Row B2): \"After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review.\" The FAA closes this row with a note: \"If any abnormalities noted, go to Row C.\" Two more notes sit in the same cell and both move you out of Row B2 entirely: \"High impact/penetrating injuries (e.g., gunshot or severe trauma) may present with few or no concussive symptoms. For high impact injuries, see Row D\" and \"Do NOT use this row if the individual had any items listed in Row C or D (e.g., brain injury, seizure, skull fracture).\" Row B2 is a 6-month recovery period and Row D is five years, so this is not a detail. The same cell carries an exception in the other direction: \"Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed using Row B criteria.\" A seizure at the moment of impact does not by itself put you out of Row B. And the note turns on whether your injury meets the Row C or Row D criteria, not on the example words in the parentheses.\n\nModerate brain injury (Row C), meaning any of those lasting 1 to 24 hours, a non-depressed skull fracture, a small parafalcine or tentorial subdural hematoma resolved by MRI, or a small subarachnoid hemorrhage resolved by MRI: \"After a 12-month recovery period obtain the following evaluation(s) and submit for FAA review.\" The FAA qualifies the row: \"Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin deposition, go to Row D.\"\n\nSevere brain injury (Row D), meaning blood in the brain (brain contusion, intracranial bleed, any hematoma including epidural or subdural, or diffuse axonal injury), a depressed skull fracture, a penetrating head injury, or any of those lasting 24 hours or more: \"After a five (5)-year recovery period submit for FAA review: All items in Row C.\"\n\nThe FAA states one exception, for a small parafalcine or tentorial subdural hematoma: \"If asymptomatic and MRI 3-6 months after the injury shows complete resolution, FAA may consider after a 6-month recovery period. Submit the Evaluation Data in this row after the recovery period.\" The shorter wait does not shorten the package. It is still Row C's.\n\nNot every head injury leads to a Special Issuance. The same table lets an AME issue at the exam for a head injury with no brain injury, no concussion and no neurological symptoms (Row A), and for a mild brain injury 5 or more years ago with no seizure and no positive answers on the Brain Injury Decision Tool (Row B1).\n\nOne more thing worth knowing. The FAA does not publish a reissue or annual interval for this condition. There is no Special Issuance (AASI) page for head or brain injury on either the All Classes or the Third-Class list, no Disease Protocol for it, and the disposition table says nothing about what happens once an Authorization is granted. Anything you owe the FAA after that comes from the attachments to your own Authorization letter. Record your date of injury so you can see which row applies and when the clock is up."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -643,12 +642,12 @@
     "envelope": {
       "code": "si-tbi-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Head Injury or Brain Injury disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your neurologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "What the FAA asks for depends on how severe the injury was, and the two documents are not interchangeable.\n\nMild brain injury or concussion within the past 5 years (Row B2): \"A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam.\" A neurologist is not required at this tier, and the FAA does not ask for a formal neurological evaluation here. The note must include a detailed history of the condition, current medications with dosage and side effects, physical exam findings, results of any testing, diagnosis, assessment and plan, and follow-up. It must specifically address any evidence of seizure, any post-traumatic amnesia or mental fogginess, any post-concussive symptoms such as headache, dizziness or irritability, any change in vision, any focal deficit, and any imaging performed.\n\nModerate or severe brain injury (Rows C and D): \"A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.\" That specification sheet requires a board-certified neurologist, requires the evaluation be \"performed within the last 90 days\", and lists an evaluation that does not meet its criteria under \"The following will cause a delay in the processing of your medical application.\" It speaks to the pilot directly: \"we strongly recommend that you share all pages of this specification sheet with your neurologist.\"\n\nThe evaluation is not the whole package. At every deferral tier the FAA also requires records from any hospitalization for the injury, including the admission history and physical, discharge summary, consultant and operative reports, radiology interpretive reports with images on CD in DICOM format, labs including any drug or alcohol testing, and the EMS run sheet. The FAA notes that a patient portal note or After Visit Summary is typically not sufficient. At Rows C and D it also requires an MRI of the brain with hemosiderin-sensitive sequences. Work from the FAA's table itself, not from this one item."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -656,12 +655,12 @@
     "envelope": {
       "code": "si-tbi-neuropsych",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Neuropsychological testing if specified by the FAA for your case."
+    "requirementText": "The FAA does not leave this to case-by-case instruction. Its Head Injury or Brain Injury table requires it at the moderate and severe tiers, and does not list it at all for a mild injury (Row B2). Rows C and D: \"A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.\"\n\nThose specifications say the evaluation \"should be conducted by a qualified neuropsychologist with additional training in aviation-specific topics,\" and the FAA publishes an FAA Neuropsychologist List of providers \"who meet all FAA quality criteria.\" Before the appointment, make your records available to the neuropsychologist, including a complete copy of your FAA medical records, which you request using FAA Form 8065-2.\n\nThe report must cover a review of all available records, a thorough clinical interview, a mental status examination, and interpretation of a full test battery. It must be submitted with \"Copies of all computer score reports\" and \"An appended score summary sheet that includes all scores for all tests administered,\" using pilot norms where they exist. The FAA states: \"The FAA will not proceed with a review of the test findings without the above data.\"\n\nTwo practical notes. The core test battery is held on a secure FAA portal for authorized professionals only, so your neuropsychologist obtains it from the FAA rather than you looking it up. And if you have this evaluation, the FAA Specifications for Neurologic Evaluation say the neurologist's separate mental status screening is not required \"if a current comprehensive neuropsychological assessment has been performed,\" as long as the neuropsychological report and testing scores are submitted."
   },
   {
     "cadenceRaw": "annual",
@@ -669,12 +668,12 @@
     "envelope": {
       "code": "si-migraine-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your migraine, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "At reissue the FAA asks for two statements about your headaches, in its own words: \"A statement regarding the frequency of headaches and/or other associated symptoms since last followup report\" and \"A statement regarding if the characteristics of the headaches changed.\" Bring your FAA Authorization letter as well, which is the first item on the FAA's list. The only other published item is your medications with doses and side effects, which this checklist lists separately. The FAA publishes no headache-free interval, no brain imaging and no neurological evaluation for reissue, so the attachments to your own Authorization letter are what tell your treating physician exactly what to write. It does publish a deferral trigger keyed to the very statement above: \"The Examiner should defer to the AMCD or Region if: The frequency of headaches and/or other symptoms increase since the last followup report; or The applicant is placed on medication(s), such as isometheptene mucate, narcotic analgesic, tramadol, tricyclic-antidepressant medication, etc.\" The FAA says \"should defer\" here, not \"must.\""
   },
   {
     "cadenceRaw": "annual",
@@ -682,12 +681,12 @@
     "envelope": {
       "code": "si-migraine-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA asks for \"The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects.\" That covers both what you take to prevent headaches and what you take to stop one, with doses, and it asks for a comment on side effects. Your examiner can reissue at the exam under your existing Authorization, but the paperwork does not stop with him: the FAA states that \"AAM will continue to review AASI documents after an AME issues.\" The FAA also tells the examiner to defer if \"The applicant is placed on medication(s), such as isometheptene mucate, narcotic analgesic, tramadol, tricyclic-antidepressant medication, etc.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -695,25 +694,25 @@
     "envelope": {
       "code": "si-hims-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Psychiatric and Neuropsychological Evaluations for Substance Abuse/Dependence",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/saspec",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your HIMS AME / treating provider, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "At your first Special Issuance the FAA requires two separate specialist reports, not one. Its specification says separate evaluations and reports are required from both a qualified psychiatrist and a qualified clinical psychologist. The psychiatrist must be board certified by the American Board of Psychiatry and Neurology or the American Board of Osteopathic Neurology and Psychiatry, and must either be board certified in Addiction Psychiatry or have completed HIMS training. The neuropsychologist must be on the FAA Neuropsychologist List, and that report must include CogScreen-Aeromedical Edition results, all computer score reports, and a score summary sheet for every test given. The FAA's recertification documents do not list a repeat neuropsychological evaluation, so expect another one only if your Authorization letter asks for it. Every report in the package must be current within the last 90 days."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-monitoring",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Ongoing monitoring documentation (e.g., testing and program participation) as required by the HIMS protocol."
+    "requirementText": "Your reissue reaches the FAA as one package that your HIMS AME assembles. The recertification checklist tells the AME to submit the signed and dated checklist plus the supporting documentation reviewed to complete it, including the HIMS AME's written report, \"within 14 days\" to the Aerospace Medical Certification Division, AAM-313, at CAMI in Oklahoma City. If you fly for an airline that has a HIMS Chairman, first and second class cases go electronically through Huddle with a HIMS Data Sheet, because the FAA stopped accepting paper for those cases after January 1, 2023. All other drug and alcohol cases go to AMCD by mail. Anything beyond the standard items is \"required ONLY when specified by the Authorization letter,\" so read your letter and get those reports to your AME too. The FAA warns that a package missing an item delays the decision."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -721,12 +720,12 @@
     "envelope": {
       "code": "si-hims-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pilot Information, HIMS Step Down Plan",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMSPilotStepDownPlan.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the sobriety/stability interval required by the HIMS protocol before and during certification."
+    "requirementText": "The FAA does not publish a sobriety interval you must reach before a HIMS Special Issuance is granted. The dates that apply to you are in your Authorization letter. What the FAA does publish is this. The regulation says substance dependence is disqualifying \"except where there is established clinical evidence, satisfactory to the Federal Air Surgeon, of recovery, including sustained total abstinence from the substance(s) for not less than the preceding 2 years,\" which is the standard for qualifying without a Special Issuance. The pilot Step Down Plan says \"Permanent abstinence from mind and mood altering substances is required for the duration of the flying career.\" Your monitoring clock, which the FAA calls Time in Phase, starts on the date your initial Special Issuance is authorized, and if you relapse or an authorization is withdrawn at any time it resets to the date of the most recent Authorization letter."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -734,12 +733,12 @@
     "envelope": {
       "code": "si-adhd-med-free",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Psychiatric (ADHD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, ADHD Disposition Table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_disposition_table.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the medication-free interval the FAA requires, if applicable."
+    "requirementText": "If you have stopped ADHD medication, the FAA's interval is 90 days. Its ADHD disposition table states you \"must be off the medication(s) for 90 days before testing and evaluation,\" and the pilot-facing Standard Track sheet repeats that you \"must have discontinued ADHD medication at least 90 days prior to testing.\" Schedule the neuropsychological evaluation so it falls after that 90th day. If you are currently taking ADHD medication, or stopped within the past 90 days, the FAA places you in a defer row and asks for one document: \"the most recent detailed, clinical progress note from the prescribing physician which identifies the diagnosis and treatment plan.\" Ask for that actual clinical note, not a patient portal after-visit summary. The FAA counts any use inside this window, including as-needed (PRN) use and medication prescribed for a non-ADHD reason. Whether the medication can be safely discontinued is your treating physician's decision."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -747,12 +746,12 @@
     "envelope": {
       "code": "si-adhd-neuropsych",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Psychiatric (ADHD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Standard Track FAA ADHD Evaluation, General Information for Pilots and ATCS",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Cognitive / neuropsychological testing as specified by the FAA."
+    "requirementText": "Which testing you need depends on your track. If you have had no ADHD symptoms, treatment, medication or instability in the past four years and no other psychiatric diagnosis, current or historical, the FAA's Fast Track is a records review and clinical interview with no test battery (the FAA allows one exception, for anxiety, depression and related conditions that qualify for their own Fast Track pathway). Testing can still be added: the FAA lists a battery as required if a clear determination cannot be reached on the Fast Track, if your AME or the evaluator has concerns, or if the FAA requests it. Otherwise you are on the Standard Track, where the FAA states the \"evaluation and testing must be performed IN-PERSON by a HIMS neuropsychologist within 90 days of the AME exam.\" The FAA does not publish the test list. It states the \"testing specifications required by the FAA are listed on an FAA secure site used by professionals with training regarding the specifications,\" so your HIMS neuropsychologist obtains them directly and there is no public battery for you to look up. Standard Track testing also requires a drug screen, and the timing is unforgiving: \"complete a urinalysis for amphetamines and methylphenidate within 24 hours after completing testing.\" Set the lab order up before your testing day. The FAA tells pilots to \"verify if the evaluating HIMS Neuropsychologist has the ability to order the urinalysis,\" because that varies by state, and if not to \"coordinate with your AME or your primary care physician to order the laboratory test.\" Order both tests, because the FAA warns \"they are two different tests/different test batteries,\" and get the lab paperwork itself, because \"actual laboratory results are required (not clinical summary of results)\" and \"testing data cannot be used without the supporting urinalysis.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -760,12 +759,12 @@
     "envelope": {
       "code": "si-adhd-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Psychiatric (ADHD)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA ADHD Document Checklist",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_document_checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your treating provider, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "This is the evaluator's report, and the FAA is specific about who writes it and what must reach them first. On the Fast Track the evaluator is a \"doctoral level (PhD or PsyD) psychologist or neuropsychologist with training and experience in the evaluation of ADHD.\" On the Standard Track it must be an FAA HIMS Neuropsychologist. The FAA's ADHD Document Checklist lists what you send that evaluator before the appointment: pharmacy records within the last four years; medical records for the ADHD diagnosis and treatment; records from any psychiatrist, psychologist, therapist, school counselor, education specialist or teacher, speech therapist or occupational therapist; records for any non-ADHD condition treated with an ADHD medication; driver's license records from every state that licensed you in the past four years; academic records including all transcripts through your highest grade or degree, any Section 504 Plan, any IEP and any record of academic or occupational accommodations; and a personal statement, \"typed, signed, and dated,\" covering every item on the FAA ADHD Personal Statement Guidelines. The FAA adds: \"make a copy of all the records above as you will also need to bring a copy to your AME to upload into your FAA record.\" The report itself \"must be performed within 90 days of the AME exam.\" If the evaluator asks for your entire FAA medical file, FAA Form 8065-2 has the agency send those records directly to the psychologist or neuropsychologist. On the Fast Track, also ask the evaluator to complete the FAA ADHD Summary form; the FAA says it is \"NOT required, however, it will help to streamline and significantly DECREASE FAA review time.\" Read that against the disposition table, because leaving it out changes which row you are in rather than just how fast the mail moves. Row A is the ISSUE row, and its own note reads: \"If FAA ADHD Summary is not provided, any 'YES' answers, any AME concerns, or unable to verify history, go to Row B.\" Row B is DEFER, and it \"requires HIMS neuropsychology evaluation and testing\" completed \"in person by a HIMS neuropsychologist.\" The FAA's Fast Track sheet also tells you to coordinate with your AME so everything is uploaded to the FAA within 14 days, and warns that \"partial or incomplete packages will NOT be reviewed and will cause a DELAY.\""
   },
   {
     "cadenceRaw": "annual",
@@ -773,12 +772,12 @@
     "envelope": {
       "code": "si-asthma-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your asthma, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "A current medical status report on your asthma from your treating physician. The FAA's AASI protocol for asthma names what it has to cover: your current medical status \"that addresses frequency of attacks and whether the attacks have resulted in emergency room visits or hospitalizations.\" Make sure the report speaks to both of those directly, the frequency and the emergency room or hospital history. Your Authorization letter also comes with attachments that specify what your treating physician must provide for the reissue determination, so check the report against those. Separately, the same protocol reminds your Examiner to caution you to cease flying with any exacerbation, as warned in 14 CFR 61.53."
   },
   {
     "cadenceRaw": "annual",
@@ -786,25 +785,25 @@
     "envelope": {
       "code": "si-asthma-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The name and dosage of every asthma medication you take, covering both what you use to treat an attack and what you take to prevent one, together with your physician's comment on side effects. The FAA's wording is \"the name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects.\" Two parts of that are easy to miss: preventive or maintenance inhalers count even though you do not reach for them during an attack, and the comment on side effects is part of the item rather than an optional extra. You bring this to your Examiner, and a reissue at the desk is conditional rather than automatic: \"Examiners may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following.\" Two of the FAA's own deferral triggers turn on what is in this list, so they are worth knowing before your exam. The FAA states: \"The Examiner must defer to the AMCD or Region if: The symptoms worsen; There has been an increase in frequency of emergency room, hospital, or outpatient visits; The FEV1 is less than 70% predicted value; The applicant requires 3 or more medications for stabilization; or The applicant is taking steroids doses equivalent to more than 20mg of prednisone per day,\" and it links a steroid conversion calculator for that last one. Note the FAA's trigger is three or more medications that the applicant \"requires ... for stabilization,\" which is your physician's clinical judgment rather than a tally you do yourself from this list."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-asthma-pft",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Asthma",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma",
       "reviewStatus": "draft"
     },
-    "requirementText": "Pulmonary function testing if specified by the AME Guide for your case."
+    "requirementText": "Pulmonary function testing results, but only when they are actually called for. The FAA lists this among the items you provide at reissue as \"Results of pulmonary function testing, if deemed necessary,\" so it is not an automatic test. What the FAA is specific about is recency: when the testing is needed, it asks for results performed within the last 90 days, so an older test already sitting in your file will not cover it. Worth asking your Examiner ahead of your exam whether they need one this time, because a 90 day window means it has to be scheduled close to the appointment."
   },
   {
     "cadenceRaw": "annual",
@@ -812,12 +811,12 @@
     "envelope": {
       "code": "si-copd-pft",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
       "reviewStatus": "draft"
     },
-    "requirementText": "Pulmonary function testing (and oxygenation assessment if specified) per the AME Guide."
+    "requirementText": "Bring two test results, both performed no more than 90 days before your AME exam: a Pulmonary Function Test (PFT) and a 6-Minute Walk Test (6MWT). Attach copies of both. The FAA's stated PFT threshold is a post-bronchodilator FEV1 greater than 60 percent predicted, and the AME Guide directs your AME to defer to the FAA if FEV1 is less than 60 percent. For the 6MWT the FAA publishes its own Six-Minute Walk Test Result Sheet for your treating provider to complete, requires the test be done to American Thoracic Society guidelines, and directs your AME to defer if the results show a 4 percent drop in SpO2 from baseline or less than 400 meters walked. The result sheet is in the AME Guide under Disease Protocols. Your AME uploads both results to the FAA for your file."
   },
   {
     "cadenceRaw": "annual",
@@ -825,12 +824,12 @@
     "envelope": {
       "code": "si-copd-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, COPD Status Summary",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your COPD, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "The FAA accepts either a completed COPD Status Summary with every item answered YES, or a current, detailed Clinical Progress Note that addresses each item. Have your pulmonologist, or whichever physician manages your COPD, complete it no more than 90 days before your AME exam. The form's items are: GOLD stage 1 or 2a and stable, with no hospitalizations and no moderate or severe exacerbations in the past year; resting oxygen saturation of 96 percent or higher; your PFT result; your 6-minute walk test result; your medications; and a written explanation of any NO answer, for which the form directs your physician to attach a current, detailed Clinical Progress Note. The AME Guide directs your AME to defer to the FAA if resting oxygen saturation is 95 percent or lower. Download the COPD Status Summary from the FAA's COPD page and take it to the appointment."
   },
   {
     "cadenceRaw": "annual",
@@ -838,12 +837,12 @@
     "envelope": {
       "code": "si-copd-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The FAA does not ask for a separate medication list document for COPD. Medications appear inside two FAA forms instead. On the COPD Status Summary, item 5 has the physician who manages your COPD confirm you are treated with three or fewer COPD medications, not counting a rescue inhaler (the FAA's own example is Trelegy plus albuterol), and that oral prednisone or similar is not needed and not used daily. On the Six-Minute Walk Test Result Sheet, item 2 asks your provider to list all current cardiopulmonary medications. The AME Guide directs your AME to defer to the FAA if you are taking 4 or more medications for COPD or are on daily oral steroid use. Bring your current names and doses to the appointment so both can be filled in accurately."
   },
   {
     "cadenceRaw": "annual",
@@ -851,12 +850,12 @@
     "envelope": {
       "code": "si-pe-dvt-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your clotting condition, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "A summary of your medical condition since your last FAA medical examination. The FAA requires it to include \"a statement regarding any further episodes of VTE (DVT, PE) or other complication of hypercoagulopathy,\" your future treatment plan, and your prognosis. If you take a NOAC or DOAC such as Xarelto, Eliquis, Pradaxa or Savaysa, the FAA additionally asks you to obtain a statement from your treating or prescribing physician giving details of the underlying condition, how well you tolerate the medication including whether you have had side effects, any bleeding episodes that required medical attention, and any occurrence or recurrence of deep vein thrombosis or pulmonary embolism. The FAA publishes no stability or recurrence free waiting period for reissue under this Authorization. It does instruct your AME to defer to the FAA's Aerospace Medical Certification Division or Regional Flight Surgeon, rather than reissue at the exam, if you \"develop emboli, thrombosis, bleeding, or any other cardiac or neurologic condition previously not diagnosed or reported.\""
   },
   {
     "cadenceRaw": "annual",
@@ -864,12 +863,12 @@
     "envelope": {
       "code": "si-pe-dvt-med-list",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current list of your medications and doses so the FAA can confirm the regimen is acceptable for certification."
+    "requirementText": "The name and dosage of every medication you take to treat or prevent clots, with a comment on side effects if you have had any. The FAA's wording is \"the name and dosage of all medication(s) used for treatment and/or prevention with comment regarding side effects, if any,\" so medication you take preventively counts, not only what you take for an active clot. The side effect comment carries weight at the exam: the FAA instructs your AME to defer to its Aerospace Medical Certification Division or Regional Flight Surgeon, rather than reissue, if you \"experienced any side effects or bleeding episodes requiring medical attention.\" If you take warfarin (Jantoven), the FAA's Anticoagulants page also asks that the treating physician's status report cover your \"drug dose history and schedule.\""
   },
   {
     "cadenceRaw": "annual",
@@ -877,38 +876,38 @@
     "envelope": {
       "code": "si-pe-dvt-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Deep Vein Thrombosis / Pulmonary Embolism",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt",
       "reviewStatus": "draft"
     },
-    "requirementText": "Any labs/monitoring related to anticoagulation specified by the AME Guide."
+    "requirementText": "This one applies only if you take warfarin (Jantoven). The FAA asks you to \"obtain a minimum of monthly International Normalized Ratio (INR) results for the immediate prior 6 months,\" so bring at least one INR value per month covering the six months immediately before your exam. The FAA instructs your AME to defer to its Aerospace Medical Certification Division or Regional Flight Surgeon, rather than reissue at the exam, if more than 20 percent of your INR values fall outside the 2.0 to 3.0 range. If you take a NOAC or DOAC such as Xarelto, Eliquis, Pradaxa or Savaysa, the FAA lists no INR test and no other routine anticoagulation lab for reissue. In its place it asks for a statement from your treating or prescribing physician."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-kidney-stones-imaging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi",
       "reviewStatus": "draft"
     },
-    "requirementText": "Imaging documenting current stone status (e.g., presence/absence of retained stones), as specified by the AME Guide."
+    "requirementText": "A current imaging report and a metabolic work-up. The FAA's AASI page for Renal Calculi asks the applicant for \"A current report of appropriate imaging study (IVP, KUB, Ultrasound, or Spiral CT Scan) and provide a metabolic work-up, both performed within last 90 days.\" Both pieces are named, and the 90-day limit applies to both, so a scan or a lab panel from your last renewal does not carry forward. Two of the three situations in which the FAA tells the Examiner to defer instead of reissuing are comparisons against your earlier studies: a retained stone that \"has moved when compared to previous evaluations,\" or one that \"has become larger when compared to previous evaluations.\" Having your prior imaging reports on hand is what makes that comparison possible."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "everyExam",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-kidney-stones-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-07T19:01:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your kidney stone history, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "A statement from your treating physician. The FAA's AASI page for Renal Calculi names what belongs in it: \"A statement from your treating physician regarding the location of the retained stone(s), estimation as to size of stone, and likelihood of becoming symptomatic.\" Location, estimated size, and likelihood of becoming symptomatic are the three points the FAA asks for, so a general note confirming a history of stones does not answer them. The FAA also instructs the Examiner to defer to the AMCD or Region \"If the treating physician comments that the current stone has a likelihood of becoming symptomatic.\" The same page notes that your Authorization letter \"is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" so read your own attachments alongside this."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -916,12 +915,12 @@
     "envelope": {
       "code": "si-cancer-melanoma-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 40. Skin, Skin Cancer disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your oncologist or dermatologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "The FAA does not name a specialty for melanoma reports. What it publishes instead is the set of documents that goes to the FAA when your melanoma is first deferred, and the list depends on the depth recorded on your pathology report. For a melanoma 0.75 mm or greater in depth, the FAA's Item 40 Skin Cancer disposition table has your AME \"Review and submit the following: Medical records describing the diagnosis and treatment; Pathology report(s); Operative notes; Current status report that includes if any additional lesions, any metastatic disease, any current or future treatment planned; and Current MRI brain.\" For metastatic melanoma, or melanoma of unknown primary origin, the FAA asks for everything on that list plus a PET scan and copies of any additional testing your treating physician performed. That table is guidance written to your AME and it covers the first submission. Once you hold an Authorization, what you bring to each exam comes from the Authorization letter instead."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -929,12 +928,12 @@
     "envelope": {
       "code": "si-cancer-melanoma-staging",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Melanoma",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/melanoma",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of stage, treatment, and current disease-free status as required by the FAA."
+    "requirementText": "The FAA works from one measurement on your pathology report, the Breslow depth in millimeters, together with whether there is metastasis. Neither the FAA's melanoma AASI page nor its Item 40 Skin Cancer disposition table uses a cancer stage number. The AASI page states: \"A Special Issuance or AASI is required for any melanoma which exhibits Breslow Level equal to or deeper than 0.75 mm with or without metastasis,\" and \"A Special Issuance or AASI is required for any metastatic melanoma regardless of Breslow level,\" and \"A melanoma that exhibits a Breslow Level of less than 0.75 mm and no evidence of metastasis may be regular issued.\" So the document to keep is the pathology report showing the Breslow measurement, the margins, and whether any metastatic disease was found. Even for a melanoma under 0.75 mm the Item 40 table has the reports sent in \"for retention in the file,\" so your AME will ask for them either way."
   },
   {
     "cadenceRaw": "annual",
@@ -942,12 +941,12 @@
     "envelope": {
       "code": "si-cancer-melanoma-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Melanoma",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/melanoma",
       "reviewStatus": "draft"
     },
-    "requirementText": "Periodic surveillance/follow-up reporting at the interval specified by the FAA."
+    "requirementText": "The FAA does not publish a follow-up item list for melanoma, and there is no FAA melanoma status form. Its AASI page gives a two item reissue list, and the second item points back at your own paperwork: your AME may reissue if you provide \"An Authorization granted by the FAA\" and \"A current status report performed within 90 days that must include all the required followup items and studies as listed in the Authorization letter and that confirms absence of recurrent disease.\" So the tests and items that have to be in that report are the ones named in the attachments to your own Authorization letter, and the report has to be dated inside the 90 days before your exam. Two things take the decision away from your AME. The FAA says the Examiner must defer to the AMCD or Region if there has been \"any recurrence of the cancer\" or if \"Any new treatment is initiated.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -955,12 +954,12 @@
     "envelope": {
       "code": "si-cancer-prostate-specialist-eval",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 41. G-U System, Prostate Conditions disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current evaluation from your oncologist or urologist, summarizing diagnosis, treatment, and current status, as part of the FAA package."
+    "requirementText": "This one applies at the initial decision, before you hold an Authorization. The FAA's prostate cancer disposition table sends one row to a Special Issuance: prostate cancer \"with Metastatic disease current OR any time in the past OR Recurrence of disease including a biochemical recurrence (BCR) after prostatectomy,\" which the FAA marks \"DEFER\" and \"Initial Special Issuance.\" For that row, the FAA lists what gets submitted for FAA review: a \"Current status report from oncologist describing treatment plan, how long the condition has been stable, and prognosis\"; a \"List of medications and presence or absence of side effects with specific attention to any chemotherapy, steroids, or hormone agents and dates used\"; \"Treatment records including clinic notes or a summary letter describing initial staging, disease course, locations of metastatic disease, and stability\"; \"Operative notes and discharge summary, if applicable\"; \"Pathology report(s), if applicable\"; and \"Results of MRI/CT or PET scan reports,\" noting that \"In some cases, the actual CDs will be required in DICOM format for FAA review.\" The FAA adds: \"If the airman is currently on radiation or chemotherapy, the treatment course should be completed before medical certification can be considered.\" If that row does not describe your case, this is not your list. The FAA routes non metastatic prostate cancer elsewhere: a regular issuance if treatment finished five or more years ago with no recurrence, otherwise the CACI Prostate Cancer Worksheet, where \"If the requirements are not met, the AME must defer the exam and send the supporting documents to the FAA.\" The FAA publishes no separate document list for a file that reaches it that way, so work from the attachments to your own Authorization letter, which the FAA says \"specify the information that treating physician(s) must provide.\" Once your Authorization is granted, reissue runs on the shorter AASI list, not this one."
   },
   {
     "cadenceRaw": "annual",
@@ -968,12 +967,12 @@
     "envelope": {
       "code": "si-cancer-prostate-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Prostate Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer",
       "reviewStatus": "draft"
     },
-    "requirementText": "Relevant labs/markers (e.g., PSA) and staging/treatment documentation as required by the FAA."
+    "requirementText": "The FAA's AASI list for prostate cancer names one lab your AME needs each time they reissue under your Authorization: \"A current PSA level performed within last 90 days.\" Collect it inside that 90 day window ahead of your exam rather than earlier in the year. The FAA does not name any other marker, staging paperwork or imaging as a routine reissue item, but its other reissue item is broader (\"A current status of the medical condition to include any testing deemed necessary\"), so your Authorization attachments can call for more. Your PSA trend also decides whether your AME can reissue at all: the FAA tells the Examiner to defer to the AMCD or Region if \"The PSA rises at a rate above 0.75 ng/ml per year.\""
   },
   {
     "cadenceRaw": "annual",
@@ -981,12 +980,12 @@
     "envelope": {
       "code": "si-cancer-prostate-followup",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Prostate Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer",
       "reviewStatus": "draft"
     },
-    "requirementText": "Periodic follow-up reporting at the interval specified by the FAA."
+    "requirementText": "At each reissue your AME needs, in the FAA's words, \"An Authorization granted by the FAA\" and \"A current status of the medical condition to include any testing deemed necessary.\" The FAA publishes no template, form, page count or required specialty for that status report on its prostate cancer AASI page. What it does say is that \"The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" so the attachments to your own Authorization letter are the list to work from. Two things stop a desk reissue and send your file back to the FAA: your Examiner must defer to the AMCD or Region if \"A new treatment is initiated\" or \"Any metastasis has occurred.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -994,12 +993,12 @@
     "envelope": {
       "code": "si-bariatric-stability",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 18.i, Stomach, liver, or intestinal trouble",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/i",
       "reviewStatus": "draft"
     },
-    "requirementText": "Documentation of the recurrence-free / stability interval the FAA requires before certification for this condition. The exact interval is set by the AME Guide protocol and confirmed by your AME."
+    "requirementText": "The FAA publishes no waiting period, observation period or stability interval after bariatric surgery. It has no AASI, no disease protocol and no row in the Abdomen and Viscera disposition tables, so there is no published interval to document, and a surgical procedure is not something that can recur. What the FAA does name is in Item 18.i of Form 8500-8, Stomach, liver, or intestinal trouble: \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\" Ask your surgeon's office for the operative report and the pathology report and store them here. Anything beyond that is set by the attachments to your own FAA Authorization letter."
   },
   {
     "cadenceRaw": "annual",
@@ -1007,12 +1006,12 @@
     "envelope": {
       "code": "si-bariatric-physician-letter",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, General Information, Authorization for Special Issuance and AASI",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/general/si",
       "reviewStatus": "draft"
     },
-    "requirementText": "A current status report from your treating physician on your post-bariatric status, current treatment, stability, and any complications, as outlined in the AME Guide for this condition."
+    "requirementText": "The AME Guide publishes nothing about what a post-bariatric status report should contain, because bariatric surgery is not a listed condition. The FAA states that \"the Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" so your own letter is the list. Give those attachments to the physician who follows your surgery and ask for exactly what they name. For an unlisted condition the FAA's guidance to your AME, not to you, is to submit the \"most recent detailed Clinical Progress Note(s)\" and any related treatment records, so expect a current clinical note to be the core of it."
   },
   {
     "cadenceRaw": "annual",
@@ -1020,12 +1019,12 @@
     "envelope": {
       "code": "si-bariatric-labs",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for All Classes",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Condition Not Listed disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Nutritional/metabolic labs as specified by the AME Guide."
+    "requirementText": "The AME Guide specifies no labs for bariatric surgery. There is no AASI, no disease protocol and no CACI worksheet for it, so there is no FAA panel to draw against. The FAA's Condition Not Listed disposition table, which is written for your AME rather than for you, asks for \"results of recent testing already performed pertinent to the condition.\" That is testing you have already had, not a new panel ordered for the FAA. The FAA's Federal Air Surgeon's Medical Bulletin article on bariatric surgery (2023, Volume 58-2) discusses micronutrient deficiency and anemia risk after these procedures but sets no requirement, stating that clear guidelines on \"the post-operative management of aeronautical personnel who have undergone such surgery are lacking.\" Store the labs your bariatric program already draws, plus any named in your Authorization letter, here."
   },
   {
     "cadenceRaw": "monthly",
@@ -1033,12 +1032,12 @@
     "envelope": {
       "code": "si-hims-sponsor-monthly",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A monthly status report from your HIMS sponsor / monitoring program, documenting your participation and standing, as required by the HIMS protocol."
+    "requirementText": "The FAA does not list a monthly report from a sponsor. What it lists monthly are two workplace reports, and only for a pilot holding a first or second class certificate who is employed by an air carrier. The recertification checklist marks both \"N/A for third-class,\" and the certification aid heads the chief pilot row \"If the airman is 1st or 2nd class and employed by an air carrier.\" A chief pilot, flight operations supervisor, or airline management designee reports each month on your performance and competence, crew interaction, mood if available, and the presence or absence of any other concerns. A peer pilot, for example from your employer or ALPA, reports each month and must attest, to the best of their knowledge, to your continued total abstinence from drugs or alcohol. You bring the cumulative monthly reports to the HIMS AME evaluation every 6 months. The FAA's checklist carries an \"N/A\" answer for both of these items, so if you are not flying for an air carrier there is nothing here for you to obtain. Contact with an AA sponsor appears in the FAA's documents under additional reports and treatment records, which are required only when your Authorization letter specifies them."
   },
   {
     "cadenceRaw": "monthly",
@@ -1046,63 +1045,63 @@
     "envelope": {
       "code": "si-hims-testing",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Certification Aid, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Drug_Alcohol_Monitoring_Recertification_Aid.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "Records of random drug and alcohol testing (e.g., PEth, EtG, hair, breath) at the cadence specified by your HIMS program. The exact panel and frequency are set by the protocol."
+    "requirementText": "Testing must be random and unannounced. The FAA says \"Urine EtG/EtS, PEth testing or a mobile alcohol monitoring system are preferred,\" and that \"At a minimum, frequency must be 14 tests over a 12-month period,\" which your HIMS AME may increase. The Step Down Plan sets the minimum by phase: 14 screens in 12 months, or a Soberlink type portable breath monitoring system with facial recognition and cellular transmission, in the Initial and Early phases, and 4 PEth tests in 12 months in the Advanced phase. For dependence on anything other than alcohol, or a polysubstance diagnosis, the Advanced phase minimum is 4 PEth tests and 4 urine drug screens every 12 months. Hair testing is not among the methods the FAA names here. Results go to your HIMS AME with each package, and the FAA requires the HIMS AME to report any positive test to the agency immediately."
   },
   {
-    "cadenceRaw": "monthly",
+    "cadenceRaw": "quarterly",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-aftercare",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A log of aftercare attendance (peer support, AA/NA, or program-specified aftercare) at the cadence required by your HIMS program."
+    "requirementText": "Two different clocks run here. Attendance is frequent: the Step Down Plan lists attendance at a peer addiction support group such as AA or NA twice weekly in the Initial and Early phases and weekly in the Advanced phase, with aftercare weekly in year one. The counselor's report is less frequent: the recertification checklist requires aftercare counselor reports \"every 3 months\" for first and second class, and for third class \"Per Authorization Letter.\" The report should say whether you are continuing to participate in abstinence based sobriety, how often you attend, and that the counselor agrees to notify your HIMS AME immediately of any change or deterioration in your condition."
   },
   {
-    "cadenceRaw": "quarterly",
+    "cadenceRaw": "annual",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-hims-psych-quarterly",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A quarterly evaluation by your treating psychiatrist or program-approved mental-health provider, per the HIMS protocol."
+    "requirementText": "This is a yearly report, not a quarterly one. The FAA's recertification checklist says a treating psychiatrist report or HIMS psychiatrist report is \"Required EVERY 12 months for ALL CLASSES unless a different time interval is specifically stated in the Authorization Letter,\" and the checklist lets the AME mark it \"Not Due\" at the alternate visit, since the HIMS AME evaluation comes around more often. The report should summarize the clinical findings and how you are doing, note any clinical concerns or changes in the treatment plan, give recommendations for additional treatment or monitoring, and state the psychiatrist's agreement to notify the FAA or your AME immediately if your condition changes. Interval treatment records such as clinic or hospital notes go with it, and like every report in the package it must be current within the last 90 days."
   },
   {
-    "cadenceRaw": "annual",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-ame-annual",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — HIMS (Substance Dependence / Alcohol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "An annual status report from your HIMS-trained AME summarizing your program participation, clinical status, and recommendation."
+    "requirementText": "The FAA asks for this more often than once a year. Its recertification checklist says the HIMS AME face-to-face, in office evaluation is \"Required EVERY 6 months for ALL CLASSES,\" and the certification aid adds that it must be performed by the HIMS AME listed on your Authorization letter. Between those, the checklist refers to \"Interval evaluations (every 3 months or as required by Authorization Letter).\" The Step Down Plan puts the HIMS AME of record at every 3 months in the Initial and Early phases, where half the visits may be virtual, every 6 months in the Advanced phase, and a HIMS AME of your choice at each exam in the Maintenance phase. The AME signs the checklist, writes the narrative report, and states whether you meet all the requirements of your Authorization letter."
   },
   {
-    "cadenceRaw": "monthly",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-ssri-monthly-checkin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — SSRI Decision Path (Antidepressant policy)",
-      "sourceURL": "https://www.faa.gov/ame_guide/",
+      "lastVerified": "2026-08-07T19:01:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, SSRI Recertification/Follow Up Clearance",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf",
       "reviewStatus": "draft"
     },
-    "requirementText": "A monthly check-in note from your treating physician documenting continued stability on a stable dose and the absence of disqualifying side effects, as outlined in the antidepressant pathway."
+    "requirementText": "The FAA does not publish a monthly report from your treating physician for this protocol. Its HIMS AME Checklist for SSRI recertification lists what actually recurs: the HIMS AME face-to-face, in office evaluation \"Required EVERY 6 months for ALL CLASSES,\" the treating psychiatrist report \"Required EVERY 6 months for ALL CLASSES,\" a Chief Pilot or Air Traffic Manager report \"Required EVERY 3 months\" (the checklist limits this to commercial pilots holding first or second class certificates, and the FAA's certification aid narrows it to those employed by an air carrier within the last 2 years, marking third class as not applicable), and any additional reports your Authorization letter requires. What the FAA does describe between the 6 month visits is interim contact with your HIMS AME by phone, video, or email, at an interval set \"either at the AME's discretion or as required by the Authorization or Special Consideration Letter (every 1-3 months).\" Those contacts are not filed on their own. Your HIMS AME summarizes them in the 6 month report. Your own Authorization letter is the authority on how often you check in."
   }
 ]
