@@ -1,0 +1,62 @@
+name: Content re-verification deadline
+
+# Content correctness cannot be checked by a script. What CAN be checked is whether anyone
+# has LOOKED, and how long ago.
+#
+# Before 2026-08-14, seven content files had never been source-verified by anyone and
+# nothing said so. The first file anyone read carefully had 89 defects in it. This job
+# makes "nobody has compared this against the FAA in months" a red build instead of an
+# invisible default.
+#
+# See scripts/check-verification-age.py.
+
+on:
+  schedule:
+    - cron: "23 15 * * 1"      # Mondays, after the fidelity check
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  age:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check how long since each file was re-read against its source
+        id: check
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check-verification-age.py | tee age-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Open / update the re-verification issue
+        if: steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh label create content-reverify --color fbca04 \
+            --description "Published content is past its re-verification deadline" 2>/dev/null || true
+          {
+            echo "Content has not been re-read against its FAA sources recently, as of $(date -u +%Y-%m-%dT%H:%MZ)."
+            echo
+            cat verification-age-report.md 2>/dev/null || cat age-output.txt
+          } > age-comment.md
+          EXISTING=$(gh issue list --state open --label content-reverify --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file age-comment.md
+          else
+            gh issue create --title "Content is past its re-verification deadline" \
+              --label content-reverify --body-file age-comment.md
+          fi
+      - name: Fail the run
+        if: steps.check.outputs.code != '0'
+        run: |
+          echo "Content is past its re-verification deadline. See the issue above."
+          exit 1

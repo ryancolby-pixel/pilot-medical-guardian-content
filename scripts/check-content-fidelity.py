@@ -87,6 +87,41 @@ ELISION = "..."
 
 DEFER_MARKERS = ("must defer", "should defer")
 
+# 🚨 THE HOLE THIS CLOSES, AND WHY IT IS THE IMPORTANT ONE.
+#
+# Quote fidelity and numeric claims verify what we SAID. Nearly every defect found on
+# 2026-08-14 was what we DID NOT say:
+#
+#   Item 18v      asked about DWI only; the FAA asks about anything "affecting driving
+#                 privileges". No quotation, no number, nothing to verify. A pilot whose
+#                 licence was suspended for points answers No on a federal form.
+#   BasicMed      listed six of the seven conditions in 14 CFR 61.23(c)(3).
+#   prostate      named two deferral triggers where the FAA names three.
+#   asthma        said the Examiner "reissues" and omitted five deferral triggers.
+#
+# A checker that verifies our sentences cannot detect a sentence we never wrote. So this
+# reads the SOURCE for obligations and asks whether our entry engages with each one.
+#
+# It is deliberately crude: an obligation is a sentence with a modal, and "engaged with"
+# means our text shares a distinctive rare word with it. That over-reports, which is why it
+# is baselined like the others rather than failing on day one. Crude and looking is worth
+# more than precise and absent, which is what we had.
+OBLIGATION = re.compile(
+    r"[^.;]*\b(?:must|shall|may not|is required|are required|will be required|"
+    r"required to|should defer|must defer)\b[^.;]*[.;]", re.I)
+
+# Words too common to indicate that our text engages with a specific obligation.
+STOPWORDS = set("""the a an and or of to in for on at by with from as is are be been was were
+that this these those which who whom whose it its his her their there here not no any all
+some each every other another such same than then when where while if unless until about
+after before during through under over above below between into onto upon within without
+you your yours we our ours they them applicant applicants airman airmen examiner examiners
+faa aviation medical certificate certification exam examination must shall may can will
+should would could required require requires requiring provide provides provided providing
+submit submits submitted submitting include includes included including report reports
+reported reporting current status information documentation document documents letter
+following also more most least less very only both either neither""".split())
+
 # 🚨 QUOTE FIDELITY COVERS ONE FILE. Measured the day this was written: si_requirements.json
 # has 281 quoted spans and every other content file has ZERO, because they state FAA content
 # as plain assertions rather than quotations. item18.json IS the wording of 25 questions on a
@@ -208,12 +243,30 @@ def main() -> int:
                 unreachable.append(f"{name} :: {code}: could not fetch {url}")
                 continue
 
-            # CONTROL. A source we cannot search is not a source that disagrees with us.
-            # "faa" appears in every FAA page and PDF we cite; if it is missing, the fetch
-            # returned something we cannot read and every miss below would be a false alarm.
-            if "faa" not in src:
+            # CONTROL. A source we cannot search is not a source that disagrees with us, so
+            # prove the extraction produced readable prose before believing any miss.
+            #
+            # 🚨 THE FIRST VERSION OF THIS CONTROL WAS ITSELF THE BUG. It tested for the
+            # literal string "faa", on the assumption that every FAA document contains it.
+            # "Federal Aviation Administration" does NOT contain the substring "faa", and
+            # neither do the medication tables, which are mostly drug names. That marked 21
+            # readable documents unreadable on the first CI run, including a 9,856-character
+            # DNI/DNF table and the eCFR text of 14 CFR 67.111.
+            #
+            # Nor is a PROSE control right, which was the second attempt: it required three
+            # common function words, and Antidepressant_Medications.pdf extracts cleanly
+            # (2,455 chars, 69 distinct words) while containing only "and" and "or", because
+            # it is a TABLE OF DRUG NAMES. Two controls, two false negatives, both on
+            # documents that were perfectly readable.
+            #
+            # What actually separates a usable extraction from a failed one is VOCABULARY.
+            # A real document, prose or table, yields dozens of distinct words. A 404 page,
+            # an empty PDF or a binary blob does not. That holds without assuming the
+            # document's subject, register or language.
+            readable = len(src) >= 200 and len(set(re.findall(r"[a-z]{3,}", src))) >= 40
+            if not readable:
                 unreachable.append(f"{name} :: {code}: CONTROL FAILED for {url} "
-                                   f"(fetched {len(src)} chars, unsearchable) — not checked")
+                                   f"(fetched {len(src)} chars, not readable prose) — not checked")
                 continue
 
             for frag in spans:
@@ -252,6 +305,19 @@ def main() -> int:
             if any(m in src for m in DEFER_MARKERS) and "defer" not in norm(body):
                 warnings.append(f"{name} :: {code}: source states a deferral and this entry "
                                 f"never mentions one — {url}")
+
+            # OBLIGATION COVERAGE. For each obligation sentence in the source, does our text
+            # share ANY distinctive word with it? If not, the source imposes something this
+            # entry is silent about.
+            ours = set(re.findall(r"[a-z]{5,}", norm(body)))
+            uncovered = 0
+            for sent in OBLIGATION.findall(src)[:60]:
+                rare = {w for w in re.findall(r"[a-z]{5,}", sent) if w not in STOPWORDS}
+                if rare and not (rare & ours):
+                    uncovered += 1
+            if uncovered:
+                failures.append(f"{name} :: {code}: {uncovered} obligation sentence(s) in "
+                                f"{url} share no distinctive wording with this entry")
 
     # BASELINE. 97 pre-existing failures were found the day this script was written, in a
     # file that had already been corrected twice that same day. Failing on all of them would

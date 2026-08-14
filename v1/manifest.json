@@ -1,6 +1,6 @@
 {
   "contentVersion": "2026-08-13",
-  "generatedAt": "2026-08-14T17:38:01Z",
+  "generatedAt": "2026-08-14T18:03:44Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -9,8 +9,8 @@
     },
     {
       "filename": "basicmed_requirements.json",
-      "size": 11372,
-      "checksum": "540b3068547626231221e1e35104b373b7ba9e4d5702b9e843bea1f4795f497c"
+      "size": 13384,
+      "checksum": "84254b0b5dffa15821e29b7dc60b27996282fe9c1b7148b5ba161d3cb72945d9"
     },
     {
       "filename": "caci_worksheets.json",
@@ -30,7 +30,7 @@
     {
       "filename": "item18.json",
       "size": 11382,
-      "checksum": "7596ba0fcd5e16fb38f58f1b6abdb56635a5ff669f58cb0d7f7bf16af65d785e"
+      "checksum": "161cf87023fa2d009a05ee96c1e91216501c4032907c70a329116c929fe5bfbc"
     },
     {
       "filename": "medications.json",
@@ -54,8 +54,8 @@
     },
     {
       "filename": "thresholds.json",
-      "size": 7290,
-      "checksum": "abfc725091fe9cd4f830008b58ea6b09b86754434fea1bb5db3b9679fc1b854f"
+      "size": 9189,
+      "checksum": "87673b6fb6744b451802135e4e0905cf3d3135bde4bfc9b30b2f0756fb23ad20"
     }
   ]
 }
