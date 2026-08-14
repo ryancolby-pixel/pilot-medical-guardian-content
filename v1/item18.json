@@ -231,14 +231,14 @@
     }
   },
   {
-    "description": "Arrest(s), conviction(s), and/or administrative action(s) involving driving while intoxicated or impaired by alcohol or a drug",
+    "description": "History of Arrest(s), Conviction(s) and/or Administrative Action(s). The FAA states: \"Arrest(s), conviction(s), and/or administrative action(s) affecting driving privileges may raise questions about the applicant's qualifications for airman medical certification. All incidents must be reported (even if reported on a previous application)\", and it adds that this includes \"even a single driving while intoxicated\" arrest. Note this is not limited to alcohol or drugs: an administrative action affecting your driving privileges counts.",
     "itemLetter": "v",
     "envelope": {
       "code": "item18-admin-action",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T12:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/"
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/v"
     }
   },
   {
