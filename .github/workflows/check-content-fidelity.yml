@@ -15,12 +15,18 @@ on:
   schedule:
     - cron: "0 14 * * 1"     # Mondays ~14:00 UTC, after the other weekly content checks
   workflow_dispatch: {}
-  push:
-    branches: [main]
-    paths:
-      - "v1/**.json"
-      - "scripts/check-content-fidelity.py"
-      - "scripts/content-fidelity-baseline.json"
+  # ⚠️ PUSH TRIGGER OFF UNTIL THIS CHECK IS CALIBRATED (2026-08-14).
+  #
+  # It emailed Ryan four times in one afternoon, and not one of those was a content
+  # defect. They were MY calibration errors: a baseline banked before the numeric check
+  # existed, a control that tested for the string "faa" (which "Federal Aviation
+  # Administration" does not contain), and eCFR serving a JavaScript shell to datacenter
+  # IPs so five present quotations read as missing on the runner while passing locally.
+  #
+  # A check that cries wolf while being tuned teaches its reader to ignore it, and this
+  # repo has already written that lesson down twice. The schedule and manual dispatch stay
+  # on, so it still runs and still fails loudly. Restore this block once a scheduled run
+  # goes green on a baseline banked from a clean full pass.
 
 permissions:
   contents: read
