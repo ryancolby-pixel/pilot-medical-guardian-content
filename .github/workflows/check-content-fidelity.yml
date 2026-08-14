@@ -1,0 +1,81 @@
+name: Content fidelity check
+
+# Does what we SAY match what the cited FAA source SAYS?
+#
+# The three checks that existed before this one ask whether a page is REACHABLE
+# (check-source-links), whether it CHANGED (check-source-freshness), and whether our two
+# copies MATCH (check-cdn-drift). All three passed every week while 89 defects sat in
+# si_requirements.json, nine of them able to send a pilot into an FAA exam expecting a
+# certificate where the AME Guide directs a deferral. None of them asks whether our
+# sentence says what the FAA's sentence says. This one does.
+#
+# See scripts/check-content-fidelity.py for the full account.
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"     # Mondays ~14:00 UTC, after the other weekly content checks
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "v1/**.json"
+      - "scripts/check-content-fidelity.py"
+      - "scripts/content-fidelity-baseline.json"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  fidelity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pdfplumber
+        run: pip install --quiet pdfplumber
+
+      # NOTE: the whole body lives in scripts/check-content-fidelity.py on purpose. An
+      # unindented continuation line inside a `run: |` block terminates the YAML scalar and
+      # makes the workflow unparseable, which is what left cdn-drift-check.yml dead from the
+      # day it was written until 2026-08-07, and then again on a feature branch for six days.
+      - name: Check content against its cited FAA sources
+        id: check
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check-content-fidelity.py | tee fidelity-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Open / update the fidelity issue
+        if: steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh label create content-fidelity --color b60205 \
+            --description "Published content does not match the FAA source it cites" 2>/dev/null || true
+          {
+            echo "A quoted span or numeric claim in published content does not appear in the FAA source it cites, as of $(date -u +%Y-%m-%dT%H:%MZ)."
+            echo
+            cat content-fidelity-report.md 2>/dev/null || cat fidelity-output.txt
+          } > fidelity-comment.md
+          EXISTING=$(gh issue list --state open --label content-fidelity --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file fidelity-comment.md
+          else
+            gh issue create \
+              --title "Published content does not match its cited FAA source" \
+              --label content-fidelity \
+              --body-file fidelity-comment.md
+          fi
+
+      - name: Fail the run
+        if: steps.check.outputs.code != '0'
+        run: |
+          echo "Content fidelity check failed, or a cited source could not be read. See the issue above."
+          exit 1

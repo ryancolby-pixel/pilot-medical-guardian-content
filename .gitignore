@@ -24,3 +24,7 @@ watchdog-output.txt
 med-claims-report.md
 med-claims-fingerprint.txt
 med-claims-output.txt
+
+# Fetched FAA sources cached by check-content-fidelity.py
+.fidelity-cache/
+content-fidelity-report.md

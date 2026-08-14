@@ -1,0 +1,50 @@
+[
+  {
+    "envelope": {
+      "code": "faa-addr-amcd-courier",
+      "sourceCitation": "FAA Coversheet for 8500-8 Additional Information; corroborated verbatim by AOPA 'How and where to submit to the FAA' and the 2026 Guide for Aviation Medical Examiners (updated 2026-06-24).",
+      "sourceURL": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf",
+      "lastVerified": "2026-08-14T00:00:00Z",
+      "contentVersion": "2026.0"
+    },
+    "method": "courier",
+    "recipientLines": [
+      "Federal Aviation Administration",
+      "Civil Aerospace Medical Institute, Bldg. 13",
+      "Aerospace Medical Certification Division, AAM-300",
+      "6500 S. MacArthur Blvd.",
+      "Oklahoma City, OK 73169"
+    ],
+    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only for fewer than 20 pages; no EKG or imaging).",
+    "mailingNotes": [
+      "The FAA and AOPA advise using a courier with signed proof of delivery (overnight or registered) for time-sensitive Special Issuance reports.",
+      "The FAA states that status reports must come from your treating physician; a report you write yourself is not accepted.",
+      "The FAA advises keeping a copy of everything and sending it as a single packet.",
+      "Your own FAA Authorization letter is the authority on which reports are required and when."
+    ]
+  },
+  {
+    "envelope": {
+      "code": "faa-addr-amcd-usps",
+      "sourceCitation": "FAA Coversheet for 8500-8 Additional Information; corroborated verbatim by AOPA 'How and where to submit to the FAA' and the 2026 Guide for Aviation Medical Examiners (updated 2026-06-24).",
+      "sourceURL": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf",
+      "lastVerified": "2026-08-14T00:00:00Z",
+      "contentVersion": "2026.0"
+    },
+    "method": "usps",
+    "recipientLines": [
+      "Federal Aviation Administration",
+      "Civil Aerospace Medical Institute, Bldg. 13",
+      "Aerospace Medical Certification Division, AAM-300",
+      "P.O. Box 25082",
+      "Oklahoma City, OK 73125-9867"
+    ],
+    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only for fewer than 20 pages; no EKG or imaging).",
+    "mailingNotes": [
+      "The FAA and AOPA advise using a courier with signed proof of delivery (overnight or registered) for time-sensitive Special Issuance reports.",
+      "The FAA states that status reports must come from your treating physician; a report you write yourself is not accepted.",
+      "The FAA advises keeping a copy of everything and sending it as a single packet.",
+      "Your own FAA Authorization letter is the authority on which reports are required and when."
+    ]
+  }
+]

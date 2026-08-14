@@ -3,12 +3,12 @@
     "envelope": {
       "code": "thr-bp-class12",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
     },
     "metricTypeRaw": "bloodPressure",
-    "thresholdDescription": "The AME Guide directs further evaluation of hypertension when blood pressure is elevated; a commonly cited evaluation trigger is around 155/95 mmHg. The figure shown is descriptive context, not a pass/fail line — your reading is shown next to the cited figure so you can see where you stand and discuss it with your AME.",
+    "thresholdDescription": "The FAA states: \"An applicant whose pressure does not exceed 155 mm mercury systolic and 95 mm mercury diastolic maximum pressure, who has not used antihypertensive medication for 30 days, and who is otherwise qualified should be issued a medical certificate by the Examiner.\" Your reading is shown next to that figure so you can see where you stand and discuss it with your AME. That is the FAA's issuance criterion, not a pass/fail line drawn by this app, and it is not the whole picture: the same page also lists separate grounds on which \"The Examiner must defer issuance of a medical certificate\", including hypertension that has not been evaluated or is uncontrolled.",
     "numericThreshold": 155,
     "appliesToClassRaw": [
       "first",
@@ -19,12 +19,12 @@
     "envelope": {
       "code": "thr-bp-class3",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:25:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
     },
     "metricTypeRaw": "bloodPressure",
-    "thresholdDescription": "For Class 3 airmen the AME Guide similarly directs evaluation of elevated blood pressure (a commonly cited trigger around 155/95 mmHg). Descriptive context only, not a pass/fail line.",
+    "thresholdDescription": "The FAA states: \"An applicant whose pressure does not exceed 155 mm mercury systolic and 95 mm mercury diastolic maximum pressure, who has not used antihypertensive medication for 30 days, and who is otherwise qualified should be issued a medical certificate by the Examiner.\" Your reading is shown next to that figure so you can see where you stand and discuss it with your AME. That is the FAA's issuance criterion, not a pass/fail line drawn by this app, and it is not the whole picture: the same page also lists separate grounds on which \"The Examiner must defer issuance of a medical certificate\", including hypertension that has not been evaluated or is uncontrolled.",
     "numericThreshold": 155,
     "appliesToClassRaw": [
       "third"

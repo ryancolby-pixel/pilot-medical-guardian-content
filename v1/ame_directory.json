@@ -3,7 +3,7 @@
     "envelope": {
       "code": "ame-hims-001",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -29,7 +29,7 @@
     "envelope": {
       "code": "ame-hims-002",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -55,7 +55,7 @@
     "envelope": {
       "code": "ame-hims-003",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -81,7 +81,7 @@
     "envelope": {
       "code": "ame-hims-004",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -107,7 +107,7 @@
     "envelope": {
       "code": "ame-hims-005",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -133,7 +133,7 @@
     "envelope": {
       "code": "ame-hims-006",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -159,7 +159,7 @@
     "envelope": {
       "code": "ame-hims-007",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -185,11 +185,11 @@
     "envelope": {
       "code": "ame-hims-008",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Atwell, Eddie, M.D. *New as of 11/13/25",
+    "name": "Atwell, Eddie, M.D.",
     "clinicName": null,
     "location": "Cartersville, GA",
     "phone": "770-655-5268",
@@ -211,7 +211,7 @@
     "envelope": {
       "code": "ame-hims-009",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -237,7 +237,7 @@
     "envelope": {
       "code": "ame-hims-010",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -263,7 +263,7 @@
     "envelope": {
       "code": "ame-hims-011",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -289,7 +289,7 @@
     "envelope": {
       "code": "ame-hims-012",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -315,7 +315,7 @@
     "envelope": {
       "code": "ame-hims-013",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -340,7 +340,7 @@
     "envelope": {
       "code": "ame-hims-014",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -366,7 +366,7 @@
     "envelope": {
       "code": "ame-hims-015",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -392,7 +392,7 @@
     "envelope": {
       "code": "ame-hims-016",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -418,7 +418,7 @@
     "envelope": {
       "code": "ame-hims-017",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -443,7 +443,7 @@
     "envelope": {
       "code": "ame-hims-018",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -469,7 +469,7 @@
     "envelope": {
       "code": "ame-hims-019",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -495,7 +495,7 @@
     "envelope": {
       "code": "ame-hims-020",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -521,11 +521,11 @@
     "envelope": {
       "code": "ame-hims-021",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Bosin, Douglas, D.O. *New as of 12/02/25",
+    "name": "Bosin, Douglas, D.O.",
     "clinicName": "The Pilot Clinic",
     "location": "Goodyear, AZ",
     "phone": "623-469-4688",
@@ -547,7 +547,7 @@
     "envelope": {
       "code": "ame-hims-022",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -573,7 +573,7 @@
     "envelope": {
       "code": "ame-hims-023",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -599,7 +599,7 @@
     "envelope": {
       "code": "ame-hims-024",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -625,7 +625,7 @@
     "envelope": {
       "code": "ame-hims-025",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -651,7 +651,7 @@
     "envelope": {
       "code": "ame-hims-026",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -677,7 +677,7 @@
     "envelope": {
       "code": "ame-hims-027",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -703,7 +703,7 @@
     "envelope": {
       "code": "ame-hims-028",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -729,7 +729,7 @@
     "envelope": {
       "code": "ame-hims-029",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -755,11 +755,11 @@
     "envelope": {
       "code": "ame-hims-030",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Busk, N. Chris, M.D. *New as of 12/02/25",
+    "name": "Busk, N. Chris, M.D.",
     "clinicName": "736 South 900 East",
     "location": "St. George, UT",
     "phone": "435-244-0003",
@@ -781,7 +781,7 @@
     "envelope": {
       "code": "ame-hims-031",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -807,7 +807,7 @@
     "envelope": {
       "code": "ame-hims-032",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -833,7 +833,7 @@
     "envelope": {
       "code": "ame-hims-033",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -859,7 +859,7 @@
     "envelope": {
       "code": "ame-hims-034",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -885,7 +885,7 @@
     "envelope": {
       "code": "ame-hims-035",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -911,7 +911,7 @@
     "envelope": {
       "code": "ame-hims-036",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -937,7 +937,7 @@
     "envelope": {
       "code": "ame-hims-037",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -963,7 +963,7 @@
     "envelope": {
       "code": "ame-hims-038",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -989,11 +989,11 @@
     "envelope": {
       "code": "ame-hims-039",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Cavallaro, Charles, D.O. * New as of",
+    "name": "Cavallaro, Charles, D.O.",
     "clinicName": "01/30/26",
     "location": "Rochester, NY",
     "phone": "585-727-3333",
@@ -1015,7 +1015,7 @@
     "envelope": {
       "code": "ame-hims-040",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1041,7 +1041,7 @@
     "envelope": {
       "code": "ame-hims-041",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1067,7 +1067,7 @@
     "envelope": {
       "code": "ame-hims-042",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1093,7 +1093,7 @@
     "envelope": {
       "code": "ame-hims-043",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1119,11 +1119,11 @@
     "envelope": {
       "code": "ame-hims-044",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Cranney, Dean, M.D. *New as of 11/13/25",
+    "name": "Cranney, Dean, M.D.",
     "clinicName": "Dr. Cranney Family Medicine",
     "location": "Spokane, WA",
     "phone": "509-673-7221",
@@ -1145,7 +1145,7 @@
     "envelope": {
       "code": "ame-hims-045",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1171,7 +1171,7 @@
     "envelope": {
       "code": "ame-hims-046",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1197,7 +1197,7 @@
     "envelope": {
       "code": "ame-hims-047",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1223,7 +1223,7 @@
     "envelope": {
       "code": "ame-hims-048",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1249,7 +1249,7 @@
     "envelope": {
       "code": "ame-hims-049",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1275,7 +1275,7 @@
     "envelope": {
       "code": "ame-hims-050",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1301,7 +1301,7 @@
     "envelope": {
       "code": "ame-hims-051",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1327,7 +1327,7 @@
     "envelope": {
       "code": "ame-hims-052",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1353,7 +1353,7 @@
     "envelope": {
       "code": "ame-hims-053",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1379,7 +1379,7 @@
     "envelope": {
       "code": "ame-hims-054",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1405,7 +1405,7 @@
     "envelope": {
       "code": "ame-hims-055",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1431,7 +1431,7 @@
     "envelope": {
       "code": "ame-hims-056",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1457,7 +1457,7 @@
     "envelope": {
       "code": "ame-hims-057",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1483,7 +1483,7 @@
     "envelope": {
       "code": "ame-hims-058",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1509,11 +1509,11 @@
     "envelope": {
       "code": "ame-hims-059",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Ferraro, Rachael, D.O. *New as of 12/02/25",
+    "name": "Ferraro, Rachael, D.O.",
     "clinicName": "Aviate Medical",
     "location": "Hayden, ID",
     "phone": "208-777-5282",
@@ -1535,11 +1535,11 @@
     "envelope": {
       "code": "ame-hims-060",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Finklea, Teri, M.D. *New as of 12/02/25",
+    "name": "Finklea, Teri, M.D.",
     "clinicName": "Sunshine State AME",
     "location": "Jacksonville, FL",
     "phone": "904-909-2920",
@@ -1561,7 +1561,7 @@
     "envelope": {
       "code": "ame-hims-061",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1587,11 +1587,11 @@
     "envelope": {
       "code": "ame-hims-062",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Fisher, Charles, M.D., M.P.H. *New as of",
+    "name": "Fisher, Charles, M.D., M.P.H.",
     "clinicName": "12/02/25",
     "location": "Location not listed",
     "phone": "512-843-5559",
@@ -1613,7 +1613,7 @@
     "envelope": {
       "code": "ame-hims-063",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1639,7 +1639,7 @@
     "envelope": {
       "code": "ame-hims-064",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1665,7 +1665,7 @@
     "envelope": {
       "code": "ame-hims-065",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1691,7 +1691,7 @@
     "envelope": {
       "code": "ame-hims-066",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1717,7 +1717,7 @@
     "envelope": {
       "code": "ame-hims-067",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1743,7 +1743,7 @@
     "envelope": {
       "code": "ame-hims-068",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1769,7 +1769,7 @@
     "envelope": {
       "code": "ame-hims-069",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1795,7 +1795,7 @@
     "envelope": {
       "code": "ame-hims-070",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1821,7 +1821,7 @@
     "envelope": {
       "code": "ame-hims-071",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1847,7 +1847,7 @@
     "envelope": {
       "code": "ame-hims-072",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1873,7 +1873,7 @@
     "envelope": {
       "code": "ame-hims-073",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1899,7 +1899,7 @@
     "envelope": {
       "code": "ame-hims-074",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1925,7 +1925,7 @@
     "envelope": {
       "code": "ame-hims-075",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1951,7 +1951,7 @@
     "envelope": {
       "code": "ame-hims-076",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -1977,7 +1977,7 @@
     "envelope": {
       "code": "ame-hims-077",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2003,7 +2003,7 @@
     "envelope": {
       "code": "ame-hims-078",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2029,7 +2029,7 @@
     "envelope": {
       "code": "ame-hims-079",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2055,7 +2055,7 @@
     "envelope": {
       "code": "ame-hims-080",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2081,7 +2081,7 @@
     "envelope": {
       "code": "ame-hims-081",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2107,11 +2107,11 @@
     "envelope": {
       "code": "ame-hims-082",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Granneman, Nathan, M.D. *New as of",
+    "name": "Granneman, Nathan, M.D.",
     "clinicName": "11/13/25",
     "location": "Columbia, MO",
     "phone": "573-876-1600",
@@ -2133,7 +2133,7 @@
     "envelope": {
       "code": "ame-hims-083",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2159,7 +2159,7 @@
     "envelope": {
       "code": "ame-hims-084",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2185,7 +2185,7 @@
     "envelope": {
       "code": "ame-hims-085",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2211,7 +2211,7 @@
     "envelope": {
       "code": "ame-hims-086",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2237,7 +2237,7 @@
     "envelope": {
       "code": "ame-hims-087",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2263,7 +2263,7 @@
     "envelope": {
       "code": "ame-hims-088",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2289,7 +2289,7 @@
     "envelope": {
       "code": "ame-hims-089",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2315,11 +2315,11 @@
     "envelope": {
       "code": "ame-hims-090",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Gupta, Mark M., M.D. *New as of 5/5/26",
+    "name": "Gupta, Mark M., M.D.",
     "clinicName": "California Face Institute",
     "location": "Riverside, CA",
     "phone": "951-422-2909",
@@ -2341,7 +2341,7 @@
     "envelope": {
       "code": "ame-hims-091",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2367,7 +2367,7 @@
     "envelope": {
       "code": "ame-hims-092",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2393,7 +2393,7 @@
     "envelope": {
       "code": "ame-hims-093",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2419,7 +2419,7 @@
     "envelope": {
       "code": "ame-hims-094",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2445,7 +2445,7 @@
     "envelope": {
       "code": "ame-hims-095",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2471,11 +2471,11 @@
     "envelope": {
       "code": "ame-hims-096",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Healy, Ronald, M.D. *New as of 11/13/25",
+    "name": "Healy, Ronald, M.D.",
     "clinicName": "ATP Medicine",
     "location": "Anchorage, AK",
     "phone": "907-868-2961",
@@ -2497,7 +2497,7 @@
     "envelope": {
       "code": "ame-hims-097",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2523,7 +2523,7 @@
     "envelope": {
       "code": "ame-hims-098",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2549,7 +2549,7 @@
     "envelope": {
       "code": "ame-hims-099",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2575,7 +2575,7 @@
     "envelope": {
       "code": "ame-hims-100",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2601,7 +2601,7 @@
     "envelope": {
       "code": "ame-hims-101",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2627,7 +2627,7 @@
     "envelope": {
       "code": "ame-hims-102",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2653,7 +2653,7 @@
     "envelope": {
       "code": "ame-hims-103",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2679,7 +2679,7 @@
     "envelope": {
       "code": "ame-hims-104",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2703,35 +2703,9 @@
   },
   {
     "envelope": {
-      "code": "ame-hims-105",
-      "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
-      "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
-    },
-    "name": "Howell, David, M.D. *New as of 12/01/25",
-    "clinicName": "AV8RMED",
-    "location": "Atlanta, GA",
-    "phone": "404-565-0870",
-    "website": null,
-    "email": "info@av8rmed.com",
-    "yearsAsAME": null,
-    "handlesConditionCodes": null,
-    "isHIMSTrained": true,
-    "languages": null,
-    "examStyleIndicators": [
-      "HIMS-trained",
-      "Senior AME",
-      "Class I, II, III"
-    ],
-    "latitude": 33.3449,
-    "longitude": -84.0982
-  },
-  {
-    "envelope": {
       "code": "ame-hims-106",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2757,7 +2731,7 @@
     "envelope": {
       "code": "ame-hims-107",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2783,7 +2757,7 @@
     "envelope": {
       "code": "ame-hims-108",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2809,7 +2783,7 @@
     "envelope": {
       "code": "ame-hims-109",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2835,7 +2809,7 @@
     "envelope": {
       "code": "ame-hims-110",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2861,7 +2835,7 @@
     "envelope": {
       "code": "ame-hims-111",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2887,7 +2861,7 @@
     "envelope": {
       "code": "ame-hims-112",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2913,7 +2887,7 @@
     "envelope": {
       "code": "ame-hims-113",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2939,7 +2913,7 @@
     "envelope": {
       "code": "ame-hims-114",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2965,7 +2939,7 @@
     "envelope": {
       "code": "ame-hims-115",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -2991,7 +2965,7 @@
     "envelope": {
       "code": "ame-hims-116",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3017,7 +2991,7 @@
     "envelope": {
       "code": "ame-hims-117",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3043,7 +3017,7 @@
     "envelope": {
       "code": "ame-hims-118",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3069,7 +3043,7 @@
     "envelope": {
       "code": "ame-hims-119",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3095,7 +3069,7 @@
     "envelope": {
       "code": "ame-hims-120",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3121,7 +3095,7 @@
     "envelope": {
       "code": "ame-hims-121",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3147,7 +3121,7 @@
     "envelope": {
       "code": "ame-hims-122",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3173,7 +3147,7 @@
     "envelope": {
       "code": "ame-hims-123",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3199,11 +3173,11 @@
     "envelope": {
       "code": "ame-hims-124",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Kim, Jenna, M.D. *New as of 11/13/25",
+    "name": "Kim, Jenna, M.D.",
     "clinicName": null,
     "location": "Covington, GA",
     "phone": "203-747-4773",
@@ -3225,7 +3199,7 @@
     "envelope": {
       "code": "ame-hims-125",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3251,7 +3225,7 @@
     "envelope": {
       "code": "ame-hims-126",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3277,7 +3251,7 @@
     "envelope": {
       "code": "ame-hims-127",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3303,7 +3277,7 @@
     "envelope": {
       "code": "ame-hims-128",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3329,7 +3303,7 @@
     "envelope": {
       "code": "ame-hims-129",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3355,7 +3329,7 @@
     "envelope": {
       "code": "ame-hims-130",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3381,7 +3355,7 @@
     "envelope": {
       "code": "ame-hims-131",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3407,7 +3381,7 @@
     "envelope": {
       "code": "ame-hims-132",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3431,7 +3405,7 @@
     "envelope": {
       "code": "ame-hims-133",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3457,7 +3431,7 @@
     "envelope": {
       "code": "ame-hims-134",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3483,7 +3457,7 @@
     "envelope": {
       "code": "ame-hims-135",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3509,7 +3483,7 @@
     "envelope": {
       "code": "ame-hims-136",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3535,7 +3509,7 @@
     "envelope": {
       "code": "ame-hims-137",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3561,7 +3535,7 @@
     "envelope": {
       "code": "ame-hims-138",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3587,7 +3561,7 @@
     "envelope": {
       "code": "ame-hims-139",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3613,7 +3587,7 @@
     "envelope": {
       "code": "ame-hims-140",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3639,7 +3613,7 @@
     "envelope": {
       "code": "ame-hims-141",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3665,7 +3639,7 @@
     "envelope": {
       "code": "ame-hims-142",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3691,11 +3665,11 @@
     "envelope": {
       "code": "ame-hims-143",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Lunceford, Troy, M.D. *New as of 11/13/25",
+    "name": "Lunceford, Troy, M.D.",
     "clinicName": "Revere Health Aviation Medicine",
     "location": "Salem, UT",
     "phone": "801-465-4813",
@@ -3717,7 +3691,7 @@
     "envelope": {
       "code": "ame-hims-144",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3743,7 +3717,7 @@
     "envelope": {
       "code": "ame-hims-145",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3769,11 +3743,11 @@
     "envelope": {
       "code": "ame-hims-146",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Marcotte, Stuart, D.O. *New as of 12/15/25",
+    "name": "Marcotte, Stuart, D.O.",
     "clinicName": "Peninsula Community Health Services of Alaska",
     "location": "Soldotna, AK",
     "phone": null,
@@ -3795,7 +3769,7 @@
     "envelope": {
       "code": "ame-hims-147",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3821,7 +3795,7 @@
     "envelope": {
       "code": "ame-hims-148",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3847,7 +3821,7 @@
     "envelope": {
       "code": "ame-hims-149",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3873,7 +3847,7 @@
     "envelope": {
       "code": "ame-hims-150",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3899,7 +3873,7 @@
     "envelope": {
       "code": "ame-hims-151",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3925,7 +3899,7 @@
     "envelope": {
       "code": "ame-hims-152",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3951,7 +3925,7 @@
     "envelope": {
       "code": "ame-hims-153",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -3977,7 +3951,7 @@
     "envelope": {
       "code": "ame-hims-154",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4003,7 +3977,7 @@
     "envelope": {
       "code": "ame-hims-155",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4028,7 +4002,7 @@
     "envelope": {
       "code": "ame-hims-156",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4054,7 +4028,7 @@
     "envelope": {
       "code": "ame-hims-157",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4080,7 +4054,7 @@
     "envelope": {
       "code": "ame-hims-158",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4106,7 +4080,7 @@
     "envelope": {
       "code": "ame-hims-159",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4132,11 +4106,11 @@
     "envelope": {
       "code": "ame-hims-160",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Mistry, Amit, M.D.A *New as of 01/30/26",
+    "name": "Mistry, Amit, M.D.",
     "clinicName": "Polaris Aerospace Medicine",
     "location": "Oklahoma City, OK",
     "phone": "405 225-7324",
@@ -4158,7 +4132,7 @@
     "envelope": {
       "code": "ame-hims-161",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4184,7 +4158,7 @@
     "envelope": {
       "code": "ame-hims-162",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4210,7 +4184,7 @@
     "envelope": {
       "code": "ame-hims-163",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4236,7 +4210,7 @@
     "envelope": {
       "code": "ame-hims-164",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4262,7 +4236,7 @@
     "envelope": {
       "code": "ame-hims-165",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4288,7 +4262,7 @@
     "envelope": {
       "code": "ame-hims-166",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4314,7 +4288,7 @@
     "envelope": {
       "code": "ame-hims-167",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4340,7 +4314,7 @@
     "envelope": {
       "code": "ame-hims-168",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4366,7 +4340,7 @@
     "envelope": {
       "code": "ame-hims-169",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4392,7 +4366,7 @@
     "envelope": {
       "code": "ame-hims-170",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4418,7 +4392,7 @@
     "envelope": {
       "code": "ame-hims-171",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4444,7 +4418,7 @@
     "envelope": {
       "code": "ame-hims-172",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4470,7 +4444,7 @@
     "envelope": {
       "code": "ame-hims-173",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4496,7 +4470,7 @@
     "envelope": {
       "code": "ame-hims-174",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4522,7 +4496,7 @@
     "envelope": {
       "code": "ame-hims-175",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4548,7 +4522,7 @@
     "envelope": {
       "code": "ame-hims-176",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4574,7 +4548,7 @@
     "envelope": {
       "code": "ame-hims-177",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4599,11 +4573,11 @@
     "envelope": {
       "code": "ame-hims-178",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Patel, Neil, M.D. *New as of 12/02/25",
+    "name": "Patel, Neil, M.D.",
     "clinicName": "Northwest Flight Medicine",
     "location": "Hayden, ID",
     "phone": "208-676-6479",
@@ -4624,7 +4598,7 @@
     "envelope": {
       "code": "ame-hims-179",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4650,7 +4624,7 @@
     "envelope": {
       "code": "ame-hims-180",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4676,7 +4650,7 @@
     "envelope": {
       "code": "ame-hims-181",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4702,7 +4676,7 @@
     "envelope": {
       "code": "ame-hims-182",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4728,7 +4702,7 @@
     "envelope": {
       "code": "ame-hims-183",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4754,7 +4728,7 @@
     "envelope": {
       "code": "ame-hims-184",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4780,7 +4754,7 @@
     "envelope": {
       "code": "ame-hims-185",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4806,7 +4780,7 @@
     "envelope": {
       "code": "ame-hims-186",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4832,7 +4806,7 @@
     "envelope": {
       "code": "ame-hims-187",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4858,7 +4832,7 @@
     "envelope": {
       "code": "ame-hims-188",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4884,7 +4858,7 @@
     "envelope": {
       "code": "ame-hims-189",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4910,11 +4884,11 @@
     "envelope": {
       "code": "ame-hims-190",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Rivera, Jason, M.D. *New as of 12/02/25",
+    "name": "Rivera, Jason, M.D.",
     "clinicName": "Colorado Occupational Medical Partners",
     "location": "Aurora, CO",
     "phone": "303-214-0000",
@@ -4936,7 +4910,7 @@
     "envelope": {
       "code": "ame-hims-191",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4962,7 +4936,7 @@
     "envelope": {
       "code": "ame-hims-192",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -4988,7 +4962,7 @@
     "envelope": {
       "code": "ame-hims-193",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5014,7 +4988,7 @@
     "envelope": {
       "code": "ame-hims-194",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5040,7 +5014,7 @@
     "envelope": {
       "code": "ame-hims-195",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5066,7 +5040,7 @@
     "envelope": {
       "code": "ame-hims-196",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5092,7 +5066,7 @@
     "envelope": {
       "code": "ame-hims-197",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5118,7 +5092,7 @@
     "envelope": {
       "code": "ame-hims-198",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5144,7 +5118,7 @@
     "envelope": {
       "code": "ame-hims-199",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5170,11 +5144,11 @@
     "envelope": {
       "code": "ame-hims-200",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Scheurer, Mark M., M.D. *New as of",
+    "name": "Scheurer, Mark M., M.D.",
     "clinicName": "5/5/26",
     "location": "Coronado, CA",
     "phone": "619-787-7406",
@@ -5196,7 +5170,7 @@
     "envelope": {
       "code": "ame-hims-201",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5220,35 +5194,9 @@
   },
   {
     "envelope": {
-      "code": "ame-hims-202",
-      "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
-      "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
-    },
-    "name": "Schneidman, Sydney W., M.D.",
-    "clinicName": null,
-    "location": "Lake Forest, IL",
-    "phone": "847-234-7950",
-    "website": null,
-    "email": "sydney@olympus.net",
-    "yearsAsAME": null,
-    "handlesConditionCodes": null,
-    "isHIMSTrained": true,
-    "languages": null,
-    "examStyleIndicators": [
-      "HIMS-trained",
-      "Senior AME",
-      "Class I, II, III"
-    ],
-    "latitude": 42.2374,
-    "longitude": -87.8482
-  },
-  {
-    "envelope": {
       "code": "ame-hims-203",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5274,11 +5222,11 @@
     "envelope": {
       "code": "ame-hims-204",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Scott, Brian, D.O. *New as of 11/13/25",
+    "name": "Scott, Brian, D.O.",
     "clinicName": null,
     "location": "Lake Havasu, AZ",
     "phone": "928-412-8760",
@@ -5300,7 +5248,7 @@
     "envelope": {
       "code": "ame-hims-205",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5326,7 +5274,7 @@
     "envelope": {
       "code": "ame-hims-206",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5352,7 +5300,7 @@
     "envelope": {
       "code": "ame-hims-207",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5378,7 +5326,7 @@
     "envelope": {
       "code": "ame-hims-208",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5404,7 +5352,7 @@
     "envelope": {
       "code": "ame-hims-209",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5430,7 +5378,7 @@
     "envelope": {
       "code": "ame-hims-210",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5456,7 +5404,7 @@
     "envelope": {
       "code": "ame-hims-211",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5482,7 +5430,7 @@
     "envelope": {
       "code": "ame-hims-212",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5508,7 +5456,7 @@
     "envelope": {
       "code": "ame-hims-213",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5534,7 +5482,7 @@
     "envelope": {
       "code": "ame-hims-214",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5560,7 +5508,7 @@
     "envelope": {
       "code": "ame-hims-215",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5585,7 +5533,7 @@
     "envelope": {
       "code": "ame-hims-216",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5611,7 +5559,7 @@
     "envelope": {
       "code": "ame-hims-217",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5635,35 +5583,9 @@
   },
   {
     "envelope": {
-      "code": "ame-hims-218",
-      "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
-      "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
-    },
-    "name": "Steinkraus, Lawrence, M.D.",
-    "clinicName": "Mayo Clinic",
-    "location": "Rochester, MN",
-    "phone": "507-284-3097",
-    "website": null,
-    "email": "steinkraus.lawrence@mayo.edu",
-    "yearsAsAME": null,
-    "handlesConditionCodes": null,
-    "isHIMSTrained": true,
-    "languages": null,
-    "examStyleIndicators": [
-      "HIMS-trained",
-      "Senior AME",
-      "Class I, II, III"
-    ],
-    "latitude": 44.0225,
-    "longitude": -92.4668
-  },
-  {
-    "envelope": {
       "code": "ame-hims-219",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5689,7 +5611,7 @@
     "envelope": {
       "code": "ame-hims-220",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5715,11 +5637,11 @@
     "envelope": {
       "code": "ame-hims-221",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Stringham, Charles, M.D. *New as of",
+    "name": "Stringham, Charles, M.D.",
     "clinicName": "11/13/25",
     "location": "Coeur Dalene, ID",
     "phone": "208-416-7526",
@@ -5741,7 +5663,7 @@
     "envelope": {
       "code": "ame-hims-222",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5767,7 +5689,7 @@
     "envelope": {
       "code": "ame-hims-223",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5793,7 +5715,7 @@
     "envelope": {
       "code": "ame-hims-224",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5819,7 +5741,7 @@
     "envelope": {
       "code": "ame-hims-225",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5845,7 +5767,7 @@
     "envelope": {
       "code": "ame-hims-226",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5871,7 +5793,7 @@
     "envelope": {
       "code": "ame-hims-227",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5897,7 +5819,7 @@
     "envelope": {
       "code": "ame-hims-228",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5923,7 +5845,7 @@
     "envelope": {
       "code": "ame-hims-229",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -5947,35 +5869,9 @@
   },
   {
     "envelope": {
-      "code": "ame-hims-230",
-      "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
-      "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
-    },
-    "name": "Toups, Gary N., M.D.",
-    "clinicName": null,
-    "location": "Rochester, MN",
-    "phone": "507-266-0836",
-    "website": null,
-    "email": "toups.gary@mayo.edu",
-    "yearsAsAME": null,
-    "handlesConditionCodes": null,
-    "isHIMSTrained": true,
-    "languages": null,
-    "examStyleIndicators": [
-      "HIMS-trained",
-      "Senior AME",
-      "Class I, II, III"
-    ],
-    "latitude": 44.0225,
-    "longitude": -92.4668
-  },
-  {
-    "envelope": {
       "code": "ame-hims-231",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6001,7 +5897,7 @@
     "envelope": {
       "code": "ame-hims-232",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6026,7 +5922,7 @@
     "envelope": {
       "code": "ame-hims-233",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6052,7 +5948,7 @@
     "envelope": {
       "code": "ame-hims-234",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6078,7 +5974,7 @@
     "envelope": {
       "code": "ame-hims-235",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6104,11 +6000,11 @@
     "envelope": {
       "code": "ame-hims-236",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Valera, Amit, D.O. *New as of 12/23/25",
+    "name": "Valera, Amit, D.O.",
     "clinicName": "Nevada Integrated Healthcare",
     "location": "Las Vegas, NV",
     "phone": "702-848-5644",
@@ -6130,7 +6026,7 @@
     "envelope": {
       "code": "ame-hims-237",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6156,7 +6052,7 @@
     "envelope": {
       "code": "ame-hims-238",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6182,7 +6078,7 @@
     "envelope": {
       "code": "ame-hims-239",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6208,7 +6104,7 @@
     "envelope": {
       "code": "ame-hims-240",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6234,7 +6130,7 @@
     "envelope": {
       "code": "ame-hims-241",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6260,7 +6156,7 @@
     "envelope": {
       "code": "ame-hims-242",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6286,11 +6182,11 @@
     "envelope": {
       "code": "ame-hims-243",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Warwick, John, M.D. *New as of 01/16/26",
+    "name": "Warwick, John, M.D.",
     "clinicName": "205 W Granger Ave",
     "location": "Location not listed",
     "phone": "209-579-9930",
@@ -6311,7 +6207,7 @@
     "envelope": {
       "code": "ame-hims-244",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6337,7 +6233,7 @@
     "envelope": {
       "code": "ame-hims-245",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6363,7 +6259,7 @@
     "envelope": {
       "code": "ame-hims-246",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6389,11 +6285,11 @@
     "envelope": {
       "code": "ame-hims-247",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "White, Michael, M.D. *New as of 11/13/25",
+    "name": "White, Michael, M.D.",
     "clinicName": "Aviation Medical Clinic",
     "location": "Webster, TX",
     "phone": "281-338-2328",
@@ -6415,11 +6311,11 @@
     "envelope": {
       "code": "ame-hims-248",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Whitis, Matt, M.D. *New as of 12/02/25",
+    "name": "Whitis, Matt, M.D.",
     "clinicName": null,
     "location": "Steamboat Springs, CO",
     "phone": "641-660-5354",
@@ -6441,7 +6337,7 @@
     "envelope": {
       "code": "ame-hims-249",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
@@ -6467,7 +6363,7 @@
     "envelope": {
       "code": "ame-hims-250",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-05-07T00:00:00Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-05-07",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
