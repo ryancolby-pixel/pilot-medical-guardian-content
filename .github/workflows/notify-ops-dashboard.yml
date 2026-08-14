@@ -1,0 +1,60 @@
+name: Notify ops dashboard
+
+# Pokes the private ops dashboard to rebuild whenever any check in THIS repo
+# finishes, so its "Automated checks" card reflects reality instead of being up
+# to six hours behind.
+#
+# WHY THIS FILE EXISTS RATHER THAN A STEP IN EACH WORKFLOW: `workflow_run` can
+# watch every workflow in the repo from one place, so this is one new file
+# instead of nine edits to files that already work. Fewer moving parts, and none
+# of the existing checks change at all.
+#
+# WHY IT CANNOT BE `workflow_run` ON THE DASHBOARD SIDE: that trigger only fires
+# for workflows in the SAME repository, and the dashboard lives in the private
+# docs repo. Crossing a repo boundary needs repository_dispatch.
+#
+# 🚨 THIS REPO IS PUBLIC. The token below can only send a repository_dispatch to
+# the docs repo and read nothing. Secrets are not exposed to fork pull requests
+# and never appear in logs, but anyone who can push here could exfiltrate it, so
+# it is scoped as narrowly as GitHub allows and is worth rotating if push access
+# ever widens beyond Ryan.
+
+on:
+  workflow_run:
+    workflows:
+      - "Check FAA CACI Worksheet PDFs for reissue"
+      - "Check FAA HIMS-AME PDF for reissue"
+      - "Check medication claims"
+      - "Check whether cited FAA pages changed"
+      - "Check FAA source links"
+      - "Deploy site to Pages"
+      - "Rebuild content manifest"
+      - "Validate content"
+      - "Watchdog - are the safeguards actually running"
+    types: [completed]
+
+permissions: {}          # needs nothing in this repo; it only calls out
+
+concurrency:
+  group: notify-ops-dashboard
+  cancel-in-progress: true   # a burst of checks finishing collapses to one rebuild
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the dashboard
+        env:
+          GH_TOKEN: ${{ secrets.PMG_DASHBOARD_DISPATCH }}
+          SOURCE: ${{ github.event.workflow_run.name }}
+          RESULT: ${{ github.event.workflow_run.conclusion }}
+        run: |
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::warning::PMG_DASHBOARD_DISPATCH not set - dashboard not notified."
+            exit 0
+          fi
+          gh api -X POST repos/ryancolby-pixel/pilot-medical-guardian/dispatches \
+            -f event_type=ci-finished \
+            -F "client_payload[source]=$SOURCE" \
+            -F "client_payload[result]=$RESULT"
+          echo "Notified the dashboard: $SOURCE -> $RESULT"
