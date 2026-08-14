@@ -162,6 +162,19 @@ def norm(s: str) -> str:
 
 def fetch(url: str, cache: Path) -> str | None:
     """Source text for a URL, from cache or the network. None means UNREACHABLE."""
+    # 🚨 eCFR SERVES A JAVASCRIPT SHELL TO DATACENTER IPs. Fetched from a laptop, the HTML
+    # page carries the regulation text; fetched from a GitHub runner it returns a page with
+    # enough words to PASS the vocabulary control but WITHOUT the regulation body. That made
+    # the first CI run report five BasicMed quotations missing that are demonstrably present,
+    # and it passed locally, which is the worst possible shape for a check.
+    #
+    # The renderer API returns the section text deterministically from anywhere, so eCFR URLs
+    # are rewritten to it. Verified: 4,507 chars containing the 68.3(b)(3) text the HTML shell
+    # omitted for the runner.
+    m = re.match(r"https://www\.ecfr\.gov/current/title-(\d+)/.*?section-([\d.]+)$", url)
+    if m:
+        url = (f"https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/"
+               f"title-{m.group(1)}?section={m.group(2)}")
     key = re.sub(r"[^a-z0-9]+", "_", url.lower())[:120]
     blob = cache / key
     if not blob.exists():
