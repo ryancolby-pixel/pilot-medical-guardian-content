@@ -14,7 +14,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name acetaminophen in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Analgesic / antipyretic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name acetaminophen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Analgesic / antipyretic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "acyclovir",
@@ -31,7 +31,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name acyclovir in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name acyclovir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "albuterol",
@@ -68,7 +68,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name alendronate in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bisphosphonate (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name alendronate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bisphosphonate (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "allopurinol",
@@ -85,7 +85,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name allopurinol in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Xanthine oxidase inhibitor (gout). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name allopurinol in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Xanthine oxidase inhibitor (gout). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "alprazolam",
@@ -120,7 +120,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name amiodarone in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name amiodarone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "amitriptyline",
@@ -172,7 +172,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name amoxicillin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name amoxicillin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "amoxicillin/clavulanate",
@@ -190,7 +190,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name amoxicillin/clavulanate in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name amoxicillin/clavulanate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "amphetamine/dextroamphetamine",
@@ -227,7 +227,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name apixaban in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Concern is the underlying condition requiring anticoagulation, not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name apixaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Concern is the underlying condition requiring anticoagulation, not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "aspirin (low-dose)",
@@ -246,7 +246,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name aspirin (low-dose) in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiplatelet. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name aspirin (low-dose) in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiplatelet. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "atenolol",
@@ -298,7 +298,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name atorvastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name atorvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "azithromycin",
@@ -316,7 +316,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name azithromycin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name azithromycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "baclofen",
@@ -530,7 +530,7 @@
     },
     "treatedConditionNote": "The underlying anxiety condition is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name buspirone in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying anxiety condition is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name buspirone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying anxiety condition is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "canagliflozin",
@@ -601,7 +601,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name celecoxib in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: COX-2 inhibitor (NSAID). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name celecoxib in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: COX-2 inhibitor (NSAID). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "cephalexin",
@@ -618,7 +618,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name cephalexin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name cephalexin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "cetirizine",
@@ -691,7 +691,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name ciprofloxacin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name ciprofloxacin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "citalopram",
@@ -701,8 +701,8 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
-    "faaStatusDescription": "Citalopram is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"citalopram (Celexa)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-citalopram",
       "contentVersion": "2026.0-sample",
@@ -744,7 +744,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name clarithromycin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name clarithromycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "clindamycin",
@@ -761,7 +761,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name clindamycin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name clindamycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "clonazepam",
@@ -814,7 +814,7 @@
     },
     "treatedConditionNote": "The condition requiring antiplatelet therapy is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name clopidogrel in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring antiplatelet therapy is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name clopidogrel in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring antiplatelet therapy is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "colchicine",
@@ -831,7 +831,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name colchicine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Anti-gout. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name colchicine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Anti-gout. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "colesevelam",
@@ -848,7 +848,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name colesevelam in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bile acid sequestrant (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name colesevelam in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bile acid sequestrant (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "cyclobenzaprine",
@@ -883,7 +883,7 @@
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name dabigatran in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name dabigatran in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "dapagliflozin",
@@ -918,7 +918,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name denosumab in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: RANKL inhibitor (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name denosumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: RANKL inhibitor (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "desvenlafaxine",
@@ -928,7 +928,7 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Desvenlafaxine is among the medications the FAA may consider through its antidepressant decision process, not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"desvenlafaxine (Pristiq)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-desvenlafaxine",
       "contentVersion": "2026.0-sample",
@@ -969,7 +969,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name diclofenac in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name diclofenac in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "dicyclomine",
@@ -1022,7 +1022,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name digoxin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Cardiac glycoside. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name digoxin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Cardiac glycoside. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "diltiazem",
@@ -1113,7 +1113,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name doxycycline in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name doxycycline in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "envelope": {
@@ -1140,7 +1140,7 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Duloxetine is among the medications the FAA may consider through its antidepressant decision process, not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"duloxetine (Cymbalta)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-duloxetine",
       "contentVersion": "2026.0-sample",
@@ -1164,7 +1164,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name dutasteride in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name dutasteride in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "edoxaban",
@@ -1182,7 +1182,7 @@
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name edoxaban in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name edoxaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "empagliflozin",
@@ -1236,7 +1236,7 @@
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name erenumab in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name erenumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "escitalopram",
@@ -1246,8 +1246,8 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
-    "faaStatusDescription": "Escitalopram is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"escitalopram (Lexapro)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-escitalopram",
       "contentVersion": "2026.0-sample",
@@ -1288,7 +1288,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name esomeprazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name esomeprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "estradiol",
@@ -1306,7 +1306,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name estradiol in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Estrogen (hormone replacement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name estradiol in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Estrogen (hormone replacement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "eszopiclone",
@@ -1341,7 +1341,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name ethinyl estradiol/norethindrone in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Oral contraceptive. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name ethinyl estradiol/norethindrone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Oral contraceptive. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "evolocumab",
@@ -1358,7 +1358,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name evolocumab in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PCSK9 inhibitor (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name evolocumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PCSK9 inhibitor (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "ezetimibe",
@@ -1375,7 +1375,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name ezetimibe in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Cholesterol absorption inhibitor. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name ezetimibe in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Cholesterol absorption inhibitor. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "famotidine",
@@ -1392,7 +1392,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name famotidine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: H2 blocker (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name famotidine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: H2 blocker (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "febuxostat",
@@ -1409,7 +1409,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name febuxostat in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Xanthine oxidase inhibitor (gout). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name febuxostat in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Xanthine oxidase inhibitor (gout). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "felodipine",
@@ -1462,7 +1462,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name fenofibrate in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name fenofibrate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "fexofenadine",
@@ -1479,7 +1479,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name fexofenadine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name fexofenadine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "finasteride",
@@ -1497,7 +1497,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name finasteride in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH/hair). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name finasteride in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH/hair). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "flecainide",
@@ -1514,7 +1514,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name flecainide in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name flecainide in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "fluconazole",
@@ -1531,7 +1531,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name fluconazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name fluconazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "fluoxetine",
@@ -1541,8 +1541,8 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying depression/anxiety and its stability; this is one of the four SSRIs handled under the FAA SSRI Decision Path.",
-    "faaStatusDescription": "Fluoxetine is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process (a HIMS-style monitored pathway), not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying depression/anxiety and its stability; this is one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"fluoxetine (Prozac; Sarafem)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-fluoxetine",
       "contentVersion": "2026.0-sample",
@@ -1657,7 +1657,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name gemfibrozil in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name gemfibrozil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "glimepiride",
@@ -1786,7 +1786,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name ibuprofen in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name ibuprofen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "indapamide",
@@ -1894,7 +1894,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name lansoprazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name lansoprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "latanoprost",
@@ -1964,7 +1964,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name levofloxacin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name levofloxacin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "levomilnacipran",
@@ -2142,7 +2142,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name loperamide in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antidiarrheal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name loperamide in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antidiarrheal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "loratadine",
@@ -2159,7 +2159,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name loratadine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name loratadine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "lorazepam",
@@ -2230,7 +2230,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name lovastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name lovastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "melatonin",
@@ -2247,7 +2247,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name melatonin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Sleep aid (supplement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name melatonin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Sleep aid (supplement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "meloxicam",
@@ -2264,7 +2264,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name meloxicam in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name meloxicam in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "mesalamine",
@@ -2284,7 +2284,7 @@
     },
     "treatedConditionNote": "The inflammatory bowel condition is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name mesalamine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The inflammatory bowel condition is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name mesalamine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The inflammatory bowel condition is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "metformin",
@@ -2363,7 +2363,7 @@
     },
     "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name methimazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The hyperthyroid condition and euthyroid status are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name methimazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The hyperthyroid condition and euthyroid status are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "methocarbamol",
@@ -2435,7 +2435,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name metronidazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name metronidazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "mirtazapine",
@@ -2487,7 +2487,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name mometasone (nasal) in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Intranasal corticosteroid (rhinitis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name mometasone (nasal) in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Intranasal corticosteroid (rhinitis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "montelukast",
@@ -2541,7 +2541,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name naproxen in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name naproxen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "nebivolol",
@@ -2576,7 +2576,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name niacin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Nicotinic acid (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name niacin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Nicotinic acid (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "nicotine",
@@ -2631,7 +2631,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name nitrofurantoin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name nitrofurantoin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "olmesartan",
@@ -2666,7 +2666,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name omeprazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name omeprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "ondansetron",
@@ -2719,7 +2719,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name oseltamivir in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral (influenza). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name oseltamivir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral (influenza). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "oxycodone",
@@ -2755,7 +2755,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name pantoprazole in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name pantoprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "paroxetine",
@@ -2864,7 +2864,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name pitavastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name pitavastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "pravastatin",
@@ -2881,7 +2881,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name pravastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name pravastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "prednisone",
@@ -2952,7 +2952,7 @@
     },
     "treatedConditionNote": "The hyperthyroid condition and euthyroid status are the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name propylthiouracil in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The hyperthyroid condition and euthyroid status are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name propylthiouracil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The hyperthyroid condition and euthyroid status are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "pseudoephedrine",
@@ -2969,7 +2969,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name pseudoephedrine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Decongestant (allergy / cold). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name pseudoephedrine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Decongestant (allergy / cold). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "quinapril",
@@ -3041,7 +3041,7 @@
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name rivaroxaban in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name rivaroxaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "rizatriptan",
@@ -3059,7 +3059,7 @@
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name rizatriptan in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name rizatriptan in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "rosuvastatin",
@@ -3076,7 +3076,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name rosuvastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name rosuvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "semaglutide",
@@ -3141,8 +3141,8 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs in the FAA SSRI Decision Path.",
-    "faaStatusDescription": "Sertraline is one of the SSRIs the FAA may consider through its SSRI Decision Path / Special Issuance process, not issued at the AME's desk. Confirm against the current AME Guide SSRI policy and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"sertraline (Zoloft)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-sertraline",
       "contentVersion": "2026.0-sample",
@@ -3166,7 +3166,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name sildenafil in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name sildenafil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "simvastatin",
@@ -3183,7 +3183,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name simvastatin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name simvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "sitagliptin",
@@ -3218,7 +3218,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name sotalol in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic / beta blocker. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name sotalol in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiarrhythmic / beta blocker. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "spironolactone",
@@ -3255,7 +3255,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name sulfamethoxazole/trimethoprim in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name sulfamethoxazole/trimethoprim in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "sulfasalazine",
@@ -3272,7 +3272,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name sulfasalazine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Aminosalicylate (IBD / arthritis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name sulfasalazine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Aminosalicylate (IBD / arthritis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "sumatriptan",
@@ -3290,7 +3290,7 @@
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name sumatriptan in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name sumatriptan in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "tadalafil",
@@ -3307,7 +3307,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name tadalafil in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name tadalafil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "tamsulosin",
@@ -3325,7 +3325,7 @@
     },
     "treatedConditionNote": "Generally acceptable; the FAA's interest is tolerance and the underlying condition.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name tamsulosin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Generally acceptable; the FAA's interest is tolerance and the underlying condition. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name tamsulosin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Generally acceptable; the FAA's interest is tolerance and the underlying condition. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "telmisartan",
@@ -3378,7 +3378,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name terbinafine in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name terbinafine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "testosterone",
@@ -3397,7 +3397,7 @@
     },
     "treatedConditionNote": "The reason for use and underlying condition are the FAA's primary interest.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name testosterone in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The reason for use and underlying condition are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name testosterone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The reason for use and underlying condition are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "timolol (ophthalmic)",
@@ -3592,7 +3592,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name valacyclovir in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name valacyclovir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "valsartan",
@@ -3638,7 +3638,7 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Venlafaxine is among the medications the FAA may consider through its antidepressant decision process (a HIMS-style monitored pathway), not issued at the AME's desk. Confirm against the current AME Guide antidepressant policy and a qualified AME.",
+    "faaStatusDescription": "The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" Conditional means a Special Issuance, not an issuance at the AME's desk, and the single-agent limit is part of the condition. It names the drug \"venlafaxine (Effexor)\". The FAA renamed this pathway: it writes of \"the FAA's SSRI Protocol being renamed the Antidepressant Protocol\", and that \"All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol\". So older material naming an SSRI protocol means this one. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-venlafaxine",
       "contentVersion": "2026.0-sample",
@@ -3717,7 +3717,7 @@
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name warfarin in CACI, Do Not Issue / Do Not Fly, or the SSRI Decision Path. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name warfarin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "zaleplon",
