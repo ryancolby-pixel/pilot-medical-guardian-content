@@ -94,7 +94,7 @@ jobs:
         run: |
           gh label create med-claim-contradiction --color b60205 --description "Our medication content contradicts what the FAA publishes" 2>/dev/null || true
           FP=$(cat med-claims-fingerprint.txt)
-          EXISTING=$(gh issue list --state open --label med-claim-contradiction --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label med-claim-contradiction --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
             if [ "$PREV" = "$FP" ]; then
@@ -117,7 +117,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          EXISTING=$(gh issue list --state open --label med-claim-contradiction --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label med-claim-contradiction --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue close "$EXISTING" --comment "Every medication claim checks out against the live FAA sources as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi

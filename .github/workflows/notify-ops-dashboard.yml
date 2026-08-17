@@ -31,6 +31,13 @@ on:
       - "Rebuild content manifest"
       - "Validate content"
       - "Watchdog - are the safeguards actually running"
+      # 🚨 ADDED 2026-08-17. These two were created on 2026-08-14, hours AFTER this file
+      # was last touched that morning, so the dashboard never rebuilt on either of them.
+      # ⚠️ These strings must match each workflow's `name:` field EXACTLY - a name matching
+      # nothing is a silent no-op, and nothing in GitHub will tell you. Verified against
+      # the actual `name:` lines, not typed from memory.
+      - "Content fidelity check"
+      - "Content re-verification deadline"
     types: [completed]
 
 permissions: {}          # needs nothing in this repo; it only calls out

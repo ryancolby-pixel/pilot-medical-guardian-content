@@ -116,3 +116,11 @@ jobs:
             echo "A pull request has been opened on branch ${BRANCH} with the steps."
           } > pr-alert-body.md
           ./scripts/send-alert-email.sh "PMG: FAA HIMS-AME PDF reissued" pr-alert-body.md
+
+          # 🚨 EXIT 1 SO THE RUN GOES RED (added 2026-08-17). See the identical note in
+          # check-faa-caci-pdfs.yml. send-alert-email.sh is fail-soft by design, so without
+          # this line a reissued PDF could produce a fully GREEN run with no notification
+          # whatsoever - which is exactly what happened on 2026-08-03, when the alert
+          # secrets did not yet exist and PR #1 then sat unactioned for 14 days.
+          echo "The FAA reissued the HIMS-AME PDF. See the pull request above."
+          exit 1

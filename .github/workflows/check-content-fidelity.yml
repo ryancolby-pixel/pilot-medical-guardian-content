@@ -13,7 +13,12 @@ name: Content fidelity check
 
 on:
   schedule:
-    - cron: "0 14 * * 1"     # Mondays ~14:00 UTC, after the other weekly content checks
+    - cron: "0 14 * * 1"     # Mondays 14:00 UTC. This is the EARLIEST of the weekly
+                             # content checks apart from the CACI PDF job, which shares
+                             # this slot: links 15:00, re-verification 15:23, watchdog
+                             # 15:30, freshness and med-claims 16:00. (Corrected 8/17 --
+                             # it previously claimed to run "after the other weekly
+                             # content checks", which was backwards.)
   workflow_dispatch: {}
   # ✅ PUSH TRIGGER RESTORED 2026-08-17, after the calibration it was disabled for.
   #
@@ -31,10 +36,21 @@ on:
   # The baseline was rebanked from a clean full pass and SHRANK, 279 -> 207. Local run is
   # green at new: 0.
   #
-  # ⚠️ HONEST CAVEAT: no CI run has yet gone green, because GitHub Actions was in a major
-  # outage when this was restored, so the last scheduled run failed in "Set up job" before
-  # our steps ran. The standing rule still applies and is the safety net - if this cries
-  # wolf, turn it off at the SECOND false alarm, not the fourth.
+  # ⚠️ HONEST CAVEAT: no CI run has gone green yet, because no run has FIRED since the fix
+  # landed - this trigger is path-scoped to v1/** and the fix touched only scripts/.
+  #
+  # 🚨 THE SENTENCE THAT USED TO BE HERE WAS FALSE, and it is worth keeping the correction
+  # visible. It said the last scheduled run "failed in Set up job before our steps ran",
+  # blaming the GitHub Actions outage. Measured on run 32038935824: Set up job, checkout,
+  # setup-python, the pdfplumber install, the check itself AND the issue-comment step all
+  # succeeded; the only failing step was the deliberate `Fail the run`. The run executed
+  # completely and went red for the 120 findings, which is exactly what the paragraph
+  # above says. The "Set up job" failure was the PAGES deploy, a different workflow, and
+  # the two were conflated while writing this. The block contradicted itself eleven lines
+  # apart and nobody noticed until the alerting layer was audited.
+  #
+  # The standing rule still applies and is the safety net - if this cries wolf, turn it
+  # off at the SECOND false alarm, not the fourth.
   #
   # ⏱️ PATH-SCOPED ON PURPOSE. The check reads a ~189-document corpus and takes about 25
   # minutes on a cold runner. Firing it on a docs or script push spends that for nothing,
@@ -85,7 +101,7 @@ jobs:
             echo
             cat content-fidelity-report.md 2>/dev/null || cat fidelity-output.txt
           } > fidelity-comment.md
-          EXISTING=$(gh issue list --state open --label content-fidelity --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label content-fidelity --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue comment "$EXISTING" --body-file fidelity-comment.md
           else
@@ -93,6 +109,25 @@ jobs:
               --title "Published content does not match its cited FAA source" \
               --label content-fidelity \
               --body-file fidelity-comment.md
+          fi
+
+      # 🚨 ADDED 2026-08-17. Without this the issue could never close by any code path in
+      # the repo, and that was not theoretical: the 8/15 green run left issue #6 open,
+      # asserting that published content misquotes the FAA, while the check that filed it
+      # was passing. The only signal that content had gone clean was the ABSENCE of a new
+      # comment, which is indistinguishable from the workflow having silently stopped -
+      # the exact 27-day failure mode watchdog.yml exists to catch. Its three older
+      # siblings all close; this one and check-verification-age.yml were written from a
+      # simpler template two days later and both missed it.
+      - name: Close the issue when every cited span checks out again
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          EXISTING=$(gh issue list --state open --label content-fidelity --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every quoted span and numeric claim resolves against the source it cites as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi
 
       - name: Fail the run

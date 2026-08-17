@@ -70,9 +70,25 @@ def scheduled_workflows() -> dict[str, float]:
 
 
 def last_run(workflow_file: str) -> datetime.datetime | None:
+    """When did this workflow last run ON ITS SCHEDULE?
+
+    🚨 `--event schedule` IS LOAD-BEARING (added 2026-08-17). Without it this asked
+    "when did this workflow last run by ANY means", which a push or a manual
+    workflow_dispatch satisfies just as well as a cron firing. The question this whole
+    script exists to answer is whether a SCHEDULE has quietly stopped, and a workflow
+    being run by hand every few days would have masked a dead cron indefinitely.
+
+    check-med-claims.yml is the live illustration: 18 runs, 17 of them push-triggered.
+    Its cron could have been broken for a month and this check would have reported it
+    healthy every single Monday, on the strength of push runs alone.
+
+    That is precisely the blind spot the watchdog was written to remove, sitting inside
+    the watchdog. A returned None (no scheduled run ever) is the correct, loud answer for
+    a workflow whose cron has never fired - which is the 27-day failure in the header.
+    """
     r = subprocess.run(
-        ["gh", "run", "list", "--workflow", workflow_file, "--limit", "1",
-         "--json", "createdAt", "--jq", ".[0].createdAt"],
+        ["gh", "run", "list", "--workflow", workflow_file, "--event", "schedule",
+         "--limit", "1", "--json", "createdAt", "--jq", ".[0].createdAt"],
         cwd=ROOT, capture_output=True, text=True,
     )
     stamp = r.stdout.strip()

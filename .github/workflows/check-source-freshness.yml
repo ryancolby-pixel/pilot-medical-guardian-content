@@ -93,7 +93,7 @@ jobs:
           gh label create faa-source-changed --color 1d76db \
             --description "An FAA page we cite has been updated" 2>/dev/null || true
           FP=$(cat source-freshness-fingerprint.txt)
-          EXISTING=$(gh issue list --state open --label faa-source-changed --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label faa-source-changed --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
             if [ "$PREV" = "$FP" ]; then
@@ -102,6 +102,12 @@ jobs:
               exit 0
             fi
             gh issue comment "$EXISTING" --body-file source-freshness-report.md
+            # 🚨 ADDED 2026-08-17, the mirror image of the gap in check-source-links.yml.
+            # This branch is reached only when the fingerprint CHANGED, i.e. a DIFFERENT
+            # set of FAA pages moved, which is genuinely new information, and it was the
+            # one path that sent no alert email. Safe to mail here precisely because the
+            # quiet path above already returned, so it cannot fire on unchanged state.
+            ./scripts/send-alert-email.sh "PMG: an FAA page we cite has been updated" source-freshness-report.md
             gh issue edit "$EXISTING" --body-file source-freshness-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
@@ -122,7 +128,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          EXISTING=$(gh issue list --state open --label faa-source-changed --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label faa-source-changed --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue close "$EXISTING" --comment "Every cited FAA page matches its recorded date as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi

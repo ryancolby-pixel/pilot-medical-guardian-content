@@ -74,7 +74,7 @@ jobs:
         run: |
           gh label create faa-link-rot --color d93f0b             --description "A cited FAA source no longer resolves" 2>/dev/null || true
           FP=$(cat source-link-fingerprint.txt)
-          EXISTING=$(gh issue list --state open --label faa-link-rot --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label faa-link-rot --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             PREV=$(gh issue view "$EXISTING" --json body --jq '.body' | grep -o 'fingerprint:[a-f0-9]*' | head -1 | cut -d: -f2)
             if [ "$PREV" = "$FP" ]; then
@@ -88,6 +88,13 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --assignee ryancolby-pixel               --body-file source-link-report.md
+            # 🚨 ADDED 2026-08-17. This branch is the FIRST-EVER dead link, and it was the
+            # one path that did not send the alert email - so the very first rot went out
+            # with no push notification while every SUBSEQUENT change got one. Its sibling
+            # check-source-freshness.yml had the mirror-image gap (email on create, none on
+            # change). check-med-claims.yml, written a month later, calls it on both, which
+            # is what shows these two were drift rather than a decision.
+            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -98,7 +105,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          EXISTING=$(gh issue list --state open --label faa-link-rot --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label faa-link-rot --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue close "$EXISTING" --comment "All cited FAA sources resolve again as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi

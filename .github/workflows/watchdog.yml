@@ -59,7 +59,7 @@ jobs:
         run: |
           gh label create silent-safeguard --color 5319e7 \
             --description "A scheduled check has stopped running" 2>/dev/null || true
-          EXISTING=$(gh issue list --state open --label silent-safeguard --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label silent-safeguard --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue comment "$EXISTING" --body-file watchdog-report.md
           else
@@ -71,3 +71,24 @@ jobs:
             ./scripts/send-alert-email.sh "PMG: a scheduled safeguard has stopped running" watchdog-report.md
           fi
           exit 1
+
+      # 🚨 ADDED 2026-08-17. This was the semantically worst of the three missing close
+      # steps: an issue titled "A scheduled safeguard has stopped running" would have
+      # survived the safeguard resuming, so the one job whose entire purpose is to notice
+      # that something quietly stopped would itself have gone on asserting a fault that
+      # had been fixed. A watchdog that cannot stand down is a watchdog you learn to mute.
+      #
+      # ⚖️ NOTE the deliberate asymmetry with its siblings: the alert email is sent ONLY on
+      # the create branch above and is NOT added to the comment branch. This job has no
+      # fingerprint, so its comment branch fires on STATE rather than on CHANGE - emailing
+      # there would mail Ryan every Monday for as long as a safeguard stayed quiet, which
+      # is the precise antipattern the other checkers were written to avoid.
+      - name: Close the issue once every safeguard is running again
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --state open --label silent-safeguard --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every scheduled safeguard has run inside its expected window as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi

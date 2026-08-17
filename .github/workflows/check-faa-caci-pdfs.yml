@@ -102,8 +102,20 @@ jobs:
           CHANGED:  ${{ steps.cmp.outputs.changed_list }}
         run: |
           set -euo pipefail
-          STAMP=$(date -u +%Y%m%d-%H%M%S)
+          # 🚨 BRANCH KEYED ON CONTENT, NOT ON THE CLOCK (2026-08-17). It was
+          # "${BRANCH_PREFIX}-$(date +%Y%m%d-%H%M%S)", so every weekly run that still saw a
+          # SHA mismatch produced a BRAND-NEW branch, a brand-new PR and a brand-new email
+          # for the same unmerged reissue. Its sibling check-faa-hims-pdf.yml keys on the
+          # SHA and guards with `gh pr list --head`; this one had neither. Latent so far
+          # only because CACI has never yet detected a reissue, but the 14-day-old open
+          # HIMS PR is the evidence that merges are not always prompt.
+          STAMP=$(printf '%s' "$CHANGED" | shasum -a 256 | cut -c1-8)
           BRANCH="${BRANCH_PREFIX}-${STAMP}"
+          EXISTING_PR=$(gh pr list --state open --head "$BRANCH" --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #$EXISTING_PR is already open for this exact set of changed worksheets - skipping."
+            exit 0
+          fi
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
@@ -140,3 +152,14 @@ jobs:
 
           printf '%s\n' "$BODY" > pr-alert-body.md
           ./scripts/send-alert-email.sh "PMG: FAA CACI worksheet(s) reissued" pr-alert-body.md
+
+          # 🚨 EXIT 1 SO THE RUN GOES RED (added 2026-08-17). This and its HIMS sibling were
+          # the only two alerting workflows with no failure backstop; every other one ends in
+          # a "Fail the run ... so the owner is emailed" step. That matters because
+          # send-alert-email.sh is FAIL-SOFT BY DESIGN - it warns and exits 0 on a missing
+          # secret or an SMTP error - so without this line a reissued FAA worksheet could
+          # produce a fully GREEN run that notified nobody at all. That is not hypothetical:
+          # on 2026-08-03 the alert secrets did not yet exist, the HIMS job ran green, and
+          # its PR sat unactioned for 14 days.
+          echo "The FAA reissued $COUNT CACI worksheet PDF(s). See the pull request above."
+          exit 1

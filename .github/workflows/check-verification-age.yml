@@ -48,13 +48,30 @@ jobs:
             echo
             cat verification-age-report.md 2>/dev/null || cat age-output.txt
           } > age-comment.md
-          EXISTING=$(gh issue list --state open --label content-reverify --json number --jq '.[0].number' || true)
+          EXISTING=$(gh issue list --state open --label content-reverify --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
           if [ -n "$EXISTING" ]; then
             gh issue comment "$EXISTING" --body-file age-comment.md
           else
             gh issue create --title "Content is past its re-verification deadline" \
               --label content-reverify --body-file age-comment.md
           fi
+
+      # 🚨 ADDED 2026-08-17. This check is DESIGNED to go red and then be fixed - someone
+      # re-reads a file against its FAA source and stamps it. That transition had no close
+      # path, so the issue would have outlived the work that resolved it and become a
+      # permanent red mark nobody could clear. Same omission as check-content-fidelity.yml;
+      # both were written from a simpler template than the three older checks.
+      - name: Close the issue when every file is back inside its window
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          EXISTING=$(gh issue list --state open --label content-reverify --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every content file is back inside its re-verification window as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
       - name: Fail the run
         if: steps.check.outputs.code != '0'
         run: |
