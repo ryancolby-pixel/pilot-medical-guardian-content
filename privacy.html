@@ -94,7 +94,7 @@
 
     <div class="card">
       <h3>Safari Web Extension (MedXPress autofill)</h3>
-      <p>When you enable PMG's optional Safari extension, it runs <strong>only on medxpress.faa.gov</strong>. The extension reads your already-saved records (medications, doctor visits, medical history answers) from the same on-device storage as the main app, through Apple's shared App Group mechanism. Your data never transits any server. It writes those records into MedXPress's form fields so you don't have to retype them at every renewal. You can disable the extension any time in Safari's settings; the main app keeps working without it. Like the rest of PMG, the extension uses no analytics, sends nothing to me, and connects to no third-party service.</p>
+      <p>When you enable PMG's optional Safari extension, it runs <strong>only on medxpress.faa.gov</strong>. The extension reads your already-saved records (medications, doctor visits, medical history answers) from the same on-device storage as the main app, through Apple's shared App Group mechanism. Your data never transits any server. It writes those records into MedXPress's form fields so you don't have to retype them at every renewal. You can disable the extension any time in Safari's settings; the main app keeps working without it. The extension itself uses no analytics, sends nothing to me, and connects to no third-party service. It only reads your already-saved records and writes them into the MedXPress form fields.</p>
     </div>
 
     <div class="card">
@@ -104,8 +104,16 @@
 
     <div class="card">
       <h3>No tracking, no ads, no selling</h3>
-      <p>There is no analytics SDK on your health data, no advertising, and I never sell your data. If product analytics are ever added, they will be anonymous, opt-in, and will never include health content.</p>
+      <p>There is no analytics SDK on your health data, no advertising, and I never sell your data. Not now, not ever. The app does use a subscription provider, RevenueCat, to run the Guardian Pro subscription: it receives an anonymous "is this device subscribed?" signal (never any health content, and nothing that identifies you) so Pro unlocks, renewals work, and I can see anonymous, aggregate subscription numbers. That's the one thing the App Store lists as collected. See "Subscriptions &amp; payments" below for exactly what it is and isn't.</p>
       <p style="margin-bottom:0"><strong>This website</strong>, separate from the app, counts page views using <strong>Cloudflare Web Analytics</strong>. It's cookieless, doesn't follow you across other sites, and doesn't build a profile of you. It tells me which pages get read and roughly what country a visit came from; nothing that identifies you, and it has no access to anything in the app.</p>
+    </div>
+
+    <div class="card">
+      <h3>Subscriptions &amp; payments</h3>
+      <p>Guardian Pro is a paid annual subscription. Apple processes the payment and is the seller of record. Apple, not I, handles your money and card details. To manage the subscription itself (unlock Pro, track renewals), the app uses a subscription provider called <strong>RevenueCat</strong>. This is part of how the subscription works. It isn't a separate feature you opt into.</p>
+      <p>Here's exactly what that involves. The app checks whether this device is subscribed at launch, and when you subscribe or renew. Each time, it sends RevenueCat an anonymous app-user ID (a random string, not your name or your Apple ID) and your subscription status ("is this device subscribed, and when does it renew"). That lets your Pro features unlock, keeps renewals working, and gives me anonymous, aggregate subscription numbers (how many people subscribe, renew, or cancel) so I can run the business. That is the entire extent of it.</p>
+      <p><strong>RevenueCat never receives</strong> your health readings, conditions, medications, doctor visits, medical history, Special Issuance data, documents, Apple Health data, your name, your email, or your real identity. None of that is ever sent to it.</p>
+      <p style="margin-bottom:0">This is why the App Store's privacy label lists exactly one collected data type (Purchases, Purchase History), marked <strong>Not Linked to you</strong> and <strong>not used for tracking</strong>. Your health and medical data stay <strong>Not Collected</strong>. RevenueCat's own privacy policy is here: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>. If you'd like the anonymous subscription record deleted, email <a href="mailto:support@pilotmedicalguardian.com?subject=Delete%20my%20subscription%20record">support@pilotmedicalguardian.com</a> and I'll have it removed.</p>
     </div>
 
     <div class="card">
