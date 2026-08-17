@@ -35,6 +35,10 @@ omitted fields are left untouched.
 """
 
 import json
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parent))
+from content_time import now_stamp
 import pathlib
 import subprocess
 import sys
@@ -83,7 +87,10 @@ def main() -> int:
     if dupes:
         die(f"patch names the same code more than once: {dupes}")
 
-    now = datetime.now(timezone.utc).replace(microsecond=0, tzinfo=None).isoformat() + "Z"
+    # Via the shared helper so there is one definition of "what a stamp looks like".
+    # This already produced second precision; routing it here keeps it that way when the
+    # format is next touched, and validate.py enforces the same shape on every entry.
+    now = now_stamp()
     changed, noop = [], []
 
     for p in patch:

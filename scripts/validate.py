@@ -7,13 +7,25 @@ requirement cross-refs) so the AME advisor's review only spends time on the
 medical/aeromedical content, not on bookkeeping. This is the §0 gate enforced
 in code (CONTENT_PIPELINE.md).
 """
-import json, sys, hashlib
+import json, re, sys, hashlib
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from content_time import is_day_only  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 V1 = ROOT / "v1"
 
 REQUIRED_ENVELOPE = {"code", "contentVersion", "lastVerified", "sourceCitation"}
+
+# ISO-8601, UTC, second precision, trailing Z. See scripts/content_time.py.
+STAMP_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
+
+# Entries that already carried a day-only stamp on 2026-08-17. Grandfathered on purpose:
+# nobody recorded a time for them, and inventing one would fabricate precision we never had.
+# A day-only stamp on any code NOT in here is NEW, and fails.
+_BASELINE = json.loads((Path(__file__).resolve().parent / "day-only-stamp-baseline.json").read_text())
+DAY_ONLY_OK = {f: set(c) for f, c in _BASELINE["codes_by_file"].items()}
 
 errors: list[str] = []
 
@@ -49,6 +61,39 @@ for name, data in loaded.items():
         if code in codes:
             errors.append(f"{name}: duplicate code '{code}'")
         codes.add(code)
+
+        # 🚨 lastVerified MUST CARRY A TIME OF DAY.
+        #
+        # Two tools decide "does this copy hold work nobody published?" by comparing the
+        # newest stamp on each side, and both comparisons are strict — so two copies at the
+        # SAME stamp are indistinguishable. Measured 2026-08-17, that tie was the common
+        # case: 406 of 655 entries sat at a bare T00:00:00Z and all 11 files were at equality
+        # with the app bundle. Proven by harness, 81 rewritten SI requirement texts with the
+        # stamp untouched made check-cdn-drift exit 0 while printing the instruction that
+        # destroys them, and made sync-bundle-from-cdn overwrite them outright.
+        #
+        # A day-only stamp also RENDERS a day early everywhere west of UTC, which is every
+        # pilot this app has. (The app now formats provenance dates in UTC, so that half is
+        # fixed at the display layer too.)
+        #
+        # 🚫 The 406 are grandfathered, NOT rewritten. Nobody recorded a time for them;
+        # inventing one would fabricate precision we never had, which is the same error as
+        # bumping lastVerified without redoing the comparison. They clear naturally: the next
+        # genuine re-verification writes content_time.now_stamp().
+        stamp = env.get("lastVerified")
+        if isinstance(stamp, str) and not STAMP_RE.match(stamp):
+            errors.append(
+                f"{name}:{code} lastVerified '{stamp}' is not the canonical stamp format. "
+                f"Expected ISO-8601 UTC to the second, e.g. '2026-08-17T14:23:11Z' "
+                f"(scripts/content_time.now_stamp())"
+            )
+        elif is_day_only(stamp) and code not in DAY_ONLY_OK.get(name, set()):
+            errors.append(
+                f"{name}:{code} lastVerified '{stamp}' has no time of day. Stamp the moment "
+                f"you actually checked it — use scripts/content_time.now_stamp(). "
+                f"(Grandfathered entries are listed in scripts/day-only-stamp-baseline.json; "
+                f"this code is not one of them.)"
+            )
     all_codes_by_file[name] = codes
 
 # Cross-ref: SI condition.requirementCodes must resolve to existing requirement entries.
