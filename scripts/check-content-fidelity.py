@@ -66,12 +66,14 @@ Usage:
     python3 scripts/check-content-fidelity.py [--file si_requirements.json] [--offline DIR]
 """
 import argparse
+import hashlib
 import html
 import json
 import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parent.parent
 V1 = ROOT / "v1"
@@ -160,8 +162,8 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
-def fetch(url: str, cache: Path) -> str | None:
-    """Source text for a URL, from cache or the network. None means UNREACHABLE."""
+def _blob(url: str, cache: Path) -> Path | None:
+    """Download `url` (or reuse the cached copy) and return the file. None means UNREACHABLE."""
     # 🚨 eCFR SERVES A JAVASCRIPT SHELL TO DATACENTER IPs. Fetched from a laptop, the HTML
     # page carries the regulation text; fetched from a GitHub runner it returns a page with
     # enough words to PASS the vocabulary control but WITHOUT the regulation body. That made
@@ -184,7 +186,35 @@ def fetch(url: str, cache: Path) -> str | None:
         if r.returncode != 0 or not blob.exists() or blob.stat().st_size == 0:
             blob.unlink(missing_ok=True)
             return None
+    return blob
+
+
+def fetch(url: str, cache: Path) -> str | None:
+    """Source text for a URL, from cache or the network. None means UNREACHABLE.
+
+    ⏱️ THE EXTRACTED TEXT IS CACHED TO DISK, NOT JUST THE DOWNLOAD. pdfplumber with
+    `extract_tables` on every page is by far the slowest step: the 2026-08-17 scheduled run
+    took 24m49s re-parsing documents it had already fetched, and the widened resolver reads
+    the whole ~131-document corpus. Caching the download alone does not help, because the
+    cost is the PARSE, not the network.
+
+    With a warm cache a local run is seconds, and that is the property that decides whether
+    this check gets run before a push at all. `check-source-links.py` was unrunnable locally
+    for a while, and this repo has already written down where that leads.
+    """
+    blob = _blob(url, cache)
+    if blob is None:
+        return None
     raw = blob.read_bytes()
+    # 🚨 KEYED ON THE CONTENT HASH, NOT THE URL OR THE MTIME. Keying on either would let a
+    # CHANGED FAA page reuse the parse of the old one, which is precisely the failure this
+    # whole script exists to catch, reintroduced as a performance optimisation. Identical
+    # bytes cannot parse differently; different bytes always re-parse. That also makes the
+    # parse cache safe to persist across CI runs while downloads stay fresh every time.
+    txt = cache / "parsed" / (hashlib.sha256(raw).hexdigest()[:32] + ".txt")
+    if txt.exists():
+        return txt.read_text(encoding="utf-8")
+    txt.parent.mkdir(parents=True, exist_ok=True)
     if raw[:4] == b"%PDF":
         try:
             import pdfplumber
@@ -200,8 +230,177 @@ def fetch(url: str, cache: Path) -> str | None:
                 for table in (page.extract_tables() or []):
                     for row in table:
                         parts.extend(c for c in row if c)
-        return norm(" ".join(parts))
-    return norm(raw.decode("utf-8", errors="ignore"))
+        out = norm(" ".join(parts))
+    else:
+        out = norm(raw.decode("utf-8", errors="ignore"))
+    txt.write_text(out, encoding="utf-8")
+    return out
+
+
+# 🚨 WHY A QUOTE IS CHECKED AGAINST MORE THAN ONE DOCUMENT (2026-08-17).
+#
+# `envelope.sourceURL` is SINGLE-VALUED. Many entries legitimately quote two to five FAA
+# documents, because that is how the AME Guide is built: a topic page carries the routing
+# and links out to the tables, worksheets and disposition charts that carry the specifics.
+# `med-phentermine` quotes the Weight Loss Medication page AND the Do Not Issue table; its
+# prose attributes each by name and `sourceCitation` lists both with their update dates.
+# Only the URL field cannot hold them.
+#
+# Checking every span against `sourceURL` alone therefore reported 120 findings on content
+# that was correctly quoted and correctly attributed, and would have failed every Monday
+# forever. Measured: all 96 flagged (entry, span) pairs were verbatim in a real FAA
+# document, and ZERO were fabricated.
+#
+# 🪤 AND THE OBVIOUS "FIX" WAS A TRAP. Re-pointing `sourceURL` to silence the checker would
+# have converted an accurate quotation into a fabricated one: the DNI table says
+# "Sympathomimetic (such as phentermine [Adipex])" and the weight-loss PDF says the same
+# thing WITHOUT "[Adipex]". Both files contain "Adipex" elsewhere, so a keyword check calls
+# it clean either way. 5 entries. The content was right and the CHECK's model was wrong.
+#
+# ⚖️ SCOPE IS DELIBERATELY ONE HOP, SAME HOST, AND QUOTES ONLY.
+#   • One hop from the cited page, never transitive. Two hops reaches most of the AME Guide,
+#     at which point "the FAA says this somewhere" is not a claim worth testing.
+#   • faa.gov only.
+#   • ONLY the quotation and numeric-claim tests widen. The deferral warning and the
+#     obligation-coverage test stay pinned to the CITED document, because those ask what THIS
+#     source imposes. Widening them would let an obligation from any of fourteen linked PDFs
+#     count as covered, which would gut the one test that can see an omission.
+LINK_RE = re.compile(rb'href=["\']([^"\']+)["\']', re.I)
+MAX_LINKED_DOCS = 25
+
+# Extracted text, memoized per process. The disk cache saves the DOWNLOAD; this saves the
+# pdfplumber EXTRACTION, which is the slow half and which tier 3 would otherwise repeat
+# across every entry that reaches it.
+_TEXT: dict[str, str | None] = {}
+
+
+def text_of(url: str, cache: Path) -> str | None:
+    if url not in _TEXT:
+        _TEXT[url] = fetch(url, cache)
+    return _TEXT[url]
+
+
+_LINKED: dict[str, list[tuple[str, str]]] = {}
+_WIDER: list[tuple[str, str]] | None = None
+
+
+def linked_corpus(url: str, cache: Path) -> list[tuple[str, str]]:
+    """Tier 2: readable documents the cited one links to."""
+    if url not in _LINKED:
+        out = []
+        for link in linked_faa_docs(url, cache):
+            t = text_of(link, cache)
+            if t and len(t) >= 200:
+                out.append((link, t))
+        _LINKED[url] = out
+    return _LINKED[url]
+
+
+def wider_corpus(all_source_urls: list[str], cache: Path) -> list[tuple[str, str]]:
+    """Tier 3: every document this project cites anywhere. Built once."""
+    global _WIDER
+    if _WIDER is None:
+        _WIDER = []
+        for u in all_source_urls:
+            t = text_of(u, cache)
+            if t and len(t) >= 200:
+                _WIDER.append((u, t))
+    return _WIDER
+
+
+def in_source(needle: str, hay: str) -> bool:
+    n = norm(needle)
+    if n in hay or n.rstrip(" .,;:") in hay:
+        return True
+    # A nested quotation may be re-rendered ('NO*' for "NO*"); that is a typographic
+    # convention, not a misquote.
+    return re.sub(r"['\"]", "", n.rstrip(" .,;:")) in re.sub(r"['\"]", "", hay)
+
+
+def resolve_span(needle: str, cited_url: str, cited_text: str,
+                 all_source_urls: list[str], cache: Path):
+    """(True, where) if `needle` is verbatim in an FAA document this project stands behind.
+
+    Three tiers, cheapest first, each paid for only if the one before missed:
+      1. the CITED document                 -> silent pass
+      2. a document the cited one LINKS TO  -> pass, plus a citation warning
+      3. any other document our own content -> pass, plus a citation warning
+         cites as a `sourceURL`
+      otherwise                             -> FAILURE
+
+    ▶️ WHY TIER 3 EXISTS, and it is not laziness. One hop is not enough on real FAA
+    structure: `med-phentermine` quotes the Do Not Issue table and names it in
+    `sourceCitation`, but `Weight_loss_Pharm.pdf` does NOT link to it (measured: that PDF
+    exposes exactly four link annotations, none of them the DNI table). A one-hop rule
+    reported that accurate quotation as missing.
+
+    ⚖️ THE BOUND IS OUR OWN CONTENT, which is what keeps this honest. Tier 3 is not "search
+    the FAA"; it is the ~131 documents this project already cites and already vouches for.
+    A span in NONE of them still fails, which is the property the whole check exists for.
+
+    🚨 THIS IS THE ONLY DEFINITION. `main()` and the control harness both call it. An
+    earlier control REIMPLEMENTED the tiers, drifted one tier behind, and reported a
+    correct resolver as broken. The copy is what drifts.
+    """
+    if in_source(needle, cited_text):
+        return True, cited_url
+    for link, text in linked_corpus(cited_url, cache):
+        if in_source(needle, text):
+            return True, link
+    for other, text in wider_corpus(all_source_urls, cache):
+        if other == cited_url:
+            continue
+        if in_source(needle, text):
+            return True, other
+    return False, None
+
+
+def linked_faa_docs(url: str, cache: Path) -> list[str]:
+    """FAA documents linked directly from `url`. One hop, same host, deduped, capped."""
+    blob = _blob(url, cache)
+    if blob is None:
+        return []
+    raw = blob.read_bytes()
+    found: list[str] = []
+
+    if raw[:4] == b"%PDF":
+        # PDF link ANNOTATIONS. Several AME Guide PDFs point at their own worksheets this
+        # way and carry no HTML at all, so skipping these loses whole documents.
+        try:
+            import pdfplumber
+            with pdfplumber.open(blob) as pdf:
+                for page in pdf.pages:
+                    for link in (page.hyperlinks or []):
+                        if link.get("uri"):
+                            found.append(link["uri"])
+                    for annot in (page.annots or []):
+                        uri = (annot.get("uri") or (annot.get("data") or {}).get("A", {}) or {})
+                        if isinstance(uri, str):
+                            found.append(uri)
+        except Exception:
+            return []
+    else:
+        for m in LINK_RE.findall(raw):
+            found.append(m.decode("utf-8", errors="ignore"))
+
+    out, seen = [], {url}
+    for href in found:
+        href = html.unescape(href.strip())
+        full = urljoin(url, href)
+        full = full.split("#")[0]
+        if not full.lower().startswith("https://www.faa.gov/"):
+            continue
+        # Documents, not navigation. The AME Guide's chrome links to its own index pages on
+        # every page; those carry no quotable text and would just cost fetches.
+        if not (full.lower().endswith(".pdf") or "/ame_guide/" in full.lower()):
+            continue
+        if full in seen:
+            continue
+        seen.add(full)
+        out.append(full)
+        if len(out) >= MAX_LINKED_DOCS:
+            break
+    return out
 
 
 def quoted_spans(text: str):
@@ -234,6 +433,31 @@ def main() -> int:
 
     files = sorted(args.file or [p.name for p in V1.glob("*.json") if p.name != "manifest.json"])
     failures, warnings, unreachable, checked = [], [], [], 0
+    # Kept SEPARATE from `warnings`, which is the deferral-omission signal and prints
+    # under its own header. Pooling them would file a citation-precision note under a
+    # heading that says it is about a missed deferral.
+    citations = []
+
+    # 🚨 GATHERED FROM EVERY FILE, NOT JUST THE ONES IN SCOPE. `--file` limits what is
+    # CHECKED; it must not change the VERDICT on what is checked. Building this from the
+    # scoped set would make `--file medications.json` fail spans that a full run passes,
+    # which is the shape of bug that makes a checker untrustworthy rather than merely wrong.
+    all_source_urls: list[str] = []
+    _seen_urls: set[str] = set()
+    for p in sorted(V1.glob("*.json")):
+        if p.name == "manifest.json":
+            continue
+        try:
+            data = json.loads(p.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(data, list):
+            continue
+        for e in data:
+            u = (e.get("envelope") or {}).get("sourceURL")
+            if u and u not in _seen_urls:
+                _seen_urls.add(u)
+                all_source_urls.append(u)
 
     for name in files:
         entries = json.loads((V1 / name).read_text())
@@ -282,16 +506,29 @@ def main() -> int:
                                    f"(fetched {len(src)} chars, not readable prose) — not checked")
                 continue
 
+            # The widened corpus, built LAZILY: only an entry with something the cited
+            # document cannot account for pays for the linked fetches. Most entries never
+            # reach this, so the common path costs exactly what it did before.
+            # Resolution is `resolve_span` at module level; both this and the control
+            # harness call that one definition.
+            def resolve(needle: str):
+                return resolve_span(needle, url, src, all_source_urls, args.cache)
+
             for frag in spans:
                 checked += 1
-                n = norm(frag)
-                if n in src or n.rstrip(" .,;:") in src:
+                ok, where = resolve(frag)
+                if ok:
+                    # Worth surfacing but NOT a failure: the quote is genuinely the FAA's and
+                    # the prose names the document, but the one clickable link a pilot gets
+                    # points somewhere else. An enrichment backlog, not a defect.
+                    if where != url:
+                        citations.append(f"{name} :: {code}: quote is verbatim FAA text but lives "
+                                         f"in a document the entry does not cite\n"
+                                         f"        found in: {where}\n"
+                                         f"        {frag[:120]}")
                     continue
-                # A nested quotation may be re-rendered ('NO*' for "NO*"); that is a
-                # typographic convention, not a misquote.
-                if re.sub(r"['\"]", "", n.rstrip(" .,;:")) in re.sub(r"['\"]", "", src):
-                    continue
-                failures.append(f"{name} :: {code}: quoted text is NOT in {url}\n"
+                failures.append(f"{name} :: {code}: quoted text is NOT in {url} "
+                                f"nor in any document it links to\n"
                                 f"        {frag[:160]}")
 
             # NUMERIC CLAIMS. Covers the ten files that carry no quotations at all.
@@ -311,9 +548,9 @@ def main() -> int:
                 word = WORD_NUMBERS.get(num)
                 if word:
                     cands += [f"{word} {u}", f"{word} ({num}) {u}", f"{word}-{u}", f"({num}) {u}"]
-                if not any(c in src for c in cands):
+                if not any(resolve(c)[0] for c in cands):
                     failures.append(f"{name} :: {code}: the claim '{num} {unit}' does not appear "
-                                    f"in {url}")
+                                    f"in {url} nor in any document it links to")
 
             if any(m in src for m in DEFER_MARKERS) and "defer" not in norm(body):
                 warnings.append(f"{name} :: {code}: source states a deferral and this entry "
@@ -341,19 +578,33 @@ def main() -> int:
     # NEW. That makes the gate real immediately: no new quotation can enter the content
     # without matching its source. The baseline is a list that must SHRINK, and every line in
     # it is a quotation a pilot may be reading that nobody has matched to an FAA page.
+    # 🚨 THE BASELINE IS KEYED ON THE FAILURE TEXT, SO CHANGING THE WORDING SILENTLY
+    # INVALIDATES EVERY ENTRY. Adding " nor in any document it links to" to the quote and
+    # numeric messages made 138 banked failures read as RESOLVED and 48 unchanged ones read
+    # as NEW, on a run where neither had moved. A checker that reports progress nobody made
+    # is worse than one that reports nothing.
+    #
+    # Folding that clause out keeps a baseline banked BEFORE the widening comparable with
+    # failures produced AFTER it, without re-banking (which would have quietly accepted 103
+    # findings as debt). Every other message is untouched and matches as it always did.
+    def fkey(msg: str) -> str:
+        return msg.replace(" nor in any document it links to", "")
+
     baseline_path = ROOT / "scripts" / "content-fidelity-baseline.json"
     baseline = set(json.loads(baseline_path.read_text())) if baseline_path.exists() else set()
     if args.update_baseline:
         baseline_path.write_text(json.dumps(sorted(failures), indent=1) + "\n")
         print(f"baseline updated: {len(failures)} known failures recorded")
         return 0
-    new_failures = [f for f in failures if f not in baseline]
+    baseline_keys = {fkey(b) for b in baseline}
+    new_failures = [f for f in failures if fkey(f) not in baseline_keys]
     # ⚠️ Only count a baseline entry RESOLVED if its file was actually checked on this run.
     # With --file limiting the scope, every unchecked baseline entry otherwise reports as
     # fixed, which is a false progress signal of exactly the kind this script exists to stop.
     checked_files = set(files)
     in_scope = {b for b in baseline if b.split(" ::")[0] in checked_files}
-    resolved = in_scope - set(failures)
+    failure_keys = {fkey(f) for f in failures}
+    resolved = {b for b in in_scope if fkey(b) not in failure_keys}
 
     print(f"Checked {checked} quoted spans across {len(files)} file(s).")
     print(f"Known unreconciled quotations (baseline): {len(baseline)}   "
@@ -365,6 +616,18 @@ def main() -> int:
             print("   " + w)
         print("   (Warning, not a failure. This is the exact shape of the 2026-08-14 defects:\n"
               "    we state what to BRING and omit what the FAA tells the AME to DO.)")
+    if citations:
+        print(f"\n📎 {len(citations)} quotation(s) are verbatim FAA text but sit in a document "
+              f"the entry does not cite:")
+        for c in citations:
+            print("   " + c)
+        print("   (Warning, not a failure. The words are the FAA's and the prose names the\n"
+              "    document; only `envelope.sourceURL` is single-valued and cannot carry them\n"
+              "    all, so the one clickable link a pilot gets points elsewhere. Enrichment\n"
+              "    backlog. Do NOT 'fix' these by re-pointing sourceURL to silence the check:\n"
+              "    the DNI table says 'phentermine [Adipex]' where the weight-loss PDF says\n"
+              "    'phentermine', so re-pointing turns an accurate quotation into a false one.)"
+              )
     if unreachable:
         print(f"\n❌ {len(unreachable)} source(s) could not be read, so their content was NOT "
               f"checked. Unreadable is not clean:")
@@ -383,6 +646,7 @@ def main() -> int:
             "# Content fidelity failures\n\n"
             + "\n".join(f"- {x}" for x in failures + unreachable)
             + ("\n\n## Warnings\n\n" + "\n".join(f"- {w}" for w in warnings) if warnings else "")
+            + ("\n\n## Citation precision\n\n" + "\n".join(f"- {c}" for c in citations) if citations else "")
         )
         return 1
     print("\n✅ every quoted span appears in the source it cites.")
