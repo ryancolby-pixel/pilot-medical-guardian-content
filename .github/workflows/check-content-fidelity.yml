@@ -15,18 +15,33 @@ on:
   schedule:
     - cron: "0 14 * * 1"     # Mondays ~14:00 UTC, after the other weekly content checks
   workflow_dispatch: {}
-  # ⚠️ PUSH TRIGGER OFF UNTIL THIS CHECK IS CALIBRATED (2026-08-14).
+  # ✅ PUSH TRIGGER RESTORED 2026-08-17, after the calibration it was disabled for.
   #
-  # It emailed Ryan four times in one afternoon, and not one of those was a content
-  # defect. They were MY calibration errors: a baseline banked before the numeric check
-  # existed, a control that tested for the string "faa" (which "Federal Aviation
-  # Administration" does not contain), and eCFR serving a JavaScript shell to datacenter
-  # IPs so five present quotations read as missing on the runner while passing locally.
+  # It was turned off on 2026-08-14 because it emailed Ryan four times in one afternoon
+  # and not one was a content defect - all three causes were calibration errors: a
+  # baseline banked before the numeric check existed, a readability control that tested
+  # for the string "faa" (which "Federal Aviation Administration" does not contain), and
+  # eCFR serving a JavaScript shell to datacenter IPs so five present quotations read as
+  # missing on the runner while passing locally.
   #
-  # A check that cries wolf while being tuned teaches its reader to ignore it, and this
-  # repo has already written that lesson down twice. The schedule and manual dispatch stay
-  # on, so it still runs and still fails loudly. Restore this block once a scheduled run
-  # goes green on a baseline banked from a clean full pass.
+  # What changed: the eCFR fetch goes through the renderer API, so runner and laptop now
+  # agree. Quote resolution understands that `envelope.sourceURL` is single-valued while
+  # entries legitimately quote several FAA documents, which was the cause of the 120
+  # findings on the 8/17 scheduled run - every one of them correctly-attributed content.
+  # The baseline was rebanked from a clean full pass and SHRANK, 279 -> 207. Local run is
+  # green at new: 0.
+  #
+  # ⚠️ HONEST CAVEAT: no CI run has yet gone green, because GitHub Actions was in a major
+  # outage when this was restored, so the last scheduled run failed in "Set up job" before
+  # our steps ran. The standing rule still applies and is the safety net - if this cries
+  # wolf, turn it off at the SECOND false alarm, not the fourth.
+  #
+  # ⏱️ PATH-SCOPED ON PURPOSE. The check reads a ~189-document corpus and takes about 25
+  # minutes on a cold runner. Firing it on a docs or script push spends that for nothing,
+  # so it runs when the CONTENT it checks actually changes.
+  push:
+    paths:
+      - "v1/**"
 
 permissions:
   contents: read
