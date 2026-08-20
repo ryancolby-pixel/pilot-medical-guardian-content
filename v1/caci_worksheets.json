@@ -501,7 +501,7 @@
       "pre-diabetes",
       "impaired glucose"
     ],
-    "bundledPDFFilename": "Prediabetes_dispo_table.pdf",
+    "bundledPDFFilename": "CACI-Pre-Diabetes_Worksheet.pdf",
     "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI-Pre-Diabetes_Worksheet.pdf",
     "eligibilityCriteria": null,
     "documentsRequired": null,
@@ -655,7 +655,7 @@
       "bariatric",
       "obesity"
     ],
-    "bundledPDFFilename": "Weight_loss_management_dispo_table.pdf",
+    "bundledPDFFilename": "CACI_weight_loss_management.pdf",
     "worksheetURL": "https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf",
     "eligibilityCriteria": null,
     "documentsRequired": null,
