@@ -123,6 +123,98 @@ if manifest:
         if "checksum" in entry and entry["checksum"] not in ("sample", checksum):
             errors.append(f"manifest.json: checksum mismatch for {name} — run scripts/gen_manifest.py")
 
+
+# ---------------------------------------------------------------------------
+# Stamp-drift guard: prose changed, lastVerified did not.
+#
+# WHY THIS EXISTS. On 2026-08-20, 85 medication entries carried a lastVerified
+# that predated their own text by up to three months. The largest group traced
+# to a June pass that removed authored claims ("generally addressed as
+# acceptable when well tolerated") and replaced them with the honest "not
+# individually listed in an FAA medication list". That IS a verification, and
+# the stamp never moved to say so. Nothing caught it for three months because
+# nothing was looking at the relationship between the two.
+#
+# lastVerified means one thing: the date someone compared the entry against its
+# source. If the words a pilot reads changed, that comparison happened, and the
+# stamp has to move with it. See CONTENT_PIPELINE.md and CLAUDE.md.
+#
+# WHITESPACE IS NORMALISED BEFORE COMPARING, DELIBERATELY. A pure formatting
+# pass is not a re-verification. Commit 179c0a4 added paragraph breaks to 54
+# entries without changing a word, and those stamps were correctly left alone.
+# Normalising is what separates that from a real edit -- and it is also what
+# nearly hid the seven antidepressants, whose genuine re-source sat UNDER a
+# later cosmetic commit.
+#
+# Compares the working tree against git HEAD, so it fires at the moment of the
+# edit rather than months later. Works at clone depth 1.
+# ---------------------------------------------------------------------------
+import subprocess
+
+def _prose(entry: dict) -> dict:
+    """Long-form string fields outside the envelope, whitespace-normalised.
+
+    Length-based rather than a hardcoded field list so a new content file is
+    covered on the day it is added, not whenever someone remembers to update
+    a constant here. Short fields (codes, names, cadence chips) are excluded:
+    changing one is a mapping fix, not a re-reading of an FAA page.
+    """
+    out = {}
+    for k, v in entry.items():
+        if k == "envelope" or not isinstance(v, str):
+            continue
+        if len(v) >= 80:
+            out[k] = re.sub(r"\s+", " ", v).strip()
+    return out
+
+def _head_version(name: str):
+    try:
+        r = subprocess.run(["git", "show", f"HEAD:v1/{name}"],
+                           cwd=ROOT, capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            return None
+        return json.loads(r.stdout)
+    except Exception:
+        return None
+
+_guard_ran = False
+for name, data in loaded.items():
+    if not isinstance(data, list):
+        continue
+    old = _head_version(name)
+    if old is None or not isinstance(old, list):
+        continue          # new file, or no git history for it
+    _guard_ran = True
+    old_by_code = {
+        (e.get("envelope") or {}).get("code"): e
+        for e in old if isinstance(e, dict)
+    }
+    for entry in data:
+        if not isinstance(entry, dict):
+            continue
+        env = entry.get("envelope") or {}
+        code = env.get("code")
+        was = old_by_code.get(code)
+        if not was:
+            continue      # newly added entry: nothing to drift from
+        now_prose, was_prose = _prose(entry), _prose(was)
+        changed = sorted(
+            k for k in set(now_prose) | set(was_prose)
+            if now_prose.get(k) != was_prose.get(k)
+        )
+        if changed and env.get("lastVerified") == (was.get("envelope") or {}).get("lastVerified"):
+            errors.append(
+                f"{name}:{code} — {', '.join(changed)} changed but lastVerified did not "
+                f"(still {env.get('lastVerified')}). If you re-read the source, stamp it with "
+                f"content_time.now_stamp(). If this was formatting only, the whitespace "
+                f"normaliser would not have flagged it, so check what really changed."
+            )
+
+if not _guard_ran:
+    print("⚠️  stamp-drift guard SKIPPED — no git history for any v1/ file. "
+          "It is not protecting this run.")
+
+
 if errors:
     print("CONTENT VALIDATION FAILED:")
     for e in errors:
