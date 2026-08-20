@@ -7,7 +7,7 @@
     "envelope": {
       "code": "reg-67111-class1-ekg",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-08-20T14:00:00Z",
       "sourceCitation": "14 CFR 67.111",
       "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.111"
     },
@@ -23,7 +23,7 @@
       },
       {
         "key": "baselineSatisfied",
-        "title": "Baseline EKG done \u2014 no annual EKG until age 40",
+        "title": "Baseline EKG done — no annual EKG until age 40",
         "body": "Your baseline EKG is on file. Under 14 CFR 67.111(b)(1), this one-time baseline satisfies the requirement for First-Class applications between ages 35 and 39. The annual cadence under 14 CFR 67.111(b)(2) starts on your 40th birthday.",
         "citation": "14 CFR 67.111(b)(1)",
         "icon": "checkmark.seal",
@@ -31,11 +31,11 @@
       },
       {
         "key": "annualEachExam",
-        "title": "Your next Class 1 exam will require a fresh EKG",
-        "body": "Under 14 CFR 67.111(b)(2), every First-Class medical application at age 40 or older requires an EKG. Under 14 CFR 67.111(c), each EKG must be dated within 60 days of the exam it accompanies, so a previous EKG does not carry forward to a future exam. Plan to have a new EKG done within 60 days of your next Class 1 application.",
+        "title": "EKG requirement for your next Class 1 exam",
+        "body": "Under 14 CFR 67.111(b)(2), an EKG is required on an annual basis after your 40th birthday, not at every application. Under 14 CFR 67.111(c), an EKG counts for the application it accompanies if it is dated no earlier than 60 days before that application. Your AME confirms whether your most recent EKG satisfies your next exam.",
         "citation": "14 CFR 67.111(b)(2) + (c)",
         "icon": "waveform.path.ecg",
-        "tint": "orange"
+        "tint": "blue"
       }
     ],
     "triggerAgeBaseline": 35,
