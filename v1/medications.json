@@ -9,7 +9,7 @@
     "envelope": {
       "code": "med-acetaminophen",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -26,7 +26,7 @@
     "envelope": {
       "code": "med-acyclovir",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -63,7 +63,7 @@
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -80,7 +80,7 @@
     "envelope": {
       "code": "med-allopurinol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -115,7 +115,7 @@
     "envelope": {
       "code": "med-amiodarone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -167,7 +167,7 @@
     "envelope": {
       "code": "med-amoxicillin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -185,7 +185,7 @@
     "envelope": {
       "code": "med-amoxicillin-clavulanate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -222,7 +222,7 @@
     "envelope": {
       "code": "med-apixaban",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -241,7 +241,7 @@
     "envelope": {
       "code": "med-aspirin-low-dose",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-27T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -293,7 +293,7 @@
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -311,7 +311,7 @@
     "envelope": {
       "code": "med-azithromycin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -524,7 +524,7 @@
     "envelope": {
       "code": "med-buspirone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -596,7 +596,7 @@
     "envelope": {
       "code": "med-celecoxib",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -613,7 +613,7 @@
     "envelope": {
       "code": "med-cephalexin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -686,7 +686,7 @@
     "envelope": {
       "code": "med-ciprofloxacin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -706,7 +706,7 @@
     "envelope": {
       "code": "med-citalopram",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -739,7 +739,7 @@
     "envelope": {
       "code": "med-clarithromycin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -756,7 +756,7 @@
     "envelope": {
       "code": "med-clindamycin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -808,7 +808,7 @@
     "envelope": {
       "code": "med-clopidogrel",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -826,7 +826,7 @@
     "envelope": {
       "code": "med-colchicine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -843,7 +843,7 @@
     "envelope": {
       "code": "med-colesevelam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -877,7 +877,7 @@
     "envelope": {
       "code": "med-dabigatran",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -913,7 +913,7 @@
     "envelope": {
       "code": "med-denosumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -932,7 +932,7 @@
     "envelope": {
       "code": "med-desvenlafaxine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -964,7 +964,7 @@
     "envelope": {
       "code": "med-diclofenac",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1017,7 +1017,7 @@
     "envelope": {
       "code": "med-digoxin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -1108,7 +1108,7 @@
     "envelope": {
       "code": "med-doxycycline",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1144,7 +1144,7 @@
     "envelope": {
       "code": "med-duloxetine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -1159,7 +1159,7 @@
     "envelope": {
       "code": "med-dutasteride",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1176,7 +1176,7 @@
     "envelope": {
       "code": "med-edoxaban",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -1230,7 +1230,7 @@
     "envelope": {
       "code": "med-erenumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1251,7 +1251,7 @@
     "envelope": {
       "code": "med-escitalopram",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -1283,7 +1283,7 @@
     "envelope": {
       "code": "med-esomeprazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1301,7 +1301,7 @@
     "envelope": {
       "code": "med-estradiol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1336,7 +1336,7 @@
     "envelope": {
       "code": "med-ethinyl-estradiol-norethindrone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1353,7 +1353,7 @@
     "envelope": {
       "code": "med-evolocumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1370,7 +1370,7 @@
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1387,7 +1387,7 @@
     "envelope": {
       "code": "med-famotidine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1404,7 +1404,7 @@
     "envelope": {
       "code": "med-febuxostat",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1457,7 +1457,7 @@
     "envelope": {
       "code": "med-fenofibrate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1474,7 +1474,7 @@
     "envelope": {
       "code": "med-fexofenadine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1492,7 +1492,7 @@
     "envelope": {
       "code": "med-finasteride",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1509,7 +1509,7 @@
     "envelope": {
       "code": "med-flecainide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -1526,7 +1526,7 @@
     "envelope": {
       "code": "med-fluconazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1546,7 +1546,7 @@
     "envelope": {
       "code": "med-fluoxetine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -1652,7 +1652,7 @@
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1781,7 +1781,7 @@
     "envelope": {
       "code": "med-ibuprofen",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1889,7 +1889,7 @@
     "envelope": {
       "code": "med-lansoprazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1959,7 +1959,7 @@
     "envelope": {
       "code": "med-levofloxacin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2137,7 +2137,7 @@
     "envelope": {
       "code": "med-loperamide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2154,7 +2154,7 @@
     "envelope": {
       "code": "med-loratadine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2225,7 +2225,7 @@
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2242,7 +2242,7 @@
     "envelope": {
       "code": "med-melatonin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2259,7 +2259,7 @@
     "envelope": {
       "code": "med-meloxicam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2278,7 +2278,7 @@
     "envelope": {
       "code": "med-mesalamine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2357,7 +2357,7 @@
     "envelope": {
       "code": "med-methimazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2430,7 +2430,7 @@
     "envelope": {
       "code": "med-metronidazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2482,7 +2482,7 @@
     "envelope": {
       "code": "med-mometasone-nasal",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2536,7 +2536,7 @@
     "envelope": {
       "code": "med-naproxen",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2571,7 +2571,7 @@
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2626,7 +2626,7 @@
     "envelope": {
       "code": "med-nitrofurantoin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2661,7 +2661,7 @@
     "envelope": {
       "code": "med-omeprazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2714,7 +2714,7 @@
     "envelope": {
       "code": "med-oseltamivir",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2750,7 +2750,7 @@
     "envelope": {
       "code": "med-pantoprazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2859,7 +2859,7 @@
     "envelope": {
       "code": "med-pitavastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2876,7 +2876,7 @@
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2946,7 +2946,7 @@
     "envelope": {
       "code": "med-propylthiouracil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2964,7 +2964,7 @@
     "envelope": {
       "code": "med-pseudoephedrine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3035,7 +3035,7 @@
     "envelope": {
       "code": "med-rivaroxaban",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -3053,7 +3053,7 @@
     "envelope": {
       "code": "med-rizatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3071,7 +3071,7 @@
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3146,7 +3146,7 @@
     "envelope": {
       "code": "med-sertraline",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3161,7 +3161,7 @@
     "envelope": {
       "code": "med-sildenafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3178,7 +3178,7 @@
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3213,7 +3213,7 @@
     "envelope": {
       "code": "med-sotalol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -3250,7 +3250,7 @@
     "envelope": {
       "code": "med-sulfamethoxazole-trimethoprim",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3267,7 +3267,7 @@
     "envelope": {
       "code": "med-sulfasalazine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3284,7 +3284,7 @@
     "envelope": {
       "code": "med-sumatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3302,7 +3302,7 @@
     "envelope": {
       "code": "med-tadalafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3319,7 +3319,7 @@
     "envelope": {
       "code": "med-tamsulosin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3373,7 +3373,7 @@
     "envelope": {
       "code": "med-terbinafine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3391,7 +3391,7 @@
     "envelope": {
       "code": "med-testosterone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3587,7 +3587,7 @@
     "envelope": {
       "code": "med-valacyclovir",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3642,7 +3642,7 @@
     "envelope": {
       "code": "med-venlafaxine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-08-16T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3712,7 +3712,7 @@
     "envelope": {
       "code": "med-warfarin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-06-19T12:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
