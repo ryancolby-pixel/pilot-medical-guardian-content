@@ -46,6 +46,14 @@ jobs:
       - name: Check out the content
         uses: actions/checkout@v5
 
+      # 🚨 GATE THE CHECKER ON ITS OWN NEGATIVE CONTROLS BEFORE TRUSTING ITS VERDICT.
+      # Added 2026-08-24 after it reported four live eCFR URLs as no longer resolving: they
+      # answered 503 to this runner's datacenter IP and 200 from a residential connection.
+      # The selftest asserts that 5xx/403/429 are NOT treated as link rot AND that 404/410
+      # still are, so a future "fix" cannot quietly disarm the thing this check exists for.
+      - name: Selftest the classifier
+        run: python3 scripts/check-source-links.py --selftest
+
       - name: Check every cited FAA source
         id: check
         run: |

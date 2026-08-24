@@ -115,6 +115,69 @@ def check(url: str) -> tuple[int | str, str | None]:
     return "unchecked: unknown", None
 
 
+# Status codes that mean "we did not get an answer ABOUT THE RESOURCE", as opposed to
+# "the FAA no longer hosts this".
+#
+# 🚨 THIS EXISTS BECAUSE THE CHECKER CRIED WOLF ON 2026-08-24. It filed a report naming four
+# eCFR URLs as no longer resolving, with status 503. All four returned **200** when fetched
+# from a residential connection minutes later. eCFR serves 5xx to datacenter IP ranges, which
+# is every GitHub Actions runner (`GOTCHAS_VERIFY §13`, `GOTCHAS_CONTENT §7`). Nothing was
+# wrong with the citations; a pilot following them got the page.
+#
+# ⚖️ The docstring on `check()` already states the principle this got wrong: "An int means the
+# server ANSWERED and that is the answer." That is true of 404. It is NOT true of 503, which is
+# the server answering about ITSELF. Same for 403 and 429, which are how a bot wall says no.
+# Only 4xx-that-means-gone is link rot.
+#
+# 🚫 Do NOT "fix" a future false alarm by muting the workflow or widening this to all 4xx. A
+# 404 or 410 on a cited FAA source is the exact thing this check exists to catch.
+UNREACHABLE_CODES = {403, 429}
+
+
+def unreachable_reason(status: "int | str") -> str | None:
+    """Why this status tells us nothing about the resource, or None if it does tell us."""
+    if isinstance(status, str):
+        return status if status.startswith("unchecked") else None
+    if status in UNREACHABLE_CODES:
+        return f"unchecked: HTTP {status} - blocked or rate-limited, not link rot"
+    if 500 <= status <= 599:
+        return f"unchecked: HTTP {status} - server unavailable, not link rot"
+    return None
+
+
+def _selftest() -> int:
+    """Negative controls alongside the positive ones.
+
+    ⚖️ A control is only valid if it is tested against KNOWN-BAD input (`GOTCHAS_VERIFY §13`).
+    The bug this replaces would have passed any test that only fed it 200s and 404s.
+    """
+    cases = [
+        # (status, should_be_unreachable, label)
+        (200, False, "200 is a live page"),
+        (404, False, "404 IS link rot and must still fail the run"),
+        (410, False, "410 IS link rot and must still fail the run"),
+        (503, True,  "503 is the eCFR datacenter block that caused the 2026-08-24 false alarm"),
+        (500, True,  "500 is a server fault"),
+        (502, True,  "502 is a gateway fault"),
+        (403, True,  "403 is a bot wall"),
+        (429, True,  "429 is rate limiting"),
+        ("unchecked: timeout", True, "transport failure"),
+    ]
+    bad = 0
+    for status, expect_unreachable, label in cases:
+        got = unreachable_reason(status) is not None
+        ok = got == expect_unreachable
+        print(f"  {'ok  ' if ok else 'FAIL'}  {str(status):<22} {label}")
+        if not ok:
+            bad += 1
+    print()
+    if bad:
+        print(f"{bad} selftest case(s) FAILED")
+        return 1
+    print(f"all {len(cases)} selftest cases pass")
+    return 0
+
+
 def main() -> int:
     urls = cited_urls()
     dead: list[str] = []
@@ -127,9 +190,10 @@ def main() -> int:
     for url in sorted(urls):
         status, final = check(url)
         cites = ", ".join(sorted(urls[url]))
-        if isinstance(status, str) and status.startswith("unchecked"):
-            unchecked.append(f"- `{url}` ({status}), cited by: {cites}")
-            print(f"  {'?':<6} UNCHECKED  {url}  ({status})")
+        reason = unreachable_reason(status)
+        if reason:
+            unchecked.append(f"- `{url}` ({reason}), cited by: {cites}")
+            print(f"  {'?':<6} UNCHECKED  {url}  ({reason})")
         elif status != 200:
             dead.append(f"- `{url}`\n    - status: **{status}**\n    - cited by: {cites}")
             print(f"  {status:<6} DEAD  {url}\n           cited by: {cites}")
@@ -198,4 +262,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if "--selftest" in sys.argv:
+        raise SystemExit(_selftest())
     raise SystemExit(main())

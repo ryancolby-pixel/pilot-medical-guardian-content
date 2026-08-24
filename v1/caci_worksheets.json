@@ -468,7 +468,7 @@
       "contentVersion": "2026.0-sample",
       "lastVerified": "2026-05-28T00:00:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 09/27/2023)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf"
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_Table.pdf"
     },
     "conditionName": "Polycystic Ovarian Syndrome (PCOS)",
     "item18Codes": [],
@@ -478,7 +478,7 @@
       "polycystic ovary"
     ],
     "bundledPDFFilename": "PCOS_dispo_table.pdf",
-    "worksheetURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf",
+    "worksheetURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_Table.pdf",
     "eligibilityCriteria": null,
     "documentsRequired": null,
     "medicationCriteria": null,
