@@ -75,6 +75,10 @@ import sys
 from pathlib import Path
 from urllib.parse import urljoin
 
+# Any URL inside a finding message. The baseline key is deliberately blind to these:
+# a citation's URL can be corrected without that resurrecting a banked finding.
+_URL_IN_MSG = re.compile(r"https?://\S+")
+
 ROOT = Path(__file__).resolve().parent.parent
 V1 = ROOT / "v1"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -421,6 +425,58 @@ def strings_of(entry: dict):
             yield from (x for x in v if isinstance(x, str))
 
 
+def _selftest() -> int:
+    """Prove the baseline key on KNOWN-GOOD *and* KNOWN-BAD input.
+
+    A baseline key has two ways to fail and they are opposites:
+      too STRICT -> a corrected citation URL resurrects a banked finding as "new"
+                    (this is what filed content issue #8 on 2026-08-24), and
+      too LOOSE  -> two genuinely different findings collapse onto one key and a REAL
+                    defect is silently accepted as already-known. That direction is worse,
+                    and it is invisible: nothing fails, the run just goes green.
+    A test fed only the first case would pass while shipping the second, which is the
+    trap CLAUDE.md records this project falling into twice inside the tool built to
+    prevent it. So both directions are asserted here.
+    """
+    def fkey(msg: str) -> str:
+        return _URL_IN_MSG.sub("<src>", msg.replace(" nor in any document it links to", ""))
+
+    M = ("medications.json :: med-contrave: 3 obligation sentence(s) in "
+         "https://www.faa.gov/ame_guide/media/Weight_loss_{}.pdf "
+         "share no distinctive wording with this entry")
+    fails = []
+
+    # KNOWN-GOOD: the same finding whose citation URL was corrected must stay suppressed.
+    if fkey(M.format("pharm")) != fkey(M.format("Pharm")):
+        fails.append("a corrected sourceURL still reads as a NEW failure")
+
+    # KNOWN-BAD 1: a different obligation COUNT is a different finding.
+    if fkey(M.format("Pharm")) == fkey(M.format("Pharm").replace("3 obligation", "5 obligation")):
+        fails.append("a changed obligation count is being suppressed")
+
+    # KNOWN-BAD 2: a different entry code is a different finding.
+    if fkey(M.format("Pharm")) == fkey(M.format("Pharm").replace("med-contrave", "med-qsymia")):
+        fails.append("a different entry code is being suppressed")
+
+    # KNOWN-BAD 3: the live baseline must not MERGE. If stripping URLs collapses any two
+    # banked entries onto one key, this key is too loose for the real corpus, whatever the
+    # synthetic cases above say. Measured against the file, not a fixture.
+    bpath = ROOT / "scripts" / "content-fidelity-baseline.json"
+    if bpath.exists():
+        banked = json.loads(bpath.read_text())
+        if len({fkey(x) for x in banked}) != len(set(banked)):
+            fails.append(f"the key MERGES entries in the live baseline "
+                         f"({len(set(banked))} entries -> {len({fkey(x) for x in banked})} keys)")
+
+    if fails:
+        print("❌ fidelity selftest FAILED:")
+        for f in fails:
+            print(f"   - {f}")
+        return 1
+    print("✅ fidelity selftest passed (1 known-good, 3 known-bad)")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--file", action="append", help="limit to these v1 filenames")
@@ -429,7 +485,13 @@ def main() -> int:
                     help="record the CURRENT failures as accepted debt. Use only when you have "
                          "triaged them; every line you add here is a quotation nobody has "
                          "reconciled with its source.")
+    ap.add_argument("--selftest", action="store_true",
+                    help="verify the baseline key against known-good AND known-bad input, "
+                         "then exit. Gates CI; a checker nobody controls is not a check.")
     args = ap.parse_args()
+
+    if args.selftest:
+        return _selftest()
 
     files = sorted(args.file or [p.name for p in V1.glob("*.json") if p.name != "manifest.json"])
     failures, warnings, unreachable, checked = [], [], [], 0
@@ -587,8 +649,31 @@ def main() -> int:
     # Folding that clause out keeps a baseline banked BEFORE the widening comparable with
     # failures produced AFTER it, without re-banking (which would have quietly accepted 103
     # findings as debt). Every other message is untouched and matches as it always did.
+    # 🚨 THE KEY MUST NOT CONTAIN A URL (2026-08-24).
+    #
+    # This used to key the baseline on the FULL message text, sourceURL included. So the
+    # moment a citation's URL was legitimately corrected, the generated message stopped
+    # matching its banked line and ONE finding reported as BOTH "resolved" and "new" in the
+    # same run. It cost a false content-fidelity issue (#8) on FAA content, which is the
+    # highest-stakes false alarm this repo can produce.
+    #
+    # MEASURED, both directions. On 2026-08-24 commit c37c5a3 corrected two PDF filenames
+    # to the casing the FAA now redirects to:
+    #     PCOS_dispo_table.pdf  -> PCOS_dispo_Table.pdf
+    #     Weight_loss_pharm.pdf -> Weight_loss_Pharm.pdf
+    # caci-pcos and med-contrave then fired as NEW failures with an identical entry code,
+    # an identical obligation count and identical wording. Nothing about the content moved.
+    # The control that settles it: 18 sibling weight-loss medications cite that same PDF at
+    # the already-corrected casing, are baselined, and stayed silent throughout.
+    #
+    # This is the house rule in CLAUDE.md -> GOTCHAS_VERIFY §8, which the checker's own
+    # sibling already learned: "Key on the stable envelope.code, never display text."
+    #
+    # Verified before shipping: stripping URLs maps the 207 banked entries onto 207 distinct
+    # keys, so nothing is merged. A collision here would silently ACCEPT a real defect, so
+    # that negative control is re-run by --selftest below and must stay.
     def fkey(msg: str) -> str:
-        return msg.replace(" nor in any document it links to", "")
+        return _URL_IN_MSG.sub("<src>", msg.replace(" nor in any document it links to", ""))
 
     baseline_path = ROOT / "scripts" / "content-fidelity-baseline.json"
     baseline = set(json.loads(baseline_path.read_text())) if baseline_path.exists() else set()

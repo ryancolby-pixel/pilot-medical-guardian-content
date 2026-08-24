@@ -75,6 +75,19 @@ jobs:
       - name: Install pdfplumber
         run: pip install --quiet pdfplumber
 
+      # 🚨 GATE THE CHECKER ON ITS OWN CONTROLS BEFORE TRUSTING ITS VERDICT (2026-08-24).
+      # Added after it filed issue #8 against FAA content that had not changed: the baseline
+      # key contained the sourceURL, so correcting two PDF filenames to the casing the FAA
+      # now redirects to resurrected two long-banked findings as "new" - while reporting the
+      # very same findings as "resolved" in the same run. This mirrors the gate already on
+      # check-source-links.yml, and for the same reason: the sibling checker cried wolf on
+      # 2026-08-24 too, and a false alarm about FAA content is the most expensive kind this
+      # repo can produce. The selftest asserts BOTH directions - a corrected URL stays
+      # suppressed, and a changed count, a changed code or a key that merges live baseline
+      # entries all still fail.
+      - name: Selftest the baseline key
+        run: python3 scripts/check-content-fidelity.py --selftest
+
       # NOTE: the whole body lives in scripts/check-content-fidelity.py on purpose. An
       # unindented continuation line inside a `run: |` block terminates the YAML scalar and
       # makes the workflow unparseable, which is what left cdn-drift-check.yml dead from the

@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write
+  actions: write      # required to dispatch pages.yml after the commit-back (see below)
 
 jobs:
   rebuild:
@@ -49,3 +50,36 @@ jobs:
           git commit -m "Auto-rebuild v1/manifest.json (checksums refreshed after content change)"
           git push
           echo "🔁 manifest rebuilt + committed"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        id: commit
+
+      # 🚨 THE PUBLISH RACE (2026-08-24). GitHub does NOT start workflow runs from events
+      # signed with the default GITHUB_TOKEN. So the commit-back above triggers NOTHING —
+      # not pages.yml, not validate.yml, not the fidelity check.
+      #
+      # MEASURED, not inferred. On 2026-08-24:
+      #   c37c5a3  push            5 workflows  <- Pages FAILED (checksums stale, pre-rebuild)
+      #   8e865d7  (this bot commit)  0 push workflows
+      # The repo went internally consistent while the LIVE SITE STAYED ON 8/20 CONTENT, with
+      # a green-looking bot commit as the newest activity and no path to recover. It was found
+      # by hand and recovered with `gh workflow run`, which is not a safeguard.
+      #
+      # The race: a content push fires rebuild-manifest AND pages/validate/fidelity at the
+      # same time, on the SAME pre-rebuild SHA. Those three read the checksums this job is
+      # what fixes, so they fail, and the fix that follows re-triggers none of them.
+      #
+      # ⇒ dispatch Pages explicitly. `workflow_dispatch` is already declared in pages.yml.
+      # Non-fatal on purpose: a failed dispatch must not mask a manifest that DID land.
+      - name: Redeploy Pages against the rebuilt manifest
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh workflow run "pages.yml" --ref main; then
+            echo "🚀 Pages redeploy dispatched against the rebuilt manifest"
+          else
+            echo "::warning::Could not dispatch pages.yml. The manifest IS committed, but the"
+            echo "::warning::LIVE SITE MAY BE STALE. Verify last-modified on"
+            echo "::warning::https://pilotmedicalguardian.com/v1/manifest.json and if it is behind,"
+            echo "::warning::run: gh workflow run \"Deploy site to Pages\""
+          fi

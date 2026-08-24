@@ -90,29 +90,57 @@ def check(url: str) -> tuple[int | str, str | None]:
     """
     cmd = ["curl", "-s", "-o", "/dev/null", "-A", UA, "-L",
            "--max-time", str(TIMEOUT), "-w", "%{http_code} %{url_effective}", url]
-    for attempt in range(2):  # one retry absorbs a transient blip
+
+    # 🚨 5xx IS RETRIED, AND THAT IS A COVERAGE FIX, NOT A FALSE-ALARM FIX (2026-08-24, later).
+    #
+    # Routing 5xx to `unchecked` (below) stopped the checker CRYING WOLF. It did not make the
+    # URL checked. eCFR 503s deep section pages constantly, so those citations landed in
+    # `unchecked` on every single run — permanently unverified, and REAL link rot on them would
+    # have been invisible. A watcher that always says "could not tell" about the same four URLs
+    # is not watching them (`GOTCHAS_VERIFY §12`: a watcher only catches the axis it measures).
+    #
+    # MEASURED on 2026-08-24 from a residential connection, which is the point: single-shot gave
+    #     503  .../part-61/section-61.113
+    #     503  .../part-68/section-68.3
+    #     503  .../title-14/section-68.3
+    # and the SAME three returned 200 with 75-83KB of real content under retry-with-backoff.
+    # Controlled first, because "eCFR is down" and "this page is gone" look identical: the eCFR
+    # root and /current/title-14 both answered 200 throughout, so the service was up and only
+    # deep pages were shedding load.
+    #
+    # 🚫 403/429 are NOT retried. Those are a bot wall saying no on purpose, and hammering it is
+    # both useless and rude. They stay `unchecked` on the first answer.
+    RETRYABLE_ATTEMPTS = 4
+    last_code = None
+    for attempt in range(RETRYABLE_ATTEMPTS):
         try:
             r = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT + 15)
         except subprocess.TimeoutExpired:
-            if attempt == 0:
-                time.sleep(2)
+            if attempt < RETRYABLE_ATTEMPTS - 1:
+                time.sleep(2 * (attempt + 1))
                 continue
             return "unchecked: timeout", None
         if r.returncode != 0:
-            if attempt == 0:
-                time.sleep(2)
+            if attempt < RETRYABLE_ATTEMPTS - 1:
+                time.sleep(2 * (attempt + 1))
                 continue
             return f"unchecked: curl exit {r.returncode}", None
         parts = r.stdout.strip().split(" ", 1)
         code = int(parts[0]) if parts and parts[0].isdigit() else 0
         final = parts[1] if len(parts) > 1 else url
         if code == 0:
-            if attempt == 0:
-                time.sleep(2)
+            if attempt < RETRYABLE_ATTEMPTS - 1:
+                time.sleep(2 * (attempt + 1))
                 continue
             return "unchecked: no status", None
+        if 500 <= code <= 599 and attempt < RETRYABLE_ATTEMPTS - 1:
+            last_code = code
+            time.sleep(2 * (attempt + 1))
+            continue
         return code, (final if final.rstrip("/") != url.rstrip("/") else None)
-    return "unchecked: unknown", None
+    # Exhausted the retries still 5xx. Report the real code so `unreachable_reason` files it
+    # as unchecked rather than dead - the distinction the 2026-08-24 false alarm turned on.
+    return (last_code if last_code is not None else "unchecked: unknown"), None
 
 
 # Status codes that mean "we did not get an answer ABOUT THE RESOURCE", as opposed to
