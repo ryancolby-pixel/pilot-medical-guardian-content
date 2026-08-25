@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Turn on MedXPress autofill | Pilot Medical Guardian</title>
-  <meta name="description" content="How to set up the Pilot Medical Guardian MedXPress autofill: a one-time setup, done entirely on your iPhone or iPad. No desktop needed.">
+  <meta name="description" content="How to set up the Pilot Medical Guardian MedXPress autofill: a one-time setup on your iPhone, iPad, or Mac.">
   <meta name="theme-color" content="#1c66d9">
   <!-- MedXPress autofill setup guide (noindex for now; linked from the app + FAQ). -->
   <meta name="robots" content="noindex">
@@ -16,6 +16,23 @@
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 60ch; text-wrap: pretty; }
     .lede strong { color: var(--text); font-weight: 600; }
 
+    /* --- device chooser (2026-08-25): plain anchors, no JS, both paths always present --- */
+    .devlead { color: var(--muted); margin: 0 0 12px; }
+    .devlead strong { color: var(--text); }
+    .devpick { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 10px; }
+    @media (max-width: 560px) { .devpick { grid-template-columns: 1fr; } }
+    .devcard {
+      display: flex; flex-direction: column; gap: 4px; padding: 16px 18px;
+      border: 1px solid var(--rule); border-radius: var(--radius-card); background: var(--card);
+      text-decoration: none; box-shadow: var(--shadow-sm);
+      transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+    }
+    .devcard:hover { border-color: var(--accent-edge); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(16,22,34,0.10); }
+    .devcard:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .devcard-name { font-weight: 700; color: var(--accent); font-size: 1.06rem; }
+    .devcard-note { font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+    .devsec { scroll-margin-top: 90px; }
+    .devsec-h { font-size: 1.4rem; margin: 38px 0 16px; padding-bottom: 9px; border-bottom: 2px solid var(--accent); }
     .callout {
       background: var(--accent-tint); border: 1px solid var(--accent-edge);
       border-radius: var(--radius-chip); padding: 14px 16px; margin: 16px 0;
@@ -127,7 +144,7 @@
     <div class="wrap">
       <span class="badge">Setup guide</span>
       <h1>Turn on MedXPress autofill</h1>
-      <p class="page-sub"><strong>It's all done on your iPhone or iPad. No desktop needed.</strong> The autofill is a Safari extension built into the app. You switch it on once, then use it right in Safari whenever you fill out MedXPress.</p>
+      <p class="page-sub"><strong>Set it up once, on whichever device you use.</strong> The autofill is a Safari extension built into the app, on iPhone, iPad, and Mac. You switch it on once, then use it right in Safari whenever you fill out MedXPress.</p>
     </div>
   </section>
 
@@ -137,6 +154,20 @@
       <strong>Why a few manual steps?</strong> Apple requires you to turn Safari extensions on yourself, in Settings. No app is allowed to do it for you. It only takes a minute, and it's a one-time setup.
     </div>
 
+    <p class="devlead"><strong>Which device are you setting up?</strong> The steps are different, so start with yours.</p>
+    <div class="devpick">
+      <a class="devcard" href="#iphone">
+        <span class="devcard-name">iPhone &amp; iPad &rarr;</span>
+        <span class="devcard-note">In the Settings app. Seven steps, with a 45-second video.</span>
+      </a>
+      <a class="devcard" href="#mac">
+        <span class="devcard-name">Mac &rarr;</span>
+        <span class="devcard-note">In Safari's own settings. Six steps.</span>
+      </a>
+    </div>
+
+    <section id="iphone" class="devsec">
+      <h2 class="devsec-h">On iPhone and iPad</h2>
     <span class="eyebrow">Watch and follow along (45 seconds)</span>
     <div class="watchdo">
       <div class="wd-video">
@@ -218,6 +249,68 @@
         </div>
       </div>
     </div>
+    </section>
+
+    <section id="mac" class="devsec">
+      <h2 class="devsec-h">On a Mac</h2>
+        <span class="eyebrow">One-time setup on your Mac</span>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h4>Open Safari's settings and go to Extensions</h4>
+              <p>In Safari, choose <code>Safari &rarr; Settings</code> from the menu bar (or press <strong>Command-comma</strong>), then click the <strong>Extensions</strong> tab.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h4>Find &ldquo;MedXPressAutofill&rdquo; and tick it on</h4>
+              <p>It appears in the list on the left once Pilot Medical Guardian is installed. If it isn't there, quit Safari completely (<strong>Command-Q</strong>) and reopen it.</p>
+            </div>
+          </div>
+          <div class="step step-key">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h4>Allow it on medxpress.faa.gov: the step most people miss</h4>
+              <p><strong>This is the step that silently breaks everything.</strong> The extension can look switched on but do nothing until you allow it on the FAA site.</p>
+              <p>1. Open <strong>medxpress.faa.gov</strong> in Safari.<br>2. Click the <strong>MedXPressAutofill</strong> button in the toolbar, next to the address bar.<br>3. Choose the option that allows it <strong>every time</strong> on this website.</p>
+              <div class="permbox" role="img" aria-label="Safari's permission menu: choose the always option, not the one-day option, which expires">
+                <div class="permrow"><span class="mark">&#9675;</span> Allow for One Day <span class="note">expires, skip</span></div>
+                <div class="permrow correct"><span class="mark">&#10003;</span> Always Allow on This Website <span class="note">use this</span></div>
+                <div class="permrow"><span class="mark">&#9675;</span> Never Allow</div>
+              </div>
+              <p><strong>Pick the &ldquo;always&rdquo; option, not the one-day one.</strong> The one-day option silently expires, and the autofill quietly stops working next time.</p>
+              <p style="font-size:0.88rem;">You can also manage this back in <code>Safari &rarr; Settings &rarr; Extensions</code>: select MedXPressAutofill and set medxpress.faa.gov to <strong>Allow</strong>. On a brand-new setup the site often isn't listed there yet, since it only appears after the extension has run on it once, so the toolbar route above is the sure one.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="eyebrow">Using it</span>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h4>Enter your records in the app, then open it once</h4>
+              <p>The extension fills from a private snapshot of your data that the app saves on your Mac, so your medications and visits need to be in Pilot Medical Guardian. <strong>Important: after you switch the extension on, open the app once</strong> so it writes that snapshot. Otherwise you'll see an &ldquo;Open Pilot Medical Guardian first&rdquo; message and nothing fills.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-body">
+              <h4>Open MedXPress in Safari, in a normal window</h4>
+              <p>Sign in at <strong>medxpress.faa.gov</strong> and go to <strong>Medication, Medical History, or Medical Visits</strong>. Use a regular Safari window, <strong>not a Private window</strong>. Private windows don't run extensions and don't keep you signed in.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">6</div>
+            <div class="step-body">
+              <h4>Click the blue &ldquo;Fill from Pilot Medical Guardian&rdquo; button</h4>
+              <p>It appears at the <strong>bottom-right</strong> of those pages. Review every entry it fills in, then click MedXPress's own <strong>Add / Submit</strong>. The app never submits anything for you. You always stay in control.</p>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <div class="callout">
       <strong>What it fills:</strong> the genuinely repetitive parts. Your medications (Item 17) and doctor visits (Item 19), so you don't retype them every cycle. Plus your Item 18 Yes answers and the explanations you've saved for them (up to five). MedXPress already remembers your name and address, and you tap the Item 18 No answers yourself. More in the <a href="/faq.html">FAQ</a>. Or, if you're new to MedXPress itself, start with the <a href="/medxpress-guide.html">plain-language MedXPress guide</a>.

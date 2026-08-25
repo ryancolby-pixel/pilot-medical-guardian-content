@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FAA Medical, MedXPress &amp; BasicMed | Pilot Medical Guardian</title>
-  <meta name="description" content="Pilot Medical Guardian is a privacy-first iOS app that helps pilots protect their FAA medical, whether on a certificate (Class 1, 2, or 3) or under BasicMed. Your health data stays on your device and your own iCloud.">
+  <meta name="description" content="Pilot Medical Guardian is a privacy-first app for iPhone, iPad, and Mac that helps pilots protect their FAA medical, whether on a certificate (Class 1, 2, or 3) or under BasicMed. Your health data stays on your device and your own iCloud.">
   <meta name="theme-color" content="#1c66d9">
   <link rel="canonical" href="https://pilotmedicalguardian.com/">
 
@@ -33,9 +33,9 @@
       {
         "@type": "SoftwareApplication",
         "name": "Pilot Medical Guardian",
-        "operatingSystem": "iOS",
+        "operatingSystem": "iOS, iPadOS, macOS",
         "applicationCategory": "UtilitiesApplication",
-        "description": "A privacy-first iPhone and iPad app that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.",
+        "description": "A privacy-first app for iPhone, iPad, and Mac that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.",
         "url": "https://pilotmedicalguardian.com/",
         "image": "https://pilotmedicalguardian.com/og-card.png",
         "downloadUrl": "https://apps.apple.com/app/id6772534988",
@@ -50,7 +50,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Pilot Medical Guardian">
   <meta property="og:title" content="FAA Medical, MedXPress &amp; BasicMed | Pilot Medical Guardian">
-  <meta property="og:description" content="A privacy-first iPhone and iPad app that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.">
+  <meta property="og:description" content="A privacy-first app for iPhone, iPad, and Mac that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.">
   <meta property="og:url" content="https://pilotmedicalguardian.com/">
   <meta property="og:image" content="https://pilotmedicalguardian.com/og-card.png">
   <meta property="og:image:width" content="1200">
@@ -58,7 +58,7 @@
   <meta property="og:image:alt" content="Pilot Medical Guardian: your FAA medical paperwork, handled.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FAA Medical, MedXPress &amp; BasicMed | Pilot Medical Guardian">
-  <meta name="twitter:description" content="A privacy-first iPhone and iPad app that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.">
+  <meta name="twitter:description" content="A privacy-first app for iPhone, iPad, and Mac that helps pilots protect their FAA medical, whether on a medical certificate or under BasicMed. Prefill MedXPress with your meds and doctor visits, track your BasicMed dates, keep your records organized, and stay ahead of your Special Issuance. It all happens on your own device.">
   <meta name="twitter:image" content="https://pilotmedicalguardian.com/og-card.png">
 
   <link rel="icon" type="image/png" href="/logo.png">
@@ -171,6 +171,14 @@
     .shots img { width: 200px; height: auto; display: block; border-radius: 18px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,0.16); transition: transform .2s ease, box-shadow .2s ease; }
     .shots img:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(16,22,34,0.22); }
     .shots figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 9px; text-align: center; line-height: 1.35; }
+    /* --- Mac section (2026-08-25) --- */
+    .macshot { margin: 0 0 18px; }
+    .macshot img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--rule); box-shadow: 0 12px 34px rgba(16,22,34,0.16); }
+    .macgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+    @media (max-width: 900px) { .macgrid { grid-template-columns: 1fr; } }
+    .maccard { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 16px 18px; box-shadow: var(--shadow-sm); }
+    .maccard h3 { font-size: 1.02rem; margin: 0 0 5px; }
+    .maccard p { font-size: 0.92rem; color: var(--muted); margin: 0; text-wrap: pretty; line-height: 1.5; }
     .cta-note { font-size: 0.9rem; color: var(--muted); margin: 10px 0 4px; }
     .cta-note b { color: var(--text); font-weight: 600; }
     .proof { font-size: 0.9rem; color: var(--muted); margin: 8px 0 2px; text-wrap: pretty; }
@@ -219,8 +227,8 @@
     .pillar-media.stack { display: grid; gap: 16px; }
     .pillar-media.stack figure { margin: 0; }
     .pillar-stage { display: grid; place-items: center; padding: clamp(16px,2.5vw,24px); background: linear-gradient(160deg, var(--accent-tint), var(--card)); border: 1px solid var(--accent-edge); border-radius: var(--radius-card); }
-    .pillar-stage img { width: auto; max-height: 260px; border-radius: 20px; border: 1px solid var(--rule); box-shadow: 0 14px 34px rgba(16,22,34,.20); }
-    @media (max-width: 760px) { .pillar, .pillar.reverse { grid-template-columns: 1fr; gap: 16px; } .pillar.reverse .pillar-media { order: 1; } .pillar.reverse .pillar-text { order: 2; } .pillar-stage img { max-height: 300px; } }
+    .pillar-stage img { width: min(270px, 68%); height: auto; max-height: none; border-radius: 20px; border: 1px solid var(--rule); box-shadow: 0 14px 34px rgba(16,22,34,.20); }
+    @media (max-width: 760px) { .pillar, .pillar.reverse { grid-template-columns: 1fr; gap: 16px; } .pillar.reverse .pillar-media { order: 1; } .pillar.reverse .pillar-text { order: 2; } .pillar-stage img { width: min(260px, 72%); } }
     @media (prefers-reduced-motion: reduce) { .pillar-media a:hover img { transform: none; } }
 </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
@@ -254,12 +262,12 @@
       <div class="hero2-text">
         <span class="badge">Now on the App Store</span>
         <h1>Protect your FAA medical.</h1>
-        <p class="hero2-sub"><strong>A privacy-first iOS app that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress and BasicMed prep organized, so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud.</p>
+        <p class="hero2-sub"><strong>A privacy-first app for iPhone, iPad, and Mac that keeps your medical records, renewal timeline, Special Issuance paperwork, and MedXPress and BasicMed prep organized, so you walk into every exam ready.</strong> Your health data stays on your device and your own iCloud.</p>
         <div class="links cta">
           <a class="primary" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=web-home&amp;mt=8">Download on the App Store &rarr;</a>
           <a class="secondary" href="#features">See what it does</a>
         </div>
-        <p class="cta-note"><b>Free to use</b>, with an optional Guardian Pro subscription. For iPhone and iPad, with a Mac app coming soon.</p>
+        <p class="cta-note"><b>Free to use</b>, with an optional Guardian Pro subscription. For iPhone, iPad, and Mac.</p>
         <p class="proof">Pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
       </div>
       <div class="hero2-media">
@@ -450,6 +458,37 @@
     </div>
   </section>
 
+  <!-- MAC: the desktop-form argument. Copy mirrors the macOS App Store description,
+       which is the authority. Deliberately silent on reminders, Apple Health, scanning,
+       share-into-app and Face ID: all five are false on macOS. -->
+  <section class="section" id="mac">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Now on Mac</span>
+        <h2>MedXPress is a desktop form. Now there's a Mac app for it.</h2>
+        <p>Most pilots fill out MedXPress sitting at a computer. The Mac app puts your records on that same machine: open the form in Safari, click Fill, and your medications and doctor visits drop into Items 17 and 19. You review every line and submit it yourself.</p>
+      </div>
+      <figure class="macshot">
+        <img src="/screenshots/mac-medxpress.webp?v=20260825" width="2200" height="1375" loading="lazy" decoding="async" alt="Pilot Medical Guardian on macOS showing the MedXPress Prep screen, with the sidebar at left, medications listed under Item 17 and doctor visits under Item 19">
+      </figure>
+      <div class="macgrid">
+        <div class="maccard">
+          <h3>One library, every device</h3>
+          <p>What you enter on your iPhone is already here. Your records sync through your own iCloud, so nothing new leaves your devices.</p>
+        </div>
+        <div class="maccard">
+          <h3>A full keyboard for the typing</h3>
+          <p>Medication lists, visit histories and the Item 18 questions go faster on a real keyboard and a big screen than on a phone.</p>
+        </div>
+        <div class="maccard">
+          <h3>One subscription</h3>
+          <p>Guardian Pro carries across iPhone, iPad and Mac. If you already subscribe, you're set.</p>
+        </div>
+      </div>
+      <p class="fineprint">Free to download. Requires macOS 15.6 or later. Same App Store listing as the iPhone and iPad app. Screen uses sample data.</p>
+    </div>
+  </section>
+
   <!-- RECORDS + PRIVACY + FOUNDER -->
   <section class="section tint">
     <div class="wrap">
@@ -509,7 +548,7 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Ready when you are</h2>
-        <p>Pilot Medical Guardian is on the App Store for iPhone and iPad. It's private by design, grounded in the FAA's own published rules, and especially useful if you're flying on a Special Issuance.</p>
+        <p>Pilot Medical Guardian is on the App Store for iPhone, iPad, and Mac. It's private by design, grounded in the FAA's own published rules, and especially useful if you're flying on a Special Issuance.</p>
       </div>
       <div class="prose-card">
         <p style="margin-top:0;">Free to use: your renewal countdown and reminders, unlimited record-keeping, the medication reference, Health, and the AME directory, plus one free MedXPress autofill to try it. An optional <b>Guardian Pro</b> subscription unlocks MedXPress autofill every cycle, CMEC prep and export, Share with your AME, My Documents, Special Issuance tracking, CACI pathway surfacing, and the prior-cycle answer comparison. $29.99 a year, auto-renews until canceled.</p>
