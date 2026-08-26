@@ -67,6 +67,7 @@ Usage:
 """
 import argparse
 import hashlib
+import inspect
 import html
 import json
 import re
@@ -157,6 +158,15 @@ WORD_NUMBERS = {
 def norm(s: str) -> str:
     """Fold everything that differs between a web page and our JSON but carries no meaning."""
     s = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)
+    # 🚨 INLINE tags carry NO word break and must be removed, not spaced out.
+    # faa.gov marks up every acronym: "Conditions <abbr>AME</abbr>s Can Issue
+    # (<abbr>CACI</abbr>)" RENDERS as "Conditions AMEs Can Issue (CACI)", which is what a
+    # pilot reads and what we quote. Replacing every tag with a space produced
+    # "Conditions AME s Can Issue ( CACI )", so a correct verbatim quotation was reported
+    # as absent from the page it was copied off. Measured 2026-08-25 on the CACI overview
+    # record; previously unexercised because earlier content quotes PDFs and eCFR XML,
+    # neither of which has inline markup inside a word.
+    s = re.sub(r"</?(?:abbr|b|i|em|strong|span|sup|sub|a|u|small|mark|code)\b[^>]*>", "", s, flags=re.I)
     s = re.sub(r"<[^>]+>", " ", s)
     s = html.unescape(s)
     for a, b in (("“", '"'), ("”", '"'), ("‘", "'"), ("’", "'"),
@@ -215,7 +225,16 @@ def fetch(url: str, cache: Path) -> str | None:
     # whole script exists to catch, reintroduced as a performance optimisation. Identical
     # bytes cannot parse differently; different bytes always re-parse. That also makes the
     # parse cache safe to persist across CI runs while downloads stay fresh every time.
-    txt = cache / "parsed" / (hashlib.sha256(raw).hexdigest()[:32] + ".txt")
+    # 🚨 THE KEY MUST COVER THE PARSER, NOT ONLY THE INPUT. The comment below is right that
+    # identical bytes cannot parse differently - but only while the PARSER is identical.
+    # Measured 2026-08-25: a correct fix to norm() (inline tags must not become spaces, so
+    # "<abbr>AME</abbr>s" reads "AMEs") was INVISIBLE for a full run, because the parsed text
+    # was cached under the input hash alone and served stale. The check reported two correct
+    # verbatim quotations as absent, and clearing the cache by hand was the only way to see
+    # the fix. Hashing norm()'s own source means a parser change self-invalidates and nobody
+    # has to remember to bump anything.
+    _parser_id = hashlib.sha256(inspect.getsource(norm).encode()).hexdigest()[:8]
+    txt = cache / "parsed" / (hashlib.sha256(raw).hexdigest()[:32] + "_" + _parser_id + ".txt")
     if txt.exists():
         return txt.read_text(encoding="utf-8")
     txt.parent.mkdir(parents=True, exist_ok=True)
