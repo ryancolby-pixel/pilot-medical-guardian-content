@@ -59,11 +59,11 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "The FAA names this medication. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE to the FAA when its criteria are met, with no observation period. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:37:19Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
@@ -288,11 +288,11 @@
       "Lipitor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"atorvastatin (Lipitor; Sortis [INTL])\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"atorvastatin (Lipitor; Sortis [INTL])\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -837,11 +837,11 @@
       "WelChol"
     ],
     "category": "Bile acid sequestrant (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"colesevelam (Welchol)\" under Bile Acid Sequestrant. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"colesevelam (Welchol)\" under Bile Acid Sequestrant. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-colesevelam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -906,11 +906,11 @@
       "Prolia"
     ],
     "category": "RANKL inhibitor (osteoporosis)",
-    "faaStatusDescription": "The FAA names this medication. Its Osteoporosis Medication page lists \"denosumab (Prolia)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as a RANK ligand inhibitor carrying a 48-hour initial observation and a 4-hour post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE to the FAA with a 48-hour initial and 4-hour post-dose observation. Its Osteoporosis Medication page lists \"denosumab (Prolia)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as a RANK ligand inhibitor carrying a 48-hour initial observation and a 4-hour post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-denosumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:37:19Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
@@ -1220,11 +1220,11 @@
       "Aimovig"
     ],
     "category": "Anti-CGRP (migraine prevention)",
-    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"erenumab (Aimovig)\" as a \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" under \"CACI ACCEPTABLE\" migraine prevention, with a 7-day ground trial and no no-fly time. The page adds that prevention medication \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "CACI ACCEPTABLE for migraine prevention, after a 7-day ground trial. Its Migraine Medication page lists \"erenumab (Aimovig)\" as a \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" under \"CACI ACCEPTABLE\" migraine prevention, with a 7-day ground trial and no no-fly time. The page adds that prevention medication \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-erenumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -1339,11 +1339,11 @@
       "Repatha"
     ],
     "category": "PCSK9 inhibitor (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"evolocumab (Repatha)\" under Monoclonal Antibody - PCSK9 Inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"evolocumab (Repatha)\" under Monoclonal Antibody - PCSK9 Inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-evolocumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -1355,11 +1355,11 @@
       "Zetia"
     ],
     "category": "Cholesterol absorption inhibitor",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"ezetimibe\" under 2-Azetidinone. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"ezetimibe\" under 2-Azetidinone. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -1440,11 +1440,11 @@
       "Tricor"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"fenofibrate (Antara, Tricor, Triglide, Trilipix)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"fenofibrate (Antara, Tricor, Triglide, Trilipix)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fenofibrate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -1634,11 +1634,11 @@
       "Lopid"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"gemfibrozil (Lopid)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"gemfibrozil (Lopid)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -2133,11 +2133,11 @@
       "Claritin"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "The FAA names this medication. Its allergy page lists \"loratadine (Claritin)\" among \"Most Second-Generation Histamine-H1 receptor antagonist\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE non-sedating allergy medication, but do not fly while symptomatic. Its allergy page lists \"loratadine (Claritin)\" among \"Most Second-Generation Histamine-H1 receptor antagonist\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-loratadine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:41:29Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
@@ -2203,11 +2203,11 @@
       "Mevacor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"lovastatin\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"lovastatin\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -2547,11 +2547,11 @@
       "Niaspan"
     ],
     "category": "Nicotinic acid (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"niacin (Niaspan)\" under Nicotinic acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"niacin (Niaspan)\" under Nicotinic acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -2849,11 +2849,11 @@
       "Pravachol"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"pravastatin (Pravachol)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"pravastatin (Pravachol)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -2936,11 +2936,11 @@
       "Sudafed"
     ],
     "category": "Decongestant (allergy / cold)",
-    "faaStatusDescription": "The FAA names this medication. Its allergy page lists \"pseudoephedrine (Sudafed)\" among decongestants under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE decongestant, but do not fly while symptomatic. Its allergy page lists \"pseudoephedrine (Sudafed)\" among decongestants under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pseudoephedrine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:41:29Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
@@ -3024,11 +3024,11 @@
       "Maxalt"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"rizatriptan (Maxalt)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "CACI ACCEPTABLE occasionally, 24-hour post-dose wait, NOT for daily use. Its Migraine Medication page lists \"rizatriptan (Maxalt)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rizatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -3041,11 +3041,11 @@
       "Crestor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"rosuvastatin (Crestor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"rosuvastatin (Crestor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -3130,11 +3130,11 @@
       "Viagra"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "The FAA names this medication. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times and lists Viagra (sildenafil) at 8 hours as the \"Required minimum waiting time after last dose before resuming pilot duties\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "8-hour wait after the last dose, and only for ED or BPH. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times and lists Viagra (sildenafil) at 8 hours as the \"Required minimum waiting time after last dose before resuming pilot duties\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sildenafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:37:19Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
@@ -3146,11 +3146,11 @@
       "Zocor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"simvastatin (Zocor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"simvastatin (Zocor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -3251,11 +3251,11 @@
       "Imitrex"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"SUMAtriptan (Imitrex) [all formulations]\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "CACI ACCEPTABLE occasionally, 24-hour post-dose wait, NOT for daily use. Its Migraine Medication page lists \"SUMAtriptan (Imitrex) [all formulations]\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sumatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:30:50Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -3268,11 +3268,11 @@
       "Cialis"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "The FAA names this medication. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times: Cialis taken as needed is 24 hours, while for daily use it states \"Tadalafil 2.5 or 5 mg daily is allowed if no side effects after 7 days\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "24-hour wait as needed, or 2.5-5 mg daily after 7 clear days. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times: Cialis taken as needed is 24 hours, while for daily use it states \"Tadalafil 2.5 or 5 mg daily is allowed if no side effects after 7 days\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tadalafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T23:37:19Z",
+      "lastVerified": "2026-08-26T23:47:57Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
