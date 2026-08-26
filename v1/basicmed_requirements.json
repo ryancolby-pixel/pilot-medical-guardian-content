@@ -4,12 +4,12 @@
       "code": "basicmed-overview",
       "sourceCitation": "14 CFR 61.113(i); 14 CFR 61.23(c)(3); 14 CFR Part 68",
       "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113",
-      "lastVerified": "2026-07-05T12:00:00Z",
+      "lastVerified": "2026-08-26T21:46:29Z",
       "contentVersion": "2026-07-05"
     },
     "cardTitle": "What BasicMed is",
     "iconSystemName": "airplane",
-    "body": "BasicMed is an FAA-authorized alternative to holding a Part 67 medical certificate. Under 14 CFR 61.113(i), the FAA allows a private pilot to act as pilot in command (or serve as a required flightcrew member) without a Part 67 medical certificate, provided the pilot holds a valid U.S. driver's license, meets the requirements of 14 CFR 61.23(c)(3), and complies with the covered-aircraft conditions and operating limitations. It has two recurring pieces set out in 14 CFR Part 68: a medical education course and a comprehensive physician examination. BasicMed applies to private-pilot operations only and does not authorize flying for compensation or hire (14 CFR 61.113(a)). This is a summary of what the FAA requires; whether BasicMed applies to you is a determination for you and your physician.",
+    "body": "BasicMed is an FAA-authorized alternative to holding a Part 67 medical certificate. Under 14 CFR 61.113(i), the FAA allows a private pilot to act as pilot in command (or serve as a required flightcrew member) without a Part 67 medical certificate, provided the pilot holds a valid U.S. driver's license, meets the requirements of 14 CFR 61.23(c)(3), and complies with the covered-aircraft conditions and operating limitations. It has two recurring pieces set out in 14 CFR Part 68: a medical education course and a comprehensive physician examination. BasicMed applies to private-pilot operations only. It does not add privileges beyond the pilot certificate: 14 CFR 61.113(a) bars a private pilot from flying for compensation or hire, but it opens \"Except as provided in paragraphs (b) through (h) of this section\", and those paragraphs still permit, among other things, pro rata sharing of a flight's operating expenses, flying incidental to a business or employment, glider towing, and demonstrating an aircraft to a prospective buyer. This is a summary of what the FAA requires; whether BasicMed applies to you is a determination for you and your physician.",
     "links": [
       {
         "title": "14 CFR 61.113 - BasicMed privileges",
@@ -78,12 +78,12 @@
       "code": "basicmed-operating-limits",
       "sourceCitation": "14 CFR 61.113(i)(1)-(2) and 61.113(a); current per 89 FR 90572 (eff. 2024-11-18)",
       "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113",
-      "lastVerified": "2026-07-05T12:00:00Z",
+      "lastVerified": "2026-08-26T21:46:29Z",
       "contentVersion": "2026-07-05"
     },
     "cardTitle": "Operating limits",
     "iconSystemName": "ruler",
-    "body": "When flying under BasicMed, the FAA limits the operation in 14 CFR 61.113(i). The aircraft must be authorized to carry not more than 7 occupants, have a maximum takeoff weight of not more than 12,500 pounds, be operated with no more than 6 passengers on board, and not be a transport-category rotorcraft certified under Part 29 (14 CFR 61.113(i)(1)). The flight may not be conducted above 18,000 feet MSL, at an indicated airspeed exceeding 250 knots, or outside the United States unless authorized by the country in which the flight is conducted (14 CFR 61.113(i)(2)). BasicMed does not authorize flying for compensation or hire (14 CFR 61.113(a)). Note: the 12,500 lb / 7-occupant / 6-passenger limits are the current figures, raised from the earlier 6,000 lb / 6 / 5 by a final rule effective November 18, 2024 (89 FR 90572); the 18,000 ft and 250-knot limits are unchanged. This is a summary of what the FAA requires.",
+    "body": "When flying under BasicMed, the FAA limits the operation in 14 CFR 61.113(i). The aircraft must be authorized to carry not more than 7 occupants, have a maximum takeoff weight of not more than 12,500 pounds, be operated with no more than 6 passengers on board, and not be a transport-category rotorcraft certified under Part 29 (14 CFR 61.113(i)(1)). The flight may not be conducted above 18,000 feet MSL, at an indicated airspeed exceeding 250 knots, or outside the United States unless authorized by the country in which the flight is conducted (14 CFR 61.113(i)(2)). BasicMed does not add privileges beyond the pilot certificate: 14 CFR 61.113(a) bars a private pilot from flying for compensation or hire, but it opens \"Except as provided in paragraphs (b) through (h) of this section\", and those paragraphs still permit, among other things, pro rata sharing of a flight's operating expenses, flying incidental to a business or employment, glider towing, and demonstrating an aircraft to a prospective buyer. Note: the 12,500 lb / 7-occupant / 6-passenger limits are the current figures, raised from the earlier 6,000 lb / 6 / 5 by a final rule effective November 18, 2024 (89 FR 90572); the 18,000 ft and 250-knot limits are unchanged. This is a summary of what the FAA requires.",
     "links": [
       {
         "title": "14 CFR 61.113 - operating limits",

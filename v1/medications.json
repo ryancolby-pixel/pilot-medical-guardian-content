@@ -148,11 +148,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with a calcium channel blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a calcium channel blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-amlodipine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -257,11 +257,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the underlying condition, not the drug.",
-    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-atenolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -366,8 +366,8 @@
     "envelope": {
       "code": "med-benzphetamine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -456,8 +456,8 @@
     "envelope": {
       "code": "med-contrave",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "faaStatus": "notAcceptable"
@@ -486,11 +486,11 @@
     ],
     "category": "Smoking cessation aid",
     "isCACI": false,
-    "faaStatusDescription": "For smoking cessation the FAA lists bupropion SR (Zyban) as UNACCEPTABLE. On a first treatment course no medical is issued during active treatment, and a 7 day no-fly runs from the last dose once treatment is complete. Recurrent or extended therapy over 6 months routes to the FAA's anxiety and depression table.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For smoking cessation the FAA lists bupropion SR (Zyban) as UNACCEPTABLE. On a first treatment course no medical is issued during active treatment, and a 7 day no-fly runs from the last dose once treatment is complete. Recurrent treatment, or extended therapy longer than 6 months, is referred to the FAA's \"Anxiety, Depression and Related Conditions Table\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zyban",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:46:13Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
@@ -576,11 +576,11 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program; a cardiac indication may instead require Special Issuance. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". A cardiac indication may instead require Special Issuance. Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-carvedilol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T15:40:52Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -667,11 +667,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with a thiazide-like diuretic is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a thiazide-like diuretic is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-chlorthalidone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -723,8 +723,8 @@
     "envelope": {
       "code": "med-plenity",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -1001,8 +1001,8 @@
     "envelope": {
       "code": "med-diethylpropion",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -1034,11 +1034,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with a calcium channel blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a calcium channel blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-diltiazem",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -1068,13 +1068,11 @@
       "Tikosyn"
     ],
     "category": "Antiarrhythmic",
-    "faaStatus": "notAcceptable",
-    "isCACI": false,
     "faaStatusDescription": "Not individually listed in an FAA medication list. Informational only; your AME determines acceptability.",
     "envelope": {
       "code": "med-dofetilide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:32:33Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals (Therapeutic Medications) index. This medication is not individually listed.",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -1118,9 +1116,9 @@
   {
     "envelope": {
       "code": "med-dulaglutide",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025); Weight Loss Medication (updated 04/29/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025); Weight Loss Medication (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-15T00:00:00Z",
+      "lastVerified": "2026-08-26T21:31:48Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "dulaglutide",
@@ -1211,11 +1209,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with an ACE inhibitor is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on an ACE inhibitor is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-enalapril",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -1316,11 +1314,11 @@
     "category": "Sedative hypnotic (insomnia)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Eszopiclone (Lunesta): the FAA publishes a required minimum wait of 30 hours after the last dose before resuming pilot duties.\n\nIt also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Eszopiclone (Lunesta): the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 30 hours after the last dose before resuming pilot duties. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-eszopiclone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:31:32Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals, Sleep Aids (table last updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -1441,8 +1439,8 @@
     "envelope": {
       "code": "med-fenfluramine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -1724,11 +1722,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with a thiazide diuretic is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a thiazide diuretic is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-hydrochlorothiazide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -2049,8 +2047,8 @@
     "envelope": {
       "code": "med-liraglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2060,7 +2058,7 @@
       "code": "med-liraglutide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-15T00:00:00Z",
+      "lastVerified": "2026-08-26T21:44:48Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "liraglutide (for type 2 diabetes)",
@@ -2070,7 +2068,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\".\n\nIts Acceptable Combinations chart places liraglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places liraglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
   },
   {
     "genericName": "liraglutide (for weight loss)",
@@ -2081,12 +2079,12 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists liraglutide under \"ACCEPTABLE Weight Loss Medications\". It names no brand for it.\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"Two (2) weeks after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists liraglutide under \"ACCEPTABLE Weight Loss Medications\". It names no brand for it.\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-liraglutide-wl",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2191,8 +2189,8 @@
     "envelope": {
       "code": "med-lorcaserin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2206,11 +2204,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with an angiotensin receptor blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on an angiotensin receptor blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-losartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -2300,8 +2298,8 @@
     "envelope": {
       "code": "med-metformin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     }
   },
@@ -2316,11 +2314,11 @@
     "category": "Biguanide (type 2 diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\".\n\nIts Acceptable Combinations chart places metformin in Group A (Biguanides) and says \"Use no more than one medication from each group (A-F)\", with a 14-day observation when starting therapy on \"Group A ONLY\". The FAA's CACI Weight Loss Management worksheet does not apply on this pathway: it states that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\"",
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places metformin in Group A (Biguanides) and says \"Use no more than one medication from each group (A-F)\", with a 14-day observation when starting therapy on \"Group A ONLY\". The FAA's CACI Weight Loss Management worksheet does not apply on this pathway: it states that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\"",
     "envelope": {
       "code": "med-metformin-dm",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
+      "lastVerified": "2026-08-26T21:44:48Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
     }
@@ -2338,12 +2336,12 @@
     "isCACI": true,
     "informationalOnly": false,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists \"metformin\" under \"ACCEPTABLE Weight Loss Medications\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"Two (2) weeks after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists \"metformin\" under \"ACCEPTABLE Weight Loss Medications\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-metformin-wl",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     }
   },
@@ -2411,11 +2409,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug.",
-    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program; a cardiac indication may instead require Special Issuance. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". A cardiac indication may instead require Special Issuance. Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-metoprolol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -2698,8 +2696,8 @@
     "envelope": {
       "code": "med-orlistat",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), row A",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), row A",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2787,8 +2785,8 @@
     "envelope": {
       "code": "med-phendimetrazine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2807,8 +2805,8 @@
     "envelope": {
       "code": "med-phentermine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2825,8 +2823,8 @@
     "envelope": {
       "code": "med-qsymia",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2843,11 +2841,11 @@
     "envelope": {
       "code": "med-pioglitazone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:44:48Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
-    "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
+    "treatedConditionNote": "Pioglitazone is not itself named as Do Not Issue. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
   {
     "genericName": "pitavastatin",
@@ -3090,8 +3088,8 @@
     "envelope": {
       "code": "med-semaglutide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -3101,7 +3099,7 @@
       "code": "med-semaglutide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-15T00:00:00Z",
+      "lastVerified": "2026-08-26T21:44:48Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "semaglutide (for type 2 diabetes)",
@@ -3112,7 +3110,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\".\n\nIts Acceptable Combinations chart places semaglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places semaglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
   },
   {
     "genericName": "semaglutide (for weight loss)",
@@ -3123,12 +3121,12 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Wegovy under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"semaglutide (Wegovy)\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"Two (2) weeks after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Wegovy under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"semaglutide (Wegovy)\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-semaglutide-wl",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -3319,13 +3317,13 @@
     "envelope": {
       "code": "med-tamsulosin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-08-26T21:32:33Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
-    "treatedConditionNote": "Generally acceptable; the FAA's interest is tolerance and the underlying condition.",
+    "treatedConditionNote": "The FAA's interest is tolerance and the underlying condition.",
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name tamsulosin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Generally acceptable; the FAA's interest is tolerance and the underlying condition. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name tamsulosin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The FAA's interest is tolerance and the underlying condition. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
   },
   {
     "genericName": "telmisartan",
@@ -3447,8 +3445,8 @@
     "envelope": {
       "code": "med-tirzepatide",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -3458,7 +3456,7 @@
       "code": "med-tirzepatide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-15T00:00:00Z",
+      "lastVerified": "2026-08-26T21:44:48Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "tirzepatide (for type 2 diabetes)",
@@ -3468,7 +3466,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\".\n\nIts Acceptable Combinations chart places tirzepatide in Group C, in its own GLP-1 / GIP box rather than with the GLP1 mimetics and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places tirzepatide in Group C, in its own GLP-1 / GIP box rather than with the GLP1 mimetics and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
   },
   {
     "genericName": "tirzepatide (for weight loss)",
@@ -3479,12 +3477,12 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Zepbound under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"tirzepatide (Zepbound) [GIP + GLP-1 Agonist]\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"Two (2) weeks after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Zepbound under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"tirzepatide (Zepbound) [GIP + GLP-1 Agonist]\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-tirzepatide-wl",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-15T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 04/29/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "lastVerified": "2026-08-26T21:31:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -3603,11 +3601,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension treated with an angiotensin receptor blocker is addressed by the FAA CACI program. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension on an angiotensin receptor blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
     "envelope": {
       "code": "med-valsartan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T21:33:22Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     }
@@ -3745,12 +3743,12 @@
     "category": "Sedative hypnotic (insomnia)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "treatedConditionNote": "Both the insomnia and the sedating drug matter; chronic use is generally disqualifying.",
-    "faaStatusDescription": "Zolpidem's required minimum wait before pilot duties depends on the product, 24 to 48 hours: Ambien and Ambien CR 24, Edluar and Intermezzo 36, Zolpimist 48. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.",
+    "treatedConditionNote": "Both the insomnia and the sedating drug matter. The FAA states that medical conditions chronically interfering with sleep are disqualifying whether or not a sleep aid is used, and that daily or nightly use of a sleep aid is not allowed regardless of the underlying cause.",
+    "faaStatusDescription": "Zolpidem: the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots. The required minimum wait before pilot duties depends on the product, 24 to 48 hours: Ambien and Ambien CR 24, Edluar and Intermezzo 36, Zolpimist 48. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zolpidem",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:31:32Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -3764,11 +3762,11 @@
     ],
     "category": "Sedative hypnotic (insomnia)",
     "isCACI": false,
-    "faaStatusDescription": "Ambien and Ambien CR: the FAA publishes a required minimum wait of 24 hours after the last dose before resuming pilot duties. Other zolpidem products run to 48 hours, so check yours.\n\nIt also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.",
+    "faaStatusDescription": "Ambien and Ambien CR: the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 24 hours after the last dose before resuming pilot duties. Other zolpidem products run to 48 hours, so check yours. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zolpidem-ambien",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:31:32Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -3782,11 +3780,11 @@
     ],
     "category": "Sedative hypnotic (insomnia)",
     "isCACI": false,
-    "faaStatusDescription": "Zolpimist oral spray: the FAA publishes a required minimum wait of 48 hours after the last dose before resuming pilot duties.\n\nIt also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Zolpimist oral spray: the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 48 hours after the last dose before resuming pilot duties. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zolpimist",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:31:32Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -3801,11 +3799,11 @@
     ],
     "category": "Sedative hypnotic (insomnia)",
     "isCACI": false,
-    "faaStatusDescription": "Edluar and Intermezzo: the FAA publishes a required minimum wait of 36 hours after the last dose before resuming pilot duties.\n\nIt also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Edluar and Intermezzo: the FAA does not allow daily or nightly use of any sleep aid, regardless of the underlying cause. Occasional or limited use is allowable for pilots, and the FAA publishes a required minimum wait of 36 hours after the last dose before resuming pilot duties. Sleep aids are listed as a class on the FAA's Do Not Fly list. The FAA also states that a condition chronically interfering with sleep is disqualifying whether or not a sleep aid is used.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zolpidem-edluar",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-08-26T21:31:32Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },

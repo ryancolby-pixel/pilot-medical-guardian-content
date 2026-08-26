@@ -3,8 +3,8 @@
     "envelope": {
       "code": "caci-arthritis",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Arthritis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Arthritis Disposition Table (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ArthritisDispositionTable.pdf"
     },
     "conditionName": "Arthritis",
@@ -69,8 +69,8 @@
     "envelope": {
       "code": "caci-breast-cancer",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Breast Cancer Worksheet (updated 09/27/2017)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Breast Cancer Disposition Table (updated 09/27/2017)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf"
     },
     "conditionName": "Breast Cancer",
@@ -89,8 +89,8 @@
     "envelope": {
       "code": "caci-c-itp-chronic-immune-thrombocytopenia",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI C-ITP (Chronic Immune Thrombocytopenia) Worksheet (updated 09/25/2019)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Thrombocytopenia (Platelet count < 150,000) Disposition Table (updated 09/25/2019)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ThrombocytopeniaDispositionTable.pdf"
     },
     "conditionName": "C-ITP (Chronic Immune Thrombocytopenia)",
@@ -161,8 +161,8 @@
     "envelope": {
       "code": "caci-chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL) Worksheet",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL) Disposition Table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CLL_SLL_dispo_table.pdf"
     },
     "conditionName": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
@@ -208,8 +208,8 @@
     "envelope": {
       "code": "caci-colon-cancer-colorectal-cancer",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Colon Cancer / Colorectal Cancer Worksheet (updated 02/25/2026)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Colon Cancer / Colorectal Cancer Disposition Table (updated 02/25/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ColonCancerDispositionTable.pdf"
     },
     "conditionName": "Colon Cancer / Colorectal Cancer",
@@ -255,8 +255,8 @@
     "envelope": {
       "code": "caci-essential-tremor",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Essential Tremor Worksheet (updated 01/25/2023)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Tremor Disposition Table (updated 01/25/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Tremor.pdf"
     },
     "conditionName": "Essential Tremor",
@@ -347,8 +347,8 @@
     "envelope": {
       "code": "caci-hypothyroidism",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Hypothyroidism Worksheet (updated 01/25/2023)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Hypothyroid or Hypothyroidism (Including Hashimoto's Disease) Disposition Table (updated 01/25/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
     "conditionName": "Hypothyroidism",
@@ -369,8 +369,8 @@
     "envelope": {
       "code": "caci-low-testosterone-low-t-hypogonadism",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Low Testosterone (Low T) Hypogonadism Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Low Testosterone (Low T) Hypogonadism Disposition Table (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
     },
     "conditionName": "Low Testosterone (Low T) Hypogonadism",
@@ -417,8 +417,8 @@
     "envelope": {
       "code": "caci-migraine-and-chronic-headache",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Migraine and Chronic Headache Worksheet (updated 09/24/2025)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Headache or Migraine Disposition Table (updated 09/24/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
     },
     "conditionName": "Migraine and Chronic Headache",
@@ -442,8 +442,8 @@
     "envelope": {
       "code": "caci-mitral-valve-repair",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T15:40:52Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Mitral Valve Repair Worksheet (updated 05/29/2024)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Mitral Valve Repair Disposition Table (updated 05/29/2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
     },
     "conditionName": "Mitral Valve Repair",
@@ -465,8 +465,8 @@
     "envelope": {
       "code": "caci-polycystic-ovarian-syndrome-pcos",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 09/27/2023)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Polycystic Ovarian Syndrome (PCOS) Disposition Table (updated 09/27/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/PCOS_dispo_Table.pdf"
     },
     "conditionName": "Polycystic Ovarian Syndrome (PCOS)",
@@ -487,8 +487,8 @@
     "envelope": {
       "code": "caci-prediabetes",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-17T15:23:35Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Prediabetes Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Prediabetes Worksheet (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI-Pre-Diabetes_Worksheet.pdf"
     },
     "conditionName": "Prediabetes",
@@ -511,8 +511,8 @@
     "envelope": {
       "code": "caci-primary-hemochromatosis",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Primary Hemochromatosis Worksheet (updated 10/27/2021)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Primary Hemochromatosis Disposition Table (updated 10/27/2021)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/PrimaryHemochromatosisDispositionTable.pdf"
     },
     "conditionName": "Primary Hemochromatosis",
@@ -554,8 +554,8 @@
     "envelope": {
       "code": "caci-psoriasis",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Psoriasis Worksheet (updated 08/27/2025)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Psoriasis Disposition Table (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Psoriasis_dispo_table.pdf"
     },
     "conditionName": "Psoriasis",
@@ -598,8 +598,8 @@
     "envelope": {
       "code": "caci-retained-kidney-stone-s",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Retained Kidney Stone(s) Worksheet (updated 06/28/2017)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — Kidney Stone(s) (Nephrolithiasis, Renal Calculi) or Renal Colic Disposition Table (updated 06/28/2017)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf"
     },
     "conditionName": "Retained Kidney Stone(s)",
@@ -643,8 +643,8 @@
     "envelope": {
       "code": "caci-weight-loss-management",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-17T15:23:35Z",
-      "sourceCitation": "FAA Guide for AMEs — CACI Weight Loss Management Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-08-26T21:43:58Z",
+      "sourceCitation": "FAA Guide for AMEs — CACI Weight Loss Management Worksheet (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf"
     },
     "conditionName": "Weight Loss Management",
