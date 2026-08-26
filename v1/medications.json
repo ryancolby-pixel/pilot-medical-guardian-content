@@ -93,15 +93,15 @@
       "Xanax"
     ],
     "category": "Benzodiazepine (anxiety)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Benzodiazepines fall under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists ANTI-ANXIETY medications under DO NOT FLY, not Do Not Issue. It names alprazolam (Xanax), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alprazolam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -130,13 +130,13 @@
     "category": "Tricyclic antidepressant",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Amitriptyline is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amitriptyline",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -274,13 +274,13 @@
     "category": "Non-stimulant ADHD agent",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Atomoxetine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "ADHD medications sit under DO NOT ISSUE. They appear inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which names \"Attention deficit disorder (ADD)\" and ADHD medications among its examples and applies \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atomoxetine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:17:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -324,15 +324,15 @@
       "Lioresal"
     ],
     "category": "Muscle relaxant",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Baclofen is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma) and cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-baclofen",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -771,13 +771,13 @@
     "category": "Benzodiazepine (anxiety/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Clonazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; ANTI-ANXIETY medications appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-clonazepam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -856,15 +856,15 @@
       "Flexeril"
     ],
     "category": "Muscle relaxant",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Muscle relaxants are addressed under FAA Do Not Fly guidance due to CNS effects. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-cyclobenzaprine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -943,15 +943,15 @@
       "Valium"
     ],
     "category": "Benzodiazepine (anxiety)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Diazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists ANTI-ANXIETY medications under DO NOT FLY, not Do Not Issue. It names alprazolam, lorazepam, temazepam and triazolam, in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-diazepam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1631,13 +1631,13 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Gabapentin is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gabapentin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1740,15 +1740,15 @@
     ],
     "medxpressName": "VICODIN",
     "category": "Opioid analgesic",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Centrally-acting opioid analgesics fall under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists PAIN MEDICATION under DO NOT FLY, not Do Not Issue. It names hydrocodone (Lortab, Vicodin, etc.) among narcotic pain relievers, in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-hydrocodone-acetaminophen",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1868,13 +1868,13 @@
     "category": "Anticonvulsant (seizure/mood)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Lamotrigine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lamotrigine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1920,13 +1920,13 @@
     "category": "Anticonvulsant (seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Levetiracetam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levetiracetam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1935,17 +1935,15 @@
       "Xyzal"
     ],
     "category": "Antihistamine (allergy)",
-    "faaStatus": "conditional",
-    "isCACI": false,
-    "faaStatusDescription": "Levocetirizine carries a no-fly interval after the last dose under FAA Do Not Fly guidance due to potential sedation. Confirm the current required wait against the AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA does not name levocetirizine in its Do Not Issue / Do Not Fly tables, and the class it belongs to is not one of the classes those tables list. The FAA writes: \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Read the table yourself and ask your AME; absence is not permission.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levocetirizine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "lastVerified": "2026-08-26T23:12:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals, Do Not Issue / Do Not Fly section",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
     },
-    "preFlightWaitHours": 48
+    "informationalOnly": true
   },
   {
     "genericName": "levofloxacin",
@@ -2097,13 +2095,13 @@
     "category": "CNS stimulant (ADHD)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Lisdexamfetamine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "ADHD medications and stimulants sit under DO NOT ISSUE. Inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group it names \"Attention deficit disorder (ADD)\" and ADHD medications, and separately \"Stimulants\", applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lisdexamfetamine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:17:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2165,15 +2163,15 @@
       "Ativan"
     ],
     "category": "Benzodiazepine (anxiety)",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Lorazepam is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists ANTI-ANXIETY medications under DO NOT FLY, not Do Not Issue. It names lorazepam (Ativan), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lorazepam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2369,15 +2367,15 @@
       "Robaxin"
     ],
     "category": "Muscle relaxant",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Methocarbamol is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma) and cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-methocarbamol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2443,13 +2441,13 @@
     "category": "Atypical antidepressant",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Mirtazapine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mirtazapine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2460,13 +2458,13 @@
     "category": "Wakefulness agent",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Modafinil is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Stimulants sit under DO NOT ISSUE. The FAA names \"Stimulants\" inside its \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-modafinil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2672,16 +2670,15 @@
       "Zofran"
     ],
     "category": "Antiemetic",
-    "faaStatus": "notAcceptable",
-    "isCACI": false,
-    "faaStatusDescription": "Ondansetron is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA does not name ondansetron in its Do Not Issue / Do Not Fly tables, and the class it belongs to is not one of the classes those tables list. The FAA writes: \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Read the table yourself and ask your AME; absence is not permission.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ondansetron",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
+      "lastVerified": "2026-08-26T23:12:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals, Do Not Issue / Do Not Fly section",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
-    }
+    },
+    "informationalOnly": true
   },
   {
     "genericName": "orlistat",
@@ -2727,15 +2724,15 @@
       "Percocet"
     ],
     "category": "Opioid analgesic",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Centrally-acting opioid analgesics fall under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists PAIN MEDICATION under DO NOT FLY, not Do Not Issue. It names oxycodone (Percodan, Oxycontin) among narcotic pain relievers, in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-oxycodone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -2907,13 +2904,13 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Pregabalin is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pregabalin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -3493,15 +3490,15 @@
       "Zanaflex"
     ],
     "category": "Muscle relaxant",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Tizanidine is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma) and cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tizanidine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -3512,13 +3509,13 @@
     "category": "Anticonvulsant (migraine/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Topiramate is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-topiramate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -3527,15 +3524,15 @@
       "Ultram"
     ],
     "category": "Opioid analgesic",
-    "faaStatus": "notAcceptable",
+    "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Tramadol is a centrally-acting analgesic addressed under FAA Do Not Issue / Do Not Fly guidance. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "The FAA lists PAIN MEDICATION under DO NOT FLY, not Do Not Issue. It names tramadol (Ultram) among non-narcotic pain relievers, in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tramadol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:06:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -3546,13 +3543,13 @@
     "category": "Serotonin modulator (sleep/depression)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Trazodone is addressed under FAA Do Not Issue / Do Not Fly guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-trazodone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-08-26T23:11:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
