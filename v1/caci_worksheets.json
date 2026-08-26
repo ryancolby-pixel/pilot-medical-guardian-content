@@ -442,7 +442,7 @@
     "envelope": {
       "code": "caci-mitral-valve-repair",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-08-26T15:40:52Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Mitral Valve Repair Worksheet (updated 05/29/2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
     },
@@ -451,9 +451,8 @@
       "item18-heart"
     ],
     "matchKeywords": [
-      "mitral valve",
-      "valve repair",
-      "valve replacement"
+      "mitral valve repair",
+      "mitral valve"
     ],
     "bundledPDFFilename": "Mitral_Valve_Repair_disposition_table.pdf",
     "worksheetURL": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf",

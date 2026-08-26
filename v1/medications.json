@@ -576,15 +576,15 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension or cardiac condition treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypertension treated with a beta blocker is addressed by the FAA CACI program; a cardiac indication may instead require Special Issuance. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-carvedilol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T15:40:52Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension or cardiac condition"
+    "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug."
   },
   {
     "genericName": "celecoxib",
@@ -1470,16 +1470,16 @@
       "Allegra"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Named by the FAA as an acceptable non-sedating antihistamine, subject to a mandatory 48-hour ground trial after initial use. Confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-fexofenadine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T15:45:23Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Allergy - Antihistamines & Immunotherapy Medication",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name fexofenadine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "informationalNote": "The FAA's Allergy - Antihistamines & Immunotherapy Medication guidance lists fexofenadine (Allegra) among acceptable second-generation antihistamines, which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" For a new medication the FAA states: \"Mandatory 48-hour ground trial required after initial use,\" and that \"Symptoms must be controlled without adverse side effects.\" Being on an acceptable medication is not by itself clearance to fly. The same guidance opens with: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" It also directs that the \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\" At the exam itself, the guidance directs that \"In all situations, the AME must notate the evaluation data in Block 60.\""
   },
   {
     "genericName": "finasteride",
@@ -3425,16 +3425,16 @@
     ],
     "category": "Long-acting anticholinergic (COPD/asthma)",
     "faaStatus": "conditional",
-    "isCACI": true,
-    "faaStatusDescription": "COPD or asthma treated with Long-acting anticholinergic (COPD/asthma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "isCACI": false,
+    "faaStatusDescription": "Not on the FAA CACI Asthma Worksheet's acceptable-medication list, which names inhaled long-acting beta agonist, inhaled short-acting beta agonist, inhaled corticosteroid and leukotriene receptor antagonist. COPD is not addressed on that worksheet at all. Your AME determines acceptability; confirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-tiotropium",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-07T13:20:00Z",
+      "lastVerified": "2026-08-26T15:40:52Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
-    "treatedConditionNote": "COPD or asthma"
+    "treatedConditionNote": "Concern is the underlying condition (COPD or asthma), not the drug."
   },
   {
     "genericName": "tirzepatide",
