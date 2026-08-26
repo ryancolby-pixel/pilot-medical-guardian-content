@@ -212,3 +212,66 @@ omission**, and every time it fires it improves the entry rather than just passi
 `validate` · `check-med-claims` · `check-verification-age` · `check-source-links` · `verify_manifest` all
 pass. **`check-content-fidelity`: 860 spans, 0 new, and the baseline SHRANK by 2.** `check-field-claims`
 still reports its 5 pre-existing findings (incl. the courier address Ryan closed) and is not a CI gate.
+
+---
+
+## ✅ CLUSTER 1 (DNI/DNF) IS CLOSED — and it was never an AME question
+
+Content `a5dbd1d`, verified on the live CDN. **26 records, 15 changed, 11 left alone.**
+
+### 🚨 THE FRAMING ERROR THAT NEARLY COST THE MOST
+This cluster was written up above, and twice in conversation, as *"the first item in the audit that
+wants an AME's eye."* **That was wrong, and Ryan stopped it.** The AME-review gate was **retired
+2026-06-18** and replaced by *"we never put words in the FAA's mouth"* precisely so that nothing here
+needs clinical review; `CONTENT_PIPELINE2.md` sets the target at **Tier B = 0**. There is also no AME
+advisor to send it to. ⇒ **If a content fix seems to need a clinician, that is the signal the CLAIM
+should not be there — not that a clinician should be found.**
+
+### ⚖️ AND THE MEASUREMENT BEHIND THE FRAMING WAS THE WRONG ONE
+The first pass measured whether the FAA names the **DRUG**, found 0 of 26 under DNI, and concluded we
+had invented the classification. **The records claim a CLASS, not a drug** — `med-methylphenidate`
+says *"ADHD stimulants fall under FAA Do Not Issue guidance"*, and the FAA really does list
+*"Attention deficit disorder (ADD) or attention deficit hyperactivity disorder (ADHD) medications"*
+there. Re-measured against the FAA's **own class headings**:
+
+| verdict vs the FAA's class headings | n | action |
+|---|---|---|
+| ✅ correct as written | **11** | kept; relabelled to name only the table that applies |
+| ❌ DNI consequence on a **DNF** class | **10** | rewritten to the FAA's Do Not Fly text |
+| ⚠️ class sits in **both** tables | **3** | both shown, neither chosen |
+| ❌ class in **neither** table | **2** | absence + the FAA's anti-inference rule |
+
+⇒ **Ask what the sentence actually claims before measuring whether it is true.** A drug-level probe
+cannot evaluate a class-level claim, and it produced a confident, wrong, 26-record conclusion.
+
+### ⚖️ THE LIABILITY DIRECTION IS NOT THE OBVIOUS ONE
+The 10 defects were **stricter than the FAA** — we said *"the AME does not issue"* where the FAA says
+caution, give No Fly wait times, and defer only *"If applicant is using the following medications
+routinely."* A false restriction feels like the safe error and is not: it is still an untrue statement
+about the FAA on a product whose promise is that it quotes the source, and a pilot can make a career
+decision on it. **Accuracy is the defence in both directions.**
+
+### 🚨 A QUOTE THAT WRAPS A LINE OR SITS IN A MARGIN IS NOT A QUOTE — THIRD INSTANCE TONIGHT
+The FAA's ADHD entry wraps, and pdfplumber interpolates the bullet glyph:
+`"...hyperactivity disorder o (ADHD) medications"`. Presented as verbatim on the strength of a pypdf
+read, it failed the gate. Shortened to `"Attention deficit disorder (ADD)"` and `"Stimulants"`, which
+verify, with the ADHD half as plain prose. ⚠️ **Claiming "I verified every fragment" was itself wrong
+twice this session.** ⇒ **Verify with the extractor the GATE uses, over the FULL set, and re-verify
+after every rewrite** — not once at the start.
+
+### ✅ `check-med-claims` CAUGHT A REAL MISTAKE MID-PASS
+It failed with *"13 absence claims cite a page outside the FAA's pharmaceuticals section, up 2 from
+the baseline of 11."* The two were the new absence entries, which had been pointed at the tables PDF.
+**Right on both counts:** an absence claim needs a citation that *could contradict it*, and the
+sentence those entries quote lives on the `pharm/dni_dnf/` page, not in the PDF. **Repointed, not
+rebaselined — the baseline stays at 11.**
+
+### Result
+`check-content-fidelity`: **940 spans, 0 new, baseline SHRANK by 24.** validate · med-claims ·
+verification-age · source-links · verify_manifest all pass.
+
+### 🛑 What remains of the audit
+**Cluster 2 only: 35 findings**, the class-level-index underselling shape (`GOTCHAS_CONTENT §17`).
+For each, check whether the FAA's class document names the drug; if it does, our "not individually
+listed" is simply false and gets the verbatim. **Lower stakes, well-defined, and no clinician
+required for that one either.**
