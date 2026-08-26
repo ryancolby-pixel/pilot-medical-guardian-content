@@ -1116,9 +1116,9 @@
   {
     "envelope": {
       "code": "med-dulaglutide",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025); Weight Loss Medication (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026); Weight Loss Medication (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-08-26T22:01:33Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "dulaglutide",
@@ -1128,7 +1128,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\".\n\nIts Acceptable Combinations chart places dulaglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\".\n\nUnlike liraglutide, semaglutide and tirzepatide, the FAA does not name dulaglutide in its Weight Loss Medication list or its CACI Weight Loss Management worksheet. That silence is neither a permission nor a prohibition; ask your AME which pathway applies."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\".\n\nIts Acceptable Combinations chart places dulaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match.\n\nUnlike liraglutide, semaglutide and tirzepatide, the FAA does not name dulaglutide in its Weight Loss Medication list or its CACI Weight Loss Management worksheet. That silence is neither a permission nor a prohibition; ask your AME which pathway applies."
   },
   {
     "genericName": "duloxetine",
@@ -2056,9 +2056,9 @@
   {
     "envelope": {
       "code": "med-liraglutide-dm",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T21:44:48Z",
+      "lastVerified": "2026-08-26T22:09:45Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "liraglutide (for type 2 diabetes)",
@@ -2068,7 +2068,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places liraglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places liraglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
   },
   {
     "genericName": "liraglutide (for weight loss)",
@@ -2314,12 +2314,12 @@
     "category": "Biguanide (type 2 diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places metformin in Group A (Biguanides) and says \"Use no more than one medication from each group (A-F)\", with a 14-day observation when starting therapy on \"Group A ONLY\". The FAA's CACI Weight Loss Management worksheet does not apply on this pathway: it states that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\"",
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places metformin in Group B (Biguanides) and says \"Only ONE Medication allowed from each group (A–G)\". Starting therapy on \"Group B ONLY\" carries a 14-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match.",
     "envelope": {
       "code": "med-metformin-dm",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T21:44:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-08-26T22:01:33Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
     }
   },
@@ -3097,9 +3097,9 @@
   {
     "envelope": {
       "code": "med-semaglutide-dm",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T21:44:48Z",
+      "lastVerified": "2026-08-26T22:09:45Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "semaglutide (for type 2 diabetes)",
@@ -3110,7 +3110,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places semaglutide in Group C (GLP1 mimetics) and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places semaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
   },
   {
     "genericName": "semaglutide (for weight loss)",
@@ -3454,9 +3454,9 @@
   {
     "envelope": {
       "code": "med-tirzepatide-dm",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/27/2025)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T21:44:48Z",
+      "lastVerified": "2026-08-26T22:09:45Z",
       "contentVersion": "2026.0-sample"
     },
     "genericName": "tirzepatide (for type 2 diabetes)",
@@ -3466,7 +3466,7 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places tirzepatide in Group C, in its own GLP-1 / GIP box rather than with the GLP1 mimetics and says \"Use no more than one medication from each group (A-F)\", with a 30-day observation when starting a Group B-D medication and 3 days when switching dose or formulation within Group A-D \"(including between injectable and oral GLP-1 RA)\". Group C is not allowed with Meglitinides."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places tirzepatide in Group D, in its GLP-1 / GIP box alongside the GLP1 mimetics, and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
   },
   {
     "genericName": "tirzepatide (for weight loss)",
