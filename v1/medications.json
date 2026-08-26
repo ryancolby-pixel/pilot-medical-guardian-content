@@ -59,16 +59,15 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name alendronate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bisphosphonate (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "allopurinol",
@@ -289,16 +288,15 @@
       "Lipitor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"atorvastatin (Lipitor; Sortis [INTL])\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name atorvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "azithromycin",
@@ -839,16 +837,15 @@
       "WelChol"
     ],
     "category": "Bile acid sequestrant (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"colesevelam (Welchol)\" under Bile Acid Sequestrant. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-colesevelam",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name colesevelam in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Bile acid sequestrant (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "cyclobenzaprine",
@@ -909,16 +906,15 @@
       "Prolia"
     ],
     "category": "RANKL inhibitor (osteoporosis)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Osteoporosis Medication page lists \"denosumab (Prolia)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as a RANK ligand inhibitor carrying a 48-hour initial observation and a 4-hour post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-denosumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name denosumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: RANKL inhibitor (osteoporosis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "desvenlafaxine",
@@ -1224,17 +1220,16 @@
       "Aimovig"
     ],
     "category": "Anti-CGRP (migraine prevention)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"erenumab (Aimovig)\" as a \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" under \"CACI ACCEPTABLE\" migraine prevention, with a 7-day ground trial and no no-fly time. The page adds that prevention medication \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-erenumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name erenumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "escitalopram",
@@ -1277,16 +1272,15 @@
       "Nexium"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name esomeprazole individually, but it addresses the class. Its antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-esomeprazole",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name esomeprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "estradiol",
@@ -1295,16 +1289,15 @@
       "Climara"
     ],
     "category": "Estrogen (hormone replacement)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name estradiol individually, but it addresses the class. Its contraceptives and hormone replacement page states that \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\" and that \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-estradiol",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:32:07Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Contraceptives and Hormone Replacement Therapy",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/chrt"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name estradiol in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Estrogen (hormone replacement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "eszopiclone",
@@ -1330,16 +1323,15 @@
       "(combined oral contraceptive)"
     ],
     "category": "Oral contraceptive",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name ethinyl estradiol/norethindrone individually, but it addresses the class. Its contraceptives and hormone replacement page states that \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\" and that \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ethinyl-estradiol-norethindrone",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:32:07Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Contraceptives and Hormone Replacement Therapy",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/chrt"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name ethinyl estradiol/norethindrone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Oral contraceptive. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "evolocumab",
@@ -1347,16 +1339,15 @@
       "Repatha"
     ],
     "category": "PCSK9 inhibitor (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"evolocumab (Repatha)\" under Monoclonal Antibody - PCSK9 Inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-evolocumab",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name evolocumab in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PCSK9 inhibitor (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "ezetimibe",
@@ -1364,16 +1355,15 @@
       "Zetia"
     ],
     "category": "Cholesterol absorption inhibitor",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"ezetimibe\" under 2-Azetidinone. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name ezetimibe in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Cholesterol absorption inhibitor. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "famotidine",
@@ -1381,16 +1371,15 @@
       "Pepcid"
     ],
     "category": "H2 blocker (GERD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name famotidine individually, but it addresses the class. Its antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-famotidine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name famotidine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: H2 blocker (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "febuxostat",
@@ -1451,16 +1440,15 @@
       "Tricor"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"fenofibrate (Antara, Tricor, Triglide, Trilipix)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fenofibrate",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name fenofibrate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "fexofenadine",
@@ -1646,16 +1634,15 @@
       "Lopid"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"gemfibrozil (Lopid)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name gemfibrozil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Fibrate (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "glimepiride",
@@ -2146,16 +2133,15 @@
       "Claritin"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its allergy page lists \"loratadine (Claritin)\" among \"Most Second-Generation Histamine-H1 receptor antagonist\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-loratadine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:41:29Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name loratadine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Non-sedating antihistamine (allergy). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "lorazepam",
@@ -2217,16 +2203,15 @@
       "Mevacor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"lovastatin\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name lovastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "melatonin",
@@ -2234,16 +2219,15 @@
       "(supplement)"
     ],
     "category": "Sleep aid (supplement)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name melatonin individually, but its sleep aids page covers the class: \"All the currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times, even when the individual feels fully awake.\" It states that \"Occasional or limited use of sleep aids, such as for circadian rhythm disruption in commercial air operations, is allowable for pilots. Daily/nightly use of sleep aids is not allowed regardless of the underlying cause or reason.\" and that \"Medical conditions that chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used or not.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-melatonin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:32:07Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Sleep Aids",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name melatonin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Sleep aid (supplement). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "meloxicam",
@@ -2563,16 +2547,15 @@
       "Niaspan"
     ],
     "category": "Nicotinic acid (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"niacin (Niaspan)\" under Nicotinic acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name niacin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Nicotinic acid (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "nicotine",
@@ -2850,16 +2833,15 @@
       "Livalo"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA lists six statins by name under \"ACCEPTABLE Cholesterol Medications\" and pitavastatin is not among them. That page states \"All drug classes require the minimum standard 48-hour initial ground trial.\" Absence from the list is not a prohibition and not a permission: the FAA writes elsewhere that \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Ask your AME which applies.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pitavastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:32:07Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name pitavastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "pravastatin",
@@ -2867,16 +2849,15 @@
       "Pravachol"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"pravastatin (Pravachol)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name pravastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "prednisone",
@@ -2955,16 +2936,15 @@
       "Sudafed"
     ],
     "category": "Decongestant (allergy / cold)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its allergy page lists \"pseudoephedrine (Sudafed)\" among decongestants under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pseudoephedrine",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:41:29Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name pseudoephedrine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Decongestant (allergy / cold). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "quinapril",
@@ -3044,17 +3024,16 @@
       "Maxalt"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"rizatriptan (Maxalt)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rizatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name rizatriptan in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "rosuvastatin",
@@ -3062,16 +3041,15 @@
       "Crestor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"rosuvastatin (Crestor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name rosuvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "semaglutide",
@@ -3152,16 +3130,15 @@
       "Viagra"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times and lists Viagra (sildenafil) at 8 hours as the \"Required minimum waiting time after last dose before resuming pilot duties\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sildenafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name sildenafil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "simvastatin",
@@ -3169,16 +3146,15 @@
       "Zocor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Cholesterol Medications page lists \"simvastatin (Zocor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name simvastatin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Statin (cholesterol). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "sitagliptin",
@@ -3275,17 +3251,16 @@
       "Imitrex"
     ],
     "category": "Triptan (migraine)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its Migraine Medication page lists \"SUMAtriptan (Imitrex) [all formulations]\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", as a \"Serotonin 5HT1 receptor agonist\" [Triptan] with a 24-hour post-dose observation. The same page limits how it may be used: relief medication is \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\", and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sumatriptan",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:30:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name sumatriptan in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The migraine condition itself is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "tadalafil",
@@ -3293,16 +3268,15 @@
       "Cialis"
     ],
     "category": "PDE5 inhibitor (erectile dysfunction)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA names this medication. Its erectile dysfunction and BPH page gives PDE-5 inhibitor wait times: Cialis taken as needed is 24 hours, while for daily use it states \"Tadalafil 2.5 or 5 mg daily is allowed if no side effects after 7 days\". It also warns that \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" and that \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tadalafil",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name tadalafil in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: PDE5 inhibitor (erectile dysfunction). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "tamsulosin",
@@ -3310,17 +3284,16 @@
       "Flomax"
     ],
     "category": "Alpha blocker (BPH)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "The FAA does not name tamsulosin individually, but its erectile dysfunction and BPH page addresses alpha blockers directly: \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" The same page states \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\" On alpha blockers specifically the page says they \"are allowed for daily use if there no side effects\" and that \"No minimum wait time is required after use once the airman has successfully passed the 7-day ground trial period required for all hypertension medication.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tamsulosin",
       "contentVersion": "2026.0-sample",
-      "lastVerified": "2026-08-26T21:32:33Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-08-26T23:37:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
     "treatedConditionNote": "The FAA's interest is tolerance and the underlying condition.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name tamsulosin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The FAA's interest is tolerance and the underlying condition. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "conditional"
   },
   {
     "genericName": "telmisartan",
