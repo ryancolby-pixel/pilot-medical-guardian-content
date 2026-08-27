@@ -275,3 +275,68 @@ verification-age · source-links · verify_manifest all pass.
 For each, check whether the FAA's class document names the drug; if it does, our "not individually
 listed" is simply false and gets the verbatim. **Lower stakes, well-defined, and no clinician
 required for that one either.**
+
+---
+
+## ✅ CLUSTER 2 IS CLOSED — and the simulator caught what three gates could not
+
+Content `431e53a` + `c75d781`, ALL CI GREEN, verified on the live CDN and on a booted device.
+**35 findings, 27 records corrected, 8 absence claims left standing because they are true.**
+
+### The defect, seen on screen rather than inferred
+The app told a pilot **"Informational only - your AME determines acceptability"** for
+**atorvastatin** - the most commonly prescribed statin in the country - while the FAA's
+Cholesterol Medications page lists **"atorvastatin (Lipitor; Sortis [INTL])"** under
+**ACCEPTABLE**, with a 48-hour ground trial. That is `GOTCHAS_CONTENT §17` underselling, and
+our claim checks are structurally blind to it because they hunt overclaiming.
+
+### Three passes, each caught by a different check
+1. **20 false absence claims.** The FAA names every one of these drugs, generic AND brand, in
+   the class document for its condition. 11 cholesterol, 2 osteoporosis, 3 migraine, 2 allergy,
+   2 PDE-5.
+2. **7 hidden class-level rules.** PPIs and H-2 blockers *"may not be disqualifying, if free
+   from side effects"*; contraceptives and HRT *"are not disqualifying"*; the ED page addresses
+   alpha blockers directly (tamsulosin). ⚖️ **melatonin moved RESTRICTIVE**, picking up the
+   sleep-aid page's bar on daily/nightly use that the record was silent on. **pitavastatin**
+   gets the sharper absence: the FAA lists six statins and it is not among them.
+3. **11 inherited obligations**, flagged by obligation coverage after repointing. The two that
+   matter most: the allergy page's *"Airmen who are exhibiting symptoms, regardless of the
+   treatment used, must not fly."* and the ED page's rule that non-G-U use means **defer**.
+
+### 🚨 THE SIMULATOR FOUND A FOURTH THING, AND ONLY LOOKING COULD
+The rewritten text opened *"The FAA names this medication. Its Cholesterol Medications page
+lists "atorvast..."* - and the medication list row is `Label` + `.font(.caption)` +
+`.lineLimit(2)`, about **78 characters**. **The entire clip said nothing operative.** Three
+gates passed it. Front-loaded across all 20 so the status and its condition both land:
+`ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial.` The triptans now
+surface **"NOT for daily use"** and the allergy entries **"do not fly while symptomatic"**,
+which are the facts a pilot most needs at a glance. → `GOTCHAS_CONTENT §11`, again.
+
+### 🚨 CONTENT DELIVERY IS THROTTLED TO ONCE PER HOUR
+`PilotMedicalGuardianApp.swift:283` calls `referenceLoader.refresh(minInterval: 3600)` on
+foreground. Measured: the app's own cache at
+`Library/Caches/ReferenceContent/manifest.json` held the PREVIOUS `generatedAt` and would not
+move across repeated cold launches and background/foreground cycles, because it was inside its
+hour. **Clearing that directory forced a fetch and it pulled the current content immediately.**
+⇒ **The CDN is a live fix channel, but the realistic latency to a RUNNING app is up to an
+hour, not seconds.** Do not promise faster in an incident. ⚖️ **The lesson is older than the
+finding: I theorised about `onChange(of: scenePhase)` for several cycles before reading the
+app's cache, which answered it in one command.**
+
+### 🖥️ THE BRANCH DIVERGENCE, NOW VISIBLE IN A BINARY
+`strings` on the installed build's `.debug.dylib` returns
+**`https://ryancolby-pixel.github.io/pilot-medical-guardian-content/v1/`** - the app on the
+simulator fetches from the github.io host, not the branded domain, because it was built from
+`main`, which never received the `cdnBaseURL` fix that shipped from `build-32`. It works today
+only because GitHub redirects. **This is the abstract "10 missing fixes" showing up as a real
+setting in a real binary.** → `NOW.md` #4
+
+### ✅ Free-tier walk (`compedPro = 0`, then restored to `1` as found)
+My Records, Medications, Add Medication, the FAA cross-reference typeahead and linking, and the
+permanent-delete confirmation all work with **no paywall**. The medication surfaces are not
+gated. *(GOTCHAS_VERIFY §19 satisfied: the branch was read off the device and stated.)*
+
+### 🛑 What remains of the whole audit
+**Nothing in the two named clusters.** The 8 untouched records make absence claims that are
+true: acetaminophen, ibuprofen, melatonin's siblings, aspirin low-dose, ciprofloxacin,
+doxycycline, dutasteride, finasteride. The FAA publishes no class document that names them.
