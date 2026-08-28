@@ -139,6 +139,11 @@ Current shot → feature mapping:
 - `si.png` → Special Issuance checklist
 - `health.png` → Health metric vs FAA threshold (Blood Pressure)
 - `documents.png` → **Share with my AME** (the record-picker sheet). 🚫 NOT the My Documents list, despite the filename
+- `faa-reference.png` → **FAA Reference search** (2.2). Reached from the magnifying glass in the Health or My Medical
+  nav bar; it opens as a SHEET, so the shot has a `Done` button and no tab bar. Capture the RESULTS state, not the
+  starter-chip empty state: the point of the feature is the citation and the `Last verified` date under each hit.
+  Query used: *"How long is a first class medical"*, which is one of the app's own starter chips and the same
+  query the ASC lead screenshot uses on both platforms
 - `medxpress-autofill-before.png` / `medxpress-autofill-after.png` → Safari extension autofilling MedXPress Item 17 (live form)
 - `medxpress-visit-before.png` / `medxpress-visit-after.png` → Safari extension autofilling MedXPress Item 19 (live form)
 
