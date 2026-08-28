@@ -137,3 +137,93 @@ Current shot → feature mapping:
 
 If a feature in a shot is removed from the app, remove that shot **and** its
 `<figure>` block from `index.html`. If a shot's screen is redesigned, recapture it.
+
+---
+
+## 🆕 2026-08-28 — SCRIPTED CAPTURE, plus the iPad and Mac rows this file was missing
+
+> Everything above still works and is still correct for the four iPhone website shots.
+> This section adds the **launch arguments** that remove the manual taps, and the two
+> platforms this file had no rows for.
+
+### The launch arguments (DEBUG only, never in a release build)
+
+| argument | what it does |
+|---|---|
+| `-PMGSeedDemoData` | Inserts the fictional Alex Rivers set before the first frame. Exactly what About -> Developer, Screenshots -> "Load demo data" does. The button stays; this is its scriptable twin. |
+| `-PMGScreenshotStore` | **macOS ONLY, and mandatory there.** Opens an isolated store in a temp directory with **CloudKit off** instead of the pilot's real one. |
+
+🚨 **`-PMGSeedDemoData` IS INSERT-ONLY.** Run it twice and the shot shows **4 medications,
+4 visits and the SI condition listed twice**. That happened on the first Mac attempt here.
+⇒ **Erase first, seed once, then relaunch WITHOUT the argument** for any follow-up shots.
+
+### 📱 iPhone / iPad — iOS Simulator
+
+```bash
+xcrun simctl erase <UDID>                 # guarantees no stale data AND no iCloud account
+xcrun simctl boot  <UDID>
+xcrun simctl ui    <UDID> appearance light
+xcrun simctl install <UDID> "<path>/PilotMedicalGuardian.app"
+# skip the two first-run gates without touching the UI:
+xcrun simctl spawn <UDID> defaults write com.ryancolby.PilotMedicalGuardian hasCompletedOnboarding -bool YES
+xcrun simctl spawn <UDID> defaults write com.ryancolby.PilotMedicalGuardian acceptedTermsVersion -string "<TermsAcceptance.currentVersion>"
+xcrun simctl spawn <UDID> defaults write com.ryancolby.PilotMedicalGuardian appLockSuggestionDismissed -bool YES
+xcrun simctl launch <UDID> com.ryancolby.PilotMedicalGuardian -PMGSeedDemoData
+xcrun simctl io <UDID> screenshot out.png
+```
+
+⚖️ **`appLockSuggestionDismissed` matters for the look, not the data.** Without it the
+"Lock your records" first-run promo sits mid-screen with an Enable / Not now prompt and the
+shot reads like an interruption.
+
+| device | native capture | ASC portrait sizes |
+|---|---|---|
+| iPad Pro 13-inch | **2064 x 2752** | 2064 x 2752 or 2048 x 2732 |
+| iPhone 16 Pro | 1206 x 2622 | per the current ASC table |
+
+✅ **The iPad Pro 13-inch capture is ALREADY an ASC-legal size**, so no crop and no scale.
+
+### 🖥️ macOS — and the hazard that makes it different
+
+🚨🚨 **THE MAC HAS NO SIMULATOR TO ERASE. The store is the pilot's REAL one, in the App
+Group, mirrored to his iCloud.** Seeding demo data into it files a fictional pilot ALONGSIDE
+real medical records, and CloudKit propagates that to his iPhone and iPad. Cleaning it up
+then means deleting from a live synced store, which is the most dangerous operation in this
+app. **This is not hypothetical: every Mac screenshot taken before 2026-08-28 showed Ryan's
+real medical record.**
+
+⇒ **ALWAYS pass `-PMGScreenshotStore`.** `cloudKitDatabase: .none` is the load-bearing half,
+not the temp path: a temp URL alone would still mirror.
+
+▶️ **VERIFY IT ENGAGED, and do not trust `print` to tell you.** stdout from a GUI app reaches
+nothing here - a redirect gave 0 bytes, and so did a pty. **Read it off the live process:**
+
+```bash
+"<...>/Pilot Medical Guardian.app/Contents/MacOS/Pilot Medical Guardian" -PMGScreenshotStore -PMGSeedDemoData &
+lsof -p $(pgrep -f "Pilot Medical Guardian.app/Contents/MacOS" | head -1) | grep '\.store'
+# MUST show ONLY .../Data/tmp/PMGScreenshotStore/screenshots.store
+```
+
+**Capture the WINDOW, never the screen** (the screen holds whatever else is open). Get the
+window id from CoreGraphics with a small `swift` script - `CGWindowListCopyWindowInfo`;
+pyobjc is not installed on this Mac - then:
+
+```bash
+screencapture -o -x -l<windowID> raw.png     # -o drops the shadow
+sips --resampleHeight 1620 raw.png --out s.png
+sips --padToHeightWidth 1800 2880 --padColor F2F4F7 s.png --out mac-home-2880x1800.png
+```
+
+⚖️ **Why compose rather than capture at size:** the window came out **2382 x 1788**, which is
+not an ASC size. It *fits* inside 2880 x 1800, but with **6px** top and bottom, which reads as
+clipped. Scaling to 1620 tall first gives balanced margins.
+
+**ASC macOS sizes:** 1280 x 800 · 1440 x 900 · 2560 x 1600 · 2880 x 1800.
+
+### 🧹 Clean up after a Mac session
+
+1. Quit the app, and **prove it** (`pgrep`, not the exit code of `kill`).
+2. `rm -rf ~/Library/Containers/com.ryancolby.PilotMedicalGuardian/Data/tmp/PMGScreenshotStore`
+3. 🚨 **Building `PMGMac` registers its Safari extension system-wide** and can break the one
+   Ryan uses. Remove **only** the registrations your build created, attributing by
+   **Timestamp**, and leave his alone. Full procedure: `GOTCHAS_MACOS.md §24`.
