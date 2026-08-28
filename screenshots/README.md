@@ -64,6 +64,13 @@ detail → ⌘S.
 different dates (e.g. 118/78, 121/80, 119/79). Tap Blood Pressure to expand its
 chart (orange dashed 155 mmHg line + citation appear) → ⌘S.
 
+> 🚨 **CORRECTED 2026-08-28: `documents.png` HAS BEEN THE SHARE SHEET, NOT THE MY DOCUMENTS
+> LIST, SINCE AT LEAST JULY.** The recipe below describes a screen the file has not shown in
+> a long time. **The live shot is: My Medical -> Share with my AME.** See the entry-point
+> warning in the 2026-08-28 section at the bottom of this file, which is the part that
+> actually matters. The paragraph below is kept only for the privacy rules in it, which
+> still apply to any document capture.
+
 **`documents.png`** (the My Documents shot — leans on the docs + Share-with-AME
 workflow) — My Records → **My Documents**. Tap **+** and add 3 sample documents so
 the list + the blue **"Share with my AME"** button + a **"General · 3"** section all
@@ -131,7 +138,7 @@ Current shot → feature mapping:
 - `medxpress.png` → MedXPress Prep (Items 17/19, in-app)
 - `si.png` → Special Issuance checklist
 - `health.png` → Health metric vs FAA threshold (Blood Pressure)
-- `documents.png` → My Documents library + Share-with-AME (Build 20)
+- `documents.png` → **Share with my AME** (the record-picker sheet). 🚫 NOT the My Documents list, despite the filename
 - `medxpress-autofill-before.png` / `medxpress-autofill-after.png` → Safari extension autofilling MedXPress Item 17 (live form)
 - `medxpress-visit-before.png` / `medxpress-visit-after.png` → Safari extension autofilling MedXPress Item 19 (live form)
 
@@ -248,5 +255,56 @@ name, a value. Generic alt ("the time until the certificate expires") survives a
 hard-coded date does not. **Of 13 alt strings across the site, exactly one named a date, and that
 was the one that broke.**
 
-📌 **It will break again on the next refresh**, because the fix kept the date rather than removing
-it. Making that alt generic is a content change and therefore Ryan's call, not a silent edit.
+✅ **RESOLVED the same day** (`765ff3b`, Ryan's call): the alt no longer names a date, and a
+sweep of the whole site took date-naming alt strings from 1 to 0. Re-measured 2026-08-28 after
+the next refresh: still 0. The generic form survives a recapture; that is the whole point.
+
+---
+
+## 🚨 2026-08-28 (later) — THE ENTRY POINT DECIDES WHAT THE SCREEN SHOWS
+
+The morning refresh captured `documents.png` through the **share button inside the Hypertension
+SI detail**. That is a real screen, and it looked fine in isolation. It was also the wrong one:
+three of the four record toggles were off, under a caption reading *"Bundle it into one PDF for
+your AME."*
+
+**It is not a default and it is not a bug.** `RecordsShareView` takes a `scopedSIProfile`, and
+when it is non-nil it deliberately clears the certificate, medications and visits, because a
+scoped share is about one condition:
+
+```swift
+if let scoped = scopedSIProfile {
+    selectedSIIDs = [scoped.id]
+    includeCert = false; includeMeds = false; includeVisits = false
+} else {
+    includeCert = currentCert != nil          // whole-record default: everything on
+    includeMeds = !meds.isEmpty
+    includeVisits = !visits.isEmpty
+}
+```
+
+⇒ **Capture this screen from My Medical -> Share with my AME**, never from an SI detail.
+
+**Three signals all said the same thing and none of them was a mechanical check:**
+the July shot it replaced had all four on, the iPad shot uploaded to ASC the same morning had
+all four on, and only this one did not. **A screenshot that disagrees with its own siblings is
+the finding.** Sizes, dimensions, encoding and live byte-for-byte checks all passed.
+
+📌 **The general rule, which is not specific to this screen:** when a view takes a parameter that
+changes what it renders, the capture recipe has to name **which entry point**, not just which
+screen. `si.png` and `documents.png` are the same `RecordsShareView` reached two ways.
+
+⚖️ Also worth knowing: this screen is **Guardian Pro**, so it needs `compedPro` set. The gallery
+does not label it as Pro, which matches what the shot it replaced did.
+
+### 🖥️ And the Mac rule that came out of the same pass
+
+**Do not publish a Mac screenshot you cannot prove is demo data.** The staged
+`mac-medxpress.png` from 8/25 showed Atorvastatin 20 mg, Dr. Sarah Chen and Dr. Marcus Webb in
+Reno NV. **None of that is in `DemoDataSeeder`**, which is Alex Rivers with Lisinopril, Vitamin
+D3 and Dr. Smith, and the 8/28 handoff records that every Mac shot taken before that date showed
+Ryan's real medical record. It was replaced rather than published.
+
+⇒ **The check is one grep**: take a distinctive string from the shot and look for it in
+`DemoDataSeeder.swift`. If it is not there, the shot is not demo data, whatever the commit
+message says. On macOS the safe capture always runs with `-PMGScreenshotStore`.
