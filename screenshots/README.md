@@ -227,3 +227,26 @@ clipped. Scaling to 1620 tall first gives balanced margins.
 3. 🚨 **Building `PMGMac` registers its Safari extension system-wide** and can break the one
    Ryan uses. Remove **only** the registrations your build created, attributing by
    **Timestamp**, and leave his alone. Full procedure: `GOTCHAS_MACOS.md §24`.
+
+---
+
+### 🚨 WHEN YOU REPLACE A SCREENSHOT, RE-READ ITS ALT TEXT (added 2026-08-28)
+
+**Caught on the live site, after the refresh had already deployed.** Every image was swapped
+correctly and verified byte-for-byte, and `faa-medical-duration.html` still described the new
+picture as expiring **November 16, 2026** while the picture said **January 5, 2027**.
+
+⚖️ **The mechanical checks could not see it.** File sizes matched, dimensions matched, all seven
+assets returned 200 with the right byte counts, and every image rendered. **Nothing compares a
+claim against the picture it describes** - the same blind spot as `GOTCHAS_CONTENT §17`.
+
+⚠️ **It was the worst possible one to miss:** alt text feeds search, and that page carries the
+largest share of this site's impressions.
+
+⇒ **After swapping any screenshot, grep its alt text for anything SPECIFIC** - a date, a count, a
+name, a value. Generic alt ("the time until the certificate expires") survives a refresh; a
+hard-coded date does not. **Of 13 alt strings across the site, exactly one named a date, and that
+was the one that broke.**
+
+📌 **It will break again on the next refresh**, because the fix kept the date rather than removing
+it. Making that alt generic is a content change and therefore Ryan's call, not a silent edit.
