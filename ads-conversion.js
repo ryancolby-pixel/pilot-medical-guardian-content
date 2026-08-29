@@ -24,6 +24,57 @@
   // How long to wait for Google before giving up and navigating anyway.
   var MAX_WAIT_MS = 900;
 
+  /* ------------------------------------------------------------------ *
+   * Tell App Store Connect that this visitor came from a Google ad.
+   *
+   * Every App Store link on the site carries a per-page ct token, like
+   * ct=web-home or ct=seo-duration, which is how ASC Campaigns groups
+   * downloads. A visitor arriving from a Google ad lands on one of those
+   * same pages, so without this their download is filed under the page
+   * token and is indistinguishable from organic website traffic.
+   *
+   * Google appends gclid to an ad click (gbraid/wbraid on some iOS
+   * traffic). If one is present, or was present earlier this session,
+   * rewrite the ct on outbound App Store links so ASC files the download
+   * separately. pt is never touched: without it ASC collects nothing.
+   * ------------------------------------------------------------------ */
+  var AD_CT = 'google-ads';
+  var AD_FLAG = 'pmg_from_google_ad';
+
+  function cameFromGoogleAd() {
+    try {
+      var q = window.location.search;
+      if (/[?&](gclid|gbraid|wbraid)=/.test(q)) {
+        try { sessionStorage.setItem(AD_FLAG, '1'); } catch (e) {}
+        return true;
+      }
+      return sessionStorage.getItem(AD_FLAG) === '1';
+    } catch (e) {
+      // Private mode can throw on sessionStorage. Fall back to this page only.
+      return /[?&](gclid|gbraid|wbraid)=/.test(window.location.search);
+    }
+  }
+
+  function retagAppStoreLinks() {
+    if (!cameFromGoogleAd()) return;
+    var links = document.querySelectorAll('a[href*="apps.apple.com"]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      try {
+        var u = new URL(a.href);
+        if (!u.searchParams.get('ct')) continue;   // no token to replace, leave it alone
+        u.searchParams.set('ct', AD_CT);
+        a.href = u.toString();
+      } catch (e) { /* leave the link exactly as authored */ }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', retagAppStoreLinks);
+  } else {
+    retagAppStoreLinks();
+  }
+
   function appStoreLink(node) {
     var a = node && node.closest ? node.closest('a') : null;
     if (!a || !a.href) return null;
