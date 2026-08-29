@@ -19,7 +19,7 @@
 (function () {
   'use strict';
 
-  var SEND_TO = '';
+  var SEND_TO = 'AW-18408761824/jdRECKrRhuocEODT_clE';
 
   // How long to wait for Google before giving up and navigating anyway.
   var MAX_WAIT_MS = 900;
