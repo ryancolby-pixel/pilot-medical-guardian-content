@@ -19,3 +19,30 @@ have left **6px** top and bottom and read as clipped.
 ⚠️ **These are iPhone-shaped decisions away from the website set.** The site's gallery is
 1206 x 2620 iPhone shots and these cannot substitute for them - different device, different aspect
 ratio, and `index.html` hard-codes the iPhone dimensions.
+
+---
+
+## `mac-v2/` — restyled 2026-08-31
+
+**Why:** the original `mac-home.png` treatment (window scaled to 1620 tall, centred on `#F2F4F7`)
+was a fix for an illegal ASC image size, not a design. Next to competitors in Mac App Store search
+results it read as unfinished. **Apple renders the first screenshot inline in search results, so
+that image is the ad unit, not detail-page decoration.**
+
+**Treatment:** deep navy gradient (`#061225` to `#0E2C52`) + radial brand glow + soft vignette;
+window at 1732 x 1300 centred, two-layer realistic drop shadow, hairline edge highlight; SF Pro
+eyebrow (letterspaced, `#7EADEB`) over a single-line SF Pro Semibold headline in white.
+
+**Rebuild:** `python3 screenshots/asc/build-mac-v2.py` (Pillow + numpy, sources from `mac-raw/`).
+Headlines live in the `SHOTS` list. The script asserts the headline cannot collide with the window,
+and auto-shrinks type to keep every headline on one line so the set reads as a strip.
+
+**Order is deliberate:** MedXPress leads, not Home. The desktop version's whole argument is that
+MedXPress is a desktop form and the autofill now lives where the form does.
+
+⚠️ **Copy constraints these headlines respect:** descriptive only, never a fitness or pass/fail
+verdict; no em dashes; "pilots" not "airline pilots"; and **nothing promising which documents a
+given diagnosis needs** (that claim was retracted from the CACI screen on 8/12 and must not
+reappear in marketing).
+
+🚫 The originals in `mac/` and `mac-raw/` are untouched.
