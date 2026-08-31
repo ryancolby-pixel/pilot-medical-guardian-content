@@ -66,3 +66,29 @@ short headline cannot make its device render larger than the rest. That defect s
 pass: `07-documents` came out 1056x2296 while the other six were 1017x2210.
 
 **Rebuild:** `python3 screenshots/asc/build-mobile-v2.py`. Same copy constraints as `mac-v2`.
+
+## 2026-08-31 (second pass) — sizes corrected, dead space measured, stale files guarded
+
+🚨 **THE FIRST iPhone SET WAS THE WRONG SIZE.** Built at `1290 x 2796` (iPhone **6.9"**), but the
+listing's slot is iPhone **6.5"**, which ASC states must be `1242x2688 / 2688x1242 / 1284x2778 /
+2778x1284`. ⇒ **`iphone-v2/` is now `1284 x 2778`**, and **`iphone-69-v2/` keeps `1290 x 2796`** for
+the 6.9" slot. **Check which slot ASC is showing before uploading; the error names the sizes.**
+
+📏 **Dead space was MEASURED, not eyeballed.** A first metric counted near-white pixels and was
+useless, because a text screen on a white background scores 90%. The working metric is **ink extent**:
+the fraction of the frame beyond the last row/column containing local contrast.
+- **Trailing right band: 3-10% everywhere. There is no right-side dead space.**
+- **Bottom band: `ipad/04-health.png` is 49% empty. Everything else is 5-8%** (normal chrome).
+⇒ **`04-health` DROPPED** (its `05-health-bp` sibling shows the same screen populated at 5.8%).
+⇒ Fixed safe bottom crops applied: **Mac 6%** (min measured 6.2%), **iPad 5%** (min measured 5.2%).
+✅ Verified the Mac crop does **not** cut the "information and record-keeping tool, not medical
+advice" line off Home, which sits above the last ink row.
+
+📐 Devices enlarged in frame: Mac window **1732x1300 -> 2019x1424** (side margin 574 -> 430),
+iPad **1614x2152 -> 1771x2243**.
+
+🚨 **BOTH SCRIPTS NOW WIPE THEIR OUTPUT DIRECTORY FIRST.** Reordering the set (MedXPress moved to
+lead) renamed files, and the old names survived: `mac-v2` held **9** files for a 7-shot set, `ipad-v2`
+held **10**, each with a duplicate `01-home`/`02-medxpress-prep` pair from the pre-reorder run **and a
+dropped shot still sitting there**. A directory listing looked fine at a glance and would have
+uploaded a duplicated set. **A rename is a delete plus a create, and only the create had been running.**

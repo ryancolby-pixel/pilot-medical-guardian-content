@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-import numpy as np, os
+import numpy as np, os, shutil
 
 SRC = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/mac-raw")
 OUT = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/mac-v2")
@@ -91,13 +91,18 @@ SHOTS = [
     ("06-certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
 ]
 
-WIN_H = 1300
-TOP_Y = 366
+WIN_H = 1424
+TOP_Y = 318
+BOTTOM_CROP = 0.06  # every Mac shot measured >=6.2% empty below its last ink
 
+# wipe first: a reorder leaves stale files behind that would ship
+if os.path.isdir(OUT):
+    shutil.rmtree(OUT)
 os.makedirs(OUT, exist_ok=True)
 
 for idx, (fname, eyebrow, headline) in enumerate(SHOTS, start=1):
     src = Image.open(os.path.join(SRC, fname)).convert("RGBA")
+    src = src.crop((0, 0, src.width, int(src.height * (1 - BOTTOM_CROP))))
     scale = WIN_H / src.height
     win_w = int(round(src.width * scale))
     win = src.resize((win_w, WIN_H), Image.LANCZOS)
@@ -133,16 +138,16 @@ for idx, (fname, eyebrow, headline) in enumerate(SHOTS, start=1):
     ef = sf(38, "Bold", optical=40)
     tr = 7.5
     ew = tracked(d, 0, 0, eyebrow, ef, None, tr, measure_only=True)
-    tracked(d, (W - ew) / 2, 148, eyebrow, ef, (126, 173, 235, 255), tr)
+    tracked(d, (W - ew) / 2, 108, eyebrow, ef, (126, 173, 235, 255), tr)
 
-    size = 100
+    size = 92
     hf = sf(size, "Semibold", optical=96)
     while d.textlength(headline, font=hf) > 2240 and size > 60:
         size -= 2
         hf = sf(size, "Semibold", optical=96)
     lw = d.textlength(headline, font=hf)
-    d.text(((W - lw) / 2, 206), headline, font=hf, fill=(255, 255, 255, 255))
-    assert 206 + size * 1.25 < TOP_Y, "headline would collide with the window"
+    d.text(((W - lw) / 2, 168), headline, font=hf, fill=(255, 255, 255, 255))
+    assert 168 + size * 1.25 < TOP_Y, "headline would collide with the window"
 
     out = canvas.convert("RGB")
     name = "%02d-%s" % (idx, fname.split("-", 1)[1])

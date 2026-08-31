@@ -1,5 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-import numpy as np, os
+import numpy as np, os, shutil
 
 BASE = os.path.expanduser("~/pilot-medical-guardian-content/screenshots")
 SF = "/System/Library/Fonts/SFNS.ttf"
@@ -94,8 +94,10 @@ def measure_lines(canvas_w, headline, head_size, side_pad):
 
 def build(canvas_w, canvas_h, src_path, eyebrow, headline, out_path,
           corner, eyebrow_size, head_size, top_pad, side_pad, bottom_pad, track,
-          fixed_lines=None):
+          fixed_lines=None, bottom_crop=0.0):
     src = Image.open(src_path).convert("RGB")
+    if bottom_crop:
+        src = src.crop((0, 0, src.width, int(src.height * (1 - bottom_crop))))
     shot = round_corners(src, corner)
 
     # measure the headline block first so the device can sit under it
@@ -166,7 +168,6 @@ IPAD = [
     ("08-share-with-ame.png", "SHARE WITH YOUR AME","Send your AME a clean packet"),
     ("02-faa-reference.png",  "FAA REFERENCE",      "The FAA's own words, with the source"),
     ("07-my-medical.png",     "MY MEDICAL",         "Class 1, 2, 3 and BasicMed together"),
-    ("04-health.png",         "HEALTH",             "Readings and labs in one timeline"),
 ]
 
 IPHONE = [
@@ -181,13 +182,18 @@ IPHONE = [
 
 jobs = [
     ("ipad-v2",  2064, 2752, os.path.join(BASE, "asc", "ipad"), IPAD,
-     92, 44, 96, 150, 130, 150, 8.0),
-    ("iphone-v2", 1290, 2796, BASE, IPHONE,
-     116, 32, 74, 130, 96, 120, 6.0),
+     92, 42, 90, 116, 84, 104, 8.0),
+    ("iphone-v2", 1284, 2778, BASE, IPHONE,
+     116, 30, 70, 104, 64, 92, 6.0),
+    ("iphone-69-v2", 1290, 2796, BASE, IPHONE,
+     116, 30, 70, 106, 64, 94, 6.0),
 ]
 
 for outdir, cw, ch, srcdir, shots, corner, eb, hs, tp, sp, bp, tk in jobs:
     out = os.path.join(BASE, "asc", outdir)
+    # wipe first: a reorder leaves stale files behind that would ship
+    if os.path.isdir(out):
+        shutil.rmtree(out)
     os.makedirs(out, exist_ok=True)
     maxlines = max(measure_lines(cw, h, hs, sp) for _, _, h in shots)
     print("\n== %s  (%dx%d)  headline lines reserved: %d ==" % (outdir, cw, ch, maxlines))
@@ -196,6 +202,6 @@ for outdir, cw, ch, srcdir, shots, corner, eb, hs, tp, sp, bp, tk in jobs:
         name = "%02d-%s" % (i, stem)
         dw, dh, nl = build(cw, ch, os.path.join(srcdir, fn), eyebrow, headline,
                            os.path.join(out, name), corner, eb, hs, tp, sp, bp, tk,
-                           fixed_lines=maxlines)
+                           fixed_lines=maxlines, bottom_crop=(0.05 if "ipad" in outdir else 0.0))
         print("  %-30s device %dx%d  headline lines=%d" % (name, dw, dh, nl))
 print("\ndone")
