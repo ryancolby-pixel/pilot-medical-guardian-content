@@ -46,3 +46,23 @@ given diagnosis needs** (that claim was retracted from the CACI screen on 8/12 a
 reappear in marketing).
 
 🚫 The originals in `mac/` and `mac-raw/` are untouched.
+
+## `ipad-v2/` (8) and `iphone-v2/` (7) — 2026-08-31
+
+Same design system as `mac-v2`, so all three platforms match: navy gradient, radial glow, vignette,
+two-layer shadow, hairline edge, SF Pro eyebrow over a Semibold headline.
+
+| set | canvas | sources |
+|---|---|---|
+| `ipad-v2/` | 2064 x 2752 | `asc/ipad/` (already an ASC-legal size) |
+| `iphone-v2/` | **1290 x 2796** | `../*.png`, the 1206 x 2620 website set |
+
+⚠️ **The iPhone website captures are 1206 x 2620, which is NOT an ASC-legal size.** They are composed
+onto a 1290 x 2796 canvas rather than uploaded directly.
+⚠️ **Screen captures have square corners; real devices do not.** Both mobile sets get their corners
+rounded before compositing (iPad 92px, iPhone 116px) or the shot reads as a flat rectangle.
+🚨 **Device geometry is locked per set to the worst-case headline height** (`fixed_lines`), so one
+short headline cannot make its device render larger than the rest. That defect shipped in the first
+pass: `07-documents` came out 1056x2296 while the other six were 1017x2210.
+
+**Rebuild:** `python3 screenshots/asc/build-mobile-v2.py`. Same copy constraints as `mac-v2`.
