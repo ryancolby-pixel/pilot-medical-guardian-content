@@ -205,3 +205,27 @@ footer a:hover { text-decoration: underline; }
   a, .shots img { transition: none; }
   .links a.primary:hover, .shots img:hover { transform: none; }
 }
+
+/* ── Pitch strip ─────────────────────────────────────────────────────────────
+   A compact value line + download button, sitting directly under the page hero
+   on the guide pages. Added 2026-09-01 (Ryan): the download button lived only
+   in the nav, which COLLAPSES INTO THE HAMBURGER on mobile, and the real pitch
+   sat at the very bottom after every table and worked example.
+
+   🚫 KEEP IT TO ONE LINE. These pages rank because they answer the question
+   immediately; faa-medical-duration.html alone carries ~45% of the site's search
+   footprint. Growing this into a block pushes the answer down, raises bounce,
+   and costs the ranking that brings the reader in the first place. */
+.pitch-strip { background: var(--accent-tint); border-top: 1px solid var(--accent-edge); border-bottom: 1px solid var(--accent-edge); }
+.pitch-strip .wrap { display: flex; align-items: center; gap: var(--s4); padding-top: var(--s3); padding-bottom: var(--s3); }
+.pitch-strip p { margin: 0; font-size: 0.97rem; line-height: 1.5; color: var(--text); }
+.pitch-strip a.cta {
+  flex: 0 0 auto; white-space: nowrap; text-decoration: none;
+  background: var(--brand-grad); color: #fff; font-weight: 600; font-size: 0.92rem;
+  padding: 10px 16px; border-radius: var(--radius-chip); box-shadow: var(--shadow-cta);
+}
+.pitch-strip a.cta:hover { filter: brightness(1.05); color: #fff; }
+@media (max-width: 640px) {
+  .pitch-strip .wrap { flex-direction: column; align-items: flex-start; gap: var(--s2); }
+  .pitch-strip a.cta { width: 100%; text-align: center; }
+}
