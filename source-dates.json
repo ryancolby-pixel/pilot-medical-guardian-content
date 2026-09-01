@@ -1,8 +1,8 @@
 {
  "_comment": "What the FAA itself says it last changed each page we cite. Compared weekly by scripts/check-source-freshness.py. NOT shipped content: this lives outside v1/, so it never enters the manifest or reaches a device.",
- "updated": "2026-08-07T16:13:49Z",
- "watchedPages": 32,
- "undatedPages": 40,
+ "updated": "2026-09-01T11:17:21Z",
+ "watchedPages": 65,
+ "undatedPages": 71,
  "sources": {
   "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113": {
    "faaLastUpdated": null,
@@ -72,7 +72,7 @@
    }
   },
   "https://www.faa.gov/ame_guide": {
-   "faaLastUpdated": "2026-07-29",
+   "faaLastUpdated": "2026-08-26",
    "entryCount": 1,
    "citedBy": {
     "si_conditions.json": [
@@ -81,52 +81,20 @@
    }
   },
   "https://www.faa.gov/ame_guide/": {
-   "faaLastUpdated": "2026-07-29",
-   "entryCount": 40,
+   "faaLastUpdated": "2026-08-26",
+   "entryCount": 10,
    "citedBy": {
     "medications.json": [
      "med-amiodarone",
      "med-apixaban",
-     "med-bupropion",
-     "med-citalopram",
-     "med-clonidine",
      "med-clopidogrel",
      "med-dabigatran",
-     "med-desvenlafaxine",
      "med-digoxin",
-     "med-duloxetine",
      "med-edoxaban",
-     "med-escitalopram",
      "med-flecainide",
-     "med-fluoxetine",
-     "med-insulin",
-     "med-paroxetine",
      "med-rivaroxaban",
-     "med-sertraline",
      "med-sotalol",
-     "med-venlafaxine",
      "med-warfarin"
-    ],
-    "si_requirements.json": [
-     "si-adhd-med-free",
-     "si-adhd-neuropsych",
-     "si-adhd-specialist-eval",
-     "si-dm-insulin-a1c",
-     "si-dm-insulin-glucose-data",
-     "si-dm-insulin-no-hypoglycemia",
-     "si-dm-insulin-specialist-eval",
-     "si-hims-aftercare",
-     "si-hims-ame-annual",
-     "si-hims-monitoring",
-     "si-hims-psych-quarterly",
-     "si-hims-specialist-eval",
-     "si-hims-sponsor-monthly",
-     "si-hims-stability",
-     "si-hims-testing",
-     "si-ssri-monthly-checkin",
-     "si-ssri-physician-letter",
-     "si-ssri-specialist-eval",
-     "si-ssri-stability-period"
     ]
    }
   },
@@ -139,36 +107,231 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/app_process/app_history/item18/": {
-   "faaLastUpdated": "2014-06-20",
-   "entryCount": 25,
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/a": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
    "citedBy": {
     "item18.json": [
-     "item18-admin-action",
-     "item18-alcohol",
-     "item18-allergy",
-     "item18-asthma",
-     "item18-bp",
-     "item18-diabetes",
-     "item18-disability-benefits",
-     "item18-dizziness",
-     "item18-gi",
-     "item18-headaches",
-     "item18-heart",
-     "item18-hospital",
-     "item18-insurance-rejection",
-     "item18-kidney",
-     "item18-mental",
-     "item18-military-discharge",
-     "item18-military-rejection",
-     "item18-motion-sickness",
-     "item18-neuro",
-     "item18-nontraffic-conviction",
-     "item18-other",
-     "item18-substance",
-     "item18-suicide",
-     "item18-unconscious",
+     "item18-headaches"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/b": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-dizziness"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/c": {
+   "faaLastUpdated": "2013-08-20",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-unconscious"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/d": {
+   "faaLastUpdated": "2016-12-27",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
      "item18-vision"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/e": {
+   "faaLastUpdated": "2011-05-12",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-allergy"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/f": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-asthma"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/g": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-heart"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/h": {
+   "faaLastUpdated": "2021-11-09",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-bp"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/i": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 2,
+   "citedBy": {
+    "item18.json": [
+     "item18-gi"
+    ],
+    "si_requirements.json": [
+     "si-bariatric-stability"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/j": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-kidney"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/k": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-diabetes"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/l": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-neuro"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/m": {
+   "faaLastUpdated": "2024-04-24",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-mental"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/n": {
+   "faaLastUpdated": "2023-03-10",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-substance"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/o": {
+   "faaLastUpdated": "2023-03-10",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-alcohol"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/p": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-suicide"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/q": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-motion-sickness"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/r": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-military-discharge"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/s": {
+   "faaLastUpdated": "2012-09-28",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-military-rejection"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/t": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-insurance-rejection"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/u": {
+   "faaLastUpdated": "2010-12-06",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-hospital"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/v": {
+   "faaLastUpdated": "2023-03-10",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-admin-action"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/w": {
+   "faaLastUpdated": "2021-11-04",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-nontraffic-conviction"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/x": {
+   "faaLastUpdated": "2010-12-06",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-other"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/app_history/item18/y": {
+   "faaLastUpdated": "2013-08-20",
+   "entryCount": 1,
+   "citedBy": {
+    "item18.json": [
+     "item18-disability-benefits"
     ]
    }
   },
@@ -247,24 +410,30 @@
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma": {
    "faaLastUpdated": "2021-01-07",
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "si_conditions.json": [
      "si-cancer-melanoma"
+    ],
+    "si_requirements.json": [
+     "si-cancer-melanoma-specialist-eval"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic": {
    "faaLastUpdated": "2023-05-31",
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "si_conditions.json": [
      "si-cancer-prostate"
+    ],
+    "si_requirements.json": [
+     "si-cancer-prostate-specialist-eval"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd": {
-   "faaLastUpdated": "2026-01-28",
+   "faaLastUpdated": "2026-08-26",
    "entryCount": 1,
    "citedBy": {
     "si_conditions.json": [
@@ -274,31 +443,40 @@
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants": {
    "faaLastUpdated": "2025-12-03",
-   "entryCount": 1,
+   "entryCount": 10,
    "citedBy": {
+    "medications.json": [
+     "med-bupropion-sr-er",
+     "med-citalopram",
+     "med-desvenlafaxine",
+     "med-duloxetine",
+     "med-escitalopram",
+     "med-fluoxetine",
+     "med-sertraline",
+     "med-venlafaxine"
+    ],
     "si_conditions.json": [
      "si-ssri"
+    ],
+    "si_requirements.json": [
+     "si-ssri-stability-period"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes": {
    "faaLastUpdated": "2023-09-27",
-   "entryCount": 14,
+   "entryCount": 10,
    "citedBy": {
     "medications.json": [
      "med-canagliflozin",
      "med-dapagliflozin",
-     "med-dulaglutide",
      "med-empagliflozin",
      "med-glimepiride",
      "med-glipizide",
      "med-glyburide",
      "med-linagliptin",
-     "med-liraglutide",
-     "med-metformin",
      "med-pioglitazone",
-     "med-sitagliptin",
-     "med-tirzepatide"
+     "med-sitagliptin"
     ],
     "si_conditions.json": [
      "si-dm2"
@@ -307,14 +485,25 @@
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd": {
    "faaLastUpdated": "2023-03-23",
-   "entryCount": 3,
+   "entryCount": 5,
    "citedBy": {
     "si_conditions.json": [
      "si-htn"
     ],
     "thresholds.json": [
      "thr-bp-class12",
-     "thr-bp-class3"
+     "thr-bp-class12-diastolic",
+     "thr-bp-class3",
+     "thr-bp-class3-diastolic"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/app_process/general/si": {
+   "faaLastUpdated": "2024-08-28",
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-bariatric-physician-letter"
     ]
    }
   },
@@ -327,12 +516,24 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med": {
+   "faaLastUpdated": "2026-01-28",
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-dm2-a1c-report"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm": {
    "faaLastUpdated": "2023-08-30",
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "si_conditions.json": [
      "si-dm-insulin"
+    ],
+    "si_requirements.json": [
+     "si-dm-insulin-no-hypoglycemia"
     ]
    }
   },
@@ -347,10 +548,23 @@
   },
   "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker": {
    "faaLastUpdated": "2024-05-29",
-   "entryCount": 1,
+   "entryCount": 3,
    "citedBy": {
     "si_conditions.json": [
      "si-pacemaker"
+    ],
+    "si_requirements.json": [
+     "si-pacemaker-specialist-eval",
+     "si-pacemaker-stability"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/dec_cons/disease_prot/saspec": {
+   "faaLastUpdated": "2024-12-12",
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-hims-specialist-eval"
     ]
    }
   },
@@ -369,6 +583,27 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/AASI_Asthma.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-asthma-med-list",
+     "si-asthma-pft",
+     "si-asthma-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 2,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-stroke-med-list",
+     "si-stroke-specialist-eval"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf": {
    "faaLastUpdated": null,
    "entryCount": 2,
@@ -376,6 +611,63 @@
     "si_requirements.json": [
      "si-osa-compliance-report",
      "si-osa-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/ADHD_disposition_table.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-adhd-med-free"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/ADHD_document_checklist.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-adhd-specialist-eval"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-adhd-neuropsych"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 6,
+   "citedBy": {
+    "medications.json": [
+     "med-cetirizine",
+     "med-chlorpheniramine",
+     "med-diphenhydramine",
+     "med-fexofenadine",
+     "med-loratadine",
+     "med-pseudoephedrine"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 8,
+   "citedBy": {
+    "medications.json": [
+     "med-bupropion",
+     "med-bupropion-ir",
+     "med-esketamine",
+     "med-fluvoxamine",
+     "med-levomilnacipran",
+     "med-paroxetine",
+     "med-vilazodone",
+     "med-vortioxetine"
     ]
    }
   },
@@ -466,6 +758,15 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/CACI-Pre-Diabetes_Worksheet.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "caci_worksheets.json": [
+     "caci-prediabetes"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
@@ -520,12 +821,70 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "caci_worksheets.json": [
+     "caci-weight-loss-management"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-cabg-med-list",
+     "si-cad-pci-med-list",
+     "si-cardiac-med-list"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/CLL_SLL_dispo_table.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
     "caci_worksheets.json": [
      "caci-chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-copd-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-valve-stability"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 12,
+   "citedBy": {
+    "medications.json": [
+     "med-atorvastatin",
+     "med-colesevelam",
+     "med-evolocumab",
+     "med-ezetimibe",
+     "med-fenofibrate",
+     "med-gemfibrozil",
+     "med-lovastatin",
+     "med-niacin",
+     "med-pitavastatin",
+     "med-pravastatin",
+     "med-rosuvastatin",
+     "med-simvastatin"
     ]
    }
   },
@@ -538,12 +897,123 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/media/Head-Injury.pdf": {
+  "https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
+    "si_requirements.json": [
+     "si-bariatric-labs"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 5,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-cabg-specialist-eval",
+     "si-cabg-stability",
+     "si-cad-pci-specialist-eval",
+     "si-cad-pci-stability",
+     "si-cardiac-cardiology-eval"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 23,
+   "citedBy": {
+    "medications.json": [
+     "med-alprazolam",
+     "med-amitriptyline",
+     "med-atomoxetine",
+     "med-baclofen",
+     "med-clonazepam",
+     "med-cyclobenzaprine",
+     "med-diazepam",
+     "med-gabapentin",
+     "med-hydrocodone-acetaminophen",
+     "med-hydrocortisone",
+     "med-lamotrigine",
+     "med-levetiracetam",
+     "med-lisdexamfetamine",
+     "med-lorazepam",
+     "med-methocarbamol",
+     "med-mirtazapine",
+     "med-modafinil",
+     "med-oxycodone",
+     "med-pregabalin",
+     "med-tizanidine",
+     "med-topiramate",
+     "med-tramadol",
+     "med-trazodone"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 6,
+   "citedBy": {
+    "medications.json": [
+     "med-dulaglutide",
+     "med-insulin",
+     "med-liraglutide-dm",
+     "med-metformin-dm",
+     "med-semaglutide-dm",
+     "med-tirzepatide-dm"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Drug_Alcohol_Monitoring_Recertification_Aid.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-hims-testing"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/HIMSPilotStepDownPlan.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-hims-stability"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-ssri-monthly-checkin"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 5,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-hims-aftercare",
+     "si-hims-ame-annual",
+     "si-hims-monitoring",
+     "si-hims-psych-quarterly",
+     "si-hims-sponsor-monthly"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Head-Injury.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
     "si_conditions.json": [
      "si-tbi"
+    ],
+    "si_requirements.json": [
+     "si-tbi-specialist-eval",
+     "si-tbi-stability"
     ]
    }
   },
@@ -572,6 +1042,25 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 2,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-dm-insulin-glucose-data",
+     "si-dm-insulin-specialist-eval"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-dm-insulin-a1c"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
@@ -590,6 +1079,17 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "medications.json": [
+     "med-erenumab",
+     "med-rizatriptan",
+     "med-sumatriptan"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
@@ -599,7 +1099,26 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf": {
+  "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-tbi-neuropsych"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 2,
+   "citedBy": {
+    "medications.json": [
+     "med-alendronate",
+     "med-denosumab"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/PCOS_dispo_Table.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
@@ -608,12 +1127,12 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf": {
+  "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
-    "caci_worksheets.json": [
-     "caci-prediabetes"
+    "si_requirements.json": [
+     "si-pacemaker-device-check"
     ]
    }
   },
@@ -635,21 +1154,50 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf": {
+  "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
+    "si_requirements.json": [
+     "si-ssri-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 4,
+   "citedBy": {
     "si_conditions.json": [
      "si-seizure"
+    ],
+    "si_requirements.json": [
+     "si-seizure-eeg",
+     "si-seizure-specialist-eval",
+     "si-seizure-stability"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "medications.json": [
+     "med-nicotine",
+     "med-varenicline",
+     "med-zyban"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 1,
+   "entryCount": 3,
    "citedBy": {
     "si_conditions.json": [
      "si-stroke"
+    ],
+    "si_requirements.json": [
+     "si-stroke-imaging",
+     "si-stroke-stability"
     ]
    }
   },
@@ -671,28 +1219,61 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf": {
+  "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 18,
+   "citedBy": {
+    "medications.json": [
+     "med-benzphetamine",
+     "med-contrave",
+     "med-diethylpropion",
+     "med-fenfluramine",
+     "med-liraglutide",
+     "med-liraglutide-wl",
+     "med-lorcaserin",
+     "med-metformin",
+     "med-metformin-wl",
+     "med-orlistat",
+     "med-phendimetrazine",
+     "med-phentermine",
+     "med-plenity",
+     "med-qsymia",
+     "med-semaglutide",
+     "med-semaglutide-wl",
+     "med-tirzepatide",
+     "med-tirzepatide-wl"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
-    "caci_worksheets.json": [
-     "caci-weight-loss-management"
+    "si_requirements.json": [
+     "si-dm2-med-list"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-ssri-specialist-eval"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/pharm/": {
    "faaLastUpdated": "2026-04-29",
-   "entryCount": 73,
+   "entryCount": 41,
    "citedBy": {
     "medications.json": [
      "med-acetaminophen",
      "med-acyclovir",
-     "med-alendronate",
      "med-allopurinol",
      "med-amoxicillin",
      "med-amoxicillin-clavulanate",
      "med-aspirin-low-dose",
-     "med-atorvastatin",
      "med-azithromycin",
      "med-buspirone",
      "med-celecoxib",
@@ -701,150 +1282,104 @@
      "med-clarithromycin",
      "med-clindamycin",
      "med-colchicine",
-     "med-colesevelam",
-     "med-denosumab",
      "med-diclofenac",
+     "med-dofetilide",
      "med-doxycycline",
      "med-dutasteride",
-     "med-erenumab",
-     "med-esomeprazole",
-     "med-estradiol",
-     "med-ethinyl-estradiol-norethindrone",
-     "med-evolocumab",
-     "med-ezetimibe",
-     "med-famotidine",
      "med-febuxostat",
-     "med-fenofibrate",
-     "med-fexofenadine",
      "med-finasteride",
      "med-fluconazole",
-     "med-gemfibrozil",
-     "med-hydrocortisone",
      "med-ibuprofen",
      "med-lansoprazole",
      "med-levofloxacin",
      "med-loperamide",
-     "med-loratadine",
-     "med-lovastatin",
-     "med-melatonin",
      "med-meloxicam",
      "med-mesalamine",
      "med-methimazole",
      "med-metronidazole",
      "med-mometasone-nasal",
      "med-naproxen",
-     "med-niacin",
-     "med-nicotine",
      "med-nitrofurantoin",
      "med-omeprazole",
      "med-oseltamivir",
      "med-pantoprazole",
-     "med-pitavastatin",
-     "med-pravastatin",
-     "med-prednisone",
      "med-propylthiouracil",
-     "med-pseudoephedrine",
-     "med-rizatriptan",
-     "med-rosuvastatin",
-     "med-semaglutide",
-     "med-sildenafil",
-     "med-simvastatin",
      "med-sulfamethoxazole-trimethoprim",
      "med-sulfasalazine",
-     "med-sumatriptan",
-     "med-tadalafil",
-     "med-tamsulosin",
      "med-terbinafine",
      "med-testosterone",
-     "med-valacyclovir",
-     "med-varenicline"
+     "med-valacyclovir"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/pharm/antacids": {
+   "faaLastUpdated": "2016-12-27",
+   "entryCount": 2,
+   "citedBy": {
+    "medications.json": [
+     "med-esomeprazole",
+     "med-famotidine"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/pharm/antihyp": {
+   "faaLastUpdated": "2025-03-11",
+   "entryCount": 1,
+   "citedBy": {
+    "medications.json": [
+     "med-clonidine"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/pharm/chrt": {
+   "faaLastUpdated": "2025-01-22",
+   "entryCount": 2,
+   "citedBy": {
+    "medications.json": [
+     "med-estradiol",
+     "med-ethinyl-estradiol-norethindrone"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/pharm/dni_dnf/": {
    "faaLastUpdated": "2023-07-10",
-   "entryCount": 33,
+   "entryCount": 6,
    "citedBy": {
     "medications.json": [
-     "med-alprazolam",
-     "med-amitriptyline",
      "med-amphetamine-dextroamphetamine",
-     "med-atomoxetine",
-     "med-baclofen",
-     "med-cetirizine",
-     "med-chlorpheniramine",
-     "med-clonazepam",
-     "med-cyclobenzaprine",
-     "med-diazepam",
      "med-dicyclomine",
-     "med-diphenhydramine",
-     "med-dofetilide",
-     "med-eszopiclone",
-     "med-gabapentin",
-     "med-hydrocodone-acetaminophen",
-     "med-lamotrigine",
-     "med-levetiracetam",
      "med-levocetirizine",
-     "med-lisdexamfetamine",
-     "med-lorazepam",
-     "med-methocarbamol",
      "med-methylphenidate",
-     "med-mirtazapine",
-     "med-modafinil",
      "med-ondansetron",
-     "med-oxycodone",
-     "med-pregabalin",
-     "med-tizanidine",
-     "med-topiramate",
-     "med-tramadol",
-     "med-trazodone",
-     "med-zolpidem"
+     "med-prednisone"
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/special_iss/all_classes": {
-   "faaLastUpdated": "2026-05-27",
-   "entryCount": 38,
+  "https://www.faa.gov/ame_guide/pharm/ed": {
+   "faaLastUpdated": "2017-08-25",
+   "entryCount": 3,
    "citedBy": {
-    "si_requirements.json": [
-     "si-bariatric-labs",
-     "si-bariatric-physician-letter",
-     "si-bariatric-stability",
-     "si-cabg-functional-test",
-     "si-cabg-med-list",
-     "si-cabg-specialist-eval",
-     "si-cabg-stability",
-     "si-cad-pci-functional-test",
-     "si-cad-pci-med-list",
-     "si-cad-pci-specialist-eval",
-     "si-cad-pci-stability",
-     "si-cancer-melanoma-followup",
-     "si-cancer-melanoma-specialist-eval",
-     "si-cancer-melanoma-staging",
-     "si-cancer-prostate-followup",
-     "si-cancer-prostate-labs",
-     "si-cancer-prostate-specialist-eval",
-     "si-cardiac-cardiology-eval",
-     "si-cardiac-followup",
-     "si-cardiac-functional-test",
-     "si-cardiac-med-list",
-     "si-pacemaker-device-check",
-     "si-pacemaker-specialist-eval",
-     "si-pacemaker-stability",
-     "si-seizure-eeg",
-     "si-seizure-specialist-eval",
-     "si-seizure-stability",
-     "si-stroke-imaging",
-     "si-stroke-med-list",
-     "si-stroke-specialist-eval",
-     "si-stroke-stability",
-     "si-tbi-neuropsych",
-     "si-tbi-specialist-eval",
-     "si-tbi-stability",
-     "si-valve-functional-test",
-     "si-valve-med-list",
-     "si-valve-specialist-eval",
-     "si-valve-stability"
+    "medications.json": [
+     "med-sildenafil",
+     "med-tadalafil",
+     "med-tamsulosin"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/pharm/sleepaids": {
+   "faaLastUpdated": "2025-05-07",
+   "entryCount": 9,
+   "citedBy": {
+    "medications.json": [
+     "med-eszopiclone",
+     "med-melatonin",
+     "med-ramelteon",
+     "med-temazepam",
+     "med-zaleplon",
+     "med-zolpidem",
+     "med-zolpidem-ambien",
+     "med-zolpidem-edluar",
+     "med-zolpimist"
     ]
    }
   },
@@ -863,35 +1398,21 @@
     ]
    }
   },
-  "https://www.faa.gov/ame_guide/special_iss/all_classes/asthma": {
-   "faaLastUpdated": "2023-03-10",
-   "entryCount": 3,
-   "citedBy": {
-    "si_requirements.json": [
-     "si-asthma-med-list",
-     "si-asthma-pft",
-     "si-asthma-physician-letter"
-    ]
-   }
-  },
   "https://www.faa.gov/ame_guide/special_iss/all_classes/copd": {
    "faaLastUpdated": "2023-11-29",
-   "entryCount": 3,
+   "entryCount": 2,
    "citedBy": {
     "si_requirements.json": [
      "si-copd-med-list",
-     "si-copd-pft",
-     "si-copd-physician-letter"
+     "si-copd-pft"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes": {
    "faaLastUpdated": "2026-01-28",
-   "entryCount": 3,
+   "entryCount": 1,
    "citedBy": {
     "si_requirements.json": [
-     "si-dm2-a1c-report",
-     "si-dm2-med-list",
      "si-dm2-physician-letter"
     ]
    }
@@ -932,6 +1453,16 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/special_iss/all_classes/melanoma": {
+   "faaLastUpdated": "2023-03-09",
+   "entryCount": 2,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-cancer-melanoma-followup",
+     "si-cancer-melanoma-staging"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine": {
    "faaLastUpdated": "2023-03-09",
    "entryCount": 2,
@@ -939,6 +1470,16 @@
     "si_requirements.json": [
      "si-migraine-med-list",
      "si-migraine-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer": {
+   "faaLastUpdated": "2023-03-09",
+   "entryCount": 2,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-cancer-prostate-followup",
+     "si-cancer-prostate-labs"
     ]
    }
   },
@@ -957,18 +1498,35 @@
   },
   "https://www.faa.gov/ame_guide/special_iss/third_class/chd": {
    "faaLastUpdated": "2024-05-29",
-   "entryCount": 3,
+   "entryCount": 7,
    "citedBy": {
     "si_conditions.json": [
      "si-cabg",
      "si-cad-pci",
      "si-cardiac"
+    ],
+    "si_requirements.json": [
+     "si-cabg-functional-test",
+     "si-cad-pci-functional-test",
+     "si-cardiac-followup",
+     "si-cardiac-functional-test"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep": {
+   "faaLastUpdated": "2024-03-27",
+   "entryCount": 3,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-valve-functional-test",
+     "si-valve-med-list",
+     "si-valve-specialist-eval"
     ]
    }
   },
   "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 250,
+   "entryCount": 246,
    "citedBy": {
     "ame_directory.json": [
      "ame-hims-001",
@@ -1075,7 +1633,6 @@
      "ame-hims-102",
      "ame-hims-103",
      "ame-hims-104",
-     "ame-hims-105",
      "ame-hims-106",
      "ame-hims-107",
      "ame-hims-108",
@@ -1172,7 +1729,6 @@
      "ame-hims-199",
      "ame-hims-200",
      "ame-hims-201",
-     "ame-hims-202",
      "ame-hims-203",
      "ame-hims-204",
      "ame-hims-205",
@@ -1188,7 +1744,6 @@
      "ame-hims-215",
      "ame-hims-216",
      "ame-hims-217",
-     "ame-hims-218",
      "ame-hims-219",
      "ame-hims-220",
      "ame-hims-221",
@@ -1200,7 +1755,6 @@
      "ame-hims-227",
      "ame-hims-228",
      "ame-hims-229",
-     "ame-hims-230",
      "ame-hims-231",
      "ame-hims-232",
      "ame-hims-233",
@@ -1221,6 +1775,16 @@
      "ame-hims-248",
      "ame-hims-249",
      "ame-hims-250"
+    ]
+   }
+  },
+  "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 2,
+   "citedBy": {
+    "faa_submission_addresses.json": [
+     "faa-addr-amcd-courier",
+     "faa-addr-amcd-usps"
     ]
    }
   }
