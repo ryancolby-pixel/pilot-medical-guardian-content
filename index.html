@@ -99,7 +99,7 @@
         linear-gradient(180deg, var(--accent-tint), var(--accent-tint));
       /* border-bottom removed: the tint flows into the .hero-quotes shelf below */
     }
-    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: clamp(78px, 9vw, 108px); }
+    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: clamp(78px, 9vw, 108px); }
     /* Faint aircraft motif: GA single / narrowbody / business jet =
        the three worlds of pilots I serve (Class 3 / 1 / 2). Decorative.
        Silhouettes tinted to brand blue via CSS mask so they adapt to
@@ -129,32 +129,17 @@
     .hero2-sub { font-size: clamp(1.05rem, 2.4vw, 1.22rem); line-height: 1.5; color: var(--muted); margin: 16px 0 0; max-width: 46ch; text-wrap: pretty; }
     .hero2-sub strong { color: var(--text); font-weight: 600; }
     .hero2 .links.cta { margin-top: 24px; }
-    .hero2-media { justify-self: center; width: 100%; }
-    /* One hero device, two as proof. A ROW on a single baseline, no overlap:
-       overlap reads as a template. Mac 60 / iPad 19 / iPhone 19, gaps take the rest. */
-    /* min-width:0 on the grid children: an fr column has a min-content floor, and
-       the 1400px Mac would otherwise blow the column out and crush the text. */
-    .hero2 .container > * { min-width: 0; }
-    .device-row { display: flex; align-items: flex-end; justify-content: center; gap: clamp(10px, 2.4%, 18px); width: 100%; }
-    .device-row img { display: block; height: auto; min-width: 0; max-width: 100%; }
-    /* The Mac is a WINDOW capture with transparent rounded corners, so it gets a
-       drop-shadow filter (follows the alpha) and no border, which would box it. */
-    .dev-mac { flex: 0 1 60%; filter: drop-shadow(0 18px 34px rgba(16,22,34,0.22)) drop-shadow(0 4px 10px rgba(16,22,34,0.10)); }
-    /* The tablet and phone are square-cornered screen captures, so they get a real radius + hairline. */
-    .dev-ipad, .dev-iphone {
-      flex: 0 1 19%; border-radius: 9px; border: 1px solid var(--rule); background: var(--bg);
-      box-shadow: 0 12px 26px rgba(16,22,34,0.18), 0 3px 8px rgba(16,22,34,0.10);
+    .hero2-media { justify-self: center; }
+    .hero2-media img {
+      width: 260px; max-width: 100%; height: auto; display: block;
+      border-radius: 30px; border: 1px solid var(--rule);
+      box-shadow: 0 26px 60px rgba(16,22,34,0.22), 0 6px 16px rgba(16,22,34,0.10);
     }
     @media (max-width: 760px) {
       .hero2 .container { grid-template-columns: 1fr; gap: 28px; text-align: center; padding-top: 40px; padding-bottom: 52px; }
       .hero2-sub { margin-left: auto; margin-right: auto; }
       .hero2 .links.cta { justify-content: center; }
-      /* Phone visitors get the phone, full size. Three devices on a 390px
-         screen is three unreadable thumbnails. */
-      /* NOTE the descendant selector: `.device-row img` (0-1-1) outranks a bare
-         `.dev-mac` (0-1-0), so a plain class rule here silently loses to display:block. */
-      .device-row img.dev-mac, .device-row img.dev-ipad { display: none; }
-      .dev-iphone { flex: 0 0 210px; border-radius: 22px; }
+      .hero2-media img { width: 220px; }
       .hero2 .proof { text-align: center; }
     }
 
@@ -299,11 +284,7 @@
         <p class="proof">Pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
       </div>
       <div class="hero2-media">
-        <div class="device-row">
-          <img class="dev-mac" src="/screenshots/hero-mac.webp?v=20260902b" width="1400" height="1051" fetchpriority="high" decoding="async" alt="Pilot Medical Guardian on a Mac, showing the home screen with 130 days remaining on a Class 1 medical expiring January 5, 2027">
-          <img class="dev-ipad" src="/screenshots/hero-ipad.webp?v=20260902" width="760" height="1014" decoding="async" alt="Pilot Medical Guardian on an iPad, showing the home screen">
-          <img class="dev-iphone" src="/screenshots/hero-iphone.webp?v=20260902" width="620" height="1347" decoding="async" alt="Pilot Medical Guardian on an iPhone, showing the time until the medical certificate expires with BasicMed course and exam countdowns">
-        </div>
+        <img src="/screenshots/home.webp?v=20260828" width="1206" height="2620" fetchpriority="high" decoding="async" alt="Pilot Medical Guardian home screen showing the time until the medical certificate expires, with BasicMed course and exam countdowns">
       </div>
     </div>
   </section>

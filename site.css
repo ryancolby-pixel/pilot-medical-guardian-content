@@ -15,7 +15,7 @@
   --accent: #1c66d9;            /* Brand.primary */
   --accent-2: #2e9ecc;          /* gradient end (medical teal) */
   --brand-grad: linear-gradient(135deg, #1c66d9 0%, #2e9ecc 100%);
-  --accent-tint: #d9e6f9;       /* highlight callout background. Darkened from #eef4fe 2026-09-02 (Ryan: "a little darker so its easier to read"). Body text 14.7:1, muted 5.3:1 — both above WCAG AA. */
+  --accent-tint: #eef4fe;       /* highlight callout background */
   --accent-edge: #cfe0fb;       /* highlight callout border */
   --radius-card: 16px;
   --radius-chip: 12px;
