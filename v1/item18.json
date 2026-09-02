@@ -4,7 +4,7 @@
     "itemLetter": "a",
     "envelope": {
       "code": "item18-headaches",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/a"
@@ -15,7 +15,7 @@
     "itemLetter": "b",
     "envelope": {
       "code": "item18-dizziness",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/b"
@@ -26,7 +26,7 @@
     "itemLetter": "c",
     "envelope": {
       "code": "item18-unconscious",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/c"
@@ -37,7 +37,7 @@
     "itemLetter": "d",
     "envelope": {
       "code": "item18-vision",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/d"
@@ -48,7 +48,7 @@
     "itemLetter": "e",
     "envelope": {
       "code": "item18-allergy",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/e"
@@ -59,7 +59,7 @@
     "itemLetter": "f",
     "envelope": {
       "code": "item18-asthma",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/f"
@@ -70,7 +70,7 @@
     "itemLetter": "g",
     "envelope": {
       "code": "item18-heart",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/g"
@@ -81,7 +81,7 @@
     "itemLetter": "h",
     "envelope": {
       "code": "item18-bp",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/h"
@@ -92,7 +92,7 @@
     "itemLetter": "i",
     "envelope": {
       "code": "item18-gi",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/i"
@@ -103,7 +103,7 @@
     "itemLetter": "j",
     "envelope": {
       "code": "item18-kidney",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/j"
@@ -114,7 +114,7 @@
     "itemLetter": "k",
     "envelope": {
       "code": "item18-diabetes",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/k"
@@ -125,7 +125,7 @@
     "itemLetter": "l",
     "envelope": {
       "code": "item18-neuro",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/l"
@@ -136,7 +136,7 @@
     "itemLetter": "m",
     "envelope": {
       "code": "item18-mental",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/m"
@@ -147,7 +147,7 @@
     "itemLetter": "n",
     "envelope": {
       "code": "item18-substance",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/n"
@@ -158,7 +158,7 @@
     "itemLetter": "o",
     "envelope": {
       "code": "item18-alcohol",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/o"
@@ -169,7 +169,7 @@
     "itemLetter": "p",
     "envelope": {
       "code": "item18-suicide",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/p"
@@ -180,7 +180,7 @@
     "itemLetter": "q",
     "envelope": {
       "code": "item18-motion-sickness",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/q"
@@ -191,7 +191,7 @@
     "itemLetter": "r",
     "envelope": {
       "code": "item18-military-discharge",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/r"
@@ -202,7 +202,7 @@
     "itemLetter": "s",
     "envelope": {
       "code": "item18-military-rejection",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/s"
@@ -213,7 +213,7 @@
     "itemLetter": "t",
     "envelope": {
       "code": "item18-insurance-rejection",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/t"
@@ -224,7 +224,7 @@
     "itemLetter": "u",
     "envelope": {
       "code": "item18-hospital",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/u"
@@ -235,7 +235,7 @@
     "itemLetter": "v",
     "envelope": {
       "code": "item18-admin-action",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/v"
@@ -246,7 +246,7 @@
     "itemLetter": "w",
     "envelope": {
       "code": "item18-nontraffic-conviction",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/w"
@@ -257,7 +257,7 @@
     "itemLetter": "x",
     "envelope": {
       "code": "item18-other",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/x"
@@ -268,7 +268,7 @@
     "itemLetter": "y",
     "envelope": {
       "code": "item18-disability-benefits",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Application Process, Item 18 (Medical History)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/y"

@@ -2,7 +2,7 @@
   {
     "envelope": {
       "code": "thr-bp-class12",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
@@ -18,7 +18,7 @@
   {
     "envelope": {
       "code": "thr-bp-class3",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
@@ -33,7 +33,7 @@
   {
     "envelope": {
       "code": "thr-weight-bmi",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -46,7 +46,7 @@
   {
     "envelope": {
       "code": "thr-resting-heart-rate",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -59,7 +59,7 @@
   {
     "envelope": {
       "code": "thr-hrv",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -72,7 +72,7 @@
   {
     "envelope": {
       "code": "thr-sleep",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -85,7 +85,7 @@
   {
     "envelope": {
       "code": "thr-blood-oxygen",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -98,7 +98,7 @@
   {
     "envelope": {
       "code": "thr-ecg",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -111,7 +111,7 @@
   {
     "envelope": {
       "code": "thr-vo2max",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T13:25:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
@@ -124,7 +124,7 @@
   {
     "envelope": {
       "code": "thr-bp-class12-diastolic",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
@@ -140,7 +140,7 @@
   {
     "envelope": {
       "code": "thr-bp-class3-diastolic",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 55 Blood Pressure",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"

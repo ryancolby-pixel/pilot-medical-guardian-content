@@ -4,7 +4,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-htn-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension"
@@ -16,7 +16,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-htn-bp-log",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension"
@@ -28,7 +28,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-htn-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension"
@@ -40,7 +40,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-osa-compliance-report",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Sleep Apnea (OSA)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf"
@@ -52,7 +52,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-osa-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, OSA Treated Status Report, and AASI Sleep Apnea (OSA)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf"
@@ -64,7 +64,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm2-a1c-report",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Diabetes Mellitus Treated with Any Medication Other Than Insulin",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med"
@@ -76,7 +76,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-dm2-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Diabetes",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes"
@@ -88,7 +88,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-dm2-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T22:09:45Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
@@ -100,7 +100,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-ssri-stability-period",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47, Use of Antidepressant Medications (Antidepressant Protocol)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
@@ -112,7 +112,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-ssri-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Certification Aid, SSRI Recertification/Follow Up Clearance",
       "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf"
@@ -124,7 +124,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-ssri-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications; SSRI Recertification - Neuropsychological Report Changes and FAQs",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf"
@@ -136,7 +136,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cardiac-cardiology-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations - Disease Protocols: Coronary Heart Disease 1st and 2nd Class, and Coronary Heart Disease 3rd Class",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
@@ -148,7 +148,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cardiac-functional-test",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
@@ -160,7 +160,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cardiac-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf"
@@ -172,7 +172,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cardiac-followup",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD), and General Information on Authorizations for Special Issuance",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
@@ -184,7 +184,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cad-pci-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
@@ -196,7 +196,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cad-pci-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease (1st and 2nd Class and ATCS, and 3rd Class), and CHD/CAD Recertification Status Summary",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
@@ -208,7 +208,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cad-pci-functional-test",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD), and CHD/CAD Recertification Status Summary",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
@@ -220,7 +220,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cad-pci-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary, AASI for Coronary Heart Disease (CHD), and Protocol for Coronary Heart Disease",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf"
@@ -232,7 +232,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cabg-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS, and Protocol for Coronary Heart Disease (CHD) 3rd Class",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
@@ -244,7 +244,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cabg-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Coronary Heart Disease, 1st and 2nd Class and ATCS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
@@ -256,7 +256,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cabg-functional-test",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Coronary Heart Disease (CHD)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
@@ -268,7 +268,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cabg-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, CHD/CAD Recertification Status Summary",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf"
@@ -280,7 +280,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-afib-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
@@ -292,7 +292,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-afib-monitoring",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
@@ -304,7 +304,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-afib-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
@@ -316,7 +316,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-afib-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Atrial Fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
@@ -328,7 +328,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-pacemaker-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Initial Evaluation of Implanted Pacemaker, and Pacemaker disposition table (All Classes)",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
@@ -340,7 +340,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-pacemaker-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Initial Evaluation of Implanted Pacemaker",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
@@ -352,7 +352,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-pacemaker-device-check",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pacemaker Status Summary, and Pacemaker disposition table (All Classes)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf"
@@ -364,7 +364,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-valve-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Protocol for Cardiac Valve Replacement",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf"
@@ -376,7 +376,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-valve-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair, Protocol for Coronary Heart Disease (1st and 2nd Class and ATCS; 3rd Class), and Protocol for Cardiac Valve Replacement",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep"
@@ -388,7 +388,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-valve-functional-test",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair, and Protocol for Cardiac Valve Replacement",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep"
@@ -400,7 +400,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-valve-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Single Valve Replacement or Repair, Protocol for Cardiac Valve Replacement, and Protocol for Coronary Heart Disease (1st and 2nd Class and ATCS; 3rd Class)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep"
@@ -412,7 +412,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm-insulin-glucose-data",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Renewal Certificate Requirements",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf"
@@ -424,7 +424,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm-insulin-a1c",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Certification Aid",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf"
@@ -436,7 +436,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-dm-insulin-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Renewal Certificate Requirements",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf"
@@ -448,7 +448,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-dm-insulin-no-hypoglycemia",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Disease Protocols, Insulin Treated Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm"
@@ -460,7 +460,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-thyroid-labs",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism"
@@ -472,7 +472,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-thyroid-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism"
@@ -484,7 +484,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-thyroid-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypothyroidism and AASI Hyperthyroidism",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypothyroidism"
@@ -496,7 +496,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-stroke-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Stroke (CVA) or Transient Ischemic Attack (TIA) disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
@@ -508,7 +508,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-stroke-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Cerebrovascular Disease (CVA/Stroke/TIA), and Specifications for Neurologic Evaluation (03/27/2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf"
@@ -520,7 +520,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-stroke-imaging",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Stroke (CVA) or Transient Ischemic Attack (TIA) disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
@@ -532,7 +532,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-stroke-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neurologic Evaluation (03/27/2024), and AASI for Cerebrovascular Disease (CVA/Stroke/TIA)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf"
@@ -544,7 +544,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-seizure-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Seizure and Epilepsy disposition table, and General Information on Authorizations for Special Issuance",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
@@ -556,7 +556,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-seizure-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Specifications for Neurologic Evaluation, and Item 46. Neurologic, Seizure and Epilepsy disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
@@ -568,7 +568,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-seizure-eeg",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Seizure and Epilepsy disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
@@ -580,7 +580,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-tbi-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Head Injury or Brain Injury disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
@@ -592,7 +592,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-tbi-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46. Neurologic, Head Injury or Brain Injury disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
@@ -604,7 +604,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-tbi-neuropsych",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
       "sourceURL": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
@@ -616,7 +616,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-migraine-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine"
@@ -628,7 +628,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-migraine-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Migraine",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine"
@@ -640,7 +640,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-hims-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Psychiatric and Neuropsychological Evaluations for Substance Abuse/Dependence",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/saspec"
@@ -652,7 +652,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-monitoring",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
@@ -664,7 +664,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pilot Information, HIMS Step Down Plan",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMSPilotStepDownPlan.pdf"
@@ -676,7 +676,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-adhd-med-free",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ADHD Disposition Table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_disposition_table.pdf"
@@ -688,7 +688,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-adhd-neuropsych",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Standard Track FAA ADHD Evaluation, General Information for Pilots and ATCS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf"
@@ -700,7 +700,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-adhd-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA ADHD Document Checklist",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_document_checklist.pdf"
@@ -712,7 +712,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-asthma-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T22:27:10Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Asthma (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Asthma.pdf"
@@ -724,7 +724,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-asthma-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T22:31:37Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Asthma (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Asthma.pdf"
@@ -736,7 +736,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-asthma-pft",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T22:31:37Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Asthma (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Asthma.pdf"
@@ -748,7 +748,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-copd-pft",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd"
@@ -760,7 +760,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-copd-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, COPD Status Summary",
       "sourceURL": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf"
@@ -772,7 +772,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-copd-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI COPD",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/copd"
@@ -784,7 +784,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-pe-dvt-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
@@ -796,7 +796,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-pe-dvt-med-list",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
@@ -808,7 +808,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-pe-dvt-labs",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Venous Thromboembolism (VTE), DVT, PE and Hypercoagulopathies",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
@@ -820,7 +820,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-kidney-stones-imaging",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi"
@@ -832,7 +832,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-kidney-stones-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Renal Calculi",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi"
@@ -844,7 +844,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cancer-melanoma-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 40. Skin, Skin Cancer disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma"
@@ -856,7 +856,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cancer-melanoma-staging",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Melanoma",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/melanoma"
@@ -868,7 +868,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cancer-melanoma-followup",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Melanoma",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/melanoma"
@@ -880,7 +880,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cancer-prostate-specialist-eval",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T15:40:52Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 41. G-U System, Prostate Conditions disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic"
@@ -892,7 +892,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-cancer-prostate-labs",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Prostate Cancer",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer"
@@ -904,7 +904,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-cancer-prostate-followup",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI for Prostate Cancer",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer"
@@ -916,7 +916,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-bariatric-stability",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 18.i, Stomach, liver, or intestinal trouble",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/app_history/item18/i"
@@ -928,7 +928,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-bariatric-physician-letter",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, General Information, Authorization for Special Issuance and AASI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/general/si"
@@ -940,7 +940,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-bariatric-labs",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Condition Not Listed disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf"
@@ -952,7 +952,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-sponsor-monthly",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
@@ -964,7 +964,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-hims-testing",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Certification Aid, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Drug_Alcohol_Monitoring_Recertification_Aid.pdf"
@@ -976,7 +976,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-aftercare",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
@@ -988,7 +988,7 @@
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-hims-psych-quarterly",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
@@ -1000,7 +1000,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-hims-ame-annual",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
@@ -1012,7 +1012,7 @@
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-ssri-monthly-checkin",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, SSRI Recertification/Follow Up Clearance",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf"

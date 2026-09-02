@@ -6,7 +6,7 @@
     "displayName": "First-Class Electrocardiogram (EKG)",
     "envelope": {
       "code": "reg-67111-class1-ekg",
-      "contentVersion": "2026.0-sample",
+      "contentVersion": "2026.0",
       "lastVerified": "2026-08-20T14:00:00Z",
       "sourceCitation": "14 CFR 67.111",
       "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.111"
