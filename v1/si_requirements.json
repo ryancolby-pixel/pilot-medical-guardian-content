@@ -1025,7 +1025,7 @@
     "envelope": {
       "code": "si-aneurysm-which-path",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm (Not Ruptured) and Brain Bleed disposition tables",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
     },
@@ -1037,7 +1037,7 @@
     "envelope": {
       "code": "si-aneurysm-recovery",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Bleed disposition table, required recovery periods",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
     },
@@ -1049,7 +1049,7 @@
     "envelope": {
       "code": "si-aneurysm-neuro-eval",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables; FAA Specifications for Neurologic Evaluation",
       "sourceURL": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
     },
@@ -1061,7 +1061,7 @@
     "envelope": {
       "code": "si-aneurysm-imaging",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables, imaging requirements",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
     },
@@ -1073,7 +1073,7 @@
     "envelope": {
       "code": "si-aneurysm-hospital-records",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Bleed disposition table, hospital records",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
     },
@@ -1085,7 +1085,7 @@
     "envelope": {
       "code": "si-aneurysm-related-conditions",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-02T00:00:00Z",
+      "lastVerified": "2026-09-03T01:12:36Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables, cross-references",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
     },
