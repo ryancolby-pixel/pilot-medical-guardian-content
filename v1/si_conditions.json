@@ -1,88 +1,108 @@
 [
   {
     "envelope": {
-      "code": "si-htn",
+      "code": "si-adhd",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hypertension on medication",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — ADHD",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
     },
-    "displayName": "Hypertension on medication",
-    "summary": "Track your hypertension Special Issuance: your Authorization dates, the physician reporting you gather each cycle, and a link to the FAA's own page for this condition.",
+    "displayName": "ADHD",
+    "summary": "Track your ADHD Special Issuance: your Authorization dates, your specialist reporting and any testing you gather, and a link to the FAA's own page for this condition.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-htn-physician-letter",
-      "si-htn-bp-log",
-      "si-htn-med-list"
+      "si-adhd-med-free",
+      "si-adhd-neuropsych",
+      "si-adhd-specialist-eval"
     ]
   },
   {
     "envelope": {
-      "code": "si-osa",
+      "code": "si-asthma",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Obstructive Sleep Apnea on CPAP",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Asthma",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
-    "displayName": "Obstructive Sleep Apnea on CPAP",
-    "summary": "Track your sleep apnea Special Issuance: your Authorization dates, your PAP device reporting, and a link to the FAA's own page for this condition.",
+    "displayName": "Asthma",
+    "summary": "Track your asthma Special Issuance: your Authorization dates, the pulmonary reporting and medication records you keep, and a link to the FAA's own page for this condition.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-osa-compliance-report",
-      "si-osa-physician-letter"
+      "si-asthma-physician-letter",
+      "si-asthma-med-list",
+      "si-asthma-pft"
     ]
   },
   {
     "envelope": {
-      "code": "si-dm2",
+      "code": "si-afib",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Type 2 Diabetes on oral medication",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Atrial fibrillation",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
     },
-    "displayName": "Type 2 Diabetes on oral medication",
-    "summary": "Track your Type 2 diabetes Special Issuance: your Authorization dates, the lab work and physician reporting you collect each cycle, and a link to the FAA's own page.",
+    "displayName": "Atrial fibrillation",
+    "summary": "Track your atrial fibrillation Special Issuance: your Authorization dates, your cardiology reporting and any anticoagulation monitoring, and a link to the FAA's own page.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-dm2-a1c-report",
-      "si-dm2-physician-letter",
-      "si-dm2-med-list"
+      "si-afib-specialist-eval",
+      "si-afib-monitoring",
+      "si-afib-med-list",
+      "si-afib-physician-letter"
     ]
   },
   {
     "envelope": {
-      "code": "si-ssri",
+      "code": "si-bariatric",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Depression / anxiety on an approved SSRI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Bariatric surgery",
+      "sourceURL": "https://www.faa.gov/ame_guide"
     },
-    "displayName": "Depression / anxiety on an approved SSRI",
-    "summary": "Track your SSRI Special Issuance: your Authorization dates, the specialist reporting and follow-up schedule you keep, and a link to the FAA's own page for this condition.",
+    "displayName": "Bariatric surgery",
+    "summary": "Track your Special Issuance after bariatric surgery: your Authorization dates, the physician reporting and lab work you gather, and a link to the FAA's own page.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-ssri-stability-period",
-      "si-ssri-physician-letter",
-      "si-ssri-specialist-eval",
-      "si-ssri-monthly-checkin"
+      "si-bariatric-stability",
+      "si-bariatric-physician-letter",
+      "si-bariatric-labs"
     ]
   },
   {
     "envelope": {
-      "code": "si-cardiac",
+      "code": "si-aneurysm",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Post-cardiac event (e.g., MI, stent, bypass)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm (Intracranial aneurysm / Cerebral aneurysm) Not Ruptured",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
     },
-    "displayName": "Post-cardiac event (e.g., MI, stent, bypass)",
-    "summary": "Track your post-cardiac-event Special Issuance: your Authorization dates, the cardiology reporting and testing you gather, and a link to the FAA's own page for coronary heart disease.",
+    "displayName": "Brain Aneurysm",
+    "summary": "Track your Special Issuance for a brain aneurysm: your Authorization dates, the neurology reporting and imaging you gather each cycle, and links to the FAA's own pages for this condition.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-cardiac-cardiology-eval",
-      "si-cardiac-functional-test",
-      "si-cardiac-med-list",
-      "si-cardiac-followup"
+      "si-aneurysm-which-path",
+      "si-aneurysm-recovery",
+      "si-aneurysm-neuro-eval",
+      "si-aneurysm-imaging",
+      "si-aneurysm-hospital-records",
+      "si-aneurysm-related-conditions"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-copd",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — COPD",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd"
+    },
+    "displayName": "COPD",
+    "summary": "Track your COPD Special Issuance: your Authorization dates, the pulmonary function testing and physician reporting you gather, and a link to the FAA's own page.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-copd-pft",
+      "si-copd-physician-letter",
+      "si-copd-med-list"
     ]
   },
   {
@@ -123,37 +143,20 @@
   },
   {
     "envelope": {
-      "code": "si-afib",
+      "code": "si-ssri",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Atrial fibrillation",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Depression / anxiety on an approved SSRI",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     },
-    "displayName": "Atrial fibrillation",
-    "summary": "Track your atrial fibrillation Special Issuance: your Authorization dates, your cardiology reporting and any anticoagulation monitoring, and a link to the FAA's own page.",
+    "displayName": "Depression / anxiety on an approved SSRI",
+    "summary": "Track your SSRI Special Issuance: your Authorization dates, the specialist reporting and follow-up schedule you keep, and a link to the FAA's own page for this condition.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-afib-specialist-eval",
-      "si-afib-monitoring",
-      "si-afib-med-list",
-      "si-afib-physician-letter"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-pacemaker",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pacemaker",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
-    },
-    "displayName": "Pacemaker",
-    "summary": "Track your pacemaker Special Issuance: your Authorization dates, your device checks and cardiology reporting, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-pacemaker-stability",
-      "si-pacemaker-specialist-eval",
-      "si-pacemaker-device-check"
+      "si-ssri-stability-period",
+      "si-ssri-physician-letter",
+      "si-ssri-specialist-eval",
+      "si-ssri-monthly-checkin"
     ]
   },
   {
@@ -176,6 +179,23 @@
   },
   {
     "envelope": {
+      "code": "si-htn",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hypertension on medication",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
+    },
+    "displayName": "Hypertension on medication",
+    "summary": "Track your hypertension Special Issuance: your Authorization dates, the physician reporting you gather each cycle, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-htn-physician-letter",
+      "si-htn-bp-log",
+      "si-htn-med-list"
+    ]
+  },
+  {
+    "envelope": {
       "code": "si-dm-insulin",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
@@ -190,181 +210,6 @@
       "si-dm-insulin-a1c",
       "si-dm-insulin-specialist-eval",
       "si-dm-insulin-no-hypoglycemia"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-thyroid",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Thyroid disease",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
-    },
-    "displayName": "Thyroid disease",
-    "summary": "Track your thyroid Special Issuance: your Authorization dates, the lab work and physician reporting you collect, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-thyroid-labs",
-      "si-thyroid-med-list",
-      "si-thyroid-physician-letter"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-stroke",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Stroke or TIA",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
-    },
-    "displayName": "Stroke or TIA",
-    "summary": "Track your Special Issuance after a stroke or TIA: your Authorization dates, your neurology reporting and imaging, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-stroke-stability",
-      "si-stroke-specialist-eval",
-      "si-stroke-imaging",
-      "si-stroke-med-list"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-seizure",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Seizure disorder / epilepsy",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
-    },
-    "displayName": "Seizure disorder / epilepsy",
-    "summary": "Track your seizure disorder Special Issuance: your Authorization dates, your neurology reporting and any required seizure-free interval documentation, and a link to the FAA's page.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-seizure-stability",
-      "si-seizure-specialist-eval",
-      "si-seizure-eeg"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-tbi",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Traumatic brain injury",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
-    },
-    "displayName": "Traumatic brain injury",
-    "summary": "Track your Special Issuance after a traumatic brain injury: your Authorization dates, your neurology and neuropsychological reporting, and a link to the FAA's own page.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-tbi-stability",
-      "si-tbi-specialist-eval",
-      "si-tbi-neuropsych"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-migraine",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Migraine",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd"
-    },
-    "displayName": "Migraine",
-    "summary": "Track your migraine Special Issuance: your Authorization dates, the physician reporting and medication records you keep, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-migraine-physician-letter",
-      "si-migraine-med-list"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-hims",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Substance or alcohol dependence (HIMS)",
-      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep/amd"
-    },
-    "displayName": "Substance or alcohol dependence (HIMS)",
-    "summary": "Track your HIMS Special Issuance: your Authorization dates, and the sponsor, peer, psychiatric and AME reporting that runs on its own schedule. Links to the FAA's own page.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-hims-specialist-eval",
-      "si-hims-monitoring",
-      "si-hims-stability",
-      "si-hims-sponsor-monthly",
-      "si-hims-testing",
-      "si-hims-aftercare",
-      "si-hims-psych-quarterly",
-      "si-hims-ame-annual"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-adhd",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — ADHD",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
-    },
-    "displayName": "ADHD",
-    "summary": "Track your ADHD Special Issuance: your Authorization dates, your specialist reporting and any testing you gather, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-adhd-med-free",
-      "si-adhd-neuropsych",
-      "si-adhd-specialist-eval"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-asthma",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Asthma",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
-    },
-    "displayName": "Asthma",
-    "summary": "Track your asthma Special Issuance: your Authorization dates, the pulmonary reporting and medication records you keep, and a link to the FAA's own page for this condition.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-asthma-physician-letter",
-      "si-asthma-med-list",
-      "si-asthma-pft"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-copd",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — COPD",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd"
-    },
-    "displayName": "COPD",
-    "summary": "Track your COPD Special Issuance: your Authorization dates, the pulmonary function testing and physician reporting you gather, and a link to the FAA's own page.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-copd-pft",
-      "si-copd-physician-letter",
-      "si-copd-med-list"
-    ]
-  },
-  {
-    "envelope": {
-      "code": "si-pe-dvt",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary embolism / DVT (anticoagulation)",
-      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
-    },
-    "displayName": "Pulmonary embolism / DVT (anticoagulation)",
-    "summary": "Track your Special Issuance for a pulmonary embolism or DVT: your Authorization dates, your anticoagulation monitoring and physician reporting, and a link to the FAA's page.",
-    "pathGuidance": "",
-    "requirementCodes": [
-      "si-pe-dvt-physician-letter",
-      "si-pe-dvt-med-list",
-      "si-pe-dvt-labs"
     ]
   },
   {
@@ -402,6 +247,73 @@
   },
   {
     "envelope": {
+      "code": "si-migraine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Migraine",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd"
+    },
+    "displayName": "Migraine",
+    "summary": "Track your migraine Special Issuance: your Authorization dates, the physician reporting and medication records you keep, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-migraine-physician-letter",
+      "si-migraine-med-list"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-osa",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Obstructive Sleep Apnea on CPAP",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
+    },
+    "displayName": "Obstructive Sleep Apnea on CPAP",
+    "summary": "Track your sleep apnea Special Issuance: your Authorization dates, your PAP device reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-osa-compliance-report",
+      "si-osa-physician-letter"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-pacemaker",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pacemaker",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
+    },
+    "displayName": "Pacemaker",
+    "summary": "Track your pacemaker Special Issuance: your Authorization dates, your device checks and cardiology reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-pacemaker-stability",
+      "si-pacemaker-specialist-eval",
+      "si-pacemaker-device-check"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-cardiac",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Post-cardiac event (e.g., MI, stent, bypass)",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
+    },
+    "displayName": "Post-cardiac event (e.g., MI, stent, bypass)",
+    "summary": "Track your post-cardiac-event Special Issuance: your Authorization dates, the cardiology reporting and testing you gather, and a link to the FAA's own page for coronary heart disease.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-cardiac-cardiology-eval",
+      "si-cardiac-functional-test",
+      "si-cardiac-med-list",
+      "si-cardiac-followup"
+    ]
+  },
+  {
+    "envelope": {
       "code": "si-cancer-prostate",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
@@ -419,19 +331,127 @@
   },
   {
     "envelope": {
-      "code": "si-bariatric",
+      "code": "si-pe-dvt",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Bariatric surgery",
-      "sourceURL": "https://www.faa.gov/ame_guide"
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary embolism / DVT (anticoagulation)",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
     },
-    "displayName": "Bariatric surgery",
-    "summary": "Track your Special Issuance after bariatric surgery: your Authorization dates, the physician reporting and lab work you gather, and a link to the FAA's own page.",
+    "displayName": "Pulmonary embolism / DVT (anticoagulation)",
+    "summary": "Track your Special Issuance for a pulmonary embolism or DVT: your Authorization dates, your anticoagulation monitoring and physician reporting, and a link to the FAA's page.",
     "pathGuidance": "",
     "requirementCodes": [
-      "si-bariatric-stability",
-      "si-bariatric-physician-letter",
-      "si-bariatric-labs"
+      "si-pe-dvt-physician-letter",
+      "si-pe-dvt-med-list",
+      "si-pe-dvt-labs"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-seizure",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Seizure disorder / epilepsy",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
+    },
+    "displayName": "Seizure disorder / epilepsy",
+    "summary": "Track your seizure disorder Special Issuance: your Authorization dates, your neurology reporting and any required seizure-free interval documentation, and a link to the FAA's page.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-seizure-stability",
+      "si-seizure-specialist-eval",
+      "si-seizure-eeg"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-stroke",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Stroke or TIA",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
+    },
+    "displayName": "Stroke or TIA",
+    "summary": "Track your Special Issuance after a stroke or TIA: your Authorization dates, your neurology reporting and imaging, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-stroke-stability",
+      "si-stroke-specialist-eval",
+      "si-stroke-imaging",
+      "si-stroke-med-list"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-hims",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Substance or alcohol dependence (HIMS)",
+      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep/amd"
+    },
+    "displayName": "Substance or alcohol dependence (HIMS)",
+    "summary": "Track your HIMS Special Issuance: your Authorization dates, and the sponsor, peer, psychiatric and AME reporting that runs on its own schedule. Links to the FAA's own page.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-hims-specialist-eval",
+      "si-hims-monitoring",
+      "si-hims-stability",
+      "si-hims-sponsor-monthly",
+      "si-hims-testing",
+      "si-hims-aftercare",
+      "si-hims-psych-quarterly",
+      "si-hims-ame-annual"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-thyroid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Thyroid disease",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
+    },
+    "displayName": "Thyroid disease",
+    "summary": "Track your thyroid Special Issuance: your Authorization dates, the lab work and physician reporting you collect, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-thyroid-labs",
+      "si-thyroid-med-list",
+      "si-thyroid-physician-letter"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-tbi",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Traumatic brain injury",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
+    },
+    "displayName": "Traumatic brain injury",
+    "summary": "Track your Special Issuance after a traumatic brain injury: your Authorization dates, your neurology and neuropsychological reporting, and a link to the FAA's own page.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-tbi-stability",
+      "si-tbi-specialist-eval",
+      "si-tbi-neuropsych"
+    ]
+  },
+  {
+    "envelope": {
+      "code": "si-dm2",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-08-07T18:01:42Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Type 2 Diabetes on oral medication",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+    },
+    "displayName": "Type 2 Diabetes on oral medication",
+    "summary": "Track your Type 2 diabetes Special Issuance: your Authorization dates, the lab work and physician reporting you collect each cycle, and a link to the FAA's own page.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-dm2-a1c-report",
+      "si-dm2-physician-letter",
+      "si-dm2-med-list"
     ]
   }
 ]

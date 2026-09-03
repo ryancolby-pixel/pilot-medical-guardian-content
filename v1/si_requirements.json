@@ -1018,5 +1018,77 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf"
     },
     "requirementText": "The FAA does not publish a monthly report from your treating physician for this protocol. Its HIMS AME Checklist for SSRI recertification lists what actually recurs: the HIMS AME face-to-face, in office evaluation \"Required EVERY 6 months for ALL CLASSES,\" the treating psychiatrist report \"Required EVERY 6 months for ALL CLASSES,\" a Chief Pilot or Air Traffic Manager report \"Required EVERY 3 months\" (the checklist limits this to commercial pilots holding first or second class certificates, and the FAA's certification aid narrows it to those employed by an air carrier within the last 2 years, marking third class as not applicable), and any additional reports your Authorization letter requires. What the FAA does describe between the 6 month visits, in that certification aid rather than in the checklist, is interim contact with your HIMS AME by phone, video, or email, at an interval set \"either at the AME's discretion or as required by the Authorization or Special Consideration Letter (every 1-3 months).\" Those contacts are not filed on their own. Your HIMS AME summarizes them in the 6 month report. Your own Authorization letter is the authority on how often you check in."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-aneurysm-which-path",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm (Not Ruptured) and Brain Bleed disposition tables",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
+    },
+    "requirementText": "Which FAA disposition table governs your case depends on what is done about the aneurysm, and the FAA says so on the aneurysm table itself: \"If ruptured and/or repaired, refer to brain bleed/intracranial hemorrhage section.\" An aneurysm that is found and left alone stays on the Brain Aneurysm table. Any repair moves you to the Brain Bleed table, which the FAA titles \"BRAIN BLEED (Intracranial Hemorrhage, Cerebral Hemorrhage, Ruptured Aneurysm, Subarachnoid Hemorrhage, Subdural/Epidural Hemorrhage).\" A third table applies if the cause was an injury rather than a spontaneous event: the Brain Bleed table is scoped to hemorrhage \"not due to trauma\" and directs that if it is due to trauma, \"See - Traumatic Brain Injury section.\" Both aneurysm paths carry the same disposition for the examiner, DEFER, with the instruction to submit the information to the FAA for a possible Special Issuance. Your AME cannot issue in the office on either path."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-aneurysm-recovery",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Bleed disposition table, required recovery periods",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
+    },
+    "requirementText": "A waiting period applies only on the repaired or ruptured path, and the FAA ties it to the procedure rather than to the diagnosis. Its table lists \"Required recovery periods\" of \"If craniotomy performed: Two (2) years\" and \"Subarachnoid hemorrhage: One (1) year,\" and says the evaluation package is gathered \"After any required recovery period.\" Note what is and is not named. The two-year period attaches to a craniotomy, which is the open procedure. Endovascular repair, commonly called coiling, is not named on this table, so do not assume either period applies to it. That is a question for your AME or the FAA rather than one this table answers. The Brain Aneurysm table, covering an aneurysm that has not ruptured and has not been repaired, states no recovery period at all, though it notes that if the aneurysm is associated with a seizure then \"A recovery period may apply.\""
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-aneurysm-neuro-eval",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables; FAA Specifications for Neurologic Evaluation",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+    },
+    "requirementText": "Both paths require the same core document. The Brain Aneurysm table asks for \"A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation\" from a clinic visit with the treating neurologist no more than \"90 days before the AME exam.\" The Brain Bleed table asks for the same thing and adds a preference, \"vascular neurologist preferred.\" The specification sheet is a separate FAA document that tells the neurologist exactly what the evaluation must contain, and it addresses the airman directly: \"To ensure the neurological evaluation meets FAA requirements, we strongly recommend that you share all pages of this specification sheet with your neurologist.\" Because the evaluation expires 90 days before the exam, getting the specification sheet to the neurologist before the appointment is what keeps it from having to be repeated."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "testResult",
+    "envelope": {
+      "code": "si-aneurysm-imaging",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables, imaging requirements",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
+    },
+    "requirementText": "On the unruptured path the FAA asks for \"CTA (preferred) or MRA\" of the head performed no more than 12 months before the AME exam, plus \"Previous Imaging\" being \"CT, MRI, CTA, MRA or cerebral catheter angiography/cath angio of the head\" performed \"at any time after the\" symptoms occurred. On the repaired or ruptured path it asks for brain imaging \"to verify bleed\" has resolved within the same 12 months, an MRI of the brain \"to include sequences sensitive to the presence of\" hemosiderin, and \"CT angiography (CTA) or MRA or angiography.\" Both tables are specific about format: submit both the report and a copy of the images on compact disc in \"DICOM readable format\" with a DICOMDIR file in the root directory of the disc. The FAA adds, \"Please verify the CD will display the images before sending.\""
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-aneurysm-hospital-records",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Bleed disposition table, hospital records",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
+    },
+    "requirementText": "On the repaired or ruptured path the FAA wants \"Hospital records for each\" hospitalization related to the condition and says \"It must include\" information on surgeries and procedures. The list it gives is the admission History and Physical, the Emergency Medical Services or \"ambulance\" run sheet if applicable, hospital consultant reports, the hospital discharge summary, lab reports including all drug or alcohol testing performed, operative and procedure reports, pathology reports, and radiology reports. Two warnings are worth acting on early. The FAA states that patient portal notes or an after visit summary printed from an electronic medical record \"are NOT sufficient for pilot\" medical certification purposes, and it says do not submit \"miscellaneous hospital\" records such as flowsheets, nursing notes, physician orders, or medication administration records. It also notes that if the applicant has a \"large volume of\" records, it is recommended they bring them to the exam so the AME can help sort what the FAA does not need."
+  },
+  {
+    "cadenceRaw": "other",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-aneurysm-related-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-02T00:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Brain Aneurysm and Brain Bleed disposition tables, cross-references",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
+    },
+    "requirementText": "Both tables point elsewhere when something else is present, and each cross-reference can add its own requirements. The Brain Aneurysm table says that if the aneurysm is \"associated with\" a seizure, see that section, and that a recovery period may apply. The Brain Bleed table is more specific about the cost: an \"additional recovery period and testing\" such as an EEG may apply. It also routes two other situations: \"If a shunt was placed\" see the Hydrocephalus section, and a bleed caused by injury rather than arising spontaneously goes to the Traumatic Brain Injury section. Finally, the FAA reserves the right to ask for more after reading your file, noting that a \"Neuropsychological (NP)\" evaluation may be required."
   }
 ]
