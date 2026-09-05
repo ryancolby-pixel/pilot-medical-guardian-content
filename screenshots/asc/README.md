@@ -137,3 +137,63 @@ banner fires **only on a confident single-worksheet match** and attributes the l
 worksheet**; the non-confident branch renders the hedged *"N FAA CACI worksheets in this category -
 tap to browse"* card instead (seen live on 18i). The split is deliberate, so the constraint above
 still holds and this shot does not violate it.
+
+---
+
+## 🚨 WHEN A UI CHANGE MEANS THESE MUST BE RE-TAKEN (standing rule, Ryan 2026-09-05)
+
+> ***"log for any UI changes to screen shot material that they need to be taken again for both iphone sizes,
+> the ipad, and mac."*** ⇒ **If a change renders on any screen in the table below, re-capture and rebuild every
+> affected set IN THE SAME PASS, and re-upload all four.** The tripwire lives in `CLAUDE.md`; this is the detail.
+
+### The seven slots, and what is actually IN frame
+
+**Ask "does my change render here?" - not "did I touch a screenshot file."**
+
+| # | screen | what is visibly in frame, i.e. what a change would break |
+|---|---|---|
+| 1 | **Home** | days-remaining countdown + class + expiry date · BasicMed course and CMEC cards · the **MedXPress prep** summary line (`N medications - N visits - N of 25 Item 18 answers`) · **What's next** step card · the **"Ways PMG protects your medical"** list, all five rows and their subtitles · the not-advice footer |
+| 2 | **MedXPress Prep** | the **Enable MedXPress autofill** row · **Manual fallback** row · **Item 17** heading, Add/edit link, the medication rows and the `N medications recorded` caption · **Item 18** heading and its link rows · **Item 19** heading, Add/edit, doctor-visit rows *(Mac and iPad show Item 19; iPhone cannot reach it, see below)* |
+| 3 | **Item 18 / Medical History** | the intro card wording · the `N of 25 answered` ring · **Mark all remaining as No** · the lettered question rows and Yes/No controls · the **Explanation** label and field · the teal **CACI pathway available** banner and its sentence |
+| 4 | **Special Issuance** (`Hypertension on medication`) | **Share with my AME** button · About rows · **Your Authorization** fields (Status, Path, issued, expires, next documentation due) and their helper line · **Requirements Checklist** rows, their done/not-done state, `What the FAA asks for`, `In your FAA letter?`, Add document, reminder chips |
+| 5 | **My Medical** | Certificate / BasicMed / Both selector · `Expires in about N months` · certificate class, exam date, AME, next exam · **Update your certificate** row · privilege-duration rows and their CFR citations *(Mac slot shows these; iPhone shows the upper half)* |
+| 6 | **Health** | the Blood Pressure chart, **both AME Guide reference lines and their labels** · the citation footer (`FAA Guide for Aviation Medical Examiners, Item 55`) and its `Citation checked` date · the reading rows |
+| 7 | **FAA Reference** | the search field placeholder · **Common questions** list *(iPad/iPhone sheet)* · the FAA Threshold card · the **What the FAA says** quotation · the **Source** block, `Last verified` date and `View the FAA source` link |
+
+⚖️ **THE EYEBROW AND HEADLINE ARE BAKED INTO THE COMPOSED IMAGE.** Renaming a tab, a section or a feature
+invalidates the art even when the screen is pixel-identical. **Copy changes count as UI changes here.**
+
+🚨 **Slot 6 and 7 are the FAA-content slots and they age on their own.** A CDN publish can move a quoted
+sentence, a threshold or a `Last verified` date **with no build at all** - and the screenshot keeps showing the
+old one. ⇒ **A content publish that changes displayed FAA text is a re-capture trigger, same as a UI change.**
+
+### Capture -> output map (one capture can feed two slots)
+
+| capture into | rebuilds | script | canvas |
+|---|---|---|---|
+| `screenshots/iphone-new/` | **`iphone-v2/` AND `iphone-69-v2/`** | `build-mobile-v2.py` | 1284x2778 and 1290x2796 |
+| `asc/ipad/` | `ipad-v2/` | `build-mobile-v2.py` | 2064x2752 |
+| `asc/mac-raw/` | `mac-v2/` | `build-mac-v2.py` | 2880x1800 |
+
+✅ **The two iPhone sizes do NOT need separate captures** - one raw directory, two canvases, one script run.
+📌 **But they are separate ASC slots and BOTH must be re-uploaded.**
+✅ Both scripts **wipe their output directory first**, because a reorder renames files and stale names survived
+a run once and would have shipped a duplicated set.
+
+### The traps that cost time on 2026-09-05, in the order they bite
+
+1. **🚨 On iPad, reach a screen through the SIDEBAR, not a Home card.** The Home card *presents* a form sheet, a
+   small centred panel over a dimmed Home taking about a third of the frame; My Records *pushes* the same screen
+   full-width. **Same build, same data, one is unreadable at listing size.** ⚖️ Not universal: `07-faa-reference`
+   is a sheet because FAA Reference genuinely is one on iPad. **Check which, do not assume.**
+2. **🚨 Look at the COMPOSED STRIP before calling a set done.** A raw that looks fine at full size can be
+   illegible once framed. The sheet-vs-push defect was invisible in the raws and obvious in the strip.
+3. **⚠️ Seed ONCE.** The demo seeder is not idempotent - a double run gave 4 medications and 4 visits with a
+   duplicate Lisinopril. **Read the counts off Home before capturing.** Uninstall, reinstall, launch once with
+   `-PMGSeedDemoData`. 🚫 Do not pass the flag again on a relaunch.
+4. **⚠️ Pin the status bar with `--time` ONLY.** Also overriding battery/cellular put a **green charging battery
+   in one shot out of seven**. **Crop the status-bar strip and stack it against a sibling** before believing it
+   matches. Clear the override when done.
+5. **📐 iPhone cannot fit medications AND doctor visits in one frame.** Item 18 sits between Item 17 and Item 19
+   and runs ~500pt on its own, against a ~750pt screen. **One or the other.** Current slot 2 leads with
+   medications, which was Ryan's call 2026-09-05. Mac and iPad fit both.
