@@ -261,6 +261,22 @@
        quote card reads as copy we wrote about ourselves. `margin-top:auto` pins it to the
        bottom so the four attributions align across a row of unequal-length quotes. */
     .qcard figcaption { margin-top: auto; padding-top: 10px; font-size: .72rem; font-weight: 600; letter-spacing: .03em; color: var(--muted); }
+    /* The install moment: the review row is where a visitor decides, so the buttons go
+       directly under it rather than further down the page. (Ryan 2026-09-05.) */
+    .quotes-cta { justify-content: center; margin: 18px 0 0; }
+    /* The 10-second answer. "See what it does" used to jump into a 9-card accordion, which
+       is a browse surface, not an answer. Three jobs, then a link on to the full grid. */
+        /* The sticky header is 61px tall, so a bare anchor lands the heading 9px underneath it.
+       Measured, not guessed. */
+    #how { scroll-margin-top: 76px; }
+.jobs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .job { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); }
+    .job h3 { margin: 0 0 8px; font-size: 1.12rem; letter-spacing: -.01em; }
+    .job p { margin: 0; color: var(--muted); line-height: 1.5; font-size: .95rem; text-wrap: pretty; }
+    .jobs-more { margin: 18px 0 0; text-align: center; }
+    .jobs-more a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .jobs-more a:hover { text-decoration: underline; }
+    @media (max-width: 860px) { .jobs { grid-template-columns: 1fr; gap: 12px; } }
     .qcard::before { content: "\201C"; display: block; font-size: 1.9rem; line-height: .6; color: var(--accent); opacity: .5; margin-bottom: 5px; }
     /* A PARTIAL grid reads as half-empty; a COMPLETE row reads as finished. Measured at
        1440x800 the strip starts at y=725, so it lands below the fold at any layout - which
@@ -328,8 +344,9 @@
         <h1>Protect your FAA medical.</h1>
         <p class="hero2-sub"><strong>A privacy-first app for iPhone, iPad, and Mac that keeps your records, your medical certificate dates (first class, second class, or third class), your Special Issuance paperwork, and your MedXPress and BasicMed prep organized, so you walk into every exam ready.</strong></p>
         <div class="links cta">
-          <a class="primary" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=web-home&amp;mt=8">Download on the App Store &rarr;</a>
-          <a class="secondary" href="#features">See what it does</a>
+          <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=web-home&amp;mt=8">iPhone &amp; iPad &rarr;</a>
+          <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=web-home">Mac &rarr;</a>
+          <a class="secondary" href="#how">See what it does</a>
         </div>
         <p class="hero2-privacy">Your health data stays on your device and your own iCloud.</p>
         <p class="cta-note"><b>Free to use</b>, with an optional Guardian Pro subscription. For <b>iPhone, iPad, and Mac</b>.</p>
@@ -358,6 +375,10 @@
         <figure class="qcard"><blockquote>"Filling out my MedXPress has never been easier… Whether you have a SI or not this is the perfect tool."</blockquote><figcaption>Gg102847883 &middot; App Store review</figcaption></figure>
         <figure class="qcard"><blockquote>"This takes one more level of stress out of my AME visit."</blockquote><figcaption>Jdcorbitt3 &middot; App Store review</figcaption></figure>
       </div>
+      <div class="links cta quotes-cta">
+        <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=web-home&amp;mt=8">Get it for iPhone &amp; iPad &rarr;</a>
+        <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=web-home">Get it for Mac &rarr;</a>
+      </div>
     </div>
   </section>
 
@@ -374,6 +395,30 @@
   </section>
 
   <!-- FEATURES -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What it does</span>
+        <h2>Three jobs, before you sit down at MedXPress</h2>
+      </div>
+      <div class="jobs">
+        <div class="job">
+          <h3>Autofill</h3>
+          <p>The Safari extension puts your medications (Item 17) and doctor visits (Item 19) into the FAA form, so you are not retyping every renewal. You review every field and submit it yourself.</p>
+        </div>
+        <div class="job">
+          <h3>Dates</h3>
+          <p>Certificate expiration for first, second, or third class, with a countdown and reminders before it lapses. BasicMed too.</p>
+        </div>
+        <div class="job">
+          <h3>Item 18</h3>
+          <p>The app keeps your history and last cycle's explanations, so you answer once and reuse them. The 25 Yes/No buttons are yours to click.</p>
+        </div>
+      </div>
+      <p class="jobs-more"><a href="#features">See everything it does &rarr;</a></p>
+    </div>
+  </section>
+
   <section class="section tint" id="features">
     <div class="container">
       <div class="section-head">
