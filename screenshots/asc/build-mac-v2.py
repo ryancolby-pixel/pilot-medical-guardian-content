@@ -82,13 +82,14 @@ def tracked(draw, x, y, text, font, fill, tracking, measure_only=False):
 
 
 SHOTS = [
-    ("03-medxpress-prep.png", "MEDXPRESS PREP",   "Your answers ready before you sit down"),
+    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
     ("01-home.png",           "AT A GLANCE",      "Every date that matters, in one place"),
+    ("03-medxpress-prep.png", "MEDXPRESS PREP",   "Your answers ready before you sit down"),
     ("04-item18.png",         "ITEM 18",          "Answer it once, keep it every renewal"),
     ("07-hypertension.png",   "SPECIAL ISSUANCE", "See what you sent and what is open"),
+    ("06-certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
     ("05-health.png",         "HEALTH",           "Your readings beside the FAA threshold"),
     ("02-faa-reference.png",  "FAA REFERENCE",    "The FAA's own words, with the source"),
-    ("06-certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
 ]
 
 WIN_H = 1424

@@ -37,8 +37,9 @@ eyebrow (letterspaced, `#7EADEB`) over a single-line SF Pro Semibold headline in
 Headlines live in the `SHOTS` list. The script asserts the headline cannot collide with the window,
 and auto-shrinks type to keep every headline on one line so the set reads as a strip.
 
-**Order is deliberate:** MedXPress leads, not Home. The desktop version's whole argument is that
-MedXPress is a desktop form and the autofill now lives where the form does.
+**Order:** ~~MedXPress leads, not Home~~ - **superseded 2026-09-05 by Ryan's order** (below). The
+old rationale (MedXPress is a desktop form, so the desktop set should lead with it) is recorded here
+because it was a real argument, not an oversight; it lost to reading the same story on every device.
 
 ⚠️ **Copy constraints these headlines respect:** descriptive only, never a fitness or pass/fail
 verdict; no em dashes; "pilots" not "airline pilots"; and **nothing promising which documents a
@@ -92,3 +93,47 @@ lead) renamed files, and the old names survived: `mac-v2` held **9** files for a
 held **10**, each with a duplicate `01-home`/`02-medxpress-prep` pair from the pre-reorder run **and a
 dropped shot still sitting there**. A directory listing looked fine at a glance and would have
 uploaded a duplicated set. **A rename is a delete plus a create, and only the create had been running.**
+
+---
+
+## 2026-09-05 - ONE ORDER ON ALL FOUR SETS, AND TWO iPAD SHOTS RE-CAPTURED
+
+**Order set by Ryan:** Home, MedXPress Prep, Item 18, Special Issuance, then certificate / Health /
+FAA Reference. **All four sets are now the same seven shots in the same order with the same
+headlines**, so a pilot comparing iPhone to iPad to Mac on the listing reads one story rather than
+three. `mac-v2/` and the two iPhone sets were re-ordered first; `ipad-v2/` followed.
+
+**`08-share-with-ame` dropped from the iPad set** to match the other three. Nothing is wrong with the
+shot; it is the odd one out, and the raw is still in `ipad/`.
+
+🚨 **THE iPAD RAWS WERE CAPTURED FROM THE WRONG PRESENTATION, AND ONLY LOOKING AT THEM CAUGHT IT.**
+On iPad, reaching MedXPress Prep or Item 18 **from the Home card** presents a **form sheet**: a small
+centred panel over a dimmed Home, roughly a third of the frame. Reaching the same screens from the
+**My Records sidebar item** pushes them **full-width**. Same screens, same build, same data - one
+renders legibly at listing size and the other does not, and the two most important slots after Home
+were the sheet version. ⇒ **On iPad, drive to a screen through the sidebar, not through a Home card,
+and look at the composed strip before calling a set done.** The framed set is the instrument here;
+a raw that looks fine at full size can still be unreadable at the size Apple renders it.
+
+⚖️ **The sheet is not always the wrong answer: `07-faa-reference` is a sheet and stays one**, because
+FAA Reference **is** a search sheet on iPad - the sidebar item presents it. Checked, not assumed.
+
+📐 **`03-medxpress-prep` re-captured** full-width, which also fixed the content: Ryan spec'd this slot
+as **meds + visits**, and the Aug 28 raw was scrolled to a position where the **Item 18 block
+dominated the frame** - duplicating slot 3. The full-width push fits Item 17 medications **and**
+Item 19 visits complete in one viewport, which the sheet could not.
+
+📐 **`09-item18` captured** (new file): 25 of 25 answered, **18h = Yes** with a written explanation,
+which surfaces the teal **CACI pathway available** banner.
+
+⚠️ **The container had been seeded twice** (4 medications, 4 visits, duplicate Lisinopril). Uninstall,
+reinstall, launch once with `-PMGSeedDemoData` gives the clean `2 medications - 2 visits`. **A demo
+seeder is not idempotent; check the counts on Home before capturing anything.**
+
+✅ **The CACI banner in `03-item18` was checked against the 8/12 retraction and is NOT a reprint of it.**
+The struck sentence was the paywall's *"walk in knowing exactly which documents your diagnosis needs"*,
+retracted because it could not hold across 14 disposition tables that branch by sub-condition. The
+banner fires **only on a confident single-worksheet match** and attributes the list to **the FAA's own
+worksheet**; the non-confident branch renders the hedged *"N FAA CACI worksheets in this category -
+tap to browse"* card instead (seen live on 18i). The split is deliberate, so the constraint above
+still holds and this shot does not violate it.

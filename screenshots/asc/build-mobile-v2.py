@@ -161,31 +161,38 @@ def build(canvas_w, canvas_h, src_path, eyebrow, headline, out_path,
 
 
 IPAD = [
-    ("03-medxpress-prep.png", "MEDXPRESS PREP",     "Your answers ready before you sit down"),
-    ("01-home.png",           "AT A GLANCE",        "Every date that matters, in one place"),
-    ("06-special-issuance.png","SPECIAL ISSUANCE",  "See what you sent and what is open"),
-    ("05-health-bp.png",      "BLOOD PRESSURE",     "Your readings beside the FAA threshold"),
-    ("08-share-with-ame.png", "SHARE WITH YOUR AME","Send your AME a clean packet"),
-    ("02-faa-reference.png",  "FAA REFERENCE",      "The FAA's own words, with the source"),
-    ("07-my-medical.png",     "MY MEDICAL",         "Class 1, 2, 3 and BasicMed together"),
+    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
+    # Same seven shots, same order, same headlines as IPHONE and the Mac set, so a
+    # pilot comparing devices on the listing reads one story, not three.
+    # 09-item18.png and 03-medxpress-prep.png re-captured 2026-09-05 on iPad Pro 13" (M5).
+    # 08-share-with-ame.png dropped to match the other two sets.
+    ("01-home.png",           "AT A GLANCE",       "Every date that matters, in one place"),
+    ("03-medxpress-prep.png", "MEDXPRESS PREP",    "Your answers ready before you sit down"),
+    ("09-item18.png",         "ITEM 18",           "Answer it once, keep it every renewal"),
+    ("06-special-issuance.png","SPECIAL ISSUANCE", "See what you sent and what is open"),
+    ("07-my-medical.png",     "MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
+    ("05-health-bp.png",      "HEALTH",            "Your readings beside the FAA threshold"),
+    ("02-faa-reference.png",  "FAA REFERENCE",     "The FAA's own words, with the source"),
 ]
 
 IPHONE = [
-    ("medxpress.png",      "MEDXPRESS PREP",   "Your answers ready before you sit down"),
+    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
+    # Sources re-captured in the iPhone Air simulator 2026-09-05 -> screenshots/iphone-new/
     ("home.png",           "AT A GLANCE",      "Every date that matters, in one place"),
+    ("medxpress.png",      "MEDXPRESS PREP",   "Your answers ready before you sit down"),
+    ("item18.png",         "ITEM 18",          "Answer it once, keep it every renewal"),
     ("si.png",             "SPECIAL ISSUANCE", "See what you sent and what is open"),
+    ("certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
     ("health.png",         "HEALTH",           "Your readings beside the FAA threshold"),
-    ("basicmed.png",       "BASICMED",         "Course and exam dates, tracked together"),
     ("faa-reference.png",  "FAA REFERENCE",    "The FAA's own words, with the source"),
-    ("documents.png",      "DOCUMENTS",        "Your paperwork in one place"),
 ]
 
 jobs = [
     ("ipad-v2",  2064, 2752, os.path.join(BASE, "asc", "ipad"), IPAD,
      92, 42, 90, 116, 84, 104, 8.0),
-    ("iphone-v2", 1284, 2778, BASE, IPHONE,
+    ("iphone-v2", 1284, 2778, os.path.join(BASE, "iphone-new"), IPHONE,
      116, 30, 70, 104, 64, 92, 6.0),
-    ("iphone-69-v2", 1290, 2796, BASE, IPHONE,
+    ("iphone-69-v2", 1290, 2796, os.path.join(BASE, "iphone-new"), IPHONE,
      116, 30, 70, 106, 64, 94, 6.0),
 ]
 
