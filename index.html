@@ -248,14 +248,25 @@
     .quote-eyebrow { font-size: 0.78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--accent); margin: 0 0 9px; }
     /* Quote Shelf: the hero tint continues into this band and the quote cards pull up so they straddle the hero's lower edge on one continuous wash */
     .hero-quotes { position: relative; z-index: 2; background: linear-gradient(180deg, var(--accent-tint), var(--bg) 82%); border-bottom: 1px solid var(--rule); padding-bottom: clamp(30px, 5vw, 46px); }
-    .hero-quotes .wrap { max-width: 1080px; margin-top: clamp(-72px, -6.5vw, -44px); }
+    .hero-quotes .wrap { max-width: 1200px; margin-top: clamp(-96px, -7.5vw, -60px); }
+    /* 1200 not 1080: at 4-across a wider band buys ~40px of card width each, which costs a
+       wrapped line off the longest quote and shortens the whole row. The pull-up is capped at
+       -96px because the hero's last line ("...actual FAA medical") ends 41px above the eyebrow;
+       measured, not guessed. Going further collides with it. */
     .qs-eyebrow { text-align: center; margin: 0 0 14px; }
-    .quote-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-    .qcard { margin: 0; background: var(--card); border: 1px solid var(--accent-edge); border-top: 3px solid var(--accent); border-radius: var(--radius-card); padding: 18px 20px 20px; box-shadow: 0 18px 40px rgba(16,22,34,.13), 0 4px 12px rgba(16,22,34,.07); }
-    .qcard blockquote { margin: 0; font-weight: 600; line-height: 1.42; color: var(--text); font-size: clamp(.98rem, 1.4vw, 1.06rem); text-wrap: pretty; }
-    .qcard::before { content: "\201C"; display: block; font-size: 2.1rem; line-height: .6; color: var(--accent); opacity: .5; margin-bottom: 6px; }
-    /* 4 cards divide evenly into 2 columns at every width down to the 760px single-column
-       breakpoint, so the old 3-card rule (nth-child(3) spanning full width) is gone. */
+    .quote-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .qcard { margin: 0; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--accent-edge); border-top: 3px solid var(--accent); border-radius: var(--radius-card); padding: 13px 16px 13px; box-shadow: 0 18px 40px rgba(16,22,34,.13), 0 4px 12px rgba(16,22,34,.07); }
+    .qcard blockquote { margin: 0; font-weight: 600; line-height: 1.38; color: var(--text); font-size: clamp(.88rem, .95vw, .93rem); text-wrap: pretty; }
+    /* Source line: these are real App Store reviews, so name the reviewer. Without it a
+       quote card reads as copy we wrote about ourselves. `margin-top:auto` pins it to the
+       bottom so the four attributions align across a row of unequal-length quotes. */
+    .qcard figcaption { margin-top: auto; padding-top: 10px; font-size: .72rem; font-weight: 600; letter-spacing: .03em; color: var(--muted); }
+    .qcard::before { content: "\201C"; display: block; font-size: 1.9rem; line-height: .6; color: var(--accent); opacity: .5; margin-bottom: 5px; }
+    /* A PARTIAL grid reads as half-empty; a COMPLETE row reads as finished. Measured at
+       1440x800 the strip starts at y=725, so it lands below the fold at any layout - which
+       means the fix is making the visible unit whole, not shorter. One row from 13" up;
+       2x2 below that, where 4-across would be too narrow to read. (Ryan 2026-09-05.) */
+    @media (max-width: 1180px) { .quote-cards { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 760px) { .hero-quotes .wrap { margin-top: clamp(-34px, -8vw, -18px); } .quote-cards { grid-template-columns: 1fr; gap: 12px; } }
     .prose-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
     .prose-card + .prose-card { margin-top: 16px; }
@@ -342,10 +353,10 @@
     <div class="wrap">
       <p class="quote-eyebrow qs-eyebrow">From 5-star App Store reviews</p>
       <div class="quote-cards">
-        <figure class="qcard"><blockquote>"Filling out my FAA MedExpress is always such a giant headache. Pilot Medical Guardian simplified that headache into an easy process and saved all my info for my next medical."</blockquote></figure>
-        <figure class="qcard"><blockquote>"Filling out my medexpress has never been easier… Whether you have a SI or not this is the perfect tool."</blockquote></figure>
-        <figure class="qcard"><blockquote>"Save your visits and your paperwork so you don't need to search your calendar every year."</blockquote></figure>
-        <figure class="qcard"><blockquote>"This takes one more level of stress out of my AME visit."</blockquote></figure>
+        <figure class="qcard"><blockquote>"Filling out my FAA MedXPress is always such a giant headache. Pilot Medical Guardian simplified that headache into an easy process and saved all my info for my next medical."</blockquote><figcaption>ImADudeMan27 &middot; App Store review</figcaption></figure>
+        <figure class="qcard"><blockquote>"Save your visits and your paperwork so you don't need to search your calendar every year."</blockquote><figcaption>davolino281 &middot; App Store review</figcaption></figure>
+        <figure class="qcard"><blockquote>"Filling out my MedXPress has never been easier… Whether you have a SI or not this is the perfect tool."</blockquote><figcaption>Gg102847883 &middot; App Store review</figcaption></figure>
+        <figure class="qcard"><blockquote>"This takes one more level of stress out of my AME visit."</blockquote><figcaption>Jdcorbitt3 &middot; App Store review</figcaption></figure>
       </div>
     </div>
   </section>
