@@ -7,7 +7,7 @@
     "envelope": {
       "code": "reg-67111-class1-ekg",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-20T14:00:00Z",
+      "lastVerified": "2026-09-13T12:00:00Z",
       "sourceCitation": "14 CFR 67.111",
       "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.111"
     },
@@ -36,6 +36,22 @@
         "citation": "14 CFR 67.111(b)(2) + (c)",
         "icon": "waveform.path.ecg",
         "tint": "blue"
+      },
+      {
+        "key": "annualDue",
+        "title": "EKG due at your next Class 1 exam",
+        "body": "Under 14 CFR 67.111(b)(2), a First-Class applicant aged 40 or older needs an EKG annually. Your last recorded EKG will be a year or more old at your next exam, so expect one. Under 14 CFR 67.111(c), the tracing must be dated no earlier than 60 days before the application it accompanies, so it is done at or near the exam rather than months ahead. Your AME confirms at the exam.",
+        "citation": "14 CFR 67.111(b)(2) + (c)",
+        "icon": "waveform.path.ecg",
+        "tint": "orange"
+      },
+      {
+        "key": "annualNotDue",
+        "title": "No EKG expected at your next Class 1 exam",
+        "body": "Under 14 CFR 67.111(b)(2), the EKG requirement at age 40 or older is annual, not one at every application. A First-Class medical lasts 6 months at that age, so a pilot who renews twice a year needs an EKG at one of the two exams. Your last recorded EKG will be less than a year old at your next exam. Your AME confirms at the exam.",
+        "citation": "14 CFR 67.111(b)(2)",
+        "icon": "checkmark.seal",
+        "tint": "green"
       }
     ],
     "triggerAgeBaseline": 35,
