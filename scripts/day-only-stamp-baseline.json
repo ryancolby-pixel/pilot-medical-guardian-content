@@ -1,7 +1,7 @@
 {
   "_comment": "Entries whose lastVerified carries no time of day, as of 2026-08-17. These are grandfathered: nobody recorded a time for them and inventing one would fabricate precision we never had. Each drops off this list the next time it is genuinely re-verified, because that write uses content_time.now_stamp(). A day-only stamp on a code NOT listed here is a NEW one and fails validation.",
   "generated": "2026-08-17",
-  "total": 406,
+  "total": 410,
   "codes_by_file": {
     "ame_directory.json": [
       "ame-hims-001",
@@ -426,6 +426,25 @@
       "thr-bp-class12-diastolic",
       "thr-bp-class3",
       "thr-bp-class3-diastolic"
+    ],
+    "regulation_notices.json": [
+      "reg-67105-hearing",
+      "caci-overview",
+      "reg-67409-deferral-denial",
+      "reg-6115-motor-vehicle-action"
     ]
-  }
+  },
+  "amendments": [
+    {
+      "date": "2026-09-13",
+      "file": "regulation_notices.json",
+      "codes": [
+        "reg-67105-hearing",
+        "caci-overview",
+        "reg-67409-deferral-denial",
+        "reg-6115-motor-vehicle-action"
+      ],
+      "reason": "Authored and verified 2026-08-25 in the docs repo (drafts/) and bundled straight into the app, so this validator never saw them until their first CDN publish on 2026-09-13. The verification DATE is real (FAA_SEARCH_BUILD_PLAN 18.5); no time of day was recorded. Grandfathered on the same principle as the original 406: inventing a time fabricates precision, and restamping today would claim a re-verification that did not happen. Each clears the next time it is genuinely re-verified. The two records revised the same day (reg-67401-soda, reg-67103-color-vision) were NOT grandfathered; they carry a real now_stamp()."
+    }
+  ]
 }

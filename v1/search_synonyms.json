@@ -1,0 +1,1301 @@
+{
+  "schemaVersion": 1,
+  "note": "OUR vocabulary map, NOT FAA content. Top level is an OBJECT on purpose: check-content-fidelity.py skips any v1/*.json whose top level is not a list, so this file is structurally excluded from FAA quote/number checking rather than relying on an exclusion list someone has to maintain. Do NOT refactor to a bare array.",
+  "matching": {
+    "mode": "wordBoundary",
+    "REQUIRED": "Aliases MUST be matched on token/word boundaries, NEVER with String.contains(). Measured 2026-08-25 against the real corpus: as a SUBSTRING, 'si' matches all 407 records, 'ed' matches all 407, 'mi' matches 370 and 'add' matches 120. At a word boundary the same aliases match 0-3. The shipped caciMatchResult() uses exp.contains(keyword), which is substring, and that is the documented cause of the 18l->Tremor false positive. Do not inherit that here.",
+    "weightDefault": 1.0,
+    "weightNote": "Per-entry 'weight' multiplies the expansion boost. 1.0 = primary vocabulary; 0.6 = real but secondary/audience-specific, so it surfaces the right record without outranking a pilot who used the precise term.",
+    "minAliasLength": 2,
+    "caseSensitive": false
+  },
+  "entries": [
+    {
+      "aliases": [
+        "afib",
+        "a-fib",
+        "a fib",
+        "irregular heartbeat",
+        "irregular heart rhythm"
+      ],
+      "expandsTo": [
+        "atrial fibrillation"
+      ],
+      "why": "si_conditions has no keyword surface; 'AFib' is how pilots say it and matches nothing today",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "sleep apnea",
+        "osa",
+        "cpap",
+        "apnea",
+        "sleep study",
+        "cpap machine"
+      ],
+      "expandsTo": [
+        "obstructive sleep apnea",
+        "cpap"
+      ],
+      "why": "OSA is an SI path, NOT a CACI worksheet. Zero alias coverage today",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "stent",
+        "pci",
+        "angioplasty",
+        "cad",
+        "blocked artery",
+        "heart stent"
+      ],
+      "expandsTo": [
+        "coronary artery disease",
+        "stent"
+      ],
+      "why": "si-cad displayName is 'Coronary artery disease with stent (PCI)'",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "cabg",
+        "bypass surgery",
+        "open heart",
+        "heart bypass",
+        "triple bypass"
+      ],
+      "expandsTo": [
+        "coronary bypass"
+      ],
+      "why": "CABG is the term on the paperwork; pilots say 'bypass'",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "heart attack",
+        "mi",
+        "myocardial infarction",
+        "cardiac event",
+        "widow maker"
+      ],
+      "expandsTo": [
+        "post-cardiac event"
+      ],
+      "why": "si_conditions 'Post-cardiac event (e.g., MI, stent, bypass)'",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "pacemaker",
+        "icd",
+        "defibrillator",
+        "implanted defibrillator"
+      ],
+      "expandsTo": [
+        "pacemaker"
+      ],
+      "why": "exact displayName, but no alias for ICD/defibrillator",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "blood clot",
+        "dvt",
+        "pe",
+        "pulmonary embolism",
+        "deep vein thrombosis",
+        "clot in my leg"
+      ],
+      "expandsTo": [
+        "pulmonary embolism",
+        "anticoagulation"
+      ],
+      "why": "si-pe covers PE/DVT on anticoagulation",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "stroke",
+        "tia",
+        "mini stroke",
+        "mini-stroke"
+      ],
+      "expandsTo": [
+        "stroke",
+        "tia"
+      ],
+      "why": "exact, low risk",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "seizure",
+        "epilepsy",
+        "convulsion",
+        "seizure disorder"
+      ],
+      "expandsTo": [
+        "seizure"
+      ],
+      "why": "exact",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "tbi",
+        "concussion",
+        "head injury",
+        "brain injury"
+      ],
+      "expandsTo": [
+        "traumatic brain injury"
+      ],
+      "why": "'concussion' is the lay term and matches nothing today",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "depression",
+        "anxiety",
+        "ssri",
+        "antidepressant",
+        "on an ssri"
+      ],
+      "expandsTo": [
+        "depression",
+        "ssri"
+      ],
+      "why": "si-ssri is 'Depression / anxiety on an approved SSRI'",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "hims",
+        "alcoholism",
+        "substance abuse",
+        "rehab",
+        "sobriety",
+        "aa"
+      ],
+      "expandsTo": [
+        "substance",
+        "alcohol dependence",
+        "hims"
+      ],
+      "why": "HIMS is the program name pilots use; si_conditions names it",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "type 1",
+        "type 1 diabetes",
+        "insulin dependent",
+        "insulin-dependent"
+      ],
+      "expandsTo": [
+        "insulin-treated diabetes"
+      ],
+      "why": "si-diabetes-insulin",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "type 2",
+        "type ii",
+        "type 2 diabetes",
+        "a1c",
+        "blood sugar",
+        "sugars",
+        "sugar control",
+        "sugar numbers",
+        "my sugars",
+        "diabetic"
+      ],
+      "expandsTo": [
+        "diabetes"
+      ],
+      "why": "Ryan 8/25: the PHRASES are real ('blood sugar', 'my sugars', 'sugar control') but BARE 'sugar' is a stretch - dropped until real pilot questions show it. 'type ii' added as a spelling variant",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "melanoma",
+        "skin cancer",
+        "mole"
+      ],
+      "expandsTo": [
+        "melanoma"
+      ],
+      "why": "'skin cancer' is the lay term",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "gastric bypass",
+        "gastric sleeve",
+        "lap band",
+        "weight loss surgery"
+      ],
+      "expandsTo": [
+        "bariatric"
+      ],
+      "why": "'bariatric' is in CACI keywords; the surgery names are not",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "copd",
+        "emphysema",
+        "chronic bronchitis"
+      ],
+      "expandsTo": [
+        "copd"
+      ],
+      "why": "emphysema/bronchitis map to COPD",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "valve replacement",
+        "valve repair",
+        "heart valve",
+        "aortic valve"
+      ],
+      "expandsTo": [
+        "valve"
+      ],
+      "why": "'mitral valve' is a CACI keyword; aortic/generic valve is SI and uncovered",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "water pill",
+        "fluid pill",
+        "diuretic"
+      ],
+      "expandsTo": [
+        "hydrochlorothiazide",
+        "furosemide",
+        "chlorthalidone",
+        "spironolactone",
+        "indapamide"
+      ],
+      "why": "no drug-class vocabulary anywhere in the corpus",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "blood pressure pill",
+        "blood pressure medication",
+        "bp med",
+        "bp pill",
+        "pressure pill"
+      ],
+      "expandsTo": [
+        "hypertension"
+      ],
+      "why": "expand to the CONDITION, not 30 drug names - more robust to content change",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "statin",
+        "cholesterol pill",
+        "cholesterol medication",
+        "cholesterol med"
+      ],
+      "expandsTo": [
+        "atorvastatin",
+        "simvastatin",
+        "rosuvastatin",
+        "pravastatin"
+      ],
+      "why": "all six statins are informationalOnly; the expansion still routes correctly",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "blood thinner",
+        "anticoagulant",
+        "on blood thinners"
+      ],
+      "expandsTo": [
+        "warfarin",
+        "apixaban",
+        "rivaroxaban",
+        "clopidogrel"
+      ],
+      "why": "class term, uncovered",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "benzo",
+        "benzos",
+        "benzodiazepine"
+      ],
+      "expandsTo": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam"
+      ],
+      "why": "high-stakes: these are Do Not Issue / Do Not Fly",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "nerve pill",
+        "nerve pills",
+        "anxiety pill"
+      ],
+      "expandsTo": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam"
+      ],
+      "why": "Ryan 8/25: the softest of the drug-class colloquialisms, so lower weight",
+      "confidence": "high",
+      "weight": 0.6
+    },
+    {
+      "aliases": [
+        "sleeping pill",
+        "sleep aid",
+        "sleep medication",
+        "ambien"
+      ],
+      "expandsTo": [
+        "zolpidem",
+        "eszopiclone",
+        "temazepam",
+        "melatonin"
+      ],
+      "why": "Ambien IS in the corpus as a zolpidem variant; the class term is not",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "pain pill",
+        "opioid",
+        "narcotic",
+        "painkiller"
+      ],
+      "expandsTo": [
+        "oxycodone",
+        "hydrocodone",
+        "tramadol"
+      ],
+      "why": "class term",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "inhaler",
+        "rescue inhaler",
+        "asthma inhaler"
+      ],
+      "expandsTo": [
+        "albuterol",
+        "fluticasone",
+        "tiotropium"
+      ],
+      "why": "class term",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "ozempic",
+        "wegovy",
+        "mounjaro",
+        "zepbound",
+        "glp-1",
+        "glp1",
+        "weight loss shot"
+      ],
+      "expandsTo": [
+        "semaglutide",
+        "tirzepatide"
+      ],
+      "why": "highest-volume current drug question; brand coverage may be incomplete",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "viagra",
+        "cialis",
+        "ed pill",
+        "erectile dysfunction"
+      ],
+      "expandsTo": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "why": "brand-first vocabulary",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "allergy pill",
+        "antihistamine",
+        "claritin",
+        "zyrtec",
+        "benadryl"
+      ],
+      "expandsTo": [
+        "cetirizine",
+        "loratadine",
+        "fexofenadine",
+        "diphenhydramine"
+      ],
+      "why": "sedating antihistamines matter for flying",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "acid reflux",
+        "heartburn",
+        "gerd",
+        "ppi"
+      ],
+      "expandsTo": [
+        "omeprazole",
+        "pantoprazole",
+        "esomeprazole",
+        "famotidine"
+      ],
+      "why": "class term",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "trt",
+        "testosterone replacement",
+        "low t"
+      ],
+      "expandsTo": [
+        "testosterone"
+      ],
+      "why": "'low t' IS a CACI keyword; 'TRT' is not",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "adderall",
+        "ritalin",
+        "attention deficit",
+        "adhd"
+      ],
+      "expandsTo": [
+        "adhd",
+        "methylphenidate",
+        "amphetamine"
+      ],
+      "why": "ADHD is an SI condition; stimulants are Do Not Issue",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "si",
+        "special issuance",
+        "special issuance authorization"
+      ],
+      "expandsTo": [
+        "special issuance"
+      ],
+      "why": "the core acronym",
+      "confidence": "high",
+      "weight": 1.0,
+      "navigationTarget": "specialIssuance"
+    },
+    {
+      "aliases": [
+        "aasi",
+        "authorization letter",
+        "si letter",
+        "the letter",
+        "my authorization"
+      ],
+      "expandsTo": [
+        "authorization",
+        "special issuance"
+      ],
+      "why": "Ryan 8/25 CONFIRMED real vernacular: 'I got the letter', 'waiting on the letter from OKC'. Routes to BOTH authorization and special issuance; the clearer terms stay so it is never the only trigger",
+      "confidence": "high",
+      "weight": 1.0,
+      "navigationTarget": "specialIssuance"
+    },
+    {
+      "aliases": [
+        "deferred",
+        "deferral",
+        "deferred my medical"
+      ],
+      "expandsTo": [
+        "defer"
+      ],
+      "why": "what happens when the AME cannot issue",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "8500-8",
+        "form 8500",
+        "medxpress",
+        "the medical form"
+      ],
+      "expandsTo": [
+        "8500"
+      ],
+      "why": "form-number vocabulary; the SCREEN is the answer, not a record",
+      "confidence": "high",
+      "weight": 1.0,
+      "navigationTarget": "medxpressPrep"
+    },
+    {
+      "aliases": [
+        "8700-2",
+        "cmec",
+        "basicmed form"
+      ],
+      "expandsTo": [
+        "8700",
+        "cmec"
+      ],
+      "why": "the BasicMed comprehensive exam checklist",
+      "confidence": "high",
+      "weight": 1.0,
+      "navigationTarget": "cmecPrep"
+    },
+    {
+      "aliases": [
+        "basic med",
+        "basicmed"
+      ],
+      "expandsTo": [
+        "basicmed"
+      ],
+      "why": "spacing variant",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "caci",
+        "conditions an ame can issue"
+      ],
+      "expandsTo": [
+        "caci"
+      ],
+      "why": "the acronym itself - NOTE: no record DEFINES caci",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "flight doc",
+        "flight surgeon",
+        "aeromedical examiner"
+      ],
+      "expandsTo": [],
+      "why": "Ryan 8/25: 'flight surgeon' is standard military, 'flight doc' the informal version - real for the military/former-military slice, but SECONDARY (civilian-only pilots say 'AME'). Hence weight 0.6. DROPPED bare 'ame' (247 word-boundary hits, half the corpus) and 'my doctor' (the PERSONAL physician)",
+      "confidence": "high",
+      "weight": 0.6,
+      "navigationTarget": "ameDirectory"
+    },
+    {
+      "aliases": [
+        "first class",
+        "class 1",
+        "class one"
+      ],
+      "expandsTo": [
+        "first"
+      ],
+      "why": "certificate class vocabulary",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "second class",
+        "class 2",
+        "class two"
+      ],
+      "expandsTo": [
+        "second"
+      ],
+      "why": "certificate class vocabulary",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "third class",
+        "class 3",
+        "class three"
+      ],
+      "expandsTo": [
+        "third"
+      ],
+      "why": "certificate class vocabulary",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "dui",
+        "dwi",
+        "owi",
+        "drunk driving",
+        "driving under the influence",
+        "motor vehicle action"
+      ],
+      "expandsTo": [
+        "motor vehicle action",
+        "arrest"
+      ],
+      "why": "routes to BOTH item18v AND the new 61.15 record - the whole point of adding 61.15",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "blood pressure limit",
+        "bp",
+        "bp limit",
+        "bp reading",
+        "how high is too high",
+        "155/95",
+        "blood pressure cutoff",
+        "what bp will the faa accept"
+      ],
+      "expandsTo": [
+        "blood pressure"
+      ],
+      "why": "thresholds carry the verbatim 155/95 quote. Bare 'bp' is SAFE only because matching is word-boundary - as a substring it would match every record containing 'bp' inside a word",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "overweight",
+        "obese"
+      ],
+      "expandsTo": [
+        "obesity"
+      ],
+      "why": "CACI weight-loss-management path",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "ekg",
+        "ecg",
+        "electrocardiogram",
+        "heart tracing"
+      ],
+      "expandsTo": [
+        "ekg",
+        "electrocardiogram"
+      ],
+      "why": "reg-67111 + thr-ecg",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "gout",
+        "gout attack",
+        "uric acid"
+      ],
+      "expandsTo": [
+        "allopurinol",
+        "colchicine",
+        "febuxostat"
+      ],
+      "why": "three gout drugs in the corpus, no condition-level alias",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "quit smoking",
+        "smoking cessation",
+        "chantix",
+        "nicotine patch"
+      ],
+      "expandsTo": [
+        "varenicline",
+        "nicotine",
+        "bupropion"
+      ],
+      "why": "varenicline is in the corpus; no route from the pilot's own words",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "shingles",
+        "cold sore",
+        "herpes zoster"
+      ],
+      "expandsTo": [
+        "valacyclovir",
+        "acyclovir"
+      ],
+      "why": "antivirals present, no lay route",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "colonoscopy",
+        "polyp",
+        "polyps"
+      ],
+      "expandsTo": [
+        "colon cancer",
+        "colorectal"
+      ],
+      "why": "the CACI is 'Colon Cancer / Colorectal Cancer'; pilots search the procedure",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "counseling",
+        "psychiatrist",
+        "psychologist",
+        "mental health",
+        "therapy for depression",
+        "therapy for anxiety",
+        "in therapy"
+      ],
+      "expandsTo": [
+        "mental",
+        "depression",
+        "anxiety"
+      ],
+      "why": "Ryan 8/25: BARE 'therapy' DROPPED - it is noisy (physical therapy, occupational therapy). Routes to item18-mental (18m 'Mental disorders of any sort; depression, anxiety, etc.') AND the si-ssri path, not Item 18 alone",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "eye pressure",
+        "glaucoma drops",
+        "optic nerve"
+      ],
+      "expandsTo": [
+        "glaucoma"
+      ],
+      "why": "glaucoma IS a CACI keyword; the lay descriptions are not",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "migraine shot",
+        "migraine injection",
+        "aimovig"
+      ],
+      "expandsTo": [
+        "erenumab",
+        "migraine"
+      ],
+      "why": "erenumab is in the corpus",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "thyroid pill",
+        "synthroid",
+        "underactive thyroid"
+      ],
+      "expandsTo": [
+        "levothyroxine",
+        "hypothyroid"
+      ],
+      "why": "'hypothyroid' is a CACI keyword; 'underactive thyroid' is the lay phrasing",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "license suspended",
+        "license suspension",
+        "lost my license",
+        "license revoked",
+        "administrative action",
+        "license taken"
+      ],
+      "expandsTo": [
+        "administrative",
+        "driving"
+      ],
+      "why": "question set: 'license suspended' returned basicmed-eligibility. 61.15(c) makes an administrative licence action reportable even with NO conviction - the highest-stakes miss in the set",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "passed out",
+        "fainted",
+        "blacked out",
+        "syncope",
+        "loss of consciousness"
+      ],
+      "expandsTo": [
+        "unconscious"
+      ],
+      "why": "question set: 'passed out' returned si-valve. item18-unconscious is the target",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "bmi",
+        "body mass index",
+        "bmi limit",
+        "weight requirement"
+      ],
+      "expandsTo": [
+        "bmi",
+        "pass/fail"
+      ],
+      "why": "question set: 'weight limit' returned weight-LOSS medications by name. thr-weight-bmi says the FAA sets no such limit, which is the useful answer",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "weight limit",
+        "is there a weight limit",
+        "too heavy",
+        "max weight"
+      ],
+      "expandsTo": [
+        "bmi",
+        "pass/fail"
+      ],
+      "why": "Ryan 8/25: 'weight limit' is generic, so it is LOW-WEIGHTED rather than dropped - the precise terms (bmi, body mass index, weight requirement) carry full weight in the entry above",
+      "confidence": "high",
+      "weight": 0.6
+    },
+    {
+      "aliases": [
+        "okc",
+        "oklahoma city",
+        "where do I send it",
+        "where do I mail it",
+        "mail my paperwork",
+        "send my paperwork",
+        "aeromedical certification division",
+        "amcd"
+      ],
+      "expandsTo": [
+        "oklahoma city"
+      ],
+      "why": "Ryan 8/25. Exposed that faa_submission_addresses (2 records) was never indexed - it is the literal answer to 'where do I mail my SI paperwork'",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "deferred",
+        "deferral",
+        "deferred my medical",
+        "he deferred me",
+        "sent to okc"
+      ],
+      "expandsTo": [
+        "deferral"
+      ],
+      "why": "Ryan 8/25. Expands to 'deferral' (9 records), NOT 'defer' (65) - the shorter stem is a weak discriminator",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "stress test",
+        "treadmill",
+        "exercise test",
+        "nuclear stress test",
+        "functional test"
+      ],
+      "expandsTo": [
+        "stress test"
+      ],
+      "why": "Ryan 8/25. 10 records; 'treadmill' is alias-only, which is fine - aliases never need to exist in the corpus, only expansions do",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "sleep machine",
+        "the mask",
+        "sleep study",
+        "apnea machine"
+      ],
+      "expandsTo": [
+        "cpap"
+      ],
+      "why": "Ryan 8/25. 'cpap' is a superb discriminator - exactly 2 records",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the heart question",
+        "heart question",
+        "heart or vascular"
+      ],
+      "expandsTo": [
+        "vascular"
+      ],
+      "why": "18g",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the mental health question",
+        "mental health question",
+        "the depression question"
+      ],
+      "expandsTo": [
+        "mental disorders"
+      ],
+      "why": "18m",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the blood pressure question",
+        "the bp question"
+      ],
+      "expandsTo": [
+        "high or low blood pressure"
+      ],
+      "why": "18h",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the eye question",
+        "the vision question"
+      ],
+      "expandsTo": [
+        "vision trouble"
+      ],
+      "why": "18d",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the drinking question",
+        "the alcohol question"
+      ],
+      "expandsTo": [
+        "alcohol dependence"
+      ],
+      "why": "18o",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "the drug question",
+        "the substance question",
+        "failed a drug test"
+      ],
+      "expandsTo": [
+        "substance dependence"
+      ],
+      "why": "18n",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "hands shake",
+        "my hands shake",
+        "shaky hands",
+        "hand tremor",
+        "shaking"
+      ],
+      "expandsTo": [
+        "tremor"
+      ],
+      "why": "question set: 'my hands shake, is there a CACI for that' returned nothing",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "out of rhythm",
+        "heart goes out of rhythm",
+        "irregular rhythm",
+        "skips beats",
+        "flutter"
+      ],
+      "expandsTo": [
+        "atrial fibrillation"
+      ],
+      "why": "question set: returned si-valve",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "letter from my cardiologist",
+        "letter from my doctor",
+        "specialist letter",
+        "note from my doctor",
+        "cardiologist letter"
+      ],
+      "expandsTo": [
+        "physician letter",
+        "specialist"
+      ],
+      "why": "question set: 'do I need a letter from my cardiologist' returned nothing",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "what can I fly",
+        "what am I allowed to fly",
+        "aircraft I can fly",
+        "how big an airplane"
+      ],
+      "expandsTo": [
+        "operating limits"
+      ],
+      "why": "question set: returned basicmed-overview instead of operating-limits",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "echocardiogram",
+        "echo",
+        "heart ultrasound"
+      ],
+      "expandsTo": [
+        "echocardiogram"
+      ],
+      "why": "held-out gap",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "therapist",
+        "saw a therapist",
+        "seeing a therapist"
+      ],
+      "expandsTo": [
+        "mental"
+      ],
+      "why": "held-out gap",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "how much I weigh",
+        "how much do I weigh",
+        "my weight"
+      ],
+      "expandsTo": [
+        "bmi"
+      ],
+      "why": "held-out gap",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "soda",
+        "statement of demonstrated ability",
+        "does a soda expire",
+        "static condition",
+        "nonprogressive",
+        "the soda"
+      ],
+      "expandsTo": [
+        "demonstrated ability"
+      ],
+      "why": "the SODA record now exists, so the alias finally has a target (it was correctly REFUSED on 2026-08-25 when the corpus had zero records - see plan 14.5)",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "what is a caci",
+        "what does caci stand for",
+        "conditions ames can issue",
+        "can my ame issue on the first exam",
+        "regular issue"
+      ],
+      "expandsTo": [
+        "conditions ames can issue"
+      ],
+      "why": "the CACI definition record now exists; this was the gap that killed a proposed starter chip",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "audiometry",
+        "audiometric",
+        "audiogram",
+        "pure tone",
+        "conversational voice",
+        "speech discrimination",
+        "hearing test",
+        "hearing standard"
+      ],
+      "expandsTo": [
+        "audiometry",
+        "acceptable hearing"
+      ],
+      "why": "hearing had ZERO records before today",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "color vision",
+        "colour vision",
+        "color blind",
+        "color blindness",
+        "perceive colors",
+        "ishihara",
+        "loe",
+        "letter of evidence",
+        "limitation 104",
+        "limitation #104",
+        "day vfr only"
+      ],
+      "expandsTo": [
+        "perceive those colors"
+      ],
+      "why": "colour vision had ZERO records before today",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "glasses",
+        "contact lenses",
+        "corrective lenses",
+        "visual acuity",
+        "20/20",
+        "20/40"
+      ],
+      "expandsTo": [
+        "corrective lenses"
+      ],
+      "why": "the acuity standard, distinct from item18-vision's disclosure question",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "appeal",
+        "appeal a denial",
+        "reconsideration",
+        "denied my medical",
+        "turned me down",
+        "deferred my exam",
+        "what does deferred mean"
+      ],
+      "expandsTo": [
+        "reconsideration",
+        "denial"
+      ],
+      "why": "the deferral/denial record now exists",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "faa security",
+        "civil aviation security",
+        "amc-700",
+        "security division"
+      ],
+      "expandsTo": [
+        "civil aviation security"
+      ],
+      "why": "routes DUI questions to 61.15, not only item18v",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "aneurysm",
+        "brain aneurysm",
+        "cerebral aneurysm",
+        "intracranial aneurysm",
+        "coiling",
+        "coiled",
+        "clipping",
+        "clipped",
+        "brain bleed",
+        "subarachnoid",
+        "subarachnoid hemorrhage",
+        "sah",
+        "craniotomy"
+      ],
+      "expandsTo": [
+        "brain aneurysm"
+      ],
+      "why": "si_conditions gains a Brain Aneurysm card 2026-09-02; pilots say aneurysm, coiling, clipping and brain bleed, none of which matched anything before",
+      "confidence": "high",
+      "weight": 1.0
+    }
+  ]
+}

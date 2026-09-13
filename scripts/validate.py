@@ -44,8 +44,60 @@ manifest = load("manifest.json") or {}
 
 # Envelope + uniqueness checks per content file
 all_codes_by_file: dict[str, set[str]] = {}
+# 🔤 search_synonyms.json IS AN OBJECT, NOT AN ARRAY, AND MUST STAY ONE (2026-09-13).
+#
+# The app decodes it as `SearchSynonyms { schemaVersion: Int, entries: [Entry] }`
+# (Reference/Search/SearchSynonyms.swift), so "fixing" it into an array to satisfy the loop
+# below would break search on every installed build. It only became a CDN file on 2026-09-13
+# (first publish, for the SODA and color vision aliases); before that it lived in the app
+# bundle alone and this validator never saw it.
+#
+# ⚖️ WHY THIS IS CHECKED RATHER THAN SKIPPED. The loader reads it with
+# `decodeCache(...) ?? searchSynonyms`, so a file that fails to decode does not crash - it is
+# SILENTLY IGNORED and every device keeps its bundled synonyms. A malformed publish would look
+# live and do nothing. So the shape the decoder requires is asserted here, field by field.
+SYNONYMS_FILE = "search_synonyms.json"
+
+
+def synonym_shape_errors(data) -> list[str]:
+    """Everything that would stop SearchSynonyms from decoding, or make an entry inert."""
+    errs: list[str] = []
+    if not isinstance(data, dict):
+        return [f"{SYNONYMS_FILE}: top-level must be an object (the app decodes SearchSynonyms)"]
+    if not isinstance(data.get("schemaVersion"), int) or isinstance(data.get("schemaVersion"), bool):
+        errs.append(f"{SYNONYMS_FILE}: schemaVersion must be an integer")
+    entries = data.get("entries")
+    if not isinstance(entries, list) or not entries:
+        return errs + [f"{SYNONYMS_FILE}: entries must be a non-empty array"]
+    for i, e in enumerate(entries):
+        where = f"{SYNONYMS_FILE}: entries[{i}]"
+        if not isinstance(e, dict):
+            errs.append(f"{where} must be an object"); continue
+        aliases, expands = e.get("aliases"), e.get("expandsTo")
+        if not isinstance(aliases, list) or not aliases or not all(isinstance(x, str) and x.strip() for x in aliases):
+            errs.append(f"{where}.aliases must be a non-empty array of non-empty strings")
+        # expandsTo may be EMPTY: a navigation-only alias ("flight surgeon" -> AME Directory)
+        # legitimately expands to nothing. First draft of this check demanded non-empty and
+        # failed the real, live file on exactly that entry. What is actually wrong is an entry
+        # that does NOTHING: no expansion and no navigationTarget.
+        if not isinstance(expands, list) or not all(isinstance(x, str) and x.strip() for x in expands):
+            errs.append(f"{where}.expandsTo must be an array of non-empty strings")
+        elif not expands and not e.get("navigationTarget"):
+            errs.append(f"{where} is inert: empty expandsTo and no navigationTarget")
+        for key in ("why", "confidence", "navigationTarget"):
+            if key in e and e[key] is not None and not isinstance(e[key], str):
+                errs.append(f"{where}.{key} must be a string when present")
+        if "weight" in e and e["weight"] is not None and (
+                isinstance(e["weight"], bool) or not isinstance(e["weight"], (int, float))):
+            errs.append(f"{where}.weight must be a number when present")
+    return errs
+
+
 for name, data in loaded.items():
     if data is None: continue
+    if name == SYNONYMS_FILE:
+        errors.extend(synonym_shape_errors(data))
+        continue
     if not isinstance(data, list):
         errors.append(f"{name}: top-level must be a JSON array")
         continue

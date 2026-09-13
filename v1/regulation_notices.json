@@ -1,0 +1,146 @@
+[
+  {
+    "envelope": {
+      "code": "reg-67103-color-vision",
+      "sourceCitation": "14 CFR 67.103(c), 67.203(c), 67.303(c); AME Guide Item 52, Color Vision Screening Steps; AME Guide, Acceptable Color Vision Tests for Pilots; FAA Color Vision FAQs (Updated 08/27/2025); Medical Certificate Limitations (Updated 12/12/2024); FAA Color Vision flowchart (Updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item52/amd",
+      "lastVerified": "2026-09-13T16:26:12Z",
+      "contentVersion": "2026-09-13"
+    },
+    "cardTitle": "FAA color vision testing (2025)",
+    "iconSystemName": "eye",
+    "body": "The color vision standard is the same for all three classes. Under 14 CFR 67.103(c), 67.203(c) and 67.303(c), the standard is the \"Ability to perceive those colors necessary for the safe performance of airman duties.\"\n\nHow the FAA tests it changed on January 1, 2025. The FAA Guide for Aviation Medical Examiners (Item 52) states: \"Testing frequency will change to a one-time color vision deficiency screening.\" The FAA's acceptable tests page for pilots states: \"Testing must be performed in person. Virtual testing, downloaded, or printed versions of color vision tests are prohibited.\" The tests it lists are the Colour Assessment & Diagnosis (CAD) test, the Rabin Cone Test (RCCT) and the Waggoner Computerized Color Vision Test.\n\nWho is tested. The FAA Color Vision FAQs (Updated 08/27/2025) state: \"The AME only needs to test NEW pilots, those with a limitation 16 or 17 who want it removed, or those with a current LOE or SODA who want to upgrade.\" Item 52 separately covers \"a returning pilot who historically passed any previously FAA-approved color vision test\" and says that for all classes, a computer-based screening test is not required.\n\nIf a first-time applicant cannot pass any of the acceptable tests, Item 52 instructs the AME to \"ISSUE a 3rd Class medical certificate (if otherwise qualified)\" and to add limitation #104, which reads \"Valid for day visual flight rules (VFR) only.\" It continues: \"If the individual requests an upgrade to 1st or 2nd class, they should appeal to the Federal Air Surgeon.\"\n\nA pilot who already holds a color vision SODA or Letter of Evidence (LOE) is handled differently. For a 3rd class SODA or LOE holder who wants to keep 3rd class, Item 52 states: \"Does not need computer test. Issue 3rd class certificate with no color vision limitation (if otherwise qualified).\" For a pilot who holds a 1st or 2nd class LOE or SODA, it states: \"Does not need computer test.\" The FAQs add: \"Whatever the individual has walking into the AME's office (e.g., LOE, restricted certificate/any class, unrestricted, failed) is what they will walk out with, unless they take a new color test.\"\n\nA third-class SODA or LOE holder who takes a 2025 computer test to upgrade and does not pass: Item 52 screening steps (page last updated 08/27/2025) say issue limitation #104. The color vision flowchart dated 09/24/2025 says keep the previous limitation. The FAA pages differ. Confirm with your AME which instruction they are using.\n\nFor what a SODA is, see the Statement of Demonstrated Ability (SODA) record.",
+    "links": [
+      {
+        "title": "AME Guide Item 52: Color Vision Screening Steps",
+        "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item52/amd"
+      },
+      {
+        "title": "AME Guide: Acceptable Color Vision Tests for Pilots",
+        "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item52/et"
+      },
+      {
+        "title": "FAA Color Vision FAQs (PDF)",
+        "url": "https://www.faa.gov/ame_guide/media/Color_Vision_FAQS.pdf"
+      },
+      {
+        "title": "Medical Certificate Limitations (PDF)",
+        "url": "https://www.faa.gov/ame_guide/media/Medical_Certificate_Limitations.pdf"
+      },
+      {
+        "title": "FAA Color Vision Testing Flowchart (PDF)",
+        "url": "https://www.faa.gov/ame_guide/media/Color_Vision_Testing_Flowchart.pdf"
+      },
+      {
+        "title": "14 CFR 67.103 - Eye (first class)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.103"
+      }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "reg-67105-hearing",
+      "sourceCitation": "14 CFR 67.105(a), 67.205(a), 67.305(a)",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.105",
+      "lastVerified": "2026-08-25T00:00:00Z",
+      "contentVersion": "2026-08-25"
+    },
+    "cardTitle": "Hearing - three ways to meet the standard",
+    "iconSystemName": "ear",
+    "body": "The hearing standard is identical for all three classes of medical certificate, and it offers three alternatives. Under 14 CFR 67.105(a) (first class), 67.205(a) (second class) and 67.305(a) (third class), \"The person shall demonstrate acceptable hearing by at least one of the following tests\".\n\nThe first is a conversational voice test: \"Demonstrate an ability to hear an average conversational voice in a quiet room, using both ears, at a distance of 6 feet from the examiner, with the back turned to the examiner.\"\n\nThe second is speech discrimination: \"Demonstrate an acceptable understanding of speech as determined by audiometric speech discrimination testing to a score of at least 70 percent obtained in one ear or in a sound field environment.\"\n\nThe third is pure tone audiometry, measured against a table of worst acceptable thresholds. At 500, 1000, 2000 and 3000 Hz the better ear may not exceed 35, 30, 30 and 40 dB, and the poorer ear may not exceed 35, 50, 50 and 60 dB. These figures are identical across all three classes.\n\nMeeting any one of the three satisfies the standard. The same sections also require no disease or condition of the middle or internal ear, nose, oral cavity, pharynx or larynx that interferes with, or is aggravated by, flying, or that interferes with clear and effective speech communication, and no condition manifested by vertigo or a disturbance of equilibrium.",
+    "links": [
+      {
+        "title": "14 CFR 67.105 - Ear, nose, throat, and equilibrium (first class)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.105"
+      },
+      {
+        "title": "14 CFR 67.305 - Ear, nose, throat, and equilibrium (third class)",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-D/section-67.305"
+      }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "reg-67401-soda",
+      "sourceCitation": "14 CFR 67.401(a), (b), (d), (f), (i); FAA Guide for Aviation Medical Examiners, Statement of Demonstrated Ability (SODA) and Items 23-24",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401",
+      "lastVerified": "2026-09-13T16:26:12Z",
+      "contentVersion": "2026-09-13"
+    },
+    "cardTitle": "Statement of Demonstrated Ability (SODA)",
+    "iconSystemName": "checkmark.seal",
+    "body": "Under 14 CFR 67.401(b), \"At the discretion of the Federal Air Surgeon, a Statement of Demonstrated Ability (SODA) may be granted, instead of an Authorization, to a person whose disqualifying condition is static or nonprogressive and who has been found capable of performing airman duties without endangering public safety. A SODA does not expire and authorizes a designated aviation medical examiner to issue a medical certificate of a specified class if the examiner finds that the condition described on its face has not adversely changed.\"\n\nThe SODA names the class. Under 14 CFR 67.401(d), \"In granting an Authorization or SODA under this section, the Federal Air Surgeon specifies the class of medical certificate authorized to be issued\". The FAA Guide for Aviation Medical Examiners (Items 23-24) states: \"The Examiner must take special care not to issue a medical certificate of a higher class than that specified on the face of the SODA even if the applicant appears to be otherwise medically qualified.\"\n\nA SODA does not expire, but it can be withdrawn. Under 14 CFR 67.401(f), \"An Authorization or SODA granted under the provisions of this section to a person who does not meet the applicable provisions of subparts B, C, or D of this part may be withdrawn, at the discretion of the Federal Air Surgeon, at any time if\" (1) \"There is adverse change in the holder's medical condition\"; (2) \"The holder fails to comply with a statement of functional limitations or operational limitations issued as a condition of certification under this section\"; (3) \"Public safety would be endangered by the holder's exercise of airman privileges\"; (4) \"The holder fails to provide medical information reasonably needed by the Federal Air Surgeon for certification under this section\"; or (5) \"The holder makes or causes to be made a statement that is the basis for withdrawal of an Authorization, including a SODA, under subpart D of part 3 of this chapter.\"\n\nIf that happens, 14 CFR 67.401(i) sets out the procedure. The holder \"will be served a letter of withdrawal, stating the reason for the action.\" Then, \"By not later than 60 days after the service of the letter of withdrawal, the holder of the Authorization or SODA may request, in writing, that the Federal Air Surgeon provide for review of the decision to withdraw. The request for review may be accompanied by supporting medical evidence.\" A written final decision affirming or reversing the withdrawal is issued \"Within 60 days of receipt of a request for review\". A medical certificate rendered invalid by a withdrawal \"shall be surrendered to the Administrator upon request.\"\n\nAn Authorization is different on the point of time. Under 14 CFR 67.401(a), an Authorization is \"valid for a specified period\".\n\nColor vision is handled separately. See the FAA color vision testing (2025) record.",
+    "links": [
+      {
+        "title": "14 CFR 67.401",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401"
+      },
+      {
+        "title": "AME Guide: Statement of Demonstrated Ability (SODA)",
+        "url": "https://www.faa.gov/ame_guide/app_process/general/appeals/soda"
+      },
+      {
+        "title": "AME Guide: Items 23-24, SODA and SODA Serial Number",
+        "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item23-24"
+      }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "caci-overview",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners - CACI Conditions",
+      "sourceURL": "https://www.faa.gov/ame_guide/certification_ws",
+      "lastVerified": "2026-08-25T00:00:00Z",
+      "contentVersion": "2026-08-25"
+    },
+    "cardTitle": "What a CACI is",
+    "iconSystemName": "list.clipboard",
+    "body": "CACI stands for Conditions AMEs Can Issue. The FAA describes it this way: \"Conditions AMEs Can Issue (CACI) is a series of conditions which allow AMEs to regular issue if the applicant meets the parameters of the CACI Condition Worksheet. The worksheets provide detailed instructions to the examiner and outline condition-specific requirements for the applicant.\"\n\nThe practical consequence is that a CACI condition does not automatically mean a Special Issuance. The FAA states that \"If all the CACI criteria are met and the applicant is otherwise qualified, the AME may issue on the first exam or the first time the condition is reported to the AME without contacting AMCD/RFS.\"\n\nYour supporting documents stay with the examiner in that case. The FAA instructs the AME to \"Document the appropriate notes in Block 60 and keep the supporting documents in your files; they do not need to be submitted to the FAA at this time.\"\n\nIf the criteria are not met, the path changes: \"If the requirements are not met, the AME must defer the exam and send the supporting documents to the FAA.\"\n\nThe FAA also directs the examiner to \"Review the disposition table BEFORE the CACI worksheet to verify a CACI is required.\" There are 29 published CACI condition worksheets.",
+    "links": [
+      {
+        "title": "FAA Guide for AMEs - CACI Conditions and worksheets",
+        "url": "https://www.faa.gov/ame_guide/certification_ws"
+      }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "reg-67409-deferral-denial",
+      "sourceCitation": "14 CFR 67.407, 14 CFR 67.409; FAA Guide for Aviation Medical Examiners - CACI Conditions",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.409",
+      "lastVerified": "2026-08-25T00:00:00Z",
+      "contentVersion": "2026-08-25"
+    },
+    "cardTitle": "Deferred or denied - what each one means",
+    "iconSystemName": "arrow.triangle.branch",
+    "body": "Deferral and denial are not the same thing, and only one of them starts a clock.\n\nA deferral means your AME did not decide. The FAA instructs examiners that \"If the requirements are not met, the AME must defer the exam and send the supporting documents to the FAA.\" Your application goes to the FAA for a decision. Your AME holds delegated authority to issue, renew and deny certificates under 14 CFR 67.407(b), and a deferral is that examiner declining to exercise it on the information in front of them.\n\nA denial is a decision, and it carries a deadline. Under 14 CFR 67.409(a), a person denied a medical certificate by an AME may, \"within 30 days after the date of the denial, apply in writing to the Federal Air Surgeon, Attention: Manager, Aeromedical Certification Division, AAM-300, Federal Aviation Administration, P.O. Box 25082, Oklahoma City, Oklahoma 73126, for reconsideration of that denial.\" The same paragraph adds the consequence of missing it: \"If the person does not ask for reconsideration during the 30-day period after the date of the denial, he or she is considered to have withdrawn the application for a medical certificate.\"\n\nA denial by an AME is also not the last word. Under 14 CFR 67.409(b)(1), denial by an aviation medical examiner \"is not a denial by the Administrator under 49 U.S.C. 44703.\" Reconsideration authority sits with the Federal Air Surgeon, the Manager of the Aeromedical Certification Division, and each Regional Flight Surgeon (14 CFR 67.407(c)).\n\nOn timing, we will not give you a number. The FAA does not publish a guaranteed processing time for a deferred application, and any figure we printed here would be an estimate dressed up as a rule. What the regulation does fix is the 30-day reconsideration window after a denial, which is a deadline that runs against you rather than a wait that runs for you.",
+    "links": [
+      {
+        "title": "14 CFR 67.409 - Denial of medical certificate",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.409"
+      },
+      {
+        "title": "14 CFR 67.407 - Delegation of authority",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.407"
+      }
+    ]
+  },
+  {
+    "envelope": {
+      "code": "reg-6115-motor-vehicle-action",
+      "sourceCitation": "14 CFR 61.15",
+      "sourceURL": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15",
+      "lastVerified": "2026-08-25T00:00:00Z",
+      "contentVersion": "2026-08-25"
+    },
+    "cardTitle": "Motor vehicle actions - a separate 60-day report to the FAA",
+    "iconSystemName": "car",
+    "body": "A DUI or other alcohol- or drug-related driving incident creates a reporting obligation that is separate from your medical application. Under 14 CFR 61.15(e), \"Each person holding a certificate issued under this part shall provide a written report of each motor vehicle action to the FAA, Civil Aviation Security Division (AMC-700), P.O. Box 25810, Oklahoma City, OK 73125, not later than 60 days after the motor vehicle action.\" The regulation specifies this mailing address. Check current FAA guidance for any additional accepted submission methods.\n\nWhat counts as a \"motor vehicle action\" is broader than a conviction. 14 CFR 61.15(c) defines it to include a conviction for operating a motor vehicle while intoxicated by, impaired by, or under the influence of alcohol or a drug; the cancellation, suspension, or revocation of a license to operate a motor vehicle for such a cause; and the denial of an application for such a license for such a cause. An administrative action against your driving privileges can therefore be a reportable motor vehicle action even where there is no conviction.\n\nThe report must include your name, address, date of birth, and airman certificate number; the type of violation that resulted in the conviction or administrative action; its date; the State holding the record; and a statement of whether it arose from the same incident or the same factual circumstances as a previously reported motor vehicle action (14 CFR 61.15(e)(1) through (5)).\n\nUnder 14 CFR 61.15(f), failure to comply with the reporting requirement is itself grounds for denial of an application for up to 1 year, or for suspension or revocation of any certificate. Separately, under 14 CFR 61.15(d), a motor vehicle action occurring within 3 years of a previous one is grounds for the same.\n\n14 CFR 61.15 also addresses drug offenses generally, and acts prohibited by 14 CFR 91.17(a) and 91.19(a). Those are grounds for denial, suspension, or revocation, but they do not carry the 60-day reporting requirement described above.\n\nThis is the certificate-side obligation. Your FAA medical application asks its own separate question about arrests, convictions, and administrative actions - see Item 18(v).",
+    "links": [
+      {
+        "title": "14 CFR 61.15 - offenses involving alcohol or drugs",
+        "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15"
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-09-13",
-  "generatedAt": "2026-09-13T12:00:00Z",
+  "contentVersion": "2026-09-13.1",
+  "generatedAt": "2026-09-13T16:26:13Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -38,9 +38,19 @@
       "checksum": "0c0135e3b018fe3abe63a60cb5a8bf10cc87576a733352261aca13f2b7bd50be"
     },
     {
+      "filename": "regulation_notices.json",
+      "size": 18011,
+      "checksum": "89862a1bd8750b8e51af12110fd3cd248fd2c84d49613951674bb905e9fb93df"
+    },
+    {
       "filename": "regulation_requirements.json",
       "size": 3277,
       "checksum": "8395622a888f621597695abc8a674fbe8ca85d51911918e993b9a9d919ade442"
+    },
+    {
+      "filename": "search_synonyms.json",
+      "size": 30442,
+      "checksum": "f1e633d23f7acff8498ebec262f2ac48e50ff0afdb4036cf19716eeb26f160b8"
     },
     {
       "filename": "si_conditions.json",
