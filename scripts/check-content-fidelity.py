@@ -291,6 +291,38 @@ def fetch(url: str, cache: Path) -> str | None:
 LINK_RE = re.compile(rb'href=["\']([^"\']+)["\']', re.I)
 MAX_LINKED_DOCS = 25
 
+# 🔗 THE ENTRY'S OWN `links[]` ARE DOCUMENTS IT CITES (added 2026-09-13, Ryan's call).
+#
+# `sourceURL` is single-valued, and a `RegulationNotice` legitimately stands on more than one
+# document: the SODA card quotes 14 CFR 67.401 AND the AME Guide's Items 23-24 higher-class
+# sentence; the color vision card quotes 67.103(c) AND Item 52. Both cards name every document
+# in `sourceCitation` and hand the pilot each one as a tappable link. Until this tier existed
+# the gate could not see either second document (nothing else in the project cites it, and
+# eCFR links to no faa.gov page), so it reported two quotations as MISSING that a direct fetch
+# showed were verbatim.
+#
+# ⚖️ WHY THIS IS NOT A LOOSENING. The two alternatives were worse. Re-pointing `sourceURL`
+# turns one accurate quote into a false one (the phentermine/[Adipex] case above). Adding the
+# spans to the baseline freezes them: nothing re-checks a banked finding, so an FAA edit to
+# Items 23-24 would go unnoticed forever. This tier keeps both sentences under test on every
+# run, against the document the pilot is actually shown.
+#
+# 🚧 THE BOUND: faa.gov and ecfr.gov only. An entry linking to anyone else (AOPA, a law firm,
+# a forum) gains nothing from that link; a quote still has to be the FAA's words. The
+# resolver controls in `_selftest` prove a fabricated sentence, a real sentence from a document
+# the entry does NOT link, and a real sentence behind a non-FAA link all still FAIL.
+OWN_LINK_HOSTS = ("https://www.faa.gov/", "https://www.ecfr.gov/")
+
+
+def own_link_urls(entry: dict) -> list[str]:
+    """FAA documents an entry cites through its own `links[]`, in order, deduped, host-bounded."""
+    out: list[str] = []
+    for link in (entry.get("links") or []):
+        u = ((link or {}).get("url") or "").strip()
+        if u.startswith(OWN_LINK_HOSTS) and u not in out:
+            out.append(u)
+    return out
+
 # Extracted text, memoized per process. The disk cache saves the DOWNLOAD; this saves the
 # pdfplumber EXTRACTION, which is the slow half and which tier 3 would otherwise repeat
 # across every entry that reaches it.
@@ -341,11 +373,13 @@ def in_source(needle: str, hay: str) -> bool:
 
 
 def resolve_span(needle: str, cited_url: str, cited_text: str,
-                 all_source_urls: list[str], cache: Path):
+                 all_source_urls: list[str], cache: Path, own_links: list[str] = ()):
     """(True, where) if `needle` is verbatim in an FAA document this project stands behind.
 
     Three tiers, cheapest first, each paid for only if the one before missed:
       1. the CITED document                 -> silent pass
+     1b. a document the ENTRY's own links[] -> silent pass (it cites them; see OWN_LINK_HOSTS)
+         names, faa.gov / ecfr.gov only
       2. a document the cited one LINKS TO  -> pass, plus a citation warning
       3. any other document our own content -> pass, plus a citation warning
          cites as a `sourceURL`
@@ -367,6 +401,12 @@ def resolve_span(needle: str, cited_url: str, cited_text: str,
     """
     if in_source(needle, cited_text):
         return True, cited_url
+    for link in own_links:
+        if link == cited_url or not link.startswith(OWN_LINK_HOSTS):
+            continue
+        text = text_of(link, cache)
+        if text and len(text) >= 200 and in_source(needle, text):
+            return True, link
     for link, text in linked_corpus(cited_url, cache):
         if in_source(needle, text):
             return True, link
@@ -487,12 +527,70 @@ def _selftest() -> int:
             fails.append(f"the key MERGES entries in the live baseline "
                          f"({len(set(banked))} entries -> {len({fkey(x) for x in banked})} keys)")
 
+    # ── RESOLVER CONTROLS FOR THE OWN-LINKS TIER (2026-09-13) ──────────────────────────────
+    # Offline on purpose: fixture documents are injected into the extraction memo, so this runs
+    # in CI with no network and cannot pass because a real FAA page happened to be reachable.
+    # 🚨 The controls call `resolve_span` itself - the ONE definition - never a re-derived copy.
+    global _WIDER
+    saved = (dict(_TEXT), dict(_LINKED), _WIDER)
+    try:
+        CITED = "https://www.ecfr.gov/selftest/cited-regulation"
+        OWN = "https://www.faa.gov/selftest/entry-own-link"
+        UNLINKED = "https://www.faa.gov/selftest/document-the-entry-never-links"
+        OFFHOST = "https://www.example.org/selftest/not-an-faa-document"
+        filler = (" This fixture paragraph exists only so the extraction clears the readability"
+                  " floor that real documents must clear, with enough ordinary vocabulary to be"
+                  " unmistakably prose rather than a blank page or an error screen.")
+        cited_text = norm("A SODA does not expire and names a class." + filler)
+        _TEXT[OWN] = norm("The Examiner must take special care not to issue a medical certificate"
+                          " of a higher class than that specified on the face of the SODA." + filler)
+        _TEXT[UNLINKED] = norm("This sentence is genuinely present, but only in a document the entry"
+                               " never links to." + filler)
+        _TEXT[OFFHOST] = norm("An outside website repeats a rule in its own words." + filler)
+        _LINKED[CITED] = []          # tier 2: no network
+        _WIDER = []                  # tier 3: no network
+
+        def r(needle, own):
+            return resolve_span(needle, CITED, cited_text, [], Path("/nonexistent"), own)
+
+        real = "The Examiner must take special care not to issue a medical certificate of a higher class"
+
+        # KNOWN-GOOD: a verbatim sentence that lives only in the entry's own FAA link passes,
+        # and says WHERE it was found.
+        if r(real, [OWN]) != (True, OWN):
+            fails.append("own-links tier: a verbatim quote in the entry's own FAA link did not pass")
+
+        # KNOWN-BAD (discrimination): the SAME sentence with the link removed must fail. Without
+        # this, the pass above could be coming from any tier and would prove nothing.
+        if r(real, [])[0]:
+            fails.append("own-links tier: a quote passed with NO own link, so the tier is not what passed it")
+
+        # KNOWN-BAD (Ryan's must-fail sentence): fabricated wording, own link present.
+        if r("The Examiner may issue a higher class than the SODA when the pilot asks", [OWN])[0]:
+            fails.append("own-links tier is a RUBBER STAMP: a fabricated sentence passed")
+
+        # KNOWN-BAD: a real sentence from a document the entry does NOT link still fails.
+        if r("This sentence is genuinely present, but only in a document the entry never links to",
+             [OWN])[0]:
+            fails.append("own-links tier widened to documents the entry never cites")
+
+        # KNOWN-BAD: a link to a non-FAA host confers nothing, at the resolver AND the helper.
+        if r("An outside website repeats a rule in its own words", [OFFHOST])[0]:
+            fails.append("own-links tier accepted a quote from a non-FAA host")
+        if own_link_urls({"links": [{"url": OFFHOST}, {"url": OWN}, {"url": OWN}]}) != [OWN]:
+            fails.append("own_link_urls did not drop the non-FAA host and dedupe")
+    finally:
+        _TEXT.clear(); _TEXT.update(saved[0])
+        _LINKED.clear(); _LINKED.update(saved[1])
+        _WIDER = saved[2]
+
     if fails:
         print("❌ fidelity selftest FAILED:")
         for f in fails:
             print(f"   - {f}")
         return 1
-    print("✅ fidelity selftest passed (1 known-good, 3 known-bad)")
+    print("✅ fidelity selftest passed (baseline key: 1 known-good, 3 known-bad; "
+          "own-links resolver: 1 known-good, 5 known-bad)")
     return 0
 
 
@@ -592,8 +690,10 @@ def main() -> int:
             # reach this, so the common path costs exactly what it did before.
             # Resolution is `resolve_span` at module level; both this and the control
             # harness call that one definition.
+            own = own_link_urls(entry)
+
             def resolve(needle: str):
-                return resolve_span(needle, url, src, all_source_urls, args.cache)
+                return resolve_span(needle, url, src, all_source_urls, args.cache, own)
 
             for frag in spans:
                 checked += 1
@@ -602,7 +702,7 @@ def main() -> int:
                     # Worth surfacing but NOT a failure: the quote is genuinely the FAA's and
                     # the prose names the document, but the one clickable link a pilot gets
                     # points somewhere else. An enrichment backlog, not a defect.
-                    if where != url:
+                    if where != url and where not in own:
                         citations.append(f"{name} :: {code}: quote is verbatim FAA text but lives "
                                          f"in a document the entry does not cite\n"
                                          f"        found in: {where}\n"
