@@ -296,7 +296,7 @@ MAX_LINKED_DOCS = 25
 # `sourceURL` is single-valued, and a `RegulationNotice` legitimately stands on more than one
 # document: the SODA card quotes 14 CFR 67.401 AND the AME Guide's Items 23-24 higher-class
 # sentence; the color vision card quotes 67.103(c) AND Item 52. Both cards name every document
-# in `sourceCitation` and hand the pilot each one as a tappable link. Until this tier existed
+# in `sourceCitation` and declare each one in `links[]`. Until this tier existed
 # the gate could not see either second document (nothing else in the project cites it, and
 # eCFR links to no faa.gov page), so it reported two quotations as MISSING that a direct fetch
 # showed were verbatim.
@@ -306,6 +306,13 @@ MAX_LINKED_DOCS = 25
 # spans to the baseline freezes them: nothing re-checks a banked finding, so an FAA edit to
 # Items 23-24 would go unnoticed forever. This tier keeps both sentences under test on every
 # run, against the document the pilot is actually shown.
+#
+# ⚠️ CORRECTED 2026-09-13, SAME DAY: this block first said the cards "hand the pilot each one
+# as a tappable link". THEY DO NOT. Measured on the shipped 2.2.4 build: the Reference detail view
+# renders exactly ONE tap-through, `sourceURL` ("View the FAA source"), and no view in the app
+# reads `RegulationNotice.links` (the only `.links` reader is BasicMedReferenceView, a different
+# type). The tier is still right, on the narrower ground that `links[]` is the record's own
+# declaration of what it quotes. It is NOT evidence of what a pilot can open.
 #
 # 🚧 THE BOUND: faa.gov and ecfr.gov only. An entry linking to anyone else (AOPA, a law firm,
 # a forum) gains nothing from that link; a quote still has to be the FAA's words. The
