@@ -1,8 +1,8 @@
 {
  "_comment": "What the FAA itself says it last changed each page we cite. Compared weekly by scripts/check-source-freshness.py. NOT shipped content: this lives outside v1/, so it never enters the manifest or reaches a device.",
- "updated": "2026-09-01T11:17:21Z",
- "watchedPages": 65,
- "undatedPages": 71,
+ "updated": "2026-09-14T21:01:35Z",
+ "watchedPages": 69,
+ "undatedPages": 81,
  "sources": {
   "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/section-61.113": {
    "faaLastUpdated": null,
@@ -11,6 +11,15 @@
     "basicmed_requirements.json": [
      "basicmed-operating-limits",
      "basicmed-overview"
+    ]
+   }
+  },
+  "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "reg-6115-motor-vehicle-action"
     ]
    }
   },
@@ -35,12 +44,39 @@
     ]
    }
   },
+  "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.105": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "reg-67105-hearing"
+    ]
+   }
+  },
   "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-B/section-67.111": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
     "regulation_requirements.json": [
      "reg-67111-class1-ekg"
+    ]
+   }
+  },
+  "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "reg-67401-soda"
+    ]
+   }
+  },
+  "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.409": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "reg-67409-deferral-denial"
     ]
    }
   },
@@ -82,19 +118,13 @@
   },
   "https://www.faa.gov/ame_guide/": {
    "faaLastUpdated": "2026-08-26",
-   "entryCount": 10,
+   "entryCount": 4,
    "citedBy": {
     "medications.json": [
      "med-amiodarone",
-     "med-apixaban",
-     "med-clopidogrel",
-     "med-dabigatran",
      "med-digoxin",
-     "med-edoxaban",
      "med-flecainide",
-     "med-rivaroxaban",
-     "med-sotalol",
-     "med-warfarin"
+     "med-sotalol"
     ]
    }
   },
@@ -336,7 +366,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma": {
-   "faaLastUpdated": "2023-03-09",
+   "faaLastUpdated": "2026-09-08",
    "entryCount": 7,
    "citedBy": {
     "medications.json": [
@@ -432,6 +462,15 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout": {
+   "faaLastUpdated": "2015-04-27",
+   "entryCount": 1,
+   "citedBy": {
+    "medications.json": [
+     "med-allopurinol"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd": {
    "faaLastUpdated": "2026-08-26",
    "entryCount": 1,
@@ -483,6 +522,15 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/app_process/exam_tech/item52/amd": {
+   "faaLastUpdated": "2025-08-27",
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "reg-67103-color-vision"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd": {
    "faaLastUpdated": "2023-03-23",
    "entryCount": 5,
@@ -504,6 +552,15 @@
    "citedBy": {
     "si_requirements.json": [
      "si-bariatric-physician-letter"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/certification_ws": {
+   "faaLastUpdated": "2026-04-29",
+   "entryCount": 1,
+   "citedBy": {
+    "regulation_notices.json": [
+     "caci-overview"
     ]
    }
   },
@@ -643,13 +700,14 @@
   },
   "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 6,
+   "entryCount": 7,
    "citedBy": {
     "medications.json": [
      "med-cetirizine",
      "med-chlorpheniramine",
      "med-diphenhydramine",
      "med-fexofenadine",
+     "med-levocetirizine",
      "med-loratadine",
      "med-pseudoephedrine"
     ]
@@ -680,12 +738,45 @@
     ]
    }
   },
+  "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "si_conditions.json": [
+     "si-aneurysm"
+    ],
+    "si_requirements.json": [
+     "si-aneurysm-imaging",
+     "si-aneurysm-which-path"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 3,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-aneurysm-hospital-records",
+     "si-aneurysm-recovery",
+     "si-aneurysm-related-conditions"
+    ]
+   }
+  },
   "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf": {
    "faaLastUpdated": null,
    "entryCount": 1,
    "citedBy": {
     "caci_worksheets.json": [
      "caci-breast-cancer"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "medications.json": [
+     "med-sulfasalazine"
     ]
    }
   },
@@ -718,10 +809,13 @@
   },
   "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "caci_worksheets.json": [
      "caci-colitis"
+    ],
+    "medications.json": [
+     "med-mesalamine"
     ]
    }
   },
@@ -769,10 +863,13 @@
   },
   "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "caci_worksheets.json": [
      "caci-carotid-vertebral-artery-stenosis"
+    ],
+    "medications.json": [
+     "med-clopidogrel"
     ]
    }
   },
@@ -800,6 +897,16 @@
    "citedBy": {
     "caci_worksheets.json": [
      "caci-mash-nash-liver"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 2,
+   "citedBy": {
+    "medications.json": [
+     "med-dutasteride",
+     "med-finasteride"
     ]
    }
   },
@@ -1072,19 +1179,23 @@
   },
   "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 1,
+   "entryCount": 2,
    "citedBy": {
     "caci_worksheets.json": [
      "caci-low-testosterone-low-t-hypogonadism"
+    ],
+    "medications.json": [
+     "med-testosterone"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 3,
+   "entryCount": 4,
    "citedBy": {
     "medications.json": [
      "med-erenumab",
+     "med-ondansetron",
      "med-rizatriptan",
      "med-sumatriptan"
     ]
@@ -1105,6 +1216,15 @@
    "citedBy": {
     "si_requirements.json": [
      "si-tbi-neuropsych"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 1,
+   "citedBy": {
+    "si_requirements.json": [
+     "si-aneurysm-neuro-eval"
     ]
    }
   },
@@ -1265,15 +1385,12 @@
   },
   "https://www.faa.gov/ame_guide/pharm/": {
    "faaLastUpdated": "2026-04-29",
-   "entryCount": 41,
+   "entryCount": 26,
    "citedBy": {
     "medications.json": [
-     "med-acetaminophen",
      "med-acyclovir",
-     "med-allopurinol",
      "med-amoxicillin",
      "med-amoxicillin-clavulanate",
-     "med-aspirin-low-dose",
      "med-azithromycin",
      "med-buspirone",
      "med-celecoxib",
@@ -1285,40 +1402,44 @@
      "med-diclofenac",
      "med-dofetilide",
      "med-doxycycline",
-     "med-dutasteride",
      "med-febuxostat",
-     "med-finasteride",
      "med-fluconazole",
-     "med-ibuprofen",
-     "med-lansoprazole",
      "med-levofloxacin",
-     "med-loperamide",
      "med-meloxicam",
-     "med-mesalamine",
      "med-methimazole",
      "med-metronidazole",
-     "med-mometasone-nasal",
-     "med-naproxen",
      "med-nitrofurantoin",
-     "med-omeprazole",
      "med-oseltamivir",
-     "med-pantoprazole",
      "med-propylthiouracil",
      "med-sulfamethoxazole-trimethoprim",
-     "med-sulfasalazine",
      "med-terbinafine",
-     "med-testosterone",
      "med-valacyclovir"
     ]
    }
   },
   "https://www.faa.gov/ame_guide/pharm/antacids": {
    "faaLastUpdated": "2016-12-27",
-   "entryCount": 2,
+   "entryCount": 5,
    "citedBy": {
     "medications.json": [
      "med-esomeprazole",
-     "med-famotidine"
+     "med-famotidine",
+     "med-lansoprazole",
+     "med-omeprazole",
+     "med-pantoprazole"
+    ]
+   }
+  },
+  "https://www.faa.gov/ame_guide/pharm/anticoag": {
+   "faaLastUpdated": "2024-03-27",
+   "entryCount": 5,
+   "citedBy": {
+    "medications.json": [
+     "med-apixaban",
+     "med-dabigatran",
+     "med-edoxaban",
+     "med-rivaroxaban",
+     "med-warfarin"
     ]
    }
   },
@@ -1343,14 +1464,12 @@
   },
   "https://www.faa.gov/ame_guide/pharm/dni_dnf/": {
    "faaLastUpdated": "2023-07-10",
-   "entryCount": 6,
+   "entryCount": 4,
    "citedBy": {
     "medications.json": [
      "med-amphetamine-dextroamphetamine",
      "med-dicyclomine",
-     "med-levocetirizine",
      "med-methylphenidate",
-     "med-ondansetron",
      "med-prednisone"
     ]
    }
@@ -1524,9 +1643,23 @@
     ]
    }
   },
+  "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf": {
+   "faaLastUpdated": null,
+   "entryCount": 6,
+   "citedBy": {
+    "medications.json": [
+     "med-acetaminophen",
+     "med-aspirin-low-dose",
+     "med-ibuprofen",
+     "med-loperamide",
+     "med-mometasone-nasal",
+     "med-naproxen"
+    ]
+   }
+  },
   "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf": {
    "faaLastUpdated": null,
-   "entryCount": 246,
+   "entryCount": 245,
    "citedBy": {
     "ame_directory.json": [
      "ame-hims-001",
@@ -1676,7 +1809,6 @@
      "ame-hims-146",
      "ame-hims-147",
      "ame-hims-148",
-     "ame-hims-149",
      "ame-hims-150",
      "ame-hims-151",
      "ame-hims-152",
