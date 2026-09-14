@@ -5,16 +5,16 @@
       "Tylenol"
     ],
     "category": "Analgesic / antipyretic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists acetaminophen (Tylenol) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Migraine Medication page lists \"Acetaminophen + butalbital (Fioricet)\" and \"Acetaminophen + isomethptene + dichloralphenazone (Midrin)\" as UNACCEPTABLE: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-acetaminophen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name acetaminophen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Analgesic / antipyretic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "acyclovir",
@@ -59,11 +59,11 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "ACCEPTABLE to the FAA when its criteria are met, with no observation period. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE when criteria are met, with no observation period. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" A footnote under that table reads: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-09-14T20:48:05Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
@@ -75,16 +75,16 @@
       "Zyloprim"
     ],
     "category": "Xanthine oxidase inhibitor (gout)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Gout: ISSUE if well controlled with no aeromedically significant side effects.\n\nThe FAA's Gout and Pseudogout table (All Classes) lists well controlled gout as ISSUE when \"Interview and examination reveal\" \"no persistent symptoms or functional impairment\" and \"Med combinations of NSAIDS, uric acid reducers (allopurinol, etc.), or uric acid excreters (probenecid) with no aeromedically significant side effects.\" Functional impairment, joint deformity, recurrent kidney stones, other medications, or gout that is not controlled are DEFER: \"Submit records to the FAA for decision\".\n\nFor retained kidney stones, its CACI - Retained Kidney Stone(s) Worksheet allows supportive medications such as allopurinol to decrease recurrence, with no side effects.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-allopurinol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name allopurinol in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Xanthine oxidase inhibitor (gout). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "alprazolam",
@@ -217,16 +217,16 @@
     ],
     "category": "Anticoagulant (DOAC)",
     "treatedConditionNote": "Concern is the underlying condition requiring anticoagulation, not the drug alone.",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA: minimum 2-week observation after starting, plus any for the condition.\n\nThe FAA's Anticoagulants page addresses the class. \"For applicants who are just beginning treatment with NOAC/DOACs, the following is required:\" \"Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition\". For non-valvular atrial fibrillation it points to its Emboli Mitigation page.\n\nIts AASI for venous thromboembolism names Eliquis: \"If using other types of anticoagulants such as NOAC/DOAC (i.e. Xarelto, Eliquis, Pradaxa, Savaysa, etc.), the airman should obtain a statement from their treating/prescribing physician with details of the underlying condition, tolerance of the medication to include the presence or absence of side effects, any bleeding episodes requiring medical attention, and any occurrence/recurrence of deep vein thrombosis or pulmonary embolism.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-apixaban",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Anticoagulants; AASI for Venous Thromboembolism (VTE) - Deep Venous Thrombosis (DVT), Pulmonary Embolism (PE), and/or Hypercoagulopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/anticoag"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name apixaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. Concern is the underlying condition requiring anticoagulation, not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "aspirin (low-dose)",
@@ -236,16 +236,16 @@
     ],
     "medxpressName": "ASPIRIN",
     "category": "Antiplatelet",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; also listed on its carotid stenosis CACI worksheet.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists aspirin (Bayer) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nFor carotid or vertebral artery stenosis, its CACI worksheet lists \"ASA (aspirin)\" among medications for the condition, alone or with \"Plavix or Brilinta (ASA allowed in combination)\", and requires that the \"Condition is stable with NO symptoms.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-aspirin-low-dose",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name aspirin (low-dose) in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiplatelet. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "atenolol",
@@ -802,17 +802,17 @@
       "Plavix"
     ],
     "category": "Antiplatelet",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "For carotid/vertebral stenosis, the FAA's CACI worksheet lists Plavix.\n\nIts CACI - Carotid / Vertebral Artery Stenosis Worksheet lists \"Plavix or Brilinta (ASA allowed in combination)\" among medications for the condition, and notes \"DOAC/NOAC/coumadin do not qualify for CACI\". The criteria include \"Condition is stable with NO symptoms.\", imaging showing \"79% or less on both sides (right and left)\" within the previous year, and \"NOTE: History of stroke or TIA, are not CACI.\"\n\nThe AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\". \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-clopidogrel",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
     },
     "treatedConditionNote": "The condition requiring antiplatelet therapy is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name clopidogrel in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring antiplatelet therapy is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "colchicine",
@@ -870,17 +870,17 @@
       "Pradaxa"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA: minimum 2-week observation after starting, plus any for the condition.\n\nThe FAA's Anticoagulants page addresses the class. \"For applicants who are just beginning treatment with NOAC/DOACs, the following is required:\" \"Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition\". For non-valvular atrial fibrillation it points to its Emboli Mitigation page.\n\nIts AASI for venous thromboembolism names Pradaxa: \"If using other types of anticoagulants such as NOAC/DOAC (i.e. Xarelto, Eliquis, Pradaxa, Savaysa, etc.), the airman should obtain a statement from their treating/prescribing physician with details of the underlying condition, tolerance of the medication to include the presence or absence of side effects, any bleeding episodes requiring medical attention, and any occurrence/recurrence of deep vein thrombosis or pulmonary embolism.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dabigatran",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Anticoagulants; AASI for Venous Thromboembolism (VTE) - Deep Venous Thrombosis (DVT), Pulmonary Embolism (PE), and/or Hypercoagulopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/anticoag"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name dabigatran in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "dapagliflozin",
@@ -906,11 +906,11 @@
       "Prolia"
     ],
     "category": "RANKL inhibitor (osteoporosis)",
-    "faaStatusDescription": "ACCEPTABLE to the FAA with a 48-hour initial and 4-hour post-dose observation. Its Osteoporosis Medication page lists \"denosumab (Prolia)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as a RANK ligand inhibitor carrying a 48-hour initial observation and a 4-hour post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE, 48-hour initial and 4-hour post-dose observation. Its Osteoporosis Medication page lists \"denosumab (Prolia)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as a RANK ligand inhibitor carrying a 48-hour initial observation and a 4-hour post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" A footnote under that table reads: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-denosumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-09-14T20:48:05Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     },
@@ -1149,16 +1149,16 @@
       "Avodart"
     ],
     "category": "5-alpha reductase inhibitor (BPH)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "On the FAA's PCOS CACI worksheet; not named on its BPH medication page.\n\nIts CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nTaken for an enlarged prostate (BPH) or hair loss, the FAA's Erectile Dysfunction and Benign Prostatic Hyperplasia Medications page does not name dutasteride. That silence is neither a permission nor a prohibition; ask your AME.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dutasteride",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name dutasteride in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "edoxaban",
@@ -1166,17 +1166,17 @@
       "Savaysa"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA: minimum 2-week observation after starting, plus any for the condition.\n\nThe FAA's Anticoagulants page addresses the class. \"For applicants who are just beginning treatment with NOAC/DOACs, the following is required:\" \"Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition\". For non-valvular atrial fibrillation it points to its Emboli Mitigation page.\n\nIts AASI for venous thromboembolism names Savaysa: \"If using other types of anticoagulants such as NOAC/DOAC (i.e. Xarelto, Eliquis, Pradaxa, Savaysa, etc.), the airman should obtain a statement from their treating/prescribing physician with details of the underlying condition, tolerance of the medication to include the presence or absence of side effects, any bleeding episodes requiring medical attention, and any occurrence/recurrence of deep vein thrombosis or pulmonary embolism.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-edoxaban",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Anticoagulants; AASI for Venous Thromboembolism (VTE) - Deep Venous Thrombosis (DVT), Pulmonary Embolism (PE), and/or Hypercoagulopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/anticoag"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name edoxaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "empagliflozin",
@@ -1272,15 +1272,16 @@
       "Nexium"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "The FAA does not name esomeprazole individually, but it addresses the class. Its antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"esomeprazole (Nexium)\" among Proton Pump Inhibitors (PPI) in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-esomeprazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:37:19Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids",
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "conditional",
+    "informationalOnly": false
   },
   {
     "genericName": "estradiol",
@@ -1371,15 +1372,16 @@
       "Pepcid"
     ],
     "category": "H2 blocker (GERD)",
-    "faaStatusDescription": "The FAA does not name famotidine individually, but it addresses the class. Its antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"famotidine (Pepcid)\" among H2 blockers in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-famotidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:37:19Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids",
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "conditional",
+    "informationalOnly": false
   },
   {
     "genericName": "febuxostat",
@@ -1474,16 +1476,16 @@
       "Propecia"
     ],
     "category": "5-alpha reductase inhibitor (BPH/hair)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "On the FAA's PCOS CACI worksheet; not named on its BPH medication page.\n\nIts CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nTaken for an enlarged prostate (BPH) or hair loss, the FAA's Erectile Dysfunction and Benign Prostatic Hyperplasia Medications page does not name finasteride. That silence is neither a permission nor a prohibition; ask your AME.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-finasteride",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name finasteride in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: 5-alpha reductase inhibitor (BPH/hair). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "flecainide",
@@ -1762,16 +1764,16 @@
       "Motrin"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists ibuprofen (Advil/Motrin) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ibuprofen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name ibuprofen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "indapamide",
@@ -1870,16 +1872,16 @@
       "Prevacid"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"lansoprazole (Prevacid)\" among Proton Pump Inhibitors (PPI) in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lansoprazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name lansoprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "latanoprost",
@@ -1922,15 +1924,18 @@
       "Xyzal"
     ],
     "category": "Antihistamine (allergy)",
-    "faaStatusDescription": "The FAA does not name levocetirizine in its Do Not Issue / Do Not Fly tables, and the class it belongs to is not one of the classes those tables list. The FAA writes: \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Read the table yourself and ask your AME; absence is not permission.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "FAA sedating: 1-2 times a week, never daily, 48 hours after the last dose.\n\nIts Allergy - Antihistamine & Immunotherapy Medication page lists \"levocetirizine (Xyzal)\" under \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\", with a post-dose observation of 48 hours: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product, if other certification criteria are met. NOT FOR DAILY USE.\" The page adds that the airman may not use the \"privileges of airman certificate while taking the medication.\" and that \"Daily use is NOT acceptable.\"\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists levocetirizine among sedating products in its NO GO column, and notes: \"Sedating antihistamines are commonly found in autopsy after aircraft accidents.\"\n\n\"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levocetirizine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:12:34Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals, Do Not Issue / Do Not Fly section",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": true
+    "informationalOnly": false,
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "preFlightWaitHours": 48
   },
   {
     "genericName": "levofloxacin",
@@ -2116,16 +2121,16 @@
       "Imodium"
     ],
     "category": "Antidiarrheal",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA OTC chart: NO GO. Colitis CACI: 16 mg/day or less with no side effects.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"loperamide (Imodium)\" in its NO GO column for diarrhea, with the note: \"Loperamide should not be used during acute illness as it can cause dizziness. When taken daily for a chronic condition, it may require a special issuance.\" For NO GO medications it says to \"wait at least five (5) dosage intervals after the last dose before flying.\"\n\nFor colitis, its CACI - Colitis Worksheet lists \"loperamide less than or equal to 16 mg a day and no side effects\" among medications for the condition. The AME can issue only \"If the applicant meets ALL the acceptable certification criteria listed below\", including a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-loperamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name loperamide in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antidiarrheal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "loratadine",
@@ -2219,15 +2224,16 @@
       "(supplement)"
     ],
     "category": "Sleep aid (supplement)",
-    "faaStatusDescription": "The FAA does not name melatonin individually, but its sleep aids page covers the class: \"All the currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times, even when the individual feels fully awake.\" It states that \"Occasional or limited use of sleep aids, such as for circadian rhythm disruption in commercial air operations, is allowable for pilots. Daily/nightly use of sleep aids is not allowed regardless of the underlying cause or reason.\" and that \"Medical conditions that chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used or not.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "FAA OTC chart: GO. Its sleep aids page: daily/nightly use is not allowed.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"melatonin (not an antihistamine)\" in its GO column for sleep aid products. It notes a \"'Hang-over effect' morning after safety concern\" and that \"Taking melatonin at the wrong time can actually worsen jetlag and cause daytime drowsiness.\"\n\nIts sleep aids page covers the class: \"All the currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times, even when the individual feels fully awake.\" It states that \"Occasional or limited use of sleep aids, such as for circadian rhythm disruption in commercial air operations, is allowable for pilots. Daily/nightly use of sleep aids is not allowed regardless of the underlying cause or reason.\" and that \"Medical conditions that chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used or not.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-melatonin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:32:07Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Sleep Aids",
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Sleep Aids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "conditional",
+    "informationalOnly": false
   },
   {
     "genericName": "meloxicam",
@@ -2254,17 +2260,17 @@
       "Pentasa"
     ],
     "category": "Aminosalicylate (IBD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Named on the FAA's Colitis CACI worksheet, where ALL criteria must be met.\n\nIts CACI - Colitis Worksheet lists \"mesalamine (Asacol, Pentasa, Lialda)\" among medications for the condition. \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" Those include that the \"Condition is stable with no effects that would interfere with flight duties\", \"No surgery for the condition in the last 6 (six) weeks.\", \"None or mild diarrhea (less than 4 bowel movements/day)\", and a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\". \"Any other causes require an FAA decision.\"\n\nThe AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\". \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mesalamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     },
     "treatedConditionNote": "The inflammatory bowel condition is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name mesalamine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The inflammatory bowel condition is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "metformin",
@@ -2458,16 +2464,16 @@
     ],
     "medxpressName": "MOMETASONE",
     "category": "Intranasal corticosteroid (rhinitis)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart as a nasal steroid for allergy products.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"mometasone (Nasonex)\" among nasal steroids in its GO column, GENERALLY SAFE TO FLY. The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Allergy - Antihistamine & Immunotherapy Medication page lists \"Nasal spray: Corticosteroid\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mometasone-nasal",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name mometasone (nasal) in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Intranasal corticosteroid (rhinitis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "montelukast",
@@ -2512,16 +2518,16 @@
       "Naprosyn"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists naproxen (Naprosyn) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Migraine Medication page lists the combination \"sumatriptan + naproxen (Treximet)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", with a post-dose observation of 24 hours, \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-naproxen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name naproxen in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID (pain / inflammation). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "nebivolol",
@@ -2636,16 +2642,16 @@
       "Prilosec"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"omeprazole (Prilosec)\" among Proton Pump Inhibitors (PPI) in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-omeprazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name omeprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "ondansetron",
@@ -2653,15 +2659,17 @@
       "Zofran"
     ],
     "category": "Antiemetic",
-    "faaStatusDescription": "The FAA does not name ondansetron in its Do Not Issue / Do Not Fly tables, and the class it belongs to is not one of the classes those tables list. The FAA writes: \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Read the table yourself and ask your AME; absence is not permission.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For migraine nausea: 24 hours after each dose; the FAA says not for daily use.\n\nIts Migraine Medication page lists \"ondansetron (Zofran)\" under \"Nausea and Vomiting (associated with migraine)\" in its \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table, with a post-dose observation of 24 hours. For relief medication it says \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\" and \"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nThat table covers nausea associated with migraine.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ondansetron",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:12:34Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals, Do Not Issue / Do Not Fly section",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026), CACI ACCEPTABLE - Migraine Relief/Rescue Medication",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
-    "informationalOnly": true
+    "informationalOnly": false,
+    "faaStatus": "conditional",
+    "preFlightWaitHours": 24
   },
   {
     "genericName": "orlistat",
@@ -2724,16 +2732,16 @@
       "Protonix"
     ],
     "category": "Proton pump inhibitor (GERD)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"pantoprazole (Protonix)\" among Proton Pump Inhibitors (PPI) in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pantoprazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name pantoprazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Proton pump inhibitor (GERD). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "paroxetine",
@@ -3006,17 +3014,17 @@
       "Xarelto"
     ],
     "category": "Anticoagulant (DOAC)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA: minimum 2-week observation after starting, plus any for the condition.\n\nThe FAA's Anticoagulants page addresses the class. \"For applicants who are just beginning treatment with NOAC/DOACs, the following is required:\" \"Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition\". For non-valvular atrial fibrillation it points to its Emboli Mitigation page.\n\nIts AASI for venous thromboembolism names Xarelto: \"If using other types of anticoagulants such as NOAC/DOAC (i.e. Xarelto, Eliquis, Pradaxa, Savaysa, etc.), the airman should obtain a statement from their treating/prescribing physician with details of the underlying condition, tolerance of the medication to include the presence or absence of side effects, any bleeding episodes requiring medical attention, and any occurrence/recurrence of deep vein thrombosis or pulmonary embolism.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rivaroxaban",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Anticoagulants; AASI for Venous Thromboembolism (VTE) - Deep Venous Thrombosis (DVT), Pulmonary Embolism (PE), and/or Hypercoagulopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/anticoag"
     },
     "treatedConditionNote": "The condition requiring anticoagulation is the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name rivaroxaban in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The condition requiring anticoagulation is the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "rizatriptan",
@@ -3234,16 +3242,16 @@
       "Azulfidine"
     ],
     "category": "Aminosalicylate (IBD / arthritis)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "On the FAA's Arthritis and Colitis CACI worksheets; ALL criteria must be met.\n\nIts CACI - Arthritis Worksheet lists \"sulfasalazine (Azulfidine)\" under acceptable medications, \"One or more of the following with or without daily NSAIDs\". Acceptable causes are limited to osteoarthritis and autoimmune arthritis \"to include only the following: rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\", with \"None or mild to moderate symptoms with no significant limitations to range of motion, lifestyle, or activities\". On that worksheet, a 2-week ground trial applies to the biologic and targeted medications listed after sulfasalazine, such as adalimumab (Humira), and some of those carry post-dose observation hours. The worksheet lists neither for sulfasalazine.\n\nIts CACI - Colitis Worksheet also lists \"sulfasalazine (Azulfidine)\", for a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\", with \"None or mild diarrhea (less than 4 bowel movements/day)\".\n\nOn both worksheets, \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit no more than 90 days before the exam, provided annually for first and second class and with each required exam for third class.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sulfasalazine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name sulfasalazine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Aminosalicylate (IBD / arthritis). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "sumatriptan",
@@ -3355,17 +3363,17 @@
       "Depo-Testosterone"
     ],
     "category": "Androgen (replacement)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Topical is ISSUE; oral or injectable goes to the FAA's Low T CACI worksheet.\n\nIts Low Testosterone (Low T) Hypogonadism table lists \"Treated with topical testosterone only\" as ISSUE, \"If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties\".\n\n\"Testosterone (Oral or Injectable)\" and Testopel sit on the row that says \"See the CACI - Hypogonadism Worksheet.\" That worksheet requires that the \"Condition is stable on current regimen, no changes recommended, and no side effects which would interfere with flight duties.\", no treatment with phlebotomy, no venous thromboembolic event (VTE) such as PE/DVT, and a blood count from the last 90 days showing \"Hematocrit is 54% or less\". The table sends anyone who \"Requires or concurrent treatment with phlebotomy\" to DEFER, and notes \"Use of enclomiphene citrate is NOT acceptable.\"\n\nFor women, the FAA's Hormone Replacement Therapy (HRT) - Female table names testosterone among hormones used at near physiologic levels, and lists ISSUE when there are no side effects that would interfere with flight duties and no history of VTE (PE/DVT), stroke, severe migraine or uncontrolled hypertension.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-testosterone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Low Testosterone (Low T) Hypogonadism disposition table, All Classes (updated 04/29/2026); CACI - Low Testosterone (Low T) Hypogonadism Worksheet (updated 04/29/2026); Hormone Replacement Therapy (HRT) - Female disposition table, All Classes (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
     },
     "treatedConditionNote": "The reason for use and underlying condition are the FAA's primary interest.",
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name testosterone in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The reason for use and underlying condition are the FAA's primary interest. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "timolol (ophthalmic)",
@@ -3676,16 +3684,16 @@
     ],
     "category": "Anticoagulant",
     "treatedConditionNote": "The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone.",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "FAA: 6 weeks' observation and 6 INRs after starting; monthly INRs after that.\n\nThe FAA's Anticoagulants page names warfarin (Jantoven). \"For applicants who are just beginning warfarin (Jantoven) treatment the following is required: Minimum observation time of 6 weeks after initiation of warfarin therapy; Must also meet any required observation time for the underlying condition; AND 6 INRs, no more frequently than 1 per week\". For established use, the \"status report from the treating physician should address and include: Drug dose history and schedule; Comment regarding side effects; AND A minimum of monthly International Normalized Ratio (INRs) results for the immediate prior 6 months.\"\n\nFor carotid or vertebral artery stenosis, its CACI worksheet notes \"DOAC/NOAC/coumadin do not qualify for CACI\". Its AASI for venous thromboembolism tells the examiner to defer if more than 20% of INR values on warfarin are below 2.0 or above 3.0.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-warfarin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/"
+      "lastVerified": "2026-09-14T20:48:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Anticoagulants; CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026); AASI for Venous Thromboembolism (VTE) - Deep Venous Thrombosis (DVT), Pulmonary Embolism (PE), and/or Hypercoagulopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/pharm/anticoag"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name warfarin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The FAA's concern is the condition requiring anticoagulation (e.g., clot, arrhythmia), not the drug alone. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalOnly": false,
+    "faaStatus": "conditional"
   },
   {
     "genericName": "zaleplon",
