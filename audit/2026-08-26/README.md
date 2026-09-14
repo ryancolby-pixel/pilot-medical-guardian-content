@@ -340,3 +340,9 @@ gated. *(GOTCHAS_VERIFY §19 satisfied: the branch was read off the device and s
 **Nothing in the two named clusters.** The 8 untouched records make absence claims that are
 true: acetaminophen, ibuprofen, melatonin's siblings, aspirin low-dose, ciprofloxacin,
 doxycycline, dutasteride, finasteride. The FAA publishes no class document that names them.
+
+> ⚠️ **CORRECTED 2026-09-14: that paragraph was wrong for five of the eight.** It checked the pharmaceuticals CLASS
+> documents only. The FAA's OTC Medications Reference Guide (`OTCMedicationsforPilots.pdf`, updated 08-28-2024) names
+> acetaminophen, ibuprofen and aspirin, and the CACI - PCOS Worksheet names finasteride and dutasteride. A sweep of all 60
+> absence-claim entries against 302 live FAA documents found 26 contradicted; they were rewritten and published in
+> `34ced56` (content `2026-09-14.1`). Full record: docs repo `research/2026-09-14-cancer-gaps/README.md`, "Live-error sweep".
