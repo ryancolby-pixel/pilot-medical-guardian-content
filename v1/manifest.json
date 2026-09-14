@@ -1,11 +1,11 @@
 {
-  "contentVersion": "2026-09-14.2",
-  "generatedAt": "2026-09-14T21:12:05Z",
+  "contentVersion": "2026-09-14.3",
+  "generatedAt": "2026-09-14T23:03:41Z",
   "files": [
     {
       "filename": "ame_directory.json",
-      "size": 194018,
-      "checksum": "eef172ba8bd5838b9b34eb7726967a590f2f06cbd0a2e20b6beb5bf9c61756c1"
+      "size": 193933,
+      "checksum": "dcd27d724cf266f6d4dff4bb4c70043aec0a65f8c730cf6bf74dae3604140f67"
     },
     {
       "filename": "basicmed_requirements.json",
@@ -34,8 +34,8 @@
     },
     {
       "filename": "medications.json",
-      "size": 287543,
-      "checksum": "ebd325d88b877a9fad6a81a8e78267bb2fd2daa05da8bf2b49f87bbbba5aff06"
+      "size": 295489,
+      "checksum": "5f15051292ec1296a9630500642e62d28f2fcfae5ec99e326109f0f535dfd79f"
     },
     {
       "filename": "regulation_notices.json",
@@ -54,13 +54,13 @@
     },
     {
       "filename": "si_conditions.json",
-      "size": 19466,
-      "checksum": "6f845dd7568457426a4275503c414e10a01522a4006fbb1cd446dc34483c4f1a"
+      "size": 20119,
+      "checksum": "99f721e198b9b3352a369f356d8f4cfcabaa0b6979884f182b3147c8eccccfcd"
     },
     {
       "filename": "si_requirements.json",
-      "size": 165082,
-      "checksum": "86930a68c3ef7955c2d1ee10f93686577943799268202b13ea3072dc42d51559"
+      "size": 168305,
+      "checksum": "822328ed452615bc23ad9569eee83359eee63b0212b98af7027087360ae23f55"
     },
     {
       "filename": "thresholds.json",

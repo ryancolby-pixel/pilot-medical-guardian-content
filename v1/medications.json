@@ -44,13 +44,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the asthma and its control, not the inhaler; mild-to-moderate asthma is CACI-addressed.",
-    "faaStatusDescription": "Asthma controlled with an inhaler is addressed by the FAA CACI program when criteria are met. Confirm against the current AME Guide CACI — Asthma worksheet and a qualified AME.",
+    "faaStatusDescription": "FAA Asthma CACI lists it; rescue inhaler use no more than 2 times per week.\n\nThe FAA's CACI - Asthma Worksheet lists \"Inhaled short-acting beta agonist (e.g., albuterol)\" among its acceptable medications. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI. \"Spirometry is not required if the only treatment is PRN use on one or two days a week of a short-acting beta agonist (e.g., albuterol).\"\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-albuterol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
   },
   {
@@ -432,13 +432,13 @@
     "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Asthma treated with Inhaled corticosteroid/LABA (asthma/COPD) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Asthma: both ingredients are on the FAA's CACI list. COPD isn't covered there.\n\nFor asthma, the FAA's CACI - Asthma Worksheet accepts \"One or more of the following\" medications and lists both \"Inhaled long-acting beta agonist\" and \"Inhaled corticosteroid\", by class rather than by drug name. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nCOPD is not addressed on that worksheet at all.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-budesonide-formoterol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     },
     "treatedConditionNote": "Asthma"
   },
@@ -1584,13 +1584,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the asthma/rhinitis and its control, not the inhaler.",
-    "faaStatusDescription": "Inhaled corticosteroids for asthma/allergic rhinitis are generally addressed as acceptable, with asthma itself addressed under CACI. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Inhaled (Flovent): FAA Asthma CACI list. Nasal (Flonase): GO, FAA OTC chart.\n\nInhaled for asthma (Flovent). The FAA's CACI - Asthma Worksheet lists \"Inhaled corticosteroid\" among its acceptable medications. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nNasal spray for allergy (Flonase). The FAA's Over-the-Counter (OTC) Medications Reference Guide lists fluticasone (Flonase) among nasal steroids in its GO column, GENERALLY SAFE TO FLY. Its Allergy - Antihistamine & Immunotherapy Medication page lists \"Nasal spray: Corticosteroid\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fluticasone-inhaled",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024); Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
   },
   {
@@ -1602,13 +1602,13 @@
     "category": "Inhaled corticosteroid/LABA (asthma/COPD)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Asthma treated with Inhaled corticosteroid/LABA (asthma/COPD) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Asthma: both ingredients are on the FAA's CACI list. COPD isn't covered there.\n\nFor asthma, the FAA's CACI - Asthma Worksheet accepts \"One or more of the following\" medications and lists both \"Inhaled corticosteroid\" and \"Inhaled long-acting beta agonist\", by class rather than by drug name. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nCOPD is not addressed on that worksheet at all.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fluticasone-salmeterol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     },
     "treatedConditionNote": "Asthma"
   },
@@ -2535,13 +2535,13 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the asthma/allergy and its control, not the drug.",
-    "faaStatusDescription": "Leukotriene modifiers for asthma/allergy are generally addressed alongside asthma's CACI pathway. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "On the FAA's Asthma CACI list and its ACCEPTABLE allergy medication list.\n\nFor asthma, the FAA's CACI - Asthma Worksheet lists \"leukotriene receptor antagonist, (e.g. montelukast [Singulair])\" among its acceptable medications. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nFor allergy, its Allergy - Antihistamine & Immunotherapy Medication page lists \"Oral: montelukast (Singulair)\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-montelukast",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
   },
   {

@@ -347,6 +347,22 @@
   },
   {
     "envelope": {
+      "code": "si-cancer-breast",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: AASI for Breast Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/breast_cancer"
+    },
+    "displayName": "Breast cancer",
+    "summary": "Track your breast cancer Special Issuance: your Authorization dates, your oncology reporting, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-cancer-breast-initial",
+      "si-cancer-breast-reissue"
+    ]
+  },
+  {
+    "envelope": {
       "code": "si-pe-dvt",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",

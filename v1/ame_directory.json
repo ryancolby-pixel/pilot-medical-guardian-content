@@ -1379,13 +1379,13 @@
     "envelope": {
       "code": "ame-hims-054",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Dukes, Charles, M.D.",
     "clinicName": "Polaris Aerospace Medicine LLC",
-    "location": "Location not listed",
+    "location": "Oklahoma City, OK",
     "phone": "405-225-7324",
     "website": null,
     "email": "polarisasm@outlook.com",
@@ -1398,8 +1398,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 35.5184,
+    "longitude": -97.5746
   },
   {
     "envelope": {
@@ -1587,13 +1587,13 @@
     "envelope": {
       "code": "ame-hims-062",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Fisher, Charles, M.D., M.P.H.",
-    "clinicName": "12/02/25",
-    "location": "Location not listed",
+    "clinicName": "Texas AME",
+    "location": "Bulverde, TX",
     "phone": "512-843-5559",
     "website": null,
     "email": "Dr.Fisher@TexasAME.com",
@@ -1606,8 +1606,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 29.7767,
+    "longitude": -98.4626
   },
   {
     "envelope": {
@@ -2341,13 +2341,13 @@
     "envelope": {
       "code": "ame-hims-091",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Hafner, Karl M.D. H",
-    "clinicName": "109 Pine St 6",
-    "location": "Location not listed",
+    "name": "Hafner, Karl M.D.",
+    "clinicName": null,
+    "location": "Syracuse, NY",
     "phone": "315-529-0766",
     "website": null,
     "email": "karl@khafnermd.com",
@@ -2360,8 +2360,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 43.0354,
+    "longitude": -76.1282
   },
   {
     "envelope": {
@@ -2887,13 +2887,13 @@
     "envelope": {
       "code": "ame-hims-113",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Ivey, Mark J., M.D., FCCP, FAASM, FACP",
     "clinicName": "Lake Shore Pulmonology, PLC",
-    "location": "Location not listed",
+    "location": "Spring Lake, MI",
     "phone": "616-847-1009",
     "website": null,
     "email": "cindymcnerlin@gmail.com",
@@ -2906,8 +2906,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 43.0887,
+    "longitude": -86.1915
   },
   {
     "envelope": {
@@ -3613,13 +3613,13 @@
     "envelope": {
       "code": "ame-hims-141",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Lucey, Richard W., M.D., P.A. M",
-    "clinicName": "710 Underwood Avenue 1",
-    "location": "Location not listed",
+    "name": "Lucey, Richard W., M.D., P.A.",
+    "clinicName": null,
+    "location": "Pensacola, FL",
     "phone": "850-477-3453",
     "website": null,
     "email": "griffsue@att.net",
@@ -3632,8 +3632,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 30.4873,
+    "longitude": -87.1872
   },
   {
     "envelope": {
@@ -4054,13 +4054,13 @@
     "envelope": {
       "code": "ame-hims-159",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Miriani, Matthew J., D.O.",
-    "clinicName": "10801 Pear Tree Lane. Suite 100",
-    "location": "Location not listed",
+    "clinicName": null,
+    "location": "St. Ann, MO",
     "phone": "314-755-1014",
     "website": null,
     "email": "docmatt@ame-stl.com",
@@ -4073,8 +4073,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 38.7259,
+    "longitude": -90.3864
   },
   {
     "envelope": {
@@ -4598,13 +4598,13 @@
     "envelope": {
       "code": "ame-hims-180",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Perez-Toro, Luis S., M.D.",
     "clinicName": "Santa Cruz Medical Building",
-    "location": "Location not listed",
+    "location": "Bayamon, PR",
     "phone": "787-787-0171",
     "website": null,
     "email": null,
@@ -4617,8 +4617,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 18.3986,
+    "longitude": -66.1557
   },
   {
     "envelope": {
@@ -5300,13 +5300,13 @@
     "envelope": {
       "code": "ame-hims-208",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Shreder, Eric, D.O.",
     "clinicName": "Aviation Medical Solutions",
-    "location": "Location not listed",
+    "location": "Mesa, AZ",
     "phone": "480 926-8000",
     "website": null,
     "email": "FAA@azflightdoc.com",
@@ -5319,8 +5319,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 33.4026,
+    "longitude": -111.7242
   },
   {
     "envelope": {
@@ -5482,13 +5482,13 @@
     "envelope": {
       "code": "ame-hims-215",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Spaulding, Tiffany, D.O. S",
+    "name": "Spaulding, Tiffany, D.O.",
     "clinicName": "Upper Valley Family Medciine",
-    "location": "Location not listed",
+    "location": "Rigby, ID",
     "phone": "208-851-2266",
     "website": null,
     "email": "docspauldingame@gmail.com",
@@ -5498,10 +5498,11 @@
     "languages": null,
     "examStyleIndicators": [
       "HIMS-trained",
-      "Class I, II, III S"
+      "Senior AME",
+      "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 43.6715,
+    "longitude": -111.9005
   },
   {
     "envelope": {
@@ -6000,13 +6001,13 @@
     "envelope": {
       "code": "ame-hims-237",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Van Dop, Bruce A., D.O.",
-    "clinicName": "107 Sinclair Drive",
-    "location": "Location not listed",
+    "clinicName": null,
+    "location": "Muskegon, MI",
     "phone": "231-780-7294",
     "website": null,
     "email": "bvandop@msn.com",
@@ -6019,8 +6020,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 43.1962,
+    "longitude": -86.2738
   },
   {
     "envelope": {
@@ -6156,13 +6157,13 @@
     "envelope": {
       "code": "ame-hims-243",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
     "name": "Warwick, John, M.D.",
-    "clinicName": "205 W Granger Ave",
-    "location": "Location not listed",
+    "clinicName": null,
+    "location": "Modesto, CA",
     "phone": "209-579-9930",
     "website": null,
     "email": "Jlwarwickmd@gmail.com",
@@ -6172,22 +6173,23 @@
     "languages": null,
     "examStyleIndicators": [
       "HIMS-trained",
-      "Class I, II, III 2"
+      "Senior AME",
+      "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 37.6746,
+    "longitude": -121.0113
   },
   {
     "envelope": {
       "code": "ame-hims-244",
       "contentVersion": "2026.0-hims",
-      "lastVerified": "2026-09-14T18:27:52Z",
+      "lastVerified": "2026-09-14T23:03:40Z",
       "sourceCitation": "FAA HIMS Aviation Medical Examiners list (faa.gov), updated 2026-09-08",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/hims-ames.pdf"
     },
-    "name": "Weatherby, William Cole, D.O. P",
-    "clinicName": "11705 Airport Way, Suite 203 F",
-    "location": "Location not listed",
+    "name": "Weatherby, William Cole, D.O.",
+    "clinicName": null,
+    "location": "Broomfield, CO",
     "phone": "303-578-2608",
     "website": null,
     "email": "drweatherby@denverame.com",
@@ -6200,8 +6202,8 @@
       "Senior AME",
       "Class I, II, III"
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": 39.8854,
+    "longitude": -105.1139
   },
   {
     "envelope": {

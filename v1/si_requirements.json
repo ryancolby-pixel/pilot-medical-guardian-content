@@ -937,6 +937,30 @@
   },
   {
     "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "testResult",
+    "envelope": {
+      "code": "si-cancer-breast-initial",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Breast Cancer disposition table, All Classes (updated 09/27/2017), row C",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/BreastCancerDispositionTable.pdf"
+    },
+    "requirementText": "This one applies at the initial decision, before you hold an Authorization. The FAA's Breast Cancer disposition table sends one row to a possible Special Issuance: all others, including chemotherapy used, lymph node spread, metastatic disease and Stage IA or higher, marked DEFER, \"Submit the information to the FAA for a possible Special Issuance.\" For that row the FAA asks for a \"Status report or treatment records from treating oncologist that provides the following information:\" initial staging, the disease course including any recurrences, locations of metastatic disease if any, treatments used, how long the condition has been stable, and any upcoming treatment change and prognosis. It also lists a \"Medication list. Dates started and stopped.\", a description of side effects, operative notes and discharge summary if applicable, \"Copies of lab including pathology reports, tumor markers (if already performed by treating physician)\", and \"Copies of imaging such as mammogram, MRI/CT or PET scan reports that have already been performed.\" The FAA adds: \"In some cases, the actual CDs will be required in DICOM format for FAA review\". If that row does not describe your case, this is not your list: the same table sends non metastatic cancer with treatment completed less than 5 years ago to its CACI Breast Cancer Worksheet, and treatment completed 5 or more years ago with no recurrence, current problems or ongoing treatment to ISSUE. Once your Authorization is granted, reissue runs on the AASI list, not this one."
+  },
+  {
+    "cadenceRaw": "everyExam",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-cancer-breast-reissue",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T23:03:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: AASI for Breast Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/breast_cancer"
+    },
+    "requirementText": "At each reissue your AME needs, in the FAA's words, \"An Authorization granted by the FAA\" and \"A current status report performed within 90 days that must include all the required follow-up items and studies as listed in the Authorization letter and that confirms absence of recurrent disease.\" The FAA's breast cancer AASI page gives no follow-up item list of its own, so the tests and items that have to be in that report are the ones named in the attachments to your own Authorization letter, and the report has to be dated inside the 90 days before your exam. Two things send your file back to the FAA: the Examiner must defer to the AMCD or Region if \"There has been any recurrence of the cancer\" or if \"Any new treatment is initiated\"."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-bariatric-stability",
