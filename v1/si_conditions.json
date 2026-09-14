@@ -331,6 +331,22 @@
   },
   {
     "envelope": {
+      "code": "si-cancer-lymphoma",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 45. Lymphatics, Lymphoma and Hodgkin's Disease",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "displayName": "Lymphoma and Hodgkin's disease",
+    "summary": "Track your lymphoma or Hodgkin's disease Special Issuance: your Authorization dates, the status update your AME needs at each reissue, and a link to the FAA's own page for this condition.",
+    "pathGuidance": "",
+    "requirementCodes": [
+      "si-cancer-lymphoma-initial",
+      "si-cancer-lymphoma-reissue"
+    ]
+  },
+  {
+    "envelope": {
       "code": "si-pe-dvt",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-07T18:01:42Z",

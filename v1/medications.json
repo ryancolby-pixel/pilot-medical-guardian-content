@@ -211,6 +211,23 @@
     }
   },
   {
+    "genericName": "anastrozole",
+    "brandNames": [
+      "Arimidex"
+    ],
+    "category": "Aromatase inhibitor (breast cancer / low testosterone)",
+    "faaStatus": "conditional",
+    "informationalOnly": false,
+    "faaStatusDescription": "Named on the FAA's breast cancer (in situ only) and Low T CACI worksheets.\n\nBreast cancer. The FAA's CACI - Breast Cancer Worksheet names anastrozole (Arimidex) as an aromatase inhibitor under \"Approved medications include:\", with the criterion \"An approved medication that is being well tolerated with no side effects\". That worksheet covers only pathology showing \"Carcinoma in Situ (Tis), Stage 0\", \"Ductal Carcinoma in Situ (DCIS)\", \"Lobular Carcinoma in Situ (LCIS)\" or \"Paget disease of the breast (Tis)\", and it asks whether there is any evidence of \"Stage IA or higher\", \"Invasive or metastatic disease\" or \"Use of chemotherapy for this condition at any time\". The FAA's Breast Cancer disposition table sends chemotherapy, lymph node spread, metastatic disease or Stage IA or higher to DEFER: \"Submit the information to the FAA for a possible Special Issuance.\" For non metastatic cancer with treatment completed 5 or more years ago, the table gives ISSUE \"If no recurrence, current problems, or ongoing treatment\" and adds \"Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)\". Under the worksheet, the AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nLow testosterone. The FAA's Low Testosterone (Low T) Hypogonadism table lists Anastrozole on the row that says \"See the CACI - Hypogonadism Worksheet.\" That worksheet's criteria include a stable condition with no side effects that would interfere with flight duties and a hematocrit of 54% or less.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-anastrozole",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Breast Cancer Worksheet (updated 04/27/2022); Breast Cancer disposition table, All Classes (updated 09/27/2017); Low Testosterone (Low T) Hypogonadism disposition table and CACI Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf"
+    }
+  },
+  {
     "genericName": "apixaban",
     "brandNames": [
       "Eliquis"
@@ -1351,6 +1368,23 @@
     "faaStatus": "conditional"
   },
   {
+    "genericName": "exemestane",
+    "brandNames": [
+      "Aromasin"
+    ],
+    "category": "Aromatase inhibitor (breast cancer)",
+    "faaStatus": "conditional",
+    "informationalOnly": false,
+    "faaStatusDescription": "Named on the FAA's breast cancer CACI worksheet, which covers in situ only.\n\nBreast cancer. The FAA's CACI - Breast Cancer Worksheet names exemestane (Aromasin) as an aromatase inhibitor under \"Approved medications include:\", with the criterion \"An approved medication that is being well tolerated with no side effects\". That worksheet covers only pathology showing \"Carcinoma in Situ (Tis), Stage 0\", \"Ductal Carcinoma in Situ (DCIS)\", \"Lobular Carcinoma in Situ (LCIS)\" or \"Paget disease of the breast (Tis)\", and it asks whether there is any evidence of \"Stage IA or higher\", \"Invasive or metastatic disease\" or \"Use of chemotherapy for this condition at any time\". The FAA's Breast Cancer disposition table sends chemotherapy, lymph node spread, metastatic disease or Stage IA or higher to DEFER: \"Submit the information to the FAA for a possible Special Issuance.\" For non metastatic cancer with treatment completed 5 or more years ago, the table gives ISSUE \"If no recurrence, current problems, or ongoing treatment\" and adds \"Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)\". Under the worksheet, the AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-exemestane",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Breast Cancer Worksheet (updated 04/27/2022); Breast Cancer disposition table, All Classes (updated 09/27/2017)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf"
+    }
+  },
+  {
     "genericName": "ezetimibe",
     "brandNames": [
       "Zetia"
@@ -1900,6 +1934,23 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "letrozole",
+    "brandNames": [
+      "Femara"
+    ],
+    "category": "Aromatase inhibitor (breast cancer / PCOS)",
+    "faaStatus": "conditional",
+    "informationalOnly": false,
+    "faaStatusDescription": "Named on the FAA's breast cancer (in situ only) and PCOS CACI worksheets.\n\nBreast cancer. The FAA's CACI - Breast Cancer Worksheet names letrozole (Femara) as an aromatase inhibitor under \"Approved medications include:\", with the criterion \"An approved medication that is being well tolerated with no side effects\". That worksheet covers only pathology showing \"Carcinoma in Situ (Tis), Stage 0\", \"Ductal Carcinoma in Situ (DCIS)\", \"Lobular Carcinoma in Situ (LCIS)\" or \"Paget disease of the breast (Tis)\", and it asks whether there is any evidence of \"Stage IA or higher\", \"Invasive or metastatic disease\" or \"Use of chemotherapy for this condition at any time\". The FAA's Breast Cancer disposition table sends chemotherapy, lymph node spread, metastatic disease or Stage IA or higher to DEFER: \"Submit the information to the FAA for a possible Special Issuance.\" For non metastatic cancer with treatment completed 5 or more years ago, the table gives ISSUE \"If no recurrence, current problems, or ongoing treatment\" and adds \"Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)\". Under the worksheet, the AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nPolycystic ovarian syndrome. The FAA's CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists letrozole among the medications that \"May be used in combination\", with a treating physician finding the condition \"Stable on current regimen\" and \"No side effects from medication\".\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-letrozole",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Breast Cancer Worksheet (updated 04/27/2022); Breast Cancer disposition table, All Classes (updated 09/27/2017); CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf"
+    }
   },
   {
     "genericName": "levetiracetam",
@@ -3285,6 +3336,23 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
     "faaStatus": "conditional"
+  },
+  {
+    "genericName": "tamoxifen",
+    "brandNames": [
+      "Nolvadex"
+    ],
+    "category": "Selective estrogen receptor modulator (breast cancer / low testosterone)",
+    "faaStatus": "conditional",
+    "informationalOnly": false,
+    "faaStatusDescription": "Named on the FAA's breast cancer (in situ only) and Low T CACI worksheets.\n\nBreast cancer. The FAA's CACI - Breast Cancer Worksheet names tamoxifen (Nolvadex) under \"Approved medications include:\", with the criterion \"An approved medication that is being well tolerated with no side effects\". That worksheet covers only pathology showing \"Carcinoma in Situ (Tis), Stage 0\", \"Ductal Carcinoma in Situ (DCIS)\", \"Lobular Carcinoma in Situ (LCIS)\" or \"Paget disease of the breast (Tis)\", and it asks whether there is any evidence of \"Stage IA or higher\", \"Invasive or metastatic disease\" or \"Use of chemotherapy for this condition at any time\". The FAA's Breast Cancer disposition table sends chemotherapy, lymph node spread, metastatic disease or Stage IA or higher to DEFER: \"Submit the information to the FAA for a possible Special Issuance.\" For non metastatic cancer with treatment completed 5 or more years ago, the table gives ISSUE \"If no recurrence, current problems, or ongoing treatment\" and adds \"Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)\". Under the worksheet, the AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nLow testosterone. The FAA's Low Testosterone (Low T) Hypogonadism table lists Tamoxifen on the row that says \"See the CACI - Hypogonadism Worksheet.\" That worksheet's criteria include a stable condition with no side effects that would interfere with flight duties and a hematocrit of 54% or less.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tamoxifen",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Breast Cancer Worksheet (updated 04/27/2022); Breast Cancer disposition table, All Classes (updated 09/27/2017); Low Testosterone (Low T) Hypogonadism disposition table and CACI Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf"
+    }
   },
   {
     "genericName": "tamsulosin",

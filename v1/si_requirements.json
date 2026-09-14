@@ -913,6 +913,30 @@
   },
   {
     "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "testResult",
+    "envelope": {
+      "code": "si-cancer-lymphoma-initial",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 45. Lymphatics disposition table (updated 05/31/2023); AASI for Lymphoma and Hodgkin's Disease",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "requirementText": "This one applies at the initial decision, before you hold an Authorization. The FAA's Item 45 Lymphatics table lists \"Lymphoma and Hodgkin's Disease\" for all classes with \"Submit a current status report and all pertinent medical reports. Include past and present treatment(s).\" and the disposition \"Initial Special Issuance - Requires FAA Decision\". Its AASI page for the condition says that for a first-time application \"the Examiner must defer and submit all of the documentation to the AMCD or RFS for the initial determination.\" These two pages treat Hodgkin and non-Hodgkin lymphoma as one condition. Two related conditions have rows of their own in the same table: Lymphosarcoma, which is \"Requires FAA Decision\" with no AASI named, and chronic lymphocytic leukemia or small lymphocytic lymphoma (CLL/SLL), which has its own disposition table. Once your Authorization is granted, reissue runs on the AASI list, not this one."
+  },
+  {
+    "cadenceRaw": "everyExam",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-cancer-lymphoma-reissue",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-14T21:12:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: AASI for Lymphoma and Hodgkin's Disease",
+      "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hodgkins"
+    },
+    "requirementText": "At each reissue your AME needs, in the FAA's words, \"An Authorization granted by the FAA\" and \"An update of the status of the disease from the last FAA medical examination and any testing deemed necessary by the treating physician.\" The FAA's AASI page for this condition gives no template, form, required specialty or time window for that update. It does say \"The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination,\" so the attachments to your own Authorization letter are the list to work from. Two things send your file back to the FAA: the Examiner must defer to the AMCD or Region if \"There has been any recurrence or disease progression\" or if \"Any new treatment is initiated\"."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
     "documentTypeNeededRaw": "physicianLetter",
     "envelope": {
       "code": "si-bariatric-stability",
