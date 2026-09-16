@@ -142,5 +142,70 @@
         "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15"
       }
     ]
+  },
+  {
+    "envelope": {
+      "code": "reg-cancer-brain-tumor",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 46, BRAIN TUMOR (Intracranial Tumor) disposition table, All Classes (Updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Tumors.pdf",
+      "lastVerified": "2026-09-16T18:05:00Z",
+      "contentVersion": "2026-09-16"
+    },
+    "cardTitle": "Brain tumor and the FAA",
+    "iconSystemName": "brain.head.profile",
+    "body": "The FAA publishes a disposition table for this condition: \"BRAIN TUMOR (Intracranial Tumor)\", All Classes (Updated 05/29/2024).\n\nEvery row of that table defers. For a benign brain tumor that was not surgically treated, for a benign brain tumor that was surgically treated or resected, and for a malignant (cancerous) brain tumor, the disposition the FAA gives the examiner is the same: \"DEFER\" and \"Submit the information to the FAA for a possible Special Issuance.\"\n\nThe table sets a waiting period on two of those rows. For a benign tumor that was surgically treated or resected, it reads \"After a two-year (2) recovery period, submit the following for FAA review:\". For a malignant tumor it reads \"After a five-year (5) recovery period following completion of chemotherapy, radiation, or surgery. (Maintenance biologic medication does not add to the above recovery time.)\"\n\nEvery row asks for \"A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.\" and \"MRI brain performed no more than 12 months before the AME exam.\"\n\nThe table also routes two tumor types elsewhere: \"If tumor type is Acoustic neuroma or Pituitary Tumor - see the corresponding section.\"\n\nThe table also names the testing and the submission format. On the surgically treated or resected row it asks for a \"Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment. (Due to surgical resection, NP testing is required.)\" On the untreated row that testing is conditional: \"After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required.\"\n\nFor the imaging, the table states: \"Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD-ROM).\" It adds that a tumor \"associated with a seizure\" is also referred to the Seizure section, where \"An additional recovery period may apply.\"",
+    "links": []
+  },
+  {
+    "envelope": {
+      "code": "reg-cancer-skin-bcc-scc",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 40. Skin, Skin Cancer - All Classes disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma",
+      "lastVerified": "2026-09-16T18:05:00Z",
+      "contentVersion": "2026-09-16"
+    },
+    "cardTitle": "Basal cell and squamous cell skin cancer",
+    "iconSystemName": "sun.max",
+    "body": "The FAA's \"Skin Cancer - All Classes\" disposition table covers basal cell cancer (BCC) and squamous cell cancer (SCC) separately from melanoma.\n\nFor the uncomplicated case the disposition is ISSUE, not deferral. The table's condition column reads \"Basal cell cancer (BCC)\", \"Squamous cell cancer(SCC)\", \"Uncomplicated skin only. No organ involvement\", and its disposition column reads \"ISSUE\", \"Note BCC or SCC treated in block 60.\", \"If complicated lesion, see below.\"\n\nThe complicated case is different. For a \"Complicated lesion\" with \"Metastatic lymph node or deep tissue involvement, aggressive pathology or other abnormalities\", the disposition is \"DEFER\", \"Submit reports to FAA for review.\" and \"Follow-up certification - based on Special Issuance Authorization.\"\n\nWhere the pathology is not known, the table's disposition is \"MORE INFO NEEDED\".",
+    "links": []
+  },
+  {
+    "envelope": {
+      "code": "reg-cancer-leukemia",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 45. Lymphatics, Leukemia, Acute and Chronic disposition table",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd",
+      "lastVerified": "2026-09-16T18:05:00Z",
+      "contentVersion": "2026-09-16"
+    },
+    "cardTitle": "Leukemia and the FAA",
+    "iconSystemName": "drop.triangle",
+    "body": "The FAA's Item 45 disposition table has one row covering leukemia generally: \"Leukemia, Acute and Chronic - All Types\", for all classes, with the evaluation data \"Submit a current status report and all pertinent medical reports\" and the disposition \"Requires FAA Decision\".\n\nTwo kinds of leukemia are routed elsewhere by that same table. Chronic Lymphocytic Leukemia (CLL) and Small Lymphocytic Lymphoma (SLL) are sent to their own disposition table. Acute Lymphocytic Leukemia (ALL) has a separate FAA disposition table of its own, which the FAA publishes as a standalone document.\n\nThe Item 45 page also states the general rule its tables sit under: \"Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS.\" and \"Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.\"",
+    "links": []
+  },
+  {
+    "envelope": {
+      "code": "reg-cancer-thyroid",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners (Version 08/26/2026); Condition Not Listed disposition table, All Classes (Updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf",
+      "lastVerified": "2026-09-16T18:05:00Z",
+      "contentVersion": "2026-09-16"
+    },
+    "cardTitle": "Thyroid cancer and the FAA",
+    "iconSystemName": "magnifyingglass",
+    "body": "The FAA Guide for Aviation Medical Examiners does not name thyroid cancer. A search of the Guide, including the complete Guide PDF (Version 08/26/2026), returns no page for it. The hypothyroidism and hyperthyroidism tables address thyroid function, not thyroid cancer.\n\nA condition the tables do not name falls to the FAA's \"Condition Not Listed\" table, All Classes (Updated 03/25/2026). That table tells the examiner: \"When a diagnosis or condition is not listed in the disposition tables, the AME should assess whether the condition or its treatment could lead to sudden or subtle incapacitation.\"\n\nIt gives two outcomes. Where the \"AME determines the individual is NOT at increased risk for sudden or subtle incapacitation\", the disposition is \"ISSUE\" \"and explain rationale in Item 60.\" Where the \"AME determines the individual IS at increased risk for sudden or subtle incapacitation\", the disposition is \"DEFER\".\n\nThe same table sets a limit on the examiner: \"Medical certificates must not be issued to an individual with medical condition(s) that requires deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS.\"",
+    "links": []
+  },
+  {
+    "envelope": {
+      "code": "reg-cancer-myeloma",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners (Version 08/26/2026); Condition Not Listed disposition table, All Classes (Updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf",
+      "lastVerified": "2026-09-16T18:05:00Z",
+      "contentVersion": "2026-09-16"
+    },
+    "cardTitle": "Multiple myeloma and the FAA",
+    "iconSystemName": "magnifyingglass",
+    "body": "The FAA Guide for Aviation Medical Examiners does not name multiple myeloma. A search of the Guide, including the complete Guide PDF (Version 08/26/2026), returns no page for multiple myeloma, plasmacytoma or monoclonal gammopathy.\n\nThe FAA does not state which of its tables applies, and this app does not choose one for you.\n\nA condition the tables do not name falls to the FAA's \"Condition Not Listed\" table, All Classes (Updated 03/25/2026). That table states: \"When a diagnosis or condition is not listed in the disposition tables, the AME should assess whether the condition or its treatment could lead to sudden or subtle incapacitation.\"\n\nIt also states: \"Medical certificates must not be issued to an individual with medical condition(s) that requires deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS.\"",
+    "links": []
   }
 ]

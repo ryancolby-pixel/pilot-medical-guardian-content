@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-09-14.3",
-  "generatedAt": "2026-09-14T23:03:41Z",
+  "contentVersion": "2026-09-16.1",
+  "generatedAt": "2026-09-16T18:26:32Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -39,8 +39,8 @@
     },
     {
       "filename": "regulation_notices.json",
-      "size": 18011,
-      "checksum": "89862a1bd8750b8e51af12110fd3cd248fd2c84d49613951674bb905e9fb93df"
+      "size": 26919,
+      "checksum": "1437dddd203d0d0018dd08805048c7f4d582277a03c5b64ed3f29307620dd577"
     },
     {
       "filename": "regulation_requirements.json",
