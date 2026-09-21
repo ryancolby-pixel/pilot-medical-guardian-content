@@ -7,7 +7,7 @@
     "envelope" : {
       "code" : "dur-c1-p1-under40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(1)(i)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -20,7 +20,7 @@
     "envelope" : {
       "code" : "dur-c1-p1-over40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(1)(ii)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -33,7 +33,7 @@
     "envelope" : {
       "code" : "dur-c1-p2",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(1)(iii)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -46,7 +46,7 @@
     "envelope" : {
       "code" : "dur-c1-p3-under40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(1)(iv)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -59,7 +59,7 @@
     "envelope" : {
       "code" : "dur-c1-p3-over40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(1)(v)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -72,7 +72,7 @@
     "envelope" : {
       "code" : "dur-c2-p2",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(2)(i)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -85,7 +85,7 @@
     "envelope" : {
       "code" : "dur-c2-p3-under40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(2)(ii)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -98,7 +98,7 @@
     "envelope" : {
       "code" : "dur-c2-p3-over40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(2)(iii)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -111,7 +111,7 @@
     "envelope" : {
       "code" : "dur-c3-p3-under40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(3)(i)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }
@@ -124,7 +124,7 @@
     "envelope" : {
       "code" : "dur-c3-p3-over40",
       "contentVersion" : "2026.0",
-      "lastVerified" : "2026-05-28T00:00:00Z",
+      "lastVerified" : "2026-09-21T14:30:00Z",
       "sourceCitation" : "14 CFR 61.23(d)(3)(ii)",
       "sourceURL" : "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.23"
     }

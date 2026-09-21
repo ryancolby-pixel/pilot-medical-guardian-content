@@ -25,7 +25,7 @@
     "envelope": {
       "code": "caci-asthma",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Asthma Worksheet (updated 09/24/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     },
@@ -47,7 +47,7 @@
     "envelope": {
       "code": "caci-bladder-cancer",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Bladder Cancer Worksheet (updated 04/27/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf"
     },
@@ -112,7 +112,7 @@
     "envelope": {
       "code": "caci-carotid-vertebral-artery-stenosis",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
     },
@@ -137,7 +137,7 @@
     "envelope": {
       "code": "caci-chronic-kidney-disease",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Chronic Kidney Disease Worksheet (updated 04/27/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf"
     },
@@ -184,7 +184,7 @@
     "envelope": {
       "code": "caci-colitis",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Colitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     },
@@ -232,7 +232,7 @@
     "envelope": {
       "code": "caci-eosinophilic-esophagitis",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Eosinophilic Esophagitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Eosinophilic_Esophagitis.pdf"
     },
@@ -278,7 +278,7 @@
     "envelope": {
       "code": "caci-glaucoma",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Glaucoma Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
@@ -300,7 +300,7 @@
     "envelope": {
       "code": "caci-hepatitis-c-chronic",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Hepatitis C – Chronic Worksheet (updated 11/24/2021)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf"
     },
@@ -323,7 +323,7 @@
     "envelope": {
       "code": "caci-hypertension",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
     },
@@ -392,7 +392,7 @@
     "envelope": {
       "code": "caci-mash-nash-liver",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI MASH / NASH (Liver) Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf"
     },
@@ -534,7 +534,7 @@
     "envelope": {
       "code": "caci-prostate-cancer",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Prostate Cancer Worksheet (updated 04/27/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf"
     },
@@ -574,7 +574,7 @@
     "envelope": {
       "code": "caci-renal-cancer",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Renal Cancer Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf"
     },
@@ -623,7 +623,7 @@
     "envelope": {
       "code": "caci-testicular-cancer",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-28T00:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for AMEs — CACI Testicular Cancer Worksheet (updated 04/27/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACITesticularCancer.pdf"
     },

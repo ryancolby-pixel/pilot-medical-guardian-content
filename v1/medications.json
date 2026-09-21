@@ -205,9 +205,9 @@
     "envelope": {
       "code": "med-amphetamine-dextroamphetamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-09-21T14:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Do Not Issue - Do Not Fly Medications tables (updated 06/28/2023), DO NOT ISSUE, Psychiatric or Psychotropic Medications (ADD/ADHD medications; Stimulants)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -1842,7 +1842,7 @@
     "envelope": {
       "code": "med-insulin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-22T12:00:00Z",
+      "lastVerified": "2026-09-21T14:30:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row C",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
     }
@@ -2433,9 +2433,9 @@
     "envelope": {
       "code": "med-methylphenidate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-05-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
+      "lastVerified": "2026-09-21T14:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Do Not Issue - Do Not Fly Medications tables (updated 06/28/2023), DO NOT ISSUE, Psychiatric or Psychotropic Medications (ADD/ADHD medications; Stimulants)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
