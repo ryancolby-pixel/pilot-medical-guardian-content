@@ -1,6 +1,14 @@
 {
-  "unsupportedCitations": 7,
-  "recordedAt": "2026-09-14",
+  "unsupportedCitations": 8,
+  "recordedAt": "2026-09-22",
   "meaning": "Absence-claiming medication entries whose sourceURL points outside https://www.faa.gov/ame_guide/pharm, so the claim cannot be checked at its own citation. This is a RATCHET: the number may go down, never up. It is not a target that has been met; it is a debt that is being tolerated so the check could land on legacy content without wedging the repo. Lower it whenever entries are repointed.",
-  "howToFix": "Point the entry's envelope.sourceURL at the relevant https://www.faa.gov/ame_guide/pharm/... page (the index lists per-topic pages: Antidepressants, Antihypertensive, Anticoagulants, Sedatives, Sleep Aids, Smoking Cessation, Weight Loss, and more), then lower this number by the count fixed."
+  "howToFix": "Point the entry's envelope.sourceURL at the relevant https://www.faa.gov/ame_guide/pharm/... page (the index lists per-topic pages: Antidepressants, Antihypertensive, Anticoagulants, Sedatives, Sleep Aids, Smoking Cessation, Weight Loss, and more), then lower this number by the count fixed.",
+  "exceptions": [
+    {
+      "code": "med-meloxicam",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
+      "why": "Deliberate, and NOT the debt this ratchet is tracking. The other 7 are legacy entries citing a page that names no drugs, which is the clonidine failure this check exists to catch. This one cites the Migraine Medication page, which DOES name the drug: 'meloxicam + rizatriptan (Symbravo)' with a 24 hour post-dose wait. A pilot who clicks through can verify it, so the claim is falsifiable at its own citation. The check gates on the URL prefix as a proxy for that, and the proxy misses here. Do not 'fix' this by repointing it at /ame_guide/pharm/, which would send the reader to a page that cannot show them the wait time.",
+      "found": "2026-09-22 re-verification. check A only inspects DNI/DNF, so it could not see a drug named in the Migraine Medication table. Same blind-spot family as GOTCHAS_CONTENT 22."
+    }
+  ]
 }
