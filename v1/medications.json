@@ -431,13 +431,13 @@
     "category": "Sedating antihistamine (allergy)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA sedating and not for daily use. No individual wait time is published.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"brompheniramine (Dimetapp)\" in its AVOID column among sedating antihistamines. Its AME Guide antihistamine table covers \"All First-Generation Histamine- H1 receptor antagonist\" as conditionally acceptable, \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", NOT FOR DAILY USE, but does not list brompheniramine individually or give it a post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA sedating and not for daily use. No individual wait time is published.\n\nThe FAA's antihistamine table covers \"All First-Generation Histamine- H1 receptor antagonist\" as conditionally acceptable: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\". It does not list brompheniramine individually or give it a \"Post-dose observation\" time.\n\nIts Over-the-Counter guide places brompheniramine (Dimetapp) in the \"AVOID\" column among sedating antihistamines.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-brompheniramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024), AVOID column",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-09-22T12:48:46Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": null,
     "informationalOnly": false
@@ -786,11 +786,11 @@
     "category": "Sedating antihistamine (allergy)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 120 hours (5 days) after the last dose.\n\nThe FAA's antihistamine table lists \"clemastine (No brand)\" at 5 days, in the same row group as chlorpheniramine. Its OTC guide repeats it: \"5 days for both chlorpheniramine and clemastine\".\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 5 days after the last dose.\n\nThe FAA's antihistamine table lists \"clemastine (No brand)\" at \"5 days\" post-dose, in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-clemastine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
+      "lastVerified": "2026-09-22T12:48:46Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
@@ -1100,12 +1100,12 @@
     "category": "Sedating antihistamine (motion sickness)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA AVOID for flight. The wait is longer than usual and is not numbered.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"dimenhydrinate (Dramamine)\" in its AVOID column under motion sickness, and says \"The wait times for these medications are longer than noted in the 'Dosage Interval Wait Timetable' due to their longer half-life. Consult your AME.\"\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA AVOID for flight. The wait is longer than usual and is not numbered.\n\nThe FAA's Over-the-Counter guide places dimenhydrinate (Dramamine) in its AVOID column under \"Motion sickness\". It says the wait times for these run \"longer than noted in\" the Dosage Interval Wait Timetable because of their longer half-life, and to \"Consult your AME\".\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-dimenhydrinate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024), AVOID column",
+      "lastVerified": "2026-09-22T12:48:46Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024), AVOID column, Motion sickness",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
     "preFlightWaitHours": null,
@@ -1189,11 +1189,11 @@
     "category": "Sedating antihistamine (sleep aid)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 60 hours after the last dose.\n\nOral, alone or in any combination product such as Unisom or a night-time cold remedy.\n\nThe FAA's antihistamine table lists \"doxylamine (Unisom)\" at 60 hours, the same as diphenhydramine. Its OTC guide also puts doxylamine in the AVOID column among sleep aid products.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 60 hours after the last dose.\n\nThe FAA's antihistamine table lists \"doxylamine (Unisom)\" at \"60 hours\" post-dose, in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nIts Over-the-Counter guide also places doxylamine in the \"AVOID\" column among sleep aid products.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-doxylamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
+      "lastVerified": "2026-09-22T12:48:46Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
@@ -2351,12 +2351,12 @@
     "category": "Sedating antihistamine (motion sickness)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA AVOID for flight. The wait is longer than usual and is not numbered.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"meclizine (Antivert)\" in its AVOID column under motion sickness, and says \"The wait times for these medications are longer than noted in the 'Dosage Interval Wait Timetable' due to their longer half-life. Consult your AME.\"\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA AVOID for flight. The wait is longer than usual and is not numbered.\n\nThe FAA's Over-the-Counter guide places meclizine (Antivert) in its AVOID column under \"Motion sickness\". It says the wait times for these run \"longer than noted in\" the Dosage Interval Wait Timetable because of their longer half-life, and to \"Consult your AME\".\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-meclizine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024), AVOID column",
+      "lastVerified": "2026-09-22T12:48:46Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024), AVOID column, Motion sickness",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
     "preFlightWaitHours": null,
