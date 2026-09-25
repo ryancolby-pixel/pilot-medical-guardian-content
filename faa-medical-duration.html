@@ -184,6 +184,27 @@
     .prose p a, .card p a { color: var(--accent); }
     .source-note { color: var(--muted); font-size: 0.86rem; margin-top: 6px; }
     .source-note a { color: var(--accent); }
+    /* 61.23 calculator (2026-09-25). Runs in the browser only: no form
+       submission, no network, no storage. Hidden until JS unhides it, so a
+       no-JS reader sees the table and disclaimer with no dead control. */
+    .calc h3 { margin: 0 0 14px; font-size: 1.2rem; }
+    .calc fieldset { border: 0; padding: 0; margin: 0 0 14px; min-width: 0; }
+    .calc legend, .calc .calc-date { display: block; padding: 0; margin: 0 0 6px; font-weight: 600; font-size: 0.95rem; }
+    .calc-seg { display: flex; flex-wrap: wrap; gap: 8px; }
+    .calc-seg label { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; box-sizing: border-box;
+      padding: 0 14px; border: 1px solid var(--rule); border-radius: var(--radius-chip); background: var(--card); cursor: pointer; }
+    .calc-seg label:has(input:checked) { border-color: var(--accent); background: var(--accent-tint); }
+    .calc-seg input { margin: 0; accent-color: var(--accent); }
+    .calc-date input { display: block; width: 100%; max-width: 260px; min-height: 44px; box-sizing: border-box; margin-top: 6px;
+      padding: 8px 12px; font: inherit; color: var(--text); background: var(--card); color-scheme: light dark;
+      border: 1px solid var(--rule); border-radius: var(--radius-chip); }
+    .calc-btn { margin-top: 16px; padding: 13px 22px; border: 0; border-radius: var(--radius-chip); background: var(--brand-grad);
+      color: #fff; font: inherit; font-weight: 600; line-height: 1; cursor: pointer; box-shadow: var(--shadow-cta); }
+    .calc-need { margin: 10px 0 0; color: var(--warntext); font-size: 0.92rem; }
+    .calc-lines { list-style: none; padding: 0; margin: 18px 0 0; }
+    .calc-lines li { padding: 10px 0; border-top: 1px solid var(--rule); }
+    .calc-lines li:first-child { border-top: 0; padding-top: 0; font-weight: 700; font-size: 1.08rem; }
+    .calc-app { margin: 14px 0 0; }
   </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -253,11 +274,111 @@
     </div>
     <p class="source-note">Source: <a href="https://www.ecfr.gov/current/title-14/section-61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>; the FAA AME Guide's <a href="https://www.faa.gov/ame_guide/app_process/general/validity" target="_blank" rel="noopener">certificate validity</a> page; and the FAA FAQ <a href="https://www.faa.gov/faq/what-class-medical-certificate-must-i-hold-and-how-long-it-valid" target="_blank" rel="noopener">"What class of medical certificate must I hold and how long is it valid?"</a></p>
 
+    <div class="card calc" id="calc" hidden>
+      <h3>When does mine expire?</h3>
+      <fieldset>
+        <legend>Class of privileges</legend>
+        <div class="calc-seg">
+          <label><input type="radio" name="calc-class" value="1"> First</label>
+          <label><input type="radio" name="calc-class" value="2"> Second</label>
+          <label><input type="radio" name="calc-class" value="3"> Third</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Age at the exam</legend>
+        <div class="calc-seg">
+          <label><input type="radio" name="calc-age" value="under40"> Under 40</label>
+          <label><input type="radio" name="calc-age" value="40plus"> 40 or older</label>
+        </div>
+      </fieldset>
+      <label class="calc-date">Exam date
+        <input type="date" id="calc-date" min="1950-01-01" max="2100-12-31">
+      </label>
+      <button type="button" class="calc-btn" id="calc-go">Calculate</button>
+      <p class="calc-need" id="calc-need" hidden>Pick a class, your age at the exam, and the exam date.</p>
+      <div aria-live="polite">
+        <div id="calc-result" hidden>
+          <ul class="calc-lines" id="calc-lines"></ul>
+          <p class="calc-app"><strong>These dates are 14 CFR 61.23. The app applies this table from your exam date and counts the days on Home.</strong></p>
+          <div class="links">
+            <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-duration&amp;mt=8">iPhone &amp; iPad &rarr;</a>
+            <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=seo-duration&amp;mt=12">Mac &rarr;</a>
+          </div>
+          <p class="fineprint" style="margin-bottom:0;">Not medical or legal advice. Confirm against your physical certificate and the FAA sources above.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+    (function () {
+      // 14 CFR 61.23(d), the table above. [class, months under 40, months 40+],
+      // highest privilege first; a certificate steps down through the rest.
+      var STEPS = {
+        '1': [['First', 12, 6], ['Second', 12, 12], ['Third', 60, 24]],
+        '2': [['Second', 12, 12], ['Third', 60, 24]],
+        '3': [['Third', 60, 24]]
+      };
+      var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      var box = document.getElementById('calc');
+      var result = document.getElementById('calc-result');
+      var need = document.getElementById('calc-need');
+      var lines = document.getElementById('calc-lines');
+      var dateEl = document.getElementById('calc-date');
+      // The card under the disclaimer carries the same Store pair. Hide it while
+      // a result (with its own pair) is on screen, so one viewport never shows
+      // two identical rows. Without JS the calculator stays hidden and this
+      // card is the only pair, as before. Looked up on use: this script runs
+      // before that card is parsed.
+      box.hidden = false;
+
+      function picked(name) {
+        var el = box.querySelector('input[name="' + name + '"]:checked');
+        return el ? el.value : null;
+      }
+      // Exam month + N calendar months, valid through the LAST DAY of that month.
+      // Integer month math on the typed Y-M-D: no Date parsing, so no timezone
+      // can move the result by a day.
+      function through(y, m, months) {
+        var idx = (m - 1) + months;
+        var y2 = y + Math.floor(idx / 12), m2 = idx % 12;
+        var last = new Date(Date.UTC(y2, m2 + 1, 0)).getUTCDate();
+        return MON[m2] + ' ' + last + ', ' + y2;
+      }
+      function showResult(on) {
+        result.hidden = !on;
+        var ctaCard = document.getElementById('dur-cta');
+        if (ctaCard) ctaCard.hidden = on;
+      }
+      function clear() { showResult(false); need.hidden = true; }
+      box.addEventListener('change', clear);
+
+      document.getElementById('calc-go').addEventListener('click', function () {
+        var cls = picked('calc-class'), age = picked('calc-age');
+        var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateEl.value || '');
+        var y = m ? +m[1] : 0, mo = m ? +m[2] : 0;
+        if (!cls || !age || !m || y < 1950 || y > 2100 || mo < 1 || mo > 12) {
+          showResult(false); need.hidden = false; return;
+        }
+        need.hidden = true;
+        lines.textContent = '';
+        var prev = null;
+        STEPS[cls].forEach(function (step) {
+          var date = through(y, mo, age === 'under40' ? step[1] : step[2]);
+          if (date === prev) return;   // e.g. under 40, first and second end the same day
+          var li = document.createElement('li');
+          li.textContent = step[0] + '-class ' + (prev === null ? 'privileges ' : '') + 'through ' + date + '.';
+          lines.appendChild(li);
+          prev = date;
+        });
+        showResult(true);
+      });
+    })();
+    </script>
+
     <div class="callout">
       <strong>This is a plain-language guide to 14 CFR 61.23. It is not FAA advice or an FAA site.</strong> Use the official links above.
     </div>
 
-    <div class="card">
+    <div class="card" id="dur-cta">
       <p style="margin-top:0"><strong>These dates are 14 CFR 61.23. Enter your last exam date in Pilot Medical Guardian. The app applies this table (class, age at the exam, end of the month) and counts the days on Home.</strong></p>
       <div class="links">
         <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-duration&amp;mt=8">iPhone &amp; iPad &rarr;</a>
