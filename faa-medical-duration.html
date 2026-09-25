@@ -187,6 +187,8 @@
     /* 61.23 calculator (2026-09-25). Runs in the browser only: no form
        submission, no network, no storage. Hidden until JS unhides it, so a
        no-JS reader sees the table and disclaimer with no dead control. */
+    /* /expire lands on #calc; clear the 61px sticky nav so the heading is not hidden under it. */
+    .calc { scroll-margin-top: 76px; }
     .calc h3 { margin: 0 0 14px; font-size: 1.2rem; }
     .calc fieldset { border: 0; padding: 0; margin: 0 0 14px; min-width: 0; }
     .calc legend, .calc .calc-date { display: block; padding: 0; margin: 0 0 6px; font-weight: 600; font-size: 0.95rem; }
@@ -206,6 +208,10 @@
     .calc-lines li:first-child { border-top: 0; padding-top: 0; font-weight: 700; font-size: 1.08rem; }
     .calc-app { margin: 14px 0 0; }
   </style>
+  <!-- The calculator needs JS. Without it, hide the box so a no-JS reader sees the table and the
+       disclaimer and no dead control. It is NOT hidden by default with JS on, so the browser can
+       find #calc when /expire forwards here (a box hidden at first paint made that jump unreliable). -->
+  <noscript><style>.calc { display: none; }</style></noscript>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
   <meta name="apple-itunes-app" content="app-id=6772534988, affiliate-data=pt=128922811&amp;ct=web-banner&amp;mt=8">
@@ -274,7 +280,7 @@
     </div>
     <p class="source-note">Source: <a href="https://www.ecfr.gov/current/title-14/section-61.23" target="_blank" rel="noopener">14 CFR 61.23(d)</a>; the FAA AME Guide's <a href="https://www.faa.gov/ame_guide/app_process/general/validity" target="_blank" rel="noopener">certificate validity</a> page; and the FAA FAQ <a href="https://www.faa.gov/faq/what-class-medical-certificate-must-i-hold-and-how-long-it-valid" target="_blank" rel="noopener">"What class of medical certificate must I hold and how long is it valid?"</a></p>
 
-    <div class="card calc" id="calc" hidden>
+    <div class="card calc" id="calc">
       <h3>When does mine expire?</h3>
       <fieldset>
         <legend>Class of privileges</legend>
@@ -329,6 +335,9 @@
       // card is the only pair, as before. Looked up on use: this script runs
       // before that card is parsed.
       box.hidden = false;
+      // /expire forwards here as #calc. Land on the box explicitly too, in case the browser's own
+      // anchor jump ran before layout settled (seen in a background tab). scroll-margin clears the nav.
+      if (location.hash === '#calc') box.scrollIntoView({ block: 'start' });
 
       function picked(name) {
         var el = box.querySelector('input[name="' + name + '"]:checked');
