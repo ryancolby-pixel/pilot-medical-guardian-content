@@ -101,11 +101,11 @@
     "envelope": {
       "code": "si-ssri-stability-period",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47, Use of Antidepressant Medications (Antidepressant Protocol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA Airman Information - SSRI (Antidepressant) Initial Certification, updated 08/26/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf"
     },
-    "requirementText": "The FAA sets this interval and states it plainly. Under Item 47 you may be considered only if, \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms.\" The medication must be one on the FAA's conditionally acceptable Antidepressant Medications list, used as a single agent and not in combination. Each provider who reports on you verifies the same fact independently: the HIMS AME Checklist for initial certification asks your HIMS AME, your board certified psychiatrist, and your prescribing physician if that person is not a psychiatrist, to each confirm you have been \"on the same medication at the same dose for a minimum of 3 months.\" If you have been on the medication for less than 3 months, the FAA instructs the examiner to advise you that 3 months of continuous use is required before a Special Issuance can be considered. Meeting the 3 months makes you eligible to be considered, not certificated at that exam: for an applicant who does not yet hold an Authorization, the FAA states on the same page that \"The Authorization decision is made on a case-by-case basis. The AME may not issue.\""
+    "requirementText": "First-time issuance goes through a HIMS AME. The FAA's airman information sheet for initial certification (updated 08/26/2026) tells you to \"Select and contact a Human Intervention Motivation Study Aviation Medical Examiner (HIMS AME) to work with you through the FAA process.\" The waiting period is 3 months: \"When you have been stable with no symptoms or side effects and on the same dose of medication for 3 months (this must be documented), you should meet with your HIMS AME to determine if it is appropriate to submit an INITIAL SSRI Special Issuance packet for FAA review.\" Until then the sheet says \"Do not fly in accordance with 14 CFR 61.53 until you have an Authorization from the FAA.\" Your HIMS AME submits the exam as deferred and sends the package within 14 days, and the FAA warns that \"Partial or incomplete packages WILL NOT BE REVIEWED and will cause a DELAY IN CERTIFICATION.\" Print the FAA's certification aid for initial certification and take the right page to each of your providers, so each report covers what the FAA needs. The same sheet notes the FAA now calls SSRIs antidepressants."
   },
   {
     "cadenceRaw": "other",
@@ -113,23 +113,47 @@
     "envelope": {
       "code": "si-ssri-physician-letter",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA Certification Aid, SSRI Recertification/Follow Up Clearance",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf"
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA HIMS AME Checklist - SSRI Recertification/Follow-Up Clearance, updated 08/26/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf"
     },
-    "requirementText": "The FAA's interval for this report is every 6 months, not annual. Its certification aid for SSRI recertification lists the psychiatrist interim history report at \"Every 6 months or per Authorization Letter,\" and asks the report to cover: a summary of your clinical findings and how you are doing, any new symptoms or hospitalizations, whether a change in dose or medication occurred or is anticipated, any clinical concerns or changes in the treatment plan, whether the diagnosis has changed, the psychiatrist's agreement to notify the FAA immediately if your condition, dosage, or medication changes or the medication is stopped, and interval treatment records such as clinic or hospital notes. If the doctor who prescribes your medication is not a psychiatrist, the FAA requires items 2 through 7 of that same list from the prescribing physician in addition to the psychiatrist report. Reports have a shelf life: the FAA states that all reports must be current, \"within the last 90 days,\" for FAA purposes."
+    "requirementText": "Your treating psychiatrist reports every 6 months too. The FAA's recertification checklist (updated 08/26/2026) lists the \"TREATING PSYCHIATRIST REPORT: Required EVERY 6 months for ALL CLASSES\" and accepts a HIMS psychiatrist report plus a prescribing physician report instead. The report should be favorable \"with no anticipated or interim treatment changes\" and should confirm you are on the same medication at the same dose your Authorization letter states. The FAA's recertification aid asks the psychiatrist to cover how you are doing, any new symptoms or hospitalizations, any change in dose or medication, any change in the treatment plan or diagnosis, an agreement to notify the FAA of changes, and interval clinic or hospital notes. If your prescribing doctor is not a psychiatrist, that doctor reports too, in addition to the psychiatrist. The aid also says reports must be current, within the last 90 days, when they reach the FAA. If the report is unfavorable, the AME must defer or contact the FAA instead of reissuing."
   },
   {
-    "cadenceRaw": "onceAtIssuance",
+    "cadenceRaw": "other",
     "documentTypeNeededRaw": "testResult",
     "envelope": {
       "code": "si-ssri-specialist-eval",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications; SSRI Recertification - Neuropsychological Report Changes and FAQs",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf"
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA HIMS AME Checklist - SSRI Recertification/Follow-Up Clearance, updated 08/26/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf"
     },
-    "requirementText": "Required for initial certification: a neuropsychological evaluation including CogScreen-AE. The FAA specifies who may perform it, \"a licensed clinical psychologist who is either board certified or 'board eligible' in clinical neuropsychology.\" The report must include a review of all available records, a thorough clinical interview and history, a mental status examination, interpretation of the testing, and an integrated summary with an explicit diagnostic statement. You submit the neuropsychologist's report, all computer score reports, and an appended score summary sheet that includes all scores for all tests administered. The FAA's certification aid for SSRI initial certification is where the page count comes from: it asks for the \"CogScreen-AE computerized summary report (approximately 13 pages)\" plus a summary score sheet for any additional testing performed. The itemized test battery is not published. The FAA moved it to a secure site for test security, so your neuropsychologist requests access rather than you looking it up. For renewal the FAA changed this on 12/15/2022, in a separate document. Its SSRI Recertification - Neuropsychological Report Changes and FAQs states that the neuropsychologist evaluation and routine CogScreen-AE administration \"are no longer necessary for RENEWAL of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter.\" The same note is printed on the HIMS AME Checklist and the certification aid for SSRI recertification. None of that reaches an initial package. The FAQ says the change \"does NOT affect initial evaluations and the current AME checklists and Specifications for Neuropsychological Evaluations should still be used,\" and, asked whether it applies to pilots not yet on an SSRI Authorization, it answers \"There is no change to the current INITIAL Authorization requirements.\" Those specifications, updated 01/29/2020, are what this requirement cites. Authorization letters written before 12/15/2022 may still ask for a CogScreen at renewal, and the FAQ addresses that case."
+    "requirementText": "Required only if your Authorization letter says so. CogScreen-AE is part of the first package, not a standing renewal item. The FAA's recertification checklist (updated 08/26/2026) says the neuropsychologist report and routine CogScreen-AE administration \"are no longer necessary for renewal of an SSRI special issuance, except when clinically indicated or specified\" on the Authorization letter. That change dates to 12/15/2022. Check your letter: mark this item In my letter only if it asks for a CogScreen at renewal, and Not in my letter if it does not. If a required CogScreen report shows a concern, the AME must defer or contact the FAA."
+  },
+  {
+    "cadenceRaw": "onceAtIssuance",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-ssri-initial-package",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA HIMS AME Checklist - SSRI Initial Certification/Clearance (Antidepressant), updated 08/26/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Initial_Certification.pdf"
+    },
+    "requirementText": "The first package is one bundle, and the FAA's HIMS AME Checklist for initial certification (updated 08/26/2026) lists what goes in it. Your own signed statement, with \"all medical/treatment records related to mental health history.\" Your HIMS AME's \"FACE-TO-FACE, IN-OFFICE EVALUATION.\" A report from your treating physician if that doctor is not a board certified psychiatrist. A \"Board Certified PSYCHIATRIST REPORT.\" A \"NEUROPSYCHOLOGIST REPORT\" with the \"CogScreen-AE computerized report is attached\" line checked. Any additional reports, such as drug testing or therapy reports. The HIMS AME, the psychiatrist and a non-psychiatrist treating physician each confirm you have been \"on the same medication at the same dose for a minimum of 3 months.\" The checklist warns: \"CERTIFICATION WILL BE DELAYED IF ANY ITEMS ARE MISSING OR ARE INCOMPLETE.\" While the FAA reviews it, keep going: HIMS AME evaluations and treating psychiatrist reports continue \"EVERY 6 months.\""
+  },
+  {
+    "cadenceRaw": "other",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-ssri-aasi-path",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA AASI for Anxiety, Depression, and Related Conditions PATH, updated 08/26/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Anxiety_Depression_Related_Conditions.pdf"
+    },
+    "requirementText": "Applies only if your Authorization letter says AASI PATH has been approved. PATH is a follow-up route, not a first issuance: the FAA's PATH page (updated 08/26/2026) says \"An FAA physician provides the initial certification decision,\" and for a first-time application \"the AME must defer.\" After that, an AME may reissue under your Authorization only if you bring \"An Authorization granted by the FAA that states that AASI PATH has been approved.\" You also bring clinic progress notes \"EVERY 6 months (or more often as clinically indicated),\" at least one of them from a physician (MD/DO), with the most recent \"no more than 90 days before the AME exam,\" plus the PATH Status Summary completed by your treating physician and the AME. That is the minimum. The AME must defer instead of reissuing if anything new appears, such as new symptoms, a new diagnosis or new substance use, if the condition progresses, or if the AME or your doctors have concerns, and must notify the FAA of any significant clinical deterioration. If your letter does not mention AASI PATH, mark this item Not in my letter."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -1061,11 +1085,11 @@
     "envelope": {
       "code": "si-ssri-monthly-checkin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, SSRI Recertification/Follow Up Clearance",
+      "lastVerified": "2026-09-27T11:02:06Z",
+      "sourceCitation": "FAA HIMS AME Checklist - SSRI Recertification/Follow-Up Clearance, updated 08/26/2026",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf"
     },
-    "requirementText": "The FAA does not publish a monthly report from your treating physician for this protocol. Its HIMS AME Checklist for SSRI recertification lists what actually recurs: the HIMS AME face-to-face, in office evaluation \"Required EVERY 6 months for ALL CLASSES,\" the treating psychiatrist report \"Required EVERY 6 months for ALL CLASSES,\" a Chief Pilot or Air Traffic Manager report \"Required EVERY 3 months\" (the checklist limits this to commercial pilots holding first or second class certificates, and the FAA's certification aid narrows it to those employed by an air carrier within the last 2 years, marking third class as not applicable), and any additional reports your Authorization letter requires. What the FAA does describe between the 6 month visits, in that certification aid rather than in the checklist, is interim contact with your HIMS AME by phone, video, or email, at an interval set \"either at the AME's discretion or as required by the Authorization or Special Consideration Letter (every 1-3 months).\" Those contacts are not filed on their own. Your HIMS AME summarizes them in the 6 month report. Your own Authorization letter is the authority on how often you check in."
+    "requirementText": "Once you hold an Authorization, the recurring visit is with your HIMS AME, in person, every 6 months. The FAA's recertification checklist (updated 08/26/2026) lists the \"HIMS AME FACE-TO-FACE, IN OFFICE EVALUATION: Required EVERY 6 months for ALL CLASSES.\" Between those visits your HIMS AME may check in by phone, video or email, at an interval the AME or your Authorization letter sets, and summarizes those contacts in the 6 month report. Pilots no longer send a chief pilot report: the checklist's 3 month report is for air traffic controllers only and says \"(Mark N/A for pilots).\" Any other report your letter names still goes in the package. If any item on the checklist falls in its shaded column, the AME must defer or contact the FAA instead of reissuing. Your Authorization letter is the authority on your own schedule."
   },
   {
     "cadenceRaw": "onceAtIssuance",
