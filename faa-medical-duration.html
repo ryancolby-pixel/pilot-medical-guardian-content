@@ -207,6 +207,8 @@
     .calc-lines li { padding: 10px 0; border-top: 1px solid var(--rule); }
     .calc-lines li:first-child { border-top: 0; padding-top: 0; font-weight: 700; font-size: 1.08rem; }
     .calc-app { margin: 14px 0 0; }
+    .calc-cta .links { margin-top: 16px; }
+    @media (max-width: 699.98px) { .calc-cta .links a.calc-mac { display: none; } }
   </style>
   <!-- The calculator needs JS. Without it, hide the box so a no-JS reader sees the table and the
        disclaimer and no dead control. It is NOT hidden by default with JS on, so the browser can
@@ -306,12 +308,20 @@
         <div id="calc-result" hidden>
           <ul class="calc-lines" id="calc-lines"></ul>
           <p class="calc-app"><strong>These dates are 14 CFR 61.23. The app applies this table from your exam date and counts the days on Home.</strong></p>
-          <div class="links">
-            <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-duration&amp;mt=8">iPhone &amp; iPad &rarr;</a>
-            <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=seo-duration&amp;mt=12">Mac &rarr;</a>
-          </div>
           <p class="fineprint" style="margin-bottom:0;">Not medical or legal advice. Confirm against your physical certificate and the FAA sources above.</p>
         </div>
+      </div>
+      <!-- 2026-09-28 (Ryan's duration conversion pass): ONE Store block, placed AFTER the result. Before a
+           calculation it sits directly under Calculate; once the result shows, the result opens above it, so
+           the same block is directly under the result. That is the old in-result pair moved, same two hrefs,
+           so no link was added or lost. Mac is hidden under 700px (phones); the mid-page and footer pairs
+           still carry Mac. -->
+      <div class="calc-cta" id="calc-cta">
+        <div class="links">
+          <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-duration&amp;mt=8">iPhone &amp; iPad &rarr;</a>
+          <a class="primary calc-mac" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=seo-duration&amp;mt=12">Mac &rarr;</a>
+        </div>
+        <p class="fineprint" style="margin-bottom:0;">Free to download. Records stay on your device and your own iCloud.</p>
       </div>
     </div>
     <script>
@@ -330,8 +340,8 @@
       var lines = document.getElementById('calc-lines');
       var dateEl = document.getElementById('calc-date');
       // The card under the disclaimer carries the same Store pair. Hide it while
-      // a result (with its own pair) is on screen, so one viewport never shows
-      // two identical rows. Without JS the calculator stays hidden and this
+      // a result is on screen (the calc-cta block sits right under it), so one
+      // viewport never shows two identical rows. Without JS the calculator stays hidden and this
       // card is the only pair, as before. Looked up on use: this script runs
       // before that card is parsed.
       box.hidden = false;
@@ -379,6 +389,9 @@
           prev = date;
         });
         showResult(true);
+        // Bring the Store button into view with the result if Calculate was tapped near the bottom of
+        // the screen. 'nearest' does nothing when it is already visible.
+        document.getElementById('calc-cta').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       });
     })();
     </script>
