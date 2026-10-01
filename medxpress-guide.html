@@ -53,10 +53,42 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How long is a MedXPress confirmation number valid?",
+            "name": "How long is a MedXPress application good for?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Per the FAA, after you submit your application your medical examination must occur within 60 days or the application is deleted. Separately, an application you've created but not submitted is removed after 30 days. Always confirm the current rules on the FAA's MedXPress FAQ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the MedXPress confirmation number?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It's the number MedXPress gives you when you submit your application. Per the FAA, you must take it to your AME, or they cannot access your application. Write it down when you submit, and bring it to your exam with a photo ID."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I change MedXPress after I submit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Per the FAA's MedXPress User's Guide, once you submit your application, you will not be able to make any changes to it. Your AME reviews your answers with you at the exam."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do Items 17, 18, and 19 ask?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Item 17 asks about medications you currently use, prescription or nonprescription. Item 18 is the Yes/No grid that asks, 'Have you ever in your life been diagnosed with, had, or do you presently have any of the following?' Item 19 asks you to list your visits to health professionals within the past three years."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do I log in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At medxpress.faa.gov, the FAA's official MedXPress site, where you also create your account. To prepare before you log in, Pilot Medical Guardian keeps your medications, visits, and Item 18 answers ready, and its Safari extension fills Items 17 and 19 for you there."
             }
           },
           {
@@ -88,7 +120,7 @@
             "name": "Is there a way to autofill MedXPress?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Pilot Medical Guardian's Safari extension autofills Item 17 (your medications) and Item 19 (your visits to health professionals) into MedXPress from records you keep on your own iPhone, iPad, or Mac, so you don't retype the same information every cycle. You review every entry and submit it yourself, and Item 18 (the medical-history Yes/No grid) stays yours to complete by hand."
+              "text": "Yes. Pilot Medical Guardian's Safari extension autofills Item 17 (your medications) and Item 19 (your visits to health professionals) into MedXPress from records you keep on your own iPhone, iPad, or Mac, so you don't retype the same information every cycle. On Item 18 (the medical-history Yes/No grid), it fills up to five Yes answers and their explanations from what you saved in the app, and you click the No answers yourself. You review every entry and submit it yourself."
             }
           },
           {
@@ -96,7 +128,7 @@
             "name": "Can the app fill in the whole form for me?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No, and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. The medical-history Yes/No section (Item 18) is yours to complete by hand, following the FAA's own instructions."
+              "text": "No, and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. On the medical-history Yes/No section (Item 18), it fills up to five Yes answers and their explanations from what you saved in the app, and you click the No answers yourself, following the FAA's own instructions."
             }
           }
         ]
@@ -206,7 +238,20 @@
     .prose p a { color: var(--accent); }
     .source-note { color: var(--muted); font-size: 0.86rem; margin-top: 6px; }
     .source-note a { color: var(--accent); }
-  </style>
+      /* 2026-09-30 MedXPress SEO pass: first screen = what it is, the official FAA link, the two timing rules,
+       the confirmation number, then ONE Store pair. Page-local so other guides are untouched. */
+    .mx-official { margin: 12px 0 0; font-size: 1rem; }
+    .mx-official a { font-weight: 600; }
+    .mx-quick { background: var(--accent-tint); border-top: 1px solid var(--accent-edge); border-bottom: 1px solid var(--accent-edge); }
+    .mx-quick .wrap { padding-top: var(--s3); padding-bottom: var(--s3); }
+    .mx-facts { list-style: none; padding: 0; margin: 0; }
+    .mx-facts li { padding: 6px 0; line-height: 1.5; }
+    .mx-quick .source-note { margin: 6px 0 12px; }
+    .mx-pitch { margin: 0; }
+    .mx-quick .links { margin: 12px 0 6px; }
+    .mx-quick .fineprint { margin: 0; }
+    @media (max-width: 699.98px) { .mx-quick .links a.mx-mac { display: none; } }
+</style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
   <meta name="apple-itunes-app" content="app-id=6772534988, affiliate-data=pt=128922811&amp;ct=web-banner&amp;mt=8">
@@ -231,14 +276,25 @@
     <div class="wrap">
       <span class="badge">Pilot's guide</span>
       <h1>FAA MedXPress Guide: How to Complete Form 8500-8</h1>
-      <p class="page-sub"><strong>A plain-language walkthrough of the FAA's online medical application (Form 8500-8)</strong>: what it is, the timing rules that catch pilots out, your confirmation number, and what Items 17, 18, and 19 actually ask. With a link to the official FAA source for every rule.</p>
+      <p class="page-sub"><strong>MedXPress is the FAA's online system for Form 8500-8</strong>, the Application for Airman Medical Certificate. You fill it out before your medical exam, and your AME reviews it at the exam.</p>
+      <p class="mx-official">Official FAA site: <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">medxpress.faa.gov</a>. Log in or create your account there.</p>
     </div>
   </section>
 
-  <section class="pitch-strip">
+  <section class="mx-quick">
     <div class="wrap">
-      <p>You will type these same answers again next cycle, and the one after that. Pilot Medical Guardian saves them and fills the form for you.</p>
-      <a class="cta" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=seo-mxguide&amp;mt=8">Download free</a>
+      <ul class="mx-facts">
+        <li><strong>30 days to submit.</strong> An application you start but don't submit within 30 days is removed.</li>
+        <li><strong>60 days to your exam.</strong> After you submit, your exam must happen within 60 days or the application is deleted.</li>
+        <li><strong>Your confirmation number goes to your AME.</strong> It's how they pull up your application.</li>
+      </ul>
+      <p class="source-note">Sources: the FAA's <a href="https://www.faa.gov/faq/how-long-will-my-application-remain-medxpress-system" target="_blank" rel="noopener">"How long will my application remain in the MedXPress system?"</a> and the <a href="https://medxpress.faa.gov/medxpress/Content/Docs/MedXPressUsersGuide.pdf" target="_blank" rel="noopener">MedXPress User's Guide</a>.</p>
+      <p class="mx-pitch">You will type these same answers again next cycle, and the one after that. Pilot Medical Guardian saves them and fills the form for you.</p>
+      <div class="links">
+        <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-mxguide&amp;mt=8">iPhone &amp; iPad &rarr;</a>
+        <a class="primary mx-mac" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=seo-mxguide&amp;mt=12">Mac &rarr;</a>
+      </div>
+      <p class="fineprint">Free to download. Records stay on your device and your own iCloud.</p>
     </div>
   </section>
 
@@ -258,7 +314,7 @@
     <span class="eyebrow">The short answer</span>
     <h2>Is there an app that fills out FAA MedXPress?</h2>
     <p class="lede"><strong>Yes. Pilot Medical Guardian is the only app that autofills FAA MedXPress.</strong> Its Safari extension fills Item 17 (your medications) and Item 19 (your visits to health professionals) from records on your iPhone, iPad, or Mac, so you're not retyping the same information every renewal cycle. Your first autofill is free to try; autofill on every later renewal is part of Guardian Pro. You review every entry and submit it yourself.</p>
-    <p>It doesn't fill in Item 18 (your medical history) or hit Submit for you. Those stay yours, on purpose. Everything runs on your own device: your medications and visit history live in your iPhone and your own iCloud, never on a server I can see, and nothing reaches medxpress.faa.gov until you tap Submit there yourself. <a href="/faa-medxpress-app.html">More about the MedXPress autofill app</a>, or <a href="/autofill.html">see how the setup works</a>.</p>
+    <p>On Item 18 (your medical history) it fills up to five Yes answers and their explanations from what you saved in the app; the No answers stay yours. It never hits Submit for you. Everything runs on your own device: your medications and visit history live in your iPhone and your own iCloud, never on a server I can see, and nothing reaches medxpress.faa.gov until you tap Submit there yourself. <a href="/faa-medxpress-app.html">More about the MedXPress autofill app</a>, or <a href="/autofill.html">see how the setup works</a>.</p>
     <p class="source-note">Pilot Medical Guardian is not affiliated with, or endorsed by, the FAA. The official system is at <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">medxpress.faa.gov</a>.</p>
 
     <span class="eyebrow">Step by step</span>
@@ -401,7 +457,7 @@
           <figcaption><b>Item 19: doctor visits</b>, filled the same way. <span class="tap">Tap to enlarge.</span> Sample data.</figcaption>
         </figure>
       </div>
-      <p class="fineprint" style="margin-top:14px;">You review every entry and tap Submit yourself. <strong>Item 18 stays yours to complete by hand.</strong> See <a href="#item-17-19">Items 17/18/19</a> above.</p>
+      <p class="fineprint" style="margin-top:14px;">You review every entry and tap Submit yourself. <strong>On Item 18 it fills up to five Yes answers and their explanations; you click the No answers yourself.</strong> See <a href="#item-17-19">Items 17/18/19</a> above.</p>
       <div class="links" style="margin-bottom:0;">
         <a class="primary" href="/faa-medxpress-app.html">See the MedXPress autofill app</a>
         <a class="secondary" href="/medxpress-checklist.html">Get the free prep checklist</a>
@@ -413,8 +469,24 @@
     <span class="eyebrow">Quick answers</span>
     <h2>MedXPress FAQ</h2>
     <details>
-      <summary>How long is a MedXPress confirmation number valid?</summary>
+      <summary>How long is a MedXPress application good for?</summary>
       <p>Per the FAA, after you submit your application your medical examination must occur within 60 days or the application is deleted. Separately, an application you've created but not submitted is removed after 30 days. Always confirm the current rules on the <a href="https://www.faa.gov/faq/how-long-will-my-application-remain-medxpress-system" target="_blank" rel="noopener">FAA's MedXPress FAQ</a>.</p>
+    </details>
+    <details>
+      <summary>What is the MedXPress confirmation number?</summary>
+      <p>It's the number MedXPress gives you when you submit your application. Per the FAA, you must take it to your AME, or they cannot access your application. Write it down when you submit, and bring it to your exam with a photo ID. Source: the FAA's <a href="https://medxpress.faa.gov/medxpress/Content/Docs/MedXPressUsersGuide.pdf" target="_blank" rel="noopener">MedXPress User's Guide</a>.</p>
+    </details>
+    <details>
+      <summary>Can I change MedXPress after I submit?</summary>
+      <p>No. Per the FAA's <a href="https://medxpress.faa.gov/medxpress/Content/Docs/MedXPressUsersGuide.pdf" target="_blank" rel="noopener">MedXPress User's Guide</a>, once you submit your application, you will not be able to make any changes to it. Your AME reviews your answers with you at the exam.</p>
+    </details>
+    <details>
+      <summary>What do Items 17, 18, and 19 ask?</summary>
+      <p>Item 17 asks about medications you currently use, prescription or nonprescription. Item 18 is the Yes/No grid that asks, "Have you ever in your life been diagnosed with, had, or do you presently have any of the following?" Item 19 asks you to list your visits to health professionals within the past three years. <a href="#item-17-19">More on each one above</a>.</p>
+    </details>
+    <details>
+      <summary>Where do I log in?</summary>
+      <p>At <a href="https://medxpress.faa.gov/" target="_blank" rel="noopener">medxpress.faa.gov</a>, the FAA's official MedXPress site, where you also create your account. To prepare before you log in, Pilot Medical Guardian keeps your medications, visits, and Item 18 answers ready, and its Safari extension fills Items 17 and 19 for you there.</p>
     </details>
     <details>
       <summary>Do I have to use MedXPress?</summary>
@@ -430,16 +502,16 @@
     </details>
     <details>
       <summary>Is there a way to autofill MedXPress?</summary>
-      <p>Yes. <a href="/">Pilot Medical Guardian</a>'s Safari extension autofills <strong>Item 17 (your medications)</strong> and <strong>Item 19 (your visits to health professionals)</strong> into MedXPress from records you keep on your own iPhone, iPad, or Mac, so you don't retype the same information every cycle. You review every entry and tap Submit yourself, and Item 18 (the medical-history Yes/No grid) stays yours to complete by hand. <a href="/autofill.html">Here's how to set it up.</a></p>
+      <p>Yes. <a href="/">Pilot Medical Guardian</a>'s Safari extension autofills <strong>Item 17 (your medications)</strong> and <strong>Item 19 (your visits to health professionals)</strong> into MedXPress from records you keep on your own iPhone, iPad, or Mac, so you don't retype the same information every cycle. On Item 18 (the medical-history Yes/No grid), it fills up to five Yes answers and their explanations from what you saved in the app, and you click the No answers yourself. You review every entry and tap Submit yourself. <a href="/autofill.html">Here's how to set it up.</a></p>
     </details>
     <details>
       <summary>Can the app fill in the whole form for me?</summary>
-      <p>No, and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. The medical-history Yes/No section (Item 18) is yours to complete by hand, following the FAA's own instructions.</p>
+      <p>No, and it shouldn't. Pilot Medical Guardian prefills the repetitive parts (your medications and visits, Items 17 and 19) so you don't retype them, but you review every entry and submit it yourself. On the medical-history Yes/No section (Item 18), it fills up to five Yes answers and their explanations from what you saved in the app, and you click the No answers yourself, following the FAA's own instructions.</p>
     </details>
 
     <div class="card">
-      <p style="margin-top:0"><strong>You just read how to fill this form. The app fills two of these sections for you.</strong></p>
-      <p>Pilot Medical Guardian's Safari extension puts your medications into <strong>Item 17</strong> and your visits to health professionals into <strong>Item 19</strong>, from records you already keep on your own iPhone, iPad, or Mac. You review every line, and you submit it yourself. Item 18 you still answer by hand.</p>
+      <p style="margin-top:0"><strong>You just read how to fill this form. The app does most of the typing in these sections for you.</strong></p>
+      <p>Pilot Medical Guardian's Safari extension puts your medications into <strong>Item 17</strong> and your visits to health professionals into <strong>Item 19</strong>, from records you already keep on your own iPhone, iPad, or Mac. You review every line, and you submit it yourself. On Item 18 it fills up to five Yes answers and their explanations, and you click the No answers.</p>
       <div class="links">
         <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=seo-mxguide&amp;mt=8">iPhone &amp; iPad &rarr;</a>
         <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=seo-mxguide&amp;mt=12">Mac &rarr;</a>
