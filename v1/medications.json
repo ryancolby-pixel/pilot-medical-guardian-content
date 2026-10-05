@@ -218,12 +218,12 @@
     "faaStatus": "notAcceptable",
     "isCACI": false,
     "treatedConditionNote": "Both the underlying ADHD diagnosis and the stimulant are of concern to the FAA.",
-    "faaStatusDescription": "ADHD stimulants fall under FAA Do Not Issue guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nThe FAA's Do Not Issue - Do Not Fly page (updated 09/30/2026) lists \"Attention deficit disorder (ADD) or attention deficit hyperactivity disorder\" (ADHD) medications and \"Stimulants\" among psychiatric or psychotropic medications, \"Even when used for conditions other than mental health.\" For Do Not Issue medications it says: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amphetamine-dextroamphetamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-21T14:30:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Do Not Issue - Do Not Fly Medications tables (updated 06/28/2023), DO NOT ISSUE, Psychiatric or Psychotropic Medications (ADD/ADHD medications; Stimulants)",
+      "lastVerified": "2026-10-05T19:57:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -458,16 +458,22 @@
     "category": "Sedating antihistamine (allergy)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA sedating and not for daily use. No individual wait time is published.\n\nThe FAA's antihistamine table covers \"All First-Generation Histamine-H1 receptor antagonist\" as conditionally acceptable: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\". It does not list brompheniramine individually or give it a \"Post-dose observation\" time.\n\nIts Over-the-Counter guide places brompheniramine (Dimetapp) in the \"AVOID\" column among sedating antihistamines.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, wait 5 days.\n\nThe FAA's antihistamine table covers \"All First-Generation Histamine-H1 receptor antagonist\" as conditionally acceptable: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\". Its table, updated 09/30/2026, now lists brompheniramine individually, at 5 days.\n\nIts Over-the-Counter guide places brompheniramine (Dimetapp) in the \"AVOID\" column among sedating antihistamines.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-brompheniramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:48:46Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": null,
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "budesonide/formoterol",
@@ -688,15 +694,21 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "preFlightWaitHours": 48,
-    "faaStatusDescription": "Two forms, two rules.\n\nOral (Zyrtec) is FAA sedating, conditionally acceptable: 1-2 times a week, never daily, no flying while taking it, 48 hours after the last dose, alone or in any combination product.\n\nThe eye drop (Zerviate) is on the FAA acceptable non-sedating list with no wait required, but is not to be instilled right before or during flight or safety duties.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "Two forms, two rules.\n\nOral (Zyrtec) is FAA sedating, conditionally acceptable: 1-2 times a week, never daily, no flying while taking it, wait 48 hours, alone or in any combination product.\n\nThe eye drop (Zerviate) is on the FAA acceptable non-sedating list with no wait required, but is not to be instilled right before or during flight or safety duties.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-cetirizine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "chlorpheniramine",
@@ -706,16 +718,22 @@
     "category": "Sedating antihistamine (allergy)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 120 hours (5 days) after the last dose.\n\nOral, nasal and ophthalmic forms, alone or in any combination product such as Coricidin or Chlor-Trimeton.\n\nAlso on the FAA Do Not Fly list; routine use means the AME defers.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, wait 5 days.\n\nOral, nasal and ophthalmic forms, alone or in any combination product such as Coricidin or Chlor-Trimeton.\n\nAlso on the FAA Do Not Fly list; routine use means the AME defers.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-chlorpheniramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 120,
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "chlorthalidone",
@@ -810,16 +828,22 @@
     "category": "Sedating antihistamine (allergy)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 5 days after the last dose.\n\nThe FAA's antihistamine table lists \"clemastine (No brand)\" at \"5 days\" post-dose, in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, wait 5 days.\n\nThe FAA's antihistamine table lists \"clemastine (No brand)\" at \"5 days\", in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-clemastine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:48:46Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 120,
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "clindamycin",
@@ -1142,15 +1166,21 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "preFlightWaitHours": 60,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 60 hours after the last dose.\n\nOral, nasal and ophthalmic forms, alone or in any combination product.\n\nAlso on the FAA Do Not Fly list; routine use means the AME defers.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, wait 60 hours.\n\nOral, nasal and ophthalmic forms, alone or in any combination product.\n\nAlso on the FAA Do Not Fly list; routine use means the AME defers.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-diphenhydramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "dofetilide",
@@ -1210,16 +1240,22 @@
     "category": "Sedating antihistamine (sleep aid)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, 60 hours after the last dose.\n\nThe FAA's antihistamine table lists \"doxylamine (Unisom)\" at \"60 hours\" post-dose, in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nIts Over-the-Counter guide also places doxylamine in the \"AVOID\" column among sleep aid products.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable post-dose observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nFAA policy, not a determination about you.",
+    "faaStatusDescription": "FAA conditionally acceptable, sedating: 1-2 times a week, never daily, no flying while taking it, wait 60 hours.\n\nThe FAA's antihistamine table lists \"doxylamine (Unisom)\" at \"60 hours\", in its \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\" group: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product\", \"NOT FOR DAILY USE\".\n\nIts Over-the-Counter guide also places doxylamine in the \"AVOID\" column among sleep aid products.\n\nThe FAA also requires the AME to warn that flight and safety-related duties are prohibited until after any applicable observation time.\n\nNew meds need a 48-hour ground trial; symptoms mean no flying.\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nFAA policy, not a determination about you.",
     "envelope": {
       "code": "med-doxylamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:48:46Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 60,
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "envelope": {
@@ -2120,18 +2156,24 @@
       "Xyzal"
     ],
     "category": "Antihistamine (allergy)",
-    "faaStatusDescription": "FAA sedating: 1-2 times a week, never daily, 48 hours after the last dose.\n\nIts Allergy - Antihistamine & Immunotherapy Medication page lists \"levocetirizine (Xyzal)\" under \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\", with a post-dose observation of 48 hours: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product if other certification criteria are met. NOT FOR DAILY USE.\" The page adds that the airman may not use the \"privileges of airman certificate while taking the medication.\" and that \"Daily use is NOT acceptable.\"\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists levocetirizine among sedating products in its NO GO column, and notes: \"Sedating antihistamines are commonly found in autopsy after aircraft accidents.\"\n\n\"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "FAA sedating: 1-2 times a week, never daily, wait 48 hours.\n\nIts Allergy - Antihistamine & Immunotherapy Medication page lists \"levocetirizine (Xyzal)\" under \"CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications\", with an initial observation of 48 hours: \"May be used occasionally (1-2 x per week) as a single agent or in any combination product if other certification criteria are met. NOT FOR DAILY USE.\" The page adds that the airman may not use the \"privileges of airman certificate while taking the medication.\" and that \"Daily use is NOT acceptable.\"\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists levocetirizine among sedating products in its NO GO column, and notes: \"Sedating antihistamines are commonly found in autopsy after aircraft accidents.\"\n\n\"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThe FAA's allergy table (updated 09/30/2026) lists this wait in its \"Initial observation\" column. Its Do Not Fly page says \"pilots should not fly following the last dose of any medications until a period of time has elapsed equal to\" five times the maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levocetirizine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
+      "lastVerified": "2026-10-05T19:57:14Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "informationalOnly": false,
     "faaStatus": "conditional",
     "isCACI": false,
-    "preFlightWaitHours": 48
+    "preFlightWaitHours": 48,
+    "links": [
+      {
+        "title": "FAA Do Not Issue - Do Not Fly",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "levofloxacin",
@@ -2609,12 +2651,12 @@
     "faaStatus": "notAcceptable",
     "isCACI": false,
     "treatedConditionNote": "Both the underlying ADHD diagnosis and the stimulant are of concern to the FAA.",
-    "faaStatusDescription": "ADHD stimulants fall under FAA Do Not Issue guidance; the AME does not issue without FAA review. Confirm against the current AME Guide Do Not Issue / Do Not Fly section and a qualified AME.",
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nThe FAA's Do Not Issue - Do Not Fly page (updated 09/30/2026) lists \"Attention deficit disorder (ADD) or attention deficit hyperactivity disorder\" (ADHD) medications and \"Stimulants\" among psychiatric or psychotropic medications, \"Even when used for conditions other than mental health.\" For Do Not Issue medications it says: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-methylphenidate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-21T14:30:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Do Not Issue - Do Not Fly Medications tables (updated 06/28/2023), DO NOT ISSUE, Psychiatric or Psychotropic Medications (ADD/ADHD medications; Stimulants)",
+      "lastVerified": "2026-10-05T19:57:14Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
