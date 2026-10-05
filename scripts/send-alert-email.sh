@@ -24,11 +24,14 @@
 #
 # FAIL-SOFT, DELIBERATELY
 # -----------------------
-# If the secrets are not configured yet this exits 0 with a warning rather than
-# failing the job. The issue and the PR are still created either way, so a
-# missing secret must never be allowed to suppress the alert that DOES work.
-# That is the exact failure this repo already paid for: a safeguard that looked
-# like insurance and provided none.
+# If the email cannot go out (no secrets, no body, SMTP error) this warns and exits 3.
+# The issue and the PR are created BEFORE it is called, so a mail failure can never
+# suppress the alert that DOES work. Callers never run it bare: they use
+#   ./scripts/send-alert-email.sh "subject" body.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
+# and their last step fails the run ONLY on mail_failed (Ryan 2026-10-05: one email per
+# finding). A finding that filed and emailed is a GREEN run; one whose email did not go out
+# goes red, so GitHub's "all jobs have failed" mail becomes the backstop. That is the job the
+# old unconditional exit 1 steps did, and the 2026-08-03 green-run-nobody-heard lesson.
 #
 # Usage: send-alert-email.sh "<subject>" <body-file>
 # Env:   SMTP_USERNAME  SMTP_PASSWORD  ALERT_EMAIL_TO  [ALERT_EMAIL_FROM]
@@ -40,12 +43,12 @@ BODY_FILE="${2:?usage: send-alert-email.sh <subject> <body-file>}"
 
 if [ -z "${SMTP_USERNAME:-}" ] || [ -z "${SMTP_PASSWORD:-}" ] || [ -z "${ALERT_EMAIL_TO:-}" ]; then
   echo "::warning::Alert email not sent - SMTP_USERNAME / SMTP_PASSWORD / ALERT_EMAIL_TO are not all set. The GitHub issue or PR was still created."
-  exit 0
+  exit 3
 fi
 
 if [ ! -f "$BODY_FILE" ]; then
   echo "::warning::Alert email not sent - body file '$BODY_FILE' not found. The GitHub issue or PR was still created."
-  exit 0
+  exit 3
 fi
 
 FROM="${ALERT_EMAIL_FROM:-$SMTP_USERNAME}"
@@ -81,7 +84,8 @@ if curl --silent --show-error --ssl-reqd \
         --upload-file "$MSG"; then
   echo "Alert email sent to $ALERT_EMAIL_TO"
 else
-  # Still exit 0: the issue/PR is the system of record. A mail outage must not
-  # mask the finding, and the job's own logs carry the failure.
+  # Exit 3: the issue/PR is still the system of record and already exists. The caller
+  # records mail_failed and fails the run at its LAST step, so GitHub's own mail is the backstop.
   echo "::warning::Alert email FAILED to send. The GitHub issue or PR was still created - check it."
+  exit 3
 fi

@@ -19,6 +19,13 @@ permissions:
   contents: read
   issues: write
 
+env:
+  # Our alert email (added 2026-10-05, one email per finding). Before this the job reached Ryan
+  # only through GitHub's failure mail. scripts/file-finding.sh sends it once per new finding.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
 jobs:
   age:
     runs-on: ubuntu-latest
@@ -35,26 +42,21 @@ jobs:
           python3 scripts/check-verification-age.py | tee age-output.txt
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
       - name: Open / update the re-verification issue
+        id: notify
         if: steps.check.outputs.code == '1'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
           set -euo pipefail
-          gh label create content-reverify --color fbca04 \
-            --description "Published content is past its re-verification deadline" 2>/dev/null || true
           {
             echo "Content has not been re-read against its FAA sources recently, as of $(date -u +%Y-%m-%dT%H:%MZ)."
             echo
             cat verification-age-report.md 2>/dev/null || cat age-output.txt
           } > age-comment.md
-          EXISTING=$(gh issue list --state open --label content-reverify --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            gh issue comment "$EXISTING" --body-file age-comment.md
-          else
-            gh issue create --title "Content is past its re-verification deadline" \
-              --label content-reverify --body-file age-comment.md
-          fi
+          ./scripts/file-finding.sh content-reverify fbca04 "Published content is past its re-verification deadline" \
+            "Content is past its re-verification deadline" \
+            age-comment.md "PMG: content is past its re-verification deadline"
 
       # 🚨 ADDED 2026-08-17. This check is DESIGNED to go red and then be fixed - someone
       # re-reads a file against its FAA source and stamps it. That transition had no close
@@ -72,8 +74,11 @@ jobs:
             gh issue close "$EXISTING" --comment "Every content file is back inside its re-verification window as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi
 
-      - name: Fail the run
-        if: steps.check.outputs.code != '0'
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A finding that filed its issue and sent our email is
+      # a SUCCESS. Red only for a broken instrument (any exit code but 0 or 1) or an email that did
+      # not go out, so GitHub's failure mail is the backstop and never a duplicate.
+      - name: Fail only on a broken check or an alert email that did not go out
+        if: (steps.check.outputs.code != '0' && steps.check.outputs.code != '1') || steps.notify.outputs.mail_failed == 'true'
         run: |
-          echo "Content is past its re-verification deadline. See the issue above."
+          echo "Re-verification age. The check itself errored, or our alert email did NOT send. See the log."
           exit 1

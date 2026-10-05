@@ -107,16 +107,15 @@ jobs:
             # set of FAA pages moved, which is genuinely new information, and it was the
             # one path that sent no alert email. Safe to mail here precisely because the
             # quiet path above already returned, so it cannot fire on unchanged state.
-            ./scripts/send-alert-email.sh "PMG: an FAA page we cite has been updated" source-freshness-report.md
+            ./scripts/send-alert-email.sh "PMG Monday digest: FAA pages we cite show a new date" source-freshness-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             gh issue edit "$EXISTING" --body-file source-freshness-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             gh issue create \
-              --title "An FAA page we cite has been updated" \
+              --title "Monday digest: FAA pages we cite show a new date" \
               --label faa-source-changed \
-              --assignee ryancolby-pixel \
               --body-file source-freshness-report.md
-            ./scripts/send-alert-email.sh "PMG: an FAA page we cite has been updated" source-freshness-report.md
+            ./scripts/send-alert-email.sh "PMG Monday digest: FAA pages we cite show a new date" source-freshness-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -133,10 +132,11 @@ jobs:
             gh issue close "$EXISTING" --comment "Every cited FAA page matches its recorded date as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi
 
-      # Red only when the set CHANGED, so a new FAA update emails the owner while an
-      # already-filed one stays quiet and lives in the open issue.
-      - name: Fail the run when a new FAA change appears, so the owner is emailed
-        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that filed its issue or PR and sent our
+      # alert email is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it.
+      # Red only when our email did not go out, which makes GitHub's mail the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.notify.outputs.mail_failed == 'true'
         run: |
-          echo "An FAA page we cite has changed. See the issue above."
+          echo "The freshness digest found moved dates. Our alert email did NOT send, so this run is red to make GitHub notify instead."
           exit 1

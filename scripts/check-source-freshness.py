@@ -237,12 +237,14 @@ def main() -> int:
 
     entries_hit = sum(m[4] for m in moved)
     report = [
-        f"The FAA has updated {len(moved)} page(s) we cite. "
-        f"{entries_hit} reference entr{'y' if entries_hit == 1 else 'ies'} depend on them.",
+        f"Monday digest. {len(moved)} FAA page(s) we cite show a new \"Last updated\" date. "
+        f"{entries_hit} reference entr{'y' if entries_hit == 1 else 'ies'} cite them.",
         "",
-        "The links still work, so the link checker passed. What changed is what the page "
-        "SAYS. This is the failure mode that let us tell cardiac pilots to get an annual "
-        "stress test for 26 months after the FAA stopped requiring one.",
+        "Not an alarm. A moved date means the FAA edited the page, not that anything we say "
+        "is wrong. The checks that mean a sentence a pilot can see is wrong (fidelity, dead "
+        "links, medication contradictions) email on their own. Read these when convenient: "
+        "this is how we learned, 26 months late, that the FAA had dropped the annual cardiac "
+        "stress test.",
         "",
     ]
     for url, was, now, cites, n in moved:

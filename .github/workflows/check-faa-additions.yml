@@ -1,0 +1,75 @@
+name: Check what the FAA names that we do not
+
+# The one check that iterates the FAA's lists instead of ours (Ryan 2026-10-05): every drug
+# named on the Do Not Issue / Do Not Fly tables or a CACI worksheet we cite must be findable
+# in v1/medications.json. A fixed list of documents; it never searches faa.gov for new pages.
+# Medications only. See scripts/check-faa-additions.py for the why and the controls.
+#
+# One issue, one email, and quiet while the set of missing names is unchanged
+# (scripts/file-finding.sh). A run that filed is GREEN; red only for a broken instrument or an
+# alert email that did not go out.
+
+on:
+  schedule:
+    - cron: "45 16 * * 1"   # Mondays 16:45 UTC, after the other FAA checks
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the content
+        uses: actions/checkout@v5
+
+      - name: Install the PDF reader
+        run: python3 -m pip install --quiet pypdf
+
+      - name: Compare the FAA's drug lists against our medication file
+        id: check
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check-faa-additions.py | tee additions-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Note a run that could not verify
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not verify::A control failed or the FAA lists could not be read. Not a finding. See the log."
+
+      - name: Open / update the issue
+        id: notify
+        if: steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          ./scripts/file-finding.sh faa-drug-not-ours 0e8a16 "The FAA names a drug our medication file does not" \
+            "The FAA names drugs our medication file does not" \
+            faa-additions-report.md "PMG: the FAA names a drug we do not carry"
+
+      - name: Close the issue when every FAA-named drug is findable
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --state open --label faa-drug-not-ours --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every drug named on the FAA lists we read is findable in our medication file as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
+      - name: Fail only on a broken check or an alert email that did not go out
+        if: (steps.check.outputs.code != '0' && steps.check.outputs.code != '1' && steps.check.outputs.code != '2') || steps.notify.outputs.mail_failed == 'true'
+        run: |
+          echo "The additions check errored, or our alert email did NOT send. See the log."
+          exit 1

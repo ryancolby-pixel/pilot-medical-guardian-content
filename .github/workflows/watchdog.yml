@@ -53,6 +53,7 @@ jobs:
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
       - name: Report a silent safeguard
+        id: notify
         if: steps.check.outputs.code == '1'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -66,11 +67,9 @@ jobs:
             gh issue create \
               --title "A scheduled safeguard has stopped running" \
               --label silent-safeguard \
-              --assignee ryancolby-pixel \
               --body-file watchdog-report.md
-            ./scripts/send-alert-email.sh "PMG: a scheduled safeguard has stopped running" watchdog-report.md
+            ./scripts/send-alert-email.sh "PMG: a scheduled safeguard has stopped running" watchdog-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
           fi
-          exit 1
 
       # 🚨 ADDED 2026-08-17. This was the semantically worst of the three missing close
       # steps: an issue titled "A scheduled safeguard has stopped running" would have
@@ -92,3 +91,12 @@ jobs:
           if [ -n "$EXISTING" ]; then
             gh issue close "$EXISTING" --comment "Every scheduled safeguard has run inside its expected window as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that filed its issue or PR and sent our
+      # alert email is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it.
+      # Red only when our email did not go out, which makes GitHub's mail the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.notify.outputs.mail_failed == 'true'
+        run: |
+          echo "A scheduled safeguard has stopped running. Our alert email did NOT send, so this run is red to make GitHub notify instead."
+          exit 1

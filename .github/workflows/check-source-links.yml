@@ -91,18 +91,18 @@ jobs:
               exit 0
             fi
             gh issue comment "$EXISTING" --body-file source-link-report.md
-            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md
+            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             gh issue edit "$EXISTING" --body-file source-link-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --assignee ryancolby-pixel               --body-file source-link-report.md
+            gh issue create               --title "A cited FAA source no longer resolves"               --label faa-link-rot               --body-file source-link-report.md
             # 🚨 ADDED 2026-08-17. This branch is the FIRST-EVER dead link, and it was the
             # one path that did not send the alert email - so the very first rot went out
             # with no push notification while every SUBSEQUENT change got one. Its sibling
             # check-source-freshness.yml had the mirror-image gap (email on create, none on
             # change). check-med-claims.yml, written a month later, calls it on both, which
             # is what shows these two were drift rather than a decision.
-            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md
+            ./scripts/send-alert-email.sh "PMG: a cited FAA source no longer resolves" source-link-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -122,8 +122,12 @@ jobs:
       # for new rot and wrong for a problem already filed and still being worked. When the
       # set is unchanged the run is green and the OPEN ISSUE carries the truth, so nothing
       # is hidden: it is recorded in the one place that is actually actionable.
-      - name: Fail the run when new rot appears, so the owner is emailed
-        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that filed its issue or PR and sent our
+      # alert email is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it.
+      # Red only when our email did not go out, which makes GitHub's mail the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.notify.outputs.mail_failed == 'true'
         run: |
-          echo "The set of dead FAA sources changed. See the issue above."
+          echo "A cited FAA source no longer resolves. Our alert email did NOT send, so this run is red to make GitHub notify instead."
           exit 1

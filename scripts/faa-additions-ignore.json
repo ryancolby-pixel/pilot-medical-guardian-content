@@ -1,0 +1,11 @@
+{
+  "_comment": "Names check-faa-additions.py extracts that are NOT medications we should carry. Each needs a reason. An entry here is a decision, not a mute button.",
+  "terms": {
+    "analogs": "Class word from the glaucoma CACI ('prostaglandin analogs (...)'), not a drug name.",
+    "cycloplegics": "Eye-drop CLASS named in the glaucoma CACI, not a specific drug.",
+    "cancerous polyp": "Colon cancer table wording, not a medication.",
+    "diastolic": "Blood pressure wording in the hypertension CACI, not a medication.",
+    "incapacitating": "Headache CACI wording, not a medication.",
+    "with aura": "Migraine type in the headache CACI, not a medication."
+  }
+}

@@ -103,12 +103,12 @@ jobs:
               exit 0
             fi
             gh issue comment "$EXISTING" --body-file med-claims-report.md
-            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md
+            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             gh issue edit "$EXISTING" --body-file med-claims-report.md
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             gh issue create --title "Medication content contradicts what the FAA publishes" --label med-claim-contradiction --body-file med-claims-report.md
-            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md
+            ./scripts/send-alert-email.sh "PMG: medication content contradicts the FAA" med-claims-report.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -129,8 +129,12 @@ jobs:
       # needs: on this job. That is deliberate. During a content incident the CDN is the
       # only channel that reaches already-installed builds, and a correctness checker
       # must never be the thing standing between a pilot and a fix.
-      - name: Fail the run when a new contradiction appears, so the owner is emailed
-        if: steps.check.outputs.code == '1' && steps.notify.outputs.changed == 'true'
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that filed its issue or PR and sent our
+      # alert email is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it.
+      # Red only when our email did not go out, which makes GitHub's mail the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.notify.outputs.mail_failed == 'true'
         run: |
-          echo "The set of medication-claim contradictions changed. See the issue above."
+          echo "Medication content contradicts the FAA. Our alert email did NOT send, so this run is red to make GitHub notify instead."
           exit 1

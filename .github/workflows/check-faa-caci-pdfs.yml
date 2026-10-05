@@ -78,23 +78,25 @@ jobs:
           while read line; do
             fname=$(echo "$line" | awk '{print $2}')
             old_sha=$(echo "$line" | awk '{print $1}')
+            tag=$(echo "$line" | awk '{print $3}')
             new_sha=$(shasum -a 256 "/tmp/caci_check/$fname" | awk '{print $1}')
-            echo "$new_sha  $fname" >> /tmp/caci_new_shas
+            echo "$new_sha  $fname${tag:+  $tag}" >> /tmp/caci_new_shas
             if [ "$new_sha" != "$old_sha" ]; then
-              CHANGED_LIST="$CHANGED_LIST $fname"
+              CHANGED_LIST="$CHANGED_LIST $fname${tag:+:$tag}"
               CHANGE_COUNT=$((CHANGE_COUNT + 1))
             fi
           done < "$TRACK_FILE"
           echo "change_count=$CHANGE_COUNT" >> "$GITHUB_OUTPUT"
           echo "changed_list=$CHANGED_LIST" >> "$GITHUB_OUTPUT"
           if [ $CHANGE_COUNT -eq 0 ]; then
-            echo "✅ All 29 PDFs unchanged"
+            echo "✅ All $(wc -l < "$TRACK_FILE" | tr -d ' ') tracked PDFs unchanged"
           else
             echo "ℹ️ $CHANGE_COUNT PDFs changed:$CHANGED_LIST"
             cp /tmp/caci_new_shas "$TRACK_FILE"
           fi
 
       - name: Open PR with updated SHAs
+        id: pr
         if: steps.cmp.outputs.change_count != '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -123,43 +125,40 @@ jobs:
           git commit -m "FAA CACI: $COUNT worksheet(s) changed at upstream (auto-detected)"
           git push -u origin "$BRANCH"
 
-          # Build the PR body
-          BODY=$(cat <<EOF
-          The FAA has reissued **$COUNT** CACI worksheet PDF(s) since the last check.
-
-          Changed:
-          $(echo "$CHANGED" | tr ' ' '\n' | grep -v '^$' | sed 's/^/- /')
-
-          ### Maintainer action
-
-          For each changed PDF, download the new version from
-          \`https://www.faa.gov/ame_guide/media/<filename>\` and replace the
-          corresponding file in the app repo at
-          \`PilotMedicalGuardian/Reference/BundledContent/CACIWorksheets/\`.
-          Then bump the content manifest and ship a content release.
-
-          Worksheets without structural changes (typo fixes, date refreshes)
-          can ship as-is. Worksheets with new criteria or eligibility changes
-          should be reviewed by the AME advisor before publication.
-          EOF
-          )
+          # Build the PR body. A trailing ":cited" marks a PDF we cite but do NOT bundle in the
+          # app (column 3 of the tracked file), so there is nothing to drop in for it, only reading.
+          BUNDLED=$(echo "$CHANGED" | tr ' ' '\n' | grep -v '^$' | grep -v ':cited$' | sed 's/^/- /' || true)
+          CITED=$(echo "$CHANGED" | tr ' ' '\n' | grep ':cited$' | sed 's/:cited$//; s/^/- /' || true)
+          {
+            echo "The FAA has changed **$COUNT** PDF(s) we track since the last check."
+            echo
+            echo "**Merging this pull request only records the new fingerprint. It does not read the PDF.**"
+            echo "Read each changed PDF against the entries that cite it (search \`v1/\` for the file name) and"
+            echo "correct anything that no longer matches, BEFORE merging."
+            if [ -n "$BUNDLED" ]; then
+              echo; echo "### Bundled in the app"; echo "$BUNDLED"; echo
+              echo "Also replace each one in the app repo at \`PilotMedicalGuardian/Reference/BundledContent/CACIWorksheets/\`"
+              echo "(download from \`https://www.faa.gov/ame_guide/media/<filename>\`), so a pilot never opens an old copy."
+            fi
+            if [ -n "$CITED" ]; then
+              echo; echo "### Cited only (not bundled, nothing to drop in)"; echo "$CITED"
+            fi
+          } > pr-body.md
+          BODY=$(cat pr-body.md)
           gh pr create \
-            --title "FAA CACI: $COUNT worksheet(s) reissued — drop in new PDFs" \
+            --title "FAA PDFs: $COUNT changed. Read before merging" \
             --body "$BODY" \
             --base main \
-            --assignee ryancolby-pixel \
             --head "$BRANCH"
 
           printf '%s\n' "$BODY" > pr-alert-body.md
-          ./scripts/send-alert-email.sh "PMG: FAA CACI worksheet(s) reissued" pr-alert-body.md
+          ./scripts/send-alert-email.sh "PMG: FAA PDF(s) we cite changed" pr-alert-body.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
 
-          # 🚨 EXIT 1 SO THE RUN GOES RED (added 2026-08-17). This and its HIMS sibling were
-          # the only two alerting workflows with no failure backstop; every other one ends in
-          # a "Fail the run ... so the owner is emailed" step. That matters because
-          # send-alert-email.sh is FAIL-SOFT BY DESIGN - it warns and exits 0 on a missing
-          # secret or an SMTP error - so without this line a reissued FAA worksheet could
-          # produce a fully GREEN run that notified nobody at all. That is not hypothetical:
-          # on 2026-08-03 the alert secrets did not yet exist, the HIMS job ran green, and
-          # its PR sat unactioned for 14 days.
-          echo "The FAA reissued $COUNT CACI worksheet PDF(s). See the pull request above."
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that opened its PR and sent our alert email
+      # is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it. Red only when our
+      # email did not go out, which keeps the 2026-08-17 backstop: a reissue can never pass silently.
+      - name: Fail only if the alert email did not go out
+        if: steps.pr.outputs.mail_failed == 'true'
+        run: |
+          echo "The FAA changed PDF(s) we track. Our alert email did NOT send, so this run is red to make GitHub notify instead."
           exit 1

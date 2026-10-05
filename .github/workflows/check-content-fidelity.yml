@@ -63,6 +63,13 @@ permissions:
   contents: read
   issues: write
 
+env:
+  # Our alert email (added 2026-10-05, one email per finding). Before this the job reached Ryan
+  # only through GitHub's failure mail. scripts/file-finding.sh sends it once per new finding.
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
 jobs:
   fidelity:
     runs-on: ubuntu-latest
@@ -101,28 +108,21 @@ jobs:
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
       - name: Open / update the fidelity issue
+        id: notify
         if: steps.check.outputs.code == '1'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
           set -euo pipefail
-          gh label create content-fidelity --color b60205 \
-            --description "Published content does not match the FAA source it cites" 2>/dev/null || true
           {
             echo "A quoted span or numeric claim in published content does not appear in the FAA source it cites, as of $(date -u +%Y-%m-%dT%H:%MZ)."
             echo
             cat content-fidelity-report.md 2>/dev/null || cat fidelity-output.txt
           } > fidelity-comment.md
-          EXISTING=$(gh issue list --state open --label content-fidelity --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            gh issue comment "$EXISTING" --body-file fidelity-comment.md
-          else
-            gh issue create \
-              --title "Published content does not match its cited FAA source" \
-              --label content-fidelity \
-              --body-file fidelity-comment.md
-          fi
+          ./scripts/file-finding.sh content-fidelity b60205 "Published content does not match the FAA source it cites" \
+            "Published content does not match its cited FAA source" \
+            fidelity-comment.md "PMG: published content does not match its FAA source"
 
       # 🚨 ADDED 2026-08-17. Without this the issue could never close by any code path in
       # the repo, and that was not theoretical: the 8/15 green run left issue #6 open,
@@ -143,8 +143,11 @@ jobs:
             gh issue close "$EXISTING" --comment "Every quoted span and numeric claim resolves against the source it cites as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
           fi
 
-      - name: Fail the run
-        if: steps.check.outputs.code != '0'
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A finding that filed its issue and sent our email is
+      # a SUCCESS. Red only for a broken instrument (any exit code but 0 or 1) or an email that did
+      # not go out, so GitHub's failure mail is the backstop and never a duplicate.
+      - name: Fail only on a broken check or an alert email that did not go out
+        if: (steps.check.outputs.code != '0' && steps.check.outputs.code != '1') || steps.notify.outputs.mail_failed == 'true'
         run: |
-          echo "Content fidelity check failed, or a cited source could not be read. See the issue above."
+          echo "Content fidelity. The check itself errored, or our alert email did NOT send. See the log."
           exit 1

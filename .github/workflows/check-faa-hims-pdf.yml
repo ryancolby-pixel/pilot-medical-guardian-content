@@ -59,6 +59,7 @@ jobs:
           fi
 
       - name: Open PR with new SHA
+        id: pr
         if: steps.cmp.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -100,7 +101,6 @@ jobs:
           6. Merge — GitHub Pages republishes, the app picks it up on its next refresh.
 
           (Re-parse is currently manual; future enhancement: automate the parser inside this workflow.)" \
-            --assignee ryancolby-pixel \
             --head "$BRANCH" \
             --base main
 
@@ -115,12 +115,13 @@ jobs:
             echo ""
             echo "A pull request has been opened on branch ${BRANCH} with the steps."
           } > pr-alert-body.md
-          ./scripts/send-alert-email.sh "PMG: FAA HIMS-AME PDF reissued" pr-alert-body.md
+          ./scripts/send-alert-email.sh "PMG: FAA HIMS-AME PDF reissued" pr-alert-body.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
 
-          # 🚨 EXIT 1 SO THE RUN GOES RED (added 2026-08-17). See the identical note in
-          # check-faa-caci-pdfs.yml. send-alert-email.sh is fail-soft by design, so without
-          # this line a reissued PDF could produce a fully GREEN run with no notification
-          # whatsoever - which is exactly what happened on 2026-08-03, when the alert
-          # secrets did not yet exist and PR #1 then sat unactioned for 14 days.
-          echo "The FAA reissued the HIMS-AME PDF. See the pull request above."
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05). A run that filed its issue or PR and sent our
+      # alert email is a SUCCESS, so GitHub does not mail "all jobs have failed" on top of it.
+      # Red only when our email did not go out, which makes GitHub's mail the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.pr.outputs.mail_failed == 'true'
+        run: |
+          echo "The FAA reissued the HIMS-AME PDF. Our alert email did NOT send, so this run is red to make GitHub notify instead."
           exit 1
