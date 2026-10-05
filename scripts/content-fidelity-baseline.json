@@ -120,7 +120,6 @@
  "si_requirements.json :: si-dm-insulin-no-hypoglycemia: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm share no distinctive wording with this entry",
  "si_requirements.json :: si-dm-insulin-specialist-eval: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf share no distinctive wording with this entry",
  "si_requirements.json :: si-dm2-a1c-report: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med share no distinctive wording with this entry",
- "si_requirements.json :: si-dm2-med-list: quoted text is NOT in https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf nor in any document it links to\n        Date of most recent DIABETES MEDICATION change",
  "si_requirements.json :: si-dm2-med-list: quoted text is NOT in https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf nor in any document it links to\n        If you take any type of insulin. STOP. Do not use this page.",
  "si_requirements.json :: si-dm2-med-list: quoted text is NOT in https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf nor in any document it links to\n        List ALL current medications (for any condition)",
  "si_requirements.json :: si-dm2-physician-letter: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes share no distinctive wording with this entry",

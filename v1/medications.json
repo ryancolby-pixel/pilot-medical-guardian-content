@@ -2019,14 +2019,20 @@
     "faaStatus": "caseByCase",
     "isCACI": false,
     "treatedConditionNote": "The FAA's concern is insulin-treated diabetes itself; this follows a Special Issuance pathway, not the AME's desk.",
-    "faaStatusDescription": "Insulin-treated diabetes is handled through an FAA Special Issuance protocol rather than issued by the AME. Confirm against the current AME Guide diabetes protocol and a qualified AME.",
+    "faaStatusDescription": "Insulin-treated diabetes goes through an FAA Special Issuance. It is not something the AME issues at the desk.\n\nStarting insulin, the FAA's chart of acceptable diabetes medication combinations sets the wait:\nThird class: 90 days\nFirst or second class: 180 days, and you \"must use CGM protocol\"\n\nChanging insulin, the same chart says:\nAdding a new type of insulin: 7 days\nMoving between injection and pump, or a new insulin or CGM device: 7 days\nA minor dose change: \"no time is needed for minor dose change within the same drug class (short to short, long to long)\"\n\nIt counts \"multiple insulin types (e.g., short-acting [aspart] + long-acting [glargine])\" as 1 medication.\n\nSource: FAA, Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-insulin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-21T14:30:00Z",
+      "lastVerified": "2026-10-05T22:49:07Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row C",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "irbesartan",
@@ -2312,7 +2318,7 @@
       "code": "med-liraglutide-wl",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -2602,7 +2608,7 @@
       "code": "med-metformin-wl",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     }
   },
@@ -2971,6 +2977,25 @@
     "informationalOnly": false,
     "faaStatus": "conditional",
     "preFlightWaitHours": 24
+  },
+  {
+    "genericName": "orforglipron (for weight loss)",
+    "brandNames": [
+      "Foundayo"
+    ],
+    "category": "GLP-1 receptor agonist (weight loss management)",
+    "faaStatus": "conditional",
+    "isCACI": true,
+    "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page.",
+    "faaStatusDescription": "The FAA added \"orforglipron (Foundayo)\" to its Weight Loss Management CACI worksheet on 09/30/2026. It is one of five medications that worksheet lists.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\"\n\nOnly one: \"ONLY ONE of the medications listed is used\"\nNever diabetic-range A1c: \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\"\nInitial wait: \"AME should verify one-week observation after starting\"\nLater waits: \"48-hour observation with each dose increase, medication or formulation change.\"\nPaperwork: a \"current, detailed Clinical Progress Note\" from a visit \"no more than 90 days prior to the AME exam\"\nHow often: \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nWith diabetes it does not apply: \"diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\"\n\nSource: FAA CACI - Weight Loss Management Worksheet, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-orforglipron",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-05T22:49:07Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Weight Loss Management Worksheet (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf"
+    },
+    "informationalOnly": false
   },
   {
     "genericName": "orlistat",
@@ -3436,7 +3461,7 @@
       "code": "med-semaglutide-wl",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
@@ -3820,7 +3845,7 @@
       "code": "med-tirzepatide-wl",
       "contentVersion": "2026.0",
       "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 04/29/2026); CACI - Pre-Diabetes Worksheet",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
