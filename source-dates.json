@@ -108,7 +108,7 @@
    }
   },
   "https://www.faa.gov/ame_guide": {
-   "faaLastUpdated": "2026-08-26",
+   "faaLastUpdated": "2026-10-01",
    "entryCount": 1,
    "citedBy": {
     "si_conditions.json": [
@@ -117,7 +117,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/": {
-   "faaLastUpdated": "2026-08-26",
+   "faaLastUpdated": "2026-10-01",
    "entryCount": 4,
    "citedBy": {
     "medications.json": [
@@ -503,7 +503,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes": {
-   "faaLastUpdated": "2023-09-27",
+   "faaLastUpdated": "2026-09-30",
    "entryCount": 10,
    "citedBy": {
     "medications.json": [
@@ -583,7 +583,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm": {
-   "faaLastUpdated": "2023-08-30",
+   "faaLastUpdated": "2026-09-30",
    "entryCount": 2,
    "citedBy": {
     "si_conditions.json": [
@@ -1384,7 +1384,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/pharm/": {
-   "faaLastUpdated": "2026-04-29",
+   "faaLastUpdated": "2026-09-30",
    "entryCount": 26,
    "citedBy": {
     "medications.json": [
