@@ -203,7 +203,37 @@ def _blob(url: str, cache: Path) -> Path | None:
     return blob
 
 
+# 📌 PINNED SOURCES: an FAA page whose substance a plain fetch cannot see.
+#
+# The MedGuide (`/ame_guide/medguide`, v1.0, 2026-10-01) is a Tableau embed on explore.dot.gov.
+# Akamai answers curl with 403 from any UA, and the table renders client-side, so the page HTML
+# carries only the intro and definitions. The pilot table was read in a browser on 2026-10-05
+# (301 rows, `.fidelity-pinned/faa-medguide-v1.json`; method in the docs repo
+# `content/audit/2026-10-05-medguide/README.md`) and is appended to the live page text here.
+# ⚠️ THIS CHECKS QUOTES AGAINST OUR COPY, NOT THE LIVE TABLE. When the page's "Last updated"
+# moves, re-capture the table and replace the file, or a changed FAA row passes against a
+# stale one. The HTML half is still fetched live, so the intro and definitions stay honest.
+PINNED = {"https://www.faa.gov/ame_guide/medguide": ROOT / ".fidelity-pinned" / "faa-medguide-v1.json"}
+
+
+def _pinned_text(url: str) -> str:
+    pin = PINNED.get(url)
+    if not pin or not pin.exists():
+        return ""
+    rows = json.loads(pin.read_text(encoding="utf-8")).get("rows", [])
+    return norm(" ".join(" ".join(str(r.get(k) or "") for k in ("drugs", "cond", "freq", "wait")) for r in rows))
+
+
 def fetch(url: str, cache: Path) -> str | None:
+    """Live text plus any pinned table text (see PINNED). None means UNREACHABLE."""
+    base = _fetch(url, cache)
+    if base is None:
+        return None
+    extra = _pinned_text(url)
+    return base + " " + extra if extra else base
+
+
+def _fetch(url: str, cache: Path) -> str | None:
     """Source text for a URL, from cache or the network. None means UNREACHABLE.
 
     ⏱️ THE EXTRACTED TEXT IS CACHED TO DISK, NOT JUST THE DOWNLOAD. pdfplumber with
@@ -640,10 +670,14 @@ def main() -> int:
         if not isinstance(data, list):
             continue
         for e in data:
-            u = (e.get("envelope") or {}).get("sourceURL")
-            if u and u not in _seen_urls:
-                _seen_urls.add(u)
-                all_source_urls.append(u)
+            # A document an entry cites through its own `links[]` is cited by this project too,
+            # so it belongs in the tier-3 corpus. Added 2026-10-05 when 45 medication entries moved
+            # their single `sourceURL` to the FAA MedGuide and kept older FAA wording, recorded in
+            # `links[]`; without this, a sibling quoting the same older document lost its match.
+            for u in [(e.get("envelope") or {}).get("sourceURL")] + own_link_urls(e):
+                if u and u not in _seen_urls:
+                    _seen_urls.add(u)
+                    all_source_urls.append(u)
 
     for name in files:
         entries = json.loads((V1 / name).read_text())

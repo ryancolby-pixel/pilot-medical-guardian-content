@@ -5,16 +5,21 @@
       "Tylenol"
     ],
     "category": "Analgesic / antipyretic",
-    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists acetaminophen (Tylenol) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Migraine Medication page lists \"Acetaminophen + butalbital (Fioricet)\" and \"Acetaminophen + isomethptene + dichloralphenazone (Midrin)\" as UNACCEPTABLE: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"acetaminophen; paracetamol\" (Tylenol; Panadol) as ALLOWED for pilots, for \"Pain management; Fever\". Frequency: \"Per label directions\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists Advil PM and Tylenol PM in its NO GO column (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe FAA's Migraine Medication page lists \"Acetaminophen + butalbital (Fioricet)\" and \"Acetaminophen + isomethptene + dichloralphenazone (Midrin)\" as UNACCEPTABLE: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-acetaminophen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "acyclovir",
@@ -22,16 +27,15 @@
       "Zovirax"
     ],
     "category": "Antiviral",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"acyclovir\" (Zovirax) as ALLOWED for pilots, for \"Herpes; Herpes zoster; Varicella; Viral infection\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-acyclovir",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name acyclovir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "albuterol",
@@ -59,15 +63,21 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "For osteoporosis: ACCEPTABLE when criteria are met, with no observation period. Its Osteoporosis Medication page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", with no initial observation and no post-dose observation. The page also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" A footnote under that table reads: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"alendronate\" (Fosamax) as ALLOWED for pilots, for \"Osteoporosis\". Frequency: \"As prescribed\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Osteoporosis Medication page lists \"Alendronate (Fosamax)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\". It also requires the applicant to report the condition itself: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" A footnote under that table reads: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026), ACCEPTABLE Osteoporosis Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "allopurinol",
@@ -75,16 +85,21 @@
       "Zyloprim"
     ],
     "category": "Xanthine oxidase inhibitor (gout)",
-    "faaStatusDescription": "Gout: ISSUE if well controlled with no aeromedically significant side effects.\n\nThe FAA's Gout and Pseudogout table (All Classes) lists well controlled gout as ISSUE when \"Interview and examination reveal\" \"no persistent symptoms or functional impairment\" and \"Med combinations of NSAIDS, uric acid reducers (allopurinol, etc.), or uric acid excreters (probenecid) with no aeromedically significant side effects.\" Functional impairment, joint deformity, recurrent kidney stones, other medications, or gout that is not controlled are DEFER: \"Submit records to the FAA for decision\".\n\nFor retained kidney stones, its CACI - Retained Kidney Stone(s) Worksheet allows supportive medications such as allopurinol to decrease recurrence, with no side effects.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"allopurinol\" (Aloprim; Zyloprim) as ALLOWED for pilots, for \"Gout\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Gout and Pseudogout table (All Classes) lists well controlled gout as ISSUE when \"Interview and examination reveal\" \"no persistent symptoms or functional impairment\" and \"Med combinations of NSAIDS, uric acid reducers (allopurinol, etc.), or uric acid excreters (probenecid) with no aeromedically significant side effects.\" Functional impairment, joint deformity, recurrent kidney stones, other medications, or gout that is not controlled are DEFER: \"Submit records to the FAA for decision\".\n\nFor retained kidney stones, its CACI - Retained Kidney Stone(s) Worksheet allows supportive medications such as allopurinol to decrease recurrence, with no side effects.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-allopurinol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
+        "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
+      }
+    ]
   },
   {
     "genericName": "alprazolam",
@@ -162,16 +177,15 @@
       "Amoxil"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"amoxicillin\" (Amoxil; Trimox) as ALLOWED for pilots, for \"Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amoxicillin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name amoxicillin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "amoxicillin/clavulanate",
@@ -180,16 +194,15 @@
     ],
     "medxpressName": "AUGMENTIN",
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"amoxicillin + clavulanate potassium\" (Augmentin) as ALLOWED for pilots, for \"Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amoxicillin-clavulanate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name amoxicillin/clavulanate in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "amphetamine/dextroamphetamine",
@@ -253,16 +266,21 @@
     ],
     "medxpressName": "ASPIRIN",
     "category": "Antiplatelet",
-    "faaStatusDescription": "GO on the FAA's OTC chart; also listed on its carotid stenosis CACI worksheet.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists aspirin (Bayer) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nFor carotid or vertebral artery stenosis, its CACI worksheet lists \"ASA (aspirin)\" among medications for the condition, alone or with \"Plavix or Brilinta (ASA allowed in combination)\", and requires that the \"Condition is stable with NO symptoms.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"aspirin; acetylsalicylic acid\" (Ascriptin; Ecotrin; Entrophen; Primaspan [INTL]) as ALLOWED for pilots, for \"Arthritis; Pain management; Stroke\". Frequency: \"Per label directions\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nFor carotid or vertebral artery stenosis, the FAA's CACI worksheet lists \"ASA (aspirin)\" among medications for the condition, alone or with \"Plavix or Brilinta (ASA allowed in combination)\", and requires that the \"Condition is stable with NO symptoms.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-aspirin-low-dose",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "atenolol",
@@ -305,15 +323,21 @@
       "Lipitor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"atorvastatin (Lipitor; Sortis [INTL])\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"atorvastatin\" (Lipitor; Litorva [INTL]; Sortis [INTL]) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"atorvastatin (Lipitor; Sortis [INTL])\" under HMG-CoA reductase inhibitor, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "azithromycin",
@@ -322,16 +346,15 @@
       "Z-Pak"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"azithromycin\" (Zithromax) as ALLOWED for pilots, for \"Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-azithromycin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name azithromycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "baclofen",
@@ -626,16 +649,15 @@
       "Celebrex"
     ],
     "category": "COX-2 inhibitor (NSAID)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"celecoxib\" (CeleBREX) as ALLOWED for pilots, for \"Arthritis; Pain management\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-celecoxib",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name celecoxib in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: COX-2 inhibitor (NSAID). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "cephalexin",
@@ -643,16 +665,15 @@
       "Keflex"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"cephalexin\" (Keflex) as ALLOWED for pilots, for \"Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-cephalexin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name cephalexin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "cetirizine",
@@ -769,16 +790,15 @@
       "Biaxin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"clarithromycin\" (Biaxin; Iset [INTL]) as ALLOWED for pilots, for \"Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-clarithromycin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name clarithromycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "clemastine",
@@ -803,16 +823,15 @@
       "Cleocin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"clindamycin\" (Cleocin) as ALLOWED for pilots, for \"Acne; Bacterial infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-clindamycin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name clindamycin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "clonazepam",
@@ -1009,16 +1028,15 @@
       "Voltaren"
     ],
     "category": "NSAID",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Oral: wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"diclofenac (oral)\" (Cambia; Lofena; Zipsor; Zorvolex; Cataflam [INTL]) as ALLOWED for pilots, for \"Osteoarthritis; Pain management; Rheumatoid arthritis (RA)\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nIt also lists \"diclofenac (topical)\" (Voltaren) as ALLOWED for pilots, for \"Pain management\". Frequency: \"As prescribed\". Wait times: Initial/Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-diclofenac",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name diclofenac in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: NSAID. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "dicyclomine",
@@ -1170,16 +1188,15 @@
       "Vibramycin"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"doxycycline\" (Doryx; Vibramycin [INTL]; Periostat [INTL]) as ALLOWED for pilots, for \"Bacterial infections; Malaria prophylaxis\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-doxycycline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name doxycycline in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "doxylamine",
@@ -1240,16 +1257,21 @@
       "Avodart"
     ],
     "category": "5-alpha reductase inhibitor (BPH)",
-    "faaStatusDescription": "On the FAA's PCOS CACI worksheet; not named on its BPH medication page.\n\nIts CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nTaken for an enlarged prostate (BPH) or hair loss, the FAA's Erectile Dysfunction and Benign Prostatic Hyperplasia Medications page does not name dutasteride. That silence is neither a permission nor a prohibition; ask your AME.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"dutasteride\" (Avodart) as ALLOWED for pilots, for \"Alopecia (Hair loss); Benign Prostatic Hypertrophy (BPH); Polycystic ovarian disease (PCOS) [OL]\". Frequency: \"As prescribed\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nFor polycystic ovarian syndrome, the FAA's CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dutasteride",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      }
+    ]
   },
   {
     "genericName": "edoxaban",
@@ -1464,15 +1486,21 @@
       "Zetia"
     ],
     "category": "Cholesterol absorption inhibitor",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"ezetimibe\" under 2-Azetidinone. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"ezetimibe\" (Zetia; Ezetrol [INTL]) as ALLOWED for pilots, for \"Hypercholesterolemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"ezetimibe\" under 2-Azetidinone, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "famotidine",
@@ -1480,16 +1508,21 @@
       "Pepcid"
     ],
     "category": "H2 blocker (GERD)",
-    "faaStatusDescription": "GO on the FAA's OTC chart; it warns not to mask the underlying symptoms.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"famotidine (Pepcid)\" among H2 blockers in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\" The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"famotidine\" (Pepcid) as ALLOWED for pilots, for \"Stomach ulcers\". Frequency: \"Per label directions\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"famotidine (Pepcid)\" among H2 blockers in its GO column, GENERALLY SAFE TO FLY, for indigestion, with the rationale \"Be careful not to mask the underlying symptoms.\"\n\nThe FAA's antacids page states that \"The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.\" The same page adds that \"If a surgical procedure was done, the applicant must provide operative and pathology reports.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-famotidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antacids"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional",
-    "informationalOnly": false
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/ame_guide/pharm/antacids"
+      }
+    ]
   },
   {
     "genericName": "febuxostat",
@@ -1566,16 +1599,21 @@
       "Allegra"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "Named by the FAA as an acceptable non-sedating antihistamine, subject to a mandatory 48-hour ground trial after initial use. Confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"fexofenadine\" (Allegra) as ALLOWED for pilots, for \"Allergic rhinitis\". Frequency: \"Per label directions\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Allergy - Antihistamine & Immunotherapy Medication page says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fexofenadine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T15:45:23Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Allergy - Antihistamines & Immunotherapy Medication",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "informationalNote": "The FAA's Allergy - Antihistamines & Immunotherapy Medication guidance lists fexofenadine (Allegra) among acceptable second-generation antihistamines, which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" For a new medication the FAA states: \"Mandatory 48-hour ground trial required after initial use,\" and that \"Symptoms must be controlled without adverse side effects.\" Being on an acceptable medication is not by itself clearance to fly. The same guidance opens with: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" It also directs that the \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\" At the exam itself, the guidance directs that \"In all situations, the AME must notate the evaluation data in Block 60.\""
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Allergy - Antihistamines & Immunotherapy Medication",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ],
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "finasteride",
@@ -1584,16 +1622,21 @@
       "Propecia"
     ],
     "category": "5-alpha reductase inhibitor (BPH/hair)",
-    "faaStatusDescription": "On the FAA's PCOS CACI worksheet; not named on its BPH medication page.\n\nIts CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nTaken for an enlarged prostate (BPH) or hair loss, the FAA's Erectile Dysfunction and Benign Prostatic Hyperplasia Medications page does not name finasteride. That silence is neither a permission nor a prohibition; ask your AME.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"finasteride\" (Proscar; Propecia) as ALLOWED for pilots, for \"Alopecia (Hair loss); Benign Prostatic Hypertrophy (BPH); Polycystic ovarian disease (PCOS) [OL]\". Frequency: \"As prescribed\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nFor polycystic ovarian syndrome, the FAA's CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet lists \"anti-androgen (e.g., finasteride, dutasteride)\" among the medications that \"May be used in combination\". \"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\" Those criteria include a treating physician finding the condition \"Stable on current regimen\", with \"No side effects from medication\", \"Cardiovascular risk factors are controlled\" and \"No changes recommended\", plus questions on sleep apnea, depression or anxiety, diabetes and prolactinoma. \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-finasteride",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      }
+    ]
   },
   {
     "genericName": "flecainide",
@@ -1618,16 +1661,15 @@
       "Diflucan"
     ],
     "category": "Antifungal",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"fluconazole\" (Diflucan) as ALLOWED for pilots, for \"Fungal infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fluconazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name fluconazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "fluoxetine",
@@ -1658,11 +1700,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the asthma/rhinitis and its control, not the inhaler.",
-    "faaStatusDescription": "Inhaled (Flovent): FAA Asthma CACI list. Nasal (Flonase): GO, FAA OTC chart.\n\nInhaled for asthma (Flovent). The FAA's CACI - Asthma Worksheet lists \"Inhaled corticosteroid\" among its acceptable medications. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nNasal spray for allergy (Flonase). The FAA's Over-the-Counter (OTC) Medications Reference Guide lists fluticasone (Flonase) among nasal steroids in its GO column, GENERALLY SAFE TO FLY. Its Allergy - Antihistamine & Immunotherapy Medication page lists \"Nasal spray: Corticosteroid\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" A new medication carries a \"Mandatory 48-hour ground trial required after initial use.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Inhaled (Flovent): FAA Asthma CACI. Nasal (Flonase): allowed in MedGuide.\n\nInhaled for asthma (Flovent). The FAA's CACI - Asthma Worksheet lists \"Inhaled corticosteroid\" among its acceptable medications. For symptoms to count as \"Stable and well-controlled\", its criteria include \"Frequency of symptoms - no more than 2 days per week\", rescue inhaler use \"no more than 2 times per week\", \"Use of oral corticosteroids for exacerbations - no more than 2 times per year\", and in the last year \"No in-patient hospitalizations\" and no more than 2 outpatient clinic or urgent care visits for exacerbations, with symptoms fully resolved. Spirometry must be \"Current within last 90 days\", with FEV1 and FVC both at least 80% of predicted before bronchodilators. The worksheet lists monoclonal antibodies as not acceptable for CACI.\n\n\"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" The AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\", and \"Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\" A short course of oral or injected steroids during a flare is acceptable, and \"The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free.\"\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"fluticasone (nasal)\" (Flonase; Veramyst; Xhance) as ALLOWED for pilots (nasal spray), for \"Allergic rhinitis; Nasal polyps\". Frequency: \"Per label directions\". Wait times: Initial/Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Allergy - Antihistamine & Immunotherapy Medication page says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fluticasone-inhaled",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T23:03:40Z",
+      "lastVerified": "2026-10-05T18:35:10Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024); Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
@@ -1744,15 +1786,21 @@
       "Lopid"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"gemfibrozil (Lopid)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"gemfibrozil\" (Lopid) as ALLOWED for pilots, for \"Hyperlipidemia; Hypertriglyceridemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"gemfibrozil (Lopid)\" under Fibric Acid, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "glimepiride",
@@ -1872,16 +1920,21 @@
       "Motrin"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists ibuprofen (Advil/Motrin) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"ibuprofen\" (Advil; Motrin) as ALLOWED for pilots, for \"Migraine treatment; Osteoarthritis; Pain management; Rheumatoid arthritis (RA)\". Frequency: \"Per label directions\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists Advil PM and Tylenol PM in its NO GO column (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ibuprofen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "indapamide",
@@ -2263,15 +2316,21 @@
       "Claritin"
     ],
     "category": "Non-sedating antihistamine (allergy)",
-    "faaStatusDescription": "ACCEPTABLE non-sedating allergy medication, but do not fly while symptomatic. Its allergy page lists \"loratadine (Claritin)\" among \"Most Second-Generation Histamine-H1 receptor antagonist\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"loratadine\" (Claritin) as ALLOWED for pilots, for \"Allergic rhinitis\". Frequency: \"Per label directions\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Allergy - Antihistamine & Immunotherapy Medication page lists \"loratadine (Claritin)\" among \"Most Second-Generation Histamine-H1 receptor antagonist\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-loratadine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
   },
   {
     "genericName": "lorazepam",
@@ -2333,15 +2392,21 @@
       "Mevacor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"lovastatin\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"lovastatin\" (Altoprev; Mevacor [INTL]) as ALLOWED for pilots, for \"Hypercholesterolemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"lovastatin\" under HMG-CoA reductase inhibitor, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "meclizine",
@@ -2385,16 +2450,15 @@
       "Mobic"
     ],
     "category": "NSAID",
-    "faaStatusDescription": "Meloxicam alone is not listed. With rizatriptan (Symbravo): 24-hour wait.\n\nThe FAA's Migraine Medication page lists \"meloxicam + rizatriptan (Symbravo)\" under \"Combinations\" with a 24 hour post-dose wait. The same page states \"Post-dose observation time (no fly warning) is based on medication half-life.\"\n\nThe FAA does not address meloxicam on its own. Taken as an NSAID rather than as part of Symbravo, it is not individually listed, so this is informational only and your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"meloxicam\" (Mobic) as ALLOWED for pilots, for \"Osteoarthritis; Pain management; Rheumatoid arthritis (RA)\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-meloxicam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-22T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026), Combinations. Meloxicam alone is not individually listed in the Pharmaceuticals (Therapeutic Medications) section.",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name meloxicam on its own in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. It does name it in combination: the Migraine Medication page lists meloxicam + rizatriptan (Symbravo) with a 24 hour post-dose wait. For meloxicam taken as an NSAID rather than as part of Symbravo, your AME determines acceptability based on your underlying condition. The underlying condition class is: NSAID."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "mesalamine",
@@ -2404,17 +2468,22 @@
       "Pentasa"
     ],
     "category": "Aminosalicylate (IBD)",
-    "faaStatusDescription": "Named on the FAA's Colitis CACI worksheet, where ALL criteria must be met.\n\nIts CACI - Colitis Worksheet lists \"mesalamine (Asacol, Pentasa, Lialda)\" among medications for the condition. \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" Those include that the \"Condition is stable with no effects that would interfere with flight duties\", \"No surgery for the condition in the last 6 (six) weeks.\", \"None or mild diarrhea (less than 4 bowel movements/day)\", and a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\". \"Any other causes require an FAA decision.\"\n\nThe AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\". \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"mesalamine\" (Asacol; Apriso; Delzicol; Lialda; Pentasa; Canasa; Rowasa) as ALLOWED for pilots, for \"Ulcerative Colitis (UC)\". Frequency: \"As prescribed\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's CACI - Colitis Worksheet lists \"mesalamine (Asacol, Pentasa, Lialda)\" among medications for the condition. \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" Those include that the \"Condition is stable with no effects that would interfere with flight duties\", \"No surgery for the condition in the last 6 (six) weeks.\", \"None or mild diarrhea (less than 4 bowel movements/day)\", and a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\". \"Any other causes require an FAA decision.\"\n\nThe AME reviews a Clinical Progress Note from a clinic visit \"no more than 90 days prior to the AME exam\". \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mesalamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "treatedConditionNote": "The inflammatory bowel condition is the FAA's primary interest.",
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
   },
   {
     "genericName": "metformin",
@@ -2556,16 +2625,15 @@
       "Flagyl"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"metroNIDAZOLE\" (Flagyl) as ALLOWED for pilots, for \"Bacterial infections; Parasitic infections\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-metronidazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name metronidazole in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "mirtazapine",
@@ -2608,16 +2676,21 @@
     ],
     "medxpressName": "MOMETASONE",
     "category": "Intranasal corticosteroid (rhinitis)",
-    "faaStatusDescription": "GO on the FAA's OTC chart as a nasal steroid for allergy products.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists \"mometasone (Nasonex)\" among nasal steroids in its GO column, GENERALLY SAFE TO FLY. The guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Allergy - Antihistamine & Immunotherapy Medication page lists \"Nasal spray: Corticosteroid\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide, with no wait listed after a dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"mometasone furoate (nasal)\" (Nasonex) as ALLOWED for pilots, for \"Allergic rhinitis\". Frequency: \"Per label directions\". Wait times: Initial/Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Allergy - Antihistamine & Immunotherapy Medication page lists \"Nasal spray: Corticosteroid\" under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", and says \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mometasone-nasal",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "montelukast",
@@ -2662,16 +2735,21 @@
       "Naprosyn"
     ],
     "category": "NSAID (pain / inflammation)",
-    "faaStatusDescription": "GO on the FAA's OTC chart, as long as the underlying condition is acceptable.\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists naproxen (Naprosyn) in its GO column, GENERALLY SAFE TO FLY, for aches and pains: \"Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.\" The NO GO column of the same row lists Advil PM and Tylenol PM (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe guide says \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\" and that its table \"is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.\"\n\nIts Migraine Medication page lists the combination \"sumatriptan + naproxen (Treximet)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", with a post-dose observation of 24 hours, \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"naproxen\" (Anaprox; Naprelan; Naprosyn) as ALLOWED for pilots, for \"Osteoarthritis; Pain management; Rheumatoid arthritis (RA)\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Over-the-Counter (OTC) Medications Reference Guide lists Advil PM and Tylenol PM in its NO GO column (\"Most 'PM' medications contain diphenhydramine\"), and it cautions that \"Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness\".\n\nThe FAA's Migraine Medication page lists the combination \"sumatriptan + naproxen (Treximet)\" under \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\", with a post-dose observation of 24 hours, \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-naproxen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
-      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false,
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "nebivolol",
@@ -2697,15 +2775,21 @@
       "Niaspan"
     ],
     "category": "Nicotinic acid (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"niacin (Niaspan)\" under Nicotinic acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"niacin\" (Niacor; Niaspan [INTL]) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia; Supplement\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"niacin (Niaspan)\" under Nicotinic acid, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "nicotine",
@@ -2751,16 +2835,15 @@
       "Macrobid"
     ],
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"nitrofurantoin\" (Macrobid; Macrodantin; Furadantin [INTL]) as ALLOWED for pilots, for \"Urinary tract infections (UTI)\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nitrofurantoin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name nitrofurantoin in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "olmesartan",
@@ -2822,17 +2905,26 @@
       "Xenical"
     ],
     "category": "Lipase inhibitor (weight loss management)",
-    "faaStatus": "conditional",
+    "faaStatus": "acceptable",
     "isCACI": false,
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists orlistat under \"ACCEPTABLE Weight Loss Medications\".\n\nIts lipase inhibitor entry names \"orlistat [Alli; Xenical]\", marks it OTC, and gives \"48 hours\" initial observation. Orlistat is not a diabetic medication component, so the FAA's one-component CACI limit is not about it.\n\nIts Weight Loss Management disposition table is ISSUE for \"lifestyle intervention or acceptable over-the-counter (OTC) medications\" when the AME can determine the condition is under control, current medications are acceptable, and the individual has no symptoms that would interfere with flight duties.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"orlistat\" (Alli; Xenical) as ALLOWED for pilots, for \"Weight loss (Obesity)\". Frequency: \"Per label directions\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Weight Loss Management disposition table is ISSUE for \"lifestyle intervention or acceptable over-the-counter (OTC) medications\" when the AME can determine the condition is under control, current medications are acceptable, and the individual has no symptoms that would interfere with flight duties.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-orlistat",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), row A",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": false
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), row A",
+        "url": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
+      },
+      {
+        "title": "FAA Weight Loss Management disposition table",
+        "url": "https://www.faa.gov/ame_guide/media/Weight_Loss_Management_Dispo_Table.pdf"
+      }
+    ]
   },
   {
     "genericName": "oseltamivir",
@@ -2840,16 +2932,15 @@
       "Tamiflu"
     ],
     "category": "Antiviral (influenza)",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"oseltamivir\" (Tamiflu) as ALLOWED for pilots, for \"Influenza; Viral infection\". Frequency: \"As prescribed\". Wait times: Initial \"48 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-oseltamivir",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name oseltamivir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral (influenza). See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "oxycodone",
@@ -2985,15 +3076,15 @@
       "Livalo"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "The FAA lists six statins by name under \"ACCEPTABLE Cholesterol Medications\" and pitavastatin is not among them. That page states \"All drug classes require the minimum standard 48-hour initial ground trial.\" Absence from the list is not a prohibition and not a permission: the FAA writes elsewhere that \"No independent interpretation of the FAA's position with respect to a medication included or excluded should be assumed.\" Ask your AME which applies.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"pitavastatin\" (Livalo) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pitavastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:32:07Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "pravastatin",
@@ -3001,15 +3092,21 @@
       "Pravachol"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"pravastatin (Pravachol)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"pravastatin\" (Pravachol) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"pravastatin (Pravachol)\" under HMG-CoA reductase inhibitor, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "prednisone",
@@ -3088,15 +3185,21 @@
       "Sudafed"
     ],
     "category": "Decongestant (allergy / cold)",
-    "faaStatusDescription": "ACCEPTABLE decongestant, but do not fly while symptomatic. Its allergy page lists \"pseudoephedrine (Sudafed)\" among decongestants under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"pseudoephedrine\" (Efidac; Sudafed) as ALLOWED for pilots, for \"Congestion\". Frequency: \"Per label directions\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Allergy - Antihistamine & Immunotherapy Medication page lists \"pseudoephedrine (Sudafed)\" among decongestants under \"ACCEPTABLE* (Non-Sedating) Antihistamine and Allergy Medications\", which \"May be used as a single agent or in any combination product, if other certification criteria are met.\" The page carries obligations beyond the list itself. \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\" For a newly started medication, \"Symptoms must be controlled without adverse side effects.\" The \"AME must warn that flight/safety-related duties are prohibited until after any applicable post-dose observation time.\", and that observation is \"Required to mitigate central nervous system risk\". The applicant \"must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" It also states that \"In all situations, the AME must notate the evaluation data in Block 60.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pseudoephedrine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
   },
   {
     "genericName": "quinapril",
@@ -3193,15 +3296,21 @@
       "Crestor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"rosuvastatin (Crestor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"rosuvastatin\" (Crestor) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"rosuvastatin (Crestor)\" under HMG-CoA reductase inhibitor, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "semaglutide",
@@ -3298,15 +3407,21 @@
       "Zocor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"simvastatin (Zocor)\" under HMG-CoA reductase inhibitor. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"simvastatin\" (Zocor) as ALLOWED for pilots, for \"Hypercholesterolemia; Hyperlipidemia\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Cholesterol Medications page lists \"simvastatin (Zocor)\" under HMG-CoA reductase inhibitor, among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "sitagliptin",
@@ -3369,16 +3484,15 @@
     ],
     "medxpressName": "BACTRIM",
     "category": "Antibiotic",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"trimethoprim + sulfamethoxazole\" (Bactrim; Septra) as ALLOWED for pilots, for \"Urinary tract infections (UTI)\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sulfamethoxazole-trimethoprim",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name sulfamethoxazole/trimethoprim in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antibiotic. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "sulfasalazine",
@@ -3453,16 +3567,22 @@
       "Flomax"
     ],
     "category": "Alpha blocker (BPH)",
-    "faaStatusDescription": "The FAA does not name tamsulosin individually, but its erectile dysfunction and BPH page addresses alpha blockers directly: \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" The same page states \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\" On alpha blockers specifically the page says they \"are allowed for daily use if there no side effects\" and that \"No minimum wait time is required after use once the airman has successfully passed the 7-day ground trial period required for all hypertension medication.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 7 days after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"tamsulosin\" (Flomax) as ALLOWED for pilots, for \"Benign Prostatic Hypertrophy (BPH)\". Frequency: \"As prescribed\". Wait times: Initial \"7 days\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Erectile Dysfunction and Benign Prostatic Hyperplasia Medications page addresses alpha blockers directly: \"If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\" The same page states \"Nitrates are not allowed.\" Two limits on the page matter more than the wait time. Its allowance is conditional: use for ED or BPH \"may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified.\" And the indication decides the outcome: \"If the medication is used for any other condition, do not issue - FAA approval is required.\", with the page adding that if used \"for any other non G-U condition (e.g., pulmonary arterial hypertension [PAH]) the examiner must defer issuance of a medical certificate.\" On alpha blockers specifically the page says they \"are allowed for daily use if there no side effects\" and that \"No minimum wait time is required after use once the airman has successfully passed the 7-day ground trial period required for all hypertension medication.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tamsulosin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:37:19Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "treatedConditionNote": "The FAA's interest is tolerance and the underlying condition.",
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+        "url": "https://www.faa.gov/ame_guide/pharm/ed"
+      }
+    ]
   },
   {
     "genericName": "telmisartan",
@@ -3506,16 +3626,15 @@
       "Lamisil"
     ],
     "category": "Antifungal",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. First-dose wait: none topical, 48 hours oral.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"terbinafine\" (LamISIL [INTL]) as ALLOWED for pilots, for \"Fungal infections\". Frequency: \"As prescribed\". Wait times: Initial \"None (if topical formulation)\" or \"48 hours (if oral formulation)\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-terbinafine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name terbinafine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antifungal. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "testosterone",
@@ -3524,11 +3643,11 @@
       "Depo-Testosterone"
     ],
     "category": "Androgen (replacement)",
-    "faaStatusDescription": "Topical is ISSUE; oral or injectable goes to the FAA's Low T CACI worksheet.\n\nIts Low Testosterone (Low T) Hypogonadism table lists \"Treated with topical testosterone only\" as ISSUE, \"If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties\".\n\n\"Testosterone (Oral or Injectable)\" and Testopel sit on the row that says \"See the CACI - Hypogonadism Worksheet.\" That worksheet requires that the \"Condition is stable on current regimen, no changes recommended, and no side effects which would interfere with flight duties.\", no treatment with phlebotomy, no venous thromboembolic event (VTE) such as PE/DVT, and a blood count from the last 90 days showing \"Hematocrit is 54% or less\". The table sends anyone who \"Requires or concurrent treatment with phlebotomy\" to DEFER, and notes \"Use of enclomiphene citrate is NOT acceptable.\"\n\nFor women, the FAA's Hormone Replacement Therapy (HRT) - Female table names testosterone among hormones used at near physiologic levels, and lists ISSUE when there are no side effects that would interfere with flight duties and no history of VTE (PE/DVT), stroke, severe migraine or uncontrolled hypertension.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Topical: allowed in the FAA MedGuide. Others: see the FAA Low T table below.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"testosterone (topical)\" (Androderm; Androgel; Fortesta; Jatenzo; Kyzatrex; Natesto; Testim; Tlando; Vogelxo) as ALLOWED for pilots, for \"Hormone replacement therapy (HRT); Hypogonadism; Low – testosterone (Low T); Testosterone replacement\". Frequency: \"As prescribed\". Wait times: Initial/Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThe FAA's Low Testosterone (Low T) Hypogonadism table lists \"Treated with topical testosterone only\" as ISSUE, \"If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties\".\n\n\"Testosterone (Oral or Injectable)\" and Testopel sit on the row that says \"See the CACI - Hypogonadism Worksheet.\" That worksheet requires that the \"Condition is stable on current regimen, no changes recommended, and no side effects which would interfere with flight duties.\", no treatment with phlebotomy, no venous thromboembolic event (VTE) such as PE/DVT, and a blood count from the last 90 days showing \"Hematocrit is 54% or less\". The table sends anyone who \"Requires or concurrent treatment with phlebotomy\" to DEFER, and notes \"Use of enclomiphene citrate is NOT acceptable.\"\n\nFor women, the FAA's Hormone Replacement Therapy (HRT) - Female table names testosterone among hormones used at near physiologic levels, and lists ISSUE when there are no side effects that would interfere with flight duties and no history of VTE (PE/DVT), stroke, severe migraine or uncontrolled hypertension.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-testosterone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
+      "lastVerified": "2026-10-05T18:35:10Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Low Testosterone (Low T) Hypogonadism disposition table, All Classes (updated 04/29/2026); CACI - Low Testosterone (Low T) Hypogonadism Worksheet (updated 04/29/2026); Hormone Replacement Therapy (HRT) - Female disposition table, All Classes (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T-Hypogonadism_Dispo.pdf"
     },
@@ -3720,16 +3839,15 @@
       "Valtrex"
     ],
     "category": "Antiviral",
-    "faaStatusDescription": "Not individually listed in an FAA medication list — informational only; your AME determines acceptability.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nThe FAA's MedGuide (version 1.0, updated October 1, 2026) lists \"valacyclovir\" (Valtrex) as ALLOWED for pilots, for \"Herpes; Viral infection\". Frequency: \"As prescribed\". Wait times: Initial \"24 hours\", Subsequent \"None\", Discontinuation \"None\".\n\nMedGuide defines ALLOWED as: \"The medication is acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nIts general rule is that \"When starting a new medication, in most cases, a 48-hour wait time is required before returning to safety-related duties.\" It adds that \"medications with minimal systemic effects may be shortened\" and to \"see the specific medications for guidance.\"\n\nMedGuide also says that \"Wait times are not determined solely by the medication; an extended observation period may be required to verify clinical stability of the condition.\" It \"should not be used as the sole basis in making aeromedical determinations\".\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-valacyclovir",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
+      "lastVerified": "2026-10-05T18:35:10Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "informationalOnly": true,
-    "informationalNote": "The FAA does not name valacyclovir in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Antiviral. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "faaStatus": "acceptable"
   },
   {
     "genericName": "valsartan",

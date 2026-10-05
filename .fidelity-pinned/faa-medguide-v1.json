@@ -1,0 +1,3019 @@
+{
+ "source": "https://www.faa.gov/ame_guide/medguide",
+ "tableau": "https://explore.dot.gov/t/FAA/views/AAM_MedGuide/MedGuideMain",
+ "user": "Pilot",
+ "useStatus": "ALLOW",
+ "pageLastUpdated": "2026-10-01",
+ "rows": [
+  {
+   "drugs": "\nGeneric:\nInfluenza vaccine\n\nBrand Name:\nAfluria; Fluad; Fluad; Fluarix; Flucelvax; FluLaval Quadrivalent; Fluzone",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nSAMe; s-adenosylmethionine; ademetionine\n\nBrand Name:\nHeptral [INTL]",
+   "cond": "\nLiver disorders; Osteoarthritis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI); MUSCULOSKELETAL & RHEUMATOLOGY; MISCELLANEOUS THERAPEUTIC AGENTS"
+  },
+  {
+   "drugs": "\nGeneric:\nacetaminophen + aspirin + caffeine\n\nBrand Name:\nExcedrin",
+   "cond": "\nPain management; Migraine treatment",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nacetaminophen; paracetamol\n\nBrand Name:\nTylenol; Panadol",
+   "cond": "\nPain management; Fever",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nacoltremon (ophthalmic)\n\nBrand Name:\nTryptyr",
+   "cond": "\nDry eye disease",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nacyclovir\n\nBrand Name:\nZovirax",
+   "cond": "\nHerpes; Herpes zoster; Varicella; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nadapalene (topical)\n\nBrand Name:\nDifferin",
+   "cond": "\nAcne",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\naspirin; acetylsalicylic acid\n\nBrand Name:\nAscriptin; Ecotrin; Entrophen; Primaspan [INTL]",
+   "cond": "\nArthritis; Pain management; Stroke",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY; MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndapsone (topical)\n\nBrand Name:\nAczone",
+   "cond": "\nAcne",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY; INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ndiphtheria + tetanus + pertussis vaccine; DTaP\n\nBrand Name:\nAdacel; Boostrix; Daptacel",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\ndocosanol (topical)\n\nBrand Name:\nAbreva",
+   "cond": "\nHerpes; Viral infection",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nestradiol + norethindrone\n\nBrand Name:\nActivella",
+   "cond": "\nMenopause",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nibuprofen\n\nBrand Name:\nAdvil; Motrin",
+   "cond": "\nMigraine treatment; Osteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nketorolac (ophthalmic)\n\nBrand Name:\nAcular; Acuvail; Apsolox [INTL]",
+   "cond": "\nAllergic conjunctivitis; Postoperative surgery",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nlovastatin + niacin\n\nBrand Name:\nAdvicor",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\noxymetazoline (nasal)\n\nBrand Name:\nAfrin; Dristan Spray",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions or as prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\npapain + urea\n\nBrand Name:\nAccuzyme",
+   "cond": "\nNecrotic tissue debridement; Proteolytic needs",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nrisedronate\n\nBrand Name:\nActonel",
+   "cond": "\nOsteoporosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nursodiol\n\nBrand Name:\nActigall",
+   "cond": "\nGallstone dissolution",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nalcaftadine (ophthalmic)\n\nBrand Name:\nLastacaft",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nalendronate\n\nBrand Name:\nFosamax",
+   "cond": "\nOsteoporosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nalfuzosin\n\nBrand Name:\nUroxatral",
+   "cond": "\nBenign Prostatic Hypertrophy (BPH)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nallopurinol\n\nBrand Name:\nAloprim; Zyloprim",
+   "cond": "\nGout",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\naluminum hydroxide + magnesium hydroxide + simethicone\n\nBrand Name:\nMaalox",
+   "cond": "\nAntacid",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\namlexonox\n\nBrand Name:\nApthasol",
+   "cond": "\nCanker sores (mouth ulcerations); Cold sores",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\namoxicillin\n\nBrand Name:\nAmoxil; Trimox",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\namoxicillin + clavulanate potassium\n\nBrand Name:\nAugmentin",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nethinyl estradiol + levonorgestrel\n\nBrand Name:\nAlesse; Aviane; Nordette",
+   "cond": "\nHormone replacement therapy (HRT); Menopause",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nethinyl estradiol + norethindrone\n\nBrand Name:\nAlyacen; Alyacen; Aranelle; Aurovela; Balziva; Blisovi; Briellyn; Cyclafem; Generess; Junel; Kaitlib; Larin; Layolis; Leena; Lo Loestrin Fe; Loestrin; Microgestin; Minastrin; Necon; Nortrel; Nylia; Ortho-Novum; Pirmella; Tilia; Vyfemla; Wymzya",
+   "cond": "\nAcne; Contraception; Menstrual bleeding",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nfexofenadine\n\nBrand Name:\nAllegra",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nfexofenadine + pseudoephedrine\n\nBrand Name:\nAllegra-D",
+   "cond": "\nAllergic rhinitis; Congestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nketotifen (ophthalmic)\n\nBrand Name:\nAlaway ; Zaditor",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nloratadine + pseudoephedrine\n\nBrand Name:\nAlavert-D; Claritin-D",
+   "cond": "\nAllergic rhinitis; Congestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nlovastatin\n\nBrand Name:\nAltoprev; Mevacor [INTL]",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\norlistat\n\nBrand Name:\nAlli; Xenical",
+   "cond": "\nWeight loss (Obesity)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nsubcutaneous immunotherapy (SCIT); allergy shot (injection)\n\nBrand Name:\nImmunotherapy injections",
+   "cond": "\nAllergies",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours (for first season ever taken); or\n\n- 24 hours (for subsequent seasons)\n················\nSubsequent:\n- 4 hours\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- Same as subsequent dose wait time\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "IMMUNOLOGY; ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\ntrifarotene (topical)\n\nBrand Name:\nAklief",
+   "cond": "\nAcne; Wrinkles",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nAny combination of: AREDS2; lutein; zeaxanthin; zinc; carotinoids\n\nBrand Name:\nClaroxan; Ocuvite; Sight Care; Visutein",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES); VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\nampicillin\n\nBrand Name:\nPrincipen [INTL]",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\namylase\n\nBrand Name:\n(no brand)",
+   "cond": "\nIndigestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\namylase + lipase + protease\n\nBrand Name:\nPangestyme",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\namylase + lipase + protease + cellulase\n\nBrand Name:\nKu-Zyme",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\namylase + lipase + protease + cellulase + hyoscyamine\n\nBrand Name:\nKutrase",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nbenzocaine\n\nBrand Name:\nAnbesol; Cepacol",
+   "cond": "\nAnesthesia",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\ndelgocitinib (topical)\n\nBrand Name:\nAnzupgo",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY; IMMUNOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nflurbiprofen (oral)\n\nBrand Name:\nLurbiro; Ansaid [INTL]",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nganirelix\n\nBrand Name:\nAntagon; Fyremadel",
+   "cond": "\nInfertility; In-vitro fertilization (IVF)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- 4 hours\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- Same as subsequent dose wait time\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nmesalamine\n\nBrand Name:\nAsacol; Apriso; Delzicol; Lialda; Pentasa; Canasa; Rowasa",
+   "cond": "\nUlcerative Colitis (UC)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nnaproxen\n\nBrand Name:\nAnaprox; Naprelan; Naprosyn;",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\npamidronate\n\nBrand Name:\nAredia",
+   "cond": "\nHypercalcemia of malignancy; Paget disease",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nphytonadione\n\nBrand Name:\nMephyton; Aqua-Mephyton [INTL]",
+   "cond": "\nThrombocytopenia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\ntestosterone (topical)\n\nBrand Name:\nAndroderm; Androgel; Fortesta; Jatenzo; Kyzatrex; Natesto; Testim; Tlando; Vogelxo",
+   "cond": "\nHormone replacement therapy (HRT); Hypogonadism; Low – testosterone (Low T); Testosterone replacement",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntriamcinolone (topical)\n\nBrand Name:\nOralone; Triderm; Aristocort A [INTL]; Kenacort [INTL]",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nartificial tears; carboxymethylcellulose; propylene glycol; tetrahydrozoline (ophthalmic)\n\nBrand Name:\nLubriTears; Refresh; Rohto; Systane; Visine AC [OTC]",
+   "cond": "\nEye redness",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nasfotase alfa\n\nBrand Name:\nStrensiq",
+   "cond": "\nHYPOphosphatasia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- 4 hours\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- Same as subsequent dose wait time\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\natorvastatin\n\nBrand Name:\nLipitor; Litorva [INTL]; Sortis [INTL]",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nazelaic acid (topical)\n\nBrand Name:\nAzelex; Finacea",
+   "cond": "\nAcne",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nazelastine (nasal)\n\nBrand Name:\nAstepro",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions or as prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nazelastine (ophthalmic)\n\nBrand Name:\nOptivar [DSC]",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nazelastine + fluticasone (nasal)\n\nBrand Name:\nDymista",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\ndiclofenac + misoprostol\n\nBrand Name:\nArthrotec",
+   "cond": "\nArthritis; Pain management",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndutasteride\n\nBrand Name:\nAvodart",
+   "cond": "\nAlopecia (Hair loss); Benign Prostatic Hypertrophy (BPH); Polycystic ovarian disease (PCOS) [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nezetimibe + atorvastatin\n\nBrand Name:\nAtozet [INTL]",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nnizatidine\n\nBrand Name:\nAxid",
+   "cond": "\nStomach Ulcers",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nsodium chloride preparations\n\nBrand Name:\nAyr; Muro; Nebusal",
+   "cond": "\nDry eye disease; Restores moisture",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT); OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nsodium hypochlorite\n\nBrand Name:\nAvenova",
+   "cond": "\nAntiseptic",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nazithromycin\n\nBrand Name:\nZithromax",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nbacillus calmette-guérin vaccine (percutaneous)\n\nBrand Name:\nBCG vaccine",
+   "cond": "\nTuberculosis (TB)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nbaloxavir marboxil\n\nBrand Name:\nXofluza",
+   "cond": "\nInfluenza; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nbalsalazide disodium\n\nBrand Name:\nColazal",
+   "cond": "\nUlcerative Colitis (UC)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nbazedoxifene + conjugated equine estrogen\n\nBrand Name:\nDuavee",
+   "cond": "\nMenopause; Osteoporosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nbeclomethasone (nasal)\n\nBrand Name:\nBeconase AQ; Qnasl",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nbempedoic acid\n\nBrand Name:\nNexletol; Nilemdo [INTL]",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nbempedoic acid + ezetimibe\n\nBrand Name:\nNexlizet",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nbepotastine (ophthalmic)\n\nBrand Name:\nBepreve",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ncerivastatin\n\nBrand Name:\nBaycol",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nclarithromycin\n\nBrand Name:\nBiaxin; Iset [INTL]",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ndiphenhydramine (topical)\n\nBrand Name:\nBanophen; Itch Relief",
+   "cond": "\nItching",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nestradiol + estriol (topical)\n\nBrand Name:\nBiest; Bi-est",
+   "cond": "\nHormone replacement therapy (HRT)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nprobenecid\n\nBrand Name:\nProbalan; Benemid [INTL]",
+   "cond": "\nGout",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntrimethoprim + sulfamethoxazole\n\nBrand Name:\nBactrim; Septra",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nAny combination of: multivitamin; cyanocobalamin (vitamin B12); folic acid (vitamin B9); biotin (vitamin B7); pyridoxine (vitamin B6); thiamine (vitamin B1); vitamin C; minerals; magnesium; calcium carbonate; calcium citrate\n\nBrand Name:\nComBgen; Os-Cal; Theragran-M; Nephro-Vite",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\nbismuth subcitrate + metronidazole + tetracycline\n\nBrand Name:\nPylera",
+   "cond": "\nH. pylori infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nbismuth subsalicylate\n\nBrand Name:\nKaopectate; Pepto-Bismol",
+   "cond": "\nDiarrhea; Indigestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nbromfenac (ophthalmic)\n\nBrand Name:\nBromSite; Prolensa",
+   "cond": "\nPain management; Postoperative surgery",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nbudesonide (nasal)\n\nBrand Name:\nRhinocort",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\ncalcipotriene + betamethasone\n\nBrand Name:\nEnstilar; Taclonex; Wynzora",
+   "cond": "\nPsoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncalcipotriol\n\nBrand Name:\nDovonex",
+   "cond": "\nPlaque psoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncalcitriol (topical)\n\nBrand Name:\nVectical",
+   "cond": "\nPlaque psoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY; VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\ndiclofenac (oral)\n\nBrand Name:\nCambia; Lofena; Zipsor; Zorvolex; Cataflam [INTL]",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nestradiol + progesterone\n\nBrand Name:\nBijuva",
+   "cond": "\nMenopause",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nfluocinolone (topical)\n\nBrand Name:\nCapex; Derma-Smoothe; Synalar",
+   "cond": "\nDermatitis (Allergic/Atopic); Plaque psoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nibandronate\n\nBrand Name:\nBoniva",
+   "cond": "\nOsteoporosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmesalamine (rectal enema)\n\nBrand Name:\nCanasa; Rowasa",
+   "cond": "\nUlcerative Colitis (UC); Ulcerative proctitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\ncapsaicin (topical)\n\nBrand Name:\nQutenza",
+   "cond": "\nPain management; Neuropathic pain; Postherpetic neuralgia (PHN)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncefTRIAXone\n\nBrand Name:\nRocephin",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncefaclor\n\nBrand Name:\nCeclor",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncefadroxil\n\nBrand Name:\nDuricef",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncefdinir\n\nBrand Name:\nOmnicef",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncefuroxime\n\nBrand Name:\nCeftin [INTL]",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncelecoxib\n\nBrand Name:\nCeleBREX",
+   "cond": "\nArthritis; Pain management",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncephalexin\n\nBrand Name:\nKeflex",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncetirizine (ophthalmic)\n\nBrand Name:\nZerviate",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ncetrorelix\n\nBrand Name:\nCetrotide",
+   "cond": "\nInfertility; In-vitro fertilization (IVF)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- 4 hours\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- Same as subsequent dose wait time\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nlevocarnitine\n\nBrand Name:\nCarnitor",
+   "cond": "\nWeight loss (Obesity)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nsucralfate\n\nBrand Name:\nCarafate",
+   "cond": "\nStomach ulcers",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nchikungunya vaccine\n\nBrand Name:\nVimkunya (recombinant) ; Ixchiq (live-attenuated) [DSC]",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nchlorhexidine gluconate (oral)\n\nBrand Name:\nPeridex; Periogard",
+   "cond": "\nGingivitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT); INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nchlorhexidine gluconate (topical)\n\nBrand Name:\nHibiclens",
+   "cond": "\nAntiseptic",
+   "freq": "\nPer label directions or as prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT); INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncholecalciferol\n\nBrand Name:\nVitamin D3",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions or as prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY; NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\ncholestyramine\n\nBrand Name:\nPrevalite; Questran",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nchondroitin + glucosamine sulfate\n\nBrand Name:\nOsteo Bi-Flex",
+   "cond": "\nOsteoarthritis; Supplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nciclesonide (nasal)\n\nBrand Name:\nOmnaris; Zetonna",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\ncidofovir (topical)\n\nBrand Name:\n(no brand)",
+   "cond": "\nPlanters wart",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ncimetidine\n\nBrand Name:\nTagamet",
+   "cond": "\nStomach ulcers",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nclascoterone (topical)\n\nBrand Name:\nWinlevi",
+   "cond": "\nAcne",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nclindamycin\n\nBrand Name:\nCleocin",
+   "cond": "\nAcne; Bacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ndesloratadine\n\nBrand Name:\nClarinex",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nfenofibrate; choline fenofibrate\n\nBrand Name:\nLipofen; Tricor [INTL]; Lipanthyl [INTL]",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia; Hypertriglyceridemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nloratadine\n\nBrand Name:\nClaritin",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nmethylcellulose\n\nBrand Name:\nCitrucel",
+   "cond": "\nConstipation",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\npolicosanol\n\nBrand Name:\nCholarest",
+   "cond": "\nAntiplatelet effects; Dyslipidemia",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nclocortolone (topical)\n\nBrand Name:\nCloderm",
+   "cond": "\nDermatitis (Allergic/Atopic); Eczema",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncoenzyme Q10\n\nBrand Name:\nCoQ10",
+   "cond": "\nAntioxidant",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\ncolchicine + probenecid\n\nBrand Name:\nColbenemid; Col-Probenecid",
+   "cond": "\nGout; Hyperuricemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncolestipol\n\nBrand Name:\nColestid",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia; Irritable bowel syndrome (IBS) [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\ncollagenase (topical)\n\nBrand Name:\nSantyl",
+   "cond": "\nWound healing; Ulcer",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncrisaborole\n\nBrand Name:\nEucrisa",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncromolyn (nasal)\n\nBrand Name:\nNasalCrom",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\ndocusate\n\nBrand Name:\nColace",
+   "cond": "\nConstipation",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nesterified estrogen + methyltestosterone\n\nBrand Name:\nCovaryx; EEMT; Estratest",
+   "cond": "\nHormone replacement therapy (HRT); Menopause",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nhydrocortisone (topical)\n\nBrand Name:\nCortenema",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\npancrelipase\n\nBrand Name:\nCreon; Pancreaze; Pancrelipase; Pertzye; Ultresa; Viokace; Zenpep",
+   "cond": "\nExocrine pancreatic insufficiency",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nrosuvastatin\n\nBrand Name:\nCrestor",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nsulindac\n\nBrand Name:\nClinoril",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ncycloSPORINE (ophthalmic)\n\nBrand Name:\nRestasis",
+   "cond": "\nDry eye disease; Keratoconjunctivitis sicca",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ndesonide (topical)\n\nBrand Name:\nDesonate",
+   "cond": "\nDermatitis (Allergic/Atopic); Eczema",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndiclofenac (ophthalmic)\n\nBrand Name:\n(no brand)",
+   "cond": "\nPain management; Postoperative surgery",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ndiclofenac (topical)\n\nBrand Name:\nVoltaren",
+   "cond": "\nPain management",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndiosmin [INTL] + hesperidin [INTL]\n\nBrand Name:\nDaflon [INTL]",
+   "cond": "\nHemorrhoids; Vein diseases",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nethinyl estradiol + ethynodiol diacetate\n\nBrand Name:\nDemulen",
+   "cond": "\nContraception",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\netidronate\n\nBrand Name:\nDidronel",
+   "cond": "\nPaget disease",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nguaiFENesin + phenylephrine\n\nBrand Name:\nDeconex IR",
+   "cond": "\nCongestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nmisoprostol\n\nBrand Name:\nCytotec",
+   "cond": "\nNSAID-induced gastric ulcers; Obstetrical condition",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI); REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\noxaprozin\n\nBrand Name:\nDaypro",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndiflunisal\n\nBrand Name:\nDolobid",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndoxycycline\n\nBrand Name:\nDoryx; Vibramycin [INTL]; Periostat [INTL]",
+   "cond": "\nBacterial infections; Malaria prophylaxis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ndrospirenone\n\nBrand Name:\nSlynd",
+   "cond": "\nContraception",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ndrospirenone + ethinyl estradiol\n\nBrand Name:\nYasmin; Yaz",
+   "cond": "\nContraception; Polycystic ovarian disease (PCOS) [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nfluconazole\n\nBrand Name:\nDiflucan",
+   "cond": "\nFungal infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nguaiFENesin\n\nBrand Name:\nMucinex; Duratuss [INTL]",
+   "cond": "\nCongestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nguaiFENesin + pseudoephedrine\n\nBrand Name:\nMucus-D; Duratuss GP [INTL]; Entex [INTL]",
+   "cond": "\nAllergic rhinitis; Congestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nolsalazine\n\nBrand Name:\nDipentum",
+   "cond": "\nUlcerative Colitis (UC)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\ndutasteride + tamsulosin\n\nBrand Name:\nJalyn",
+   "cond": "\nBenign Prostatic Hypertrophy (BPH)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nebastine[INTL]\n\nBrand Name:\nEbast [INTL]",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nelagolix + estradiol + norethindrone\n\nBrand Name:\nOriahnn",
+   "cond": "\nMenstrual bleeding",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nepinastine (ophthalmic)\n\nBrand Name:\nElestat [DSC]",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nerythromycin\n\nBrand Name:\nE.E.S. 400; EryPed 200; Erythrocin Stearate [INTL]",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nfluorouracil (topical)\n\nBrand Name:\nEfudex",
+   "cond": "\nActinic or solar keratosis; Basal cell carcinoma (BCC)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nhepatitis B (HepB) vaccine\n\nBrand Name:\nEngerix-B; Recombivax HB",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nmebendazole\n\nBrand Name:\nEmverm; Vermox [INTL]",
+   "cond": "\nIntestinal nematode infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\npimecrolimus\n\nBrand Name:\nElidel",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\npseudoephedrine\n\nBrand Name:\nEfidac; Sudafed",
+   "cond": "\nCongestion",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nserum derived bovine immunoglobulin/protein isolate\n\nBrand Name:\nEnteraGam",
+   "cond": "\nIrritable bowel syndrome (IBS)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\ntyloxapol (inhalation) [INTL]\n\nBrand Name:\nEnuclene [INTL]",
+   "cond": "\nExpectorant",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nergocalciferol\n\nBrand Name:\nVitamin D2",
+   "cond": "\nSupplement",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY; NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\nesterified estrogen\n\nBrand Name:\nMenest [DSC]",
+   "cond": "\nMenopause",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nestropipate\n\nBrand Name:\nOgen",
+   "cond": "\nHypoestrogenism; Vasomotor symptoms",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nethyl alcohol (intranasal swab)\n\nBrand Name:\nNozin",
+   "cond": "\nAntiseptic",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\netodolac\n\nBrand Name:\nLodine; Todolac [INTL]",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\netonogestrel (implant)\n\nBrand Name:\nNexplanon",
+   "cond": "\nContraception",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nexcipient (pharmacologically inactive substance)\n\nBrand Name:\nTaurine",
+   "cond": "\nAntioxidant; Stabilize cell membranes",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI); NEUROLOGY & PSYCHIATRY (CNS); MISCELLANEOUS THERAPEUTIC AGENTS"
+  },
+  {
+   "drugs": "\nGeneric:\nezetimibe\n\nBrand Name:\nZetia; Ezetrol [INTL]",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nezetimibe + simvastatin\n\nBrand Name:\nVytorin; Inegy [INTL]",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nfamciclovir\n\nBrand Name:\nFamvir",
+   "cond": "\nHerpes; Herpes zoster; Varicella; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nfamotidine\n\nBrand Name:\nPepcid",
+   "cond": "\nStomach ulcers",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nfenoprofen\n\nBrand Name:\nNalfon",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nferrous gluconate\n\nBrand Name:\nFergon",
+   "cond": "\nAnemia",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nferrous sulfate\n\nBrand Name:\nFeosol",
+   "cond": "\nAnemia",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY; VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\nperfluorohexyloctane (ophthalmic)\n\nBrand Name:\nMiebo; EvoTears [INTL]; NovaTears [INTL]",
+   "cond": "\nDry eye disease",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\npiroxicam\n\nBrand Name:\nFeldene",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nraloxifene\n\nBrand Name:\nEvista",
+   "cond": "\nOsteoporosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntazarotene (topical)\n\nBrand Name:\nFabior; Tazorac",
+   "cond": "\nAcne; Wrinkles",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nfezolinetant\n\nBrand Name:\nVeozah",
+   "cond": "\nVasomotor symptoms",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nfinasteride\n\nBrand Name:\nProscar; Propecia",
+   "cond": "\nAlopecia (Hair loss); Benign Prostatic Hypertrophy (BPH); Polycystic ovarian disease (PCOS) [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nflavocoxid\n\nBrand Name:\nLimbrel",
+   "cond": "\nInflammatory conditions; Osteoarthritis; Supplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nflunisolide (nasal)\n\nBrand Name:\nNasalide [INTL]",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nflurbiprofen (ophthalmic)\n\nBrand Name:\nOcufen [DSC]",
+   "cond": "\nIntraoperative miosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nfluticasone (nasal)\n\nBrand Name:\nFlonase; Veramyst; Xhance",
+   "cond": "\nAllergic rhinitis; Nasal polyps",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nmetroNIDAZOLE\n\nBrand Name:\nFlagyl",
+   "cond": "\nBacterial infections; Parasitic infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nofloxacin\n\nBrand Name:\nFloxin",
+   "cond": "\nBacterial infections; Conjunctivitis; Otitis media",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT); INFECTIOUS DISEASE (ID); OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nrimantadine\n\nBrand Name:\nFlumadine",
+   "cond": "\nInfluenza; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ntamsulosin\n\nBrand Name:\nFlomax",
+   "cond": "\nBenign Prostatic Hypertrophy (BPH)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nvancomycin (oral)\n\nBrand Name:\nFirvanq; Vancocin",
+   "cond": "\nClostridioides difficile infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nHuman papillomavirus 9-valent vaccine (9vHPV)\n\nBrand Name:\nGardasil 9",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nfluvastatin\n\nBrand Name:\nLescol",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nfollitropin alfa (recombinant human follicle stimulating hormone)\n\nBrand Name:\nGonal-F",
+   "cond": "\nInfertility; In-vitro fertilization (IVF); Spermatogenesis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nfollitropin beta\n\nBrand Name:\nFollistim AQ",
+   "cond": "\nInfertility; In-vitro fertilization (IVF); Spermatogenesis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ngatifloxacin (ophthalmic)\n\nBrand Name:\nLitfulo",
+   "cond": "\nAlopecia (Hair loss)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 2 weeks\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ngatifloxacin (ophthalmic)\n\nBrand Name:\nZymaxid; Tequin [INTL]",
+   "cond": "\nConjunctivitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ngemfibrozil\n\nBrand Name:\nLopid",
+   "cond": "\nHyperlipidemia; Hypertriglyceridemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nmenotropins; FSH+LH\n\nBrand Name:\nMenopur",
+   "cond": "\nInfertility; In-vitro fertilization (IVF); Spermatogenesis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nminoxidil (topical)\n\nBrand Name:\nGainextra; Rogaine",
+   "cond": "\nAlopecia (Hair loss)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nnitrofurantoin\n\nBrand Name:\nMacrobid; Macrodantin; Furadantin [INTL]",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nsimethicone\n\nBrand Name:\nGas-X; Phazyme",
+   "cond": "\nGastrointestinal conditions",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nsulfamethoxazole\n\nBrand Name:\nGantanol",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nvibegron\n\nBrand Name:\nGemtesa",
+   "cond": "\nOveractive Bladder (OAB)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 2 weeks\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nglucosamine sulfate\n\nBrand Name:\nOptiFlex-G",
+   "cond": "\nOsteoarthritis; Supplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY; MISCELLANEOUS THERAPEUTIC AGENTS"
+  },
+  {
+   "drugs": "\nGeneric:\nglycopyrrolate (topical)\n\nBrand Name:\nQbrexza",
+   "cond": "\nHyperhidrosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nhepatitis A vaccine; HepA\n\nBrand Name:\nHavrix; Vaqta",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nhexylresorcinol\n\nBrand Name:\n(no brand)",
+   "cond": "\nAnesthesia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\nhuman chorionic gonadotropin (HCG) (recombinant)\n\nBrand Name:\nOvidrel",
+   "cond": "\nInfertility; In-vitro fertilization (IVF)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmandelamine\n\nBrand Name:\nHiprex",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nnicotine (oral)\n\nBrand Name:\nNicoderm CQ Patch; Habitrol [INTL]",
+   "cond": "\nSmoking cessation",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf",
+   "link2": "%null%",
+   "body": "NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\nJapanese ecephalitis vaccine\n\nBrand Name:\nIxiaro",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nicosapent ethyl (E-EPA)\n\nBrand Name:\nVascepa",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\ninclisiran\n\nBrand Name:\nLeqvio",
+   "cond": "\nHypercholesterolemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- 4 hours\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- Same as subsequent dose wait time\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nindomethacin\n\nBrand Name:\nIndocin",
+   "cond": "\nGout; Osteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nipratropium (nasal)\n\nBrand Name:\nIpravent [INTL]",
+   "cond": "\nAllergic rhinitis; Cold symptoms",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\niron polysaccharide\n\nBrand Name:\nNiferex",
+   "cond": "\nAnemia; Supplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY; VITAMINS"
+  },
+  {
+   "drugs": "\nGeneric:\nivermectin (topical)\n\nBrand Name:\nSklice [OTC]; Soolantra",
+   "cond": "\nLice; Rosacea",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\npoliovirus vaccine\n\nBrand Name:\nIpol",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nketoconazole\n\nBrand Name:\nNizoral",
+   "cond": "\nFungal infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nketoprofen\n\nBrand Name:\nOrudis [INTL]; Oruvail [INTL]",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nlapase\n\nBrand Name:\n(no brand)",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\npotassium chloride\n\nBrand Name:\nKlor-Con",
+   "cond": "\nSupplement",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nterbinafine\n\nBrand Name:\nLamISIL [INTL]",
+   "cond": "\nFungal infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- None (if topical formulation); or \n\n- 48 hours (if oral formulation)\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ntirbanibulin (topical)\n\nBrand Name:\nKlisyri",
+   "cond": "\nActinic or solar keratosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nlevonorgestrel IUD\n\nBrand Name:\nMirena",
+   "cond": "\nContraception; Polycystic ovarian disease (PCOS) [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nlidocaine (topical)\n\nBrand Name:\nLidoderm",
+   "cond": "\nPostherpetic neuralgia (PHN)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nlifitegrast (ophthalmic)\n\nBrand Name:\nXiidra",
+   "cond": "\nDry eye disease",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or headache.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\npitavastatin\n\nBrand Name:\nLivalo",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nlotilaner (ophthalmic)\n\nBrand Name:\nXdemvy",
+   "cond": "\nParasitic infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID); OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nmagnesium hydroxide\n\nBrand Name:\nMilk of Magnesia",
+   "cond": "\nAntacid",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nmagnesium oxide\n\nBrand Name:\nMag-200; Mag-Ox; Maox",
+   "cond": "\nAntacid",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nmeasles + mumps + rubella vaccines (MMR)\n\nBrand Name:\nM-M-R II; Priorix",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nomega-3-acid ethyl esters\n\nBrand Name:\nLovaza; Omacor [INTL]",
+   "cond": "\nHyperlipidemia; Hypertriglyceridemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nmeasles + mumps + rubella + varicella virus vaccine (MMRV)\n\nBrand Name:\nProQuad",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nmechlorethamine (topical)\n\nBrand Name:\nValchlor",
+   "cond": "\nCutaneous T-cell Lymphoma",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "HEMATOLOGY & ONCOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmeclofenamate\n\nBrand Name:\nMeclomen [INTL]",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmefenamic acid\n\nBrand Name:\nPonstel",
+   "cond": "\nDysmenorrhea; Pain management",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\nmeloxicam\n\nBrand Name:\nMobic",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmeningococcal vaccine\n\nBrand Name:\nMenactra; MenQuadfi; Menveo",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nmethoxsalen\n\nBrand Name:\nUvadex; Oxsoralen [INTL]",
+   "cond": "\nVitiligo",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nmetronidazole (topical)\n\nBrand Name:\nMetrocream; Metrogel",
+   "cond": "\nRosacea",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nminocycline\n\nBrand Name:\nMinocin",
+   "cond": "\nAcne; Bacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nmirabegron\n\nBrand Name:\nMyrbetriq",
+   "cond": "\nOveractive Bladder (OAB)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 2 weeks\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\nmometasone furoate (nasal)\n\nBrand Name:\nNasonex",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\npolyethylene glycol 3350\n\nBrand Name:\nMiraLax",
+   "cond": "\nConstipation",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nnabumetone\n\nBrand Name:\nRelafen",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nnaphazoline + pheniramine (ophthalmic)\n\nBrand Name:\nNaphcon-A; Opcon-A; Visine",
+   "cond": "\nItching; Eye redness",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nnaproxen + esomeprazole\n\nBrand Name:\nVimovo",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nnystatin + triamcinolone (topical)\n\nBrand Name:\nMyco-Triacet II",
+   "cond": "\nCutaneous candidiasis; Nosebleeds (Epistaxis) [OL]",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nrelugolix + estradiol + norethindrone\n\nBrand Name:\nMyfembree",
+   "cond": "\nMenstrual bleeding",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY; REPRODUCTIVE"
+  },
+  {
+   "drugs": "\nGeneric:\ntriamcinolone (nasal)\n\nBrand Name:\nNasacort",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nnepafenac (ophthalmic)\n\nBrand Name:\nNevanac",
+   "cond": "\nPain management; Postoperative surgery",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nniacin\n\nBrand Name:\nNiacor; Niaspan [INTL]",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia; Supplement",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nnicotinamide\n\nBrand Name:\nNicomide",
+   "cond": "\nSupplement; Inflammatory conditions [OL]; Skin conditions [OL]; Pellagra [OL]",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nnicotine (nasal)\n\nBrand Name:\nNicotrol NS",
+   "cond": "\nSmoking cessation",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf",
+   "link2": "%null%",
+   "body": "NEUROLOGY & PSYCHIATRY (CNS)"
+  },
+  {
+   "drugs": "\nGeneric:\nolopatadine (nasal)\n\nBrand Name:\nPatanase",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nolopatadine (ophthalmic)\n\nBrand Name:\nPataday; Patanol [INTL]",
+   "cond": "\nAllergic conjunctivitis",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- Do not fly or perform SRD while experiencing blurry vision or pain.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nolopatadine + mometasone (nasal)\n\nBrand Name:\nRyaltris",
+   "cond": "\nAllergic rhinitis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\nomeprazole + amoxicillin + rifabutin\n\nBrand Name:\nTalicia",
+   "cond": "\nH. pylori infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nomeprazole + sodium bicarbonate\n\nBrand Name:\nZegerid",
+   "cond": "\nGastroesophageal reflux disease (GERD)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nposaconazole\n\nBrand Name:\nNoxafil",
+   "cond": "\nFungal infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\noseltamivir\n\nBrand Name:\nTamiflu",
+   "cond": "\nInfluenza; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nospemifene\n\nBrand Name:\nOsphena",
+   "cond": "\nDyspareunia; Vaginal dryness",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\noxymetazoline (ophthalmic)\n\nBrand Name:\nUpneeq; Visine [OTC]",
+   "cond": "\nBlepharoptosis; Eye redness",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\noxytocin (nasal)\n\nBrand Name:\nPitocin",
+   "cond": "\nLabor; Sexual enhancement [OL]",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nruxolitinib (topical)\n\nBrand Name:\nOpzelura",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\npenicillin\n\nBrand Name:\nPen-VK [INTL]",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nphenazopyridine\n\nBrand Name:\nPyridium",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\npilocarpine (oral)\n\nBrand Name:\nSalagen",
+   "cond": "\nXerostomia (dry mouth); Sjogren's syndrome",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENT AGENTS (EAR, NOSE AND THROAT)"
+  },
+  {
+   "drugs": "\nGeneric:\npneumonia vaccine\n\nBrand Name:\nPrevnar 13; Pneumovax 23",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\npotassium citrate\n\nBrand Name:\nUrocit-K",
+   "cond": "\nUrinary alkalinizer",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV); ENDOCRINOLOGY; GENITOURINARY (GU)"
+  },
+  {
+   "drugs": "\nGeneric:\npravastatin\n\nBrand Name:\nPravachol",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\npyrantel pamoate\n\nBrand Name:\nPin-Away; Reeses Pinworm Medicine",
+   "cond": "\nIntestinal nematode infection",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nprogesterone\n\nBrand Name:\nPrometruim",
+   "cond": "\nAmenorrhea; Infertility; In-vitro fertilization (IVF)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "ENDOCRINOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nprotease\n\nBrand Name:\n(no brand)",
+   "cond": "\nSupplement",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\ntacrolimus (topical)\n\nBrand Name:\nProtopic",
+   "cond": "\nDermatitis (Allergic/Atopic)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntrimethoprim\n\nBrand Name:\nPrimsol",
+   "cond": "\nUrinary tract infections (UTI)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nraNITIdine\n\nBrand Name:\nZantac",
+   "cond": "\nStomach ulcers",
+   "freq": "\nPer label directions",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  },
+  {
+   "drugs": "\nGeneric:\nremibrutinib\n\nBrand Name:\nRhapsido",
+   "cond": "\nUrticaria",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 2 weeks\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nribavirin (inhalation)\n\nBrand Name:\nVirazole",
+   "cond": "\nRespiratory syncytial virus",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ntretinoin (topical)\n\nBrand Name:\nRetin-A (topical)",
+   "cond": "\nAcne; Wrinkles",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nzanamivir\n\nBrand Name:\nRelenza",
+   "cond": "\nInfluenza; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 48 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nroflumilast (topical)\n\nBrand Name:\nZoryve",
+   "cond": "\nPsoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nsacrosidase\n\nBrand Name:\nSucraid",
+   "cond": "\nCongenital sucrase-isomaltase deficiency (CSID)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 7 days\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MISCELLANEOUS THERAPEUTIC AGENTS"
+  },
+  {
+   "drugs": "\nGeneric:\nsalicylsalicylic acid\n\nBrand Name:\nSalsalate",
+   "cond": "\nArthritis; Pain management",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nsarecycline\n\nBrand Name:\nSeysara",
+   "cond": "\nAcne",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nsimvastatin\n\nBrand Name:\nZocor",
+   "cond": "\nHypercholesterolemia; Hyperlipidemia",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "CARDIOLOGY (CV)"
+  },
+  {
+   "drugs": "\nGeneric:\nsofpironium (topical)\n\nBrand Name:\nSofdra",
+   "cond": "\nHyperhidrosis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\nyellow fever vaccine\n\nBrand Name:\nStamaril; YF-VAX",
+   "cond": "\nImmunization",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\ntapinarof (topical)\n\nBrand Name:\nVtama",
+   "cond": "\nPsoriasis",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "DERMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntinidazole\n\nBrand Name:\nTindamax",
+   "cond": "\nBacterial infections; Parasitic infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\ntobramycin (ophthalmic)\n\nBrand Name:\nTobrex",
+   "cond": "\nBacterial infections",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID); OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\ntolmetin\n\nBrand Name:\nTolectin",
+   "cond": "\nOsteoarthritis; Pain management; Rheumatoid arthritis (RA)",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "MUSCULOSKELETAL & RHEUMATOLOGY"
+  },
+  {
+   "drugs": "\nGeneric:\ntyphoid vaccine (injection, oral)\n\nBrand Name:\nTyphim Vi; Vivotif",
+   "cond": "\nImmunization; Typhoid prevention",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial/Subsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "https://www.faa.gov/ame_guide/media/Vaccines.pdf",
+   "link2": "%null%",
+   "body": "VACCINES"
+  },
+  {
+   "drugs": "\nGeneric:\nvalacyclovir\n\nBrand Name:\nValtrex",
+   "cond": "\nHerpes; Viral infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "INFECTIOUS DISEASE (ID)"
+  },
+  {
+   "drugs": "\nGeneric:\nvarenicline (nasal)\n\nBrand Name:\nTyrvaya",
+   "cond": "\nDry eye disease",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "OPHTHALMOLOGY (EYES)"
+  },
+  {
+   "drugs": "\nGeneric:\nvonoprazan\n\nBrand Name:\nVoquezna",
+   "cond": "\nGastroesophageal reflux disease (GERD); H. pylori infection",
+   "freq": "\nAs prescribed",
+   "wait": "\nInitial:\n- 24 hours\n················\nSubsequent:\n- None\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDiscontinuation:\n- None\n\n",
+   "use": "🟢",
+   "link": "%null%",
+   "link2": "%null%",
+   "body": "GASTROINTESTINAL (GI)"
+  }
+ ]
+}
