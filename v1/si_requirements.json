@@ -29,11 +29,17 @@
     "envelope": {
       "code": "si-htn-med-list",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-10-05T21:59:29Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, AASI Hypertension",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/hypertension"
     },
-    "requirementText": "The FAA does not list a standalone medication list at reissue. It is one line inside your treating physician's status report: \"The name and dosage of medication(s) and presence or absence of any side effects.\" Which medications are acceptable is published separately on the FAA's Antihypertensive page (faa.gov/ame_guide/pharm/antihyp), which the hypertension AASI page links to for exactly this question. That page lists alpha adrenergic blockers, beta-adrenergic blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors and direct vasodilators as acceptable \"when certification criteria are met,\" and names clonidine, guanabenz, guanfacine, methyldopa, reserpine and nitrates, which the FAA illustrates with nitroglycerin, isosorbide dinitrate and isosorbide mononitrate, as unacceptable \"as a single agent or in any combination product.\" The same page states: \"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\" Your Examiner must defer to the FAA if you are taking a medication that is not acceptable."
+    "requirementText": "The FAA does not list a standalone medication list at reissue. It is one line inside your treating physician's status report: \"The name and dosage of medication(s) and presence or absence of any side effects.\" Which medications are acceptable is published separately on the FAA's Antihypertensive page (faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf, updated 09/30/2026). It replaced the older faa.gov/ame_guide/pharm/antihyp page, which no longer loads. That page lists alpha adrenergic blockers, beta-adrenergic blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors, direct vasodilators and endothelin receptor antagonists as acceptable \"when certification criteria are met,\" and names clonidine, guanabenz, guanfacine, methyldopa and nitrates, which the FAA illustrates with nitroglycerin, isosorbide dinitrate and isosorbide mononitrate, as unacceptable \"as a single agent or in any combination product.\" The same page states: \"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\" It adds: \"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\". Your Examiner must defer to the FAA if you are taking a medication that is not acceptable.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Antihypertensive (HTN, blood pressure medication) (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      }
+    ]
   },
   {
     "cadenceRaw": "annual",

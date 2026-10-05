@@ -884,13 +884,13 @@
       "Catapres"
     ],
     "category": "Central alpha-agonist (hypertension)",
-    "faaStatusDescription": "The FAA lists clonidine (Catapres) as DO NOT ISSUE, under UNACCEPTABLE HTN Medications, as a single agent or in any combination product. That is what the FAA publishes, not a determination about you. Worth raising with the physician who prescribed it and with your AME, well before your exam.",
+    "faaStatusDescription": "The FAA lists \"Clonidine (ex. Catapres/Clorpres)\" as DO NOT ISSUE, under UNACCEPTABLE HTN Medications, as a single agent or in any combination product. That is what the FAA publishes, not a determination about you. Worth raising with the physician who prescribed it and with your AME, well before your exam.",
     "envelope": {
       "code": "med-clonidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals - Antihypertensive (UNACCEPTABLE HTN Medications / DO NOT ISSUE), with the CACI Hypertension Worksheet",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/antihyp"
+      "lastVerified": "2026-10-05T21:59:29Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antihypertensive (HTN, blood pressure medication) (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
     },
     "informationalOnly": false,
     "faaStatus": "notAcceptable",
