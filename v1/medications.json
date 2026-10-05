@@ -2824,17 +2824,23 @@
       "Nicorette"
     ],
     "category": "Nicotine replacement",
-    "faaStatusDescription": "What the FAA requires depends on the form. The FAA lists gum, lozenge and patch as acceptable with no ground trial and no wait after a dose. Nasal spray has a one-time 48 hour ground trial when starting, not a wait after each dose. No other form is named.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Patch: wait 24 hours in the FAA MedGuide. Gum, lozenge: no wait listed.\n\nPatch and nasal spray, in the FAA MedGuide (version 1.0, updated October 1, 2026):\n\nBrands: Nicoderm CQ Patch, Habitrol [INTL]\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nBrands: Nicotrol NS\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Smoking Cessation Medications page lists \"nicotine (gum, lozenge, patch)\" among \"acceptable smoking cessation medications (as a single agent or in any combination product)\", with no initial observation and no post-dose observation. For the patch, that differs from MedGuide's 24 hours.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nicotine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026), ACCEPTABLE Smoking Cessation Medications table",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
+      "lastVerified": "2026-10-05T18:53:20Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "informationalOnly": false,
-    "faaStatus": "conditional",
-    "isCACI": false
+    "faaStatus": "acceptable",
+    "isCACI": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026), ACCEPTABLE Smoking Cessation Medications table",
+        "url": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "nifedipine",
