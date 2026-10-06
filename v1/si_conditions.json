@@ -200,19 +200,17 @@
     "envelope": {
       "code": "si-dm-insulin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
+      "lastVerified": "2026-08-07T18:01:42Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Insulin-treated diabetes",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm"
     },
     "displayName": "Insulin-treated diabetes",
-    "summary": "Track your insulin-treated diabetes Special Issuance: your Authorization dates, your glucose records, lab work, eye and heart evaluations, specialist reporting, and a link to the FAA's own page.",
+    "summary": "Track your insulin-treated diabetes Special Issuance: your Authorization dates, your glucose records, lab work and specialist reporting, and a link to the FAA's own page.",
     "pathGuidance": "",
     "requirementCodes": [
       "si-dm-insulin-glucose-data",
       "si-dm-insulin-a1c",
       "si-dm-insulin-specialist-eval",
-      "si-dm-insulin-eye-eval",
-      "si-dm-insulin-cardiac-risk",
       "si-dm-insulin-no-hypoglycemia"
     ]
   },

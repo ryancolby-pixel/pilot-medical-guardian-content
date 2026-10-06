@@ -451,6 +451,24 @@
     "treatedConditionNote": "Glaucoma / ocular hypertension"
   },
   {
+    "genericName": "bromocriptine",
+    "brandNames": [
+      "Cycloset",
+      "Parlodel"
+    ],
+    "category": "Dopamine agonist",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"bromocriptine (Cycloset, Parlodel)\"\nUnder: dopamine agonists\nThe FAA's note: \"Used for Parkinson's disease or other medical conditions\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bromocriptine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
     "genericName": "brompheniramine",
     "brandNames": [
       "Dimetapp"
@@ -545,6 +563,189 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
     "faaStatus": "notAcceptable"
+  },
+  {
+    "genericName": "guanabenz",
+    "brandNames": [],
+    "category": "Centrally acting blood pressure medication",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"guanabenz, methyldopa\"\nUnder: centrally acting blood pressure medications\nThe FAA's note: \"Including but not limited to\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-guanabenz",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "isosorbide dinitrate",
+    "brandNames": [],
+    "category": "Nitrate (angina)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"nitrates (nitroglycerin, isosorbide dinitrate [Imdur])\"\nUnder: angina medications\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-isosorbide-dinitrate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "mefloquine",
+    "brandNames": [
+      "Lariam"
+    ],
+    "category": "Antimalarial",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"mefloquine (Lariam)\"\nUnder: malaria medication\nThe FAA adds: \"Most other malaria medications are allowed.\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-mefloquine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "oxybutynin",
+    "brandNames": [
+      "Ditropan"
+    ],
+    "category": "Anticholinergic (overactive bladder)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"oxybutynin (Ditropan)\"\nUnder: oral anticholinergics\nThe FAA's note: \"Over-active bladder (OAB) medications with tertiary structure that carry strong warnings about the potential for sedation and impaired cognition\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-oxybutynin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "pramipexole",
+    "brandNames": [
+      "Mirapex"
+    ],
+    "category": "Dopamine agonist",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"pramipexole (Mirapex)\"\nUnder: dopamine agonists\nThe FAA's note: \"Used for Parkinson's disease or other medical conditions\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-pramipexole",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "pramlintide",
+    "brandNames": [
+      "Symlin"
+    ],
+    "category": "Amylin analog (diabetes)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"pramlintide (Symlin)\"\nUnder: diabetic medication\nThe FAA adds: \"Most diabetes medications are allowed.\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-pramlintide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "ranolazine",
+    "brandNames": [
+      "Ranexa"
+    ],
+    "category": "Antianginal",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"ranolazine (Ranexa)\"\nUnder: angina medications\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ranolazine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "ropinirole",
+    "brandNames": [
+      "Requip"
+    ],
+    "category": "Dopamine agonist",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"ropinirole (Requip)\"\nUnder: dopamine agonists\nThe FAA's note: \"Used for Parkinson's disease or other medical conditions\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ropinirole",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "rotigotine",
+    "brandNames": [
+      "Neupro"
+    ],
+    "category": "Dopamine agonist",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"rotigotine (NeuPro)\"\nUnder: dopamine agonists\nThe FAA's note: \"Used for Parkinson's disease or other medical conditions\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rotigotine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "solifenacin",
+    "brandNames": [
+      "Vesicare"
+    ],
+    "category": "Anticholinergic (overactive bladder)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"solifenacin (Vesicare)\"\nUnder: oral anticholinergics\nThe FAA's note: \"Over-active bladder (OAB) medications with tertiary structure that carry strong warnings about the potential for sedation and impaired cognition\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-solifenacin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "tolterodine",
+    "brandNames": [
+      "Detrol"
+    ],
+    "category": "Anticholinergic (overactive bladder)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"tolterodine (Detrol)\"\nUnder: oral anticholinergics\nThe FAA's note: \"Over-active bladder (OAB) medications with tertiary structure that carry strong warnings about the potential for sedation and impaired cognition\"\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tolterodine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T01:48:19Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
   },
   {
     "genericName": "bupropion SR (for smoking cessation)",

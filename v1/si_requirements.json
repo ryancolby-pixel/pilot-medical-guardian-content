@@ -99,7 +99,13 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
-    "requirementText": "The FAA's status report asks your provider to \"List ALL current medications (for any condition)\", not only your diabetes medications, and to give the \"Date of most recent DIABETES MEDICATION change\". That date does more than fill a blank. It sets when your A1C can be drawn, and it starts a waiting period. The FAA's chart of Acceptable Combinations of Diabetes Medications publishes \"Observation times\" that run from a medication change, and the length depends on which group the drug falls in and on whether you are starting new therapy, adding to an established regimen, or switching dose or formulation within the same drug class. For the non-insulin medications this pathway covers, the published times run from 48 hours to 60 days, so look up your own situation on the chart rather than assuming. The same chart says to \"Only ONE Medication allowed from each group (A–G)\", counts each component of a fixed dose combination as an individual medication, and states that \"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\". The rewritten chart also states \"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\" and, for anything it does not list, \"Unlisted Medications: Consult AMCD or RFS.\" The protocol adds that \"The individual should not perform pilot or safety-related duties until required recovery periods have elapsed and the treating physician has consulted with the AME who issued the certificate, AMCD, or RFS and has determined that the condition is\" under control, stable, and presents no risk to aviation safety. Reissue under your Authorization depends on remaining \"on an acceptable oral medication therapy according to the chart\". If you have started insulin this pathway no longer applies, and the FAA's form says so at the top: \"If you take any type of insulin. STOP. Do not use this page.\""
+    "requirementText": "The FAA's status report asks your provider to \"List ALL current medications (for any condition)\", not only your diabetes medications, and to give the \"Date of most recent DIABETES MEDICATION change\". That date does more than fill a blank. It sets when your A1C can be drawn, and it starts a waiting period. The FAA's chart of Acceptable Combinations of Diabetes Medications publishes \"Observation times\" that run from a medication change, and the length depends on which group the drug falls in and on whether you are starting new therapy, adding to an established regimen, or switching dose or formulation within the same drug class. For the non-insulin medications this pathway covers, the published times run from 48 hours to 60 days, so look up your own situation on the chart rather than assuming. The same chart says to \"Only ONE Medication allowed from each group (A–G)\", counts each component of a fixed dose combination as an individual medication, and states that \"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\". The rewritten chart also states \"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\" and, for anything it does not list, \"Unlisted Medications: Consult AMCD or RFS.\" The protocol adds that \"The individual should not perform pilot or safety-related duties until required recovery periods have elapsed and the treating physician has consulted with the AME who issued the certificate, AMCD, or RFS and has determined that the condition is\" under control, stable, and presents no risk to aviation safety. Reissue under your Authorization depends on remaining \"on an acceptable oral medication therapy according to the chart\". If you have started insulin this pathway no longer applies, and the FAA's form says so at the top: \"If you take any type of insulin. STOP. Do not use this page.\"",
+    "links": [
+      {
+        "title": "FAA Diabetes Mellitus or Hyperglycemia on Medication Status Report",
+        "url": "https://www.faa.gov/ame_guide/media/diabetes_or_hyperglycemia_on_meds_report.pdf"
+      }
+    ]
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -455,11 +461,11 @@
     "envelope": {
       "code": "si-dm-insulin-a1c",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Certification Aid",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf"
     },
-    "requirementText": "Every 12 months the FAA's CGM renewal sheet requires \"ITEM #2 - Lab - Annual comprehensive panel.\" The FAA's Certification Aid sets what that panel contains, drawn \"within the past 90 days\": A1c from the last 90 days plus \"all prior values from the preceding 12 months\"; CBC; lipids (total, LDL, HDL, cholesterol, and triglycerides); liver function tests; microalbumin or a spot urinary albumin-to-creatinine ratio; renal function (serum creatinine, BUN, eGFR); TSH; vitamin B12 when clinically indicated; and serum potassium when clinically indicated or when you take an ACE inhibitor, an ARB, or a diuretic. If you are third class on the non-CGM option instead, the FAA's Diabetes on Insulin Re-Certification Status Report has a table for four quarterly A1c values with dates, and states that 'A1c's must be done > 30 days after meds change and < 90 days of recertification.'"
+    "requirementText": "Every 12 months the FAA's CGM renewal sheet requires 'ITEM #2 - Lab - Annual comprehensive panel.' The FAA's Certification Aid sets what that panel contains, drawn 'within the past 90 days': A1c from the last 90 days plus 'all prior values from the preceding 12 months'; CBC; lipids (total, LDL, HDL, cholesterol, and triglycerides); liver function tests; microalbumin or a spot urinary albumin-to-creatinine ratio; renal function (serum creatinine, BUN, eGFR); TSH; vitamin B12 when clinically indicated; and serum potassium when clinically indicated or when you take an ACE inhibitor, an ARB, or a diuretic. If you are third class on the non-CGM option instead, the FAA's Diabetes on Insulin Re-Certification Status Report has a table for four quarterly A1c values with dates, and states that 'A1c's must be done > 30 days after meds change and < 90 days of recertification.'"
   },
   {
     "cadenceRaw": "quarterly",
@@ -467,51 +473,11 @@
     "envelope": {
       "code": "si-dm-insulin-specialist-eval",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ITDM CGM Renewal Certificate Requirements",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf"
     },
-    "requirementText": "The FAA's CGM renewal sheet requires \"Every 3 months, a comprehensive endocrinology clinical examination,\" and adds that \"Every 6-month visit must be in-person and performed by your endocrinologist.\" The visits in between may be in person or virtual at the endocrinologist's discretion, and may be done by a physician assistant or nurse practitioner associated with your endocrinologist. What you submit is the actual record, not a summary. The FAA states: \"A letter from your endocrinologist is NOT sufficient and cannot substitute for a current detailed Clinical Progress Note.\" The note should cover the history of the condition, current medications with dosages and any side effects, clinical exam findings, a \"comprehensive foot exam (e.g., visual inspection, sensation, 10-g monofilament exam, etc.)\", results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. If additional visits occur, send those clinic records to the FAA as well. On the non-CGM third-class option the treating physician evaluates you at 3-month intervals with a general physical examination, a review of the interval medical history and a glycosylated hemoglobin test, and \"the results of these quarterly evaluations must be accumulated and submitted annually unless there has been a change.\""
-  },
-  {
-    "cadenceRaw": "annual",
-    "documentTypeNeededRaw": "testResult",
-    "envelope": {
-      "code": "si-dm-insulin-eye-eval",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus Type I or Type II Insulin Treated, CGM Option, E. CGM Renewal Certificate Requirements (updated 09/30/2026), ITEM #4",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf"
-    },
-    "links": [
-      {
-        "title": "FAA ITDM CGM Certification Aid (updated 09/30/2026), ITEM #4: Eye Evaluation",
-        "url": "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf"
-      },
-      {
-        "title": "FAA Disease Protocols: Diabetes Mellitus, Insulin Treated, Third Class, Re-Certification",
-        "url": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin_subsequent"
-      }
-    ],
-    "requirementText": "Every 12 months the FAA's CGM renewal sheet asks for \"ITEM #4 - Eye evaluation from a board-certified ophthalmologist\", and continues: \"preferred; an optometrist (OD) may be acceptable if there is no history of retinopathy.\" Until the FAA's 09/30/2026 update an optometrist was not acceptable. Your Authorization letter decides what you actually send. The FAA's Certification Aid says the exam is \"performed within the past 90 days\" and covers vision near, intermediate and distance, cataracts, color vision, eye pressure, visual fields, and a \"DILATED FUNDUS EXAM with documentation of absence of retinopathy or degree of retinopathy\". On the non-CGM third-class option, the FAA's re-certification page says the yearly reports \"must include confirmation by an eye specialist of the absence of significant eye disease.\""
-  },
-  {
-    "cadenceRaw": "other",
-    "documentTypeNeededRaw": "testResult",
-    "envelope": {
-      "code": "si-dm-insulin-cardiac-risk",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus Type I or Type II Insulin Treated, CGM Option, E. CGM Renewal Certificate Requirements (updated 09/30/2026), ITEM #5",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf"
-    },
-    "links": [
-      {
-        "title": "FAA Disease Protocols: Diabetes Mellitus, Insulin Treated, Third Class, Re-Certification",
-        "url": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin_subsequent"
-      }
-    ],
-    "requirementText": "A heart risk evaluation, on a schedule the FAA's CGM renewal sheet sets by age. At 40 and above it is every 12 months: \"Cardiac Risk Evaluation for age 40 and above\" \"from a board-certified cardiologist, including lab;\" with \"ECG, stress test, or other cardiac testing, if clinically indicated\". Under 40 it is every 24 months: \"Cardiac Risk Evaluation for UNDER Age 40\", from either your board-certified endocrinologist or a board-certified cardiologist, including lab. Both carry the same note, a \"stress test required every five (5) years, sooner if concerns or clinically indicated.\" Your Authorization letter decides what you actually send. On the non-CGM third-class option, the FAA's re-certification page says: \"At the first examination after age 40 and at 5 year intervals, the report, with ECG tracings, of a maximal graded exercise stress test must be included in consideration of continued medical certification.\""
+    "requirementText": "The FAA's CGM renewal sheet requires 'Every 3 months, a comprehensive endocrinology clinical examination,' and adds that 'Every 6-month visit must be in-person and performed by your endocrinologist.' The visits in between may be in person or virtual at the endocrinologist's discretion, and may be done by a physician assistant or nurse practitioner associated with your endocrinologist. What you submit is the actual record, not a summary. The FAA states: 'A letter from your endocrinologist is NOT sufficient and cannot substitute for a current detailed Clinical Progress Note.' The note should cover the history of the condition, current medications with dosages and any side effects, clinical exam findings, a 'comprehensive foot exam (e.g., visual inspection, sensation, 10-g monofilament exam, etc.)', results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. If additional visits occur, send those clinic records to the FAA as well. On the non-CGM third-class option the treating physician evaluates you at 3-month intervals with a general physical examination, a review of the interval medical history and a glycosylated hemoglobin test, and 'the results of these quarterly evaluations must be accumulated and submitted annually unless there has been a change.'"
   },
   {
     "cadenceRaw": "annual",
@@ -519,25 +485,11 @@
     "envelope": {
       "code": "si-dm-insulin-no-hypoglycemia",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
+      "lastVerified": "2026-08-14T00:00:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Disease Protocols, Insulin Treated Diabetes Mellitus",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm"
     },
-    "requirementText": "The FAA does not publish a standalone \"no hypoglycemia\" letter for insulin-treated diabetes. Under the CGM option it is covered inside your endocrinologist's clinical progress note: the FAA's Certification Aid requires that note to address \"Any symptomatic episodes in the past 12 months requiring treatment or assistance by another individual, with comment on timing, awareness, frequency, causes, and treatment,\" plus \"Sustained episodes, e.g., CGM/FSBG values below 70 mg/dL for over 30 minutes or below 54 mg/dL for over 15 minutes.\" On the non-CGM third-class option, the FAA's Diabetes on Insulin Re-Certification Status Report puts it to your provider as a yes/no item: \"ANY episode of hypoglycemia in the past year REQUIRING ASSISTANCE from another person,\" and the form says that if any answer is yes, \"please attach narrative, tests, etc.\" Separate from the yearly paperwork, the FAA's non-CGM third-class re-certification page says you \"must report to the FAA immediately any hypoglycemic incidents\" and that \"With any of these occurrences, the individual must cease flying until cleared by the FAA.\"",
-    "links": [
-      {
-        "title": "FAA Diabetes on Insulin Re-Certification Status Report (updated 06/29/2022)",
-        "url": "https://www.faa.gov/ame_guide/media/Diabetes_Insulin_Re-Certification_Status_Report.pdf"
-      },
-      {
-        "title": "FAA ITDM CGM Certification Aid (updated 09/30/2026)",
-        "url": "https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf"
-      },
-      {
-        "title": "FAA Disease Protocols: Diabetes Mellitus, Insulin Treated, Third Class, Re-Certification",
-        "url": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin_subsequent"
-      }
-    ]
+    "requirementText": "The FAA does not publish a standalone 'no hypoglycemia' letter for insulin-treated diabetes. Under the CGM option it is covered inside your endocrinologist's clinical progress note: the FAA's Certification Aid requires that note to address 'Any symptomatic episodes in the past 12 months requiring treatment or assistance by another individual, with comment on timing, awareness, frequency, causes, and treatment,' plus 'Sustained episodes, e.g., CGM/FSBG values below 70 mg/dL for over 30 minutes or below 54 mg/dL for over 15 minutes.' On the non-CGM third-class option, the FAA's Diabetes on Insulin Re-Certification Status Report puts it to your provider as a yes/no item: 'ANY episode of hypoglycemia in the past year REQUIRING ASSISTANCE from another person,' and the form says that if any answer is yes, 'please attach narrative, tests, etc.' Separate from the yearly paperwork, the FAA's non-CGM third-class re-certification page says you 'must report to the FAA immediately any hypoglycemic incidents' and that 'With any of these occurrences, the individual must cease flying until cleared by the FAA.'"
   },
   {
     "cadenceRaw": "everyExam",
