@@ -10,7 +10,7 @@
     "envelope": {
       "code": "med-abaloparatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     }
@@ -44,11 +44,11 @@
     ],
     "category": "Alpha-glucosidase inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"acarbose (Precose)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"acarbose (Precose)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-acarbose",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -128,11 +128,11 @@
     ],
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"albiglutide (Tanzeum)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"albiglutide (Tanzeum)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-albiglutide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -168,7 +168,7 @@
     "envelope": {
       "code": "med-alcaftadine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -189,11 +189,11 @@
       "Fosamax"
     ],
     "category": "Bisphosphonate (osteoporosis)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Fosamax\nUnderlying condition: Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Fosamax\nUnderlying condition: Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat page lists \"Alendronate (Fosamax)\" as a \"Bisphosphonate (Oral)\" with no initial and no post-dose observation. MedGuide (October 1, 2026) gives 48 hours after the first dose. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alendronate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -216,7 +216,7 @@
     "envelope": {
       "code": "med-alirocumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     }
@@ -267,11 +267,11 @@
     ],
     "category": "DPP-4 inhibitor (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"alogliptin (Nesina)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"alogliptin (Nesina)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-alogliptin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -304,7 +304,7 @@
     "envelope": {
       "code": "med-aluminum-hydroxide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
@@ -581,11 +581,11 @@
       "Lipitor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lipitor, Litorva [INTL], Sortis [INTL]\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lipitor, Litorva [INTL], Sortis [INTL]\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atorvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -632,7 +632,7 @@
     "envelope": {
       "code": "med-azelastine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -714,7 +714,7 @@
     "envelope": {
       "code": "med-bazedoxifene-conjugated-estrogens",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -737,7 +737,7 @@
     "envelope": {
       "code": "med-bempedoic-acid",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -812,7 +812,7 @@
     "envelope": {
       "code": "med-bepotastine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -830,11 +830,11 @@
     ],
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"bexagliflozin (Brenzavvy)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"bexagliflozin (Brenzavvy)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-bexagliflozin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -867,7 +867,7 @@
     "envelope": {
       "code": "med-bismuth-subsalicylate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1072,7 +1072,7 @@
     "envelope": {
       "code": "med-calcium-carbonate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     }
@@ -1104,7 +1104,7 @@
     "envelope": {
       "code": "med-capsaicin-topical",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1170,11 +1170,11 @@
     ],
     "category": "Sulfonylurea (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"chlorpropamide (Diabenase)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart spells the brand \"Diabenase\".\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"chlorpropamide (Diabenase)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart spells the brand \"Diabenase\".\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-chlorpropamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -1191,7 +1191,7 @@
     "envelope": {
       "code": "med-cholestyramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1213,7 +1213,7 @@
     "envelope": {
       "code": "med-cimetidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1235,7 +1235,7 @@
     "envelope": {
       "code": "med-colestipol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1257,7 +1257,7 @@
     "envelope": {
       "code": "med-desloratadine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1279,7 +1279,7 @@
     "envelope": {
       "code": "med-dextromethorphan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     }
@@ -1387,11 +1387,11 @@
     ],
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"ertugliflozin (Steglatro)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"ertugliflozin (Steglatro)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ertugliflozin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -1426,11 +1426,11 @@
     ],
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"exenatide (Byetta)\" under \"GLP1 mimetics\", Group D.\nThe chart also lists \"exenatide-ED (Bydureon)\" in the same group.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"exenatide (Byetta)\" under \"GLP1 mimetics\", Group D.\nThe chart also lists \"exenatide-ED (Bydureon)\" in the same group.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-exenatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -1446,7 +1446,7 @@
     "envelope": {
       "code": "med-fluvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1521,11 +1521,11 @@
     ],
     "category": "Sulfonylurea (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"gliclazide (Diamicron)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart marks it International.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"gliclazide (Diamicron)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart marks it International.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gliclazide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -1568,7 +1568,7 @@
     "envelope": {
       "code": "med-guaifenesin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1653,7 +1653,7 @@
     "envelope": {
       "code": "med-ibandronate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1675,7 +1675,7 @@
     "envelope": {
       "code": "med-icosapent-ethyl",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1780,7 +1780,7 @@
     "envelope": {
       "code": "med-ketotifen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1842,7 +1842,7 @@
     "envelope": {
       "code": "med-lidocaine-topical",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -1876,11 +1876,11 @@
     ],
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"lixisenatide (Adlyxin)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"lixisenatide (Adlyxin)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lixisenatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -1894,7 +1894,7 @@
     "envelope": {
       "code": "med-magnesium-citrate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     }
@@ -1910,7 +1910,7 @@
     "envelope": {
       "code": "med-magnesium-hydroxide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2006,11 +2006,11 @@
     ],
     "category": "Alpha-glucosidase inhibitor (diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"miglitol (Glyset)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"miglitol (Glyset)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-miglitol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2026,7 +2026,7 @@
     "envelope": {
       "code": "med-mipomersen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     }
@@ -2064,7 +2064,7 @@
     "envelope": {
       "code": "med-naloxone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     }
@@ -2109,11 +2109,11 @@
     ],
     "category": "Meglitinide (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"nateglinide (Starlix)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"nateglinide (Starlix)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nateglinide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2129,7 +2129,7 @@
     "envelope": {
       "code": "med-nizatidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2151,7 +2151,7 @@
     "envelope": {
       "code": "med-nortriptyline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Smoking Cessation Medications (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 08/27/2025); FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
@@ -2179,7 +2179,7 @@
     "envelope": {
       "code": "med-olopatadine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2221,7 +2221,7 @@
     "envelope": {
       "code": "med-omega-3-acid-ethyl-esters",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2261,7 +2261,7 @@
     "envelope": {
       "code": "med-oxymetazoline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2288,7 +2288,7 @@
     "envelope": {
       "code": "med-phenazopyridine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2310,7 +2310,7 @@
     "envelope": {
       "code": "med-phenylephrine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
@@ -2405,7 +2405,7 @@
     "envelope": {
       "code": "med-rabeprazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     }
@@ -2421,7 +2421,7 @@
     "envelope": {
       "code": "med-raloxifene",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2443,7 +2443,7 @@
     "envelope": {
       "code": "med-ranitidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2478,11 +2478,11 @@
     ],
     "category": "Meglitinide (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"repaglinide (Prandin)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"repaglinide (Prandin)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-repaglinide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2579,7 +2579,7 @@
     "envelope": {
       "code": "med-risedronate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -2623,7 +2623,7 @@
     "envelope": {
       "code": "med-romosozumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     }
@@ -2652,11 +2652,11 @@
     ],
     "category": "Thiazolidinedione (diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group C: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"rosiglitazone (Avandia)\" under \"Thiazolidinediones (TZD)\", Group C.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group C: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group C: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"rosiglitazone (Avandia)\" under \"Thiazolidinediones (TZD)\", Group C.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group C: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rosiglitazone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2707,11 +2707,11 @@
     ],
     "category": "DPP-4 inhibitor (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"saxagliptin (Onglyza)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"saxagliptin (Onglyza)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-saxagliptin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2782,7 +2782,7 @@
     "envelope": {
       "code": "med-teriparatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     }
@@ -2874,11 +2874,11 @@
     ],
     "category": "Sulfonylurea (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolazamide (Tolinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolazamide (Tolinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tolazamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2890,11 +2890,11 @@
     ],
     "category": "Sulfonylurea (type 2 diabetes)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolbutamide (Orinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolbutamide (Orinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tolbutamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
@@ -2977,13 +2977,13 @@
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"canagliflozin (Invokana)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-canagliflozin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -3360,13 +3360,13 @@
     "category": "SGLT2 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"dapagliflozin (Farxiga)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dapagliflozin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -3632,7 +3632,7 @@
       "code": "med-dulaglutide",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026); Weight Loss Medication (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T22:01:33Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "contentVersion": "2026.0"
     },
     "genericName": "dulaglutide",
@@ -3642,7 +3642,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\".\n\nIts Acceptable Combinations chart places dulaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match.\n\nUnlike liraglutide, semaglutide and tirzepatide, the FAA does not name dulaglutide in its Weight Loss Medication list or its CACI Weight Loss Management worksheet. That silence is neither a permission nor a prohibition; ask your AME which pathway applies."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\".\n\nIts Acceptable Combinations chart places dulaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match. Starting a \"Group C - G\" medication carries a 30-day observation, adding it to an established regimen carries 14 days, and a dose or formulation change \"Within Group B-G\" carries 48 hours.\n\nUnlike liraglutide, semaglutide and tirzepatide, the FAA does not name dulaglutide in its Weight Loss Medication list or its CACI Weight Loss Management worksheet. That silence is neither a permission nor a prohibition; ask your AME which pathway applies.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "duloxetine",
@@ -3710,13 +3716,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"empagliflozin (Jardiance)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-empagliflozin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
   },
   {
@@ -3896,11 +3902,11 @@
       "Zetia"
     ],
     "category": "Cholesterol absorption inhibitor",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Zetia, Ezetrol [INTL]\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Zetia, Ezetrol [INTL]\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ezetimibe",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -4210,11 +4216,11 @@
       "Lopid"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lopid\nUnderlying condition: Hyperlipidemia, Hypertriglyceridemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lopid\nUnderlying condition: Hyperlipidemia, Hypertriglyceridemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gemfibrozil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -4234,13 +4240,13 @@
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"glimepiride (Amaryl)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-glimepiride",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -4253,13 +4259,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"glipizide (Glucotrol)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-glipizide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
   },
   {
@@ -4271,13 +4277,13 @@
     "category": "Sulfonylurea (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"glyburide (Diabeta)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-glyburide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -4394,7 +4400,7 @@
     "envelope": {
       "code": "med-insulin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row C",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
     },
@@ -4613,13 +4619,13 @@
     "category": "DPP-4 inhibitor (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"linagliptin (Tradjenta)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-linagliptin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -4663,7 +4669,7 @@
       "code": "med-liraglutide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T22:09:45Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "contentVersion": "2026.0"
     },
     "genericName": "liraglutide (for type 2 diabetes)",
@@ -4673,7 +4679,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places liraglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places liraglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match. Adding it to an established regimen (\"on Group A - G\" plus a \"new Group B - G\" medication) carries a 14-day observation.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "liraglutide (for weight loss)",
@@ -4829,11 +4841,11 @@
       "Mevacor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Altoprev, Mevacor [INTL]\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Altoprev, Mevacor [INTL]\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lovastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -4952,14 +4964,20 @@
     "category": "Biguanide (type 2 diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places metformin in Group B (Biguanides) and says \"Only ONE Medication allowed from each group (A–G)\". Starting therapy on \"Group B ONLY\" carries a 14-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match.",
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places metformin in Group B (Biguanides) and says \"Only ONE Medication allowed from each group (A–G)\". Starting therapy on \"Group B ONLY\" carries a 14-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match. Adding it to an established regimen (\"on Group A - G\" plus a \"new Group B - G\" medication) carries a 14-day observation.",
     "envelope": {
       "code": "med-metformin-dm",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T22:01:33Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026); CACI - Weight Loss Management Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "metformin (for weight loss)",
@@ -5220,11 +5238,11 @@
       "Niaspan"
     ],
     "category": "Nicotinic acid (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Niacor, Niaspan [INTL]\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia, Supplement\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Niacor, Niaspan [INTL]\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia, Supplement\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-niacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -5530,13 +5548,13 @@
     "category": "Thiazolidinedione (diabetes)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group C: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"pioglitazone (Actos)\" under \"Thiazolidinediones (TZD)\", Group C.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group C: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pioglitazone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:44:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     },
     "treatedConditionNote": "Pioglitazone is not itself named as Do Not Issue. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol."
   },
@@ -5562,11 +5580,11 @@
       "Pravachol"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Pravachol\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Pravachol\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pravastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -5766,11 +5784,11 @@
       "Crestor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Crestor\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Crestor\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-rosuvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -5805,7 +5823,7 @@
       "code": "med-semaglutide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T22:09:45Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "contentVersion": "2026.0"
     },
     "genericName": "semaglutide (for type 2 diabetes)",
@@ -5816,7 +5834,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places semaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places semaglutide in Group D (GLP1 mimetics) and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match. Adding it to an established regimen (\"on Group A - G\" plus a \"new Group B - G\" medication) carries a 14-day observation.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "semaglutide (for weight loss)",
@@ -5877,11 +5901,11 @@
       "Zocor"
     ],
     "category": "Statin (cholesterol)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Zocor\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Zocor\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-simvastatin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T18:43:10Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -5902,13 +5926,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "treatedConditionNote": "The FAA's concern is the diabetes itself, not the drug. Non-insulin medication-controlled Type 2 diabetes is addressed under the FAA's Diabetes Mellitus II, Medication Controlled (non-insulin) protocol; insulin-treated diabetes follows a separate protocol.",
-    "faaStatusDescription": "Type 2 diabetes managed without insulin is addressed by the FAA under its Diabetes Mellitus II, Medication Controlled (non-insulin) protocol, not under CACI. The FAA publishes a disposition table and a chart of acceptable combinations of diabetes medications.\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"sitagliptin (Januvia)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says follow-up and recertification may be under the AASI program.\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-sitagliptin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 48 Diabetes Mellitus",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+      "lastVerified": "2026-10-06T16:59:40Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
   },
   {
@@ -6190,7 +6214,7 @@
       "code": "med-tirzepatide-dm",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B; Acceptable Combinations of Diabetes Medications (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf",
-      "lastVerified": "2026-08-26T22:09:45Z",
+      "lastVerified": "2026-10-06T16:59:40Z",
       "contentVersion": "2026.0"
     },
     "genericName": "tirzepatide (for type 2 diabetes)",
@@ -6200,7 +6224,13 @@
     "faaStatus": "conditional",
     "isCACI": false,
     "category": "GLP-1 receptor agonist (type 2 diabetes)",
-    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places tirzepatide in Group D, in its GLP-1 / GIP box alongside the GLP1 mimetics, and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match."
+    "faaStatusDescription": "Taken for type 2 diabetes, the FAA's disposition is DEFER, \"Submit the information to the FAA.\" It records this as \"Initial Special Issuance – Requires FAA Decision\". That is its listed disposition for \"Treated with one or more (non-insulin) diabetic medications\". The same disposition cell continues \"Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)\", a different path from the initial decision.\n\nIts Acceptable Combinations chart places tirzepatide in Group D, in its GLP-1 / GIP box alongside the GLP1 mimetics, and says \"Only ONE Medication allowed from each group (A–G)\". Starting a \"Group C - G\" medication carries a 30-day observation, and a dose or formulation change \"Within Group B-G\" carries 48 hours. The chart also marks Group D as not allowed with Meglitinides. The chart carries the FAA's own note that \"ALL medication Group Letters have been updated\", so an older copy will not match. Adding it to an established regimen (\"on Group A - G\" plus a \"new Group B - G\" medication) carries a 14-day observation.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+      }
+    ]
   },
   {
     "genericName": "tirzepatide (for weight loss)",
@@ -6300,7 +6330,7 @@
     "envelope": {
       "code": "med-triamcinolone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -6642,7 +6672,7 @@
     "envelope": {
       "code": "med-zoledronic-acid",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:35:37Z",
+      "lastVerified": "2026-10-06T16:59:26Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     }
