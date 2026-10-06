@@ -59,7 +59,10 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 DNI_CONTROL = "diphenhydramine"
 CACI_CONTROL = ("CACI_weight_loss_management.pdf", "orforglipron")
 CASE_CONTROLS = (("Headache_Migraine.pdf", "rimegepant"), ("Migraine_Medication.pdf", "zolmitriptan"))
-DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"]
+DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
+              # The FAA's list for the biologic/targeted drugs on the arthritis, colitis and EoE
+              # worksheets; it also names 11 drugs no worksheet does (added 2026-10-06).
+              "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"]
 
 PAIR = re.compile(r"\b([A-Za-z][A-Za-z\-]{3,}(?: [A-Za-z][A-Za-z\-]{3,})?)\s*\*?\s*[\(\[]\s*([A-Z][A-Za-z0-9\- ]{1,30})")
 BULLET = re.compile(r"(?m)^\s*(?:•|o|-)\s+([a-z][a-z\-]{4,})\b")

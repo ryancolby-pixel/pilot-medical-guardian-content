@@ -566,6 +566,22 @@
     "treatedConditionNote": "Hypertension"
   },
   {
+    "genericName": "benralizumab",
+    "brandNames": [
+      "Fasenra"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"benralizumab (Fasenra)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-benralizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
+  },
+  {
     "genericName": "benzphetamine",
     "brandNames": [
       "Regimex",
@@ -583,6 +599,22 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
     "informationalOnly": false
+  },
+  {
+    "genericName": "bimekizumab",
+    "brandNames": [
+      "Bimzelx"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA-acceptable biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"bimekizumab (Bimzelx)\" under \"Interleukin Inhibitor\" in the \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\" table.\nNo-fly after each dose: 4 hours.\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bimekizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
   },
   {
     "genericName": "bisoprolol",
@@ -636,6 +668,22 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
+  },
+  {
+    "genericName": "brodalumab",
+    "brandNames": [
+      "Siliq"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"brodalumam (Siliq)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nThe FAA's page spells the name \"brodalumam\".\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-brodalumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
   },
   {
     "genericName": "bromocriptine",
@@ -750,6 +798,22 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
     "faaStatus": "notAcceptable"
+  },
+  {
+    "genericName": "canakinumab",
+    "brandNames": [
+      "Ilaris"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"canakinumab (Ilaris)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-canakinumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
   },
   {
     "genericName": "certolizumab",
@@ -1219,6 +1283,22 @@
     }
   },
   {
+    "genericName": "mepolizumab",
+    "brandNames": [
+      "Nucala"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"mepolizumab (Nucala)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-mepolizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
+  },
+  {
     "genericName": "methotrexate",
     "brandNames": [
       "Trexall"
@@ -1301,6 +1381,38 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "natalizumab",
+    "brandNames": [
+      "Tysabri"
+    ],
+    "category": "Selective adhesion-molecule inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 48-hour no-fly after each dose.\n\nFAA biologics list: \"natalizumab (Tysabri)\" under \"Selective Adhesion-Molecule Inhibitor\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 48 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nListed beneath it: \"REMS program (due to the risk of progressive multifocal leukoencephalopathy [PML])\".\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-natalizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
+  },
+  {
+    "genericName": "omalizumab",
+    "brandNames": [
+      "Xolair"
+    ],
+    "category": "IgE inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 24-hour no-fly after each dose.\n\nFAA biologics list: \"omalizumab (Xolair)\" under \"IgE Inhibitor\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 24 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-omalizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
   },
   {
     "genericName": "oxybutynin",
@@ -1407,6 +1519,38 @@
       "lastVerified": "2026-10-06T01:48:19Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "reslizumab",
+    "brandNames": [
+      "Cinqair"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"reslizumab (Cinqair)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-reslizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
+  },
+  {
+    "genericName": "rilonacept",
+    "brandNames": [
+      "Arcalyst"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"rilonacept (Arcalyst)\" under \"Interleukin Inhibitors\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rilonacept",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     }
   },
   {
@@ -1589,6 +1733,38 @@
       "lastVerified": "2026-10-06T14:40:24Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+    }
+  },
+  {
+    "genericName": "tezepelumab",
+    "brandNames": [
+      "Tezspire"
+    ],
+    "category": "TSLP inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Conditional biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"tezepelumab (Tezspire)\" under \"TSLP (thymic stromal lymphopoietin) Inhibitor\" in the \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\" table.\nNo-fly after each dose: 4 hours.\nThat table says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tezepelumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    }
+  },
+  {
+    "genericName": "tildrakizumab",
+    "brandNames": [
+      "Ilumya"
+    ],
+    "category": "Interleukin inhibitor (biologic)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA-acceptable biologic: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"tildrakizumab (Ilumya)\" under \"Interleukin Inhibitor\" in the \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\" table.\nNo-fly after each dose: 4 hours.\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe page adds: \"The underlying condition must be acceptable.\"\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tildrakizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:03:36Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     }
   },
   {
