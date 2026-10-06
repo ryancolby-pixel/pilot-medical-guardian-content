@@ -326,7 +326,7 @@
     "envelope": {
       "code": "med-amiodarone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -359,14 +359,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on a calcium channel blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Calcium channel blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amlodipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "amoxicillin",
@@ -532,14 +542,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the underlying condition, not the drug.",
-    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atenolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "atogepant",
@@ -756,15 +776,25 @@
     "category": "ACE inhibitor (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: Angiotensin converting enzyme (ACE) inhibitors are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-benazepril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "benralizumab",
@@ -886,15 +916,25 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-bisoprolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "botulinum toxin",
@@ -2961,7 +3001,7 @@
     "envelope": {
       "code": "med-buspirone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -2995,15 +3035,25 @@
     "category": "ARB (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-candesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "carvedilol",
@@ -3013,15 +3063,25 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". A cardiac indication may instead require Special Issuance. Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-carvedilol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug."
+    "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "celecoxib",
@@ -3114,14 +3174,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on a thiazide-like diuretic is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-chlorthalidone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "ciprofloxacin",
@@ -3133,7 +3203,7 @@
     "envelope": {
       "code": "med-ciprofloxacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3294,12 +3364,12 @@
     "envelope": {
       "code": "med-colchicine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
     "informationalOnly": true,
-    "informationalNote": "The FAA does not name colchicine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Anti-gout. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name."
+    "informationalNote": "The FAA does not name colchicine in CACI, Do Not Issue / Do Not Fly, or the Antidepressant Protocol. Your AME determines acceptability based on your underlying condition and the cited AME Guide section. The underlying condition class is: Anti-gout. See the broader AME Guide reference cited below; PMG does not render a status verdict for medications the FAA doesn't name. MedGuide (October 1, 2026) lists only the combination colchicine + probenecid (Col-Probenecid), allowed for gout with a 24-hour wait after the first dose."
   },
   {
     "genericName": "colesevelam",
@@ -3482,7 +3552,7 @@
     "envelope": {
       "code": "med-digoxin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -3499,14 +3569,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on a calcium channel blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Calcium channel blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-diltiazem",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "dimenhydrinate",
@@ -3562,7 +3642,7 @@
     "envelope": {
       "code": "med-dofetilide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:32:33Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals (Therapeutic Medications) index. This medication is not individually listed.",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3734,14 +3814,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on an ACE inhibitor is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: Angiotensin converting enzyme (ACE) inhibitors are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-enalapril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "erenumab",
@@ -3954,7 +4044,7 @@
     "envelope": {
       "code": "med-febuxostat",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3969,15 +4059,25 @@
     "category": "Calcium channel blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Calcium channel blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-felodipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "fenfluramine",
@@ -4068,7 +4168,7 @@
     "envelope": {
       "code": "med-flecainide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -4183,15 +4283,25 @@
     "category": "Loop diuretic",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Loop diuretic is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-furosemide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "gabapentin",
@@ -4297,14 +4407,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on a thiazide diuretic is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-hydrochlorothiazide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "hydrocodone/acetaminophen",
@@ -4374,15 +4494,25 @@
     "category": "Thiazide-like diuretic (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Thiazide-like diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-indapamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "insulin",
@@ -4419,15 +4549,25 @@
     "category": "ARB (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-irbesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "labetalol",
@@ -4437,15 +4577,25 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-labetalol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "lamotrigine",
@@ -4568,7 +4718,7 @@
     "envelope": {
       "code": "med-levofloxacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -4733,14 +4883,28 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's primary concern is the underlying hypertension, not the drug; hypertension is a condition the AME may certify under a CACI worksheet.",
-    "faaStatusDescription": "Hypertension treated with an ACE inhibitor is addressed by the FAA's CACI (Conditions AMEs Can Issue) program; the AME may issue with conditions if the worksheet criteria are met. Confirm against the current AME Guide CACI — Hypertension worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: Angiotensin converting enzyme (ACE) inhibitors are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe Migraine Medication page also lists \"lisinopril (Prinivil; Qbrelis; Zestril)\" for migraine prevention: CACI ACCEPTABLE, 7-day ground trial, no no-fly time.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lisinopril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "loperamide",
@@ -4826,14 +4990,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on an angiotensin receptor blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-losartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "lovastatin",
@@ -5011,7 +5185,7 @@
     "envelope": {
       "code": "med-methimazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -5065,14 +5239,28 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the underlying condition (hypertension or cardiac), not the drug.",
-    "faaStatusDescription": "Hypertension on a beta blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". A cardiac indication may instead require Special Issuance. Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe Migraine Medication page also lists \"metoprolol succinate (Toprol XL)\" for migraine prevention: CACI ACCEPTABLE, 7-day ground trial, no no-fly time.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-metoprolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "metronidazole",
@@ -5177,15 +5365,25 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nadolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "naproxen",
@@ -5222,15 +5420,25 @@
     "category": "Beta blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Beta blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nebivolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "niacin",
@@ -5288,15 +5496,29 @@
     "category": "Calcium channel blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Calcium channel blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe Migraine Medication page also lists \"nifedipine (Procardia XL)\" for migraine prevention: CACI ACCEPTABLE, 7-day ground trial, no no-fly time.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nifedipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "nitrofurantoin",
@@ -5322,15 +5544,25 @@
     "category": "ARB (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-olmesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "omeprazole",
@@ -5639,15 +5871,29 @@
     "category": "Beta blocker",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension or other labeled condition treated with Beta blocker is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Beta-adrenergic blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nIt adds: \"Use of beta-adrenergic blockers ARE allowed with insulin, meglitinides, or sulfonylureas.\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe Migraine Medication page also lists \"propranolol hydrochloride (Inderal XL)\" for migraine prevention: CACI ACCEPTABLE, 7-day ground trial, no no-fly time.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-propranolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension or other labeled condition"
+    "treatedConditionNote": "Hypertension or other labeled condition",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "propylthiouracil",
@@ -5659,7 +5905,7 @@
     "envelope": {
       "code": "med-propylthiouracil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -5697,15 +5943,25 @@
     "category": "ACE inhibitor (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: Angiotensin converting enzyme (ACE) inhibitors are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-quinapril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "ramelteon",
@@ -5733,15 +5989,25 @@
     "category": "ACE inhibitor (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ACE inhibitor (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: Angiotensin converting enzyme (ACE) inhibitors are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ramipril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "rivaroxaban",
@@ -5945,7 +6211,7 @@
     "envelope": {
       "code": "med-sotalol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-06-19T12:00:00Z",
+      "lastVerified": "2026-10-06T17:34:16Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -5960,15 +6226,29 @@
     "category": "Potassium-sparing diuretic (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Potassium-sparing diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nFor PCOS, the FAA's CACI worksheet lists \"spironolactone (7-day wait)\" among acceptable medications.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-spironolactone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovary Syndrome (PCOS) Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovary Syndrome (PCOS) Worksheet",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      }
+    ]
   },
   {
     "genericName": "sulfamethoxazole/trimethoprim",
@@ -6086,15 +6366,25 @@
     "category": "ARB (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with ARB (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-telmisartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "temazepam",
@@ -6355,15 +6645,25 @@
     "category": "Combination diuretic (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Combination diuretic (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Diuretics\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nSo this combination counts as 2.\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-triamterene-hydrochlorothiazide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "ubrogepant",
@@ -6488,14 +6788,24 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the hypertension, not the drug; hypertension is CACI-eligible.",
-    "faaStatusDescription": "Hypertension on an angiotensin receptor blocker is a CACI condition only when the FAA's worksheet criteria are met. The FAA's Item 36 table issues under CACI for hypertension \"Treated with 3 or fewer* acceptable medications\", and counts each component separately (\"lisinopril/HCTZ is 2 medications\"). It is DEFER, \"Submit the information to the FAA for a possible Special Issuance\", with 4 or more acceptable medications, or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\". Confirm against the current AME Guide CACI - Hypertension Worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Angiotensin II receptor antagonists (ARBs)\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-valsartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:33:22Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      }
+    ]
   },
   {
     "genericName": "varenicline",
@@ -6563,15 +6873,29 @@
     "category": "Calcium channel blocker (hypertension)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypertension treated with Calcium channel blocker (hypertension) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Blood pressure: 7-day ground trial when starting; CACI on 3 or fewer drugs.\n\nFAA antihypertensive page: \"Calcium channel blockers\" are listed under \"ACCEPTABLE HTN Medications\", \"(when certification criteria are met)\".\n\"Seven-day (7) no fly/ground trial is required when starting a new hypertension (HTN) medication to verify no side effects.\"\n\"AME should issue (if otherwise qualified) if the airman is on 3 or fewer medications\"\nItem 36 table: CACI when \"Treated with 3 or fewer* acceptable medications\", counting each component (\"lisinopril/HCTZ is 2 medications\").\nDEFER, \"Submit the information to the FAA for a possible Special Issuance\", when \"Treated with 4 or more* acceptable medications\", or if \"HTN is clinically uncontrolled\", \"Unacceptable medications are used\" or \"Side effects are present\".\nCACI worksheet: office blood pressure \"Less than or equal to 155 systolic and 95 diastolic\".\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\", unless the AME can confirm \"stable clinical blood pressure control on the current antihypertensive medication for at least 7 days\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe Migraine Medication page also lists \"verapamil (Calan; Isoptin SR; Verelan; Covera HS)\" for migraine prevention: CACI ACCEPTABLE, 7-day ground trial, no no-fly time.\n\nSource: FAA Antihypertensive, updated September 30, 2026; Item 36 Hypertension table, updated March 23, 2023; CACI Hypertension Worksheet, updated April 13, 2022; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-verapamil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Hypertension (CACI Hypertension Worksheet)",
+      "lastVerified": "2026-10-06T17:34:16Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
-    "treatedConditionNote": "Hypertension"
+    "treatedConditionNote": "Hypertension",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pharm_Antihypertensives.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
+        "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "vilazodone",
