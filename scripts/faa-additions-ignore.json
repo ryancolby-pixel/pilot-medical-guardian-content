@@ -1,11 +1,24 @@
 {
   "_comment": "Names check-faa-additions.py extracts that are NOT medications we should carry. Each needs a reason. An entry here is a decision, not a mute button.",
   "terms": {
-    "analogs": "Class word from the glaucoma CACI ('prostaglandin analogs (...)'), not a drug name.",
-    "cycloplegics": "Eye-drop CLASS named in the glaucoma CACI, not a specific drug.",
+    "adequately treated": "PCOS worksheet wording, not a medication.",
+    "alpha agonist": "Eye-drop CLASS named in the glaucoma CACI, not a specific drug.",
     "cancerous polyp": "Colon cancer table wording, not a medication.",
+    "central hypothyroidism": "Condition named in the hypothyroidism table, not a medication.",
+    "chronic worksheet": "Heading text ('Hepatitis C - Chronic Worksheet'), not a medication.",
+    "cycloplegics": "Eye-drop CLASS named in the glaucoma CACI, not a specific drug.",
     "diastolic": "Blood pressure wording in the hypertension CACI, not a medication.",
+    "glaucoma worksheet": "Heading text ('CACI - Glaucoma Worksheet'), not a medication.",
+    "headache worksheet": "Heading text on the headache page, not a medication.",
+    "hour rituximab": "Extraction fragment of '72-hour rituximab (Rituxan)' on the arthritis CACI; rituximab has its own entry.",
+    "hypertensive": "DNI table heading ('HYPERTENSIVE (CENTRALLY ACTING)'), not a medication.",
     "incapacitating": "Headache CACI wording, not a medication.",
+    "metoprolol succinate": "Salt form on the migraine prevention table; our metoprolol entry is what a pilot's search finds.",
+    "nash": "Condition (MASH/NASH) named by the liver CACI, not a medication.",
+    "propranolol hydrochloride": "Salt form on the migraine prevention table; our propranolol entry is what a pilot's search finds.",
+    "prostaglandin analogs": "Class name from the glaucoma CACI ('prostaglandin analogs (...)'), not a drug name. Read as two words once capitalised names were read (2026-10-06).",
+    "substances": "DNI table heading ('CONTROLLED SUBSTANCES (SCHEDULES I - V)'), not a medication.",
+    "thrombocytopenia": "Condition named by the thrombocytopenia table, not a medication.",
     "with aura": "Migraine type in the headache CACI, not a medication."
   }
 }

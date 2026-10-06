@@ -1,5 +1,27 @@
 [
   {
+    "genericName": "abatacept",
+    "brandNames": [
+      "Orencia"
+    ],
+    "category": "T-cell costimulation blocker (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 24-hour no-fly after each dose.\n\nFAA biologics list: \"abatacept (Orencia)\" under \"Selective Co-stimulation Modulator\".\nNo-fly after each dose: 24 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-abatacept",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "acetaminophen",
     "brandNames": [
       "Tylenol"
@@ -40,6 +62,32 @@
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "faaStatus": "acceptable"
+  },
+  {
+    "genericName": "adalimumab",
+    "brandNames": [
+      "Humira"
+    ],
+    "category": "TNF blocker (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"adalimumab (Humira)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-adalimumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
   },
   {
     "genericName": "albuterol",
@@ -104,6 +152,23 @@
         "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
       }
     ]
+  },
+  {
+    "genericName": "almotriptan",
+    "brandNames": [
+      "Axert"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 24-hour no-fly after each dose.\n\nListed as: \"almotriptan (Axert)\" under \"Serotonin 5HT1 receptor agonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-almotriptan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
     "genericName": "alprazolam",
@@ -228,6 +293,28 @@
     }
   },
   {
+    "genericName": "anakinra",
+    "brandNames": [
+      "Kineret"
+    ],
+    "category": "Interleukin inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"anakinra (Kineret)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-anakinra",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "anastrozole",
     "brandNames": [
       "Arimidex"
@@ -261,6 +348,28 @@
     },
     "informationalOnly": false,
     "faaStatus": "conditional"
+  },
+  {
+    "genericName": "apremilast",
+    "brandNames": [
+      "Otezla"
+    ],
+    "category": "PDE4 inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"apremilast (Otezla)\" under \"Phosphodiesterase-4 Enzyme Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nListed beneath it: \"Report any signs of depression\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-apremilast",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
   },
   {
     "genericName": "aspirin (low-dose)",
@@ -305,6 +414,23 @@
     }
   },
   {
+    "genericName": "atogepant",
+    "brandNames": [
+      "Qulipta"
+    ],
+    "category": "CGRP antagonist (migraine prevention)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine prevention CACI: 7-day ground trial, no no-fly time.\n\nListed as: \"atogepant (Qulipta)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Prevention (Prophylaxis)\" table.\nGround trial: 7 days. No-fly time: none.\nThe page adds: \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-atogepant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
     "genericName": "atomoxetine",
     "brandNames": [
       "Strattera"
@@ -344,6 +470,28 @@
     ]
   },
   {
+    "genericName": "azathioprine",
+    "brandNames": [
+      "Imuran"
+    ],
+    "category": "Immunosuppressant (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"azathioprine (Imuran)\" under acceptable medications.\nColitis worksheet lists \"azathioprine (Imuran)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for azathioprine.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-azathioprine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "azithromycin",
     "brandNames": [
       "Zithromax",
@@ -376,6 +524,28 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
+  },
+  {
+    "genericName": "baricitinib",
+    "brandNames": [
+      "Olumiant"
+    ],
+    "category": "JAK inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"baricitinib (Olumiant)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-baricitinib",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
   },
   {
     "genericName": "benazepril",
@@ -431,6 +601,23 @@
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
     "treatedConditionNote": "Hypertension"
+  },
+  {
+    "genericName": "botulinum toxin",
+    "brandNames": [
+      "Botox"
+    ],
+    "category": "Botulinum toxin (migraine prevention)",
+    "faaStatus": "caseByCase",
+    "faaStatusDescription": "Migraine prevention, SI only: 1-month trial, 72-hour no-fly after each dose.\n\nListed as: \"botulinum toxin (Botox)\" under \"SI CONDITIONAL - Migraine Prevention (Prophylaxis)\".\nGround trial: 1 month. No-fly after each dose: 72 hours.\n\"Botox is not a first-line treatment for migraines. It is reserved for individuals with severe refractory headaches.\"\nSide effects: \"May cause delayed adverse effects such as muscle weakness, excessive fatigue\" or eye symptoms.\nAnd: \"Requires Special issuance.\"\nThat page covers migraine prevention.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-botulinum-toxin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
     "genericName": "brimonidine",
@@ -565,6 +752,255 @@
     "faaStatus": "notAcceptable"
   },
   {
+    "genericName": "certolizumab",
+    "brandNames": [
+      "Cimzia"
+    ],
+    "category": "TNF blocker (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"certolizumab (Cimzia)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-certolizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "chloroquine",
+    "brandNames": [
+      "Aralen"
+    ],
+    "category": "Antimalarial (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI drug; the FAA asks for an eye-exam status summary.\n\nArthritis worksheet lists \"Hydroxychloroquine (HCQ)/Chloroquine (Plaquenil/Aralen) see status report requirement below\".\nCriterion: \"Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen) is favorable and no concerns\".\nThat form: \"Please have the ophthalmologist or optometrist who monitors your medication provide the requested information in the space provided.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese FAA pages cover its use for arthritis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; FAA HCQ/CQ Status Summary, updated September 25, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-chloroquine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary (updated 09/25/2024)",
+        "url": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "dihydroergotamine",
+    "brandNames": [
+      "Migranal"
+    ],
+    "category": "Ergot (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 48-hour no-fly after each dose.\n\nListed as: \"dihydroergotamine (Migranal)\" under \"Ergot Derivative\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 48 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-dihydroergotamine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "dupilumab",
+    "brandNames": [
+      "Dupixent"
+    ],
+    "category": "Interleukin inhibitor (eosinophilic esophagitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Eosinophilic esophagitis CACI: 4-hour no-fly after each dose.\n\nWorksheet: \"dupilumab (Dupixent) (requires 4-hour post dose observation/no-fly)\".\nFAA biologics list: \"dupilumab (Dupixent)\" under \"CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS\", 4 hours after each dose.\nThat list says use is \"Dependent on underlying condition(s), see those pages.\"\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\n\"If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers eosinophilic esophagitis.\n\nSource: CACI Eosinophilic Esophagitis Worksheet, updated April 29, 2026; FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-dupilumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Eosinophilic Esophagitis (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/CACI_Eosinophilic_Esophagitis.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "eletriptan",
+    "brandNames": [
+      "Relpax"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief: 48 or 72 hours no-fly after a dose; two FAA pages differ.\n\nListed as: \"eletriptan (Relpax)\" under \"Serotonin 5HT1 receptor agonist (longer half-life)\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 48 hours.\nHeadache or Migraine page (updated September 24, 2025): \"Except eletriptan (Relpax) and frovatriptan (Frova): 72 hours\".\nThe two FAA pages give different times.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-eletriptan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "eptinezumab",
+    "brandNames": [
+      "Vyepti"
+    ],
+    "category": "Anti-CGRP (migraine prevention)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine prevention CACI: 7-day ground trial, no no-fly time.\n\nListed as: \"eptinezumab (Vyepti)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Prevention (Prophylaxis)\" table.\nGround trial: 7 days. No-fly time: none.\nThe page adds: \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-eptinezumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "ergotamine + caffeine",
+    "brandNames": [
+      "Wigraine"
+    ],
+    "category": "Ergot (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 24-hour no-fly after each dose.\n\nListed as: \"ergotamine + caffeine (Wigraine)\" under \"Ergot Derivative\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ergotamine-caffeine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "etanercept",
+    "brandNames": [
+      "Enbrel"
+    ],
+    "category": "TNF blocker (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"etanercept (Enbrel)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-etanercept",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "fremanezumab",
+    "brandNames": [
+      "Ajovy"
+    ],
+    "category": "Anti-CGRP (migraine prevention)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine prevention CACI: 7-day ground trial, no no-fly time.\n\nListed as: \"fremanezumab (Ajovy)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Prevention (Prophylaxis)\" table.\nGround trial: 7 days. No-fly time: none.\nThe page adds: \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-fremanezumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "frovatriptan",
+    "brandNames": [
+      "Frova"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief: 48 or 72 hours no-fly after a dose; two FAA pages differ.\n\nListed as: \"frovatriptan (Frova)\" under \"Serotonin 5HT1 receptor agonist (longer half-life)\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 48 hours.\nHeadache or Migraine page (updated September 24, 2025): \"Except eletriptan (Relpax) and frovatriptan (Frova): 72 hours\".\nThe two FAA pages give different times.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-frovatriptan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "galcanezumab",
+    "brandNames": [
+      "Emgality"
+    ],
+    "category": "Anti-CGRP (migraine prevention)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine prevention CACI: 7-day ground trial, no no-fly time.\n\nListed as: \"galcanezumab (Emgality)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Prevention (Prophylaxis)\" table.\nGround trial: 7 days. No-fly time: none.\nThe page adds: \"Must have ground trial to verify no adverse effects and effectiveness from medication prior to initial consideration.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-galcanezumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "golimumab",
+    "brandNames": [
+      "Simponi"
+    ],
+    "category": "TNF blocker (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"golimumab (Simponi)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-golimumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "guanabenz",
     "brandNames": [],
     "category": "Centrally acting blood pressure medication",
@@ -580,6 +1016,82 @@
     }
   },
   {
+    "genericName": "guselkumab",
+    "brandNames": [
+      "Tremfya"
+    ],
+    "category": "Interleukin inhibitor (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"guselkumab (Tremfya)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-guselkumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "hydroxychloroquine",
+    "brandNames": [
+      "Plaquenil"
+    ],
+    "category": "Antimalarial (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI drug; the FAA asks for an eye-exam status summary.\n\nArthritis worksheet lists \"Hydroxychloroquine (HCQ)/Chloroquine (Plaquenil/Aralen) see status report requirement below\".\nCriterion: \"Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen) is favorable and no concerns\".\nThat form: \"Please have the ophthalmologist or optometrist who monitors your medication provide the requested information in the space provided.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese FAA pages cover its use for arthritis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; FAA HCQ/CQ Status Summary, updated September 25, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-hydroxychloroquine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary (updated 09/25/2024)",
+        "url": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "infliximab",
+    "brandNames": [
+      "Remicade",
+      "Inflectra",
+      "Renflexis"
+    ],
+    "category": "TNF blocker (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 24-hour no-fly after each dose.\n\nFAA biologics list: \"infliximab (Inflectra; Remicade; Renflexis)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 24 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-infliximab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "isosorbide dinitrate",
     "brandNames": [],
     "category": "Nitrate (angina)",
@@ -592,6 +1104,101 @@
       "lastVerified": "2026-10-06T01:48:19Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "ixekizumab",
+    "brandNames": [
+      "Taltz"
+    ],
+    "category": "Interleukin inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"ixekizumab (Taltz)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ixekizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "ketorolac",
+    "brandNames": [
+      "Toradol"
+    ],
+    "category": "NSAID",
+    "faaStatus": "caseByCase",
+    "faaStatusDescription": "Migraine relief with a Special Issuance only: 36-hour no-fly after each dose.\n\nListed as: \"ketorolac (Toradol) - ALL routes of administration\" under \"SI CONDITIONAL - Migraine Relief/Rescue Medication\".\nPost-dose observation: 36 hours.\nNote: \"Used short-term, less than 5 days, for severe and/or intractable headaches. This medication is not intended to be used for mild symptoms.\"\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\nThat page covers migraine relief.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ketorolac",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "lacosamide",
+    "brandNames": [
+      "Vimpat"
+    ],
+    "category": "Anticonvulsant (seizure/migraine)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Do Not Issue: seizure medications, even when used for migraine.\n\nMigraine page: \"lacosamide (Vimpat)\" under \"UNACCEPTABLE - Migraine Prevention (Prophylaxis)\".\nIt says: \"Use prohibited as a single agent or in any combination product.\"\nDo Not Issue table: \"SEIZURE MEDICATIONS\", \"Even if used for non-seizure conditions (e.g., migraines)\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-lacosamide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "lasmiditan",
+    "brandNames": [
+      "Reyvow"
+    ],
+    "category": "5-HT1F agonist (migraine relief)",
+    "faaStatus": "caseByCase",
+    "faaStatusDescription": "Migraine relief with a Special Issuance only: 48-hour no-fly after each dose.\n\nListed as: \"lasmiditan (Reyvow)\" under \"SI CONDITIONAL - Migraine Relief/Rescue Medication\".\nPost-dose observation: 48 hours.\nFor prevention: \"lasmiditan (Reyvow) [unacceptable for prophylaxis/prevention]\".\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\nThat page covers migraine relief.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-lasmiditan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "linaclotide",
+    "brandNames": [
+      "Linzess"
+    ],
+    "category": "GC-C agonist (IBS/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"linaclotide(Linzess)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for linaclotide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-linaclotide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
   {
@@ -612,6 +1219,90 @@
     }
   },
   {
+    "genericName": "methotrexate",
+    "brandNames": [
+      "Trexall"
+    ],
+    "category": "Immunosuppressant (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"methotrexate (Trexall)\" under acceptable medications.\nColitis worksheet lists \"methotrexate (Trexall)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for methotrexate.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-methotrexate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "metoclopramide",
+    "brandNames": [
+      "Reglan"
+    ],
+    "category": "Antiemetic",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For migraine nausea: 36-hour no-fly after each dose; not for daily use.\n\nListed as: \"metoclopramide (Reglan)\" under \"Nausea and Vomiting (associated with migraine)\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 36 hours.\nThe Headache or Migraine page agrees: \"metoclopramide (Reglan): 36 hour no-fly\".\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\nThat table covers nausea associated with migraine.\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-metoclopramide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "mirikizumab",
+    "brandNames": [
+      "Omvoh"
+    ],
+    "category": "Interleukin inhibitor (colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"mirikizumab (Omvoh)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-mirikizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "naratriptan",
+    "brandNames": [
+      "Amerge"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 24-hour no-fly after each dose.\n\nListed as: \"naratriptan (Amerge)\" under \"Serotonin 5HT1 receptor agonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-naratriptan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
     "genericName": "oxybutynin",
     "brandNames": [
       "Ditropan"
@@ -626,6 +1317,22 @@
       "lastVerified": "2026-10-06T01:48:19Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "plecanatide",
+    "brandNames": [
+      "Trulance"
+    ],
+    "category": "GC-C agonist (IBS/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"plecanatide (Trulance)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for plecanatide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-plecanatide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
   {
@@ -663,6 +1370,29 @@
     }
   },
   {
+    "genericName": "promethazine",
+    "brandNames": [
+      "Phenergan"
+    ],
+    "category": "Antiemetic",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For migraine nausea: 96-hour no-fly after each dose; not for daily use.\n\nListed as: \"promethazine (Phenergan)\" under \"Nausea and Vomiting (associated with migraine)\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 96 hours.\nThe Headache or Migraine page agrees: \"promethazine (Phenergan): 96 hour no-fly\".\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\nThat table covers nausea associated with migraine.\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-promethazine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
     "genericName": "ranolazine",
     "brandNames": [
       "Ranexa"
@@ -678,6 +1408,77 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
+  },
+  {
+    "genericName": "rimegepant",
+    "brandNames": [
+      "Nurtec"
+    ],
+    "category": "CGRP antagonist (migraine relief)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief: 24 or 48 hours no-fly after a dose; two FAA pages differ.\n\nListed as: \"rimegepant (Nurtec)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nHeadache or Migraine page (updated September 24, 2025): \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist with 48 hour no fly time\", naming \"Rimegepant (Nurtec)\".\nThe two FAA pages give different times.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rimegepant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "risankizumab",
+    "brandNames": [
+      "Skyrizi"
+    ],
+    "category": "Interleukin inhibitor (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"risankizumab (Skyrizi)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-risankizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "rituximab",
+    "brandNames": [
+      "Rituxan"
+    ],
+    "category": "Anti-CD20 antibody (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 72-hour no-fly after each dose.\n\nFAA biologics list: \"rituximab (Rituxan)\" under \"B-Cell Inhibitors\".\nNo-fly after each dose: 72 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rituximab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
   },
   {
     "genericName": "ropinirole",
@@ -714,6 +1515,50 @@
     }
   },
   {
+    "genericName": "sarilumab",
+    "brandNames": [
+      "Kevzara"
+    ],
+    "category": "Interleukin inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"sarilumab (Kevzara)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-sarilumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "secukinumab",
+    "brandNames": [
+      "Cosentyx"
+    ],
+    "category": "Interleukin inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"secukinumab (Cosentyx)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-secukinumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "solifenacin",
     "brandNames": [
       "Vesicare"
@@ -729,6 +1574,70 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
+  },
+  {
+    "genericName": "tenapanor",
+    "brandNames": [
+      "Ibsrela"
+    ],
+    "category": "NHE3 inhibitor (IBS/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"tenapanor (Ibsrela)\" under \"Sodium/Hydrogen Exchanger 3 Inhibitor\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for tenapanor.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tenapanor",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+    }
+  },
+  {
+    "genericName": "tocilizumab",
+    "brandNames": [
+      "Actemra"
+    ],
+    "category": "Interleukin inhibitor (arthritis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"tocilizumab (Actemra)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tocilizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "tofacitinib",
+    "brandNames": [
+      "Xeljanz"
+    ],
+    "category": "JAK inhibitor (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"tofacitinib (Xeljanz)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tofacitinib",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
   },
   {
     "genericName": "tolterodine",
@@ -4140,6 +5049,81 @@
     "treatedConditionNote": "Hypertension"
   },
   {
+    "genericName": "ubrogepant",
+    "brandNames": [
+      "Ubrelvy"
+    ],
+    "category": "CGRP antagonist (migraine relief)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief: 24 or 48 hours no-fly after a dose; two FAA pages differ.\n\nListed as: \"ubrogepant (Ubrelvy)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nHeadache or Migraine page (updated September 24, 2025): \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist with 48 hour no fly time\", naming \"ubrogepant (Ubrelvy)\".\nThe two FAA pages give different times.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026; FAA Headache or Migraine, updated September 24, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ubrogepant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Headache or Migraine (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf"
+      }
+    ],
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "upadacitinib",
+    "brandNames": [
+      "Rinvoq"
+    ],
+    "category": "JAK inhibitor (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"upadacitinib (Rinvoq)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-upadacitinib",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "ustekinumab",
+    "brandNames": [
+      "Stelara"
+    ],
+    "category": "Interleukin inhibitor (arthritis/colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"ustekinumab (Stelara)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nListed beneath it: \"Warn for posterior reversible encephalopathy syndrome (PRES)\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ustekinumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "valacyclovir",
     "brandNames": [
       "Valtrex"
@@ -4154,6 +5138,29 @@
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "faaStatus": "acceptable"
+  },
+  {
+    "genericName": "valproic acid",
+    "brandNames": [
+      "Depakote"
+    ],
+    "category": "Anticonvulsant (seizure/migraine)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Do Not Issue: seizure medications, even when used for migraine.\n\nMigraine page: \"valproic acid (Depakote)\" under \"UNACCEPTABLE - Migraine Prevention (Prophylaxis)\".\nIt says: \"Use prohibited as a single agent or in any combination product.\"\nDo Not Issue table: \"SEIZURE MEDICATIONS\", \"Even if used for non-seizure conditions (e.g., migraines)\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-valproic-acid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "valsartan",
@@ -4190,6 +5197,28 @@
     "informationalOnly": false,
     "faaStatus": "conditional",
     "isCACI": false
+  },
+  {
+    "genericName": "vedolizumab",
+    "brandNames": [
+      "Entyvio"
+    ],
+    "category": "Selective adhesion-molecule inhibitor (colitis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"vedolizumab (Entyvio)\" under \"Selective Adhesion-Molecule (SAM) Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-vedolizumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
   },
   {
     "genericName": "venlafaxine",
@@ -4297,6 +5326,40 @@
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
     "preFlightWaitHours": 12
+  },
+  {
+    "genericName": "zavegepant",
+    "brandNames": [
+      "Zavzpret"
+    ],
+    "category": "CGRP antagonist (migraine relief)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 24-hour no-fly after each dose.\n\nListed as: \"zavegepant (Zavzpret)\" under \"Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zavegepant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "zolmitriptan",
+    "brandNames": [
+      "Zomig"
+    ],
+    "category": "Triptan (migraine)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Migraine relief, occasional use: 24-hour no-fly after each dose.\n\nListed as: \"ZOLMitriptan (Zomig)\" under \"Serotonin 5HT1 receptor agonist\" in the \"CACI ACCEPTABLE - Migraine Relief/Rescue Medication\" table.\nMigraine Medication page (updated August 26, 2026): post-dose observation 24 hours.\nUse: \"ACCEPTABLE when used occasionally. Unacceptable for daily use.\"\n\"If multiple relief medications are required on a recurring basis to stop symptoms, this is considered a complicated migraine, and the AME should Defer.\"\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zolmitriptan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T14:40:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
     "genericName": "zolpidem",

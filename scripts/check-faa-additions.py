@@ -11,9 +11,18 @@ AVOID column named nine drugs and we carried four).
 
 WHAT IT READS. A FIXED list, never a search of faa.gov:
   - the FAA's Do Not Issue / Do Not Fly tables (DNI_DNF_tables.pdf)
-  - every CACI worksheet PDF our own caci_worksheets.json cites
+  - every CACI worksheet PDF our content cites: caci_worksheets.json's sourceURL and
+    worksheetURL, plus any *CACI* PDF a medication entry cites. (Until 2026-10-06 only the
+    sourceURL was read, and the arthritis entry's sourceURL is the disposition TABLE, so the
+    arthritis WORKSHEET and its 22 drugs were never read; 11 of them were missing.)
+  - the detailed drug lists those worksheets send the AME to (DRUG_LISTS below). Added
+    2026-10-06: Headache_Migraine.pdf says "Detailed list of migraine medications can be found
+    Pharmaceuticals - Migraine Medications", and 8 drugs on that page were absent from our file
+    with this check green (rimegepant, zolmitriptan, lasmiditan...).
 It pulls drug names the way the FAA writes them: "generic (Brand)" or "generic [Brand]"
-anywhere, plus bulleted lowercase names in the DNI/DNF tables.
+anywhere, plus bulleted lowercase names in the DNI/DNF tables. The generic may be capitalised
+("Rimegepant (Nurtec)") or tall-man ("ZOLMitriptan (Zomig)"); until 2026-10-06 only lowercase
+generics were read, which is how rimegepant was skipped on the migraine worksheet.
 
 WHAT COUNTS AS OURS. A name a pilot's search would find: it appears, as whole words, in any
 medication entry's genericName, brandNames, faaStatusDescription, informationalNote, category
@@ -26,7 +35,9 @@ only when it is not a medication, or when we deliberately do not carry it AND sa
 ignore entry is a decision, not a mute button.
 
 INSTRUMENT DISCIPLINE (GOTCHAS_VERIFY §1, §13): before any result is believed, the DNI text
-must contain a known drug, and the weight-loss CACI must yield orforglipron. A self-test then
+must contain a known drug, the weight-loss CACI must yield orforglipron, the migraine
+worksheet must yield the capitalised "Rimegepant", and the migraine drug list must yield the
+tall-man "ZOLMitriptan". A self-test then
 removes orforglipron from our side and requires the check to flag it. Any control failing
 exits 2 (broken instrument), never 0 or 1.
 
@@ -47,8 +58,10 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 DNI_CONTROL = "diphenhydramine"
 CACI_CONTROL = ("CACI_weight_loss_management.pdf", "orforglipron")
+CASE_CONTROLS = (("Headache_Migraine.pdf", "rimegepant"), ("Migraine_Medication.pdf", "zolmitriptan"))
+DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"]
 
-PAIR = re.compile(r"\b([a-z][a-z\-]{3,}(?: [a-z][a-z\-]{3,})?)\s*\*?\s*[\(\[]\s*([A-Z][A-Za-z0-9\- ]{1,30})")
+PAIR = re.compile(r"\b([A-Za-z][A-Za-z\-]{3,}(?: [A-Za-z][A-Za-z\-]{3,})?)\s*\*?\s*[\(\[]\s*([A-Z][A-Za-z0-9\- ]{1,30})")
 BULLET = re.compile(r"(?m)^\s*(?:•|o|-)\s+([a-z][a-z\-]{4,})\b")
 ACRONYM = re.compile(r"^[A-Z0-9]{2,6}\b")
 SEARCHED = ("genericName", "faaStatusDescription", "informationalNote", "category", "treatedConditionNote")
@@ -76,7 +89,7 @@ def candidates(text: str, bullets: bool) -> set[str]:
     out = set()
     for m in PAIR.finditer(text):
         if not ACRONYM.match(m.group(2)):
-            out.add(m.group(1).strip())
+            out.add(m.group(1).strip().lower())
     if bullets:
         out.update(m.group(1) for m in BULLET.finditer(text))
     return out
@@ -100,8 +113,14 @@ def covered(name: str, ours: str) -> bool:
 def main() -> int:
     ignore = json.loads(IGNORE.read_text()).get("terms", {})
     caci = json.loads((ROOT / "v1" / "caci_worksheets.json").read_text())
-    caci_urls = sorted({e["envelope"]["sourceURL"] for e in caci
-                        if e["envelope"]["sourceURL"].lower().endswith(".pdf")})
+    cited = set()
+    for e in caci:
+        cited |= {e["envelope"]["sourceURL"], e.get("worksheetURL") or ""}
+    for e in json.loads((ROOT / "v1" / "medications.json").read_text()):
+        for u in [e["envelope"].get("sourceURL") or ""] + [l.get("url", "") for l in e.get("links") or []]:
+            if "caci" in u.rsplit("/", 1)[-1].lower():
+                cited.add(u)
+    caci_urls = sorted({u for u in cited if u.lower().endswith(".pdf")} | set(DRUG_LISTS))
     found: dict[str, set[str]] = {}
     unreadable = []
     with tempfile.TemporaryDirectory() as tmp:
@@ -118,6 +137,10 @@ def main() -> int:
             if name == CACI_CONTROL[0] and CACI_CONTROL[1] not in got:
                 print(f"❌ CONTROL FAILED: '{CACI_CONTROL[1]}' not extracted from {name}.")
                 return 2
+            for doc, drug in CASE_CONTROLS:
+                if name == doc and drug not in got:
+                    print(f"❌ CONTROL FAILED: '{drug}' not extracted from {name} (capitalised name).")
+                    return 2
             for c in got:
                 found.setdefault(c, set()).add(name)
     if DNI_URL in unreadable or len(unreadable) == len(caci_urls) + 1:
