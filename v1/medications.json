@@ -3367,11 +3367,11 @@
     "category": "Benzodiazepine (anxiety/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; ANTI-ANXIETY medications appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Two FAA tables: Do Not Issue for seizure drugs, Do Not Fly for anti-anxiety.\n\nDo Not Issue table: \"SEIZURE MEDICATIONS\", \"Even if used for non-seizure conditions (e.g., migraines)\".\nIt covers its classes \"for any condition\": \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\nDo Not Fly table: \"ANTI-ANXIETY\" medications, \"Including but not limited to\" alprazolam (Xanax), lorazepam (Ativan), temazepam (Restoril) and triazolam (Halcion).\nFor that table: \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\"\nClonazepam is both an anti-seizure and an anti-anxiety medication. Lorazepam, which the FAA lists under Do Not Fly, is also used for seizures. Neither FAA table names clonazepam.\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-clonazepam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
+      "lastVerified": "2026-10-06T18:09:17Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
@@ -4421,11 +4421,11 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThe Migraine Medication page also lists \"gabapentin (Neurontin)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Do Not Issue: seizure medications, even when used for other conditions.\n\nDo Not Issue table: \"SEIZURE MEDICATIONS\", \"Even if used for non-seizure conditions (e.g., migraines)\".\nIt covers its classes \"for any condition\": \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\nGabapentin is an anti-seizure medication, so this applies even when it is prescribed for nerve pain.\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\nThe Migraine Medication page also lists \"gabapentin (Neurontin)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gabapentin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
+      "lastVerified": "2026-10-06T18:09:17Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     },
@@ -6000,11 +6000,11 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThe Migraine Medication page also lists \"pregabalin (Lyrica)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Do Not Issue: seizure medications, even when used for other conditions.\n\nDo Not Issue table: \"SEIZURE MEDICATIONS\", \"Even if used for non-seizure conditions (e.g., migraines)\".\nIt covers its classes \"for any condition\": \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\nPregabalin is an anti-seizure medication, so this applies even when it is prescribed for nerve pain.\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\nThe Migraine Medication page also lists \"pregabalin (Lyrica)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026; FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pregabalin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
+      "lastVerified": "2026-10-06T18:09:17Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     },
