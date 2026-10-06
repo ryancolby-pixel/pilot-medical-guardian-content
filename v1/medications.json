@@ -288,8 +288,8 @@
     "envelope": {
       "code": "med-alprazolam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -326,7 +326,7 @@
     "envelope": {
       "code": "med-amiodarone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -341,12 +341,12 @@
     "category": "Tricyclic antidepressant",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amitriptyline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -363,7 +363,7 @@
     "envelope": {
       "code": "med-amlodipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -546,7 +546,7 @@
     "envelope": {
       "code": "med-atenolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -586,12 +586,12 @@
     "category": "Non-stimulant ADHD agent",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "ADHD medications sit under DO NOT ISSUE. They appear inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which names \"Attention deficit disorder (ADD)\" and ADHD medications among its examples and applies \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ADHD medications sit under DO NOT ISSUE. They appear inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which names \"Attention deficit disorder (ADD)\" and ADHD medications among its examples and applies \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-atomoxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:17:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -696,8 +696,8 @@
     "envelope": {
       "code": "med-baclofen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -780,7 +780,7 @@
     "envelope": {
       "code": "med-benazepril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -821,15 +821,21 @@
     "category": "Sympathomimetic (weight loss)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists benzphetamine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"benzphetamine (Regimex)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".",
+    "faaStatusDescription": "The FAA lists benzphetamine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"benzphetamine (Regimex)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"",
     "envelope": {
       "code": "med-benzphetamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 09/30/2026), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "bepotastine",
@@ -920,7 +926,7 @@
     "envelope": {
       "code": "med-bisoprolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -961,12 +967,12 @@
     "category": "Alpha-agonist eye drop (glaucoma)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Alpha-agonist eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Glaucoma CACI drug; ALL worksheet criteria must be met.\n\nGlaucoma worksheet lists \"Alpha agonist (Alphagan)\" among acceptable medications, and \"Combination eye drops are acceptable\".\nNOT acceptable for CACI: \"Pilocarpine or other miotics, cycloplegics (Atropine), or oral medications.\"\nAcceptable types include \"Open Angle being monitored and stable\" and ocular hypertension or glaucoma suspect being monitored and stable.\nAge at diagnosis: 40 or older. Intraocular pressure: 23 mm Hg or less in both eyes.\nNot acceptable types include normal tension glaucoma and secondary glaucoma, for example from inflammation or trauma.\nNo documented nerve damage or trabeculectomy, no medication side effects, and the treating ophthalmologist finds it stable.\nVisual fields: no defect and no unreliable results, on an acceptable formal test such as Humphrey 24-2 or 30-2.\nThe AME needs FAA Form 8500-14 or an equivalent treating physician report.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Glaucoma Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-brimonidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Glaucoma Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
@@ -1061,7 +1067,7 @@
     "envelope": {
       "code": "med-bupropion",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (08/27/2025), Smoking Cessation Medications (04/29/2026), and Weight Loss Medication (04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
@@ -1074,15 +1080,21 @@
     ],
     "category": "Weight loss combination",
     "isCACI": false,
-    "faaStatusDescription": "For weight loss the FAA lists bupropion plus naltrexone (Contrave) as DO NOT ISSUE, prohibited as a single agent or in any combination product. That is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For weight loss the FAA lists bupropion plus naltrexone (Contrave) as DO NOT ISSUE, prohibited as a single agent or in any combination product. \n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-contrave",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "faaStatus": "notAcceptable"
+    "faaStatus": "notAcceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "bupropion IR (immediate release)",
@@ -1095,7 +1107,7 @@
     "envelope": {
       "code": "med-bupropion-ir",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
@@ -1910,6 +1922,29 @@
     }
   },
   {
+    "genericName": "liotrix",
+    "brandNames": [
+      "Thyrolar"
+    ],
+    "category": "Thyroid hormone (hypothyroidism)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Hypothyroidism CACI drug; ALL worksheet criteria must be met.\n\nCACI worksheet lists \"liotrix (Thyrolar)\" among acceptable medications.\nCriteria: a normal TSH within the last year, the treating physician finds it stable with no changes recommended, and \"None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems\".\nFor primary hypothyroidism meeting the worksheet, the FAA's table says ISSUE with no time limitation. It notes TSH up to 9.9 can be considered for CACI if other criteria are met.\nIt is DEFER if symptomatic, with \"TSH 10 mIU/L or higher\", or for central hypothyroidism.\nIf deferred, the FAA asks for a detailed Clinical Progress Note with a summary of the history, a TSH and other labs within 90 days, and copies of any imaging reports already performed.\nThe AME reviews a current Clinical Progress Note from a visit no more than 90 days before the exam, and a TSH.\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Hypothyroidism table, updated January 25, 2023; CACI Hypothyroidism Worksheet, updated November 24, 2021.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-liotrix",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T17:50:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Hypothyroid or Hypothyroidism, All Classes (updated 01/25/2023); FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf"
+      }
+    ],
+    "isCACI": true
+  },
+  {
     "genericName": "lixisenatide",
     "brandNames": [
       "Adlyxin"
@@ -2376,6 +2411,29 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
+  },
+  {
+    "genericName": "porcine thyroid",
+    "brandNames": [
+      "Armour Thyroid"
+    ],
+    "category": "Thyroid hormone (hypothyroidism)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Hypothyroidism CACI drug; ALL worksheet criteria must be met.\n\nCACI worksheet lists \"porcine thyroid (Armour)\" among acceptable medications.\nCriteria: a normal TSH within the last year, the treating physician finds it stable with no changes recommended, and \"None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems\".\nFor primary hypothyroidism meeting the worksheet, the FAA's table says ISSUE with no time limitation. It notes TSH up to 9.9 can be considered for CACI if other criteria are met.\nIt is DEFER if symptomatic, with \"TSH 10 mIU/L or higher\", or for central hypothyroidism.\nIf deferred, the FAA asks for a detailed Clinical Progress Note with a summary of the history, a TSH and other labs within 90 days, and copies of any imaging reports already performed.\nThe AME reviews a current Clinical Progress Note from a visit no more than 90 days before the exam, and a TSH.\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Hypothyroidism table, updated January 25, 2023; CACI Hypothyroidism Worksheet, updated November 24, 2021.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-porcine-thyroid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T17:50:05Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Hypothyroid or Hypothyroidism, All Classes (updated 01/25/2023); FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf"
+      }
+    ],
+    "isCACI": true
   },
   {
     "genericName": "pramipexole",
@@ -2967,7 +3025,7 @@
     "envelope": {
       "code": "med-zyban",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:46:13Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
@@ -2985,7 +3043,7 @@
     "envelope": {
       "code": "med-bupropion-sr-er",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47 Psychiatric: Use of Antidepressant Medications, with the Antidepressant Medications table (updated 08/27/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     },
@@ -3001,7 +3059,7 @@
     "envelope": {
       "code": "med-buspirone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3039,7 +3097,7 @@
     "envelope": {
       "code": "med-candesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -3067,7 +3125,7 @@
     "envelope": {
       "code": "med-carvedilol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -3153,7 +3211,7 @@
       "code": "med-chlorpheniramine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 120,
@@ -3178,7 +3236,7 @@
     "envelope": {
       "code": "med-chlorthalidone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -3203,7 +3261,7 @@
     "envelope": {
       "code": "med-ciprofloxacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3223,7 +3281,7 @@
     "envelope": {
       "code": "med-citalopram",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3240,7 +3298,7 @@
     "envelope": {
       "code": "med-plenity",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -3313,8 +3371,8 @@
     "envelope": {
       "code": "med-clonazepam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -3364,7 +3422,7 @@
     "envelope": {
       "code": "med-colchicine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3381,7 +3439,7 @@
     "envelope": {
       "code": "med-colesevelam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -3399,8 +3457,8 @@
     "envelope": {
       "code": "med-cyclobenzaprine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -3468,7 +3526,7 @@
     "envelope": {
       "code": "med-desvenlafaxine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3485,8 +3543,8 @@
     "envelope": {
       "code": "med-diazepam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -3518,7 +3576,7 @@
     "envelope": {
       "code": "med-dicyclomine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Version 07/29/2026: Do Not Issue / Do Not Fly section preamble and DNI table (pp. 615 to 616), CACI Colitis Worksheet (p. 201, updated 04/29/2026), and AASI for Colitis (Ulcerative or Crohn's Disease) or Irritable Bowel Syndrome (p. 683). Dicyclomine is not named anywhere in the Guide.",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
     }
@@ -3532,15 +3590,21 @@
     "category": "Sympathomimetic (weight loss)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists diethylpropion as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"diethylpropion (Tenuate, Tempanil)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".",
+    "faaStatusDescription": "The FAA lists diethylpropion as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"diethylpropion (Tenuate, Tempanil)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"",
     "envelope": {
       "code": "med-diethylpropion",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 09/30/2026), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "digoxin",
@@ -3552,7 +3616,7 @@
     "envelope": {
       "code": "med-digoxin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -3573,7 +3637,7 @@
     "envelope": {
       "code": "med-diltiazem",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -3621,7 +3685,7 @@
       "code": "med-diphenhydramine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 06/28/2023)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "informationalOnly": false,
@@ -3642,7 +3706,7 @@
     "envelope": {
       "code": "med-dofetilide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals (Therapeutic Medications) index. This medication is not individually listed.",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -3656,12 +3720,12 @@
     "category": "Carbonic anhydrase inhibitor eye drop (glaucoma)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Carbonic anhydrase inhibitor eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Glaucoma CACI drug; ALL worksheet criteria must be met.\n\nGlaucoma worksheet lists \"Carbonic anhydrase inhibitor (Trusopt and Azopt)\" among acceptable medications, and \"Combination eye drops are acceptable\".\nNOT acceptable for CACI: \"Pilocarpine or other miotics, cycloplegics (Atropine), or oral medications.\"\nAcceptable types include \"Open Angle being monitored and stable\" and ocular hypertension or glaucoma suspect being monitored and stable.\nAge at diagnosis: 40 or older. Intraocular pressure: 23 mm Hg or less in both eyes.\nNot acceptable types include normal tension glaucoma and secondary glaucoma, for example from inflammation or trauma.\nNo documented nerve damage or trabeculectomy, no medication side effects, and the treating ophthalmologist finds it stable.\nVisual fields: no defect and no unreliable results, on an acceptable formal test such as Humphrey 24-2 or 30-2.\nThe AME needs FAA Form 8500-14 or an equivalent treating physician report.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Glaucoma Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-dorzolamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Glaucoma Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
@@ -3742,7 +3806,7 @@
     "envelope": {
       "code": "med-duloxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3818,7 +3882,7 @@
     "envelope": {
       "code": "med-enalapril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -3843,7 +3907,7 @@
     "envelope": {
       "code": "med-erenumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -3863,7 +3927,7 @@
     "envelope": {
       "code": "med-escitalopram",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -3880,7 +3944,7 @@
     "envelope": {
       "code": "med-esketamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -3909,15 +3973,21 @@
       "Climara"
     ],
     "category": "Estrogen (hormone replacement)",
-    "faaStatusDescription": "The FAA does not name estradiol individually, but it addresses the class. Its contraceptives and hormone replacement page states that \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\" and that \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "The FAA does not name estradiol individually, but it addresses the class. Its contraceptives and hormone replacement page states that \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\" and that \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nMedGuide (October 1, 2026) names it only in combinations: estradiol + norethindrone (Activella) and estradiol + progesterone (Bijuva), each allowed for menopause with a 24-hour wait after the first dose, and estradiol + estriol (topical), with no wait listed.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-estradiol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:32:07Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Contraceptives and Hormone Replacement Therapy",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/chrt"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "conditional",
+    "links": [
+      {
+        "title": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+        "url": "https://www.faa.gov/ame_guide/medguide"
+      }
+    ]
   },
   {
     "genericName": "eszopiclone",
@@ -3931,7 +4001,7 @@
     "envelope": {
       "code": "med-eszopiclone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:32Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals, Sleep Aids (table last updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -3940,18 +4010,48 @@
   {
     "genericName": "ethinyl estradiol/norethindrone",
     "brandNames": [
-      "(combined oral contraceptive)"
+      "Alyacen",
+      "Aranelle",
+      "Aurovela",
+      "Balziva",
+      "Blisovi",
+      "Briellyn",
+      "Cyclafem",
+      "Generess",
+      "Junel",
+      "Kaitlib",
+      "Larin",
+      "Layolis",
+      "Leena",
+      "Lo Loestrin Fe",
+      "Loestrin",
+      "Microgestin",
+      "Minastrin",
+      "Necon",
+      "Nortrel",
+      "Nylia",
+      "Ortho-Novum",
+      "Pirmella",
+      "Tilia",
+      "Vyfemla",
+      "Wymzya"
     ],
     "category": "Oral contraceptive",
-    "faaStatusDescription": "The FAA does not name ethinyl estradiol/norethindrone individually, but it addresses the class. Its contraceptives and hormone replacement page states that \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\" and that \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Alyacen, Aranelle, Aurovela, Balziva, Blisovi, Briellyn, Cyclafem, Generess, Junel, Kaitlib, Larin, Layolis, Leena, Lo Loestrin Fe, Loestrin, Microgestin, Minastrin, Necon, Nortrel, Nylia, Ortho-Novum, Pirmella, Tilia, Vyfemla, Wymzya\nUnderlying condition: Acne, Contraception, Menstrual bleeding\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's contraceptives and hormone replacement page: \"Use of Oral or Repository Contraceptives or Hormonal Replacement Therapy are not disqualifying for medical certification.\"\n\nAnd: \"If the applicant is experiencing no adverse symptoms or reactions to hormones and is otherwise qualified, the Examiner may issue the desired certificate\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ethinyl-estradiol-norethindrone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:32:07Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Contraceptives and Hormone Replacement Therapy",
-      "sourceURL": "https://www.faa.gov/ame_guide/pharm/chrt"
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals: Contraceptives and Hormone Replacement Therapy (last updated 01/22/2025)",
+        "url": "https://www.faa.gov/ame_guide/pharm/chrt"
+      }
+    ]
   },
   {
     "genericName": "evolocumab",
@@ -3963,7 +4063,7 @@
     "envelope": {
       "code": "med-evolocumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
     },
@@ -4044,7 +4144,7 @@
     "envelope": {
       "code": "med-febuxostat",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -4063,7 +4163,7 @@
     "envelope": {
       "code": "med-felodipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4091,7 +4191,7 @@
     "envelope": {
       "code": "med-fenfluramine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -4100,18 +4200,28 @@
   {
     "genericName": "fenofibrate",
     "brandNames": [
-      "Tricor"
+      "Tricor",
+      "Antara",
+      "Trilipix",
+      "Triglide",
+      "Lipofen"
     ],
     "category": "Fibrate (cholesterol)",
-    "faaStatusDescription": "ACCEPTABLE on the FAA's cholesterol list, after a 48-hour ground trial. Its Cholesterol Medications page lists \"fenofibrate (Antara, Tricor, Triglide, Trilipix)\" under Fibric Acid. The FAA lists it under \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\", and states that \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lipofen, Tricor [INTL], Lipanthyl [INTL]\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia, Hypertriglyceridemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-fenofibrate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025), ACCEPTABLE Cholesterol Medications",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
-    "faaStatus": "conditional"
+    "faaStatus": "acceptable",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "fexofenadine",
@@ -4168,7 +4278,7 @@
     "envelope": {
       "code": "med-flecainide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -4204,7 +4314,7 @@
     "envelope": {
       "code": "med-fluoxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -4270,7 +4380,7 @@
     "envelope": {
       "code": "med-fluvoxamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -4287,7 +4397,7 @@
     "envelope": {
       "code": "med-furosemide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4311,14 +4421,20 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThe Migraine Medication page also lists \"gabapentin (Neurontin)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-gabapentin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "gemfibrozil",
@@ -4411,7 +4527,7 @@
     "envelope": {
       "code": "med-hydrochlorothiazide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4441,8 +4557,8 @@
     "envelope": {
       "code": "med-hydrocodone-acetaminophen",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -4456,7 +4572,7 @@
     "envelope": {
       "code": "med-hydrocortisone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue table, STEROIDS, HIGH DOSE (greater than 20 mg prednisone or prednisone equivalent per day), read with the CACI Colitis, Eosinophilic Esophagitis and Asthma worksheets and the Adrenal Insufficiency (Addison's Disease) disposition table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     },
@@ -4498,7 +4614,7 @@
     "envelope": {
       "code": "med-indapamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4553,7 +4669,7 @@
     "envelope": {
       "code": "med-irbesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4581,7 +4697,7 @@
     "envelope": {
       "code": "med-labetalol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4605,12 +4721,12 @@
     "category": "Anticonvulsant (seizure/mood)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lamotrigine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -4639,12 +4755,12 @@
     "category": "Prostaglandin analog (glaucoma)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Prostaglandin analog (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Glaucoma CACI drug; ALL worksheet criteria must be met.\n\nGlaucoma worksheet lists \"Prostaglandin analogs (Xalatan, Lumigan, Travatan or Travatan Z)\" among acceptable medications, and \"Combination eye drops are acceptable\".\nNOT acceptable for CACI: \"Pilocarpine or other miotics, cycloplegics (Atropine), or oral medications.\"\nAcceptable types include \"Open Angle being monitored and stable\" and ocular hypertension or glaucoma suspect being monitored and stable.\nAge at diagnosis: 40 or older. Intraocular pressure: 23 mm Hg or less in both eyes.\nNot acceptable types include normal tension glaucoma and secondary glaucoma, for example from inflammation or trauma.\nNo documented nerve damage or trabeculectomy, no medication side effects, and the treating ophthalmologist finds it stable.\nVisual fields: no defect and no unreliable results, on an acceptable formal test such as Humphrey 24-2 or 30-2.\nThe AME needs FAA Form 8500-14 or an equivalent treating physician report.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Glaucoma Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-latanoprost",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Glaucoma Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
@@ -4674,12 +4790,12 @@
     "category": "Anticonvulsant (seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levetiracetam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -4718,7 +4834,7 @@
     "envelope": {
       "code": "med-levofloxacin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -4737,7 +4853,7 @@
     "envelope": {
       "code": "med-levomilnacipran",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -4752,14 +4868,20 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "Concern is the thyroid condition and stability, not the drug; hypothyroidism is CACI-addressed.",
-    "faaStatusDescription": "Hypothyroidism on thyroid-replacement therapy is addressed by the FAA CACI program when stable. Confirm against the current AME Guide CACI — Hypothyroidism worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypothyroidism CACI drug; ALL worksheet criteria must be met.\n\nCACI worksheet lists \"Levothyroxine sodium (Synthroid, Levothyroid)\" among acceptable medications.\nCriteria: a normal TSH within the last year, the treating physician finds it stable with no changes recommended, and \"None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems\".\nFor primary hypothyroidism meeting the worksheet, the FAA's table says ISSUE with no time limitation. It notes TSH up to 9.9 can be considered for CACI if other criteria are met.\nIt is DEFER if symptomatic, with \"TSH 10 mIU/L or higher\", or for central hypothyroidism.\nIf deferred, the FAA asks for a detailed Clinical Progress Note with a summary of the history, a TSH and other labs within 90 days, and copies of any imaging reports already performed.\nThe AME reviews a current Clinical Progress Note from a visit no more than 90 days before the exam, and a TSH.\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Hypothyroidism table, updated January 25, 2023; CACI Hypothyroidism Worksheet, updated November 24, 2021.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-levothyroxine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Hypothyroid / Hypothyroidism disposition",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Hypothyroid or Hypothyroidism, All Classes (updated 01/25/2023); FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf"
+      }
+    ]
   },
   {
     "genericName": "linagliptin",
@@ -4787,15 +4909,21 @@
     "category": "Thyroid hormone (hypothyroidism)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Hypothyroidism treated with Thyroid hormone (hypothyroidism) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Hypothyroidism CACI drug; ALL worksheet criteria must be met.\n\nCACI worksheet lists \"liothyronine sodium (Cytomel)\" among acceptable medications.\nCriteria: a normal TSH within the last year, the treating physician finds it stable with no changes recommended, and \"None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems\".\nFor primary hypothyroidism meeting the worksheet, the FAA's table says ISSUE with no time limitation. It notes TSH up to 9.9 can be considered for CACI if other criteria are met.\nIt is DEFER if symptomatic, with \"TSH 10 mIU/L or higher\", or for central hypothyroidism.\nIf deferred, the FAA asks for a detailed Clinical Progress Note with a summary of the history, a TSH and other labs within 90 days, and copies of any imaging reports already performed.\nThe AME reviews a current Clinical Progress Note from a visit no more than 90 days before the exam, and a TSH.\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Hypothyroidism table, updated January 25, 2023; CACI Hypothyroidism Worksheet, updated November 24, 2021.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-liothyronine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Hypothyroid / Hypothyroidism disposition",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Hypothyroid or Hypothyroidism, All Classes (updated 01/25/2023); FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
-    "treatedConditionNote": "Hypothyroidism"
+    "treatedConditionNote": "Hypothyroidism",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Hypothyroidism Worksheet (updated 11/24/2021)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf"
+      }
+    ]
   },
   {
     "genericName": "liraglutide",
@@ -4808,7 +4936,7 @@
     "envelope": {
       "code": "med-liraglutide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -4846,11 +4974,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists liraglutide under \"ACCEPTABLE Weight Loss Medications\". It names no brand for it.\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists liraglutide under \"ACCEPTABLE Weight Loss Medications\". It names no brand for it.\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nThe page also accepts a GLP-1 agonist combined with orlistat: \"orlistat + GLP-1 agonist\", with \"only one diabetic medication\".\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-liraglutide-wl",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -4864,12 +4992,12 @@
     "category": "CNS stimulant (ADHD)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "ADHD medications and stimulants sit under DO NOT ISSUE. Inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group it names \"Attention deficit disorder (ADD)\" and ADHD medications, and separately \"Stimulants\", applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "ADHD medications and stimulants sit under DO NOT ISSUE. Inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group it names \"Attention deficit disorder (ADD)\" and ADHD medications, and separately \"Stimulants\", applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-lisdexamfetamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:17:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -4887,7 +5015,7 @@
     "envelope": {
       "code": "med-lisinopril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -4957,8 +5085,8 @@
     "envelope": {
       "code": "med-lorazepam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -4975,7 +5103,7 @@
     "envelope": {
       "code": "med-lorcaserin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -4994,7 +5122,7 @@
     "envelope": {
       "code": "med-losartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5122,7 +5250,7 @@
     "envelope": {
       "code": "med-metformin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     }
@@ -5166,11 +5294,11 @@
     "isCACI": true,
     "informationalOnly": false,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists \"metformin\" under \"ACCEPTABLE Weight Loss Medications\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists \"metformin\" under \"ACCEPTABLE Weight Loss Medications\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nThe page also accepts it combined with orlistat: \"orlistat + metformin\", with \"only one diabetic medication\".\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-metformin-wl",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     }
@@ -5185,7 +5313,7 @@
     "envelope": {
       "code": "med-methimazole",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -5205,8 +5333,8 @@
     "envelope": {
       "code": "med-methocarbamol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -5243,7 +5371,7 @@
     "envelope": {
       "code": "med-metoprolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5286,12 +5414,12 @@
     "category": "Atypical antidepressant",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mirtazapine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -5303,12 +5431,12 @@
     "category": "Wakefulness agent",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Stimulants sit under DO NOT ISSUE. The FAA names \"Stimulants\" inside its \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Stimulants sit under DO NOT ISSUE. The FAA names \"Stimulants\" inside its \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, applied \"Even when used for conditions other than mental health\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-modafinil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -5369,7 +5497,7 @@
     "envelope": {
       "code": "med-nadolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5424,7 +5552,7 @@
     "envelope": {
       "code": "med-nebivolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5500,7 +5628,7 @@
     "envelope": {
       "code": "med-nifedipine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5548,7 +5676,7 @@
     "envelope": {
       "code": "med-olmesartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5676,8 +5804,8 @@
     "envelope": {
       "code": "med-oxycodone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -5711,7 +5839,7 @@
     "envelope": {
       "code": "med-paroxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -5724,15 +5852,21 @@
     "category": "Sympathomimetic (weight loss)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists phendimetrazine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phendimetrazine (Bontril)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".",
+    "faaStatusDescription": "The FAA lists phendimetrazine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phendimetrazine (Bontril)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"",
     "envelope": {
       "code": "med-phendimetrazine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 09/30/2026), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "phentermine",
@@ -5744,15 +5878,21 @@
     "category": "Sympathomimetic (weight loss)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists phentermine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phentermine (Adipex, Fastin)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".",
+    "faaStatusDescription": "The FAA lists phentermine as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phentermine (Adipex, Fastin)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\", and its Do Not Issue table lists \"Sympathomimetic (such as phentermine [Adipex])\" under WEIGHT LOSS.\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"",
     "envelope": {
       "code": "med-phentermine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 09/30/2026), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "phentermine + topiramate (for weight loss)",
@@ -5762,15 +5902,21 @@
     "category": "Sympathomimetic combination (weight loss)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists Qsymia as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phentermine + topiramate (Qsymia)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\".\n\nIts Do Not Issue table lists sympathomimetics under WEIGHT LOSS and separately lists SEIZURE MEDICATIONS \"Even if used for non-seizure conditions (e.g., migraines)\".\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".",
+    "faaStatusDescription": "The FAA lists Qsymia as UNACCEPTABLE, \"prohibited as a single agent or in any combination product\".\n\nIts Weight Loss Medication page names \"phentermine + topiramate (Qsymia)\" among sympathomimetics under \"UNACCEPTABLE Weight Loss Medications\".\n\nIts Do Not Issue table lists sympathomimetics under WEIGHT LOSS and separately lists SEIZURE MEDICATIONS \"Even if used for non-seizure conditions (e.g., migraines)\".\n\nThe FAA writes that for Do Not Issue medications \"AMEs should DEFER the exam\" and \"DO NOT issue a medical certificate to applicants who are using any of the following drug classes or medications for any condition\".\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"",
     "envelope": {
       "code": "med-qsymia",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 06/28/2023), WEIGHT LOSS",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications; Do Not Issue (DNI) Medications table (updated 09/30/2026), WEIGHT LOSS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
-    "informationalOnly": false
+    "informationalOnly": false,
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
   },
   {
     "genericName": "pioglitazone",
@@ -5838,7 +5984,7 @@
     "envelope": {
       "code": "med-prednisone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, DO NOT ISSUE (DNI) Medications table, row STEROIDS HIGH DOSE (updated 06/28/2023); CACI Arthritis, Colitis and Eosinophilic Esophagitis worksheets for the 20 mg equivalent limit; CACI Asthma Worksheet for the short-course statement; Item 17.a for the continuous-treatment deferral",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/dni_dnf/"
     },
@@ -5854,14 +6000,20 @@
     "category": "Gabapentinoid (nerve pain/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "The FAA's tables place this drug's uses on both sides. SEIZURE MEDICATIONS, \"Even if used for non-seizure conditions\" appears under DO NOT ISSUE, where \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"; PAIN MEDICATION appears under DO NOT FLY, where \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and \"If applicant is using the following medications routinely, AMEs should DEFER.\" Which applies depends on why it was prescribed, which is a question for your AME, not this app.\n\nThe Migraine Medication page also lists \"pregabalin (Lyrica)\" as UNACCEPTABLE for migraine prevention: \"Use prohibited as a single agent or in any combination product.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-pregabalin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
-    }
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+      }
+    ]
   },
   {
     "genericName": "propranolol",
@@ -5875,7 +6027,7 @@
     "envelope": {
       "code": "med-propranolol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5905,7 +6057,7 @@
     "envelope": {
       "code": "med-propylthiouracil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/"
     },
@@ -5947,7 +6099,7 @@
     "envelope": {
       "code": "med-quinapril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -5975,8 +6127,8 @@
     "envelope": {
       "code": "med-ramelteon",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 09/30/2026) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
     "preFlightWaitHours": 24
@@ -5993,7 +6145,7 @@
     "envelope": {
       "code": "med-ramipril",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6037,7 +6189,7 @@
     "envelope": {
       "code": "med-rizatriptan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -6078,7 +6230,7 @@
     "envelope": {
       "code": "med-semaglutide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -6117,11 +6269,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Wegovy under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"semaglutide (Wegovy)\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Wegovy under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"semaglutide (Wegovy) [injection or oral]\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nThe page also accepts a GLP-1 agonist combined with orlistat: \"orlistat + GLP-1 agonist\", with \"only one diabetic medication\".\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-semaglutide-wl",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -6140,7 +6292,7 @@
     "envelope": {
       "code": "med-sertraline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -6155,7 +6307,7 @@
     "envelope": {
       "code": "med-sildenafil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
@@ -6211,7 +6363,7 @@
     "envelope": {
       "code": "med-sotalol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pharmaceuticals / cardiovascular protocols — general reference; this medication is not individually listed",
       "sourceURL": "https://www.faa.gov/ame_guide/"
     },
@@ -6230,7 +6382,7 @@
     "envelope": {
       "code": "med-spironolactone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovary Syndrome (PCOS) Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6295,7 +6447,7 @@
     "envelope": {
       "code": "med-sumatriptan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
@@ -6312,7 +6464,7 @@
     "envelope": {
       "code": "med-tadalafil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:47:57Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/ed"
     },
@@ -6370,7 +6522,7 @@
     "envelope": {
       "code": "med-telmisartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6398,8 +6550,8 @@
     "envelope": {
       "code": "med-temazepam",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 09/30/2026) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
     "preFlightWaitHours": 72
@@ -6454,12 +6606,12 @@
     "category": "Beta blocker eye drop (glaucoma)",
     "faaStatus": "conditional",
     "isCACI": true,
-    "faaStatusDescription": "Glaucoma / ocular hypertension treated with Beta blocker eye drop (glaucoma) is addressed by the FAA CACI (Conditions AMEs Can Issue) program when the worksheet criteria are met. Confirm against the current AME Guide CACI worksheet and a qualified AME.",
+    "faaStatusDescription": "Glaucoma CACI drug; ALL worksheet criteria must be met.\n\nGlaucoma worksheet lists \"Beta blockers (Timoptic, etc)\" among acceptable medications, and \"Combination eye drops are acceptable\".\nNOT acceptable for CACI: \"Pilocarpine or other miotics, cycloplegics (Atropine), or oral medications.\"\nAcceptable types include \"Open Angle being monitored and stable\" and ocular hypertension or glaucoma suspect being monitored and stable.\nAge at diagnosis: 40 or older. Intraocular pressure: 23 mm Hg or less in both eyes.\nNot acceptable types include normal tension glaucoma and secondary glaucoma, for example from inflammation or trauma.\nNo documented nerve damage or trabeculectomy, no medication side effects, and the treating ophthalmologist finds it stable.\nVisual fields: no defect and no unreliable results, on an acceptable formal test such as Humphrey 24-2 or 30-2.\nThe AME needs FAA Form 8500-14 or an equivalent treating physician report.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Glaucoma Worksheet, updated April 13, 2022.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-timolol-ophthalmic",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:20:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, CACI Glaucoma Worksheet",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Glaucoma Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
     },
     "treatedConditionNote": "Glaucoma / ocular hypertension"
@@ -6472,15 +6624,21 @@
     "category": "Long-acting anticholinergic (COPD/asthma)",
     "faaStatus": "conditional",
     "isCACI": false,
-    "faaStatusDescription": "Not on the FAA CACI Asthma Worksheet's acceptable-medication list, which names inhaled long-acting beta agonist, inhaled short-acting beta agonist, inhaled corticosteroid and leukotriene receptor antagonist. COPD is not addressed on that worksheet at all. Your AME determines acceptability; confirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Not on the FAA's CACI asthma list of acceptable medications.\n\nThe CACI Asthma Worksheet (updated September 24, 2025) accepts one or more of: inhaled long-acting beta agonist, inhaled short-acting beta agonist, inhaled corticosteroid, and leukotriene receptor antagonist.\nIts Item 35 asthma table (updated September 8, 2026) issues when the worksheet criteria are met; \"All others require FAA Decision.\"\nNeither page mentions tiotropium or COPD, and the MedGuide pilot table does not list tiotropium.\n\nSource: CACI Asthma Worksheet, updated September 24, 2025; Item 35 asthma table, updated September 8, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tiotropium",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T15:40:52Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 35 Asthma (CACI Asthma Worksheet)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); FAA Guide for Aviation Medical Examiners: Item 35. Lungs and Chest - Asthma (last updated 09/08/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
-    "treatedConditionNote": "Concern is the underlying condition (COPD or asthma), not the drug."
+    "treatedConditionNote": "Concern is the underlying condition (COPD or asthma), not the drug.",
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
+      }
+    ]
   },
   {
     "genericName": "tirzepatide",
@@ -6493,7 +6651,7 @@
     "envelope": {
       "code": "med-tirzepatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; CACI - Weight Loss Management Worksheet (updated 04/29/2026); Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row B",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -6531,11 +6689,11 @@
     "faaStatus": "conditional",
     "isCACI": true,
     "treatedConditionNote": "The FAA's concern is the condition being treated, not the drug. This entry is the weight loss indication, with no diagnosis of diabetes. If you have a diabetes diagnosis, the FAA's diabetes protocol applies to you and not this page. If you take it for prediabetes, insulin resistance or metabolic syndrome, the FAA works from a separate \"CACI - Prediabetes Worksheet\" covering \"Metabolic Syndrome, Impaired Fasting Glucose, Insulin Resistance, Glucose Elevation/Intolerance\", with its own Block 60 statement, \"CACI qualified prediabetes\". That page, not this one.",
-    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Zepbound under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"tirzepatide (Zepbound) [GIP + GLP-1 Agonist]\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
+    "faaStatusDescription": "\"When certification criteria are met\", the FAA lists Zepbound under \"ACCEPTABLE Weight Loss Medications\".\n\nIt names it \"tirzepatide (Zepbound) [GIP + GLP-1 Agonist]\".\n\nIts criteria: \"A1C must be 6.4 or less with no diagnosis of diabetes\", \"No history of hypoglycemia requiring intervention\", and \"One (1) week after starting for weight loss.\" It also requires \"48-hour observation with each dose increase, medication, or formulation change.\" There is a third path the FAA keeps separate: it says \"See either the Prediabetes or Weight Loss Management disposition tables\", and its worksheet notes \"If A1c is in the prediabetic range (5.7 to 6.4%)\" to \"see the Pre-Diabetes page\".\n\nIf your A1c sits in that band, that is the page your AME works from, not this one.\n\nThe page also accepts a GLP-1 agonist combined with orlistat: \"orlistat + GLP-1 agonist\", with \"only one diabetic medication\".\n\nIts Weight Loss Management disposition table is ISSUE on ONE non-insulin diabetic medication component, and on \"TWO (2) or more\" it is DEFER, \"Submit the information to the FAA for a possible Special Issuance\".\n\nEven the ISSUE is not automatic: it \"requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam\", or a \"Weight Loss Management Status Report\".\n\nIts CACI worksheet takes \"ONLY ONE of the medications listed\", says \"If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.\" and that \"Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.\" \"Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.\"",
     "envelope": {
       "code": "med-tirzepatide-wl",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:48Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), rows B and C; CACI - Weight Loss Management Worksheet (updated 09/30/2026); CACI - Pre-Diabetes Worksheet",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
     },
@@ -6553,8 +6711,8 @@
     "envelope": {
       "code": "med-tizanidine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -6566,12 +6724,12 @@
     "category": "Anticonvulsant (migraine/seizure)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Seizure medications sit under DO NOT ISSUE, and the FAA applies that \"SEIZURE MEDICATIONS\" entry \"Even if used for non-seizure conditions (e.g., migraines)\". The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-topiramate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -6587,8 +6745,8 @@
     "envelope": {
       "code": "med-tramadol",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:06:50Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -6600,12 +6758,12 @@
     "category": "Serotonin modulator (sleep/depression)",
     "faaStatus": "notAcceptable",
     "isCACI": false,
-    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Antidepressants sit under DO NOT ISSUE, inside the FAA's \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which it applies \"Even when used for conditions other than mental health\". The FAA notes some are allowed and points to its SSRI guidance. The FAA writes: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nThe table defines Do Not Issue: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-trazodone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T23:11:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
@@ -6649,7 +6807,7 @@
     "envelope": {
       "code": "med-triamterene-hydrochlorothiazide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6792,7 +6950,7 @@
     "envelope": {
       "code": "med-valsartan",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6813,17 +6971,23 @@
       "Chantix"
     ],
     "category": "Smoking cessation",
-    "faaStatusDescription": "The FAA lists varenicline (Chantix) as acceptable, and the AME can issue if no history of psychiatric condition(s) or concerns. It is on the FAA's ACCEPTABLE Smoking Cessation Medications table, which gives a 1 week initial observation (ground trial) and no post-dose no-fly time, and its instruction to the AME is to annotate Item 60. If it is used as an antidepressant instead, the FAA sends the AME to its Anxiety, Depression and Related Conditions Table. The FAA's Do Not Issue table separately notes that smoking cessation aid varenicline (Chantix) is allowed. The same FAA page gives usual treatment duration as 12 weeks and says extended maintenance therapy up to one year may have additional guidance.\n\nThat is what the FAA publishes, not a determination about you. Do not change a medication on your own; ask the physician who prescribed it.",
+    "faaStatusDescription": "The FAA lists varenicline (Chantix) as acceptable, and the AME can issue if no history of psychiatric condition(s) or concerns. It is on the FAA's ACCEPTABLE Smoking Cessation Medications table, which gives a 1 week initial observation (ground trial) and no post-dose no-fly time, and its instruction to the AME is to annotate Item 60. If it is used as an antidepressant instead, the FAA sends the AME to its Anxiety, Depression and Related Conditions Table. The FAA's Do Not Issue table separately notes that smoking cessation aid varenicline (Chantix) is allowed. The same FAA page gives usual treatment duration as 12 weeks and says extended maintenance therapy up to one year may have additional guidance.\n\nMedGuide (October 1, 2026) lists varenicline only as a nasal spray (Tyrvaya), for dry eye disease. That is a different product from Chantix.\n\nThat is what the FAA publishes, not a determination about you. Do not change a medication on your own; ask the physician who prescribed it.",
     "envelope": {
       "code": "med-varenicline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026): ACCEPTABLE Smoking Cessation Medications table, varenicline (oral) (Chantix) row, for the acceptable listing, the 1 week initial observation (ground trial), the None post-dose observation, the Item 60 annotation and the antidepressant routing; Section V Pharmaceutical Considerations for the 12 week and extended therapy statement; DO NOT ISSUE (DNI) Medications table (updated 06/28/2023) for the note that smoking cessation aid varenicline (Chantix) is allowed",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
     "informationalOnly": false,
     "faaStatus": "conditional",
-    "isCACI": false
+    "isCACI": false,
+    "links": [
+      {
+        "title": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+        "url": "https://www.faa.gov/ame_guide/medguide"
+      }
+    ]
   },
   {
     "genericName": "vedolizumab",
@@ -6859,7 +7023,7 @@
     "envelope": {
       "code": "med-venlafaxine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-16T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
     }
@@ -6877,7 +7041,7 @@
     "envelope": {
       "code": "med-verapamil",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:34:16Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 36. Heart - Hypertension, Aerospace Medical Dispositions (last updated 03/23/2023); FAA Guide for Aviation Medical Examiners: Antihypertensive (updated 09/30/2026); FAA Guide for Aviation Medical Examiners: CACI - Hypertension Worksheet (updated 04/13/2022); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
     },
@@ -6909,7 +7073,7 @@
     "envelope": {
       "code": "med-vilazodone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (Updated 08/27/2025), CONDITIONALLY Acceptable with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -6926,7 +7090,7 @@
     "envelope": {
       "code": "med-vortioxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
@@ -6962,8 +7126,8 @@
     "envelope": {
       "code": "med-zaleplon",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-13T12:00:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 06/28/2023) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
+      "lastVerified": "2026-10-06T17:52:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025), and Do Not Issue / Do Not Fly Medications tables (updated 09/30/2026) at https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
     "preFlightWaitHours": 12
@@ -7031,7 +7195,7 @@
     "envelope": {
       "code": "med-zolpidem",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:32Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -7049,7 +7213,7 @@
     "envelope": {
       "code": "med-zolpidem-ambien",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:32Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -7067,7 +7231,7 @@
     "envelope": {
       "code": "med-zolpimist",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:32Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
@@ -7086,7 +7250,7 @@
     "envelope": {
       "code": "med-zolpidem-edluar",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-26T21:31:32Z",
+      "lastVerified": "2026-10-06T17:52:00Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Sleep Aids (table updated 05/07/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/pharm/sleepaids"
     },
