@@ -12,7 +12,8 @@ AVOID column named nine drugs and we carried four).
 WHAT IT READS. A FIXED list, never a search of faa.gov:
   - the FAA's Do Not Issue / Do Not Fly tables (DNI_DNF_tables.pdf)
   - every CACI worksheet PDF our content cites: caci_worksheets.json's sourceURL and
-    worksheetURL, plus any *CACI* PDF a medication entry cites. (Until 2026-10-06 only the
+    worksheetURL, plus every FAA PDF a medication entry cites (widened from *CACI* PDFs on
+    2026-10-06, when the OTC chart and five FAA drug pages turned out to name 57 drugs we lacked). (Until 2026-10-06 only the
     sourceURL was read, and the arthritis entry's sourceURL is the disposition TABLE, so the
     arthritis WORKSHEET and its 22 drugs were never read; 11 of them were missing.)
   - the detailed drug lists those worksheets send the AME to (DRUG_LISTS below). Added
@@ -120,8 +121,11 @@ def main() -> int:
     for e in caci:
         cited |= {e["envelope"]["sourceURL"], e.get("worksheetURL") or ""}
     for e in json.loads((ROOT / "v1" / "medications.json").read_text()):
+        # Every FAA PDF a medication entry cites, not only *CACI* ones (widened 2026-10-06, Ryan: "do
+        # all"): the OTC chart, allergy, diabetes, cholesterol, osteoporosis and smoking pages each named
+        # drugs we lacked. Still a FIXED list built from our own citations, never a search of faa.gov.
         for u in [e["envelope"].get("sourceURL") or ""] + [l.get("url", "") for l in e.get("links") or []]:
-            if "caci" in u.rsplit("/", 1)[-1].lower():
+            if "faa.gov/" in u:
                 cited.add(u)
     caci_urls = sorted({u for u in cited if u.lower().endswith(".pdf")} | set(DRUG_LISTS))
     found: dict[str, set[str]] = {}

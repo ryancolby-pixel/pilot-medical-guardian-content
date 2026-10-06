@@ -1,5 +1,21 @@
 [
   {
+    "genericName": "abaloparatide",
+    "brandNames": [
+      "Tymlos"
+    ],
+    "category": "Parathyroid hormone analog (osteoporosis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE, 1-week initial observation, no post-dose wait.\n\nListed as \"abaloparatide (Tymlos)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as \"Parathyroid Hormone Analog\".\nInitial observation: 1 week. Post-dose observation: none.\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nSource: FAA Osteoporosis Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-abaloparatide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+    }
+  },
+  {
     "genericName": "abatacept",
     "brandNames": [
       "Orencia"
@@ -20,6 +36,22 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       }
     ]
+  },
+  {
+    "genericName": "acarbose",
+    "brandNames": [
+      "Precose"
+    ],
+    "category": "Alpha-glucosidase inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"acarbose (Precose)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-acarbose",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
   },
   {
     "genericName": "acetaminophen",
@@ -90,6 +122,22 @@
     ]
   },
   {
+    "genericName": "albiglutide",
+    "brandNames": [
+      "Tanzeum"
+    ],
+    "category": "GLP-1 receptor agonist (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"albiglutide (Tanzeum)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-albiglutide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
     "genericName": "albuterol",
     "brandNames": [
       "Proventil",
@@ -108,6 +156,32 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
+  },
+  {
+    "genericName": "alcaftadine",
+    "brandNames": [
+      "Lastacaft"
+    ],
+    "category": "Antihistamine eye drop (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Lastacaft\nUnderlying condition: Allergic conjunctivitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): Do not fly or perform SRD while experiencing blurry vision or pain.\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page: \"Do not instill antihistamine eye drops immediately before or during flight/safety related duties\", because temporary blurred vision is common each time the drops are applied.\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThe FAA's OTC chart lists \"alcaftadine (Lastacaft)\" as GO for dry or itchy eyes.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-alcaftadine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      },
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "alendronate",
@@ -130,6 +204,22 @@
         "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
       }
     ]
+  },
+  {
+    "genericName": "alirocumab",
+    "brandNames": [
+      "Praluent"
+    ],
+    "category": "PCSK9 inhibitor (cholesterol)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA cholesterol list: ACCEPTABLE after a 48-hour ground trial.\n\nListed as \"alirocumab (Praluent)\" under \"Monoclonal Antibody - PCSK9 Inhibitor\".\nThe list is headed \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\nThe page says: \"All drug classes require the minimum standard 48-hour initial ground trial.\"\n\nSource: FAA Cholesterol Medications, updated August 27, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-alirocumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+    }
   },
   {
     "genericName": "allopurinol",
@@ -171,6 +261,22 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "alogliptin",
+    "brandNames": [
+      "Nesina"
+    ],
+    "category": "DPP-4 inhibitor (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"alogliptin (Nesina)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-alogliptin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
     "genericName": "alprazolam",
     "brandNames": [
       "Xanax"
@@ -186,6 +292,28 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 06/28/2023)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
+  },
+  {
+    "genericName": "aluminum hydroxide",
+    "brandNames": [
+      "Maalox"
+    ],
+    "category": "Antacid",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: GO as an antacid. New medicines need a 48-hour trial.\n\nListed as \"Aluminum hydroxide (Maalox)\" under \"Antacids\".\nIts note: \"Be careful not to mask the underlying symptoms.\"\nMedGuide lists the combination \"aluminum hydroxide + magnesium hydroxide + simethicone\" (Maalox) as allowed as an antacid, with a 24-hour wait after the first dose.\nThe FAA's OTC chart: \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\"\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024; FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-aluminum-hydroxide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+        "url": "https://www.faa.gov/ame_guide/medguide"
+      }
+    ]
   },
   {
     "genericName": "amiodarone",
@@ -492,6 +620,34 @@
     ]
   },
   {
+    "genericName": "azelastine",
+    "brandNames": [
+      "Astepro",
+      "Astelin",
+      "Optivar"
+    ],
+    "category": "Antihistamine (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nForm: nasal\nBrands: Astepro\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions or as prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nForm: eye drops\nBrands: Optivar [DSC]\nUnderlying condition: Allergic conjunctivitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): Do not fly or perform SRD while experiencing blurry vision or pain.\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThe FAA's allergy page: \"Do not instill antihistamine eye drops immediately before or during flight/safety related duties\", because temporary blurred vision is common each time the drops are applied.\n\nThe FAA's OTC chart lists \"azelastine (Astepro)\" as GO under \"Nasal steroid\".\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-azelastine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      },
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "azithromycin",
     "brandNames": [
       "Zithromax",
@@ -544,6 +700,51 @@
       {
         "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "bazedoxifene + conjugated estrogens",
+    "brandNames": [
+      "Duavee"
+    ],
+    "category": "SERM + estrogen (osteoporosis)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Duavee\nUnderlying condition: Menopause, Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat page lists \"bazedoxifene (Duavee)\" as a \"Combination SERM + conjugated estrogens\" with no initial and no post-dose observation. MedGuide (October 1, 2026) gives 48 hours after the first dose. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bazedoxifene-conjugated-estrogens",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "bempedoic acid",
+    "brandNames": [
+      "Nexletol",
+      "Nexlizet"
+    ],
+    "category": "ACL inhibitor (cholesterol)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nForm: alone\nBrands: Nexletol, Nilemdo [INTL]\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nForm: with ezetimibe\nBrands: Nexlizet\nUnderlying condition: Hypercholesterolemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bempedoic-acid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
       }
     ]
   },
@@ -601,6 +802,44 @@
     "informationalOnly": false
   },
   {
+    "genericName": "bepotastine",
+    "brandNames": [
+      "Bepreve"
+    ],
+    "category": "Antihistamine eye drop (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Bepreve\nUnderlying condition: Allergic conjunctivitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): Do not fly or perform SRD while experiencing blurry vision or pain.\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page: \"Do not instill antihistamine eye drops immediately before or during flight/safety related duties\", because temporary blurred vision is common each time the drops are applied.\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bepotastine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "bexagliflozin",
+    "brandNames": [
+      "Brenzavvy"
+    ],
+    "category": "SGLT2 inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"bexagliflozin (Brenzavvy)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bexagliflozin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
     "genericName": "bimekizumab",
     "brandNames": [
       "Bimzelx"
@@ -615,6 +854,29 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     }
+  },
+  {
+    "genericName": "bismuth subsalicylate",
+    "brandNames": [
+      "Pepto-Bismol",
+      "Kaopectate"
+    ],
+    "category": "Antidiarrheal",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Kaopectate, Pepto-Bismol\nUnderlying condition: Diarrhea, Indigestion\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"bismuth subsalicylate (Kaopectate, Pepto-Bismol)\" as GO for nausea, vomiting and diarrhea.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-bismuth-subsalicylate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "bisoprolol",
@@ -800,6 +1062,22 @@
     "faaStatus": "notAcceptable"
   },
   {
+    "genericName": "calcium carbonate",
+    "brandNames": [
+      "Tums"
+    ],
+    "category": "Antacid",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: GO as an antacid. New medicines need a 48-hour trial.\n\nListed as \"Calcium carbonate (Tums)\" under \"Antacids\".\nIts note: \"Be careful not to mask the underlying symptoms.\"\nThe FAA's OTC chart: \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\"\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-calcium-carbonate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    }
+  },
+  {
     "genericName": "canakinumab",
     "brandNames": [
       "Ilaris"
@@ -814,6 +1092,28 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     }
+  },
+  {
+    "genericName": "capsaicin (topical)",
+    "brandNames": [
+      "Qutenza"
+    ],
+    "category": "Topical analgesic",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Qutenza\nUnderlying condition: Pain management, Neuropathic pain, Postherpetic neuralgia (PHN)\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists capsaicin as GO for topical rubs and pain patches.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-capsaicin-topical",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "certolizumab",
@@ -862,6 +1162,127 @@
         "url": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf"
       }
     ]
+  },
+  {
+    "genericName": "chlorpropamide",
+    "brandNames": [
+      "Diabinese"
+    ],
+    "category": "Sulfonylurea (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"chlorpropamide (Diabenase)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart spells the brand \"Diabenase\".\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-chlorpropamide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "cholestyramine",
+    "brandNames": [
+      "Questran",
+      "Prevalite"
+    ],
+    "category": "Bile acid sequestrant (cholesterol)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Prevalite, Questran\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-cholestyramine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "cimetidine",
+    "brandNames": [
+      "Tagamet"
+    ],
+    "category": "H2 blocker (GERD)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Tagamet\nUnderlying condition: Stomach ulcers\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists it as GO for indigestion: \"Be careful not to mask the underlying symptoms.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-cimetidine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "colestipol",
+    "brandNames": [
+      "Colestid"
+    ],
+    "category": "Bile acid sequestrant (cholesterol)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Colestid\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia, Irritable bowel syndrome (IBS) [OL]\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-colestipol",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "desloratadine",
+    "brandNames": [
+      "Clarinex"
+    ],
+    "category": "Non-sedating antihistamine (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Clarinex\nUnderlying condition: Allergic rhinitis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-desloratadine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "dextromethorphan",
+    "brandNames": [
+      "Delsym"
+    ],
+    "category": "Cough suppressant",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: NO GO. Wait 5 dosage intervals after the last dose.\n\nListed as dextromethorphan (Delsym) in the NO GO column for cough, also in Dayquil and Mucinex Fast-Max Severe Congestion and Cough.\nIts rationale: \"If the label states PM (for nighttime use) or DM (containing dextromethorphan), you should not fly while using these medications and for at least 5 dosage intervals after the last dose\"\nFor NO GO medications it says to \"wait at least five (5) dosage intervals after the last dose before flying.\"\nIts examples: every 4-6 hours, wait 30 hours; every 8 hours, 40 hours; every 12 hours, 60 hours.\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-dextromethorphan",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    }
   },
   {
     "genericName": "dihydroergotamine",
@@ -960,6 +1381,22 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "ertugliflozin",
+    "brandNames": [
+      "Steglatro"
+    ],
+    "category": "SGLT2 inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group F: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"ertugliflozin (Steglatro)\" under \"SGLT2 Inhibitors\", Group F.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group F: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ertugliflozin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
     "genericName": "etanercept",
     "brandNames": [
       "Enbrel"
@@ -978,6 +1415,45 @@
       {
         "title": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "exenatide",
+    "brandNames": [
+      "Byetta",
+      "Bydureon"
+    ],
+    "category": "GLP-1 receptor agonist (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"exenatide (Byetta)\" under \"GLP1 mimetics\", Group D.\nThe chart also lists \"exenatide-ED (Bydureon)\" in the same group.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-exenatide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "fluvastatin",
+    "brandNames": [
+      "Lescol"
+    ],
+    "category": "Statin (cholesterol)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lescol\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-fluvastatin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
       }
     ]
   },
@@ -1039,6 +1515,22 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "gliclazide",
+    "brandNames": [
+      "Diamicron"
+    ],
+    "category": "Sulfonylurea (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"gliclazide (Diamicron)\" under \"Sulfonylureas (SFU)\", Group A2.\nThe chart marks it International.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-gliclazide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
     "genericName": "golimumab",
     "brandNames": [
       "Simponi"
@@ -1061,6 +1553,29 @@
       {
         "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "guaifenesin",
+    "brandNames": [
+      "Mucinex",
+      "Robitussin"
+    ],
+    "category": "Expectorant (cough)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Mucinex, Duratuss [INTL]\nUnderlying condition: Congestion\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"guaifenesin (found in Mucinex and Robitussin)\" as GO for cough, and warns: \"Use caution as combination products may contain sedating antihistamines.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-guaifenesin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       }
     ]
   },
@@ -1124,6 +1639,50 @@
       {
         "title": "FAA Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary (updated 09/25/2024)",
         "url": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "ibandronate",
+    "brandNames": [
+      "Boniva"
+    ],
+    "category": "Bisphosphonate (osteoporosis)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Boniva\nUnderlying condition: Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat page lists \"Ibandronate (Boniva)\" as a \"Bisphosphonate (Oral)\" with no initial and no post-dose observation. MedGuide (October 1, 2026) gives 48 hours after the first dose. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ibandronate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "icosapent ethyl",
+    "brandNames": [
+      "Vascepa"
+    ],
+    "category": "Omega-3 (triglycerides)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Vascepa\nUnderlying condition: Hypercholesterolemia, Hyperlipidemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-icosapent-ethyl",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
       }
     ]
   },
@@ -1210,6 +1769,29 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "ketotifen",
+    "brandNames": [
+      "Alaway",
+      "Zaditor"
+    ],
+    "category": "Antihistamine eye drop (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Alaway, Zaditor\nUnderlying condition: Allergic conjunctivitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): Do not fly or perform SRD while experiencing blurry vision or pain.\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page: \"Do not instill antihistamine eye drops immediately before or during flight/safety related duties\", because temporary blurred vision is common each time the drops are applied.\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ketotifen",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "lacosamide",
     "brandNames": [
       "Vimpat"
@@ -1250,6 +1832,28 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "lidocaine (topical)",
+    "brandNames": [
+      "Lidoderm"
+    ],
+    "category": "Topical anesthetic",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. No wait listed after a dose.\n\nBrands: Lidoderm\nUnderlying condition: Postherpetic neuralgia (PHN)\nFrequency limit: As prescribed\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"lidocaine patch (Lidoderm)\" as GO for topical pain, with a caution: \"With lidocaine application, avoid getting on hands or open wounds as this can drop blood pressure or absorb faster.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-lidocaine-topical",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "linaclotide",
     "brandNames": [
       "Linzess"
@@ -1264,6 +1868,58 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
+  },
+  {
+    "genericName": "lixisenatide",
+    "brandNames": [
+      "Adlyxin"
+    ],
+    "category": "GLP-1 receptor agonist (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"lixisenatide (Adlyxin)\" under \"GLP1 mimetics\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-lixisenatide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "magnesium citrate",
+    "brandNames": [],
+    "category": "Laxative",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: NO GO. Wait 5 dosage intervals after the last dose.\n\nThe chart lists magnesium citrate in the NO GO column for constipation (laxatives), with the note \"Use in recommended doses.\"\nFor NO GO medications it says to \"wait at least five (5) dosage intervals after the last dose before flying.\"\nIts examples: every 4-6 hours, wait 30 hours; every 8 hours, 40 hours; every 12 hours, 60 hours.\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-magnesium-citrate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    }
+  },
+  {
+    "genericName": "magnesium hydroxide",
+    "brandNames": [
+      "Milk of Magnesia"
+    ],
+    "category": "Antacid",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Milk of Magnesia\nUnderlying condition: Antacid\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"Magnesium hydroxide (Milk of Magnesia)\" as GO under antacids: \"Be careful not to mask the underlying symptoms.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-magnesium-hydroxide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
   },
   {
     "genericName": "mefloquine",
@@ -1344,6 +2000,38 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "miglitol",
+    "brandNames": [
+      "Glyset"
+    ],
+    "category": "Alpha-glucosidase inhibitor (diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group E: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"miglitol (Glyset)\" under \"Alpha-glucosidase inhibitors\", Group E.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group E: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-miglitol",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "mipomersen",
+    "brandNames": [
+      "Kynamro"
+    ],
+    "category": "Antisense oligonucleotide (cholesterol)",
+    "faaStatus": "notAcceptable",
+    "faaStatusDescription": "FAA cholesterol list: UNACCEPTABLE.\n\nListed as \"mipomersen (Kynamro)\" under \"UNACCEPTABLE Cholesterol Medications\", as an \"Apolipoprotein B Antisense Oligonucleotide\".\n\nSource: FAA Cholesterol Medications, updated August 27, 2025.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-mipomersen",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+    }
+  },
+  {
     "genericName": "mirikizumab",
     "brandNames": [
       "Omvoh"
@@ -1364,6 +2052,22 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
+  },
+  {
+    "genericName": "naloxone",
+    "brandNames": [
+      "Narcan"
+    ],
+    "category": "Opioid antidote",
+    "faaStatus": "caseByCase",
+    "faaStatusDescription": "FAA OTC chart: NO GO. If it is given, no flying until FAA clearance.\n\nListed as \"naloxone (Narcan)\" in the NO GO column, under \"Opioid Antidote\".\nIts caution: \"If medication is administered, DO NOT FLY until cleared by FAA.\"\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-naloxone",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    }
   },
   {
     "genericName": "naratriptan",
@@ -1399,6 +2103,98 @@
     }
   },
   {
+    "genericName": "nateglinide",
+    "brandNames": [
+      "Starlix"
+    ],
+    "category": "Meglitinide (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"nateglinide (Starlix)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-nateglinide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "nizatidine",
+    "brandNames": [
+      "Axid"
+    ],
+    "category": "H2 blocker (GERD)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Axid\nUnderlying condition: Stomach Ulcers\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists it as GO for indigestion: \"Be careful not to mask the underlying symptoms.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-nizatidine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "nortriptyline",
+    "brandNames": [
+      "Pamelor"
+    ],
+    "category": "Tricyclic antidepressant",
+    "faaStatus": "notAcceptable",
+    "faaStatusDescription": "Unacceptable on the FAA's smoking cessation and antidepressant lists.\n\nSmoking Cessation page: \"nortriptyline (Pamelor)\" under \"UNACCEPTABLE Smoking Cessation Medications\".\nOn that page, the 7-day no-fly once treatment is complete is listed for bupropion SR (Zyban), not for nortriptyline.\nAntidepressant page: \"All tricyclic antidepressants (TCAs)\" under \"UNACCEPTABLE Antidepressant Medications\". Nortriptyline is a tricyclic antidepressant.\nAntidepressants also sit under DO NOT ISSUE, in the \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which the FAA applies \"Even when used for conditions other than mental health\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nSource: FAA Smoking Cessation Medications, updated April 29, 2026; FAA Antidepressant Medications, updated August 27, 2025; FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-nortriptyline",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Smoking Cessation Medications (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 08/27/2025); FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "olopatadine",
+    "brandNames": [
+      "Pataday",
+      "Patanol",
+      "Patanase"
+    ],
+    "category": "Antihistamine (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Nasal spray: FAA pages give 48 hours or 7 days.\n\nForm: nasal\nBrands: Patanase\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nForm: eye drops\nBrands: Pataday, Patanol [INTL]\nUnderlying condition: Allergic conjunctivitis\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): Do not fly or perform SRD while experiencing blurry vision or pain.\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page (updated September 30, 2026) says \"olopatadine nasal spray (requires longer initial ground trial of 7 days)\". MedGuide gives the nasal spray a 48-hour wait after the first dose. The two FAA pages differ.\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nThe FAA's allergy page: \"Do not instill antihistamine eye drops immediately before or during flight/safety related duties\", because temporary blurred vision is common each time the drops are applied.\n\nThe FAA's OTC chart lists \"olopatadine (Pataday)\" as GO for dry or itchy eyes.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-olopatadine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      },
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "omalizumab",
     "brandNames": [
       "Xolair"
@@ -1413,6 +2209,28 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     }
+  },
+  {
+    "genericName": "omega-3-acid ethyl esters",
+    "brandNames": [
+      "Lovaza"
+    ],
+    "category": "Omega-3 (triglycerides)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Lovaza, Omacor [INTL]\nUnderlying condition: Hyperlipidemia, Hypertriglyceridemia\nFrequency limit: As prescribed\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Cholesterol Medications page lists it among \"ACCEPTABLE Cholesterol Medications\", \"(as a single agent or in any combination product)\".\n\nThe Cholesterol Medications page (updated August 27, 2025) also says \"All drug classes require the minimum standard 48-hour initial ground trial.\" MedGuide (October 1, 2026) gives 24 hours. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-omega-3-acid-ethyl-esters",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Cholesterol Medications (updated 08/27/2025)",
+        "url": "https://www.faa.gov/ame_guide/media/Cholesterol_Medications.pdf"
+      }
+    ]
   },
   {
     "genericName": "oxybutynin",
@@ -1430,6 +2248,78 @@
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
+  },
+  {
+    "genericName": "oxymetazoline",
+    "brandNames": [
+      "Afrin",
+      "Upneeq"
+    ],
+    "category": "Decongestant",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. No wait listed after a dose.\n\nForm: nasal\nBrands: Afrin, Dristan Spray\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions or as prescribed\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nForm: eye drops\nBrands: Upneeq, Visine [OTC]\nUnderlying condition: Blepharoptosis, Eye redness\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's allergy page lists \"oxymetazoline (Afrin) nasal spray\" among acceptable decongestants.\n\nThe FAA's OTC chart lists \"oxymetazoline (Afrin)\" as GO for nasal congestion. Its caution: Sudafed-like medications can speed up your heart rate, so use caution if you have an underlying heart condition.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-oxymetazoline",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      },
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "phenazopyridine",
+    "brandNames": [
+      "Pyridium",
+      "AZO"
+    ],
+    "category": "Urinary analgesic",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Pyridium\nUnderlying condition: Urinary tract infections (UTI)\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"phenazopyridine (AZO standard)\" as GO for urinary tract infections: \"Phenazopyridine is generally allowed after adequate ground trial to monitor for side effects.\" And: \"Symptoms should be resolved other than slight residual irritation.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-phenazopyridine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "phenylephrine",
+    "brandNames": [
+      "Sudafed PE"
+    ],
+    "category": "Decongestant",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: GO for nasal congestion, with a heart caution.\n\nListed as \"phenylephrine (Sudafed PE)\" in the GO column for nasal decongestants.\nIts caution: Sudafed-like medications can speed up your heart rate, so use caution if you have an underlying heart condition.\nMedGuide lists the combination \"guaiFENesin + phenylephrine\" (Deconex IR) as allowed for congestion, with a 24-hour wait after the first dose.\nThe FAA's OTC chart: \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\"\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024; FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-phenylephrine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    },
+    "links": [
+      {
+        "title": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
+        "url": "https://www.faa.gov/ame_guide/medguide"
+      }
+    ]
   },
   {
     "genericName": "plecanatide",
@@ -1505,6 +2395,66 @@
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
+    "genericName": "rabeprazole",
+    "brandNames": [
+      "Aciphex"
+    ],
+    "category": "Proton pump inhibitor (GERD)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "FAA OTC chart: GO for indigestion. New medicines need a 48-hour trial.\n\nListed as \"rabeprazole (Aciphex)\" in the GO column under \"Proton Pump Inhibitors (PPI)\".\nIts note: \"Be careful not to mask the underlying symptoms.\"\nThe FAA's OTC chart: \"NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.\"\n\nSource: FAA OTC Medications Reference Guide, updated August 28, 2024.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rabeprazole",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+    }
+  },
+  {
+    "genericName": "raloxifene",
+    "brandNames": [
+      "Evista"
+    ],
+    "category": "SERM (osteoporosis)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Evista\nUnderlying condition: Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat page lists \"raloxifene (Evista)\" as a \"Selective Estrogen Receptor Modulator (SERM)\" with no initial and no post-dose observation. MedGuide (October 1, 2026) gives 48 hours after the first dose. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-raloxifene",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      }
+    ]
+  },
+  {
+    "genericName": "ranitidine",
+    "brandNames": [
+      "Zantac"
+    ],
+    "category": "H2 blocker (GERD)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 24 hours after the first dose.\n\nBrands: Zantac\nUnderlying condition: Stomach ulcers\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart spells it \"rantidine (Zantac)\" and lists it as GO for indigestion: \"Be careful not to mask the underlying symptoms.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-ranitidine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "ranolazine",
     "brandNames": [
       "Ranexa"
@@ -1519,6 +2469,22 @@
       "lastVerified": "2026-10-06T01:48:19Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "repaglinide",
+    "brandNames": [
+      "Prandin"
+    ],
+    "category": "Meglitinide (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"repaglinide (Prandin)\" under \"Meglitinides\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says meglitinides are not allowed with Group D.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-repaglinide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
   },
   {
@@ -1603,6 +2569,28 @@
     ]
   },
   {
+    "genericName": "risedronate",
+    "brandNames": [
+      "Actonel"
+    ],
+    "category": "Bisphosphonate (osteoporosis)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Actonel\nUnderlying condition: Osteoporosis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nThat page lists \"Risedronate (Actonel)\" as a \"Bisphosphonate (Oral)\" with no initial and no post-dose observation. MedGuide (October 1, 2026) gives 48 hours after the first dose. The two FAA pages differ.\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-risedronate",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "rituximab",
     "brandNames": [
       "Rituxan"
@@ -1625,6 +2613,22 @@
     ]
   },
   {
+    "genericName": "romosozumab",
+    "brandNames": [
+      "Evenity"
+    ],
+    "category": "Sclerostin inhibitor (osteoporosis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE, 2-week initial and 4-hour post-dose observation.\n\nListed as \"romosozumab (Evenity)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as \"Sclerostin Inhibitor; Monoclonal Antibody\".\nInitial observation: 2 weeks. Post-dose observation: 4 hours.\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nSource: FAA Osteoporosis Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-romosozumab",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+    }
+  },
+  {
     "genericName": "ropinirole",
     "brandNames": [
       "Requip"
@@ -1639,6 +2643,22 @@
       "lastVerified": "2026-10-06T01:48:19Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
+    "genericName": "rosiglitazone",
+    "brandNames": [
+      "Avandia"
+    ],
+    "category": "Thiazolidinedione (diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group C: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"rosiglitazone (Avandia)\" under \"Thiazolidinediones (TZD)\", Group C.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group C: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-rosiglitazone",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
     }
   },
   {
@@ -1679,6 +2699,22 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       }
     ]
+  },
+  {
+    "genericName": "saxagliptin",
+    "brandNames": [
+      "Onglyza"
+    ],
+    "category": "DPP-4 inhibitor (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group D: 30-day observation to start; FAA makes initial decision.\n\nFAA chart: \"saxagliptin (Onglyza)\" under \"DPP4\", Group D.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 30-day observation.\nAdding it to an established Group A-G regimen: 14-day observation.\nChanging its dose or formulation, or switching within Group D: 48-hour observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\nThe chart says Group D is not allowed with meglitinides.\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-saxagliptin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
   },
   {
     "genericName": "secukinumab",
@@ -1733,6 +2769,22 @@
       "lastVerified": "2026-10-06T14:40:24Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+    }
+  },
+  {
+    "genericName": "teriparatide",
+    "brandNames": [
+      "Forteo"
+    ],
+    "category": "Parathyroid hormone analog (osteoporosis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE, 1-week initial observation, no post-dose wait.\n\nListed as \"teriparatide (Forteo)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as \"Parathyroid Hormone Analog\".\nInitial observation: 1 week. Post-dose observation: none.\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nSource: FAA Osteoporosis Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-teriparatide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
     }
   },
   {
@@ -1814,6 +2866,38 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
+  },
+  {
+    "genericName": "tolazamide",
+    "brandNames": [
+      "Tolinase"
+    ],
+    "category": "Sulfonylurea (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolazamide (Tolinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tolazamide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
+  },
+  {
+    "genericName": "tolbutamide",
+    "brandNames": [
+      "Orinase"
+    ],
+    "category": "Sulfonylurea (type 2 diabetes)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "Diabetes Group A2: 60-day observation to start; FAA makes initial decision.\n\nFAA chart: \"tolbutamide (Orinase)\" under \"Sulfonylureas (SFU)\", Group A2.\n\"Initial Certification/Clearance decision is made by the FAA. The AME must defer.\"\nStarting new diabetes therapy with it: 60-day observation.\nAdding it to an established Group B-G regimen: 60-day observation.\nChanging its dose or formulation, or switching within Group A2: 7-day observation.\n\"Only ONE Medication allowed from each group (A-G).\"\n\"Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment\"\n\nSource: FAA Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-tolbutamide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Acceptable Combinations of Diabetes Medications (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf"
+    }
   },
   {
     "genericName": "tolterodine",
@@ -3299,17 +4383,18 @@
     "brandNames": [
       "Humalog",
       "Lantus",
-      "Novolog"
+      "Novolog",
+      "Afrezza"
     ],
     "category": "Insulin (diabetes)",
     "faaStatus": "caseByCase",
     "isCACI": false,
     "treatedConditionNote": "The FAA's concern is insulin-treated diabetes itself; this follows a Special Issuance pathway, not the AME's desk.",
-    "faaStatusDescription": "Insulin-treated diabetes goes through an FAA Special Issuance. It is not something the AME issues at the desk.\n\nStarting insulin, the FAA's chart of acceptable diabetes medication combinations sets the wait:\nThird class: 90 days\nFirst or second class: 180 days, and you \"must use CGM protocol\"\n\nChanging insulin, the same chart says:\nAdding a new type of insulin: 7 days\nMoving between injection and pump, or a new insulin or CGM device: 7 days\nA minor dose change: \"no time is needed for minor dose change within the same drug class (short to short, long to long)\"\n\nIt counts \"multiple insulin types (e.g., short-acting [aspart] + long-acting [glargine])\" as 1 medication.\n\nSource: FAA, Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Insulin-treated diabetes goes through an FAA Special Issuance. It is not something the AME issues at the desk.\n\nStarting insulin, the FAA's chart of acceptable diabetes medication combinations sets the wait:\nThird class: 90 days\nFirst or second class: 180 days, and you \"must use CGM protocol\"\n\nChanging insulin, the same chart says:\nAdding a new type of insulin: 7 days\nMoving between injection and pump, or a new insulin or CGM device: 7 days\nA minor dose change: \"no time is needed for minor dose change within the same drug class (short to short, long to long)\"\n\nIt counts \"multiple insulin types (e.g., short-acting [aspart] + long-acting [glargine])\" as 1 medication.\n\nThe chart's Group A1 includes inhaled insulin (Afrezza).\n\nSource: FAA, Acceptable Combinations of Diabetes Medications, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-insulin",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-05T22:49:07Z",
+      "lastVerified": "2026-10-06T16:35:37Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners: Diabetes Mellitus disposition table, All Classes (updated 09/27/2023), row C",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf"
     },
@@ -5205,6 +6290,32 @@
     }
   },
   {
+    "genericName": "triamcinolone",
+    "brandNames": [
+      "Nasacort"
+    ],
+    "category": "Nasal steroid (allergy)",
+    "faaStatus": "acceptable",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. No wait listed after a dose.\n\nForm: nasal\nBrands: Nasacort\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nForm: topical\nBrands: Oralone, Triderm, Aristocort A [INTL], Kenacort [INTL]\nUnderlying condition: Dermatitis (Allergic/Atopic)\nFrequency limit: As prescribed\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nThat is shorter than the FAA's usual 48-hour wait for a new medication. MedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's OTC chart lists \"triamcinolone (Nasacort)\" as GO under \"Nasal steroid\".\n\nThe FAA's allergy page: \"Airmen who are exhibiting symptoms, regardless of the treatment used, must not fly.\"\n\nSource: FAA MedGuide, version 1.0, updated October 1, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-triamcinolone",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026); FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    },
+    "links": [
+      {
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+      }
+    ]
+  },
+  {
     "genericName": "triamterene/hydrochlorothiazide",
     "brandNames": [
       "Dyazide",
@@ -5519,6 +6630,22 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
     },
     "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "zoledronic acid",
+    "brandNames": [
+      "Reclast"
+    ],
+    "category": "Bisphosphonate infusion (osteoporosis)",
+    "faaStatus": "conditional",
+    "faaStatusDescription": "For osteoporosis: ACCEPTABLE, 1-week initial observation, no post-dose wait.\n\nListed as \"zoledronic acid (Reclast)\" under \"ACCEPTABLE* Osteoporosis Medications\", \"(when certification criteria are met)\", as \"Bisphosphonate (infusion)\".\nInitial observation: 1 week. Post-dose observation: none.\nThe FAA's Osteoporosis Medication page: \"The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.\" And: \"Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.\"\n\nSource: FAA Osteoporosis Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-zoledronic-acid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-06T16:35:37Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Osteoporosis Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Osteoporosis_Medication.pdf"
+    }
   },
   {
     "genericName": "zolmitriptan",
