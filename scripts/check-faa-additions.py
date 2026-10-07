@@ -114,6 +114,47 @@ def covered(name: str, ours: str) -> bool:
     return re.search(r"(?<![a-z])" + re.escape(name) + r"(?![a-z])", ours) is not None
 
 
+MEDGUIDE = ROOT / ".fidelity-pinned" / "faa-medguide-v1.json"
+MEDGUIDE_CONTROL = "ibuprofen"
+
+
+def medguide_rows() -> list[tuple[str, list[str]]]:
+    """The pinned MedGuide table (a Tableau page, so no PDF to read): each Pilot row's generic and brand names.
+
+    Added 2026-10-07: 206 of its 301 rows were missing and no list here could see them, because the
+    10/5 rewrite only touched entries we already had. Stricter than the PDF lists: a row counts only if one
+    of its names is an entry's genericName or brand, or the row's own spelling sits in a "MedGuide lists it
+    as:" line (the FAA misspells two: amlexonox, lapase). A drug merely mentioned in some other entry's
+    prose does not count.
+    """
+    out = []
+    for r in json.loads(MEDGUIDE.read_text())["rows"]:
+        d = r["drugs"]
+        g = d.split("Generic:")[1].split("Brand Name:")[0].strip()
+        b = d.split("Brand Name:")[1].strip() if "Brand Name:" in d else ""
+        names = []
+        # synonyms split on ";" only: a combination counts as a whole name or by its brand, never because
+        # one ingredient has an entry (that rule read Excedrin as covered by acetaminophen)
+        for x in re.split(r";|:", g) + b.split(";"):
+            x = re.sub(r"\s+", " ", re.sub(r"\[.*?\]|\(.*?\)", "", x)).strip().lower()
+            if len(x) > 2 and x not in ("any combination of", "no brand"):
+                names.append(x)
+        out.append((g, names))
+    return out
+
+
+def medguide_missing(meds: list[dict]) -> list[str]:
+    names = " \n ".join(" | ".join([m["genericName"]] + (m.get("brandNames") or [])) for m in meds).lower()
+    listed = " \n ".join(l for m in meds for l in m.get("faaStatusDescription", "").split("\n")
+                         if l.startswith("MedGuide lists it as:")).lower()
+    miss = []
+    for g, ns in medguide_rows():
+        hit = any(covered(n, names) for n in ns) or g.lower() in listed
+        if not hit:
+            miss.append(g)
+    return miss
+
+
 def main() -> int:
     ignore = json.loads(IGNORE.read_text()).get("terms", {})
     caci = json.loads((ROOT / "v1" / "caci_worksheets.json").read_text())
@@ -161,8 +202,19 @@ def main() -> int:
         return 2
 
     missing = {n: srcs for n, srcs in found.items() if n not in ignore and not covered(n, ours)}
+    meds = json.loads((ROOT / "v1" / "medications.json").read_text())
+    if not any(MEDGUIDE_CONTROL in ns for _, ns in medguide_rows()):
+        print(f"❌ CONTROL FAILED: '{MEDGUIDE_CONTROL}' not read from the pinned MedGuide table.")
+        return 2
+    # NEGATIVE CONTROL: with ibuprofen's entry gone, its MedGuide row must be reported.
+    if "ibuprofen" not in medguide_missing([m for m in meds if m["genericName"] != "ibuprofen"]):
+        print("❌ SELF-TEST FAILED: removing the ibuprofen entry did not uncover its MedGuide row.")
+        return 2
+    for g in medguide_missing(meds):
+        if g.lower() not in ignore:
+            missing.setdefault(g.lower(), set()).add("FAA MedGuide (pinned table)")
     stale = sorted(t for t in ignore if t not in found)
-    print(f"read {1 + len(caci_urls) - len(unreadable)} FAA lists, {len(found)} names, "
+    print(f"read {2 + len(caci_urls) - len(unreadable)} FAA lists (incl. the pinned MedGuide table), {len(found)} names, "
           f"{len(missing)} not in our medication file")
     for n in sorted(missing):
         print(f"   {n:30s} {', '.join(sorted(missing[n]))}")
