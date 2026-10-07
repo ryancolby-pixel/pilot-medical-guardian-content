@@ -12,6 +12,9 @@ authorization moved past it (otherwise it caps the countdown and adds an SI line
 pilot on the medical pathway only (no BasicMed cards). The seeder edits were local and reverted.
 The phone fades out under the MedXPress prep card so "What's next" (an SI item) never shows.
 
+10/7 (Ryan): the MedXPress line moved from the safe area's bottom edge to directly under "expires Jun 30, 2027",
+one line, in the text column beside the phone.
+
 Copy is exact and nothing else may be added: the number, "Days remaining", "Class 1 medical",
 "expires Jun 30, 2027", "MedXPress, filled from your own records." No price, URL, FAA approval
 or fit-to-fly wording, no second feature, no em dashes.
@@ -90,10 +93,21 @@ def main():
         d.text((x, y), text, font=f, fill=WHITE)
         y += f.getbbox(text)[3] + gap
 
+    # Ryan 2026-10-07: "Put it directly under 'expires Jun 30, 2027,' still small, still one line. The phone stays
+    # on the right." It sat on the safe area's bottom edge, under the phone, where a tight crop loses it. It now
+    # sits in the text column, so it must fit between the column's left edge and the phone: the largest size up to
+    # the old 58 that does.
     line = "MedXPress, filled from your own records."
-    lf = font(58, 600)
-    d.text((x, SY1 - 48 - lf.getbbox(line)[3]), line, font=lf, fill=WHITE)
-    assert d.textlength(line, font=lf) + x <= SX1, "line overruns the safe area"
+    limit = px - 60 - x                              # stop short of the phone's bezel
+    size = 58
+    while d.textlength(line, font=font(size, 600)) > limit:
+        size -= 1
+    lf = font(size, 600)
+    y += 36
+    d.text((x, y), line, font=lf, fill=WHITE)
+    assert d.textlength(line, font=lf) <= limit, "line runs into the phone"
+    assert y + lf.getbbox(line)[3] <= SY1, "line falls below the safe area"
+    print("MedXPress line:", size, "px at y", y, "width", round(d.textlength(line, font=lf)), "of", limit)
 
     out = os.path.join(BASE, "pmg-universal-5244x2950.png")
     canvas.save(out, optimize=True)
