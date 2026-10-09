@@ -163,12 +163,19 @@ the card pushes the fifth "Ways PMG protects" row off the iPad Home slot).
 - **iPhone slot 2 changed shape**: the MedXPress confirmation-number section now sits between the autofill rows and Item
   17, so autofill and the medication list no longer fit one frame. Shipped: scrolled to confirmation number + Item 17
   medications + Open MedXPress (Ryan 10/9: "Your call"; kept, since his 9/05 call was to lead with medications. The alternative keeps the autofill rows and loses the medications).
-- **Mac not re-taken**: needs the second macOS user account (never signed into iCloud) and rides the next Mac version,
-  since 1.2.1 is live. Mac slots 1 (Home), 4 (SI) and 5 (certificate) carry the old dates.
-- **Website waits for the same Mac session.** `hero-mac` / `hero-iphone` / `hero-ipad`, `home` and `renewal-countdown` all
-  read 130 / "January 5, 2027" (and the heroes show 0 of 25 Item 18 and a charging battery). The Mac shot LEADS the hero, so
-  swapping the iPhone half first would put 264 next to 130 on the front page. Redo all of them together, plus the
-  `index.html` alt text ("130 days remaining").
+- **Mac, all seven re-taken the same day** (Ryan: "Ok lets do the mac"), in his own account with `-PMGScreenshotStore`
+  (`lsof` showed only `tmp/PMGScreenshotStore/screenshots.store`), not a second user account. Three traps, in order:
+  ⚠️ **the temp store SURVIVES between sessions** (an earlier session never deleted it), so `-PMGSeedDemoData` stacked a
+  second set: 8 medications. Delete `Data/tmp/PMGScreenshotStore` BEFORE seeding, not only after. ⚠️ **His Mac runs Dark
+  mode**: `-AppleInterfaceStyle Light` did nothing; **`-NSRequiresAquaSystemAppearance YES`** forced light for this app only
+  (never change his system setting). ⚖️ The sidebar now renders `#EDEDED` where the August raws read `#FAFAFA`, active
+  window or not, so all seven were re-taken rather than three, or the strip would disagree with itself.
+  `compedPro` set for the session (DEBUG-only, `EntitlementManager.compOverride`) and restored to `0`. Safari extension:
+  the build's `.appex` displaced the `/Applications` 1.2.1 entry; `pluginkit -r` on ours brought his back and the list
+  matched the pre-build baseline exactly; then `lsregister -u` and the build deleted.
+- **Website refreshed with it** (Mac shot leads the hero): `hero-mac` / `hero-ipad` / `hero-iphone` / `home` from these
+  raws plus a fresh iPhone 17 Pro Home (264), same sizes as before. The Mac hero alt had re-acquired "130 days ...
+  January 5, 2027" in the 9/02 redesign; made generic again (the 8/28 rule).
 
 **Ask "does my change render here?" - not "did I touch a screenshot file."**
 
