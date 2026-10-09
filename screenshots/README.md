@@ -216,6 +216,12 @@ lsof -p $(pgrep -f "Pilot Medical Guardian.app/Contents/MacOS" | head -1) | grep
 # MUST show ONLY .../Data/tmp/PMGScreenshotStore/screenshots.store
 ```
 
+⚠️ **Added 2026-10-09:** (1) the temp store **persists between sessions**, so `rm -rf
+~/Library/Containers/com.ryancolby.PilotMedicalGuardian/Data/tmp/PMGScreenshotStore` BEFORE seeding, or
+`-PMGSeedDemoData` stacks a second set (it gave 8 medications). (2) Ryan's Mac runs **Dark mode**: add
+`-NSRequiresAquaSystemAppearance YES` to force light for this app only (`-AppleInterfaceStyle Light` did nothing).
+Never change his system appearance. (3) Seed once, then relaunch with `-PMGScreenshotStore` alone.
+
 **Capture the WINDOW, never the screen** (the screen holds whatever else is open). Get the
 window id from CoreGraphics with a small `swift` script - `CGWindowListCopyWindowInfo`;
 pyobjc is not installed on this Mac - then:
