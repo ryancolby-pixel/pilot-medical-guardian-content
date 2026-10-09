@@ -148,6 +148,24 @@ still holds and this shot does not violate it.
 
 ### The seven slots, and what is actually IN frame
 
+### 2026-10-09 — end-of-month demo expiry, re-captured (iPad all 7, iPhone 6 of 7)
+
+`DemoDataSeeder` (app `ea7b678d` / `cf59dfc3`) now computes the certificate expiry from a mid-month exam ~4 months back
+with `RenewalCalculator`, so the demo reads **Jun 30, 2027** (when run in Oct 2026), matching the header asset. Before,
+it stored `days(130)`: a mid-month date on Home, and on the Mac certificate slot "through Jan 5, 2027" beside its own
+"Class 1 privileges Jan 31, 2027". The SI authorization now runs 2 years from the exam (it must outlive the certificate,
+or Home shows the SI date instead), and the SI item due date sits outside Home's 60-day "SI item due" window (inside it,
+the card pushes the fifth "Ways PMG protects" row off the iPad Home slot).
+- **iPad, all seven re-taken**: five of the Aug 28 raws carried a green charging battery and cell bars. Slot 4 is now the
+  top of the SI screen (Share with my AME, About, Your Authorization, checklist in one frame).
+- **iPhone, six re-taken** on the iPhone 17 Pro (the 9/05 iPhone Air sim is gone; `home.png` was already 17 Pro). The
+  9/05 raws read 11:52 / 11:58 / 11:59; all seven now read 9:41.
+- **iPhone slot 2 changed shape**: the MedXPress confirmation-number section now sits between the autofill rows and Item
+  17, so autofill and the medication list no longer fit one frame. Shipped: scrolled to confirmation number + Item 17
+  medications + Open MedXPress (Ryan to confirm; the alternative keeps the autofill rows and loses the medications).
+- **Mac not re-taken**: needs the second macOS user account (never signed into iCloud) and rides the next Mac version,
+  since 1.2.1 is live. Mac slots 1 (Home), 4 (SI) and 5 (certificate) carry the old dates.
+
 **Ask "does my change render here?" - not "did I touch a screenshot file."**
 
 | # | screen | what is visibly in frame, i.e. what a change would break |

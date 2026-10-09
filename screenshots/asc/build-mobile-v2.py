@@ -164,7 +164,8 @@ IPAD = [
     # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
     # Same seven shots, same order, same headlines as IPHONE and the Mac set, so a
     # pilot comparing devices on the listing reads one story, not three.
-    # 09-item18.png and 03-medxpress-prep.png re-captured 2026-09-05 on iPad Pro 13" (M5).
+    # All seven re-captured 2026-10-09 on iPad Pro 13" (M5): end-of-month demo expiry
+    # (Jun 30, 2027) and one status bar across the set (five Aug 28 raws had a charging battery).
     # 08-share-with-ame.png dropped to match the other two sets.
     ("01-home.png",           "AT A GLANCE",       "Every date that matters, in one place"),
     ("03-medxpress-prep.png", "MEDXPRESS PREP",    "Your answers ready before you sit down"),
@@ -177,7 +178,8 @@ IPAD = [
 
 IPHONE = [
     # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
-    # Sources re-captured in the iPhone Air simulator 2026-09-05 -> screenshots/iphone-new/
+    # Sources -> screenshots/iphone-new/. home.png 2026-10-06, the other six 2026-10-09, all on
+    # the iPhone 17 Pro simulator (1206x2622); the 9/05 iPhone Air raws read 11:52-11:59.
     ("home.png",           "AT A GLANCE",      "Every date that matters, in one place"),
     ("medxpress.png",      "MEDXPRESS PREP",   "Your answers ready before you sit down"),
     ("item18.png",         "ITEM 18",          "Answer it once, keep it every renewal"),
