@@ -162,9 +162,13 @@ the card pushes the fifth "Ways PMG protects" row off the iPad Home slot).
   9/05 raws read 11:52 / 11:58 / 11:59; all seven now read 9:41.
 - **iPhone slot 2 changed shape**: the MedXPress confirmation-number section now sits between the autofill rows and Item
   17, so autofill and the medication list no longer fit one frame. Shipped: scrolled to confirmation number + Item 17
-  medications + Open MedXPress (Ryan to confirm; the alternative keeps the autofill rows and loses the medications).
+  medications + Open MedXPress (Ryan 10/9: "Your call"; kept, since his 9/05 call was to lead with medications. The alternative keeps the autofill rows and loses the medications).
 - **Mac not re-taken**: needs the second macOS user account (never signed into iCloud) and rides the next Mac version,
   since 1.2.1 is live. Mac slots 1 (Home), 4 (SI) and 5 (certificate) carry the old dates.
+- **Website waits for the same Mac session.** `hero-mac` / `hero-iphone` / `hero-ipad`, `home` and `renewal-countdown` all
+  read 130 / "January 5, 2027" (and the heroes show 0 of 25 Item 18 and a charging battery). The Mac shot LEADS the hero, so
+  swapping the iPhone half first would put 264 next to 130 on the front page. Redo all of them together, plus the
+  `index.html` alt text ("130 days remaining").
 
 **Ask "does my change render here?" - not "did I touch a screenshot file."**
 
