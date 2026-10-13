@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-10-13.4",
-  "generatedAt": "2026-10-13T14:57:50Z",
+  "contentVersion": "2026-10-13.5",
+  "generatedAt": "2026-10-13T16:03:34Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -21,6 +21,11 @@
       "filename": "cert_durations.json",
       "size": 4417,
       "checksum": "3bde9566ff910ab0334316ef1ffc712f551e89614033be615e764971dee5cdf0"
+    },
+    {
+      "filename": "disposition_tables.json",
+      "size": 73609,
+      "checksum": "87e9c35c752363ed592f89ac7fa63ae6243a25cf415546675f043551ecbd15dd"
     },
     {
       "filename": "faa_submission_addresses.json",

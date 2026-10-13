@@ -58,7 +58,7 @@ jobs:
           while read line; do
             fname=$(echo "$line" | awk '{print $2}')
             url="https://www.faa.gov/ame_guide/media/$fname"
-            if curl -sS -L --fail --max-time 60 -A "$UA" -o "/tmp/caci_check/$fname" "$url"; then
+            if curl -sS -L --fail --retry 3 --retry-delay 10 --max-time 60 -A "$UA" -o "/tmp/caci_check/$fname" "$url"; then
               echo "  ✓ $fname"
             else
               echo "  ✗ FAILED $fname ($url)"
@@ -135,6 +135,8 @@ jobs:
             echo "**Merging this pull request only records the new fingerprint. It does not read the PDF.**"
             echo "Read each changed PDF against the entries that cite it (search \`v1/\` for the file name) and"
             echo "correct anything that no longer matches, BEFORE merging."
+            echo "A file in \`v1/disposition_tables.json\` carries only the FAA's title and date: update its \`updated\` date,"
+            echo "the date in its \`sourceCitation\`, and its title if the FAA renamed it."
             if [ -n "$BUNDLED" ]; then
               echo; echo "### Bundled in the app"; echo "$BUNDLED"; echo
               echo "Also replace each one in the app repo at \`PilotMedicalGuardian/Reference/BundledContent/CACIWorksheets/\`"

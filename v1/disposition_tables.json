@@ -1,0 +1,2189 @@
+[
+  {
+    "envelope": {
+      "code": "dispo-acceptable-atcs-tests",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 52: Acceptable Test Instruments for Color Vision Screening of ATCS chart (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Acceptable_ATCS_Tests.pdf"
+    },
+    "title": "Acceptable Test Instruments for Color Vision Screening of ATCS chart",
+    "examItems": [
+      "52"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-acousticneuromasdispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Acoustic Neuroma (updated 05/30/2018)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AcousticNeuromasDispositionTable.pdf"
+    },
+    "title": "Acoustic Neuroma",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2018-05-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-acute-lymphocytic-leukemia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Acute Lymphocytic Leukemia (updated 04/26/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Acute_lymphocytic_leukemia.pdf"
+    },
+    "title": "Acute Lymphocytic Leukemia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-04-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-inner-ear-acute",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Acute or Chronic Diseases (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/inner_ear_acute.pdf"
+    },
+    "title": "Acute or Chronic Diseases",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-allergies-anaphylaxis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 26: Allergies or Anaphylaxis Disposition Table (updated 08/28/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Allergies_Anaphylaxis.pdf"
+    },
+    "title": "Allergies or Anaphylaxis Disposition Table",
+    "examItems": [
+      "26"
+    ],
+    "item18Codes": [
+      "item18-allergy"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-alzheimers-mci-dementia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Alzheimer’s Disease or Mild Cognitive Impairment (MCI) or Dementia (updated 02/22/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Alzheimers_MCI_Dementia.pdf"
+    },
+    "title": "Alzheimer’s Disease or Mild Cognitive Impairment (MCI) or Dementia",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-02-22",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-als",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Amyotrophic Lateral Sclerosis (ALS) (version 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ALS.pdf"
+    },
+    "title": "Amyotrophic Lateral Sclerosis (ALS)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Version"
+  },
+  {
+    "envelope": {
+      "code": "dispo-anxiety-depression-decision-tool",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Decision Tool for the AME (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Decision_Tool.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions Decision Tool for the AME",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-09-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-anxiety-depression-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Disposition Table (updated 06/26/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Disposition_Table.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions Disposition Table",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-06-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-anxiety-depression-fast-track-pathway",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Fast Track Pathway (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Fast_Track_Pathway.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions Fast Track Pathway",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-09-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-path-status-summary-anxiety-depression-related-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions PATH Status Summary (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PATH_Status_Summary_Anxiety_Depression_Related_Conditions.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions PATH Status Summary",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-arteriovenous-malformation-avm-neurological",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Arteriovenous Malformation (AVM) - Neurological (Brain or Spinal Cord) (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Neurological.pdf"
+    },
+    "title": "Arteriovenous Malformation (AVM) - Neurological (Brain or Spinal Cord)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-arteriovenous-malformation-avm-peripheral",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37: Arteriovenous Malformation (AVM) - Peripheral (Lungs, Liver, Bone) Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Peripheral.pdf"
+    },
+    "title": "Arteriovenous Malformation (AVM) - Peripheral (Lungs, Liver, Bone) Disposition Table",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-asthma-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Asthma (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Asthma_dispo_table.pdf"
+    },
+    "title": "Asthma",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-atrialfibrillationdispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Atrial Fibrillation (updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AtrialFibrillationDispositionTable.pdf"
+    },
+    "title": "Atrial Fibrillation",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-03-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-atrial-flutter-typical-af-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Atrial Flutter / Typical Atrial Flutter (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Atrial_Flutter_Typical_AF_Dispo_Table.pdf"
+    },
+    "title": "Atrial Flutter / Typical Atrial Flutter",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-04-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-other-neurologic-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Atypical Facial Pain (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf"
+    },
+    "title": "Atypical Facial Pain",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-barrettsesophagus",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Barrett's Esophagus (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/BarrettsEsophagus.pdf"
+    },
+    "title": "Barrett's Esophagus",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2022-04-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-bells-palsy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Bell’s Palsy - (Facial Nerve Palsy, Cranial Nerve Palsy) (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Bells-Palsy.pdf"
+    },
+    "title": "Bell’s Palsy - (Facial Nerve Palsy, Cranial Nerve Palsy)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-benign-positional-vertigo",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Benign Paroxysmal Positional Vertigo (BPPV) (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/benign_positional_vertigo.pdf"
+    },
+    "title": "Benign Paroxysmal Positional Vertigo (BPPV)",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-brainabscess-encephalitis-meningitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Brain Abscess, Encephalitis, Meningitis (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf"
+    },
+    "title": "Brain Abscess, Encephalitis, Meningitis",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-brain-aneurysm",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Brain Aneurysm (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf"
+    },
+    "title": "Brain Aneurysm",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-brain-bleed",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Brain Bleed (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf"
+    },
+    "title": "Brain Bleed",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-brain-injury-decision-tool",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Brain Injury Decision Tool for the AME (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain_Injury_Decision_Tool.pdf"
+    },
+    "title": "Brain Injury Decision Tool for the AME",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-brain-tumors",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Brain Tumors (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Brain-Tumors.pdf"
+    },
+    "title": "Brain Tumors",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-bronchiectasis-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Bronchiectasis (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Bronchiectasis_Dispo_Table.pdf"
+    },
+    "title": "Bronchiectasis",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-buerger-disease-tao",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37: Buerger Disease or Thromboangiitis Obliterans (TAO) Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Buerger_Disease_TAO.pdf"
+    },
+    "title": "Buerger Disease or Thromboangiitis Obliterans (TAO) Disposition Table",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-carotid-vertebral-artery-disease-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Carotid /Vertebral Artery Stenosis (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Carotid_Vertebral_Artery_Disease_Dispo_Table.pdf"
+    },
+    "title": "Carotid /Vertebral Artery Stenosis",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro",
+      "item18-heart"
+    ],
+    "updated": "2026-04-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-central-sleep-apnea",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Central Sleep Apnea (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Central_Sleep_Apnea.pdf"
+    },
+    "title": "Central Sleep Apnea",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-cerebral-palsy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Cerebral Palsy (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cerebral_Palsy.pdf"
+    },
+    "title": "Cerebral Palsy",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-chest-pain-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Chest Pain/Angina (updated 03/27/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Chest_Pain_Disposition_Table.pdf"
+    },
+    "title": "Chest Pain/Angina",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-chiari-malformation-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Chiari Malformation (updated 03/27/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Chiari_Malformation_Disposition_Table.pdf"
+    },
+    "title": "Chiari Malformation",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-cholelithiasis-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Cholelithiasis (gallstones) (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cholelithiasis_Disposition_Table.pdf"
+    },
+    "title": "Cholelithiasis (gallstones)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-chorioretinitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32: Chorioretinitis Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Chorioretinitis.pdf"
+    },
+    "title": "Chorioretinitis Disposition Table",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-copd-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Chronic Obstructive Pulmonary Disease (COPD), Emphysema, Chronic Bronchitis",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/COPD_dispo_table.pdf"
+    },
+    "title": "Chronic Obstructive Pulmonary Disease (COPD), Emphysema, Chronic Bronchitis",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-cirrhosis-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Cirrhosis (alcoholic and non-alcoholic) (updated 02/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cirrhosis_Dispo_Table.pdf"
+    },
+    "title": "Cirrhosis (alcoholic and non-alcoholic)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-cochlear-implant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Cochlear Implant (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/cochlear_implant.pdf"
+    },
+    "title": "Cochlear Implant",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-cog-mental-impairment-dysfunction",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Cognitive or Mental Impairment or Dysfunction, Cognitive Disorder, Mild Cognitive Impairment (MCI) (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/cog-mental-impairment-dysfunction.pdf"
+    },
+    "title": "Cognitive or Mental Impairment or Dysfunction, Cognitive Disorder, Mild Cognitive Impairment (MCI)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-coloboma-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32: Coloboma Disposition Table (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coloboma_dispo_table.pdf"
+    },
+    "title": "Coloboma Disposition Table",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-color-vision-limitation-review",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 52: Color Vision Limitation Review (updated 01/29/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Color_Vision_Limitation_Review.pdf"
+    },
+    "title": "Color Vision Limitation Review",
+    "examItems": [
+      "52"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2025-01-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-color-vision-faqs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 52: Color Vision – Frequently Asked Questions (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Color_Vision_FAQS.pdf"
+    },
+    "title": "Color Vision – Frequently Asked Questions",
+    "examItems": [
+      "52"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-head-injury",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Concussion (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
+    },
+    "title": "Concussion",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-congenital-heart-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Congenital Heart Conditions (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Congenital_Heart_Conditions.pdf"
+    },
+    "title": "Congenital Heart Conditions",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-congenital-sucrase-isomaltase-deficiency-csid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Congenital Sucrase Isomaltase Deficiency CSID (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Congenital_Sucrase_Isomaltase_Deficiency_CSID.pdf"
+    },
+    "title": "Congenital Sucrase Isomaltase Deficiency CSID",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-coronary-heart-disease-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Coronary Heart Disease (updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Disposition_Table.pdf"
+    },
+    "title": "Coronary Heart Disease",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-03-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-covid-19-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: COVID-19 Infections (updated 10/30/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/COVID-19_disposition_table.pdf"
+    },
+    "title": "COVID-19 Infections",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-10-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-cardiovascular-evaluation-protocol",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37: CVE Protocol (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf"
+    },
+    "title": "CVE Protocol",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-cystic-fibrosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Cystic Fibrosis (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Cystic_Fibrosis.pdf"
+    },
+    "title": "Cystic Fibrosis",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-deep-brain-stimulator",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Deep Brain Stimulator and Deep Brain Stimulator Status Summary (updated 06/26/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf"
+    },
+    "title": "Deep Brain Stimulator and Deep Brain Stimulator Status Summary",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2024-06-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dystonia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Dystonia (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dystonia.pdf"
+    },
+    "title": "Dystonia",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-endocarditis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Endocarditis (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Endocarditis.pdf"
+    },
+    "title": "Endocarditis",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-esophageal-varices-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Esophageal Varices (updated 02/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Esophageal_Varices_Dispo_Table.pdf"
+    },
+    "title": "Esophageal Varices",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-color-vision-testing-flowchart",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 52: FAA Color Vision – Pilots Flowchart",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Color_Vision_Testing_Flowchart.pdf"
+    },
+    "title": "FAA Color Vision – Pilots Flowchart",
+    "examItems": [
+      "52"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-neurologicalspecificationsheet",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: FAA Specifications for Neurologic Evaluation (updated 03/27/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+    },
+    "title": "FAA Specifications for Neurologic Evaluation",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-fibromuscular-dysplasia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Fibromuscular Dysplasia (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Fibromuscular_Dysplasia.pdf"
+    },
+    "title": "Fibromuscular Dysplasia",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-gerd-dispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: GERD (gastroesophageal reflux disease or reflux) (updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Gerd_DispositionTable.pdf"
+    },
+    "title": "GERD (gastroesophageal reflux disease or reflux)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-03-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-gi-procedures",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: GI Procedures (EGD, colonoscopy) (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_GI_Procedures.pdf"
+    },
+    "title": "GI Procedures (EGD, colonoscopy)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-guillain-barre",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Guillain Barre Syndrome (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Guillain-Barre.pdf"
+    },
+    "title": "Guillain Barre Syndrome",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-heart-murmur",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Heart Murmur (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Heart_Murmur.pdf"
+    },
+    "title": "Heart Murmur",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-heart-transplant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Heart Transplant (heart replacement) (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Heart_Transplant.pdf"
+    },
+    "title": "Heart Transplant (heart replacement)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-hiatal-hernia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Hernia – Hiatal (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Hiatal_Hernia.pdf"
+    },
+    "title": "Hernia – Hiatal",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-hernia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Hernia – Inguinal, Ventral (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Hernia.pdf"
+    },
+    "title": "Hernia – Inguinal, Ventral",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-hrt-female-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Hormone Replacement Therapy (HRT) - Female (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HRT_Female_Disposition_Table.pdf"
+    },
+    "title": "Hormone Replacement Therapy (HRT) - Female",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-04-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-huntingtons-disease",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Huntington’s Disease (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Huntingtons_Disease.pdf"
+    },
+    "title": "Huntington’s Disease",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-hydrocephalus",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Hydrocephalus (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hydrocephalus.pdf"
+    },
+    "title": "Hydrocephalus",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-hypertensionfaqs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 55: Hypertension FAQs (updated 10/28/2015)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HypertensionFAQs.pdf"
+    },
+    "title": "Hypertension FAQs",
+    "examItems": [
+      "55"
+    ],
+    "item18Codes": [
+      "item18-bp"
+    ],
+    "updated": "2015-10-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-hcm-hocm-or-ihss",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Hypertrophic Cardiomyopathy (HCM) (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_HCM_HOCM_or_IHSS.pdf"
+    },
+    "title": "Hypertrophic Cardiomyopathy (HCM)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item-31-eyes-procedures",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31: Item 31. Eyes - Procedure(s)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Item_31_Eyes-Procedures.pdf"
+    },
+    "title": "Item 31. Eyes - Procedure(s)",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-labyrinthitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Labyrinthitis (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/labyrinthitis.pdf"
+    },
+    "title": "Labyrinthitis",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-lattice-degeneration-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32: Lattice Degeneration (updated 06/26/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Lattice_Degeneration_Disposition_Table.pdf"
+    },
+    "title": "Lattice Degeneration",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2024-06-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-liver-function-test-elevation",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Liver Function Test Elevation (abnormal LFTs) (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Liver_Function_Test_Elevation.pdf"
+    },
+    "title": "Liver Function Test Elevation (abnormal LFTs)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-liver-transplant-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Liver Transplant (recipient, donor, and in combination with other organs) (updated 02/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Liver_Transplant_Dispo_Table.pdf"
+    },
+    "title": "Liver Transplant (recipient, donor, and in combination with other organs)",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-low-t-hypogonadism-status-summary",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41: Low Testosterone (Low T) Hypogonadism Status Summary (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Low_T_Hypogonadism_Status_Summary.pdf"
+    },
+    "title": "Low Testosterone (Low T) Hypogonadism Status Summary",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-masld-mash-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: MASLD/MASH Disposition Table (updated 04/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/MASLD_MASH_Dispo_Table.pdf"
+    },
+    "title": "MASLD/MASH Disposition Table",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-04-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-menieres-disease",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Meniere’s Disease (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/menieres_disease.pdf"
+    },
+    "title": "Meniere’s Disease",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-middle-ear-abnormalities",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Middle Ear (updated 01/31/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Middle_Ear_Abnormalities.pdf"
+    },
+    "title": "Middle Ear",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-01-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-motion-sickness",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Motion Sickness (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/motion_sickness.pdf"
+    },
+    "title": "Motion Sickness",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-motion-sickness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-multiple-sclerosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Multiple Sclerosis (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Multiple-Sclerosis.pdf"
+    },
+    "title": "Multiple Sclerosis",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-myasthenia-gravis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Myasthenia Gravis (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Myasthenia-Gravis.pdf"
+    },
+    "title": "Myasthenia Gravis",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-narcolepsy-hypesomnia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Narcolepsy and Idiopathic Hypersomnia (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Narcolepsy-Hypesomnia.pdf"
+    },
+    "title": "Narcolepsy and Idiopathic Hypersomnia",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-neuralgia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 42, 46: Neuralgia (Trigeminal Neuralgia, Post Herpetic Neuralgia) Disposition Table (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Neuralgia.pdf"
+    },
+    "title": "Neuralgia (Trigeminal Neuralgia, Post Herpetic Neuralgia) Disposition Table",
+    "examItems": [
+      "42",
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-neurofibromatosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Neurofibromatosis - (NF-1 von Recklinghausen Disease, NF-2 Wishart Disease) (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Neurofibromatosis.pdf"
+    },
+    "title": "Neurofibromatosis - (NF-1 von Recklinghausen Disease, NF-2 Wishart Disease)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-neuropathy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 42, 46: Neuropathy Disposition Tables (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Neuropathy.pdf"
+    },
+    "title": "Neuropathy Disposition Tables",
+    "examItems": [
+      "42",
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-nonvalvularafib-status-summary",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Non-Valvular Atrial Fibrillation (AFIB)/A-Flutter Status Summary (updated 03/27/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf"
+    },
+    "title": "Non-Valvular Atrial Fibrillation (AFIB)/A-Flutter Status Summary",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-optic-neuritis-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32, 46: Optic Neuritis Disposition Table (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Optic_Neuritis_dispo_table.pdf"
+    },
+    "title": "Optic Neuritis Disposition Table",
+    "examItems": [
+      "32",
+      "46"
+    ],
+    "item18Codes": [
+      "item18-vision",
+      "item18-neuro"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-osteomyelitis-bone-infection",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Osteomyelitis (Bone Infection) (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Osteomyelitis_Bone_Infection.pdf"
+    },
+    "title": "Osteomyelitis (Bone Infection)",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-outer-ear-abnormalities",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Outer Ear (updated 01/31/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Outer_Ear_Abnormalities.pdf"
+    },
+    "title": "Outer Ear",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-01-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pacemakerdispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Pacemaker (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PacemakerDispositionTable.pdf"
+    },
+    "title": "Pacemaker",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pancreatitisdisposition",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Pancreatitis (updated 06/24/2020)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PancreatitisDisposition.pdf"
+    },
+    "title": "Pancreatitis",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2020-06-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-paraplegia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Paraplegia (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Paraplegia.pdf"
+    },
+    "title": "Paraplegia",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-parkinsons-disease",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Parkinson’s Disease and Parkinsonism (Secondary) (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Parkinsons_Disease.pdf"
+    },
+    "title": "Parkinson’s Disease and Parkinsonism (Secondary)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pectus-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Pectus Excavatum (updated 08/28/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pectus_dispo_table.pdf"
+    },
+    "title": "Pectus Excavatum",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-perilymph-fistula",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Perilymph Fistula (PLF) (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/perilymph_fistula.pdf"
+    },
+    "title": "Perilymph Fistula (PLF)",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-persistent-postural-perception-dizziness",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Persistent Postural Perceptual Dizziness (PPPD or 3PD) (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/persistent_postural_perception_dizziness.pdf"
+    },
+    "title": "Persistent Postural Perceptual Dizziness (PPPD or 3PD)",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pilotinformation-detailedclinicalprogressnote",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 50: Pilot Information - Current, Detailed Clinical Progress Note (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+    },
+    "title": "Pilot Information - Current, Detailed Clinical Progress Note",
+    "examItems": [
+      "50"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2024-09-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-polio",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Polio (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Polio.pdf"
+    },
+    "title": "Polio",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-polycystickidneydisease",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41: Polycystic Kidney Disease (updated 07/29/2020)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PolycysticKidneyDisease.pdf"
+    },
+    "title": "Polycystic Kidney Disease",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-kidney"
+    ],
+    "updated": "2020-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ptsddispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Post-Traumatic Stress Disorder (PTSD) (updated 06/26/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PTSDDispositionTable.pdf"
+    },
+    "title": "Post-Traumatic Stress Disorder (PTSD)",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-06-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-postural-tachycardia-syndrome-pots",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Postural Orthostatic Tachycardia Syndrome (POTS) (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Postural_Tachycardia_Syndrome_POTS.pdf"
+    },
+    "title": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-dizziness",
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-prematureatrialcontractions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Premature Atrial Contraction (PAC) (updated 04/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/PrematureAtrialContractions.pdf"
+    },
+    "title": "Premature Atrial Contraction (PAC)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2022-04-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pseudotumor-cerebri",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Pseudotumor Cerebri (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pseudotumor-Cerebri.pdf"
+    },
+    "title": "Pseudotumor Cerebri",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-pulmonary-htn",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Pulmonary Hypertension (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Pulmonary_HTN.pdf"
+    },
+    "title": "Pulmonary Hypertension",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma",
+      "item18-heart"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-pulmonary-nodule",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Pulmonary Nodule (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Pulmonary_Nodule.pdf"
+    },
+    "title": "Pulmonary Nodule",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-raynauds-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37: Raynaud's Disease (updated 05/31/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Raynauds_dispo_table.pdf"
+    },
+    "title": "Raynaud's Disease",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-retinal-dystrophies-dispositiontable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32: Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa) Disposition Table (updated 03/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Retinal_Dystrophies_DispositionTable.pdf"
+    },
+    "title": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa) Disposition Table",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-03-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-seizures-epilepsy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Seizures and Epilepsy (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
+    },
+    "title": "Seizures and Epilepsy",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-sinus-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 27: Sinus Conditions Disposition Table (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Sinus_conditions.pdf"
+    },
+    "title": "Sinus Conditions Disposition Table",
+    "examItems": [
+      "27"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-09-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-situational-depression-decision-tool",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situation Depression Decision Tool for the AME (updated 07/27/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Situational-Depression-Decision-Tool.pdf"
+    },
+    "title": "Situation Depression Decision Tool for the AME",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2022-07-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-situationaldepression",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situational Depression",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SituationalDepression.pdf"
+    },
+    "title": "Situational Depression",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-speech-impediment-stuttering",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 28: Speech Impediment, Stuttering or Mechanical Conditions (from surgery or trauma) Dispositions Table (updated 08/28/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Speech_Impediment_Stuttering.pdf"
+    },
+    "title": "Speech Impediment, Stuttering or Mechanical Conditions (from surgery or trauma) Dispositions Table",
+    "examItems": [
+      "28"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-splenomegaly",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Splenomegaly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Splenomegaly.pdf"
+    },
+    "title": "Splenomegaly",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-stroke-cva-tia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Stroke (CVA) or Transient Ischemic Attack (TIA) (updated 04/26/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
+    },
+    "title": "Stroke (CVA) or Transient Ischemic Attack (TIA)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-04-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-superior-semicircular-canal-dehiscence-syndrome",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29: Superior Semicircular Canal Dehiscence Syndrome (SSCDS) (updated 11/29/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/superior_semicircular_canal_dehiscence_syndrome.pdf"
+    },
+    "title": "Superior Semicircular Canal Dehiscence Syndrome (SSCDS)",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-dizziness"
+    ],
+    "updated": "2023-11-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-syncope-disposition-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Syncope (updated 05/29/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Syncope_Disposition_Table.pdf"
+    },
+    "title": "Syncope",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-dizziness",
+      "item18-heart"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-therapy-psychotherapy-counseling-info-pilots-atcs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Therapy, Psychotherapy, and Counseling (updated 05/27/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Therapy_Psychotherapy_Counseling_Info_Pilots_ATCS.pdf"
+    },
+    "title": "Therapy, Psychotherapy, and Counseling",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-05-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-tourettes-tic-disorders",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Tourette Syndrome or Tic Disorder (updated 08/30/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Tourettes_Tic_disorders.pdf"
+    },
+    "title": "Tourette Syndrome or Tic Disorder",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-08-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-transient-global-amnesia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Transient Global Amnesia (TGA) (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Transient_Global_Amnesia.pdf"
+    },
+    "title": "Transient Global Amnesia (TGA)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-typicalatrialflutterstatussummary",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Typical Atrial Flutter Status Summary (updated 01/28/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf"
+    },
+    "title": "Typical Atrial Flutter Status Summary",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-uloc",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 46: Unexplained Loss of Consciousness (ULOC) (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ULOC.pdf"
+    },
+    "title": "Unexplained Loss of Consciousness (ULOC)",
+    "examItems": [
+      "46"
+    ],
+    "item18Codes": [
+      "item18-unconscious",
+      "item18-neuro"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-weight-loss-management-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Weight Loss Management",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf"
+    },
+    "title": "Weight Loss Management",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-wolff-parkinson-white",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T15:31:35Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Wolff Parkinson White (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Wolff_Parkinson_White.pdf"
+    },
+    "title": "Wolff Parkinson White",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
+  }
+]

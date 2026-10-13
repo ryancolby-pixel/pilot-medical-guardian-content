@@ -679,6 +679,13 @@ def main() -> int:
                     _seen_urls.add(u)
                     all_source_urls.append(u)
 
+    # 📄 LINK-ONLY FILES (2026-10-13). A record here is the FAA's own title, date and link and
+    # nothing else: the app shows those three and the pilot reads the FAA's document. It makes no
+    # claim about what the document says, so obligation coverage can only report that it is a link
+    # (all 121 disposition tables did, 92 "new" failures, on their first run). A record that QUOTES
+    # anything is still checked in full, below; only a quote-free record is skipped.
+    LINK_ONLY = {"disposition_tables.json"}
+
     for name in files:
         entries = json.loads((V1 / name).read_text())
         if not isinstance(entries, list):
@@ -689,6 +696,8 @@ def main() -> int:
             body = " ".join(strings_of(entry))
             spans = list(quoted_spans(body))
             if not spans and not url:
+                continue
+            if name in LINK_ONLY and not spans:
                 continue
             if not url:
                 if spans:
