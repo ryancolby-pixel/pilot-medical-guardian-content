@@ -1005,6 +1005,24 @@
     "item18Codes": [
       "item18-gi"
     ],
+    "medicationCodes": [
+      "med-aluminum-hydroxide",
+      "med-aluminum-hydroxide-magnesium-hydroxide-simethicone",
+      "med-calcium-carbonate",
+      "med-cimetidine",
+      "med-esomeprazole",
+      "med-famotidine",
+      "med-lansoprazole",
+      "med-magnesium-hydroxide",
+      "med-magnesium-oxide",
+      "med-nizatidine",
+      "med-omeprazole",
+      "med-omeprazole-sodium-bicarbonate",
+      "med-pantoprazole",
+      "med-rabeprazole",
+      "med-ranitidine",
+      "med-vonoprazan"
+    ],
     "updated": "2026-03-25",
     "dateWord": "Updated"
   },
