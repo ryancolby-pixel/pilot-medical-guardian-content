@@ -111,7 +111,10 @@ def our_text(meds: list[dict] | None = None) -> str:
         parts += e.get("brandNames") or []
     syn = json.loads((ROOT / "v1" / "search_synonyms.json").read_text())
     for s in syn.get("entries", []):
-        parts += s.get("aliases", []) + s.get("expandsTo", [])
+        # Aliases only (2026-10-13). `expandsTo` is where an alias POINTS, not an entry: the medication
+        # class lists name every drug in the class, so counting them read carisoprodol as carried even
+        # with its own entry removed (the self-test below caught it the day the lists were added).
+        parts += s.get("aliases", [])
     return " \n ".join(parts).lower()
 
 

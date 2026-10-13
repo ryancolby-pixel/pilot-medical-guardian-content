@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-10-13.3",
-  "generatedAt": "2026-10-13T12:39:29Z",
+  "contentVersion": "2026-10-13.4",
+  "generatedAt": "2026-10-13T14:57:50Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -49,8 +49,8 @@
     },
     {
       "filename": "search_synonyms.json",
-      "size": 30442,
-      "checksum": "f1e633d23f7acff8498ebec262f2ac48e50ff0afdb4036cf19716eeb26f160b8"
+      "size": 38347,
+      "checksum": "01832a16175f43dfff6fe984c8d6857104157ce83b914fd3712964db9d5d131c"
     },
     {
       "filename": "si_conditions.json",

@@ -304,38 +304,6 @@
     },
     {
       "aliases": [
-        "blood pressure pill",
-        "blood pressure medication",
-        "bp med",
-        "bp pill",
-        "pressure pill"
-      ],
-      "expandsTo": [
-        "hypertension"
-      ],
-      "why": "expand to the CONDITION, not 30 drug names - more robust to content change",
-      "confidence": "high",
-      "weight": 1.0
-    },
-    {
-      "aliases": [
-        "statin",
-        "cholesterol pill",
-        "cholesterol medication",
-        "cholesterol med"
-      ],
-      "expandsTo": [
-        "atorvastatin",
-        "simvastatin",
-        "rosuvastatin",
-        "pravastatin"
-      ],
-      "why": "all six statins are informationalOnly; the expansion still routes correctly",
-      "confidence": "high",
-      "weight": 1.0
-    },
-    {
-      "aliases": [
         "blood thinner",
         "anticoagulant",
         "on blood thinners"
@@ -417,21 +385,6 @@
     },
     {
       "aliases": [
-        "inhaler",
-        "rescue inhaler",
-        "asthma inhaler"
-      ],
-      "expandsTo": [
-        "albuterol",
-        "fluticasone",
-        "tiotropium"
-      ],
-      "why": "class term",
-      "confidence": "high",
-      "weight": 1.0
-    },
-    {
-      "aliases": [
         "ozempic",
         "wegovy",
         "mounjaro",
@@ -452,7 +405,6 @@
       "aliases": [
         "viagra",
         "cialis",
-        "ed pill",
         "erectile dysfunction"
       ],
       "expandsTo": [
@@ -465,8 +417,6 @@
     },
     {
       "aliases": [
-        "allergy pill",
-        "antihistamine",
         "claritin",
         "zyrtec",
         "benadryl"
@@ -478,23 +428,6 @@
         "diphenhydramine"
       ],
       "why": "sedating antihistamines matter for flying",
-      "confidence": "high",
-      "weight": 1.0
-    },
-    {
-      "aliases": [
-        "acid reflux",
-        "heartburn",
-        "gerd",
-        "ppi"
-      ],
-      "expandsTo": [
-        "omeprazole",
-        "pantoprazole",
-        "esomeprazole",
-        "famotidine"
-      ],
-      "why": "class term",
       "confidence": "high",
       "weight": 1.0
     },
@@ -1296,6 +1229,348 @@
       "why": "si_conditions gains a Brain Aneurysm card 2026-09-02; pilots say aneurysm, coiling, clipping and brain bleed, none of which matched anything before",
       "confidence": "high",
       "weight": 1.0
+    },
+    {
+      "aliases": [
+        "muscle relaxer",
+        "muscle relaxers"
+      ],
+      "expandsTo": [
+        "baclofen",
+        "carisoprodol",
+        "cyclobenzaprine",
+        "metaxalone",
+        "methocarbamol",
+        "orphenadrine",
+        "tizanidine"
+      ],
+      "why": "Ryan 10/13 class term. Every entry the file tags 'Muscle relaxant' (his five plus metaxalone and orphenadrine, added 10/13).",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "blood pressure med",
+        "bp med",
+        "bp pill",
+        "blood pressure medication",
+        "blood pressure pill",
+        "pressure pill"
+      ],
+      "expandsTo": [
+        "amlodipine",
+        "atenolol",
+        "benazepril",
+        "bisoprolol",
+        "candesartan",
+        "carvedilol",
+        "chlorthalidone",
+        "clonidine",
+        "diltiazem",
+        "enalapril",
+        "felodipine",
+        "hydrochlorothiazide",
+        "indapamide",
+        "irbesartan",
+        "labetalol",
+        "lisinopril",
+        "losartan",
+        "metoprolol",
+        "nadolol",
+        "nebivolol",
+        "nifedipine",
+        "olmesartan",
+        "quinapril",
+        "ramipril",
+        "spironolactone",
+        "telmisartan",
+        "triamterene/hydrochlorothiazide",
+        "valsartan",
+        "verapamil"
+      ],
+      "why": "Ryan 10/13 class term: the drug rows, not the condition (\"BP pill returning the hypertension condition page is the wrong result\"). Every entry tagged '(hypertension)'. All the drug-word variants moved here from the old condition entry; bare 'blood pressure' still searches the condition.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "cholesterol med",
+        "cholesterol pill",
+        "cholesterol medication"
+      ],
+      "expandsTo": [
+        "alirocumab",
+        "atorvastatin",
+        "bempedoic acid",
+        "cerivastatin",
+        "cholestyramine",
+        "colesevelam",
+        "colestipol",
+        "evolocumab",
+        "ezetimibe",
+        "ezetimibe + atorvastatin",
+        "ezetimibe + simvastatin",
+        "fenofibrate",
+        "fluvastatin",
+        "gemfibrozil",
+        "inclisiran",
+        "lovastatin",
+        "lovastatin + niacin",
+        "mipomersen",
+        "niacin",
+        "pitavastatin",
+        "policosanol",
+        "pravastatin",
+        "rosuvastatin",
+        "simvastatin"
+      ],
+      "why": "Ryan 10/13 class term (the wider list). Every entry whose category names cholesterol (statins, ezetimibe, fibrates, PCSK9...). Moved from the old statin entry.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "statin"
+      ],
+      "expandsTo": [
+        "atorvastatin",
+        "cerivastatin",
+        "fluvastatin",
+        "lovastatin",
+        "pitavastatin",
+        "pravastatin",
+        "rosuvastatin",
+        "simvastatin"
+      ],
+      "why": "Ryan 10/13 class term. Statins only (\"one who types statin should not get ezetimibe\"). Every entry tagged 'Statin (cholesterol)'.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "allergy med",
+        "allergy pill"
+      ],
+      "expandsTo": [
+        "alcaftadine",
+        "azelastine",
+        "azelastine + fluticasone (nasal)",
+        "beclomethasone (nasal)",
+        "bepotastine",
+        "brompheniramine",
+        "cetirizine",
+        "chlorpheniramine",
+        "ciclesonide (nasal)",
+        "clemastine",
+        "cromolyn (nasal)",
+        "desloratadine",
+        "diphenhydramine",
+        "ebastine",
+        "epinastine (ophthalmic)",
+        "fexofenadine",
+        "fexofenadine + pseudoephedrine",
+        "flunisolide (nasal)",
+        "ketotifen",
+        "levocetirizine",
+        "loratadine",
+        "loratadine + pseudoephedrine",
+        "olopatadine",
+        "olopatadine + mometasone (nasal)",
+        "triamcinolone"
+      ],
+      "why": "Ryan 10/13 class term. Every entry tagged '(allergy)', plus the two antihistamine + decongestant combinations.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "antihistamine"
+      ],
+      "expandsTo": [
+        "alcaftadine",
+        "azelastine",
+        "azelastine + fluticasone (nasal)",
+        "bepotastine",
+        "brompheniramine",
+        "cetirizine",
+        "chlorpheniramine",
+        "clemastine",
+        "desloratadine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "diphenhydramine (topical)",
+        "doxylamine",
+        "ebastine",
+        "epinastine (ophthalmic)",
+        "fexofenadine",
+        "fexofenadine + pseudoephedrine",
+        "ketotifen",
+        "levocetirizine",
+        "loratadine",
+        "loratadine + pseudoephedrine",
+        "meclizine",
+        "naphazoline + pheniramine (ophthalmic)",
+        "olopatadine",
+        "olopatadine + mometasone (nasal)"
+      ],
+      "why": "Ryan 10/13 class term. Every entry whose category names an antihistamine, including the sedating motion-sickness and sleep-aid ones. Moved from the allergy entry.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "acid reflux",
+        "heartburn med",
+        "heartburn",
+        "gerd"
+      ],
+      "expandsTo": [
+        "aluminum hydroxide",
+        "aluminum hydroxide + magnesium hydroxide + simethicone",
+        "calcium carbonate",
+        "cimetidine",
+        "esomeprazole",
+        "famotidine",
+        "lansoprazole",
+        "magnesium hydroxide",
+        "magnesium oxide",
+        "nizatidine",
+        "omeprazole",
+        "omeprazole + sodium bicarbonate",
+        "pantoprazole",
+        "rabeprazole",
+        "ranitidine",
+        "vonoprazan"
+      ],
+      "why": "Ryan 10/13 class term (keeps the antacids). PPIs, H2 blockers, antacids and vonoprazan. All four moved from the old reflux entry.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "ppi"
+      ],
+      "expandsTo": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "omeprazole + sodium bicarbonate",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "why": "Ryan 10/13 class term. The six PPIs only (\"A pilot who types PPI should not get Tums\").",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "steroid"
+      ],
+      "expandsTo": [
+        "azelastine + fluticasone (nasal)",
+        "beclomethasone (nasal)",
+        "budesonide",
+        "budesonide/formoterol",
+        "ciclesonide (nasal)",
+        "clocortolone (topical)",
+        "desonide (topical)",
+        "flunisolide (nasal)",
+        "fluocinolone (topical)",
+        "fluticasone (inhaled)",
+        "fluticasone/salmeterol",
+        "hydrocortisone",
+        "mometasone (nasal)",
+        "nystatin + triamcinolone (topical)",
+        "olopatadine + mometasone (nasal)",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "why": "Ryan 10/13 class term. Every entry whose category names a corticosteroid or steroid: oral, inhaled, nasal, topical.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "prednisone"
+      ],
+      "expandsTo": [
+        "hydrocortisone",
+        "prednisone"
+      ],
+      "why": "Ryan 10/13 class term. The oral corticosteroids the file tags (prednisone sorts first when typed).",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "inhaler",
+        "rescue inhaler",
+        "asthma inhaler"
+      ],
+      "expandsTo": [
+        "albuterol",
+        "fluticasone (inhaled)",
+        "budesonide/formoterol",
+        "fluticasone/salmeterol",
+        "tiotropium"
+      ],
+      "why": "Ryan 10/13 class term. The inhaled asthma/COPD entries. All three moved from the old inhaler entry.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "adhd med"
+      ],
+      "expandsTo": [
+        "amphetamine/dextroamphetamine",
+        "atomoxetine",
+        "lisdexamfetamine",
+        "methylphenidate"
+      ],
+      "why": "Ryan 10/13 class term. The CNS stimulants plus atomoxetine.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "stimulant"
+      ],
+      "expandsTo": [
+        "amphetamine/dextroamphetamine",
+        "lisdexamfetamine",
+        "methylphenidate"
+      ],
+      "why": "Ryan 10/13 class term. Every entry tagged 'CNS stimulant (ADHD)'.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
+    },
+    {
+      "aliases": [
+        "ed med",
+        "ed pill"
+      ],
+      "expandsTo": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "why": "Ryan 10/13 class term. Every entry tagged 'PDE5 inhibitor (erectile dysfunction)'.",
+      "confidence": "high",
+      "weight": 1.0,
+      "medicationClass": true
     }
   ]
 }

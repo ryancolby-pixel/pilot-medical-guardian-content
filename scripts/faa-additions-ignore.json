@@ -81,6 +81,7 @@
     "lidocaine patch": "The OTC chart's 'lidocaine patch (Lidoderm)'; our lidocaine (topical) entry carries Lidoderm.",
     "fenfluramine hydrochloride": "Salt name; our fenfluramine entry is the drug.",
     "levothyroxine sodium": "Salt name; our levothyroxine entry is the drug.",
-    "liothyronine sodium": "Salt name; our liothyronine entry is the drug."
+    "liothyronine sodium": "Salt name; our liothyronine entry is the drug.",
+    "acceptable": "Allergy page wording ('... acceptable ...'), not a medication. It had been hidden by an alias target list until 2026-10-13."
   }
 }
