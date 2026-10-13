@@ -102,6 +102,42 @@
     ]
   },
   {
+    "genericName": "acetaminophen + butalbital",
+    "brandNames": [
+      "Fioricet"
+    ],
+    "category": "Barbiturate combination (headache)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Unacceptable on the FAA's migraine medication page.\n\nListed as: \"Acetaminophen + butalbital (Fioricet)\" under \"UNACCEPTABLE - Migraine Relief/Rescue Medication\".\nThe FAA's note: \"Use prohibited as a single agent or in any combination product.\"\nThat page covers migraine relief.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-acetaminophen-butalbital",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:38:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
+    "genericName": "acetaminophen + isometheptene + dichloralphenazone",
+    "brandNames": [
+      "Midrin"
+    ],
+    "category": "Combination (migraine)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Unacceptable on the FAA's migraine medication page.\n\nListed as: \"Acetaminophen + isomethptene + dichloralphenazone (Midrin)\" under \"UNACCEPTABLE - Migraine Relief/Rescue Medication\".\nThe FAA's note: \"Use prohibited as a single agent or in any combination product.\"\nThat page covers migraine relief.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-acetaminophen-isometheptene-dichloralphenazone",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:38:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
+  },
+  {
     "genericName": "acoltremon (ophthalmic)",
     "brandNames": [
       "Tryptyr"
@@ -803,6 +839,24 @@
         "url": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
       }
     ]
+  },
+  {
+    "genericName": "aspirin + butalbital",
+    "brandNames": [
+      "Fiorinal"
+    ],
+    "category": "Barbiturate combination (headache)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "Unacceptable on the FAA's migraine medication page.\n\nListed as: \"Aspirin + butalbital (Fiorinal)\" under \"UNACCEPTABLE - Migraine Relief/Rescue Medication\".\nThe FAA's note: \"Use prohibited as a single agent or in any combination product.\"\nThat page covers migraine relief.\n\nSource: FAA Migraine Medication, updated August 26, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-aspirin-butalbital",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:38:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
+    },
+    "treatedConditionNote": "The migraine condition itself is the FAA's primary interest."
   },
   {
     "genericName": "atenolol",

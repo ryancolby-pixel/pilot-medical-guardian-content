@@ -25,16 +25,14 @@ anywhere, plus bulleted lowercase names in the DNI/DNF tables. The generic may b
 ("Rimegepant (Nurtec)") or tall-man ("ZOLMitriptan (Zomig)"); until 2026-10-06 only lowercase
 generics were read, which is how rimegepant was skipped on the migraine worksheet.
 
-WHAT COUNTS AS OURS. A name a pilot's search would find: it appears, as whole words, in any
-medication entry's genericName, brandNames, faaStatusDescription, informationalNote, category
-or treatedConditionNote (the fields ReferenceSearchIndex.swift indexes), or in
-search_synonyms.json. A drug mentioned inside a class entry IS findable, so it is not a gap.
-
-EXCEPT ON THE DO NOT ISSUE / DO NOT FLY TABLES (added 2026-10-13, Ryan: "Ok"). A drug those tables
-name must have an entry of its OWN (its genericName or a brand). The FAA names carisoprodol (Soma)
-under MUSCLE RELAXANTS; three of our muscle-relaxant entries quote that line, so the rule above read
-Soma as carried while a pilot who added Soma got no FAA entry. Same for atropine, benztropine and
-triazolam. Searching found them; adding one to a medication list did not.
+WHAT COUNTS AS OURS (changed 2026-10-13, Ryan: "Ok", then "sort out the rest"). A drug the FAA
+names must have an entry of its OWN: its genericName, one of its brandNames, or a search_synonyms.json
+alias. A mention inside another entry's prose no longer counts. It used to (any of the fields
+ReferenceSearchIndex.swift indexes), on the reasoning that search finds it; but the FAA's Do Not Fly
+table names carisoprodol (Soma), three of our muscle-relaxant entries quote that line, and a pilot who
+added Soma to his medications got no FAA entry at all. The same rule found atropine, benztropine,
+triazolam, Fioricet, Fiorinal and Midrin. Switching it surfaced 60 names; the rest were class
+headings, worksheet wording, FAA misspellings and salt names, each now in the ignore file with why.
 
 NOT A DRUG. The extraction is deliberately crude ("angiography (CTA)", "blockers (Inderal)"),
 so non-drug words live in scripts/faa-additions-ignore.json with a reason. Add a term there
@@ -64,7 +62,7 @@ DNI_URL = "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 DNI_CONTROL = "diphenhydramine"
-DNI_NAMES_CONTROL = "ranolazine"
+PROSE_CONTROL = "carisoprodol"
 CACI_CONTROL = ("CACI_weight_loss_management.pdf", "orforglipron")
 CASE_CONTROLS = (("Headache_Migraine.pdf", "rimegepant"), ("Migraine_Medication.pdf", "zolmitriptan"))
 DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
@@ -75,7 +73,7 @@ DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
 PAIR = re.compile(r"\b([A-Za-z][A-Za-z\-]{3,}(?: [A-Za-z][A-Za-z\-]{3,})?)\s*\*?\s*[\(\[]\s*([A-Z][A-Za-z0-9\- ]{1,30})")
 BULLET = re.compile(r"(?m)^\s*(?:•|o|-)\s+([a-z][a-z\-]{4,})\b")
 ACRONYM = re.compile(r"^[A-Z0-9]{2,6}\b")
-SEARCHED = ("genericName", "faaStatusDescription", "informationalNote", "category", "treatedConditionNote")
+SEARCHED = ("genericName",)
 
 
 def fetch_text(url: str, tmp: Path) -> str | None:
@@ -106,9 +104,9 @@ def candidates(text: str, bullets: bool) -> set[str]:
     return out
 
 
-def our_text() -> str:
+def our_text(meds: list[dict] | None = None) -> str:
     parts = []
-    for e in json.loads((ROOT / "v1" / "medications.json").read_text()):
+    for e in meds if meds is not None else json.loads((ROOT / "v1" / "medications.json").read_text()):
         parts += [str(e.get(f) or "") for f in SEARCHED]
         parts += e.get("brandNames") or []
     syn = json.loads((ROOT / "v1" / "search_synonyms.json").read_text())
@@ -182,7 +180,6 @@ def main() -> int:
                 cited.add(u)
     caci_urls = sorted({u for u in cited if u.lower().endswith(".pdf")} | set(DRUG_LISTS))
     found: dict[str, set[str]] = {}
-    dni_names: set[str] = set()
     unreadable = []
     with tempfile.TemporaryDirectory() as tmp:
         for url in [DNI_URL] + caci_urls:
@@ -195,8 +192,6 @@ def main() -> int:
                 print(f"❌ CONTROL FAILED: '{DNI_CONTROL}' not read from {url}. Extraction is broken.")
                 return 2
             got = candidates(text, bullets=(url == DNI_URL))
-            if url == DNI_URL:
-                dni_names = set(got)
             if name == CACI_CONTROL[0] and CACI_CONTROL[1] not in got:
                 print(f"❌ CONTROL FAILED: '{CACI_CONTROL[1]}' not extracted from {name}.")
                 return 2
@@ -218,15 +213,14 @@ def main() -> int:
 
     missing = {n: srcs for n, srcs in found.items() if n not in ignore and not covered(n, ours)}
     meds = json.loads((ROOT / "v1" / "medications.json").read_text())
-    # DNI/DNF names need an entry of their own, not a mention in another entry (2026-10-13).
-    # NEGATIVE CONTROL: with ranolazine's entry gone, it must be reported.
-    if covered(DNI_NAMES_CONTROL, names_only([m for m in meds if m["genericName"] != DNI_NAMES_CONTROL])):
-        print(f"❌ SELF-TEST FAILED: removing the {DNI_NAMES_CONTROL} entry did not uncover it.")
+    # NEGATIVE CONTROL (2026-10-13): a drug that survives only as a mention in ANOTHER entry's prose must
+    # be reported. carisoprodol is quoted in three muscle-relaxant entries; with its own entry gone it
+    # has to come back as missing, or the rule has slipped back to counting prose.
+    without = [m for m in meds if m["genericName"] != PROSE_CONTROL]
+    still_in_prose = any(PROSE_CONTROL in (m.get("faaStatusDescription") or "") for m in without)
+    if not still_in_prose or covered(PROSE_CONTROL, our_text(without)) or not covered(PROSE_CONTROL, our_text(meds)):
+        print(f"❌ SELF-TEST FAILED: removing the {PROSE_CONTROL} entry did not uncover it.")
         return 2
-    own = names_only(meds)
-    for n in sorted(dni_names):
-        if n not in ignore and not covered(n, own):
-            missing.setdefault(n, set()).add("DNI_DNF_tables.pdf (named there; no entry of its own)")
     if not any(MEDGUIDE_CONTROL in ns for _, ns in medguide_rows()):
         print(f"❌ CONTROL FAILED: '{MEDGUIDE_CONTROL}' not read from the pinned MedGuide table.")
         return 2
@@ -247,13 +241,13 @@ def main() -> int:
     if unreadable:
         print(f"note: {len(unreadable)} list(s) unreadable this run: {', '.join(unreadable)}")
     if not missing:
-        print("✅ every drug the FAA names in these lists is findable in our medication file.")
+        print("✅ every drug the FAA names in these lists has an entry of its own in our medication file.")
         return 0
     lines = [f"- `{n}` (named in {', '.join(sorted(missing[n]))})" for n in sorted(missing)]
     Path("faa-additions-report.md").write_text(
         f"# Drugs the FAA names that our medication file does not\n\n"
         f"{len(missing)} name(s) appear on the FAA's Do Not Issue / Do Not Fly tables or a CACI "
-        f"worksheet and nowhere a pilot's search would find them in `v1/medications.json`.\n\n"
+        f"worksheet and have no entry of their own in `v1/medications.json` (a mention inside another entry does not count).\n\n"
         + "\n".join(lines)
         + "\n\n## What to do\n\nFor each: add an entry quoting the FAA document that names it, or, if it "
           "is not a medication or we deliberately do not carry it, add it to "
