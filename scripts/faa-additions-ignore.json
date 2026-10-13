@@ -22,6 +22,7 @@
     "receptor antagonists": "Class heading on the antihypertensives page ('Angiotensin II receptor antagonists (ARBs)'), not a single drug; our ARB entries are what a search finds.",
     "substances": "DNI table heading ('CONTROLLED SUBSTANCES (SCHEDULES I - V)'), not a medication.",
     "thrombocytopenia": "Condition named by the thrombocytopenia table, not a medication.",
-    "with aura": "Migraine type in the headache CACI, not a medication."
+    "with aura": "Migraine type in the headache CACI, not a medication.",
+    "nitrates": "Class heading on the DNI table (\"nitrates (nitroglycerin, isosorbide dinitrate [Imdur])\"); the nitroglycerin and isosorbide dinitrate entries carry it."
   }
 }

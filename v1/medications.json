@@ -889,6 +889,21 @@
     ]
   },
   {
+    "genericName": "atropine",
+    "brandNames": [],
+    "category": "Anticholinergic",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"atropine\"\nUnder: oral anticholinergics\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-atropine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
     "genericName": "azathioprine",
     "brandNames": [
       "Imuran"
@@ -1228,6 +1243,23 @@
         "url": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
       }
     ]
+  },
+  {
+    "genericName": "benztropine",
+    "brandNames": [
+      "Cogentin"
+    ],
+    "category": "Anticholinergic (Parkinsonism)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"benztropine (Cogentin)\"\nUnder: oral anticholinergics, Parkinsonism\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-benztropine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
   },
   {
     "genericName": "bepotastine",
@@ -1700,6 +1732,23 @@
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       }
     ]
+  },
+  {
+    "genericName": "carisoprodol",
+    "brandNames": [
+      "Soma"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-carisoprodol",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
   },
   {
     "genericName": "cefaclor",
@@ -4436,6 +4485,23 @@
     }
   },
   {
+    "genericName": "metaxalone",
+    "brandNames": [
+      "Skelaxin"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma) and cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-metaxalone",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
     "genericName": "methenamine",
     "brandNames": [
       "Hiprex"
@@ -4865,6 +4931,21 @@
     }
   },
   {
+    "genericName": "nitroglycerin",
+    "brandNames": [],
+    "category": "Nitrate (angina)",
+    "faaStatus": "notAcceptable",
+    "isCACI": false,
+    "faaStatusDescription": "On the FAA's Do Not Issue list: the AME cannot issue, and FAA clearance is required.\n\nListed as: \"nitrates (nitroglycerin, isosorbide dinitrate [Imdur])\"\nUnder: angina medications\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\nFAA rule: \"AMEs cannot issue. Clearance from the FAA required.\"\n\nSource: FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-nitroglycerin",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
+  },
+  {
     "genericName": "nizatidine",
     "brandNames": [
       "Axid"
@@ -5078,6 +5159,23 @@
       "lastVerified": "2026-10-07T14:53:49Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-01-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
+    }
+  },
+  {
+    "genericName": "orphenadrine",
+    "brandNames": [
+      "Norflex"
+    ],
+    "category": "Muscle relaxant",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists MUSCLE RELAXANTS under DO NOT FLY, not Do Not Issue. It names carisoprodol (Soma) and cyclobenzaprine (Flexeril), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-orphenadrine",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
     }
   },
   {
@@ -10529,6 +10627,23 @@
         "url": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
       }
     ]
+  },
+  {
+    "genericName": "triazolam",
+    "brandNames": [
+      "Halcion"
+    ],
+    "category": "Benzodiazepine hypnotic (insomnia)",
+    "faaStatus": "conditional",
+    "isCACI": false,
+    "faaStatusDescription": "The FAA lists ANTI-ANXIETY medications under DO NOT FLY, not Do Not Issue. It names triazolam (Halcion), in a list the FAA marks \"Including but not limited to:\". For that table the FAA writes that \"All medications listed below may cause sedation or drowsiness, impairing cognitive function and seriously degrading pilot performance.\", that \"AMEs should caution pilots on use and provide additional No Fly wait times where applicable.\" and that \"If applicant is using the following medications routinely, AMEs should DEFER.\" Its general rule is a no-fly interval of five times the medication's maximum pharmacologic half-life.\n\nThat is what the FAA publishes, not a determination about you.",
+    "envelope": {
+      "code": "med-triazolam",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-13T12:26:22Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Do Not Issue / Do Not Fly Medications table (updated 09/30/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
+    }
   },
   {
     "genericName": "trifarotene (topical)",

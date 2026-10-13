@@ -30,6 +30,12 @@ medication entry's genericName, brandNames, faaStatusDescription, informationalN
 or treatedConditionNote (the fields ReferenceSearchIndex.swift indexes), or in
 search_synonyms.json. A drug mentioned inside a class entry IS findable, so it is not a gap.
 
+EXCEPT ON THE DO NOT ISSUE / DO NOT FLY TABLES (added 2026-10-13, Ryan: "Ok"). A drug those tables
+name must have an entry of its OWN (its genericName or a brand). The FAA names carisoprodol (Soma)
+under MUSCLE RELAXANTS; three of our muscle-relaxant entries quote that line, so the rule above read
+Soma as carried while a pilot who added Soma got no FAA entry. Same for atropine, benztropine and
+triazolam. Searching found them; adding one to a medication list did not.
+
 NOT A DRUG. The extraction is deliberately crude ("angiography (CTA)", "blockers (Inderal)"),
 so non-drug words live in scripts/faa-additions-ignore.json with a reason. Add a term there
 only when it is not a medication, or when we deliberately do not carry it AND say why. An
@@ -58,6 +64,7 @@ DNI_URL = "https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 DNI_CONTROL = "diphenhydramine"
+DNI_NAMES_CONTROL = "ranolazine"
 CACI_CONTROL = ("CACI_weight_loss_management.pdf", "orforglipron")
 CASE_CONTROLS = (("Headache_Migraine.pdf", "rimegepant"), ("Migraine_Medication.pdf", "zolmitriptan"))
 DRUG_LISTS = ["https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf",
@@ -108,6 +115,11 @@ def our_text() -> str:
     for s in syn.get("entries", []):
         parts += s.get("aliases", []) + s.get("expandsTo", [])
     return " \n ".join(parts).lower()
+
+
+def names_only(meds: list[dict]) -> str:
+    """Every entry's own names: genericName and brands. What a medication-list match keys on."""
+    return " \n ".join(" | ".join([m["genericName"]] + (m.get("brandNames") or [])) for m in meds).lower()
 
 
 def covered(name: str, ours: str) -> bool:
@@ -170,6 +182,7 @@ def main() -> int:
                 cited.add(u)
     caci_urls = sorted({u for u in cited if u.lower().endswith(".pdf")} | set(DRUG_LISTS))
     found: dict[str, set[str]] = {}
+    dni_names: set[str] = set()
     unreadable = []
     with tempfile.TemporaryDirectory() as tmp:
         for url in [DNI_URL] + caci_urls:
@@ -182,6 +195,8 @@ def main() -> int:
                 print(f"❌ CONTROL FAILED: '{DNI_CONTROL}' not read from {url}. Extraction is broken.")
                 return 2
             got = candidates(text, bullets=(url == DNI_URL))
+            if url == DNI_URL:
+                dni_names = set(got)
             if name == CACI_CONTROL[0] and CACI_CONTROL[1] not in got:
                 print(f"❌ CONTROL FAILED: '{CACI_CONTROL[1]}' not extracted from {name}.")
                 return 2
@@ -203,6 +218,15 @@ def main() -> int:
 
     missing = {n: srcs for n, srcs in found.items() if n not in ignore and not covered(n, ours)}
     meds = json.loads((ROOT / "v1" / "medications.json").read_text())
+    # DNI/DNF names need an entry of their own, not a mention in another entry (2026-10-13).
+    # NEGATIVE CONTROL: with ranolazine's entry gone, it must be reported.
+    if covered(DNI_NAMES_CONTROL, names_only([m for m in meds if m["genericName"] != DNI_NAMES_CONTROL])):
+        print(f"❌ SELF-TEST FAILED: removing the {DNI_NAMES_CONTROL} entry did not uncover it.")
+        return 2
+    own = names_only(meds)
+    for n in sorted(dni_names):
+        if n not in ignore and not covered(n, own):
+            missing.setdefault(n, set()).add("DNI_DNF_tables.pdf (named there; no entry of its own)")
     if not any(MEDGUIDE_CONTROL in ns for _, ns in medguide_rows()):
         print(f"❌ CONTROL FAILED: '{MEDGUIDE_CONTROL}' not read from the pinned MedGuide table.")
         return 2
