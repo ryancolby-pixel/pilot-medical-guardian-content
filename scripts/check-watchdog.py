@@ -97,6 +97,26 @@ def last_run(workflow_file: str) -> datetime.datetime | None:
     return datetime.datetime.fromisoformat(stamp.replace("Z", "+00:00"))
 
 
+def registered_at(workflow_file: str) -> datetime.datetime | None:
+    """When GitHub first saw this workflow file (the Actions API's `created_at`).
+
+    Added 2026-10-13 after a false alarm: check-faa-additions.yml landed on 10/5 and the
+    10/12 watchdog run reported it as "never run" 40 minutes before its first Monday cron
+    fired (GitHub ran both about 7 hours late). A workflow younger than its own allowance
+    has not had a chance to miss a run yet, so "never run" is not evidence of anything.
+    None (lookup failed) keeps the loud answer.
+    """
+    r = subprocess.run(
+        ["gh", "api", f"repos/{{owner}}/{{repo}}/actions/workflows/{workflow_file}",
+         "--jq", ".created_at"],
+        cwd=ROOT, capture_output=True, text=True,
+    )
+    stamp = r.stdout.strip()
+    if r.returncode != 0 or not stamp:
+        return None
+    return datetime.datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+
+
 def main() -> int:
     now = datetime.datetime.now(datetime.timezone.utc)
     workflows = scheduled_workflows()
@@ -110,6 +130,12 @@ def main() -> int:
         when = last_run(name)
         allowed = interval * GRACE_MULTIPLIER
         if when is None:
+            born = registered_at(name)
+            if born is not None and (now - born).total_seconds() / 86400 <= allowed:
+                age = (now - born).total_seconds() / 86400
+                print(f"  NEW         {name}  added {age:.1f}d ago, no scheduled run yet "
+                      f"(every {interval:g}d)")
+                continue
             silent.append(f"- `{name}`: **has never run**, and it is scheduled every "
                           f"{interval:g} day(s)")
             print(f"  NEVER RUN   {name}  (every {interval:g}d)")
