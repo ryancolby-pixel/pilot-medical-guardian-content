@@ -217,7 +217,7 @@ old one. ⇒ **A content publish that changes displayed FAA text is a re-capture
 | `asc/mac-raw/` | `mac-v2/` | `build-mac-v2.py` | 2880x1800 |
 
 ✅ **The two iPhone sizes do NOT need separate captures** - one raw directory, two canvases, one script run.
-📌 **But they are separate ASC slots and BOTH must be re-uploaded.**
+📌 ~~But they are separate ASC slots and BOTH must be re-uploaded.~~ **2026-10-14: ASC now has one "iPhone with Dynamic Island (large display)" box (6.5"/6.7"/6.9") taking 1290x2796; it rejects 1284x2778. Upload `iphone-69-v2/` only; the medium-display (6.1"/6.3") box borrows it.**
 ✅ Both scripts **wipe their output directory first**, because a reorder renames files and stale names survived
 a run once and would have shipped a duplicated set.
 
