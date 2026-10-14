@@ -148,6 +148,18 @@ still holds and this shot does not violate it.
 
 ### The seven slots, and what is actually IN frame
 
+### 2026-10-14 — slot 3 (Item 18) re-captured on all four sets for iOS 2.3.2 / Mac 1.2.2
+
+18h = Yes now shows a **"1 FAA table for this question / Hypertension FAQs"** card under the CACI banner (FAA disposition
+tables, app `6e5f4c0d` / `f13989c2`), so the 10/9 Item 18 raws no longer matched the build. Re-taken with the same framing:
+iPhone 17 Pro (`iphone-new/item18.png`, `--time 9:41`), iPad Pro 13" via the sidebar (`asc/ipad/09-item18.png`; the iPad status
+bar shows the DATE, so it was pinned with `--time "2026-10-09T13:41:00.000Z"` to keep "Fri Oct 9" like its siblings; a
+non-millisecond ISO string is rejected), Mac 1.2.2 Debug (`asc/mac-raw/04-item18.png`, test store seeded once, light mode).
+⚠️ **A background Mac window renders INACTIVE** (gray traffic lights, gray progress bar, dimmed sidebar): `screencapture -l`
+works off-Space but captured the inactive look, so the window was brought forward for ~2 s (Ryan's OK) and captured active;
+the selected 18h row then draws in the active blue. Both scripts re-run: only the three `03-item18.png` outputs changed in the
+mobile sets, and `mac-v2/03-item18.png` in the Mac set. Mac settings restored, test store deleted, extension list = baseline.
+
 ### 2026-10-09 — end-of-month demo expiry, re-captured (iPad all 7, iPhone 6 of 7)
 
 `DemoDataSeeder` (app `ea7b678d` / `cf59dfc3`) now computes the certificate expiry from a mid-month exam ~4 months back
