@@ -60,8 +60,21 @@ jobs:
             echo "::warning::PMG_DASHBOARD_DISPATCH not set - dashboard not notified."
             exit 0
           fi
-          gh api -X POST repos/ryancolby-pixel/pilot-medical-guardian/dispatches \
-            -f event_type=ci-finished \
-            -F "client_payload[source]=$SOURCE" \
-            -F "client_payload[result]=$RESULT"
-          echo "Notified the dashboard: $SOURCE -> $RESULT"
+          # Up to three tries, 20 s apart (Ryan 2026-10-14: "just go ahead and do that"). One GitHub API 502
+          # on 10/14 turned a successful Pages deploy's relay red and sent an email; the next relays went
+          # through. Three straight failures is a broken relay and stays red.
+          for attempt in 1 2 3; do
+            if gh api -X POST repos/ryancolby-pixel/pilot-medical-guardian/dispatches \
+                 -f event_type=ci-finished \
+                 -F "client_payload[source]=$SOURCE" \
+                 -F "client_payload[result]=$RESULT"; then
+              echo "Notified the dashboard: $SOURCE -> $RESULT (attempt $attempt)"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "::warning::Dashboard dispatch attempt $attempt failed; retrying in 20 s."
+              sleep 20
+            fi
+          done
+          echo "::error::Dashboard dispatch failed 3 times."
+          exit 1
