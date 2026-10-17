@@ -1,24 +1,6 @@
 [
   {
     "envelope": {
-      "code": "dispo-acceptable-atcs-tests",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 52: Acceptable Test Instruments for Color Vision Screening of ATCS chart (updated 08/27/2025)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Acceptable_ATCS_Tests.pdf"
-    },
-    "title": "Acceptable Test Instruments for Color Vision Screening of ATCS chart",
-    "examItems": [
-      "52"
-    ],
-    "item18Codes": [
-      "item18-vision"
-    ],
-    "updated": "2025-08-27",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
       "code": "dispo-acousticneuromasdispositiontable",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1097,42 +1079,6 @@
     ],
     "updated": "2026-02-25",
     "dateWord": "Updated"
-  },
-  {
-    "envelope": {
-      "code": "dispo-faa-atcs-guide",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA ATCS How to Guide (updated 12/03/2025)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA_ATCS_Guide.pdf"
-    },
-    "title": "FAA ATCS How to Guide",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2025-12-03",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
-      "code": "dispo-atcs-ssri-follow-up-path-for-the-hims-ame",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA ATCS SSRI Follow-Up Path for the HIMS AME",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/ATCS_SSRI_Follow-Up_Path_for_the_HIMS_AME.pdf"
-    },
-    "title": "FAA ATCS SSRI Follow-Up Path for the HIMS AME",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": null,
-    "dateWord": null
   },
   {
     "envelope": {
