@@ -189,6 +189,14 @@ IPHONE = [
     ("faa-reference.png",  "FAA REFERENCE",    "The FAA's own words, with the source"),
 ]
 
+DUO = [
+    # iPhone Duo (2026-10-16): same seven slots, same order and headlines. Raws captured on the
+    # iPhone Duo simulator (iOS 27.1) with `simctl io --display`, demo data, 9:41.
+    # duo-outer/ = the closed outer display (1398x2034); duo-inner/ = the inner display, fully
+    # open and wide (2853x2007), which shows the sidebar layout. Inner FAA Reference is a sheet,
+    # as on iPad.
+] + IPHONE
+
 jobs = [
     ("ipad-v2",  2064, 2752, os.path.join(BASE, "asc", "ipad"), IPAD,
      92, 42, 90, 116, 84, 104, 8.0),
@@ -196,6 +204,11 @@ jobs = [
      116, 30, 70, 104, 64, 92, 6.0),
     ("iphone-69-v2", 1290, 2796, os.path.join(BASE, "iphone-new"), IPHONE,
      116, 30, 70, 106, 64, 94, 6.0),
+    # ASC "iPhone Duo" outer display slot (portrait 1398x2034) and inner display slot (landscape 2853x2007).
+    ("duo-outer-v2", 1398, 2034, os.path.join(BASE, "asc", "duo-outer"), DUO,
+     96, 30, 70, 84, 96, 72, 6.0),
+    ("duo-inner-v2", 2853, 2007, os.path.join(BASE, "asc", "duo-inner"), DUO,
+     60, 40, 92, 84, 200, 80, 8.0),
 ]
 
 for outdir, cw, ch, srcdir, shots, corner, eb, hs, tp, sp, bp, tk in jobs:

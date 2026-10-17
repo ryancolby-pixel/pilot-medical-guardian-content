@@ -148,6 +148,19 @@ still holds and this shot does not violate it.
 
 ### The seven slots, and what is actually IN frame
 
+### 2026-10-16 — iPhone Duo: two new sets (`duo-outer-v2/`, `duo-inner-v2/`)
+
+ASC's iPhone Duo slot takes **outer 1398x2034** and **inner 2853x2007** (or the rotated sizes), required from April 2027 for
+builds on the iOS 27.1 SDK (`APP_STORE_APPROVAL.md` #7). Same seven slots, order and headlines. Raws in `duo-outer/` and
+`duo-inner/`, captured on the `PMG-Duo` simulator (iOS 27.1) with `simctl io <udid> screenshot --display=<UUID>`
+(`simctl io <udid> enumerate` lists the two framebuffers by size), demo data seeded once, `compedPro` set for the run and
+removed after, `--time 9:41`. Poses are set by hand in Xcode 27's Device Hub (it replaced Simulator.app): outer = closed;
+inner = fully open and WIDE, which shows the sidebar layout. Inner FAA Reference is a sheet, as on iPad; everything else is
+reached through the sidebar. The captures do not draw the outer camera dot, same as iPhone captures omit the Island.
+⚠️ The simulator tool's taps are in POINTS of the live display (inner 951x669): divide the 2853-px capture by 3.
+`build-mobile-v2.py` builds both; the iPhone and iPad outputs came back byte-identical. 📌 This is now a FIFTH and SIXTH
+set: a change to any slot screen re-captures these too.
+
 ### 2026-10-14 — slot 3 (Item 18) re-captured on all four sets for iOS 2.3.2 / Mac 1.2.2
 
 18h = Yes now shows a **"1 FAA table for this question / Hypertension FAQs"** card under the CACI banner (FAA disposition
@@ -215,6 +228,8 @@ old one. ⇒ **A content publish that changes displayed FAA text is a re-capture
 | `screenshots/iphone-new/` | **`iphone-v2/` AND `iphone-69-v2/`** | `build-mobile-v2.py` | 1284x2778 and 1290x2796 |
 | `asc/ipad/` | `ipad-v2/` | `build-mobile-v2.py` | 2064x2752 |
 | `asc/mac-raw/` | `mac-v2/` | `build-mac-v2.py` | 2880x1800 |
+| `asc/duo-outer/` | `duo-outer-v2/` | `build-mobile-v2.py` | 1398x2034 |
+| `asc/duo-inner/` | `duo-inner-v2/` | `build-mobile-v2.py` | 2853x2007 |
 
 ✅ **The two iPhone sizes do NOT need separate captures** - one raw directory, two canvases, one script run.
 📌 ~~But they are separate ASC slots and BOTH must be re-uploaded.~~ **2026-10-14: ASC now has one "iPhone with Dynamic Island (large display)" box (6.5"/6.7"/6.9") taking 1290x2796; it rejects 1284x2778. Upload `iphone-69-v2/` only; the medium-display (6.1"/6.3") box borrows it.**
