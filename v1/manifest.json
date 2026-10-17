@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-10-17.1",
-  "generatedAt": "2026-10-17T16:02:06Z",
+  "contentVersion": "2026-10-17.2",
+  "generatedAt": "2026-10-17T16:13:53Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -24,8 +24,8 @@
     },
     {
       "filename": "disposition_tables.json",
-      "size": 76308,
-      "checksum": "b4e6e222e756abbfa442d3fbf21d8416ae62d3d4cdcd2d646ff9fe207390bff9"
+      "size": 165945,
+      "checksum": "e98913b57ac1c005762c76fbca375b18d5973ca893e0e413d49391c903bb19a9"
     },
     {
       "filename": "faa_submission_addresses.json",
@@ -54,8 +54,8 @@
     },
     {
       "filename": "search_synonyms.json",
-      "size": 39165,
-      "checksum": "3c61f11f0fb60675b4a27a21b7d555481a349a6f18f173a33cce8e4588315941"
+      "size": 42115,
+      "checksum": "9549dbd6a87377d320a18d85df5c0059e18d302e544e623afbe88ad63522e70b"
     },
     {
       "filename": "si_conditions.json",

@@ -37,6 +37,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-dispo-table-acromegaly",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Acromegaly (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Acromegaly.pdf"
+    },
+    "title": "Acromegaly",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-acute-lymphocytic-leukemia",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -73,6 +91,42 @@
   },
   {
     "envelope": {
+      "code": "dispo-dispo-table-adrenal-insufficiency",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Adrenal Insufficiency (Addison’s Disease) (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Adrenal_Insufficiency.pdf"
+    },
+    "title": "Adrenal Insufficiency (Addison’s Disease)",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssri-follow-up-path",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Airman SSRI Follow-Up Path for the HIMS AME",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Follow_Up_Path.pdf"
+    },
+    "title": "Airman SSRI Follow-Up Path for the HIMS AME",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
       "code": "dispo-allergies-anaphylaxis",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -91,6 +145,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-alpha-gal-syndrome-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: ALPHA-GAL SYNDROME (meat allergy) Disposition Table (updated 02/25/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Alpha-Gal_Syndrome_Dispo_Table.pdf"
+    },
+    "title": "ALPHA-GAL SYNDROME (meat allergy) Disposition Table",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-allergy"
+    ],
+    "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-alzheimers-mci-dementia",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -105,6 +177,24 @@
       "item18-neuro"
     ],
     "updated": "2023-02-22",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-amblyopia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31: AMBLYOPIA Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Amblyopia.pdf"
+    },
+    "title": "AMBLYOPIA Disposition Table",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
     "dateWord": "Updated"
   },
   {
@@ -830,6 +920,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-cushings-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Cushing’s Syndrome or Cushing’s Disease (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Cushings_Dispo_Table.pdf"
+    },
+    "title": "Cushing’s Syndrome or Cushing’s Disease",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-cardiovascular-evaluation-protocol",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -884,6 +992,60 @@
   },
   {
     "envelope": {
+      "code": "dispo-diabetes-insipidus-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Diabetes Insipidus Disposition Table (updated 09/27/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Diabetes_insipidus_dispo_table.pdf"
+    },
+    "title": "Diabetes Insipidus Disposition Table",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-09-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-diplopia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31: Diplopia (Double Vision) Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Diplopia.pdf"
+    },
+    "title": "Diplopia (Double Vision) Disposition Table",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssrimedsspecs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications (updated 01/29/2020)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf"
+    },
+    "title": "Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2020-01-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-dystonia",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -934,6 +1096,78 @@
       "item18-gi"
     ],
     "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-faa-atcs-guide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA ATCS How to Guide (updated 12/03/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA_ATCS_Guide.pdf"
+    },
+    "title": "FAA ATCS How to Guide",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2025-12-03",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-atcs-ssri-follow-up-path-for-the-hims-ame",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA ATCS SSRI Follow-Up Path for the HIMS AME",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ATCS_SSRI_Follow-Up_Path_for_the_HIMS_AME.pdf"
+    },
+    "title": "FAA ATCS SSRI Follow-Up Path for the HIMS AME",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-faa-certification-aid-ssri-initial-certification",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA Certification Aid - SSRI Initial Certification/Clearance (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf"
+    },
+    "title": "FAA Certification Aid - SSRI Initial Certification/Clearance",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssri-recertification-aid",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA Certification Aid - SSRI Recertification/Follow-Up Clearance (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf"
+    },
+    "title": "FAA Certification Aid - SSRI Recertification/Follow-Up Clearance",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-08-26",
     "dateWord": "Updated"
   },
   {
@@ -1046,6 +1280,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-item43-gout-and-pseudogout",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 04/27/2015): Gout and Pseudogout",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
+    },
+    "title": "Gout and Pseudogout",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2015-04-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-guillain-barre",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1136,6 +1388,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-himsamechangerequest",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: HIMS AME Change Request (updated 09/25/2024)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMSAMEChangeRequest.pdf"
+    },
+    "title": "HIMS AME Change Request",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-09-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-hrt-female-disposition-table",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1190,6 +1460,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-dispo-table-hyperparathyroidism",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Hyperparathyroidism (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Hyperparathyroidism.pdf"
+    },
+    "title": "Hyperparathyroidism",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-hypertensionfaqs",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1208,6 +1496,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-dispo-table-hyperthyroidism",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Hyperthyroidism (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Hyperthyroidism.pdf"
+    },
+    "title": "Hyperthyroidism",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-dispo-table-hcm-hocm-or-ihss",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1222,6 +1528,294 @@
       "item18-heart"
     ],
     "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-hypoglycemia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Hypoglycemia (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Hypoglycemia.pdf"
+    },
+    "title": "Hypoglycemia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-diabetes"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-hypoparathyroidism-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Hypoparathyroidism",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Hypoparathyroidism_dispo_table.pdf"
+    },
+    "title": "Hypoparathyroidism",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-item25-active-fistula-of-neck-either-congenital-or-acquired-including-tracheo",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 25. Head, Face, Neck, and Scalp (page last updated 03/09/2023): Active fistula of neck, either congenital or acquired, including tracheostomy",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item25/amd"
+    },
+    "title": "Item 25. Head, Face, Neck, and Scalp: Active fistula of neck, either congenital or acquired, including tracheostomy",
+    "examItems": [
+      "25"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item25-deformities-of-the-face-or-head-that-would-interfere-with-the-proper-f",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 25. Head, Face, Neck, and Scalp (page last updated 03/09/2023): Deformities of the face or head that would interfere with the proper fitting and wearing of an oxygen mask",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item25/amd"
+    },
+    "title": "Item 25. Head, Face, Neck, and Scalp: Deformities of the face or head that would interfere with the proper fitting and wearing of an oxygen mask",
+    "examItems": [
+      "25"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item25-loss-of-bony-substance-involving-the-two-tables-of-the-cranial-vault",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 25. Head, Face, Neck, and Scalp (page last updated 03/09/2023): Loss of bony substance involving the two tables of the cranial vault",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item25/amd"
+    },
+    "title": "Item 25. Head, Face, Neck, and Scalp: Loss of bony substance involving the two tables of the cranial vault",
+    "examItems": [
+      "25"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item26-allergies-or-anaphylaxis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 26. Nose (page last updated 08/28/2024): Allergies or Anaphylaxis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item26/amd"
+    },
+    "title": "Item 26. Nose: Allergies or Anaphylaxis",
+    "examItems": [
+      "26"
+    ],
+    "item18Codes": [
+      "item18-allergy"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item26-anosmia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 26. Nose (page last updated 08/28/2024): Anosmia",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item26/amd"
+    },
+    "title": "Item 26. Nose: Anosmia",
+    "examItems": [
+      "26"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item27-benign-cysts-polyps",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 27. Sinuses (page last updated 08/28/2024): Benign - Cysts/Polyps",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item27/amd"
+    },
+    "title": "Item 27. Sinuses: Benign - Cysts/Polyps",
+    "examItems": [
+      "27"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item27-malignant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 27. Sinuses (page last updated 08/28/2024): Malignant",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item27/amd"
+    },
+    "title": "Item 27. Sinuses: Malignant",
+    "examItems": [
+      "27"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2024-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item29-mastoid-fistula",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29. Ear - Mastoids (page last updated 01/07/2021): Mastoid fistula",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item29/amd/mastoids"
+    },
+    "title": "Item 29. Ear - Mastoids: Mastoid fistula",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item29-mastoiditis-acute-or-chronic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 29. Ear - Mastoids (page last updated 01/07/2021): Mastoiditis, acute or chronic",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item29/amd/mastoids"
+    },
+    "title": "Item 29. Ear - Mastoids: Mastoiditis, acute or chronic",
+    "examItems": [
+      "29"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item30-perforation-that-has-associated-pathology",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 30. Ear Drums (page last updated 03/10/2023): Perforation that has associated pathology",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item30/amd"
+    },
+    "title": "Item 30. Ear Drums: Perforation that has associated pathology",
+    "examItems": [
+      "30"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-10",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item30-perforation-which-has-resolved-without-any-other-clinical-symptoms",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 30. Ear Drums (page last updated 03/10/2023): Perforation which has resolved without any other clinical symptoms",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item30/amd"
+    },
+    "title": "Item 30. Ear Drums: Perforation which has resolved without any other clinical symptoms",
+    "examItems": [
+      "30"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-10",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item31-any-ophthalmic-pathology-reflecting-a-serious-systemic-disease-e-g-dia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31. Eyes - General (page last updated 08/26/2026): Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic and hypertensive retinopathy)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item31/amd/general"
+    },
+    "title": "Item 31. Eyes - General: Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic and hypertensive retinopathy)",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item31-congenital-or-acquired-conditions-whether-acute-or-chronic-of-either-e",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31. Eyes - General (page last updated 08/26/2026): Congenital or acquired conditions (whether acute or chronic), of either eye or adnexa that may interfere with visual functions, may progress to that degree, or may be aggravated by flying (tumors and ptosis obscuring the pupil, acute inflammatory disease of the eyes and lids, or keratoconus.)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item31/amd/general"
+    },
+    "title": "Item 31. Eyes - General: Congenital or acquired conditions (whether acute or chronic), of either eye or adnexa that may interfere with visual functions, may progress to that degree, or may be aggravated by flying (tumors and ptosis obscuring the pupil, acute inflammatory disease of the eyes and lids, or keratoconus.)",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item31-pterygium",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 31. Eyes - General (page last updated 08/26/2026): Pterygium",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item31/amd/general"
+    },
+    "title": "Item 31. Eyes - General: Pterygium",
+    "examItems": [
+      "31"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-26",
     "dateWord": "Updated"
   },
   {
@@ -1294,6 +1888,1504 @@
       "item18-vision"
     ],
     "updated": "2026-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item32-vascular-occlusion-retinopathy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32. Ophthalmoscopic (page last updated 08/28/2026): Vascular Occlusion; Retinopathy",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item32/amd"
+    },
+    "title": "Item 32. Ophthalmoscopic: Vascular Occlusion; Retinopathy",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item33-disparity-in-size-or-reaction-to-light-afferent-pupillary-defect-requi",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 33. Pupils (page last updated 03/09/2023): Disparity in size or reaction to light (afferent pupillary defect) requires clarification and/or further evaluation",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item33/amd"
+    },
+    "title": "Item 33. Pupils: Disparity in size or reaction to light (afferent pupillary defect) requires clarification and/or further evaluation",
+    "examItems": [
+      "33"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item33-nonreaction-to-light-in-either-eye-acute-or-chronic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 33. Pupils (page last updated 03/09/2023): Nonreaction to light in either eye acute or chronic",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item33/amd"
+    },
+    "title": "Item 33. Pupils: Nonreaction to light in either eye acute or chronic",
+    "examItems": [
+      "33"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item33-nystagmus",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 33. Pupils (page last updated 03/09/2023): Nystagmus",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item33/amd"
+    },
+    "title": "Item 33. Pupils: Nystagmus",
+    "examItems": [
+      "33"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item33-synechiae-anterior-or-posterior",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 33. Pupils (page last updated 03/09/2023): Synechiae, anterior or posterior",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item33/amd"
+    },
+    "title": "Item 33. Pupils: Synechiae, anterior or posterior",
+    "examItems": [
+      "33"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item34-absence-of-conjugate-alignment-in-any-quadrant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 34. Ocular Motility (page last updated 03/09/2023): Absence of conjugate alignment in any quadrant",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item34/amd"
+    },
+    "title": "Item 34. Ocular Motility: Absence of conjugate alignment in any quadrant",
+    "examItems": [
+      "34"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item34-inability-to-converge-on-a-near-object",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 34. Ocular Motility (page last updated 03/09/2023): Inability to converge on a near object",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item34/amd"
+    },
+    "title": "Item 34. Ocular Motility: Inability to converge on a near object",
+    "examItems": [
+      "34"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item34-paralysis-with-loss-of-ocular-motion-in-any-direction",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 34. Ocular Motility (page last updated 03/09/2023): Paralysis with loss of ocular motion in any direction",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item34/amd"
+    },
+    "title": "Item 34. Ocular Motility: Paralysis with loss of ocular motion in any direction",
+    "examItems": [
+      "34"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-allergies-severe",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Allergies (page last updated 02/25/2026): Allergies, severe",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/allergies"
+    },
+    "title": "Item 35. Lungs and Chest - Allergies: Allergies, severe",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-allergy"
+    ],
+    "updated": "2026-02-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-abscesses-active-mycotic-disease-active-tuberculosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum (page last updated 09/24/2025): Abscesses Active Mycotic disease Active Tuberculosis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/disease"
+    },
+    "title": "Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum: Abscesses Active Mycotic disease Active Tuberculosis",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-fistula-bronchopleural-to-include-thoracostomy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum (page last updated 09/24/2025): Fistula, Bronchopleural, to include Thoracostomy",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/disease"
+    },
+    "title": "Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum: Fistula, Bronchopleural, to include Thoracostomy",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-lobectomy",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum (page last updated 09/24/2025): Lobectomy",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/disease"
+    },
+    "title": "Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum: Lobectomy",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-pulmonary-embolism",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum (page last updated 09/24/2025): Pulmonary Embolism",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/disease"
+    },
+    "title": "Item 35. Lungs and Chest - Disease of the Lungs, Pleura, or Mediastinum: Pulmonary Embolism",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-acute-fibrinous-pleurisy-empyema-pleurisy-with-effusion-or-pneumonecto",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Pleura and Pleural Cavity (page last updated 09/24/2025): Acute fibrinous pleurisy; Empyema; Pleurisy with effusion; or Pneumonectomy",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/pleura"
+    },
+    "title": "Item 35. Lungs and Chest - Pleura and Pleural Cavity: Acute fibrinous pleurisy; Empyema; Pleurisy with effusion; or Pneumonectomy",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-malignant-tumors-or-cysts-of-the-lung-pleura-or-mediastinum",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Pleura and Pleural Cavity (page last updated 09/24/2025): Malignant tumors or cysts of the lung, pleura or mediastinum",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/pleura"
+    },
+    "title": "Item 35. Lungs and Chest - Pleura and Pleural Cavity: Malignant tumors or cysts of the lung, pleura or mediastinum",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-other-diseases-or-defects-of-the-lungs-or-chest-wall-that-require-use",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Pleura and Pleural Cavity (page last updated 09/24/2025): Other diseases or defects of the lungs or chest wall that require use of medication or that could adversely affect flying or endanger the applicant's well-being if permitted to fly",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/pleura"
+    },
+    "title": "Item 35. Lungs and Chest - Pleura and Pleural Cavity: Other diseases or defects of the lungs or chest wall that require use of medication or that could adversely affect flying or endanger the applicant's well-being if permitted to fly",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-pneumothorax-traumatic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Pleura and Pleural Cavity (page last updated 09/24/2025): Pneumothorax - Traumatic",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/pleura"
+    },
+    "title": "Item 35. Lungs and Chest - Pleura and Pleural Cavity: Pneumothorax - Traumatic",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item35-spontaneous-pneumothorax",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35. Lungs and Chest - Pleura and Pleural Cavity (page last updated 09/24/2025): Spontaneous pneumothorax",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/pleura"
+    },
+    "title": "Item 35. Lungs and Chest - Pleura and Pleural Cavity: Spontaneous pneumothorax",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item36-1st-degree-av-block-with-pr-interval-of-300-ms-or-more",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36. Heart - Arrhythmias (page last updated 03/27/2024): 1st Degree AV Block with PR interval of 300 ms or MORE",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/arrhythmias"
+    },
+    "title": "Item 36. Heart - Arrhythmias: 1st Degree AV Block with PR interval of 300 ms or MORE",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item36-1st-degree-av-block-with-pr-interval-of-less-than-300-ms",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36. Heart - Arrhythmias (page last updated 03/27/2024): 1st Degree AV Block with PR interval of LESS than 300 ms",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/arrhythmias"
+    },
+    "title": "Item 36. Heart - Arrhythmias: 1st Degree AV Block with PR interval of LESS than 300 ms",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item36-pvc-s-2-or-more-on-standard-ecg",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36. Heart - Arrhythmias (page last updated 03/27/2024): PVC's (2 or more on standard ECG)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/arrhythmias"
+    },
+    "title": "Item 36. Heart - Arrhythmias: PVC's (2 or more on standard ECG)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2024-03-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item36-hypertension-htn",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36. Heart – Hypertension (page last updated 03/23/2023): Hypertension (HTN)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension"
+    },
+    "title": "Item 36. Heart – Hypertension: Hypertension (HTN)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-bp",
+      "item18-heart"
+    ],
+    "updated": "2023-03-23",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item36-multiple-valve-replacement",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36. Heart – Valvular Disease (page last updated 01/28/2026): Multiple Valve Replacement",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular"
+    },
+    "title": "Item 36. Heart – Valvular Disease: Multiple Valve Replacement",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item37-aneurysm-abdominal-or-thoracic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37. Vascular System (page last updated 08/26/2026): Aneurysm (Abdominal or Thoracic)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item37/amd"
+    },
+    "title": "Item 37. Vascular System: Aneurysm (Abdominal or Thoracic)",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item37-peripheral-edema",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37. Vascular System (page last updated 08/26/2026): Peripheral Edema",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item37/amd"
+    },
+    "title": "Item 37. Vascular System: Peripheral Edema",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item37-phlebothrombosis-or-thrombophlebitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 37. Vascular System (page last updated 08/26/2026): Phlebothrombosis or Thrombophlebitis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item37/amd"
+    },
+    "title": "Item 37. Vascular System: Phlebothrombosis or Thrombophlebitis",
+    "examItems": [
+      "37"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item38-hepatitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38. Abdomen and Viscera and Anus Conditions (page last updated 03/10/2023): Hepatitis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item38/amd/conditions/hepatitis"
+    },
+    "title": "Item 38. Abdomen and Viscera and Anus Conditions: Hepatitis",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2023-03-10",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item38-peptic-ulcer",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38. Abdomen and Viscera and Anus Conditions (page last updated 01/07/2021): Peptic Ulcer",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item38/amd/conditions/peptic_ulcer"
+    },
+    "title": "Item 38. Abdomen and Viscera and Anus Conditions: Peptic Ulcer",
+    "examItems": [
+      "38"
+    ],
+    "item18Codes": [
+      "item18-gi"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-angioneurotic-edema",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 01/07/2021): Angioneurotic Edema",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/urticarialeruptions"
+    },
+    "title": "Item 40. Skin: Angioneurotic Edema",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-chronic-urticaria",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 01/07/2021): Chronic Urticaria",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/urticarialeruptions"
+    },
+    "title": "Item 40. Skin: Chronic Urticaria",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-dermatomyositis-deep-mycotic-infections-eruptive-xanthomas-hansen-s-di",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 09/24/2025): Dermatomyositis; Deep Mycotic Infections; Eruptive Xanthomas; Hansen's Disease; Lupus Erythematosus; or Scleroderma",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/cutaneous"
+    },
+    "title": "Item 40. Skin: Dermatomyositis; Deep Mycotic Infections; Eruptive Xanthomas; Hansen's Disease; Lupus Erythematosus; or Scleroderma",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-kaposi-s-sarcoma",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 09/24/2025): Kaposi's Sarcoma",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/cutaneous"
+    },
+    "title": "Item 40. Skin: Kaposi's Sarcoma",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-raynaud-s-syndrome-primary-raynaud-s-raynaud-s-disease-or-secondary-ra",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 09/24/2025): Raynaud’s Syndrome (Primary Raynaud’s/ Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/cutaneous"
+    },
+    "title": "Item 40. Skin: Raynaud’s Syndrome (Primary Raynaud’s/ Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-skin-cancer",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 01/07/2021): Skin Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma"
+    },
+    "title": "Item 40. Skin: Skin Cancer",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item40-use-of-isotretinoin-accutane",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 40. Skin (page last updated 09/24/2025): Use of isotretinoin (Accutane)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/cutaneous"
+    },
+    "title": "Item 40. Skin: Use of isotretinoin (Accutane)",
+    "examItems": [
+      "40"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2025-09-24",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-acute-nephritis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System - Inflammatory Conditions (page last updated 01/07/2021): Acute (Nephritis)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/ic"
+    },
+    "title": "Item 41. G-U System - Inflammatory Conditions: Acute (Nephritis)",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-chronic-nephritis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System - Inflammatory Conditions (page last updated 01/07/2021): Chronic (Nephritis)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/ic"
+    },
+    "title": "Item 41. G-U System - Inflammatory Conditions: Chronic (Nephritis)",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-nephrosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System - Inflammatory Conditions (page last updated 01/07/2021): Nephrosis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/ic"
+    },
+    "title": "Item 41. G-U System - Inflammatory Conditions: Nephrosis",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-pyelitis-or-pyelonephritis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System - Nephritis (page last updated 01/07/2021): Pyelitis or Pyelonephritis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nephritis"
+    },
+    "title": "Item 41. G-U System - Nephritis: Pyelitis or Pyelonephritis",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-pyonephrosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System - Nephritis (page last updated 01/07/2021): Pyonephrosis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nephritis"
+    },
+    "title": "Item 41. G-U System - Nephritis: Pyonephrosis",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-chronic-kidney-disease-ckd",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Chronic Kidney Disease (CKD)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+    },
+    "title": "Item 41. G-U System – General Disorders: Chronic Kidney Disease (CKD)",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-congenital-lesions-of-the-kidney",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Congenital lesions of the kidney",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+    },
+    "title": "Item 41. G-U System – General Disorders: Congenital lesions of the kidney",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-cystostomy-and-neurogenic-bladder",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Cystostomy and Neurogenic bladder",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+    },
+    "title": "Item 41. G-U System – General Disorders: Cystostomy and Neurogenic bladder",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-renal-dialysis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Renal Dialysis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+    },
+    "title": "Item 41. G-U System – General Disorders: Renal Dialysis",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-renal-transplant",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Renal Transplant",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+    },
+    "title": "Item 41. G-U System – General Disorders: Renal Transplant",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-bladder-cancer",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – Neoplastic Disorders (page last updated 03/09/2023): Bladder Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/bladder"
+    },
+    "title": "Item 41. G-U System – Neoplastic Disorders: Bladder Cancer",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-09",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-prostate-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – Neoplastic Disorders (page last updated 05/31/2023): Prostate Conditions",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic"
+    },
+    "title": "Item 41. G-U System – Neoplastic Disorders: Prostate Conditions",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-testicular-cancer",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – Neoplastic Disorders (page last updated 03/10/2023): Testicular Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/testicular"
+    },
+    "title": "Item 41. G-U System – Neoplastic Disorders: Testicular Cancer",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-10",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-hematuria",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 01/07/2021): Hematuria",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/us"
+    },
+    "title": "Item 41. G-U System: Hematuria",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-kidney"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-hydronephrosis-with-impaired-renal-function",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 01/07/2021): Hydronephrosis with impaired renal function",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/us"
+    },
+    "title": "Item 41. G-U System: Hydronephrosis with impaired renal function",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-nephrectomy-non-neoplastic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 01/07/2021): Nephrectomy (non-neoplastic)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/us"
+    },
+    "title": "Item 41. G-U System: Nephrectomy (non-neoplastic)",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-other-g-u-cancers-neoplastic-disorders",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 01/07/2021): Other G-U Cancers/Neoplastic Disorders",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/other"
+    },
+    "title": "Item 41. G-U System: Other G-U Cancers/Neoplastic Disorders",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-proteinuria-and-glycosuria",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 01/07/2021): Proteinuria and Glycosuria",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/us"
+    },
+    "title": "Item 41. G-U System: Proteinuria and Glycosuria",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item41-renal-cancer",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System (page last updated 03/21/2023): Renal Cancer",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/renal"
+    },
+    "title": "Item 41. G-U System: Renal Cancer",
+    "examItems": [
+      "41"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-21",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item42-atrophy-of-any-muscles-that-is-progressive-deformities-either-congenit",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 42. Upper and Lower Extremities (page last updated 01/28/2026): Atrophy of any muscles that is progressive, Deformities, either congenital or acquired, or Limitation of motion of a major joint, that are sufficient to interfere with the performance of airman duties",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item42/amd"
+    },
+    "title": "Item 42. Upper and Lower Extremities: Atrophy of any muscles that is progressive, Deformities, either congenital or acquired, or Limitation of motion of a major joint, that are sufficient to interfere with the performance of airman duties",
+    "examItems": [
+      "42"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item42-osteomyelitis-acute-or-chronic-with-or-without-draining-fistula-e",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 42. Upper and Lower Extremities (page last updated 01/28/2026): Osteomyelitis, acute or chronic, with or without draining fistula(e)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item42/amd"
+    },
+    "title": "Item 42. Upper and Lower Extremities: Osteomyelitis, acute or chronic, with or without draining fistula(e)",
+    "examItems": [
+      "42"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item42-sciatica-if-sufficient-to-interfere-with-function-or-is-likely-to-beco",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 42. Upper and Lower Extremities (page last updated 01/28/2026): Sciatica, if sufficient to interfere with function or is likely to become incapacitating",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item42/amd"
+    },
+    "title": "Item 42. Upper and Lower Extremities: Sciatica, if sufficient to interfere with function or is likely to become incapacitating",
+    "examItems": [
+      "42"
+    ],
+    "item18Codes": [
+      "item18-neuro"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-acute-polymyositis-dermatomyositis-lupus-erythematosus-or-polyarteriti",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Collagen Disease (page last updated 03/29/2023): Acute Polymyositis; Dermatomyositis; Lupus Erythematosus; or Polyarteritis Nodosa",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/collagen"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Collagen Disease: Acute Polymyositis; Dermatomyositis; Lupus Erythematosus; or Polyarteritis Nodosa",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-active-disease-of-bones-and-joints",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Active disease of bones and joints",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Active disease of bones and joints",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-ankylosis-curvature-or-other-marked-deformity-of-the-spinal-column-suf",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Ankylosis, curvature, or other marked deformity of the spinal column sufficient to interfere with the performance of airman duties",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Ankylosis, curvature, or other marked deformity of the spinal column sufficient to interfere with the performance of airman duties",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-intervertebral-disc-surgery",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Intervertebral Disc Surgery",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Intervertebral Disc Surgery",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-musculoskeletal-effects-of-muscular-dystrophy-or-myopathies",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Musculoskeletal effects of: Muscular Dystrophy or Myopathies",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Musculoskeletal effects of: Muscular Dystrophy or Myopathies",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-other-disturbances-of-musculoskeletal-function-acquired-or-congenital",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Other disturbances of musculoskeletal function, acquired or congenital, sufficient to interfere with the performance of airman duties or likely to progress to that degree",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Other disturbances of musculoskeletal function, acquired or congenital, sufficient to interfere with the performance of airman duties or likely to progress to that degree",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item43-symptomatic-herniation-of-intervertebral-disc",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal (page last updated 03/29/2023): Symptomatic herniation of intervertebral disc",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/spine"
+    },
+    "title": "Item 43. Spine and other Musculoskeletal - Spine, other musculoskeletal: Symptomatic herniation of intervertebral disc",
+    "examItems": [
+      "43"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-03-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item45-adenopathy-secondary-to-systemic-disease-or-metastasis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 45. Lymphatics (page last updated 05/31/2023): Adenopathy secondary to Systemic Disease or Metastasis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "title": "Item 45. Lymphatics: Adenopathy secondary to Systemic Disease or Metastasis",
+    "examItems": [
+      "45"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item45-leukemia-acute-and-chronic",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 45. Lymphatics (page last updated 05/31/2023): Leukemia, Acute and Chronic",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "title": "Item 45. Lymphatics: Leukemia, Acute and Chronic",
+    "examItems": [
+      "45"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item45-lymphedema",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 45. Lymphatics (page last updated 05/31/2023): Lymphedema",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "title": "Item 45. Lymphatics: Lymphedema",
+    "examItems": [
+      "45"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item45-lymphosarcoma",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 45. Lymphatics (page last updated 05/31/2023): Lymphosarcoma",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd"
+    },
+    "title": "Item 45. Lymphatics: Lymphosarcoma",
+    "examItems": [
+      "45"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-05-31",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-bipolar-disorder",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Bipolar Disorder",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Bipolar Disorder",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-personality-disorders",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Personality Disorders",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Personality Disorders",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-psychosis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Psychosis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Psychosis",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-psychotropic-medications-for-smoking-cessation",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Psychotropic medications for Smoking Cessation",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Psychotropic medications for Smoking Cessation",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-substance-abuse",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Substance Abuse",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Substance Abuse",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-substance",
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-substance-dependence",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Substance Dependence",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Substance Dependence",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-substance",
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item47-suicide-attempt",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions (page last updated 05/29/2024): Suicide Attempt",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+    },
+    "title": "Item 47. Psychiatric Conditions - Psychiatric Conditions Table of Medical Dispositions: Suicide Attempt",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-suicide",
+      "item18-mental"
+    ],
+    "updated": "2024-05-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-anemia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Anemia",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Anemia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-chronic-lymphocytic-leukemia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Chronic Lymphocytic Leukemia",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Chronic Lymphocytic Leukemia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-hemophilia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Hemophilia",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Hemophilia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-leukemia-acute-and-chronic-all-types",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Leukemia, Acute and Chronic - All Types",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Leukemia, Acute and Chronic - All Types",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-other-disease-of-the-blood-or-blood-forming-tissues-that-could-adverse",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Other disease of the blood or blood-forming tissues that could adversely affect performance of airman duties",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Other disease of the blood or blood-forming tissues that could adversely affect performance of airman duties",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-polycythemia",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood and Blood-Forming Tissue Disease (page last updated 01/07/2021): Polycythemia",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/blood"
+    },
+    "title": "Item 48. General Systemic - Blood and Blood-Forming Tissue Disease: Polycythemia",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-blood-donation",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Blood Donation (page last updated 01/07/2021): Blood Donation",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/bd"
+    },
+    "title": "Item 48. General Systemic - Blood Donation: Blood Donation",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2021-01-07",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item48-human-immunodeficiency-virus-hiv",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48. General Systemic - Human Immunodeficiency Virus (HIV) (page last updated 04/29/2026): Human Immunodeficiency Virus (HIV)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/hiv"
+    },
+    "title": "Item 48. General Systemic - Human Immunodeficiency Virus (HIV): Human Immunodeficiency Virus (HIV)",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-04-29",
     "dateWord": "Updated"
   },
   {
@@ -1442,6 +3534,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-mitralvalvedisease-dispotable",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: MITRAL VALVE DISEASE Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP) (updated 01/28/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/MitralValveDisease_DispoTable.pdf"
+    },
+    "title": "MITRAL VALVE DISEASE Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP)",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2026-01-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-motion-sickness",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1585,6 +3695,42 @@
     ],
     "updated": "2024-03-27",
     "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-normal-variants",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 36: Normal Variants (updated 10/26/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Normal_Variants.pdf"
+    },
+    "title": "Normal Variants",
+    "examItems": [
+      "36"
+    ],
+    "item18Codes": [
+      "item18-heart"
+    ],
+    "updated": "2022-10-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-faa-osa-flow-chart",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Obstructive Sleep Apnea (OSA) Flow Chart",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA%20OSA%20Flow%20Chart.pdf"
+    },
+    "title": "Obstructive Sleep Apnea (OSA) Flow Chart",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": null,
+    "dateWord": null
   },
   {
     "envelope": {
@@ -1788,6 +3934,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-dispo-table-pituitary-adenoma",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Pituitary Adenoma (updated 07/29/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf"
+    },
+    "title": "Pituitary Adenoma",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2026-07-29",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-polio",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1861,6 +4025,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-prediabetes-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 48: Prediabetes Disposition Table",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf"
+    },
+    "title": "Prediabetes Disposition Table",
+    "examItems": [
+      "48"
+    ],
+    "item18Codes": [
+      "item18-diabetes"
+    ],
+    "updated": null,
+    "dateWord": null
+  },
+  {
+    "envelope": {
       "code": "dispo-prematureatrialcontractions",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1893,6 +4075,24 @@
       "item18-neuro"
     ],
     "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-pulmonary-fibrosis-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Pulmonary Fibrosis Disposition Table (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pulmonary_Fibrosis_Dispo_Table.pdf"
+    },
+    "title": "Pulmonary Fibrosis Disposition Table",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
     "dateWord": "Updated"
   },
   {
@@ -1952,6 +4152,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-restless-leg",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Restless Leg Syndrome (updated 01/25/2023)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Restless_Leg.pdf"
+    },
+    "title": "Restless Leg Syndrome",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-other"
+    ],
+    "updated": "2023-01-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-retinal-dystrophies-dispositiontable",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1966,6 +4184,42 @@
       "item18-vision"
     ],
     "updated": "2026-03-25",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-sarcoid-dispo-table",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Sarcoid Disposition Table (updated 08/26/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Sarcoid_Dispo_Table.pdf"
+    },
+    "title": "Sarcoid Disposition Table",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2026-08-26",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-sarcoid-status-summary",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 35: Sarcoid Status Summary (updated 09/24/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Sarcoid_Status_Summary.pdf"
+    },
+    "title": "Sarcoid Status Summary",
+    "examItems": [
+      "35"
+    ],
+    "item18Codes": [
+      "item18-asthma"
+    ],
+    "updated": "2025-09-24",
     "dateWord": "Updated"
   },
   {
@@ -2074,6 +4328,60 @@
       "item18-gi"
     ],
     "updated": "2026-09-30",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssri-decision-path-i",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Decision Path I (updated 08/27/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-I.pdf"
+    },
+    "title": "SSRI Decision Path I",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2025-08-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssri-decision-path-ii",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Decision Path-II (updated 12/03/2025)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-II.pdf"
+    },
+    "title": "SSRI Decision Path-II",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2025-12-03",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-ssri-recert-np-change-faqs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:12:25Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Recertification - Neuropsychological Report Changes and FAQs (updated 12/28/2022)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recert_NP_change_FAQs.pdf"
+    },
+    "title": "SSRI Recertification - Neuropsychological Report Changes and FAQs",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2022-12-28",
     "dateWord": "Updated"
   },
   {

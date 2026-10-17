@@ -1588,6 +1588,90 @@
       "why": "Fuchs is a corneal dystrophy. The FAA covers it only as the AME Guide Item 32 row 'Corneal Ulcer or Dystrophy', and 'Fuchs dystrophy' otherwise surfaced only the Retinal Dystrophies table on the shared word (2026-10-17, a pilot's diagnosis). expandsTo is the single word 'corneal', NOT the phrase 'corneal dystrophy': a multi-word expansion must appear contiguously in the record, and the FAA row reads 'Corneal Ulcer or Dystrophy' (phrase form matched nothing on the sim)",
       "confidence": "high",
       "weight": 1.0
+    },
+    {
+      "aliases": [
+        "blood in urine",
+        "bloody urine"
+      ],
+      "expandsTo": [
+        "hematuria"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "lazy eye"
+      ],
+      "expandsTo": [
+        "amblyopia"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "collapsed lung"
+      ],
+      "expandsTo": [
+        "pneumothorax"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "overactive thyroid",
+        "hyperthyroid",
+        "graves disease",
+        "graves"
+      ],
+      "expandsTo": [
+        "hyperthyroidism"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "tb"
+      ],
+      "expandsTo": [
+        "tuberculosis"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "herniated disc",
+        "slipped disc",
+        "bulging disc"
+      ],
+      "expandsTo": [
+        "herniation"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
+    },
+    {
+      "aliases": [
+        "prep",
+        "hiv prep"
+      ],
+      "expandsTo": [
+        "hiv"
+      ],
+      "why": "Plain words for an FAA disposition row added in the 2026-10-17 AME Guide sweep; the row's title carries only the FAA's clinical term. Single-word expandsTo (a multi-word expansion must appear contiguously in the record).",
+      "confidence": "high",
+      "weight": 1.0
     }
   ]
 }
