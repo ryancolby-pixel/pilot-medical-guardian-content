@@ -1571,6 +1571,23 @@
       "confidence": "high",
       "weight": 1.0,
       "medicationClass": true
+    },
+    {
+      "aliases": [
+        "fuchs",
+        "fuchs dystrophy",
+        "fuchs endothelial dystrophy",
+        "fuchs corneal dystrophy",
+        "fuch's dystrophy",
+        "cornea",
+        "corneal dystrophy"
+      ],
+      "expandsTo": [
+        "corneal"
+      ],
+      "why": "Fuchs is a corneal dystrophy. The FAA covers it only as the AME Guide Item 32 row 'Corneal Ulcer or Dystrophy', and 'Fuchs dystrophy' otherwise surfaced only the Retinal Dystrophies table on the shared word (2026-10-17, a pilot's diagnosis). expandsTo is the single word 'corneal', NOT the phrase 'corneal dystrophy': a multi-word expansion must appear contiguously in the record, and the FAA row reads 'Corneal Ulcer or Dystrophy' (phrase form matched nothing on the sim)",
+      "confidence": "high",
+      "weight": 1.0
     }
   ]
 }

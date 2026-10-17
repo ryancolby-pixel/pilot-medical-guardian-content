@@ -1244,6 +1244,60 @@
   },
   {
     "envelope": {
+      "code": "dispo-item32-corneal-optic-retinal-papilledema-uveitis",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32. Ophthalmoscopic (page last updated 08/28/2026), Common Conditions and Course of Action: Corneal Ulcer or Dystrophy; Optic Atrophy; Retinal Degeneration or Detachment; Papilledema; or Uveitis",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item32/amd"
+    },
+    "title": "Item 32. Ophthalmoscopic: Corneal Ulcer or Dystrophy; Optic Atrophy; Retinal Degeneration or Detachment; Papilledema; or Uveitis",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item32-macular",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32. Ophthalmoscopic (page last updated 08/28/2026), Common Conditions and Course of Action: Macular Degeneration; Macular Detachment",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item32/amd"
+    },
+    "title": "Item 32. Ophthalmoscopic: Macular Degeneration; Macular Detachment",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-item32-tumors",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-10-17T16:00:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 32. Ophthalmoscopic (page last updated 08/28/2026), Common Conditions and Course of Action: Tumors",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item32/amd"
+    },
+    "title": "Item 32. Ophthalmoscopic: Tumors",
+    "examItems": [
+      "32"
+    ],
+    "item18Codes": [
+      "item18-vision"
+    ],
+    "updated": "2026-08-28",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-labyrinthitis",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
