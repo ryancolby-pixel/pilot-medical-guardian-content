@@ -146,6 +146,13 @@ Current shot → feature mapping:
   query the ASC lead screenshot uses on both platforms
 - `medxpress-autofill-before.png` / `medxpress-autofill-after.png` → Safari extension autofilling MedXPress Item 17 (live form)
 - `medxpress-visit-before.png` / `medxpress-visit-after.png` → Safari extension autofilling MedXPress Item 19 (live form)
+- `autofill-ios-*.webp`, `autofill-iphone-*.webp`, `autofill-ipad-*.webp` → the extension SETUP steps on
+  `autofill.html` (added 2026-10-18, after a pilot on iPadOS 26 could not find the "aA" button the page named).
+  Built by `autofill-setup/build.py` from the simulator raws in `autofill-setup/raw/` (iOS 26.5, status bar 9:41).
+  **These track SAFARI, not our app:** re-capture when an iOS release moves the extensions menu, the Allow
+  Extension switch, or the allow sheet's buttons, and change the page text in the same pass. The in-app setup
+  screen (`EnableExtensionView.swift`) names the same controls; keep the two in step. The Mac section still uses
+  the styled `.permbox` stand-in; real Mac shots need a capture on Ryan's Mac.
 
 If a feature in a shot is removed from the app, remove that shot **and** its
 `<figure>` block from `index.html`. If a shot's screen is redesigned, recapture it.
