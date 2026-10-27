@@ -148,6 +148,24 @@ still holds and this shot does not violate it.
 
 ### The seven slots, and what is actually IN frame
 
+### 2026-10-27 — iPhone and iPad sets re-captured for iOS 2.3.4 (all seven slots)
+
+The 10/26-27 visual pass (status chips, larger section headers, 42pt countdown), the MedXPress Prep footer's new
+**Share with my AME** button, and the SI **Requirements** timeline changed every slot. iPhone 17 Pro and iPad Pro 13"
+sims, fresh install of the 2.3.4 build, seeded once (Home read 2 medications, 2 visits, 246 days), Pro via the launch
+argument `-compedPro YES` (argument domain, nothing persisted), `--time 9:41` (iPad `2026-10-09T13:41:00.000Z`).
+- **Slot 4 framing changed:** iPhone frames the authorization dates + the new Requirements timeline + Notes; iPad is the
+  top of the SI screen, which now includes Requirements. Headline unchanged ("See what you sent and what is open").
+- **iPhone slot 2:** the taller footer (two buttons) hides the "2 medications recorded" caption; both rows still show.
+- **iPad slot 1:** the fifth "Ways PMG protects" row now falls just below the frame (taller section spacing). Kept the
+  top-of-Home framing.
+- **Fresh-install chrome to clear first:** iPhone shows the old 2.3 What's New sheet; iPad shows the intro, the consent
+  screen and the "Lock your records" card (Not now); both ask for notifications on My Medical.
+- **Not done in this pass:** Duo outer/inner (poses need Device Hub), Mac (window must come forward, Ryan's OK), the
+  header asset (its own medical-only capture; "267", "Class 1 medical" and the expiry are drawn by
+  `build-header-asset.py`, and Home no longer shows "Class 1 medical"), and the website gallery (held until 2.3.4 /
+  1.2.4 are live: new UI on the site before release would show features the store build does not have).
+
 ### 2026-10-16 — iPhone Duo: two new sets (`duo-outer-v2/`, `duo-inner-v2/`)
 
 ASC's iPhone Duo slot takes **outer 1398x2034** and **inner 2853x2007** (or the rotated sizes), required from April 2027 for
