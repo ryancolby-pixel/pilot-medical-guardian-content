@@ -259,7 +259,7 @@ old one. ⇒ **A content publish that changes displayed FAA text is a re-capture
 | `asc/duo-inner/` | `duo-inner-v2/` | `build-mobile-v2.py` | 2853x2007 |
 
 ✅ **The two iPhone sizes do NOT need separate captures** - one raw directory, two canvases, one script run.
-📌 ~~But they are separate ASC slots and BOTH must be re-uploaded.~~ **2026-10-14: ASC now has one "iPhone with Dynamic Island (large display)" box (6.5"/6.7"/6.9") taking 1290x2796; it rejects 1284x2778. Upload `iphone-69-v2/` only; the medium-display (6.1"/6.3") box borrows it.**
+📌 **2026-10-27: ASC shows TWO iPhone boxes again** on the 2.3.4 page: "iPhone with Dynamic Island (large display)" (takes 1290x2796, upload `iphone-69-v2/`) and "iPhone with Face ID (large display)" (takes 1284x2778, upload `iphone-v2/`; it still held the 9/05 set). Upload both. 📌 ~~But they are separate ASC slots and BOTH must be re-uploaded.~~ **2026-10-14: ASC now has one "iPhone with Dynamic Island (large display)" box (6.5"/6.7"/6.9") taking 1290x2796; it rejects 1284x2778. Upload `iphone-69-v2/` only; the medium-display (6.1"/6.3") box borrows it.**
 ✅ Both scripts **wipe their output directory first**, because a reorder renames files and stale names survived
 a run once and would have shipped a duplicated set.
 
