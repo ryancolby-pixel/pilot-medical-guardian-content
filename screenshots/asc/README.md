@@ -161,7 +161,11 @@ argument `-compedPro YES` (argument domain, nothing persisted), `--time 9:41` (i
   top-of-Home framing.
 - **Fresh-install chrome to clear first:** iPhone shows the old 2.3 What's New sheet; iPad shows the intro, the consent
   screen and the "Lock your records" card (Not now); both ask for notifications on My Medical.
-- **Not done in this pass:** Duo outer/inner (poses need Device Hub), Mac (window must come forward, Ryan's OK), the
+- **Duo outer + inner re-taken the same day** (`duo-outer-v2/`, `duo-inner-v2/`): PMG-Duo, fresh install, seeded once, 9:41.
+  Outer and inner Prep slots scroll so both medications clear the two-button footer; both SI slots frame Your
+  Authorization + Requirements. ⚠️ Device Hub windows are invisible to the background (AX) tools and its pose
+  buttons refused automated clicks ("could not verify which document"), so Ryan set the open pose by hand.
+- **Not done in this pass:** Mac (window must come forward, Ryan's OK), the
   header asset (its own medical-only capture; "267", "Class 1 medical" and the expiry are drawn by
   `build-header-asset.py`, and Home no longer shows "Class 1 medical"), and the website gallery (held until 2.3.4 /
   1.2.4 are live: new UI on the site before release would show features the store build does not have).
