@@ -175,6 +175,8 @@ argument `-compedPro YES` (argument domain, nothing persisted), `--time 9:41` (i
   `build-header-asset.py`, and Home no longer shows "Class 1 medical"), and the website gallery (held until 2.3.4 /
   1.2.4 are live: new UI on the site before release would show features the store build does not have).
 
+⚠️ **ASC can hang on one upload (10/27, Face ID box slot 6):** the file was valid (same format as its siblings). A re-saved copy with identical pixels under a new name went straight through.
+
 ### 2026-10-16 — iPhone Duo: two new sets (`duo-outer-v2/`, `duo-inner-v2/`)
 
 ASC's iPhone Duo slot takes **outer 1398x2034** and **inner 2853x2007** (or the rotated sizes), required from April 2027 for
