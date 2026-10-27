@@ -165,7 +165,12 @@ argument `-compedPro YES` (argument domain, nothing persisted), `--time 9:41` (i
   Outer and inner Prep slots scroll so both medications clear the two-button footer; both SI slots frame Your
   Authorization + Requirements. ⚠️ Device Hub windows are invisible to the background (AX) tools and its pose
   buttons refused automated clicks ("could not verify which document"), so Ryan set the open pose by hand.
-- **Not done in this pass:** Mac (window must come forward, Ryan's OK), the
+- **Mac re-taken the same day** (`mac-v2/`, Ryan's OK to bring the window forward): `mac-companion` 1.2.4 Debug from a
+  worktree, test store DELETED then `-PMGSeedDemoData` once, `-PMGForceLight`, `-compedPro YES` (launch argument),
+  `screencapture -l <window> -o` after `open <debug .app>` so every raw is the ACTIVE look (close button reads red).
+  The capture caught a real defect: the Prep footer cut "Open MedXPress in Safari" (fixed `mac-companion`, see git log,
+  ships after 1.2.4 (19)). Prefs unchanged, store deleted, extension list = baseline.
+- **Not done in this pass:** the
   header asset (its own medical-only capture; "267", "Class 1 medical" and the expiry are drawn by
   `build-header-asset.py`, and Home no longer shows "Class 1 medical"), and the website gallery (held until 2.3.4 /
   1.2.4 are live: new UI on the site before release would show features the store build does not have).
