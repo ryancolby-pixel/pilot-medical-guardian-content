@@ -684,7 +684,14 @@ def main() -> int:
     # claim about what the document says, so obligation coverage can only report that it is a link
     # (all 121 disposition tables did, 92 "new" failures, on their first run). A record that QUOTES
     # anything is still checked in full, below; only a quote-free record is skipped.
-    LINK_ONLY = {"disposition_tables.json"}
+    #
+    # 🩺 THE AME DIRECTORY (2026-10-28, Ryan's OK) is the same kind of record: the FAA Designee
+    # Locator's own name, address, phone and class for each AME, with no quotation. Its source is a
+    # JavaScript app (designee.faa.gov/#/designeeLocator), so a fetch returns 64 characters and every
+    # entry read as "unreadable". The monthly refresh checks the data at the source instead: a full
+    # read, no failed states, no drop of more than 10%. An AME entry that QUOTES anything is still
+    # checked in full.
+    LINK_ONLY = {"disposition_tables.json", "ame_directory.json", "ame_directory_full.json"}
 
     for name in files:
         entries = json.loads((V1 / name).read_text())

@@ -21,7 +21,9 @@ name: Check FAA CACI Worksheet PDFs for reissue
 # The job name still says CACI; what it actually watches is "every FAA PDF
 # we cite", which is the useful definition.
 #
-# hims-ames.pdf is deliberately NOT here: check-faa-hims-pdf.yml owns it.
+# hims-ames.pdf is deliberately NOT here: since 2026-10-28 the AME directory, HIMS included,
+# comes only from the FAA Designee Locator (refresh-faa-ame-directory.yml); the HIMS PDF
+# watcher was retired (Ryan 10/28: "No more PDF scraping").
 
 on:
   schedule:

@@ -23,7 +23,7 @@ on:
   workflow_run:
     workflows:
       - "Check FAA CACI Worksheet PDFs for reissue"
-      - "Check FAA HIMS-AME PDF for reissue"
+      - "Refresh FAA AME directory (monthly)"
       - "Check medication claims"
       - "Check whether cited FAA pages changed"
       - "Check FAA source links"

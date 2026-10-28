@@ -7,7 +7,9 @@ version opens the real locator in Chromium, accepts the FAA System Use Notice (R
 approved 10/27), then sends the site's OWN search request (the one its Search button
 sends, captured from the page) once per state, with a pause between requests.
 
-Per state: one request for every AME (with --hims, a second with the site's HIMS filter).
+Per state: one request for every AME, and (with --hims) a second with the site's HIMS filter.
+The locator is the ONLY source, HIMS included (Ryan 10/28: "No more PDF scraping").
+--hims on a resumed run adds just the HIMS request to states already saved without it.
 
 Output (AME_OUT, default ~/Downloads/pilotmedicalguardian/ame), nothing is published:
   ame_database.json  every AME row with the fields below, plus last_updated / source / counts
@@ -173,7 +175,11 @@ async def main():
         progress = {}
         if progress_path.exists() and "--fresh" not in sys.argv:
             progress = json.loads(progress_path.read_text())
-        todo = [s for s in states if s["name"] not in progress]
+        # A state is done when its AMEs are saved and, with --hims, its HIMS list too.
+        def finished(st):
+            e = progress.get(st["name"])
+            return bool(e) and (not WITH_HIMS or e.get("hims_done"))
+        todo = [s for s in states if not finished(s)]
         print(f"{len(states)} states and territories; {len(progress)} already saved, "
               f"{len(todo)} to collect.\n", flush=True)
 
@@ -187,12 +193,17 @@ async def main():
         async def collect(st):
             async with gate:
                 try:
-                    recs, total = await search_all(page, ids, st["id"], hims=False)
+                    saved = progress.get(st["name"])
+                    if saved:  # AMEs already read on an earlier run; only the HIMS request is missing
+                        recs, total = saved["records"], saved["total"]
+                    else:
+                        recs, total = await search_all(page, ids, st["id"], hims=False)
                     hims_numbers = []
-                    if WITH_HIMS:  # a second request per state; the FAA also publishes its HIMS list
+                    if WITH_HIMS:  # the site's own HIMS filter, one more request per state
                         hims_recs, _ = await search_all(page, ids, st["id"], hims=True)
                         hims_numbers = sorted({r.get("designeeNumber") for r in hims_recs})
-                    progress[st["name"]] = {"records": recs, "hims": hims_numbers, "total": total}
+                    progress[st["name"]] = {"records": recs, "hims": hims_numbers, "total": total,
+                                            "hims_done": WITH_HIMS}
                     tmp = progress_path.with_suffix(".tmp")
                     tmp.write_text(json.dumps(progress))
                     tmp.replace(progress_path)
@@ -230,6 +241,9 @@ async def main():
         "count_rows": len(unique),
         "count_ames": ames,
         "count_hims": len({r["designee_number"] for r in unique if r["hims"]}),
+        # True only when every state also got the HIMS request; the directory build refuses
+        # without it rather than mark every AME "not HIMS".
+        "hims_checked": bool(progress) and all(e.get("hims_done") for e in progress.values()),
         "states_failed": failures,
         "ames": unique,
     }
