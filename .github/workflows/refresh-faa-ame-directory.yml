@@ -1,0 +1,138 @@
+name: Refresh FAA AME directory (monthly)
+
+# Re-reads every active AME from the FAA Designee Locator (designee.faa.gov), rebuilds
+# v1/ame_directory_full.json (curated HIMS entries + FAA locator AMEs) and opens a PR.
+# Never merges itself: Ryan (Ryan 10/27: "have this script auto run every month on github")
+# reviews the counts in the PR and merges; Pages then republishes.
+#
+# ⚠️ FIRST-RUN RISK: designee.faa.gov sits behind Akamai, which may refuse GitHub's cloud
+# IPs. If the scrape fails here, the run goes red (a broken instrument, the one case that
+# should) and the monthly refresh falls back to running scripts/update_ame_database.py on
+# a Mac, then scripts/build_ame_directory.py.
+
+on:
+  schedule:
+    - cron: "0 9 3 * *"   # the 3rd of every month, 09:00 UTC (≈ 5 AM ET)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+  AME_OUT: /tmp/ame
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # MEASURED 2026-10-27 from a Mac: ~13 s per search from a normal browser, up to ~3 min
+    # from automation; 61 states and territories, 4 at a time.
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright==1.64.1
+          python -m playwright install --with-deps chromium
+
+      - name: Read the FAA Designee Locator (every state and territory)
+        run: python -u scripts/update_ame_database.py --headless --fresh
+
+      # A partial or blocked read must never shrink the published directory.
+      - name: Sanity-check the new read against the last snapshot
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          new = json.load(open("/tmp/ame/ame_database.json"))
+          old = json.load(open("scripts/data/faa_ame_locator.json"))
+          print(f"new: {new['count_ames']} AMEs / {new['count_rows']} addresses; "
+                f"last: {old['count_ames']} / {old['count_rows']}; failed: {new['states_failed']}")
+          if new["states_failed"]:
+              sys.exit(f"states failed: {new['states_failed']}")
+          if new["count_ames"] < 0.9 * old["count_ames"]:
+              sys.exit("more than 10% fewer AMEs than last month; refusing (check the locator by hand)")
+          EOF
+
+      - name: Rebuild the directory and check it
+        run: |
+          set -euo pipefail
+          cp /tmp/ame/ame_database.json scripts/data/faa_ame_locator.json
+          git show HEAD:v1/ame_directory_full.json > /tmp/previous_full.json
+          python3 scripts/build_ame_directory.py | tee /tmp/build.txt
+          CONTENT_VERSION="$(date -u +%Y-%m-%d).1" python3 scripts/gen_manifest.py
+          python3 scripts/validate.py
+          python3 scripts/check-med-claims.py
+
+      - name: Open PR
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          STAMP=$(date -u +%Y-%m-%d)
+          BRANCH="faa-ame-directory-${STAMP}"
+          python3 - > /tmp/changes.txt <<'EOF'
+          import json
+          old = {e["envelope"]["code"]: e for e in json.load(open("/tmp/previous_full.json"))}
+          new = {e["envelope"]["code"]: e for e in json.load(open("v1/ame_directory_full.json"))}
+          strip = lambda e: {k: v for k, v in e.items() if k != "envelope"}
+          added = sorted(new.keys() - old.keys())
+          removed = sorted(old.keys() - new.keys())
+          changed = sorted(c for c in new.keys() & old.keys() if strip(new[c]) != strip(old[c]))
+          print(f"Listings: {len(old)} -> {len(new)} | new {len(added)} | gone {len(removed)} | details changed {len(changed)}")
+          for label, codes, src in (("New", added, new), ("Gone", removed, old)):
+              for c in codes[:25]:
+                  print(f"  {label}: {src[c]['name']} ({src[c]['location']})")
+              if len(codes) > 25:
+                  print(f"  ... and {len(codes) - 25} more")
+          EOF
+          cat /tmp/changes.txt
+
+          git config user.name  "pmg-content-bot"
+          git config user.email "ryan.colby@me.com"
+          if [ -n "$(gh pr list --state open --head "$BRANCH" --json number --jq '.[0].number' || true)" ]; then
+            echo "PR already open for $BRANCH; skipping."
+            exit 0
+          fi
+          git checkout -b "$BRANCH"
+          git add scripts/data/faa_ame_locator.json v1/ame_directory_full.json v1/manifest.json
+          git commit -m "FAA AME directory refresh ${STAMP}"
+          git push -u origin "$BRANCH"
+
+          {
+            echo "Monthly read of the FAA Designee Locator (designee.faa.gov)."
+            echo ""
+            echo '```'
+            cat /tmp/build.txt
+            cat /tmp/changes.txt
+            echo '```'
+            echo ""
+            echo "Checks: validate.py and check-med-claims.py passed in this run; content fidelity runs on this PR."
+            echo "Curated HIMS entries (v1/ame_directory.json) are copied unchanged; their codes never change, so pilots' saved AMEs survive."
+            echo ""
+            echo "Merge to publish. Pages republishes and the app picks it up on its next refresh."
+          } > /tmp/pr-body.md
+          gh pr create --title "FAA AME directory refresh ${STAMP}" --body-file /tmp/pr-body.md --head "$BRANCH" --base main
+
+          {
+            echo "The monthly FAA AME directory refresh opened a pull request on branch ${BRANCH}."
+            echo ""
+            cat /tmp/changes.txt
+          } > ame-alert-body.md
+          ./scripts/send-alert-email.sh "PMG: monthly FAA AME directory refresh ready" ame-alert-body.md || echo "mail_failed=true" >> "$GITHUB_OUTPUT"
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05): a run that opened its PR and sent our email
+      # is green. Red only when our email did not go out, so GitHub's own mail is the backstop.
+      - name: Fail only if the alert email did not go out
+        if: steps.pr.outputs.mail_failed == 'true'
+        run: |
+          echo "The refresh PR is open, but our alert email did NOT send, so this run is red to make GitHub notify instead."
+          exit 1

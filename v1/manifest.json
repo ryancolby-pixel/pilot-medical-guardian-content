@@ -1,11 +1,16 @@
 {
-  "contentVersion": "2026-10-22.1",
-  "generatedAt": "2026-10-22T13:43:27Z",
+  "contentVersion": "2026-10-28.1",
+  "generatedAt": "2026-10-28T11:34:51Z",
   "files": [
     {
       "filename": "ame_directory.json",
       "size": 208137,
       "checksum": "d58432c0a36c320ca095a5c305445a11366ff90b04fda4f409c13ac09d7d3473"
+    },
+    {
+      "filename": "ame_directory_full.json",
+      "size": 1230142,
+      "checksum": "2126d6e822790cbef986c01c57f2c325900ebbcf5f094c51fbc974a1b40e024a"
     },
     {
       "filename": "basicmed_requirements.json",
