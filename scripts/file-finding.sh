@@ -30,7 +30,21 @@ FP=$(awk '/^## /{exit} {print}' "$BODY_FILE" | grep -v 'could not fetch' | tr -d
 
 OUT="$(mktemp)"
 trap 'rm -f "$OUT"' EXIT
-{ cat "$BODY_FILE"; printf '\n\n<!-- fingerprint:%s -->\n' "$FP"; } > "$OUT"
+# 🚨 GITHUB REFUSES AN ISSUE BODY OVER 65,536 CHARACTERS (2026-10-28: the fidelity report hit it,
+# createIssue failed, the run went red and GitHub mailed Ryan a "failed" email instead of our one
+# finding email). Every body leads with its FINDINGS, so cut the tail and link the full run log.
+# Bytes >= characters, so a byte cap is safe; iconv -c drops a character cut in half.
+MAX=60000
+RUN_URL="${GITHUB_SERVER_URL:-https://github.com}/${GITHUB_REPOSITORY:-}/actions/runs/${GITHUB_RUN_ID:-}"
+{
+  if [ "$(wc -c < "$BODY_FILE")" -gt "$MAX" ]; then
+    head -c "$MAX" "$BODY_FILE" | iconv -f utf-8 -t utf-8 -c
+    printf '\n\n... report cut here (GitHub caps an issue at 65,536 characters). Full report: %s\n' "$RUN_URL"
+  else
+    cat "$BODY_FILE"
+  fi
+  printf '\n\n<!-- fingerprint:%s -->\n' "$FP"
+} > "$OUT"
 
 gh label create "$LABEL" --color "$COLOR" --description "$LABEL_DESC" 2>/dev/null || true
 EXISTING=$(gh issue list --state open --label "$LABEL" --author 'github-actions[bot]' \
