@@ -310,6 +310,13 @@
     .pillar-stage img { width: min(270px, 68%); height: auto; max-height: none; border-radius: 20px; border: 1px solid var(--rule); box-shadow: 0 14px 34px rgba(16,22,34,.20); }
     @media (max-width: 760px) { .pillar, .pillar.reverse { grid-template-columns: 1fr; gap: 16px; } .pillar.reverse .pillar-media { order: 1; } .pillar.reverse .pillar-text { order: 2; } .pillar-stage img { width: min(260px, 72%); } }
     @media (prefers-reduced-motion: reduce) { .pillar-media a:hover img { transform: none; } }
+    /* Trailer (10/31): self-hosted, silent, no autoplay. Edge-to-edge under 760px. */
+    .trailer { margin: 0 auto clamp(26px, 4vw, 40px); max-width: 100%; }
+    .trailer figure { margin: 0; }
+    .trailer h3 { font-size: 1.2rem; margin: 0 0 12px; text-align: center; }
+    .trailer video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #1c5fd0; border-radius: 14px; border: 1px solid var(--rule); box-shadow: 0 8px 22px rgba(16,22,34,.16); }
+    .trailer figcaption { font-size: .84rem; color: var(--muted); margin-top: 8px; line-height: 1.4; text-align: center; }
+    @media (max-width: 760px) { .trailer figure { margin: 0 -24px; } .trailer video { border-radius: 0; border-left: 0; border-right: 0; box-shadow: none; } .trailer figcaption { padding: 0 24px; } }
 </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -530,6 +537,15 @@
       <div class="section-head">
         <span class="eyebrow">See it in action</span>
         <h2>MedXPress autofill and BasicMed tracking</h2>
+      </div>
+      <div class="trailer">
+        <h3>Watch it in action</h3>
+        <figure>
+          <video controls playsinline preload="none" poster="/video/trailer-16x9-poster.webp?v=20261031" width="1920" height="1080">
+            <source src="/video/trailer-16x9.mp4?v=20261031" type="video/mp4">
+          </video>
+          <figcaption>MedXPress autofill, certificate countdown, and Special Issuance tracking. Sample data.</figcaption>
+        </figure>
       </div>
       <div class="pillars">
         <div class="pillar">
