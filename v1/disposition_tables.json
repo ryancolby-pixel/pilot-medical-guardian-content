@@ -850,8 +850,8 @@
     "envelope": {
       "code": "dispo-dispo-table-congenital-sucrase-isomaltase-deficiency-csid",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Congenital Sucrase Isomaltase Deficiency CSID (updated 08/26/2026)",
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 38: Congenital Sucrase Isomaltase Deficiency CSID (updated 10/28/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Congenital_Sucrase_Isomaltase_Deficiency_CSID.pdf"
     },
     "title": "Congenital Sucrase Isomaltase Deficiency CSID",
@@ -861,7 +861,7 @@
     "item18Codes": [
       "item18-gi"
     ],
-    "updated": "2026-08-26",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
@@ -2561,8 +2561,8 @@
     "envelope": {
       "code": "dispo-item41-chronic-kidney-disease-ckd",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Chronic Kidney Disease (CKD)",
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 10/28/2026): Chronic Kidney Disease (CKD)",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
     },
     "title": "Item 41. G-U System – General Disorders: Chronic Kidney Disease (CKD)",
@@ -2572,15 +2572,15 @@
     "item18Codes": [
       "item18-other"
     ],
-    "updated": "2023-03-30",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
     "envelope": {
       "code": "dispo-item41-congenital-lesions-of-the-kidney",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Congenital lesions of the kidney",
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 10/28/2026): Congenital lesions of the kidney",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
     },
     "title": "Item 41. G-U System – General Disorders: Congenital lesions of the kidney",
@@ -2590,15 +2590,15 @@
     "item18Codes": [
       "item18-other"
     ],
-    "updated": "2023-03-30",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
     "envelope": {
       "code": "dispo-item41-cystostomy-and-neurogenic-bladder",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Cystostomy and Neurogenic bladder",
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 10/28/2026): Cystostomy and Neurogenic bladder",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
     },
     "title": "Item 41. G-U System – General Disorders: Cystostomy and Neurogenic bladder",
@@ -2608,15 +2608,15 @@
     "item18Codes": [
       "item18-other"
     ],
-    "updated": "2023-03-30",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
     "envelope": {
       "code": "dispo-item41-renal-dialysis",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Renal Dialysis",
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 10/28/2026): Renal Dialysis",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
     },
     "title": "Item 41. G-U System – General Disorders: Renal Dialysis",
@@ -2626,25 +2626,25 @@
     "item18Codes": [
       "item18-other"
     ],
-    "updated": "2023-03-30",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
     "envelope": {
       "code": "dispo-item41-renal-transplant",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 41. G-U System – General Disorders (page last updated 03/30/2023): Renal Transplant",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/gd"
+      "lastVerified": "2026-11-02T22:30:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions: RENAL TRANSPLANT (Kidney Transplant) Disposition Table (updated 10/28/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Renal_Transplant.pdf"
     },
-    "title": "Item 41. G-U System – General Disorders: Renal Transplant",
+    "title": "RENAL TRANSPLANT (Kidney Transplant) Disposition Table",
     "examItems": [
       "41"
     ],
     "item18Codes": [
       "item18-other"
     ],
-    "updated": "2023-03-30",
+    "updated": "2026-10-28",
     "dateWord": "Updated"
   },
   {
