@@ -3,7 +3,7 @@
  "tableau": "https://explore.dot.gov/t/FAA/views/AAM_MedGuide/MedGuideMain",
  "user": "Pilot",
  "useStatus": "ALLOW",
- "pageLastUpdated": "2026-10-01",
+ "pageLastUpdated": "2026-10-01", "reverified": "2026-11-02: page now Last updated 2026-10-27, still version 1.0; same 771 dropdown names; all 301 Pilot rows (drugs, condition, frequency, wait times, use) byte-identical to this capture",
  "rows": [
   {
    "drugs": "\nGeneric:\nInfluenza vaccine\n\nBrand Name:\nAfluria; Fluad; Fluad; Fluarix; Flucelvax; FluLaval Quadrivalent; Fluzone",
