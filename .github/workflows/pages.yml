@@ -189,7 +189,9 @@ jobs:
           # the two characters it saves.
           while :; do
             LM=$(curl -sSI --max-time 20 "${URL}?cb=$(date +%s)" 2>/dev/null \
-                 | tr -d '\r' | awk 'tolower($1)=="last-modified:"{ $1=""; sub(/^ /,""); print }')
+                 | tr -d '\r' | awk 'tolower($1)=="last-modified:"{ $1=""; sub(/^ /,""); print }') || LM=""
+            # ^ one slow HEAD (curl exit 28) must mean "try again", not kill the step under
+            #   pipefail: 11/04 the site published at 00:22:20Z and this step still went red.
             if [ -n "${LM:-}" ]; then
               LM_EPOCH=$(python3 -c 'import email.utils,sys; print(int(email.utils.parsedate_to_datetime(sys.argv[1]).timestamp()))' "${LM}" 2>/dev/null || echo 0)
               if [ "${LM_EPOCH}" -ge "${T0}" ]; then
