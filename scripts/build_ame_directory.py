@@ -206,6 +206,10 @@ def main():
           f" | old HIMS codes kept: {kept} of {len(legacy)} | no coordinates: {no_coords}")
     print(f"wrote {OUT_FULL.relative_to(ROOT)} and {OUT_HIMS.relative_to(ROOT)} (HIMS only, for older builds)")
     if kept != len(legacy):
+        found = {e["envelope"]["code"] for e in out}
+        for loc, old in sorted(legacy.items(), key=lambda kv: kv[1]):
+            if old not in found:
+                print(f"  lost: {old} (was locator {loc})")
         sys.exit("an old ame-hims code lost its office; saved AMEs would disappear. Check the read.")
 
 

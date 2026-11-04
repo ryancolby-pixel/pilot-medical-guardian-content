@@ -71,6 +71,13 @@ jobs:
               sys.exit("more than 10% fewer AMEs than last month; refusing (check the locator by hand)")
           EOF
 
+      # Keep the raw read so a refusal below can be diagnosed without re-scraping.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faa-ame-read
+          path: /tmp/ame/ame_database.json
+          retention-days: 30
+
       - name: Rebuild the directory and check it
         run: |
           set -euo pipefail
