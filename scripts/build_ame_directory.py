@@ -193,6 +193,22 @@ def main():
             "longitude": lon,
         })
 
+    # An AME who MOVED keeps the old ame-hims code: the code follows the designee number to the
+    # new office, so a pilot's saved AME does not vanish (2026-11-04: Thomas Holcombe, Deer Park
+    # -> Sugar Land TX, still HIMS). Only an AME gone from the locator entirely is "lost" below.
+    found = {e["envelope"]["code"] for e in out}
+    for loc, old in sorted(legacy.items(), key=lambda kv: kv[1]):
+        if old in found:
+            continue
+        num = loc.split("-")[2]
+        moved = [e for n, e in zip(designee, out)
+                 if n == num and not e["envelope"]["code"].startswith("ame-hims-")]
+        if moved:
+            e = max(moved, key=lambda e: e["isHIMSTrained"])
+            print(f"  moved: {old} {e['name']} -> {e['location']}")
+            e["envelope"]["code"] = old
+            found.add(old)
+
     one_per_ame = {}
     for num, e in zip(designee, out):
         if e["isHIMSTrained"] and (num not in one_per_ame or e["envelope"]["code"].startswith("ame-hims-")):
