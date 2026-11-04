@@ -144,6 +144,49 @@ def write(path, entries):
                                       for e in entries) + "\n]\n")
 
 
+def keep_codes_stable(out, designee):
+    """A pilot's saved AME is stored as its code, so every ame-faa code carries over from the
+    published file month to month (2026-11-04 PR: two offices in one ZIP swapped codes when the
+    FAA reordered them, and AMEs who moved got new codes). Same AME at the same address keeps its
+    code; an AME whose old office is gone hands that code to its new office; only a genuinely new
+    office gets a fresh code. ame-hims codes are handled above and never touched here."""
+    if not OUT_FULL.exists():
+        return
+    prev = json.loads(OUT_FULL.read_text())
+    num_of = lambda c: c.split("-")[2] if c.startswith("ame-faa-") else None
+    key = lambda e: (e["name"].upper(), (e.get("streetAddress") or "").upper(), e["location"])
+    prev_by_key = {key(p): p["envelope"]["code"] for p in prev if num_of(p["envelope"]["code"])}
+    free = [e for e in out if not e["envelope"]["code"].startswith("ame-hims-")]
+
+    taken, assigned = set(), set()
+    for e in free:  # 1. same AME, same office
+        c = prev_by_key.get(key(e))
+        if c and c not in taken:
+            e["envelope"]["code"] = c
+            taken.add(c)
+            assigned.add(id(e))
+    for c in sorted(set(prev_by_key.values()) - taken):  # 2. same AME, new office
+        num = num_of(c)
+        moved = [e for n, e in zip(designee, out) if n == num and id(e) not in assigned
+                 and not e["envelope"]["code"].startswith("ame-hims-")]
+        if moved:
+            moved[0]["envelope"]["code"] = c
+            taken.add(c)
+            assigned.add(id(moved[0]))
+            print(f"  moved: {c} {moved[0]['name']} -> {moved[0]['location']}")
+    # 3. New offices: a fresh code that collides with nothing kept, and never re-uses a retired
+    #    AME's code (a pilot who saved them must not silently get a different doctor).
+    taken |= {p["envelope"]["code"] for p in prev}
+    for e in free:
+        if id(e) in assigned:
+            continue
+        c = e["envelope"]["code"]
+        while c in taken:
+            c += "-" + hashlib.sha1((e.get("streetAddress") or c).upper().encode()).hexdigest()[:6]
+        e["envelope"]["code"] = c
+        taken.add(c)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--faa", default=str(DATA / "faa_ame_locator.json"),
@@ -208,6 +251,8 @@ def main():
             print(f"  moved: {old} {e['name']} -> {e['location']}")
             e["envelope"]["code"] = old
             found.add(old)
+
+    keep_codes_stable(out, designee)
 
     one_per_ame = {}
     for num, e in zip(designee, out):
