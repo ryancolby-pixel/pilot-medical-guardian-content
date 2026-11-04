@@ -44,7 +44,9 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Read the FAA Designee Locator (every state and territory)
-        run: python -u scripts/update_ame_database.py --headless --fresh
+        # --hims is required: build_ame_directory.py refuses a read without the HIMS pass
+        # (the 11/03 first run scraped fine, 1807 AMEs, then failed on exactly that).
+        run: python -u scripts/update_ame_database.py --headless --fresh --hims
 
       # A partial or blocked read must never shrink the published directory.
       - name: Sanity-check the new read against the last snapshot
