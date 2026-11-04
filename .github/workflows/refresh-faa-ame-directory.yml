@@ -46,7 +46,15 @@ jobs:
       - name: Read the FAA Designee Locator (every state and territory)
         # --hims is required: build_ame_directory.py refuses a read without the HIMS pass
         # (the 11/03 first run scraped fine, 1807 AMEs, then failed on exactly that).
-        run: python -u scripts/update_ame_database.py --headless --fresh --hims
+        # The two resume passes re-read only states that failed (11/04 rerun: Wyoming, Guam and
+        # Marshall Islands got HTTP 500 from the FAA once); saved states are skipped, so a clean
+        # first pass makes them no-ops.
+        run: |
+          python -u scripts/update_ame_database.py --headless --fresh --hims
+          for pass in 1 2; do
+            sleep 60
+            python -u scripts/update_ame_database.py --headless --hims
+          done
 
       # A partial or blocked read must never shrink the published directory.
       - name: Sanity-check the new read against the last snapshot
