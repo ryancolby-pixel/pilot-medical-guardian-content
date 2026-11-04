@@ -40,7 +40,7 @@ jobs:
 
       - name: Install Playwright + Chromium
         run: |
-          pip install playwright==1.64.1
+          pip install playwright==1.64.1 pypdf   # pypdf: check-med-claims.py reads FAA PDFs
           python -m playwright install --with-deps chromium
 
       - name: Read the FAA Designee Locator (every state and territory)
