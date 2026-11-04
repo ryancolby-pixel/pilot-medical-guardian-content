@@ -1,11 +1,11 @@
 {
-  "contentVersion": "2026-11-04.1",
-  "generatedAt": "2026-11-04T13:08:51Z",
+  "contentVersion": "2026-11-04.2",
+  "generatedAt": "2026-11-04T13:10:34Z",
   "files": [
     {
       "filename": "ame_directory.json",
-      "size": 177034,
-      "checksum": "e6d1f05f7551ded8a0e7c516e709c8b248b42bc7edfa8bc8c6e27f3977dd8d4b"
+      "size": 178402,
+      "checksum": "0e05c8037ec16fb86342d17409f36c87746f58f50268760f6897f88a4fdc73fd"
     },
     {
       "filename": "ame_directory_full.json",

@@ -120,7 +120,9 @@ jobs:
             exit 0
           fi
           git checkout -b "$BRANCH"
-          git add scripts/data/faa_ame_locator.json v1/ame_directory_full.json v1/manifest.json
+          # Both directory files: gen_manifest checksummed both, so leaving one out ships a
+          # manifest that does not match (11/04 PR #24 failed Validate content on exactly that).
+          git add scripts/data/faa_ame_locator.json v1/ame_directory_full.json v1/ame_directory.json v1/manifest.json
           git commit -m "FAA AME directory refresh ${STAMP}"
           git push -u origin "$BRANCH"
 
@@ -133,7 +135,7 @@ jobs:
             echo '```'
             echo ""
             echo "Checks: validate.py and check-med-claims.py passed in this run; content fidelity runs on this PR."
-            echo "Curated HIMS entries (v1/ame_directory.json) are copied unchanged; their codes never change, so pilots' saved AMEs survive."
+            echo "Codes carry over month to month (same office keeps its code, an AME who moves takes it along), so pilots' saved AMEs survive."
             echo ""
             echo "Merge to publish. Pages republishes and the app picks it up on its next refresh."
           } > /tmp/pr-body.md
