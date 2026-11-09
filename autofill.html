@@ -32,7 +32,10 @@
     /* --- device chooser (2026-08-25): plain anchors, no JS, both paths always present --- */
     .devlead { color: var(--muted); margin: 0 0 12px; }
     .devlead strong { color: var(--text); }
-    .devpick { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 10px; }
+    .devpick { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin: 0 0 10px; }
+    .pcshot { display: block; width: 100%; max-width: 360px; height: auto; margin: 12px 0 4px; border: 1px solid var(--accent-edge); border-radius: 12px; }
+    .storebtns { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0 4px; }
+    .storebtns a { display: inline-block; padding: 9px 16px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
     @media (max-width: 560px) { .devpick { grid-template-columns: 1fr; } }
     .devcard {
       display: flex; flex-direction: column; gap: 4px; padding: 16px 18px;
@@ -168,7 +171,7 @@
     <div class="wrap">
       <span class="badge">Setup guide</span>
       <h1>Turn on MedXPress autofill</h1>
-      <p class="page-sub"><strong>Set it up once, on whichever device you use.</strong> The autofill is a Safari extension built into the app, on iPhone, iPad, and Mac. You switch it on once, then use it right in Safari whenever you fill out MedXPress.</p>
+      <p class="page-sub"><strong>Set it up once, on whichever device you use.</strong> The autofill is a Safari extension built into the app, on iPhone, iPad, and Mac. You switch it on once, then use it right in Safari whenever you fill out MedXPress. On a Windows PC, a Chrome or Edge extension does the same job.</p>
     </div>
   </section>
 
@@ -187,6 +190,10 @@
       <a class="devcard" href="#mac">
         <span class="devcard-name">Mac &rarr;</span>
         <span class="devcard-note">In Safari's own settings. Six steps.</span>
+      </a>
+      <a class="devcard" href="#pc">
+        <span class="devcard-name">Windows PC &rarr;</span>
+        <span class="devcard-note">Chrome or Edge. Install the extension, sign in. Five steps.</span>
       </a>
     </div>
 
@@ -349,11 +356,91 @@
         </div>
     </section>
 
+    <section id="pc" class="devsec">
+      <h2 class="devsec-h">On a Windows PC (Chrome or Edge)</h2>
+        <p>If you fill out MedXPress on a Windows computer, or a work computer where you can't install the app, the Pilot Medical Guardian extension for <strong>Google Chrome</strong> or <strong>Microsoft Edge</strong> fills the same Items 1 to 19 from your records. Your records still live in the app on your iPhone, iPad, or Mac. The extension reads them for a short while and fills the form.</p>
+        <div class="callout"><strong>Needs Guardian Pro.</strong> The extension for Chrome and Edge is part of Guardian Pro, the same subscription you already have in the app. Your one free autofill to try it is in Safari on iPhone, iPad, or Mac.</div>
+
+        <span class="eyebrow">One-time setup on your PC</span>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h4>Add your records in the app first</h4>
+              <p>Enter your application details, medications, doctor visits and Item 18 answers in Pilot Medical Guardian on your iPhone, iPad, or Mac, with iCloud turned on for the app. The extension reads those records; it can't add or change them.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h4>Install the extension</h4>
+              <p>Use the store for the browser you fill MedXPress out in. It's free to install.</p>
+              <div class="storebtns"><a href="https://chromewebstore.google.com/detail/dnckcfkjjlfblkpnogplbnjjieplmpbo" target="_blank" rel="noopener">Get it for Chrome</a><a href="https://microsoftedge.microsoft.com/addons/detail/egaemmdegmpepajddglefihapeogeeap" target="_blank" rel="noopener">Get it for Edge</a></div>
+              <p style="font-size:0.88rem;">Tip: pin it so it's one click away. In Chrome, click the puzzle-piece icon, then the pin next to Pilot Medical Guardian. In Edge, click the Extensions icon, then the eye icon next to it.</p>
+            </div>
+          </div>
+          <div class="step step-key">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h4>Sign in with the same Apple Account you use on your iPhone</h4>
+              <p>Click the extension's icon, then <strong>Sign in with Apple Account</strong>. Apple's own sign-in window opens, so your password goes to Apple, not to me. The extension reads your records from your own iCloud, read-only.</p>
+              <img class="pcshot" src="/screenshots/pc-signin.webp?v=1" width="720" height="680" loading="lazy" decoding="async" alt="The extension's Sign in panel with a Sign in with Apple Account button">
+              <p style="font-size:0.88rem;">Your records stay in that browser's memory for 30 minutes, then they're cleared. Quitting the browser clears them too. Nothing is sent to me.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="eyebrow">Using it</span>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-body">
+              <h4>Open MedXPress from the extension</h4>
+              <p>Once your records load, the panel says <strong>Done. Your records are loaded</strong>. Click <strong>Open MedXPress</strong>, sign in at medxpress.faa.gov, and start or continue your application.</p>
+              <img class="pcshot" src="/screenshots/pc-ready.webp?v=1" width="720" height="680" loading="lazy" decoding="async" alt="The extension panel after sign-in, showing the records it loaded and an Open MedXPress button">
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-body">
+              <h4>Click the &ldquo;Fill from Pilot Medical Guardian&rdquo; button on each page</h4>
+              <p>It appears at the <strong>bottom-right</strong> of the General, Demographics, Prior Certification, Medication, Medical History, and Medical Visits pages. Review every entry it fills in, then click MedXPress's own <strong>Add</strong>, <strong>Next</strong> and <strong>Submit</strong>. The extension never submits anything for you.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="eyebrow">Can't sign in on that computer?</span>
+        <div class="card">
+          <div class="step">
+            <div class="step-num">&#9670;</div>
+            <div class="step-body">
+              <h4>Use Send to a computer instead</h4>
+              <p>If your iCloud uses <strong>Advanced Data Protection</strong>, sign-in can't read your records from a browser. You might also rather not sign in on a shared or work computer. Either way, there's a second route:</p>
+              <p>On your iPhone or iPad, open <strong>MedXPress Prep</strong> and tap <strong>Send to a computer</strong>. The app makes an encrypted file and shows a 12-character code. Move the file to your PC however you like (email, OneDrive, a USB stick). In the extension, open <strong>Use a file instead</strong>, pick the file, and type the code.</p>
+              <img class="pcshot" src="/screenshots/pc-file.webp?v=1" width="720" height="680" loading="lazy" decoding="async" alt="The extension's Use a file instead panel with File and Code fields">
+              <p style="font-size:0.88rem;">The code is shown only on your phone and never saved. The file expires after 7 days. When you're done, delete it from the computer.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <div class="callout">
       <strong>What it fills:</strong> Items 1 to 19. Your application details (Items 1 to 16), your medications (Item 17), every Item 18 answer, Yes and No, with the explanations you saved (up to 15 Yes answers), and your doctor visits (Item 19). MedXPress fills your name and Social Security number from your account. After you click Add on a medication or visit, the next one fills itself. No medications or doctor visits to list? Answer Item 17a and Item 19 once in Application Details, and the autofill fills No for you. MedXPress takes up to 20 doctor visits; the autofill stops there and shows MedXPress's own note about telling your AME. More in the <a href="/faq.html">FAQ</a>. Or, if you're new to MedXPress itself, start with the <a href="/medxpress-guide.html">plain-language MedXPress guide</a>.
     </div>
 
     <span class="eyebrow">Troubleshooting</span>
+    <details>
+      <summary>Chrome or Edge: sign-in says it can't open my records</summary>
+      <p>This usually means your iCloud uses Advanced Data Protection, which keeps your data unreadable to any browser. Use <strong>Send to a computer</strong> in the app instead (see <a href="#pc">the PC steps</a> above). You don't need to change your iCloud settings.</p>
+    </details>
+    <details>
+      <summary>Chrome or Edge: it says I need Guardian Pro</summary>
+      <p>The extension for Chrome and Edge is part of Guardian Pro. Subscribe in the app on your iPhone, iPad, or Mac (About &amp; Privacy, then Subscription), then sign in to the extension again. If you already subscribe, open the app once (iPhone, iPad, or Mac) so it saves your subscription to your iCloud, then sign in again.</p>
+    </details>
+    <details>
+      <summary>Chrome or Edge: my records disappeared from the extension</summary>
+      <p>That's on purpose. The extension keeps your records for 30 minutes, or until you quit the browser, then clears them. Click the extension's icon and sign in again (or open your file again).</p>
+    </details>
     <details>
       <summary>I turned it on but the button does nothing</summary>
       <p>This is almost always the per-site permission. On <strong>medxpress.faa.gov</strong>, open Safari's extensions menu (the left-end button on iPhone, the puzzle piece on iPad) &rarr; <strong>Pilot Medical Guardian Autofill</strong>, and make sure it's set to <strong>Always Allow</strong>, not &ldquo;Allow for One Day&rdquo; (which expires) or &ldquo;Ask.&rdquo; On &ldquo;Ask,&rdquo; the extension looks enabled but never runs on the form. On a Mac, set it to Allow under <code>Safari &rarr; Settings &rarr; Extensions</code> &rarr; Edit Websites&hellip;</p>
