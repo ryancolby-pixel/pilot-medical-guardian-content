@@ -148,6 +148,16 @@ still holds and this shot does not violate it.
 
 ### The seven slots, and what is actually IN frame
 
+### 2026-11-09 — Mac (all 7) + Duo slot 2 re-captured for iOS 2.3.7 (67) / Mac 1.2.8 (32)
+Ryan: My Records in MedXPress order (Application Details, Medications, Item 18 Answers, Doctor Visits). The Mac sidebar is in
+every Mac shot, so all seven `mac-raw/` were re-taken (Debug 1.2.8 (32), `-PMGScreenshotStore -PMGSeedDemoData
+-NSRequiresAquaSystemAppearance YES -compedPro YES`, stale temp store deleted first, window brought forward ~1.5 s per
+capture with `screencapture -x -o -l`; window now 2278x1784). Demo data now shows 8 visits (seeder change 11/08).
+Duo slot 2 (pending since 11/07) captured on PMG-Duo with **`-PMGHidePCRows YES`** (a Debug build shows the Windows /
+Send to a computer rows otherwise), Item 17 tab. iPhone/iPad sets unchanged (the iPad sidebar lists tabs only).
+⚠️ Known drift: the other six Duo shots (10/16) and iPad shots 1, 3-7 (10/27) still show the pre-11/01 sidebar label
+"Share with my AME"; slot 2 now says "Share with AME/FAA".
+
 ### 2026-10-27 — iPhone and iPad sets re-captured for iOS 2.3.4 (all seven slots)
 
 The 10/26-27 visual pass (status chips, larger section headers, 42pt countdown), the MedXPress Prep footer's new
