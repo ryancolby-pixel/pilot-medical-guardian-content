@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-11-04.2",
-  "generatedAt": "2026-11-11T12:41:18Z",
+  "contentVersion": "2026-11-11.1",
+  "generatedAt": "2026-11-11T16:12:51Z",
   "files": [
     {
       "filename": "ame_directory.json",
@@ -64,8 +64,8 @@
     },
     {
       "filename": "si_conditions.json",
-      "size": 20360,
-      "checksum": "90b90e32176935024f84dbdc87a5c03f6c86667bc05d353b5c6cbbed29892d78"
+      "size": 20437,
+      "checksum": "0a8c79b391db3684e1881a7017410e9984f45231ea884b6d2dd18810becda25a"
     },
     {
       "filename": "si_requirements.json",
@@ -74,8 +74,8 @@
     },
     {
       "filename": "thresholds.json",
-      "size": 9112,
-      "checksum": "e3c4ef04319cbf9e63524939db8806b09f6ba83b5771f308dfef0c14c345aae0"
+      "size": 10718,
+      "checksum": "b9e86392ca255f4b958c9dc8db2c345b24f8a88c181ac1f58bdd50cdfb084c90"
     }
   ]
 }

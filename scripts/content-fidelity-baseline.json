@@ -81,7 +81,7 @@
  "si_conditions.json :: si-cancer-prostate: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic share no distinctive wording with this entry",
  "si_conditions.json :: si-cardiac: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/special_iss/third_class/chd share no distinctive wording with this entry",
  "si_conditions.json :: si-dm-insulin: 3 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm share no distinctive wording with this entry",
- "si_conditions.json :: si-hims: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/abuse_dep/amd share no distinctive wording with this entry",
+ "si_conditions.json :: si-hims: 2 obligation sentence(s) in https://www.faa.gov/ame_guide/abuse_dep share no distinctive wording with this entry",
  "si_conditions.json :: si-migraine: 2 obligation sentence(s) in https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd share no distinctive wording with this entry",
  "si_conditions.json :: si-osa: 3 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa share no distinctive wording with this entry",
  "si_conditions.json :: si-pacemaker: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker share no distinctive wording with this entry",
@@ -157,5 +157,7 @@
  "si_requirements.json :: si-valve-functional-test: 3 obligation sentence(s) in https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep share no distinctive wording with this entry",
  "si_requirements.json :: si-valve-med-list: 2 obligation sentence(s) in https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep share no distinctive wording with this entry",
  "si_requirements.json :: si-valve-specialist-eval: 2 obligation sentence(s) in https://www.faa.gov/ame_guide/special_iss/third_class/valve_rep share no distinctive wording with this entry",
- "si_requirements.json :: si-valve-stability: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf share no distinctive wording with this entry"
+ "si_requirements.json :: si-valve-stability: 1 obligation sentence(s) in https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf share no distinctive wording with this entry",
+ "thresholds.json :: thr-ecg: 2 obligation sentence(s) in https://www.faa.gov/ame_guide/media/ECG_Required.pdf share no distinctive wording with this entry",
+ "thresholds.json :: thr-sleep: 4 obligation sentence(s) in https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa share no distinctive wording with this entry"
 ]

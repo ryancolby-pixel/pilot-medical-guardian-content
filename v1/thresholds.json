@@ -34,12 +34,12 @@
     "envelope": {
       "code": "thr-weight-bmi",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
+      "lastVerified": "2026-11-11T16:06:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Disease Protocols, Obstructive Sleep Apnea (OSA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
     },
     "metricTypeRaw": "weight",
-    "thresholdDescription": "The FAA does not set a weight or BMI pass/fail limit for certification. BMI is only one input an AME may consider when deciding whether to screen for obstructive sleep apnea. Your weight is shown as an informational trend for your own awareness; there is no FAA threshold to meet.",
+    "thresholdDescription": "The FAA does not set a weight or BMI pass/fail limit for certification. BMI comes up in the AME's obstructive sleep apnea (OSA) screening: for a pilot with no OSA Special Issuance and no prior sleep assessment, the FAA says the AME must \"Calculate BMI\" and consider OSA risk criteria. BMI is one of several inputs in that check, not a limit. If the AME finds a pilot at high risk for OSA, the FAA says to \"Give the applicant Specification Sheet B\" and \"advise that a letter will be sent from the Federal Air Surgeon requesting more information.\" \"The letter will state that the applicant has 90 days to provide the information to the FAA/AME\". The same step ends: \"Issue, if otherwise qualified\". Your weight is shown as an informational trend for your own awareness.",
     "numericThreshold": null,
     "appliesToClassRaw": null
   },
@@ -47,12 +47,12 @@
     "envelope": {
       "code": "thr-resting-heart-rate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
+      "lastVerified": "2026-11-11T16:06:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 36 Heart, Examination Techniques, General Physical Examination",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/et/general"
     },
     "metricTypeRaw": "restingHeartRate",
-    "thresholdDescription": "The AME Guide does not set a numeric pass/fail resting heart rate. Unusually high or low rates, or an abnormal rhythm, are evaluated in clinical context (e.g., via ECG and history). Your resting heart rate is shown as informational trend data; there is no cited threshold number.",
+    "thresholdDescription": "The FAA states: \"The medical standards do not specify pulse rates that, per se, are disqualifying for medical certification.\" For the pulse the AME takes during your exam, the same page says \"Bradycardia of less than 50 beats per minute\", along with tachycardia and the other pulse irregularities it lists, \"must be noted and reported\". It adds: \"If there is bradycardia, tachycardia, or arrhythmia further evaluation may be warranted and deferral may be indicated.\" A pulse under 50 at the exam is something the AME notes and reports, not a pass/fail line drawn by this app. Your resting heart rate is shown as informational trend data.",
     "numericThreshold": null,
     "appliesToClassRaw": null
   },
@@ -73,12 +73,12 @@
     "envelope": {
       "code": "thr-sleep",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
+      "lastVerified": "2026-11-11T16:06:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Disease Protocols, Obstructive Sleep Apnea (OSA)",
+      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
     },
     "metricTypeRaw": "sleep",
-    "thresholdDescription": "The FAA does not set a numeric sleep-duration threshold. Sleep is addressed through obstructive sleep apnea screening and the sleep-disturbances disposition (Item 47), not a nightly-hours pass/fail. Your sleep total is informational.",
+    "thresholdDescription": "The FAA's medical standards do not set a numeric sleep-duration threshold. Sleep comes up through obstructive sleep apnea (OSA) screening on every exam (Item 35, Lungs and Chest), among other places. The FAA's OSA page adds that \"the AME must also be mindful of other sleep-related disorders such as insomnia, parasomnias, sleep-related movement disorders\". Item 46 (Neurologic) also has sleep-disorder dispositions, such as Central Sleep Apnea and Narcolepsy and Idiopathic Hypersomnia. None of this is a nightly-hours pass/fail. Your sleep total is informational.",
     "numericThreshold": null,
     "appliesToClassRaw": null
   },
@@ -99,12 +99,12 @@
     "envelope": {
       "code": "thr-ecg",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T13:25:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Decision Considerations, Aerospace Medical Dispositions",
-      "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disp"
+      "lastVerified": "2026-11-11T16:06:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 58 ECG, When an ECG/EKG is required",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/ECG_Required.pdf"
     },
     "metricTypeRaw": "ecg",
-    "thresholdDescription": "An ECG is required for certain classes and ages (for example, first-class airmen at specified ages), and abnormal findings are evaluated case by case. There is no single numeric pass/fail value — the relevant output is the clinical interpretation/classification, not a number.",
+    "thresholdDescription": "Only first class has a routine ECG requirement. For first class the FAA lists \"A single baseline ECG is required at the first exam performed after reaching the 35th birthday\", then \"Annually\" from age 40. For second or third class at any age: \"Not required\". An AME can also request one for any class \"Any time the airman has a history or physical examination finding that suggests a clinically significant abnormality.\" The same page says: \"A full 12-lead ECG is required. Anything less than a 12-lead will not be accepted.\" There is no single numeric pass/fail value; the relevant output is the clinical interpretation, not a number.",
     "numericThreshold": null,
     "appliesToClassRaw": null
   },

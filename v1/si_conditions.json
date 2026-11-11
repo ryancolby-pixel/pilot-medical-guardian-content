@@ -421,12 +421,12 @@
     "envelope": {
       "code": "si-hims",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Substance or alcohol dependence (HIMS)",
-      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep/amd"
+      "lastVerified": "2026-11-11T16:06:34Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners — Substances of Dependence/Abuse (Drugs and Alcohol)",
+      "sourceURL": "https://www.faa.gov/ame_guide/abuse_dep"
     },
     "displayName": "Substance or alcohol dependence (HIMS)",
-    "summary": "Track your HIMS Special Issuance: your Authorization dates, and the sponsor, peer, psychiatric and AME reporting that runs on its own schedule. Links to the FAA's own page.",
+    "summary": "Track your HIMS Special Issuance: your Authorization dates, your psychiatric and HIMS AME reports, and, where they apply (first and second class), the chief pilot and peer pilot reports, each on its own schedule. Links to the FAA's own page.",
     "pathGuidance": "",
     "requirementCodes": [
       "si-hims-specialist-eval",
