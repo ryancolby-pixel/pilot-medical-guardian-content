@@ -326,3 +326,13 @@ Ryan's real medical record. It was replaced rather than published.
 ⇒ **The check is one grep**: take a distinctive string from the shot and look for it in
 `DemoDataSeeder.swift`. If it is not there, the shot is not demo data, whatever the commit
 message says. On macOS the safe capture always runs with `-PMGScreenshotStore`.
+
+### 2026-11-11: `documents.png` / `.webp` re-captured for iOS 2.3.8 (AME email field)
+
+2.3.8 (live 11/11) adds "AME email (optional)" and the "Email isn't end-to-end encrypted..." caution under the AME name
+on the My AME destination, so the old shot no longer matched the app. Re-captured from the 2.3.8 commit itself
+(`b2cd3d31`, temporary detached worktree), on a FRESH iPhone 17 Pro simulator created for the shot and deleted after (the
+shared booted simulator was left alone): iOS 27.0, light, status bar `--time 9:41` only, `-PMGSeedDemoData` once plus
+`-compedPro YES`, onboarding skipped, My Medical > Share with my AME. AME name left blank: the demo data has no
+favorite AME, so no real AME's name or email appears. Native 1206x2622 cropped to 1206x2620, webp q80, cache-buster
+`?v=20261111`. Note the demo seed now gives 2 meds and 8 visits (repeat visits), not the 2 and 2 noted above.
