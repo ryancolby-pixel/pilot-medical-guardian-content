@@ -3,7 +3,7 @@
     "envelope": {
       "code": "si-adhd",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — ADHD",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
     },
@@ -20,7 +20,7 @@
     "envelope": {
       "code": "si-asthma",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Asthma",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma"
     },
@@ -37,7 +37,7 @@
     "envelope": {
       "code": "si-afib",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Atrial fibrillation",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/afib"
     },
@@ -55,7 +55,7 @@
     "envelope": {
       "code": "si-bariatric",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Bariatric surgery",
       "sourceURL": "https://www.faa.gov/ame_guide"
     },
@@ -92,7 +92,7 @@
     "envelope": {
       "code": "si-copd",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — COPD",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd"
     },
@@ -109,7 +109,7 @@
     "envelope": {
       "code": "si-cad-pci",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Coronary artery disease with stent (PCI)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
@@ -127,7 +127,7 @@
     "envelope": {
       "code": "si-cabg",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Coronary bypass (CABG)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
@@ -165,7 +165,7 @@
     "envelope": {
       "code": "si-valve",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Heart valve replacement or repair",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular"
     },
@@ -183,7 +183,7 @@
     "envelope": {
       "code": "si-htn",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Hypertension on medication",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd"
     },
@@ -220,7 +220,7 @@
     "envelope": {
       "code": "si-kidney-stones",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Kidney stones",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi"
     },
@@ -236,7 +236,7 @@
     "envelope": {
       "code": "si-cancer-melanoma",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Melanoma",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma"
     },
@@ -253,7 +253,7 @@
     "envelope": {
       "code": "si-migraine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Migraine",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd"
     },
@@ -269,7 +269,7 @@
     "envelope": {
       "code": "si-osa",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Obstructive Sleep Apnea on CPAP",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa"
     },
@@ -285,7 +285,7 @@
     "envelope": {
       "code": "si-pacemaker",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pacemaker",
       "sourceURL": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
     },
@@ -302,7 +302,7 @@
     "envelope": {
       "code": "si-cardiac",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Post-cardiac event (e.g., MI, stent, bypass)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/third_class/chd"
     },
@@ -320,7 +320,7 @@
     "envelope": {
       "code": "si-cancer-prostate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Prostate cancer",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic"
     },
@@ -369,7 +369,7 @@
     "envelope": {
       "code": "si-pe-dvt",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Pulmonary embolism / DVT (anticoagulation)",
       "sourceURL": "https://www.faa.gov/ame_guide/special_iss/all_classes/dvt"
     },
@@ -386,7 +386,7 @@
     "envelope": {
       "code": "si-seizure",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Seizure disorder / epilepsy",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
     },
@@ -403,7 +403,7 @@
     "envelope": {
       "code": "si-stroke",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Stroke or TIA",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf"
     },
@@ -443,7 +443,7 @@
     "envelope": {
       "code": "si-thyroid",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Thyroid disease",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf"
     },
@@ -460,7 +460,7 @@
     "envelope": {
       "code": "si-tbi",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Traumatic brain injury",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
     },
@@ -477,7 +477,7 @@
     "envelope": {
       "code": "si-dm2",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-07T18:01:42Z",
+      "lastVerified": "2026-11-11T12:41:18Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners — Type 2 Diabetes on oral medication",
       "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
     },
