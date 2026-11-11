@@ -2,49 +2,93 @@
   {
     "envelope": {
       "code": "faa-addr-amcd-courier",
-      "sourceCitation": "FAA Coversheet for 8500-8 Additional Information; corroborated verbatim by AOPA 'How and where to submit to the FAA' and the 2026 Guide for Aviation Medical Examiners (updated 2026-06-24).",
-      "sourceURL": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "sourceCitation": "FAA, Contact Medical Certification, Aerospace Medical Certification Division, \"Special Delivery\" (last updated May 23, 2023). Notes quote the FAA Guide for Aviation Medical Examiners (Authority of Aviation Medical Examiners, last updated September 27, 2023; Special Issuance, last updated August 28, 2024) and the FAA Medical Certification Questions and Answers brochure (OK-24-1154, 10/02/2024); the courier suggestion is AOPA's ('How and where to submit to the FAA').",
+      "sourceURL": "https://www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/ame/amcs/phonenumbers",
+      "lastVerified": "2026-11-11T16:32:59Z",
       "contentVersion": "2026.0"
     },
     "method": "courier",
     "recipientLines": [
       "Federal Aviation Administration",
-      "Civil Aerospace Medical Institute, Bldg. 13",
       "Aerospace Medical Certification Division, AAM-300",
-      "6500 S. MacArthur Blvd.",
-      "Oklahoma City, OK 73169"
+      "CAMI, Bldg 13",
+      "6500 S. MacArthur Blvd",
+      "Oklahoma City, Oklahoma 73169"
     ],
-    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only for fewer than 20 pages; no EKG or imaging).",
+    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only 20 pages or less, with no ECG tracings or images).",
     "mailingNotes": [
-      "The FAA and AOPA advise using a courier with signed proof of delivery (overnight or registered) for time-sensitive Special Issuance reports.",
-      "The FAA states that status reports must come from your treating physician; a report you write yourself is not accepted.",
-      "The FAA advises keeping a copy of everything and sending it as a single packet.",
-      "Your own FAA Authorization letter is the authority on which reports are required and when."
+      "AOPA suggests a courier service that provides signed proof of delivery (overnight or registered mail).",
+      "The FAA says: \"Reports regarding the medical status of an airman should be written by their treating provider. A report written by an airman will not be accepted, even if that airman is a physician.\"",
+      "The FAA asks you to have your designated AME upload the required information, or \"have all of the information forwarded to us in one package.\"",
+      "The FAA says: \"The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination.\""
+    ],
+    "links": [
+      {
+        "title": "FAA Coversheet for 8500-8 Additional Information (PDF, June 2, 2022)",
+        "url": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Authority of Aviation Medical Examiners (updated 09/27/2023)",
+        "url": "https://www.faa.gov/ame_guide/app_process/general/authority"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Special Issuance (updated 08/28/2024)",
+        "url": "https://www.faa.gov/ame_guide/app_process/general/si"
+      },
+      {
+        "title": "FAA Medical Certification Questions and Answers (OK-24-1154, 10/02/2024)",
+        "url": "https://www.faa.gov/pilots/safety/pilotsafetybrochures/Medical_Certification_QnA.pdf"
+      },
+      {
+        "title": "AOPA, How and where to submit to the FAA",
+        "url": "https://www.aopa.org/go-fly/medical-resources/how-and-where-to-submit-to-the-faa"
+      }
     ]
   },
   {
     "envelope": {
       "code": "faa-addr-amcd-usps",
-      "sourceCitation": "FAA Coversheet for 8500-8 Additional Information; corroborated verbatim by AOPA 'How and where to submit to the FAA' and the 2026 Guide for Aviation Medical Examiners (updated 2026-06-24).",
+      "sourceCitation": "FAA, Coversheet for 8500-8 Additional Information, \"Mail to:\" (PDF, June 2, 2022). Notes quote the FAA Guide for Aviation Medical Examiners (Authority of Aviation Medical Examiners, last updated September 27, 2023; Special Issuance, last updated August 28, 2024) and the FAA Medical Certification Questions and Answers brochure (OK-24-1154, 10/02/2024); the courier suggestion is AOPA's ('How and where to submit to the FAA').",
       "sourceURL": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/Coversheet_for_8500.pdf",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-11T16:32:59Z",
       "contentVersion": "2026.0"
     },
     "method": "usps",
     "recipientLines": [
       "Federal Aviation Administration",
-      "Civil Aerospace Medical Institute, Bldg. 13",
       "Aerospace Medical Certification Division, AAM-300",
+      "CAMI, Building 13",
       "P.O. Box 25082",
       "Oklahoma City, OK 73125-9867"
     ],
-    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only for fewer than 20 pages; no EKG or imaging).",
+    "contactNote": "Phone (405) 954-4821 · Fax (405) 954-4300 (fax only 20 pages or less, with no ECG tracings or images).",
     "mailingNotes": [
-      "The FAA and AOPA advise using a courier with signed proof of delivery (overnight or registered) for time-sensitive Special Issuance reports.",
-      "The FAA states that status reports must come from your treating physician; a report you write yourself is not accepted.",
-      "The FAA advises keeping a copy of everything and sending it as a single packet.",
-      "Your own FAA Authorization letter is the authority on which reports are required and when."
+      "AOPA suggests a courier service that provides signed proof of delivery (overnight or registered mail).",
+      "The FAA says: \"Reports regarding the medical status of an airman should be written by their treating provider. A report written by an airman will not be accepted, even if that airman is a physician.\"",
+      "The FAA asks you to have your designated AME upload the required information, or \"have all of the information forwarded to us in one package.\"",
+      "The FAA says: \"The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination.\""
+    ],
+    "links": [
+      {
+        "title": "FAA, Contact Medical Certification (updated 05/23/2023)",
+        "url": "https://www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/ame/amcs/phonenumbers"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Authority of Aviation Medical Examiners (updated 09/27/2023)",
+        "url": "https://www.faa.gov/ame_guide/app_process/general/authority"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners, Special Issuance (updated 08/28/2024)",
+        "url": "https://www.faa.gov/ame_guide/app_process/general/si"
+      },
+      {
+        "title": "FAA Medical Certification Questions and Answers (OK-24-1154, 10/02/2024)",
+        "url": "https://www.faa.gov/pilots/safety/pilotsafetybrochures/Medical_Certification_QnA.pdf"
+      },
+      {
+        "title": "AOPA, How and where to submit to the FAA",
+        "url": "https://www.aopa.org/go-fly/medical-resources/how-and-where-to-submit-to-the-faa"
+      }
     ]
   }
 ]
