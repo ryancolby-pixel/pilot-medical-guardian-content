@@ -38,6 +38,7 @@ on:
       # the actual `name:` lines, not typed from memory.
       - "Content fidelity check"
       - "Content re-verification deadline"
+      - "Check secure link server"   # 2026-11-11, check-securelink.yml (name verified against its name: line)
     types: [completed]
 
 permissions: {}          # needs nothing in this repo; it only calls out

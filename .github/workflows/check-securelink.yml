@@ -1,0 +1,109 @@
+name: Check secure link server
+
+# Daily check of the PMG 3.0 secure link server. scripts/check-securelink.py says why; in short:
+#   1. the page the AME opens (it decrypts the pilot's file) must be byte-for-byte the published copy, and
+#   2. the hourly cleanup that deletes expired files must actually be running (GET /v1/health).
+# It DETECTS a changed page; it cannot prevent one.
+#
+# 🔇 SHIPS QUIET (2026-11-11). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to
+# the run summary and a warning only: no issue, no email, and an unreachable server is a warning too. After a week of
+# clean scheduled runs, set QUIET to "0": then a finding files ONE issue and ONE email (scripts/file-finding.sh) and
+# stays quiet while unchanged, and a broken instrument turns the run red.
+#
+# The server address is the SECURELINK_BASE_URL secret, never committed: until 3.0 ships it is the AWS TEST stack, and
+# this repo is public. A missing secret is a warning, not a finding.
+#
+# No push trigger, deliberately (see check-source-links.yml): it checks a server, not this repo's files.
+
+on:
+  schedule:
+    - cron: "40 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  QUIET: "1"
+  # The published copy of the page (written by SecureLink/server/tools/export-viewer.mjs in the app repo).
+  PUBLISHED_VIEWER: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/viewer.html
+  SECURELINK_BASE_URL: ${{ secrets.SECURELINK_BASE_URL }}
+  SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+  SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+  ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the scripts
+        uses: actions/checkout@v5
+
+      # Negative AND positive controls first, so an edit can't quietly disarm either judgment.
+      - name: Selftest the judgments
+        run: python3 scripts/check-securelink.py --selftest
+
+      - name: Check the live page and the cleanup heartbeat
+        id: check
+        run: |
+          set +e
+          python3 scripts/check-securelink.py --published "$PUBLISHED_VIEWER" | tee securelink-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Note a run that could not check
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not check the secure link server::The check itself could not run (secret unset, server unreachable, or published copy unreadable). Not a finding. See the log."
+
+      - name: Quiet mode, record findings in the run summary only
+        if: steps.check.outputs.code == '1' && env.QUIET == '1'
+        run: |
+          {
+            echo "## Secure link check: finding (QUIET mode, no issue or email)"
+            for f in securelink-viewer-report.md securelink-cleanup-report.md; do
+              [ -f "$f" ] && { echo; cat "$f"; }
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning title=Secure link finding (quiet mode)::See the run summary. No issue or email while QUIET is 1."
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05): file-finding.sh opens or updates one issue per label and emails only
+      # when the finding is new or changed. The page and the cleanup are separate findings with separate labels.
+      - name: File findings
+        id: notify
+        if: steps.check.outputs.code == '1' && env.QUIET != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f securelink-viewer-report.md ]; then
+            ./scripts/file-finding.sh securelink-viewer-changed b60205 "The page the AME opens differs from the published copy" \
+              "The secure link page differs from the published code" securelink-viewer-report.md \
+              "PMG: the secure link page differs from the published code"
+          fi
+          if [ -f securelink-cleanup-report.md ]; then
+            ./scripts/file-finding.sh securelink-cleanup d93f0b "The secure link hourly cleanup is not running cleanly" \
+              "The secure link cleanup is not running cleanly" securelink-cleanup-report.md \
+              "PMG: the secure link cleanup is not running cleanly"
+          fi
+
+      # A finding that cleared closes its own issue, once. Only on a run that actually checked (code 0 or 1).
+      - name: Close issues whose finding cleared
+        if: steps.check.outputs.code == '0' || steps.check.outputs.code == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for pair in "securelink-viewer-changed:securelink-viewer-report.md" "securelink-cleanup:securelink-cleanup-report.md"; do
+            label="${pair%%:*}"; report="${pair##*:}"
+            [ -f "$report" ] && continue
+            EXISTING=$(gh issue list --state open --label "$label" --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+            if [ -n "$EXISTING" ]; then
+              gh issue close "$EXISTING" --comment "Cleared as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+            fi
+          done
+
+      # Red only for a broken instrument (after the quiet week) or an alert email that did not go out.
+      - name: Fail only if the instrument is broken or the alert email did not go out
+        if: (steps.check.outputs.code == '2' && env.QUIET != '1') || steps.notify.outputs.mail_failed == 'true'
+        run: |
+          echo "Either the check could not run, or a finding's alert email did not send. Red so GitHub notifies instead."
+          exit 1
