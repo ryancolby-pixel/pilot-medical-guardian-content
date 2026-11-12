@@ -20,13 +20,20 @@ regenerated manifest would silently un-set the flip. It is preserved from the ex
 manifest, and can be set/overridden with the PAYWALL_ACTIVE_DATE env var (ISO-8601, e.g.
 2026-07-10T00:00:00Z). Pass PAYWALL_ACTIVE_DATE=none to deliberately clear it.
 
-pcExtensionLive: the app's switch for the Windows rows on MedXPress Prep (Send to a computer
-and the Chrome/Edge steps), read as `manifest.pcExtensionLive` (ReferenceManifest.swift,
-SendToComputer.isAvailable). Absent means off, and the app does NOT remember it, so dropping
-the key hides the rows again on every installed copy. Preserved from the existing manifest.
-PC_EXTENSION_LIVE=true sets it; PC_EXTENSION_LIVE=false removes the key. Launch day:
+windowsSetupLive: the app's switch for the Windows rows on MedXPress Prep (Send to a computer
+and the Chrome/Edge steps) in builds that carry the corrected Windows sheet, read as
+`manifest.windowsSetupLive` (ReferenceManifest.swift, SendToComputer.isAvailable). Absent means
+off, and the app does NOT remember it, so dropping the key hides the rows again on every
+installed copy. Preserved from the existing manifest. WINDOWS_SETUP_LIVE=true sets it;
+WINDOWS_SETUP_LIVE=false removes the key; any other value (empty included) stops the run before
+anything is written. Launch day:
 
-    PC_EXTENSION_LIVE=true CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
+    WINDOWS_SETUP_LIVE=true CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
+
+pcExtensionLive: 🚫 RETIRED FOR VISIBILITY 2026-11-12 (Ryan: "Yes, new switch"). It was the first
+Windows switch, and App Store 2.3.8 reads it: setting it would show 2.3.8's OLD Windows sheet. It
+is never set again, so every build up to 2.3.8 stays hidden. Still preserved if present, and
+PC_EXTENSION_LIVE=true|false still works (with a warning), only so nothing that calls it breaks.
 
 Any OTHER top-level key already in the manifest is kept as it is, so a future switch cannot be
 wiped by a rebuild before this script learns its name.
@@ -35,13 +42,13 @@ wiped by a rebuild before this script learns its name.
 the CDN's generatedAt is LATER than the one they hold (ReferenceContentLoader; contentVersion
 is a label and does not gate delivery). A switch flipped without a new stamp would sit on the
 CDN and never reach a device that already holds the current manifest. So a value changed
-through PAYWALL_ACTIVE_DATE or PC_EXTENSION_LIVE stamps a new generatedAt even when no file
+through PAYWALL_ACTIVE_DATE, WINDOWS_SETUP_LIVE or PC_EXTENSION_LIVE stamps a new generatedAt even when no file
 changed. Change switches ONLY through those env vars: a hand edit of manifest.json followed by
 a rebuild keeps the old stamp, and devices never see it.
 
 🚨 A WRONG TYPE BREAKS EVERY DEVICE'S UPDATES, not just the switch: the app decodes the
 manifest with Codable, and one bad value fails the whole decode. So this script refuses to
-write a pcExtensionLive that is not true/false, or a paywallActiveDate the app's .iso8601
+write a windowsSetupLive or pcExtensionLive that is not true/false, or a paywallActiveDate the app's .iso8601
 decoder cannot read (wrong shape, or a date that does not exist). It also refuses to run on a
 manifest.json it cannot parse, rather than rebuilding from nothing and dropping every switch.
 """
@@ -55,7 +62,7 @@ MANIFEST = V1 / "manifest.json"
 # Keys this script computes. Everything else at the top level is preserved.
 GENERATED_KEYS = ("contentVersion", "generatedAt", "files")
 # Switches the app decodes (ReferenceManifest.swift), in the order they are written.
-KNOWN_FLAGS = ("paywallActiveDate", "pcExtensionLive")
+KNOWN_FLAGS = ("paywallActiveDate", "pcExtensionLive", "windowsSetupLive")
 
 # What JSONDecoder's .iso8601 strategy accepts: whole seconds, Z or a numeric offset.
 ISO8601 = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})$")
@@ -107,8 +114,20 @@ if flip == "none":
 elif flip:
     flags["paywallActiveDate"] = flip
 
+ws = os.environ.get("WINDOWS_SETUP_LIVE")
+if ws is not None:
+    if ws.lower() == "true":
+        flags["windowsSetupLive"] = True
+    elif ws.lower() == "false":
+        flags.pop("windowsSetupLive", None)
+    else:
+        fail(f"WINDOWS_SETUP_LIVE must be true or false, got {ws!r}. Nothing written.")
+
 pc = os.environ.get("PC_EXTENSION_LIVE")
 if pc:
+    print("⚠️  gen_manifest: PC_EXTENSION_LIVE is RETIRED for visibility (Ryan 11/12). Builds with the "
+          "corrected Windows sheet read windowsSetupLive (WINDOWS_SETUP_LIVE=true|false); pcExtensionLive=true "
+          "would show App Store 2.3.8's OLD Windows sheet.", file=sys.stderr)
     if pc.lower() == "true":
         flags["pcExtensionLive"] = True
     elif pc.lower() == "false":
@@ -116,9 +135,10 @@ if pc:
     else:
         fail(f"PC_EXTENSION_LIVE must be true or false, got {pc!r}. Nothing written.")
 
-if "pcExtensionLive" in flags and not isinstance(flags["pcExtensionLive"], bool):
-    fail(f"pcExtensionLive is {flags['pcExtensionLive']!r}, not true/false. The app would fail "
-         "to decode the whole manifest. Fix it with PC_EXTENSION_LIVE=true|false. Nothing written.")
+for _k, _env in (("windowsSetupLive", "WINDOWS_SETUP_LIVE"), ("pcExtensionLive", "PC_EXTENSION_LIVE")):
+    if _k in flags and not isinstance(flags[_k], bool):
+        fail(f"{_k} is {flags[_k]!r}, not true/false. The app would fail to decode the whole "
+             f"manifest. Fix it with {_env}=true|false. Nothing written.")
 def _is_real_iso8601(value):
     """The right shape AND a date that exists. 2026-07-32T00:00:00Z has the shape, and the app's
     decoder rejects it, which fails the whole manifest (checked in Swift 11/12). Python is stricter
@@ -160,8 +180,20 @@ for name in FILES:
 # guarantees the published manifest always matches the published files, without inventing a
 # content change to announce.
 unchanged = existing_entries == entries and bool(existing_generated) and not flags_changed
-generated_at = existing_generated if unchanged else datetime.datetime.now(
-    datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+def _new_stamp():
+    """Now, but always STRICTLY LATER than the stamp being replaced. The app fetches only a later
+    generatedAt, and the stamp has whole seconds: two runs inside one second (or an old stamp
+    ahead of this clock) would otherwise republish the same time and the change would never
+    reach a device that holds the previous manifest."""
+    now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+    try:
+        prev = datetime.datetime.fromisoformat(str(existing_generated).replace("Z", "+00:00"))
+        if prev.tzinfo is not None and now <= prev:
+            now = prev.astimezone(datetime.timezone.utc) + datetime.timedelta(seconds=1)
+    except ValueError:
+        pass
+    return now.strftime("%Y-%m-%dT%H:%M:%SZ")
+generated_at = existing_generated if unchanged else _new_stamp()
 
 manifest = {
     "contentVersion": version,
@@ -179,8 +211,10 @@ with open(MANIFEST, "w") as f:
     f.write("\n")
 
 pc_label = json.dumps(flags["pcExtensionLive"]) if "pcExtensionLive" in flags else "(none)"
+ws_label = json.dumps(flags["windowsSetupLive"]) if "windowsSetupLive" in flags else "(none)"
 print(f"wrote {MANIFEST.relative_to(ROOT)}  version={version}  files={len(entries)}  "
-      f"paywallActiveDate={flags.get('paywallActiveDate') or '(none)'}  pcExtensionLive={pc_label}")
+      f"paywallActiveDate={flags.get('paywallActiveDate') or '(none)'}  windowsSetupLive={ws_label}  "
+      f"pcExtensionLive={pc_label} (retired)")
 if flags_changed:
     print(f"   switch changed, generatedAt restamped to {generated_at} so installed apps fetch it")
 if others:
