@@ -42,7 +42,8 @@ a rebuild keeps the old stamp, and devices never see it.
 🚨 A WRONG TYPE BREAKS EVERY DEVICE'S UPDATES, not just the switch: the app decodes the
 manifest with Codable, and one bad value fails the whole decode. So this script refuses to
 write a pcExtensionLive that is not true/false, or a paywallActiveDate the app's .iso8601
-decoder cannot read.
+decoder cannot read (wrong shape, or a date that does not exist). It also refuses to run on a
+manifest.json it cannot parse, rather than rebuilding from nothing and dropping every switch.
 """
 import json, os, re, hashlib, datetime, sys
 from pathlib import Path
@@ -77,15 +78,21 @@ def fail(msg):
 # automatic rebuild (checksum refresh) never silently un-sets a switch or relabels the CDN
 # version out of step with the app's bundled label. A human bumps the version for a real
 # content release via CONTENT_VERSION.
+#
+# A manifest that EXISTS but cannot be read stops the run. Starting from {} there would drop every
+# switch, relabel contentVersion and restamp generatedAt, and CI would commit and deploy that with
+# nothing going red (a trailing comma from a hand edit, or merge-conflict markers, is enough).
+# Only a MISSING file starts fresh: fix the file, or delete it on purpose to rebuild from nothing.
 existing = {}
 if MANIFEST.exists():
     try:
         with open(MANIFEST) as _f:
             existing = json.load(_f)
-    except (json.JSONDecodeError, OSError):
-        existing = {}
-if not isinstance(existing, dict):
-    existing = {}
+    except (json.JSONDecodeError, UnicodeDecodeError, OSError) as e:
+        fail(f"cannot read {MANIFEST.relative_to(ROOT)} ({e}). A rebuild from nothing would drop every "
+             "switch, so nothing written. Fix the file (git show HEAD:v1/manifest.json has the last good one).")
+    if not isinstance(existing, dict):
+        fail(f"{MANIFEST.relative_to(ROOT)} is not a JSON object. Nothing written.")
 
 existing_version = existing.get("contentVersion")
 existing_generated = existing.get("generatedAt")
@@ -112,10 +119,22 @@ if pc:
 if "pcExtensionLive" in flags and not isinstance(flags["pcExtensionLive"], bool):
     fail(f"pcExtensionLive is {flags['pcExtensionLive']!r}, not true/false. The app would fail "
          "to decode the whole manifest. Fix it with PC_EXTENSION_LIVE=true|false. Nothing written.")
-if "paywallActiveDate" in flags and not (
-        isinstance(flags["paywallActiveDate"], str) and ISO8601.match(flags["paywallActiveDate"])):
-    fail(f"paywallActiveDate is {flags['paywallActiveDate']!r}; the app reads only ISO-8601 like "
-         "2026-07-10T00:00:00Z. Nothing written.")
+def _is_real_iso8601(value):
+    """The right shape AND a date that exists. 2026-07-32T00:00:00Z has the shape, and the app's
+    decoder rejects it, which fails the whole manifest (checked in Swift 11/12). Python is stricter
+    than the app (it also refuses Feb 30, 24:00 and :60, which the app rolls over); that only
+    stops this script, never a device."""
+    if not (isinstance(value, str) and ISO8601.match(value)):
+        return False
+    try:
+        datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return True
+
+if "paywallActiveDate" in flags and not _is_real_iso8601(flags["paywallActiveDate"]):
+    fail(f"paywallActiveDate is {flags['paywallActiveDate']!r}; the app reads only a real ISO-8601 "
+         "time like 2026-07-10T00:00:00Z. Nothing written.")
 
 # Unknown top-level keys ride along untouched (see the docstring).
 others = {k: v for k, v in existing.items() if k not in GENERATED_KEYS and k not in KNOWN_FLAGS}
