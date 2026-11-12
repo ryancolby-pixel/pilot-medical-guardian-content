@@ -2,7 +2,9 @@ name: Check secure link server
 
 # Daily check of the PMG 3.0 secure link server. scripts/check-securelink.py says why; in short:
 #   1. the page the AME opens (it decrypts the pilot's file) must be byte-for-byte the published copy, and
-#   2. the hourly cleanup that deletes expired files must actually be running (GET /v1/health).
+#   2. the hourly cleanup that deletes expired files must actually be running (GET /v1/health), and
+#   3. the free AME request sheet (GET /sheet and its data file /sheet/sheet-data.json) must be byte-for-byte the
+#      published copy too (Ryan 2026-11-12: "Yes, publish it").
 # It DETECTS a changed page; it cannot prevent one.
 #
 # 🔇 SHIPS QUIET (2026-11-11). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to
@@ -28,6 +30,9 @@ env:
   QUIET: "1"
   # The published copy of the page (written by SecureLink/server/tools/export-viewer.mjs in the app repo).
   PUBLISHED_VIEWER: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/viewer.html
+  # The published copy of the request sheet, written by the same exporter.
+  PUBLISHED_SHEET: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/sheet/index.html
+  PUBLISHED_SHEET_DATA: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/sheet/sheet-data.json
   SECURELINK_BASE_URL: ${{ secrets.SECURELINK_BASE_URL }}
   SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
@@ -48,7 +53,8 @@ jobs:
         id: check
         run: |
           set +e
-          python3 scripts/check-securelink.py --published "$PUBLISHED_VIEWER" | tee securelink-output.txt
+          python3 scripts/check-securelink.py --published "$PUBLISHED_VIEWER" \
+            --published-sheet "$PUBLISHED_SHEET" --published-sheet-data "$PUBLISHED_SHEET_DATA" | tee securelink-output.txt
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
       - name: Note a run that could not check
@@ -61,14 +67,14 @@ jobs:
         run: |
           {
             echo "## Secure link check: finding (QUIET mode, no issue or email)"
-            for f in securelink-viewer-report.md securelink-cleanup-report.md; do
+            for f in securelink-viewer-report.md securelink-sheet-report.md securelink-cleanup-report.md; do
               [ -f "$f" ] && { echo; cat "$f"; }
             done
           } >> "$GITHUB_STEP_SUMMARY"
           echo "::warning title=Secure link finding (quiet mode)::See the run summary. No issue or email while QUIET is 1."
 
       # ONE EMAIL PER FINDING (Ryan 2026-10-05): file-finding.sh opens or updates one issue per label and emails only
-      # when the finding is new or changed. The page and the cleanup are separate findings with separate labels.
+      # when the finding is new or changed. The page, the sheet and the cleanup are separate findings with separate labels.
       - name: File findings
         id: notify
         if: steps.check.outputs.code == '1' && env.QUIET != '1'
@@ -79,6 +85,11 @@ jobs:
             ./scripts/file-finding.sh securelink-viewer-changed b60205 "The page the AME opens differs from the published copy" \
               "The secure link page differs from the published code" securelink-viewer-report.md \
               "PMG: the secure link page differs from the published code"
+          fi
+          if [ -f securelink-sheet-report.md ]; then
+            ./scripts/file-finding.sh securelink-sheet-changed b60205 "The AME request sheet differs from the published copy" \
+              "The AME request sheet differs from the published copy" securelink-sheet-report.md \
+              "PMG: the AME request sheet differs from the published copy"
           fi
           if [ -f securelink-cleanup-report.md ]; then
             ./scripts/file-finding.sh securelink-cleanup d93f0b "The secure link hourly cleanup is not running cleanly" \
@@ -92,9 +103,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          for pair in "securelink-viewer-changed:securelink-viewer-report.md" "securelink-cleanup:securelink-cleanup-report.md"; do
+          for pair in "securelink-viewer-changed:securelink-viewer-report.md" "securelink-sheet-changed:securelink-sheet-report.md" \
+            "securelink-cleanup:securelink-cleanup-report.md"; do
             label="${pair%%:*}"; report="${pair##*:}"
             [ -f "$report" ] && continue
+            [ "$label" = securelink-sheet-changed ] && [ -f securelink-sheet-unchecked ] && continue
             EXISTING=$(gh issue list --state open --label "$label" --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
             if [ -n "$EXISTING" ]; then
               gh issue close "$EXISTING" --comment "Cleared as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
