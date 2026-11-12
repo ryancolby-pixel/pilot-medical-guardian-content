@@ -258,7 +258,7 @@ def selftest():
     b = judge_cleanup({"cleanupOkAt": now - 40 * H, "cleanupLateAt": None, "cleanupFailAt": None}, now)[0]
     assert "".join(ch for ch in a if not ch.isdigit()) == "".join(ch for ch in b if not ch.isdigit())
     # A sheet fetch that fails must not hide the page verdict: stub the network, tamper /r, break the sheet data.
-    import tempfile
+    import contextlib, io, tempfile
     real_fetch, cwd = globals()["fetch"], os.getcwd()
     health = json.dumps({"cleanupOkAt": int(time.time() * 1000) - 600_000}).encode()
     def stub(tampered):
@@ -268,7 +268,8 @@ def selftest():
             return 200, {"/r": page + b" " if tampered else page, "/v1/health": health, "/sheet": page}[urllib.parse.urlsplit(url).path]
         return f
     try:
-        with tempfile.TemporaryDirectory() as d:
+        # Silent: a stubbed "MISMATCH" line in the Actions log must never read as a real finding.
+        with tempfile.TemporaryDirectory() as d, contextlib.redirect_stdout(io.StringIO()):
             os.chdir(d)
             for n in ("viewer.html", "index.html", "sheet-data.json"):
                 with open(n, "wb") as fh:
