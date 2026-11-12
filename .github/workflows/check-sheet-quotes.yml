@@ -1,0 +1,114 @@
+name: Check AME request sheet quotes
+
+# Weekly re-check of the FAA quotes on the free AME request sheet (Ryan 2026-11-12: "Yes, build it").
+# scripts/check-sheet-quotes.py says why; in short: the sheet's builder re-checks every quote, sub-item, letter
+# sentence and heading on its own FAA source, but only when someone rebuilds the sheet, so an FAA page that changed
+# afterwards would leave a stale quote live. This runs the published builder on the published curated file with
+# every FAA document fetched fresh, then compares what it built with the published sheet/sheet-data.json byte for
+# byte. check-securelink.yml checks every day that the live data is that published file, so what is live is what
+# was checked.
+#
+# SHIPS QUIET (2026-11-12). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to the
+# run summary and a warning only: no issue, no email, and a run that could not check is a warning too. After a few
+# clean scheduled runs, set QUIET to "0": then a finding files ONE issue and ONE email (scripts/file-finding.sh) and
+# stays quiet while unchanged, and a broken instrument turns the run red.
+#
+# WEEKLY, Monday cron 17:10 UTC. Same cadence as the content fidelity check, which runs the same matcher over the same
+# FAA corpus weekly. The cron sits after the other Monday FAA crons and clear of the daily 13:40 secure link cron, but
+# GitHub starts scheduled runs hours late and in no fixed order (Monday 2026-11-09 they began between 23:16 and 00:27
+# UTC), so runs can overlap. That does not change any result: each runner fetches for itself.
+#
+# THIS RUNS CODE DOWNLOADED FROM ANOTHER REPO: the builder comes from pmg-securelink-viewer (Ryan's own public repo),
+# so whoever can push there can run code here, just as whoever can push here can. The check step is given no secrets
+# and no token (the checkout does not keep its token; the email secrets and the issue token go only to the steps
+# that file or close). That keeps them out of the builder's process; it is not a wall between steps of one job.
+#
+# No push trigger: it checks FAA pages and another repo's files, not this repo's content.
+
+on:
+  schedule:
+    - cron: "10 17 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  QUIET: "1"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the scripts
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      # Python and pdfplumber exactly as check-content-fidelity.yml installs them: the builder uses its matcher.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pdfplumber
+        run: pip install --quiet pdfplumber
+
+      # Negative AND positive controls first, so an edit can't quietly disarm either judgment.
+      - name: Selftest the judgments
+        run: python3 scripts/check-sheet-quotes.py --selftest
+
+      - name: Re-check every sheet quote on a fresh fetch and compare with the published data
+        id: check
+        run: |
+          set +e
+          python3 scripts/check-sheet-quotes.py --work "$RUNNER_TEMP/sheetcheck" | tee sheet-quotes-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Note a run that could not check
+        if: steps.check.outputs.code == '2'
+        run: |
+          echo "::warning title=Could not re-check the sheet quotes::The check itself could not run (a download failed, an FAA source was unreachable or not readable prose, or the builder refused). Not a finding. See the log."
+
+      - name: Quiet mode, record the finding in the run summary only
+        if: steps.check.outputs.code == '1' && env.QUIET == '1'
+        run: |
+          {
+            echo "## AME request sheet quotes: finding (QUIET mode, no issue or email)"
+            echo
+            cat sheet-quote-report.md
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning title=Sheet quote finding (quiet mode)::See the run summary. No issue or email while QUIET is 1."
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05): file-finding.sh opens or updates one issue for the label and emails
+      # only when the finding is new or changed.
+      - name: File the finding
+        id: notify
+        if: steps.check.outputs.code == '1' && env.QUIET != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          ./scripts/file-finding.sh sheet-quote-changed b60205 "An AME request sheet quote failed its weekly FAA re-check" \
+            "An AME request sheet quote no longer checks out against its FAA source" sheet-quote-report.md \
+            "PMG: an AME request sheet quote no longer checks out against its FAA source"
+
+      # A finding that cleared closes its own issue, once. Only on a clean run (code 0).
+      - name: Close the issue when every sheet quote checks out again
+        if: steps.check.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --state open --label sheet-quote-changed --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Every sheet quote is on its FAA source and the published data matches the rebuild as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          fi
+
+      # Red only for a broken instrument (after the quiet period) or an alert email that did not go out.
+      - name: Fail only if the instrument is broken or the alert email did not go out
+        if: (steps.check.outputs.code == '2' && env.QUIET != '1') || steps.notify.outputs.mail_failed == 'true'
+        run: |
+          echo "Either the check could not run, or a finding's alert email did not send. Red so GitHub notifies instead."
+          exit 1
