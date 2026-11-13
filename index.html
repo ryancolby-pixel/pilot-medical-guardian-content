@@ -131,6 +131,13 @@
     /* The privacy promise, pulled out of the paragraph wall and given its own
        line under the buttons (Ryan 2026-09-02). Same words, smaller, quieter. */
     .hero2-privacy { margin: 14px 0 0; font-size: 0.94rem; line-height: 1.45; color: var(--muted); text-wrap: pretty; }
+    .hero2-built { margin-top: 4px; }
+    /* QR to the App Store, desktop widths only (11/13 review): a pilot reading on a computer scans it with his phone. ct=web-home-qr. */
+    .hero2-qr { display: none; }
+    @media (min-width: 900px) and (hover: hover) {
+      .hero2-qr { display: flex; align-items: center; gap: 12px; margin: 16px 0 0; font-size: 0.9rem; line-height: 1.4; color: var(--muted); max-width: 34ch; }
+      .hero2-qr img { flex: none; width: 92px; height: 92px; border-radius: 8px; background: #fff; padding: 4px; }
+    }
     /* Press line (Ryan 11/11): small, muted, text only. */
     .press-line { margin: 12px 0 0; font-size: 0.94rem; line-height: 1.45; color: var(--muted); }
     .press-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
@@ -360,6 +367,8 @@
           <a class="secondary" href="#how">See what it does</a>
         </div>
         <p class="hero2-privacy">Your health data stays on your device and your own iCloud.</p>
+        <p class="hero2-privacy hero2-built">Built by an airline pilot. No account, no sign-up.</p>
+        <p class="hero2-qr"><img src="/assets/qr-app-store.svg" width="92" height="92" alt="QR code that opens Pilot Medical Guardian on the App Store" loading="lazy"><span>On a computer? Point your iPhone or iPad camera here to get the app.</span></p>
         <p class="cta-note"><b>Free to use</b>, with an optional Guardian Pro subscription. For <b>iPhone, iPad, and Mac</b>. Prefer to fill MedXPress on a Windows PC? Keep your records in the iPhone, iPad, or Mac app, then <a href="#windows">autofill in Chrome or Edge</a> with Guardian Pro.</p>
         <p class="proof">Pilots are already using it to prep their <span class="q">actual FAA medical</span>.</p>
       </div>
@@ -399,7 +408,7 @@
       <div class="highlight">
         <h3>The problem is usually the paperwork, not your health</h3>
         <p>When a pilot runs into trouble with their FAA medical, it's usually not their health. It's the documentation. In the Federal Air Surgeon's own words, <em>"most of these denials resulted because of a failure of the applicants to provide sufficient information."</em> And it's common: about <strong>1 in 16</strong> certified airmen fly on a Special Issuance, and nearly <strong>1 in 5 past age 65</strong>.</p>
-        <p>The FAA says so itself: in its April 2025 review, the agency named <em>"incomplete information on airmen's submissions"</em> a top challenge, and noted Special Issuances have roughly <strong>doubled since 2019</strong>. Its own fix (better paperwork prep and a clearer MedXPress) is exactly what this app does.</p>
+        <p>The FAA says so itself: in its April 2025 review, the agency named <em>"incomplete information on airmen's submissions"</em> a top challenge, and noted Special Issuances have roughly <strong>doubled since 2019</strong>. Getting the paperwork complete before you submit is the part this app helps with.</p>
         <p class="fineprint">Sources: <a href="https://www.faa.gov/faq/how-common-are-denials-third-class-airman-medical-certificates">FAA Federal Air Surgeon</a> · <a href="https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports/media/2024_statistical_handbook.pdf">FAA 2024 Aerospace Medical Certification Statistical Handbook</a> (Oct 2025) · <a href="https://www.faa.gov/newsroom/faa-seeks-input-improving-medical-process">FAA "Improving the Medical Process"</a> (Apr 2025).</p>
       </div>
     </div>
@@ -444,7 +453,7 @@
             <p>Fills the parts of the FAA form you'd otherwise retype every cycle.</p>
           </summary>
           <div class="feature-more">
-            <p>Its Safari extension fills MedXPress Items 1 to 19 straight into the live form: your application details, medications (Item 17), every Item 18 answer, Yes and No, with the explanations you saved, and doctor visits (Item 19), so you don't retype the same information every renewal. You review every entry and submit it yourself. The extension sends nothing to me. Your first autofill is free to try; autofill on every later renewal is part of Guardian Pro. Filling it out on a Windows PC? With Guardian Pro, <a href="/autofill.html#pc">the Chrome and Edge extension</a> does the same.</p>
+            <p>Its Safari extension fills MedXPress Items 1 to 19 straight into the live form: your application details, medications (Item 17), every Item 18 answer, Yes and No, with the explanations you saved, and doctor visits (Item 19), so you don't retype the same information every renewal. You review every entry and submit it yourself. The extension sends nothing to me. Your first MedXPress autofill is free for 7 days from your first Fill. After that, autofill every renewal is part of Guardian Pro. Filling it out on a Windows PC? With Guardian Pro, <a href="/autofill.html#pc">the Chrome and Edge extension</a> does the same.</p>
             <a class="more-link" href="/medxpress-guide.html">Read the FAA MedXPress guide &rarr;</a>
           </div>
         </details>
@@ -661,15 +670,12 @@
         </div>
         <div class="maccard">
           <h3>Part of Guardian Pro</h3>
-          <p>The extension is free to install and works with your Guardian Pro subscription. Your free try is in Safari on iPhone, iPad, or Mac.</p>
+          <p>The extension is free to install and works with your Guardian Pro subscription. Your free first autofill is in Safari on iPhone, iPad, or Mac.</p>
         </div>
       </div>
       <div class="links cta" style="justify-content:center;margin-top:18px;">
         <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=web-windows&amp;mt=8">1. Get the iPhone &amp; iPad app</a>
         <a class="primary" href="https://chromewebstore.google.com/detail/dnckcfkjjlfblkpnogplbnjjieplmpbo" target="_blank" rel="noopener">2. Add to Chrome</a>
-        <!-- No Edge store button here on purpose: the Edge listing is not Public yet. The places to flip
-             are the store buttons in autofill.html#pc step 2 and the Edge sentence in windows.html (both marked "EDGE FLIP").
-             Edge users go there via Setup steps. -->
         <a class="secondary" href="/autofill.html#pc">Setup steps (Chrome or Edge)</a>
       </div>
       <p class="fineprint" style="text-align:center;">The extension needs the app: your records are entered in Pilot Medical Guardian on iPhone, iPad, or Mac, and the extension only reads them. Screen uses sample data.</p>
@@ -738,7 +744,7 @@
         <p>Pilot Medical Guardian is on the App Store for iPhone, iPad, and Mac. It's private by design, grounded in the FAA's own published rules, and especially useful if you're flying on a Special Issuance.</p>
       </div>
       <div class="prose-card">
-        <p style="margin-top:0;">Free to use: your renewal countdown and reminders, unlimited record-keeping (application details, medications, Item 18 answers, doctor visits), the medication reference, Health, and the AME directory, plus one free MedXPress autofill to try it. An optional <b>Guardian Pro</b> subscription unlocks MedXPress autofill every cycle, the clean CMEC export, Share with your AME, My Documents, Special Issuance tracking, the CACI worksheet in the app, and the prior-cycle answer comparison. $29.99 a year, auto-renews until canceled.</p>
+        <p style="margin-top:0;">Free to use: your renewal countdown and reminders, unlimited record-keeping (application details, medications, Item 18 answers, doctor visits), the medication reference, Health, and the AME directory. Your first MedXPress autofill is free for 7 days from your first Fill. After that, autofill every renewal is part of Guardian Pro. An optional <b>Guardian Pro</b> subscription unlocks MedXPress autofill every cycle, the clean CMEC export, Share with your AME, My Documents, Special Issuance tracking, the CACI worksheet in the app, and the prior-cycle answer comparison. $29.99 a year, auto-renews until canceled.</p>
         <div class="links" style="margin-bottom:0;">
           <a class="primary" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=web-home&amp;mt=8">Download on the App Store &rarr;</a>
           <a class="secondary" href="/faq.html">Read the FAQ</a>
@@ -753,6 +759,7 @@
   <footer>
     <div class="wrap">
       <p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p>
+      <p>Not affiliated with or endorsed by the FAA.</p>
       <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
       <p>Guides: <a href="/medxpress-guide.html">FAA MedXPress guide</a> · <a href="/faa-medxpress-app.html">MedXPress autofill app</a> · <a href="/medxpress-checklist.html">MedXPress prep checklist</a> · <a href="/basicmed-guide.html">FAA BasicMed guide</a> · <a href="/faa-form-8700-2.html">FAA Form 8700-2 (CMEC)</a> · <a href="/faa-medical-duration.html">FAA medical certificate duration</a> · <a href="/special-issuance.html">FAA Special Issuance</a></p>
     </div>

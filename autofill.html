@@ -36,7 +36,6 @@
     .pcshot { display: block; width: 100%; max-width: 360px; height: auto; margin: 12px 0 4px; border: 1px solid var(--accent-edge); border-radius: 12px; }
     .storebtns { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0 4px; }
     .storebtns a { display: inline-block; padding: 9px 16px; border-radius: 999px; background: var(--brand-grad); color: #fff; font-weight: 600; text-decoration: none; }
-    .storebtns .soon { display: inline-block; padding: 8px 15px; border-radius: 999px; border: 1px dashed var(--accent-edge); color: var(--muted); font-weight: 600; }
     @media (max-width: 560px) { .devpick { grid-template-columns: 1fr; } }
     .devcard {
       display: flex; flex-direction: column; gap: 4px; padding: 16px 18px;
@@ -361,7 +360,7 @@
       <h2 class="devsec-h">On a Windows PC (Chrome or Edge)</h2>
         <!-- /windows lands here (windows.html). The two requirements come first, before any step (scope 11/12 section 2). -->
         <p><strong>There's no Windows app.</strong> You keep your records in Pilot Medical Guardian on your iPhone, iPad, or Mac, then the Chrome or Edge extension fills MedXPress on the PC.</p>
-        <p><strong>Needs Guardian Pro.</strong> The free try is only in Safari on iPhone, iPad, or Mac.</p>
+        <p><strong>Needs Guardian Pro.</strong> The free first autofill is only in Safari on iPhone, iPad, or Mac.</p>
 
         <figure style="margin:14px 0 18px;">
           <video controls playsinline preload="none" poster="/screenshots/autofill-chrome-poster.webp?v=1" width="1920" height="1080" style="width:100%;height:auto;border-radius:12px;border:1px solid var(--accent-edge);" aria-label="MedXPress autofill in Chrome, 75 seconds">
@@ -386,13 +385,8 @@
             <div class="step-body">
               <h4>Install the extension</h4>
               <p>Use the store for the browser you fill MedXPress out in. It's free to install.</p>
-              <div class="storebtns"><a href="https://chromewebstore.google.com/detail/dnckcfkjjlfblkpnogplbnjjieplmpbo" target="_blank" rel="noopener">Get it for Chrome</a><!--
-                EDGE FLIP (1 of 2; the other is the "Edge is coming soon." sentence in windows.html): when Microsoft makes the Edge add-on Public, open the
-                listing URL below in a private window to confirm it loads, then replace the <span class="soon"> with:
-                <a href="https://microsoftedge.microsoft.com/addons/detail/egaemmdegmpepajddglefihapeogeeap" target="_blank" rel="noopener">Get it for Edge</a>
-                Other pages send Edge users here (they link to /autofill.html#pc), but
-                /windows (windows.html) is a real page that says Edge is coming soon: flip its sentence in the same pass.
-              --><span class="soon">Edge: coming soon</span></div>
+              <div class="storebtns"><a href="https://chromewebstore.google.com/detail/dnckcfkjjlfblkpnogplbnjjieplmpbo" target="_blank" rel="noopener">Get it for Chrome</a>
+                <a href="https://microsoftedge.microsoft.com/addons/detail/egaemmdegmpepajddglefihapeogeeap" target="_blank" rel="noopener">Get it for Edge</a></div>
               <p style="font-size:0.88rem;">Tip: pin it so it's one click away. In Chrome, click the puzzle-piece icon, then the pin next to Pilot Medical Guardian. In Edge, click the Extensions icon, then the eye icon next to it.</p>
             </div>
           </div>
