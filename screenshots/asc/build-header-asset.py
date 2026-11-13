@@ -23,12 +23,21 @@ from PIL import Image, ImageDraw
 import numpy as np, os
 
 
-BASE = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/header")
+BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "header")  # this checkout, never a hard-coded one
 SF = "/System/Library/Fonts/SFNS.ttf"
 W, H = 5244, 2950
 SX0, SY0, SX1, SY1 = 1922, 660, 3322, 1620          # Apple's art safe area
 BLUE = (0x1C, 0x66, 0xD9)
 WHITE = (255, 255, 255)
+
+# 2026-11-13 re-capture for iOS 2.4.0: Home lost its logo, so the 10/06 raw no longer matched the app.
+# iPhone 17 sim (same 1206x2622 as the 17 Pro), demo data, certificate-only pathway chosen on My
+# Medical (no seeder edit this time), 9:41. The number and date are the ones the captured screen
+# shows that day; they must always match the phone in the picture.
+RAW = "home-260-raw.png"           # 10/06 source kept beside it: home-267-raw.png
+CARD_BOTTOM_RAW = 1509             # bottom of the MedXPress prep card in RAW (10/06 raw: 1846)
+PHONE_SCALE = (1430 - 700) / 1846  # the 10/06 phone size, so the text column keeps its width
+DAYS, EXPIRES = "260", "expires Jul 31, 2027"
 
 
 def font(size, weight):
@@ -61,13 +70,13 @@ def phone(screen, scale):
 
 
 def main():
-    raw = Image.open(os.path.join(BASE, "home-267-raw.png")).convert("RGB")
+    raw = Image.open(os.path.join(BASE, RAW)).convert("RGB")
     canvas = Image.new("RGB", (W, H), BLUE)
 
     # ---- phone: screen top just inside the safe area; MedXPress card ends above the line ----
-    card_bottom_raw = 1846                           # bottom of the MedXPress prep card in the raw
-    screen_top, card_bottom_at = 700, 1430
-    scale = (card_bottom_at - screen_top) / card_bottom_raw
+    screen_top = 700
+    scale = PHONE_SCALE                              # same phone size as the 10/06 asset
+    card_bottom_at = screen_top + round(CARD_BOTTOM_RAW * scale)
     body, bz = phone(raw, scale)
     px = SX1 - body.width - 40
     py = screen_top - bz
@@ -84,11 +93,11 @@ def main():
     x = SX0 + 70
     big = font(360, 700)
     top = SY0 + 40
-    d.text((x - 12, top), "267", font=big, fill=WHITE)
-    y = top + big.getbbox("267")[3] + 30
+    d.text((x - 12, top), DAYS, font=big, fill=WHITE)
+    y = top + big.getbbox(DAYS)[3] + 30
     for text, size, weight, gap in (("Days remaining", 76, 600, 28),
                                     ("Class 1 medical", 60, 440, 14),
-                                    ("expires Jun 30, 2027", 60, 440, 0)):
+                                    (EXPIRES, 60, 440, 0)):
         f = font(size, weight)
         d.text((x, y), text, font=f, fill=WHITE)
         y += f.getbbox(text)[3] + gap

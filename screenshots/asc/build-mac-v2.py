@@ -1,8 +1,9 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np, os, shutil
 
-SRC = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/mac-raw")
-OUT = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/mac-v2")
+HERE = os.path.dirname(os.path.abspath(__file__))  # 11/13: relative, so a worktree builds into itself
+SRC = os.path.join(HERE, "mac-raw")
+OUT = os.path.join(HERE, "mac-v2")
 W, H = 2880, 1800
 SF = "/System/Library/Fonts/SFNS.ttf"
 WEIGHTS = {"Regular": 400, "Medium": 510, "Semibold": 590, "Bold": 700}
@@ -82,14 +83,16 @@ def tracked(draw, x, y, text, font, fill, tracking, measure_only=False):
 
 
 SHOTS = [
-    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
-    ("01-home.png",           "AT A GLANCE",      "Every date that matters, in one place"),
-    ("03-medxpress-prep.png", "MEDXPRESS PREP",   "Your answers ready before you sit down"),
-    ("04-item18.png",         "ITEM 18",          "Answer it once, keep it every renewal"),
-    ("07-hypertension.png",   "SPECIAL ISSUANCE", "See what you sent and what is open"),
-    ("06-certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
-    ("05-health.png",         "HEALTH",           "Your readings beside the FAA threshold"),
-    ("02-faa-reference.png",  "FAA REFERENCE",    "The FAA's own words, with the source"),
+    # NEW ORDER 2026-11-13 (review section 9: autofill first, a Share with my AME slot).
+    # Raws re-taken 11/13 from Mac 1.3.0 (35) Debug, screenshot store, demo data seeded once.
+    ("01-medxpress-prep.png",   "MEDXPRESS PREP",    "Your answers ready before you sit down"),
+    ("02-home.png",             "AT A GLANCE",       "Every date that matters, in one place"),
+    ("03-item18.png",           "ITEM 18",           "Answer it once, keep it every renewal"),
+    ("04-special-issuance.png", "SPECIAL ISSUANCE",  "See what you sent and what is open"),
+    ("05-share-with-ame.png",   "SHARE WITH MY AME", "Your records in one PDF for your AME", 0.0),  # own window: its buttons sit in the bottom 6%
+    ("06-my-medical.png",       "MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
+    ("07-health.png",           "HEALTH",            "Your readings beside the FAA threshold"),
+    ("08-faa-reference.png",    "FAA REFERENCE",     "The FAA's own words, with the source"),
 ]
 
 WIN_H = 1424
@@ -101,9 +104,11 @@ if os.path.isdir(OUT):
     shutil.rmtree(OUT)
 os.makedirs(OUT, exist_ok=True)
 
-for idx, (fname, eyebrow, headline) in enumerate(SHOTS, start=1):
+for idx, shot in enumerate(SHOTS, start=1):
+    fname, eyebrow, headline = shot[:3]
+    crop = shot[3] if len(shot) > 3 else BOTTOM_CROP
     src = Image.open(os.path.join(SRC, fname)).convert("RGBA")
-    src = src.crop((0, 0, src.width, int(src.height * (1 - BOTTOM_CROP))))
+    src = src.crop((0, 0, src.width, int(src.height * (1 - crop))))
     scale = WIN_H / src.height
     win_w = int(round(src.width * scale))
     win = src.resize((win_w, WIN_H), Image.LANCZOS)

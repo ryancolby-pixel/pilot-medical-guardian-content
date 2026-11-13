@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np, os, shutil
 
-BASE = os.path.expanduser("~/pilot-medical-guardian-content/screenshots")
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # screenshots/ of the checkout running it
 SF = "/System/Library/Fonts/SFNS.ttf"
 WEIGHTS = {"Regular": 400, "Medium": 510, "Semibold": 590, "Bold": 700}
 
@@ -160,42 +160,40 @@ def build(canvas_w, canvas_h, src_path, eyebrow, headline, out_path,
     return dw, dh, len(lines)
 
 
-IPAD = [
-    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
-    # Same seven shots, same order, same headlines as IPHONE and the Mac set, so a
-    # pilot comparing devices on the listing reads one story, not three.
-    # All seven re-captured 2026-10-09 on iPad Pro 13" (M5): end-of-month demo expiry
-    # (Jun 30, 2027) and one status bar across the set (five Aug 28 raws had a charging battery).
-    # 08-share-with-ame.png dropped to match the other two sets.
-    ("01-home.png",           "AT A GLANCE",       "Every date that matters, in one place"),
-    ("03-medxpress-prep.png", "MEDXPRESS PREP",    "Your answers ready before you sit down"),
-    ("09-item18.png",         "ITEM 18",           "Answer it once, keep it every renewal"),
-    ("06-special-issuance.png","SPECIAL ISSUANCE", "See what you sent and what is open"),
-    ("07-my-medical.png",     "MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
-    ("05-health-bp.png",      "HEALTH",            "Your readings beside the FAA threshold"),
-    ("02-faa-reference.png",  "FAA REFERENCE",     "The FAA's own words, with the source"),
+# ORDER SET BY RYAN 2026-11-13 (UX review section 9 item 1: "autofill slot first and a Share with
+# my AME slot 5, same order on every set"): 1 MedXPress Prep, 2 Home, 3 Item 18, 4 Special Issuance,
+# 5 Share with my AME, 6 My Medical, 7 Health, 8 FAA Reference. Headlines match build-mac-v2.py word
+# for word. Superseded order (9/05): Home, Prep, Item 18, SI, My Medical, Health, FAA Reference.
+SLOTS = [
+    ("MEDXPRESS PREP",    "Your answers ready before you sit down"),
+    ("AT A GLANCE",       "Every date that matters, in one place"),
+    ("ITEM 18",           "Answer it once, keep it every renewal"),
+    ("SPECIAL ISSUANCE",  "See what you sent and what is open"),
+    ("SHARE WITH MY AME", "Your records in one PDF for your AME"),
+    ("MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
+    ("HEALTH",            "Your readings beside the FAA threshold"),
+    ("FAA REFERENCE",     "The FAA's own words, with the source"),
 ]
 
-IPHONE = [
-    # ORDER SET BY RYAN 2026-09-05: Home, MedXPress Prep, Item 18, SI, then the rest.
-    # Sources -> screenshots/iphone-new/. home.png 2026-10-06, the other six 2026-10-09, all on
-    # the iPhone 17 Pro simulator (1206x2622); the 9/05 iPhone Air raws read 11:52-11:59.
-    ("home.png",           "AT A GLANCE",      "Every date that matters, in one place"),
-    ("medxpress.png",      "MEDXPRESS PREP",   "Your answers ready before you sit down"),
-    ("item18.png",         "ITEM 18",          "Answer it once, keep it every renewal"),
-    ("si.png",             "SPECIAL ISSUANCE", "See what you sent and what is open"),
-    ("certificate.png",    "MY MEDICAL",       "Class 1, 2, 3 and BasicMed together"),
-    ("health.png",         "HEALTH",           "Your readings beside the FAA threshold"),
-    ("faa-reference.png",  "FAA REFERENCE",    "The FAA's own words, with the source"),
-]
+def shots(files):
+    assert len(files) == len(SLOTS)
+    return [(f, e, h) for f, (e, h) in zip(files, SLOTS)]
 
-DUO = [
-    # iPhone Duo (2026-10-16): same seven slots, same order and headlines. Raws captured on the
-    # iPhone Duo simulator (iOS 27.1) with `simctl io --display`, demo data, 9:41.
-    # duo-outer/ = the closed outer display (1398x2034); duo-inner/ = the inner display, fully
-    # open and wide (2853x2007), which shows the sidebar layout. Inner FAA Reference is a sheet,
-    # as on iPad.
-] + IPHONE
+# iPad Pro 13" (M5), all eight re-captured 2026-11-13 from ux-fixes 96db082, reached through the
+# sidebar. 08-share-with-ame is the Share sheet (records toggles); its PDF preview is a small
+# card on iPad and unreadable at listing size.
+IPAD = shots(["03-medxpress-prep.png", "01-home.png", "09-item18.png", "06-special-issuance.png",
+              "08-share-with-ame.png", "07-my-medical.png", "05-health-bp.png", "02-faa-reference.png"])
+
+# screenshots/iphone-new/, iPhone 17 simulator (1206x2622), all eight 2026-11-13. share-ame.png is
+# the "Prepared for my AME" PDF preview (demo pilot).
+IPHONE = shots(["medxpress.png", "home.png", "item18.png", "si.png",
+                "share-ame.png", "certificate.png", "health.png", "faa-reference.png"])
+
+# iPhone Duo (PMG-Duo, iOS 27.1). duo-outer/ = closed outer display (1398x2034), re-captured
+# 2026-11-13. duo-inner/ = inner display, fully open and wide (2853x2007); the open pose is set by
+# hand in Device Hub, so the inner set is rebuilt only when every raw below exists (see README).
+DUO = IPHONE
 
 jobs = [
     ("ipad-v2",  2064, 2752, os.path.join(BASE, "asc", "ipad"), IPAD,
@@ -213,6 +211,11 @@ jobs = [
 
 for outdir, cw, ch, srcdir, shots, corner, eb, hs, tp, sp, bp, tk in jobs:
     out = os.path.join(BASE, "asc", outdir)
+    missing = [fn for fn, _, _ in shots if not os.path.exists(os.path.join(srcdir, fn))]
+    if missing:
+        # never wipe a set we cannot rebuild in full
+        print("\n== %s SKIPPED (left untouched): missing raws %s" % (outdir, ", ".join(missing)))
+        continue
     # wipe first: a reorder leaves stale files behind that would ship
     if os.path.isdir(out):
         shutil.rmtree(out)

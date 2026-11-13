@@ -146,7 +146,36 @@ still holds and this shot does not violate it.
 > the ipad, and mac."*** ⇒ **If a change renders on any screen in the table below, re-capture and rebuild every
 > affected set IN THE SAME PASS, and re-upload all four.** The tripwire lives in `CLAUDE.md`; this is the detail.
 
-### The seven slots, and what is actually IN frame
+### The eight slots (order since 2026-11-13), and what is actually IN frame
+
+### 2026-11-13 — NEW ORDER, 8 slots: iPhone, iPad and Duo outer re-captured for iOS 2.4.0 (70)
+Ryan 11/13 (UX review section 9 item 1): "autofill slot first and a Share with my AME slot 5, same order on every set".
+Order: **1 MedXPress Prep · 2 Home · 3 Item 18 · 4 Special Issuance · 5 Share with my AME · 6 My Medical · 7 Health ·
+8 FAA Reference** (ASC takes up to 10, so FAA Reference stays). Headlines are word for word the Mac set's (`build-mac-v2.py`);
+the two new ones: slot 1 keeps "MEDXPRESS PREP / Your answers ready before you sit down", slot 5 is "SHARE WITH MY AME /
+Your records in one PDF for your AME". `build-mobile-v2.py` now has one `SLOTS` list that every set zips against.
+- **Build:** ux-fixes `96db082`, Debug, fresh install per sim, `-PMGSeedDemoData` once (Home read 2 medications, 8 visits,
+  25 of 25, 260 days), `-compedPro YES -PMGHidePCRows YES`, `--time 9:41` (iPad `2026-11-13T14:41:00.000Z` = Fri Nov 13).
+  ⚠️ `-PMGHidePCRows` is read per launch: a relaunch without it brings back "Want to autofill on a PC?" in the Prep bar.
+- **iPhone** on the iPhone 17 sim (1206x2622, same as the 17 Pro). Slot 5 = the **Prepared for my AME** PDF preview (demo
+  pilot). Its Prep bar reads "Open MedXPress in Safari" (that sim had the extension flag set); iPad and Duo read
+  "Turn on MedXPress autofill". Both are real states.
+- **iPad** (sidebar): slot 5 is the Share sheet with its record toggles; the PDF preview is a small card there and
+  unreadable at listing size. FAA Reference is now a large sheet (search "How long is a first class medical").
+  ⚠️ The iPad sim came up LANDSCAPE; the simulator tool's rotate needed several quarter turns before the capture read 2064x2752.
+- **Duo outer** re-captured (all 8). 🚫 **Duo INNER NOT re-captured:** the sim boots closed and the open pose is set by hand
+  in Device Hub; the inner display times out until it is opened. `duo-inner-v2/` is the OLD 7-shot set in the OLD order and
+  the script now skips (does not wipe) any set missing a raw. Do not upload it; re-take after Ryan opens the pose.
+- **Fresh-install chrome:** the old What's New sheet, the consent screen, "Lock your records" (Not now), the rating prompt
+  and "Tell another pilot" after a PDF preview, and the reminders card on SI (Turn on reminders -> Allow).
+- **Header asset** rebuilt from a new medical-only Home (`header/home-260-raw.png`: certificate-only chosen on My Medical, no
+  seeder edit). The drawn copy follows the phone: **260 / expires Jul 31, 2027** (was 267 / Jun 30, 2027). Phone kept at the
+  10/06 size, so it now ends higher (Home no longer has the logo above the card).
+- 🚨 **Both scripts had `BASE` hard-coded to `~/pilot-medical-guardian-content`**, so running them from this worktree read
+  and WIPED that checkout's sets. One run did (`ipad-v2/`), restored with `git checkout`. `BASE` is now the script's own folder.
+- Sizes: `iphone-69-v2` 1290x2796 (the 6.9" box takes it; 1320x2868 is also legal, not used), `iphone-v2` 1284x2778,
+  `ipad-v2` 2064x2752, `duo-outer-v2` 1398x2034; 8 files each.
+
 
 ### 2026-11-09 — Mac (all 7) + Duo slot 2 re-captured for iOS 2.3.7 (67) / Mac 1.2.8 (32)
 Ryan: My Records in MedXPress order (Application Details, Medications, Item 18 Answers, Doctor Visits). The Mac sidebar is in
@@ -245,13 +274,14 @@ the card pushes the fifth "Ways PMG protects" row off the iPad Home slot).
 
 | # | screen | what is visibly in frame, i.e. what a change would break |
 |---|---|---|
-| 1 | **Home** | days-remaining countdown + class + expiry date · BasicMed course and CMEC cards · the **MedXPress prep** summary line (`N medications - N visits - N of 25 Item 18 answers`) · **What's next** step card · the **"Ways PMG protects your medical"** list, all five rows and their subtitles · the not-advice footer |
-| 2 | **MedXPress Prep** | the **Enable MedXPress autofill** row · **Manual fallback** row · **Item 17** heading, Add/edit link, the medication rows and the `N medications recorded` caption · **Item 18** heading and its link rows · **Item 19** heading, Add/edit, doctor-visit rows *(Mac and iPad show Item 19; iPhone cannot reach it, see below)* |
+| 1 | **MedXPress Prep** | the intro sentence (form order, you submit on the FAA's site) · **The form** list: Items 1 to 16, Item 17, Item 18, Item 19 rows with their subtitles and status chips (`All entered`, `2 listed`, `All answered`, `8 listed`) · iPhone: **Share with my AME** row · the pinned bar: **Open MedXPress in Safari** / **Turn on MedXPress autofill** and **More ways to fill** *(iPad also shows Find an AME, the confirmation-number row and How this works)* |
+| 2 | **Home** | days-remaining countdown + class + expiry date · BasicMed course and CMEC cards · the **MedXPress prep** summary line (`N medications - N visits - N of 25 Item 18 answers`) · **What's next** step card · the **"Ways PMG protects your medical"** list, all five rows and their subtitles · the not-advice footer |
 | 3 | **Item 18 / Medical History** | the intro card wording · the `N of 25 answered` ring · **Mark all remaining as No** · the lettered question rows and Yes/No controls · the **Explanation** label and field · the teal **CACI pathway available** banner and its sentence |
 | 4 | **Special Issuance** (`Hypertension on medication`) | **Share with my AME** button · About rows · **Your Authorization** fields (Status, Path, issued, expires, next documentation due) and their helper line · **Requirements Checklist** rows, their done/not-done state, `What the FAA asks for`, `In your FAA letter?`, Add document, reminder chips |
-| 5 | **My Medical** | Certificate / BasicMed / Both selector · `Expires in about N months` · certificate class, exam date, AME, next exam · **Update your certificate** row · privilege-duration rows and their CFR citations *(Mac slot shows these; iPhone shows the upper half)* |
-| 6 | **Health** | the Blood Pressure chart, **both AME Guide reference lines and their labels** · the citation footer (`FAA Guide for Aviation Medical Examiners, Item 55`) and its `Citation checked` date · the reading rows |
-| 7 | **FAA Reference** | the search field placeholder · **Common questions** list *(iPad/iPhone sheet)* · the FAA Threshold card · the **What the FAA says** quotation · the **Source** block, `Last verified` date and `View the FAA source` link |
+| 5 | **Share with my AME** | iPhone/Duo: the **Prepared for my AME** PDF preview (pilot name, contents line, certificate, Item 17, Item 18 Yes answers, the not-advice footnote) and **Share to your email app** · iPad: the Share sheet, **My AME / The FAA by mail** selector, AME name/email fields, record toggles with counts |
+| 6 | **My Medical** | Certificate / BasicMed / Both selector · `Expires in about N months` · certificate class, exam date, AME, next exam · **Update your certificate** row · privilege-duration rows and their CFR citations *(Mac slot shows these; iPhone shows the upper half)* |
+| 7 | **Health** | the Blood Pressure chart, **both AME Guide reference lines and their labels** · the citation footer (`FAA Guide for Aviation Medical Examiners, Item 55`) and its `Citation checked` date · the reading rows |
+| 8 | **FAA Reference** | the search field placeholder · **Common questions** list *(iPad/iPhone sheet)* · the FAA Threshold card · the **What the FAA says** quotation · the **Source** block, `Last verified` date and `View the FAA source` link |
 
 ⚖️ **THE EYEBROW AND HEADLINE ARE BAKED INTO THE COMPOSED IMAGE.** Renaming a tab, a section or a feature
 invalidates the art even when the screen is pixel-identical. **Copy changes count as UI changes here.**
