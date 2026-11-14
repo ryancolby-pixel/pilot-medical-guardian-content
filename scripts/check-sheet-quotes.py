@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Weekly re-check of the FAA quotes on the free AME request sheet.
+"""Twice daily re-check of the FAA quotes on the free AME request sheet.
 
 WHY (2026-11-12, Ryan: "Yes, build it"). The sheet (secure link server /sheet, data /sheet/sheet-data.json) shows
 curated verbatim FAA quotes for the Special Issuance conditions. Its builder, build-sheet-data.py (published in
@@ -17,10 +17,12 @@ request header does not bypass it), so three "main" URLs read just after a publi
 and differ for no real reason.
 
 usage:
-  check-sheet-quotes.py [--work DIR] [--cache NEW_DIR] [--builder SRC] [--curated SRC] [--published SRC]
+  check-sheet-quotes.py [--work DIR] [--cache NEW_DIR] [--commit SHA] [--builder SRC] [--curated SRC] [--published SRC]
       each SRC a path or https URL; by default the three files on pmg-securelink-viewer main. --work is where they
       are downloaded (default: a new temp folder); --cache must be new or empty (default: a new temp folder).
-      The builder's --content is this checkout.
+      The builder's --content is this checkout. --commit reads the defaults from that pmg-securelink-viewer commit
+      instead of resolving main. <work>/checked.json records the commit, the published data's sha256 and the exit
+      code, for the attestation step in check-sheet-quotes.yml.
   check-sheet-quotes.py --selftest
 
 Exit 0: every quote is on its source and the bytes are equal.
@@ -32,8 +34,12 @@ Exit 2: the INSTRUMENT could not run: main could not be resolved or a download f
         check-content-fidelity.py applies before it believes a miss), the builder refused (exit 1: malformed curated
         file, cache not new) or exited any other way. Never a finding.
 
-The builder is downloaded code. It runs with python -I from its own folder, and the workflow gives this step no
-secrets and no token (see check-sheet-quotes.yml for what that does and does not protect).
+The builder is downloaded code. It runs with python -I from its own folder, with every GITHUB_*, ACTIONS_* and
+RUNNER_* variable (and BASH_ENV, ENV) removed from its environment, so it is not handed the step's GITHUB_ENV,
+GITHUB_PATH, GITHUB_OUTPUT or GITHUB_STEP_SUMMARY files, and with a BUILDER_TIMEOUT_S limit (exit 2 past it). The
+published data is hashed and judged from the bytes downloaded BEFORE the builder runs, so a builder that rewrites
+published-sheet-data.json in its folder changes nothing. The workflow gives this job no secrets and no token, and
+files and closes issues in a separate job on a fresh checkout (see check-sheet-quotes.yml).
 """
 import argparse
 import hashlib
@@ -57,9 +63,11 @@ DEFAULTS = {"builder": BASE + "source/build-sheet-data.py", "curated": BASE + "s
 NAMES = {"builder": "build-sheet-data.py", "curated": "sheet-curated.json", "published": "published-sheet-data.json"}
 LABELS = {"builder": "the builder", "curated": "the curated file", "published": "the published data"}
 REPORT = "sheet-quote-report.md"
+CHECKED = "checked.json"
 MISS = re.compile(r"^(TITLE )?NOT ON ITS SOURCE ")
 URL_AT_END = re.compile(r"(https?://\S+)\s*$")
-UA = "pmg-ops-check/1.0 (+https://pilotmedicalguardian.com)"
+UA = "pmg-ops-check/1.0 (+https://pilotmedicalguardian.com)"  # GitHub only. faa.gov's Akamai 403s this UA.
+BUILDER_TIMEOUT_S = 25 * 60
 
 
 class InstrumentError(Exception):
@@ -117,6 +125,12 @@ def get(src: str, dest: Path) -> bytes:
     return body
 
 
+def builder_env() -> dict:
+    """The environment the downloaded builder gets: ours minus the runner's file commands and identifiers."""
+    return {k: v for k, v in os.environ.items()
+            if not k.startswith(("GITHUB_", "ACTIONS_", "RUNNER_")) and k not in ("BASH_ENV", "ENV")}
+
+
 def changed_conditions(published: bytes, built: bytes) -> str:
     """Which conditions differ, for the report. Best effort: the byte comparison is the verdict."""
     try:
@@ -144,7 +158,7 @@ def judge(code: int, output: str, built: bytes | None, published: bytes, unreada
                 continue
             misses += [ln] + quote
     if code == 2 and misses:
-        report = ("A line on the free AME request sheet is no longer on the FAA document it cites (weekly re-check, "
+        report = ("A line on the free AME request sheet is no longer on the FAA document it cites (twice daily re-check, "
                   "every document fetched fresh). The published sheet still shows it.\n\n" + "\n".join(misses) + "\n\n")
         if unreadable:
             # After a "## " heading, so file-finding.sh's fingerprint ignores it.
@@ -176,30 +190,36 @@ def judge(code: int, output: str, built: bytes | None, published: bytes, unreada
                f"first difference at byte {first}\n")
 
 
-def run(work: Path | None, cache: Path | None, srcs: dict, read_source=None) -> tuple[int, str]:
-    """read_source(url, cache) -> text: fid.fetch by default; the selftest passes a stand-in so it stays offline."""
+def run(work: Path | None, cache: Path | None, srcs: dict, read_source=None, commit: str | None = None) -> tuple[int, str]:
+    """read_source(url, cache) -> text: fid.fetch by default; the selftest passes a stand-in so it stays offline.
+    commit: the pmg-securelink-viewer commit to read from instead of resolving main (the workflow resolves it once
+    and gives the same one to check-sheet-sources.py, so the attestation names one commit and one data sha)."""
     # Absolute, because the builder runs with cwd=work and the readable() control reads the same cache from here.
     work = (work or Path(tempfile.mkdtemp(prefix="sheetcheck-"))).resolve()
     cache = (cache or Path(tempfile.mkdtemp(prefix="sheetcache-")) / "cache").resolve()
     work.mkdir(parents=True, exist_ok=True)
+    (work / CHECKED).unlink(missing_ok=True)
     sha = None
     from_commit = [LABELS[k] for k in NAMES if srcs[k].startswith(BASE)]
     try:
         if any(s.startswith(BASE) for s in srcs.values()):
-            sha = main_sha()
-            print(f"pmg-securelink-viewer main is {sha}")
+            sha = commit or main_sha()
+            print(f"pmg-securelink-viewer commit {sha}" + ("" if commit else " (main)"))
             srcs = at_commit(srcs, sha)
         files = {k: work / NAMES[k] for k in NAMES}
-        for k in NAMES:
-            get(srcs[k], files[k])
+        # Kept in memory: the judgment and checked.json use these bytes, never the file after the builder ran.
+        got = {k: get(srcs[k], files[k]) for k in NAMES}
     except InstrumentError as e:
         return 2, str(e)
     out = work / "rebuilt-sheet-data.json"
     out.unlink(missing_ok=True)
     t0 = time.monotonic()
-    r = subprocess.run([sys.executable, "-I", str(files["builder"]), "--content", str(ROOT), "--cache", str(cache),
-                        "--curated", str(files["curated"]), "--out", str(out)],
-                       cwd=work, capture_output=True, text=True)
+    try:
+        r = subprocess.run([sys.executable, "-I", str(files["builder"]), "--content", str(ROOT), "--cache", str(cache),
+                            "--curated", str(files["curated"]), "--out", str(out)],
+                           cwd=work, capture_output=True, text=True, env=builder_env(), timeout=BUILDER_TIMEOUT_S)
+    except subprocess.TimeoutExpired:
+        return 2, f"the builder did not finish in {BUILDER_TIMEOUT_S / 60:.0f} minutes"
     print(r.stdout + r.stderr, end="")
     print(f"builder exit {r.returncode} after {time.monotonic() - t0:.0f} s (cache {cache})")
     built = out.read_bytes() if r.returncode == 0 and out.exists() else None
@@ -213,7 +233,11 @@ def run(work: Path | None, cache: Path | None, srcs: dict, read_source=None) -> 
             unreadable = sorted(u for u in urls if not readable(read_source(u, cache)))
             for u in unreadable:
                 print(f"NOT READABLE PROSE, not checked (same control as check-content-fidelity.py): {u}")
-    code, text = judge(r.returncode, output, built, files["published"].read_bytes(), unreadable)
+    published = got["published"]
+    code, text = judge(r.returncode, output, built, published, unreadable)
+    # What this run checked, for the attestation step: the same commit and data sha the sources check must report.
+    (work / CHECKED).write_text(json.dumps({"commit": sha, "dataSha": hashlib.sha256(published).hexdigest(),
+                                            "code": code}) + "\n")
     if code == 1 and sha:
         # After a "## " heading, so the commit never changes file-finding.sh's fingerprint.
         text += f"\n## Checked\n\npmg-securelink-viewer commit {sha}, read from it: {', '.join(from_commit)}.\n"
@@ -221,9 +245,14 @@ def run(work: Path | None, cache: Path | None, srcs: dict, read_source=None) -> 
 
 
 # ---------------------------------------------------------------------------------------------- selftest
-FAKE_BUILDER = r'''import sys
+FAKE_BUILDER = r'''import os, sys, time
 a = dict(zip(sys.argv[1::2], sys.argv[2::2]))
 body = open(a["--curated"], "rb").read()
+if b"SLEEP" in body:
+    time.sleep(5)
+if b"FORGE" in body:  # a hostile builder: rewrite the downloaded published file, report what it was handed
+    open("published-sheet-data.json", "wb").write(body)
+    open("env.txt", "w").write("\n".join(sorted(os.environ)))
 if b"MISS" in body:
     sys.stderr.write("NOT ON ITS SOURCE  si-b  [Heading]  https://www.faa.gov/x\n    “the FAA words”\n")
     sys.exit(2)
@@ -282,6 +311,8 @@ def selftest() -> int:
         (d / "cur.json").write_bytes(A)
         srcs = {"builder": str(d / "b.py"), "curated": str(d / "cur.json"), "published": str(d / "pub.json")}
         assert run(d / "w1", d / "c1", srcs)[0] == 0, "equal bytes are clean"
+        assert json.loads((d / "w1" / CHECKED).read_text())["dataSha"] == hashlib.sha256(A).hexdigest(), \
+            "the checked data sha is written for the attestation"
         (d / "pub.json").write_bytes(B)
         assert run(d / "w2", d / "c2", srcs)[0] == 1, "a changed published byte is a finding"
         (d / "cur.json").write_bytes(A + b"MISS")
@@ -290,6 +321,28 @@ def selftest() -> int:
         code, text = run(d / "w5", d / "c5", srcs, read_source=lambda u, c: "403 Forbidden")
         assert code == 2 and "not readable prose" in text, "a miss on a block page is instrument"
         assert run(d / "w4", d / "c4", dict(srcs, builder=str(d / "nope.py")))[0] == 2, "a failed download is instrument"
+        # A builder that overwrites the published file with its own output: still judged on the downloaded bytes.
+        (d / "pub.json").write_bytes(A)
+        (d / "cur.json").write_bytes(B + b"FORGE")
+        os.environ["GITHUB_ENV"] = str(d / "github_env")
+        try:
+            code, _ = run(d / "w6", d / "c6", srcs)
+        finally:
+            del os.environ["GITHUB_ENV"]
+        assert code == 1, "a builder that forges the published file is still a finding"
+        assert json.loads((d / "w6" / CHECKED).read_text())["dataSha"] == hashlib.sha256(A).hexdigest(), \
+            "checked.json names the downloaded bytes, not what the builder wrote"
+        seen = (d / "w6" / "env.txt").read_text().split()
+        assert "GITHUB_ENV" not in seen and not any(k.startswith(("GITHUB_", "RUNNER_")) for k in seen), \
+            "the builder is not handed the runner's file commands"
+        global BUILDER_TIMEOUT_S
+        keep, BUILDER_TIMEOUT_S = BUILDER_TIMEOUT_S, 1
+        try:
+            (d / "cur.json").write_bytes(A + b"SLEEP")
+            code, text = run(d / "w7", d / "c7", srcs)
+        finally:
+            BUILDER_TIMEOUT_S = keep
+        assert code == 2 and "did not finish" in text, "a hung builder is instrument, after the time limit"
     print("selftest ok")
     return 0
 
@@ -300,12 +353,16 @@ def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", type=Path)
     ap.add_argument("--cache", type=Path)
+    ap.add_argument("--commit")
     for k in DEFAULTS:
         ap.add_argument(f"--{k}", default=DEFAULTS[k])
     a = ap.parse_args(argv)
+    if a.commit and not re.fullmatch(r"[0-9a-f]{40}", a.commit):
+        print("--commit must be a full 40 character commit sha")
+        return 2
     Path(REPORT).unlink(missing_ok=True)
     t0 = time.monotonic()
-    code, text = run(a.work, a.cache, {k: getattr(a, k) for k in DEFAULTS})
+    code, text = run(a.work, a.cache, {k: getattr(a, k) for k in DEFAULTS}, commit=a.commit)
     if code == 1:
         Path(REPORT).write_text(text, encoding="utf-8")
         print(f"\nFINDING ({time.monotonic() - t0:.0f} s), written to {REPORT}:\n\n{text}")

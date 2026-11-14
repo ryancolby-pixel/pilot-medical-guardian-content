@@ -3,8 +3,9 @@ name: Check secure link server
 # Daily check of the PMG 3.0 secure link server. scripts/check-securelink.py says why; in short:
 #   1. the page the AME opens (it decrypts the pilot's file) must be byte-for-byte the published copy, and
 #   2. the hourly cleanup that deletes expired files must actually be running (GET /v1/health), and
-#   3. the free AME request sheet (GET /sheet and its data file /sheet/sheet-data.json) must be byte-for-byte the
-#      published copy too (Ryan 2026-11-12: "Yes, publish it").
+#   3. the free AME request sheet (GET /sheet, its data file /sheet/sheet-data.json and its links file
+#      /sheet/sheet-links.json) must be byte-for-byte the published copy too (Ryan 2026-11-12: "Yes, publish it").
+#      A 503 {"error":"rechecking"} on the data file is "held back: not verified", noted in the summary, not a finding.
 # It DETECTS a changed page; it cannot prevent one.
 #
 # 🔇 SHIPS QUIET (2026-11-11). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to
@@ -33,6 +34,8 @@ env:
   # The published copy of the request sheet, written by the same exporter.
   PUBLISHED_SHEET: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/sheet/index.html
   PUBLISHED_SHEET_DATA: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/sheet/sheet-data.json
+  # The sheet's FAA links (no FAA words), served even while the quotes are held back (2026-11-14).
+  PUBLISHED_SHEET_LINKS: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/sheet/sheet-links.json
   SECURELINK_BASE_URL: ${{ secrets.SECURELINK_BASE_URL }}
   SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
   SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
@@ -54,8 +57,17 @@ jobs:
         run: |
           set +e
           python3 scripts/check-securelink.py --published "$PUBLISHED_VIEWER" \
-            --published-sheet "$PUBLISHED_SHEET" --published-sheet-data "$PUBLISHED_SHEET_DATA" | tee securelink-output.txt
+            --published-sheet "$PUBLISHED_SHEET" --published-sheet-data "$PUBLISHED_SHEET_DATA" \
+            --published-sheet-links "$PUBLISHED_SHEET_LINKS" | tee securelink-output.txt
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      # The server answered 503 rechecking for the FAA quotes: not a finding here (check-sheet-quotes.yml alerts on the
+      # cause), but say so where Ryan reads the run.
+      - name: Note FAA quotes held back while not verified
+        if: hashFiles('securelink-sheet-held-back') != ''
+        run: |
+          { echo "## AME request sheet: FAA quotes held back (not verified)"; echo; cat securelink-sheet-held-back; } >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice title=Sheet quotes held back::The server is not showing the FAA quotes until the sheet guard verifies them. See check-sheet-quotes.yml."
 
       - name: Note a run that could not check
         if: steps.check.outputs.code == '2'
@@ -108,6 +120,7 @@ jobs:
             label="${pair%%:*}"; report="${pair##*:}"
             [ -f "$report" ] && continue
             [ "$label" = securelink-sheet-changed ] && [ -f securelink-sheet-unchecked ] && continue
+            [ "$label" = securelink-sheet-changed ] && [ -f securelink-sheet-held-back ] && continue
             EXISTING=$(gh issue list --state open --label "$label" --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
             if [ -n "$EXISTING" ]; then
               gh issue close "$EXISTING" --comment "Cleared as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."

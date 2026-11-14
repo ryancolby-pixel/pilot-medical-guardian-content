@@ -1,38 +1,77 @@
-name: Check AME request sheet quotes
+name: Guard the AME request sheet's FAA quotes
 
-# Weekly re-check of the FAA quotes on the free AME request sheet (Ryan 2026-11-12: "Yes, build it").
-# scripts/check-sheet-quotes.py says why; in short: the sheet's builder re-checks every quote, sub-item, letter
-# sentence and heading on its own FAA source, but only when someone rebuilds the sheet, so an FAA page that changed
-# afterwards would leave a stale quote live. This runs the published builder on the published curated file with
-# every FAA document fetched fresh, then compares what it built with the published sheet/sheet-data.json byte for
-# byte. check-securelink.yml checks every day that the live data is that published file, so what is live is what
-# was checked.
+# Twice daily guard for the FAA quotes on the free AME request sheet (2026-11-14). Two checks, then an attestation the
+# secure link server reads before it serves the quotes:
+#   1. scripts/check-sheet-sources.py: every FAA document the sheet cites still reads the way it did when the sheet's
+#      sources were last read (text fingerprints, GOTCHAS_VERIFY.md section 30). It catches an FAA edit around our
+#      quotes, not only to them. Baseline: .sheet-source-fingerprints.json.
+#   2. scripts/check-sheet-quotes.py: the published builder, run on the published curated file with every FAA document
+#      fetched fresh, rebuilds byte for byte the published sheet/sheet-data.json, so every quote is still on its source.
+#   3. The attestation: one DynamoDB record per secure link stack, {"pk": "ops#sheet-verified", "ok", "verifiedAt",
+#      "dataSha", "runUrl"}. The server serves the quotes only while ok is true, dataSha is the sha256 of the data it
+#      serves, and verifiedAt is at most 36 hours old. Both clean: ok true. Either FINDS a problem: ok false, which
+#      takes the quotes down at once. Either could not check and neither found anything: nothing is written and the
+#      age limit takes over (about three missed runs in a row before the sheet says "rechecking"). The decision is
+#      scripts/sheet-attest-decide.py, selftested before it decides.
 #
-# SHIPS QUIET (2026-11-12). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to the
-# run summary and a warning only: no issue, no email, and a run that could not check is a warning too. After a few
-# clean scheduled runs, set QUIET to "0": then a finding files ONE issue and ONE email (scripts/file-finding.sh) and
-# stays quiet while unchanged, and a broken instrument turns the run red.
+# SHIPS QUIET (QUIET "1", 2026-11-14). Ryan's rule: never tune a new gate in his inbox. The sources baseline was taken
+# from Ryan's Mac and neither check has a clean scheduled run from a runner yet. While QUIET is "1" a finding goes to
+# the run summary and a warning only: no issue, no email. A finding STILL writes ok false (the attest job ignores
+# QUIET), so the quotes come down silently; watch the run summaries. To arm: run workflow_dispatch, confirm both
+# checks are clean (all 66 sources read) against the Mac baseline (or re-take the baseline from a runner), let a few
+# scheduled runs come back clean, then set QUIET to "0". Then a finding files ONE issue and ONE email per check
+# (scripts/file-finding.sh, labels sheet-source-changed and sheet-quote-changed) and stays quiet while unchanged; a
+# clean run closes that check's issue. The run is red only for a broken instrument (exit 2) or an alert email that
+# did not go out, never for a finding (repo rule: a check that filed its issue ends green).
 #
-# WEEKLY, Monday cron 17:10 UTC. Same cadence as the content fidelity check, which runs the same matcher over the same
-# FAA corpus weekly. The cron sits after the other Monday FAA crons and clear of the daily 13:40 secure link cron, but
-# GitHub starts scheduled runs hours late and in no fixed order (Monday 2026-11-09 they began between 23:16 and 00:27
-# UTC), so runs can overlap. That does not change any result: each runner fetches for itself.
+# ONE COMMIT. pmg-securelink-viewer main is resolved once and both checks read the published data from that commit.
+# Each writes <work>/checked.json (commit, data sha256, exit code); the two must agree, and the attest job re-downloads
+# the data from the commit-pinned URL and re-hashes it itself before it writes ok true.
 #
-# THIS RUNS CODE DOWNLOADED FROM ANOTHER REPO: the builder comes from pmg-securelink-viewer (Ryan's own public repo),
-# so whoever can push there can run code here, just as whoever can push here can. The check step is given no secrets
-# and no token (the checkout does not keep its token; the email secrets and the issue token go only to the steps
-# that file or close). That keeps them out of the builder's process; it is not a wall between steps of one job.
+# DOWNLOADED CODE. The quotes check runs the builder from pmg-securelink-viewer (Ryan's own public repo), so whoever
+# can push there can run code in the check job. That job has no secrets, no issue token and no AWS access:
+#   - id-token: write is granted only to the attest job, which checks out only this repo's decide script (at this
+#     run's commit) and runs no downloaded code;
+#   - the email secrets and the issue token are only in the report job, which does a fresh checkout and gets only
+#     the two report files from the check job (as an artifact), so a builder that rewrote scripts/file-finding.sh in
+#     the check job's checkout changes nothing there;
+#   - the builder runs with GITHUB_ENV / GITHUB_PATH / GITHUB_OUTPUT / GITHUB_STEP_SUMMARY (all GITHUB_*, RUNNER_*,
+#     ACTIONS_*) removed from its environment, and the sources check runs before it.
+# What a hostile builder can still do: make the quotes check say clean or say finding, and write the report text.
+# It cannot get ok true on its own: the sources check must also be clean on the same data, and the attest job
+# re-hashes the data itself.
+#
+# FAA LOAD. Each run fetches every cited document twice (the sources check, then the builder into its own new
+# cache: the builder refuses a cache that is not new, so the downloads cannot be shared). Both use
+# check-content-fidelity.py's browser User-Agent. Do NOT give FAA fetches the pmg-ops-check UA: faa.gov's Akamai
+# answers any UA carrying "(+https://...)" with 403 (measured 2026-11-14). The sources fetch is paced and retries
+# once; the job has a timeout.
+#
+# AWS: GitHub OIDC, one role per stack, trusted only for this repo's main branch, allowed only dynamodb:PutItem of
+# this one record. Repo variables (unset: that stack is skipped with a warning): SHEET_ATTEST_ROLE_TEST,
+# SHEET_TABLE_TEST, SHEET_ATTEST_ROLE_PROD, SHEET_TABLE_PROD (stack outputs SheetAttestRoleArn and TableName).
+#
+# CRON 13:10 and 01:10 UTC. GitHub starts scheduled runs hours late and in no fixed order; runs of this workflow are
+# serialized (concurrency) so an older verdict never lands after a newer one.
+#
+# AFTER EVERY SHEET PUBLISH: the sources baseline names the published data's sha256, so a republished sheet is a
+# finding (and takes the quotes down) until someone reads the changed sources, runs
+# `python3 scripts/check-sheet-sources.py --rebaseline` and commits .sheet-source-fingerprints.json.
 #
 # No push trigger: it checks FAA pages and another repo's files, not this repo's content.
 
 on:
   schedule:
-    - cron: "10 17 * * 1"
+    - cron: "10 13 * * *"
+    - cron: "10 1 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: read
-  issues: write
+
+concurrency:
+  group: sheet-quote-guard
+  cancel-in-progress: false
 
 env:
   QUIET: "1"
@@ -40,75 +79,265 @@ env:
 jobs:
   check:
     runs-on: ubuntu-latest
+    # The sources fetch stops itself at 20 minutes and the builder at 25: a hang never holds the queue for hours.
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    outputs:
+      code_q: ${{ steps.quotes.outputs.code }}
+      code_s: ${{ steps.sources.outputs.code }}
+      commit: ${{ steps.checked.outputs.commit }}
+      data_sha: ${{ steps.checked.outputs.data_sha }}
+      agree: ${{ steps.checked.outputs.agree }}
     steps:
       - name: Check out the scripts
         uses: actions/checkout@v5
         with:
           persist-credentials: false
 
-      # Python and pdfplumber exactly as check-content-fidelity.yml installs them: the builder uses its matcher.
+      # Python as check-content-fidelity.yml installs it. pdfplumber and pdfminer.six PINNED to the versions the
+      # sources baseline was taken with (its "instrument" record): the PDF fingerprints are exact hashes of their
+      # output, so an extractor release could "change" every PDF at once. Other versions: exit 2, never a finding.
+      # To upgrade: change both pins, run workflow_dispatch, read the sources, re-baseline, commit.
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install pdfplumber
-        run: pip install --quiet pdfplumber
+      - name: Install pdfplumber (pinned)
+        run: pip install --quiet "pdfplumber==0.11.9" "pdfminer.six==20251230"
 
       # Negative AND positive controls first, so an edit can't quietly disarm either judgment.
-      - name: Selftest the judgments
-        run: python3 scripts/check-sheet-quotes.py --selftest
+      - name: Selftest both checks
+        run: |
+          python3 scripts/check-sheet-sources.py --selftest
+          python3 scripts/check-sheet-quotes.py --selftest
+          python3 scripts/sheet-attest-decide.py --selftest
 
-      - name: Re-check every sheet quote on a fresh fetch and compare with the published data
-        id: check
+      - name: Resolve pmg-securelink-viewer main once
+        id: commit
+        run: |
+          SHA=$(git ls-remote https://github.com/ryancolby-pixel/pmg-securelink-viewer.git refs/heads/main | cut -f1 || true)
+          if [[ "$SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+            echo "pmg-securelink-viewer main is $SHA"
+          else
+            echo "::warning title=Could not resolve pmg-securelink-viewer main::Each check resolves it itself; nothing is attested as verified if they differ."
+          fi
+
+      # First, before any downloaded code has run in this job.
+      - name: Check every FAA source of the sheet against its baseline
+        id: sources
+        env:
+          COMMIT: ${{ steps.commit.outputs.sha }}
         run: |
           set +e
-          python3 scripts/check-sheet-quotes.py --work "$RUNNER_TEMP/sheetcheck" | tee sheet-quotes-output.txt
+          python3 scripts/check-sheet-sources.py --work "$RUNNER_TEMP/sheetsources" ${COMMIT:+--commit "$COMMIT"} \
+            | tee sheet-sources-output.txt
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
-      - name: Note a run that could not check
-        if: steps.check.outputs.code == '2'
+      - name: Re-check every sheet quote on a fresh fetch and compare with the published data
+        id: quotes
+        env:
+          COMMIT: ${{ steps.commit.outputs.sha }}
         run: |
-          echo "::warning title=Could not re-check the sheet quotes::The check itself could not run (a download failed, an FAA source was unreachable or not readable prose, or the builder refused). Not a finding. See the log."
+          set +e
+          python3 scripts/check-sheet-quotes.py --work "$RUNNER_TEMP/sheetcheck" ${COMMIT:+--commit "$COMMIT"} \
+            | tee sheet-quotes-output.txt
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
 
-      - name: Quiet mode, record the finding in the run summary only
-        if: steps.check.outputs.code == '1' && env.QUIET == '1'
+      # What both checks say they read. They must name the same commit and the same data sha256.
+      - name: Record what was checked
+        id: checked
         run: |
-          {
-            echo "## AME request sheet quotes: finding (QUIET mode, no issue or email)"
-            echo
-            cat sheet-quote-report.md
-          } >> "$GITHUB_STEP_SUMMARY"
-          echo "::warning title=Sheet quote finding (quiet mode)::See the run summary. No issue or email while QUIET is 1."
+          S="$RUNNER_TEMP/sheetsources/checked.json"; Q="$RUNNER_TEMP/sheetcheck/checked.json"
+          SC=""; QC=""; SD=""; QD=""
+          [ -f "$S" ] && SC=$(jq -r '.commit // ""' "$S") && SD=$(jq -r '.dataSha // ""' "$S")
+          [ -f "$Q" ] && QC=$(jq -r '.commit // ""' "$Q") && QD=$(jq -r '.dataSha // ""' "$Q")
+          { echo "commit=${SC:-$QC}"; echo "data_sha=${SD:-$QD}"; } >> "$GITHUB_OUTPUT"
+          if [[ "$SC" =~ ^[0-9a-f]{40}$ ]] && [ "$SC" = "$QC" ] && [[ "$SD" =~ ^[0-9a-f]{64}$ ]] && [ "$SD" = "$QD" ]; then
+            echo "agree=true" >> "$GITHUB_OUTPUT"
+            echo "Both checks read commit $SC, data sha256 $SD"
+          else
+            echo "agree=false" >> "$GITHUB_OUTPUT"
+            echo "::warning title=The two sheet checks did not read the same data::sources: '$SC' '$SD'; quotes: '$QC' '$QD'. Nothing is attested as verified."
+          fi
 
-      # ONE EMAIL PER FINDING (Ryan 2026-10-05): file-finding.sh opens or updates one issue for the label and emails
-      # only when the finding is new or changed.
-      - name: File the finding
-        id: notify
-        if: steps.check.outputs.code == '1' && env.QUIET != '1'
+      - name: Note a check that could not run
+        if: steps.sources.outputs.code == '2' || steps.quotes.outputs.code == '2'
+        run: |
+          [ "${{ steps.sources.outputs.code }}" = 2 ] && echo "::warning title=Could not check the sheet's FAA sources::A source was unreachable or not readable prose after its retry, the time limit was reached, the pdfplumber versions differ from the baseline's, or the published data could not be read. Not a finding. See the log."
+          [ "${{ steps.quotes.outputs.code }}" = 2 ] && echo "::warning title=Could not re-check the sheet quotes::A download failed, an FAA source was unreachable or not readable prose, or the builder refused or timed out. Not a finding. See the log."
+          true
+
+      # Only the report files leave this job: the report job files and closes from its own fresh checkout.
+      - name: Hand the reports to the report job
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sheet-reports
+          path: |
+            sheet-source-report.md
+            sheet-quote-report.md
+          if-no-files-found: ignore
+          retention-days: 7
+
+  report:
+    needs: check
+    if: always() && needs.check.result != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    env:
+      CODE_Q: ${{ needs.check.outputs.code_q }}
+      CODE_S: ${{ needs.check.outputs.code_s }}
+    steps:
+      - name: Check out the scripts (fresh, not the check job's)
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Get the report files
+        if: env.CODE_S == '1' || env.CODE_Q == '1'
+        uses: actions/download-artifact@v4
+        with:
+          name: sheet-reports
+
+      - name: Quiet mode, record findings in the run summary only
+        if: (env.CODE_S == '1' || env.CODE_Q == '1') && env.QUIET == '1'
+        run: |
+          for f in sheet-source-report.md sheet-quote-report.md; do
+            [ -f "$f" ] && { echo "## $f (QUIET mode, no issue or email)"; echo; cat "$f"; echo; } >> "$GITHUB_STEP_SUMMARY"
+          done
+          echo "::warning title=Sheet finding (quiet mode)::See the run summary. No issue or email while QUIET is 1. The attestation is still revoked (ok false)."
+
+      # ONE EMAIL PER FINDING (Ryan 2026-10-05), one label per check.
+      - name: File the sources finding
+        id: notify_s
+        if: env.CODE_S == '1' && env.QUIET != '1'
         env:
           GH_TOKEN: ${{ github.token }}
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: |
-          ./scripts/file-finding.sh sheet-quote-changed b60205 "An AME request sheet quote failed its weekly FAA re-check" \
+          ./scripts/file-finding.sh sheet-source-changed b60205 "An FAA document the AME request sheet cites has changed" \
+            "An FAA document the AME request sheet cites has changed" sheet-source-report.md \
+            "PMG: an FAA document the AME request sheet cites has changed"
+
+      - name: File the quotes finding
+        id: notify_q
+        if: env.CODE_Q == '1' && env.QUIET != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          ./scripts/file-finding.sh sheet-quote-changed b60205 "An AME request sheet quote failed its FAA re-check" \
             "An AME request sheet quote no longer checks out against its FAA source" sheet-quote-report.md \
             "PMG: an AME request sheet quote no longer checks out against its FAA source"
 
-      # A finding that cleared closes its own issue, once. Only on a clean run (code 0).
-      - name: Close the issue when every sheet quote checks out again
-        if: steps.check.outputs.code == '0'
+      # A finding that cleared closes its own issue, once. Only on that check's clean run (code 0).
+      - name: Close each check's issue when it is clean again
+        if: env.CODE_S == '0' || env.CODE_Q == '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          EXISTING=$(gh issue list --state open --label sheet-quote-changed --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            gh issue close "$EXISTING" --comment "Every sheet quote is on its FAA source and the published data matches the rebuild as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+          close() {
+            EXISTING=$(gh issue list --state open --label "$1" --author 'github-actions[bot]' --json number --jq '.[0].number' || true)
+            if [ -n "$EXISTING" ]; then
+              gh issue close "$EXISTING" --comment "$2 as of $(date -u +%Y-%m-%dT%H:%MZ). Closing."
+            fi
+          }
+          [ "$CODE_S" = 0 ] && close sheet-source-changed "Every FAA source of the sheet reads as it did at the baseline"
+          [ "$CODE_Q" = 0 ] && close sheet-quote-changed "Every sheet quote is on its FAA source and the published data matches the rebuild"
+          true
+
+      # Red only for a broken instrument (including a check job that died before reporting) or an alert email that
+      # did not go out. Never for a finding.
+      - name: Fail only if an instrument is broken or an alert email did not go out
+        if: always() && (needs.check.result != 'success' || env.CODE_S == '2' || env.CODE_Q == '2' || steps.notify_s.outputs.mail_failed == 'true' || steps.notify_q.outputs.mail_failed == 'true')
+        run: |
+          echo "A check could not run, or a finding's alert email did not send. Red so GitHub notifies instead."
+          exit 1
+
+  attest:
+    needs: check
+    # Also after a red or timed-out check job: a finding must still take the quotes down.
+    if: always() && needs.check.result != 'cancelled'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      CODE_Q: ${{ needs.check.outputs.code_q }}
+      CODE_S: ${{ needs.check.outputs.code_s }}
+      COMMIT: ${{ needs.check.outputs.commit }}
+      DATA_SHA: ${{ needs.check.outputs.data_sha }}
+      AGREE: ${{ needs.check.outputs.agree }}
+    steps:
+      # Only this repo's decide script, at this run's commit: no downloaded code runs in this job.
+      - name: Check out the decide script
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+          sparse-checkout: scripts/sheet-attest-decide.py
+          sparse-checkout-cone-mode: false
+
+      - name: Decide what to attest
+        id: decide
+        run: |
+          python3 scripts/sheet-attest-decide.py --selftest
+          python3 scripts/sheet-attest-decide.py
+      - name: Warn about stacks that are not configured
+        if: steps.decide.outputs.write == 'true'
+        run: |
+          if [ -z "${{ vars.SHEET_ATTEST_ROLE_TEST }}" ] || [ -z "${{ vars.SHEET_TABLE_TEST }}" ]; then
+            echo "::warning title=TEST stack not attested::SHEET_ATTEST_ROLE_TEST or SHEET_TABLE_TEST is not set."
+          fi
+          if [ -z "${{ vars.SHEET_ATTEST_ROLE_PROD }}" ] || [ -z "${{ vars.SHEET_TABLE_PROD }}" ]; then
+            echo "::warning title=PROD stack not attested::SHEET_ATTEST_ROLE_PROD or SHEET_TABLE_PROD is not set."
           fi
 
-      # Red only for a broken instrument (after the quiet period) or an alert email that did not go out.
-      - name: Fail only if the instrument is broken or the alert email did not go out
-        if: (steps.check.outputs.code == '2' && env.QUIET != '1') || steps.notify.outputs.mail_failed == 'true'
+      - name: AWS credentials for the TEST stack
+        if: steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_TEST != '' && vars.SHEET_TABLE_TEST != ''
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.SHEET_ATTEST_ROLE_TEST }}
+          role-session-name: sheet-attest-test
+          aws-region: us-east-1
+
+      - name: Write the attestation to the TEST stack
+        if: steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_TEST != '' && vars.SHEET_TABLE_TEST != ''
+        env:
+          TABLE: ${{ vars.SHEET_TABLE_TEST }}
+          OK: ${{ steps.decide.outputs.ok }}
         run: |
-          echo "Either the check could not run, or a finding's alert email did not send. Red so GitHub notifies instead."
-          exit 1
+          RUN_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          ITEM=$(jq -nc --argjson ok "$OK" --arg at "$(date +%s%3N)" --arg sha "$DATA_SHA" --arg run "$RUN_URL" \
+            '{pk: {S: "ops#sheet-verified"}, ok: {BOOL: $ok}, verifiedAt: {N: $at}, dataSha: {S: $sha}, runUrl: {S: $run}}')
+          echo "$ITEM"
+          aws dynamodb put-item --region us-east-1 --table-name "$TABLE" --item "$ITEM"
+
+      # always(): a failed TEST write must not keep the PROD verdict (above all a revocation) from landing.
+      - name: AWS credentials for the PROD stack
+        if: always() && steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_PROD != '' && vars.SHEET_TABLE_PROD != ''
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.SHEET_ATTEST_ROLE_PROD }}
+          role-session-name: sheet-attest-prod
+          aws-region: us-east-1
+
+      - name: Write the attestation to the PROD stack
+        if: always() && steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_PROD != '' && vars.SHEET_TABLE_PROD != ''
+        env:
+          TABLE: ${{ vars.SHEET_TABLE_PROD }}
+          OK: ${{ steps.decide.outputs.ok }}
+        run: |
+          RUN_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          ITEM=$(jq -nc --argjson ok "$OK" --arg at "$(date +%s%3N)" --arg sha "$DATA_SHA" --arg run "$RUN_URL" \
+            '{pk: {S: "ops#sheet-verified"}, ok: {BOOL: $ok}, verifiedAt: {N: $at}, dataSha: {S: $sha}, runUrl: {S: $run}}')
+          echo "$ITEM"
+          aws dynamodb put-item --region us-east-1 --table-name "$TABLE" --item "$ITEM"

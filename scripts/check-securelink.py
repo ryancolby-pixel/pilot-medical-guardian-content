@@ -17,9 +17,16 @@ someone looking:
      published next to the page (sheet/index.html, sheet/sheet-data.json) and judged the same way: each live file's
      SHA-256 against its published copy. A live file whose published copy is missing (HTTP 404) is a finding too
      ("not published"), not a broken instrument.
+     2026-11-14: GET /sheet/sheet-links.json (the sheet's FAA links, no FAA words, served even while the quotes are
+     held back) is compared the same way when --published-sheet-links is given; while neither the live server nor
+     the published copy has it yet (both 404) it is noted, not a finding. The server now serves the FAA quotes
+     (/sheet/sheet-data.json) only while the twice daily sheet guard (check-sheet-quotes.yml) has attested them; until
+     then it answers 503 {"error":"rechecking"}. That is reported as "held back: not verified" (run summary, file
+     securelink-sheet-held-back), NOT a sheet-changed finding: the guard workflow already alerts on its cause.
 
 usage:
-  check-securelink.py --published <page> [--published-sheet <sheet page> --published-sheet-data <sheet data>]
+  check-securelink.py --published <page> [--published-sheet <sheet page> --published-sheet-data <sheet data>
+                                           [--published-sheet-links <sheet links>]]
       each a path or https URL of the published copy; base URL from $SECURELINK_BASE_URL. Without the two sheet
       options the sheet is not checked.
   check-securelink.py --selftest
@@ -48,8 +55,10 @@ UA = "pmg-ops-check/1.0 (+https://pilotmedicalguardian.com)"
 VIEWER_REPORT = "securelink-viewer-report.md"
 SHEET_REPORT = "securelink-sheet-report.md"
 SHEET_UNCHECKED = "securelink-sheet-unchecked"
+SHEET_HELD_BACK = "securelink-sheet-held-back"
 CLEANUP_REPORT = "securelink-cleanup-report.md"
-SHEET_PATHS = ("/sheet", "/sheet/sheet-data.json")
+SHEET_PATHS = ("/sheet", "/sheet/sheet-data.json", "/sheet/sheet-links.json")
+DATA_PATH, LINKS_PATH = SHEET_PATHS[1], SHEET_PATHS[2]
 
 
 class InstrumentError(Exception):
@@ -103,17 +112,33 @@ def judge_viewer(live_status, live_body, published_body):
     return None
 
 
+def held_back(path, live_status, live_body):
+    """The server withholding the FAA quotes until the sheet guard attests them: 503 {"error": "rechecking"}."""
+    if path != DATA_PATH or live_status != 503:
+        return False
+    try:
+        return json.loads(live_body).get("error") == "rechecking"
+    except (ValueError, AttributeError):
+        return False
+
+
 def judge_sheet(files):
-    """A list of finding lines (empty = fine). files: (path, live status, live body, published body or None)."""
-    out = []
+    """(finding lines, notes); no findings = fine. files: (path, live status, live body, published body or None).
+    Notes are not findings: the quotes held back while not verified, or the links file on neither side yet."""
+    out, notes = [], []
     for path, live_status, live_body, published_body in files:
-        if live_status != 200:
+        if held_back(path, live_status, live_body):
+            notes.append(f"held back: not verified. {path} answered 503 rechecking, so the sheet shows no FAA quotes "
+                         "right now. The sheet guard workflow (check-sheet-quotes.yml) alerts on the cause.")
+        elif path == LINKS_PATH and live_status == 404 and published_body is None:
+            notes.append(f"{path} is not on the server or in the published copy yet (deploy pending).")
+        elif live_status != 200:
             out.append(f"The request sheet's {path} did not load (HTTP {live_status}).")
         elif published_body is None:
             out.append(f"The request sheet's {path} is live but not published.")
         elif sha(live_body) != sha(published_body):
             out.append(f"The request sheet's {path} does not match the published copy.")
-    return out
+    return out, notes
 
 
 def judge_cleanup(health, now_ms):
@@ -160,7 +185,7 @@ def run(base, published_src, sheet_srcs=None):
             sheet_error = str(e)
 
     found = False
-    for p in (VIEWER_REPORT, SHEET_REPORT, SHEET_UNCHECKED, CLEANUP_REPORT):
+    for p in (VIEWER_REPORT, SHEET_REPORT, SHEET_UNCHECKED, SHEET_HELD_BACK, CLEANUP_REPORT):
         if os.path.exists(p):
             os.remove(p)
 
@@ -184,13 +209,15 @@ def run(base, published_src, sheet_srcs=None):
     elif sheet_files is None:
         print("sheet: not checked (no --published-sheet given)")
     else:
-        s = judge_sheet(sheet_files)
+        s, notes = judge_sheet(sheet_files)
         details = []
         for path, st, body, pub in sheet_files:
             pub_txt = "not published" if pub is None else f"published {sha(pub)[:16]} ({len(pub)} bytes)"
             ok = st == 200 and pub is not None and sha(body) == sha(pub)
-            print(f"sheet {path}: live HTTP {st} {sha(body)[:16]} ({len(body)} bytes), {pub_txt}: "
-                  f"{'match' if ok else ('NOT PUBLISHED' if st == 200 and pub is None else 'MISMATCH')}")
+            verdict = ("match" if ok else "HELD BACK (not verified)" if held_back(path, st, body) else
+                       "not deployed yet" if path == LINKS_PATH and st == 404 and pub is None else
+                       "NOT PUBLISHED" if st == 200 and pub is None else "MISMATCH")
+            print(f"sheet {path}: live HTTP {st} {sha(body)[:16]} ({len(body)} bytes), {pub_txt}: {verdict}")
             pub_line = "not published (no copy at the published address)" if pub is None else \
                 f"{len(pub)} bytes, SHA-256 `{sha(pub)}`"
             details.append(f"- `{path}`: live HTTP {st}, {len(body)} bytes, SHA-256 `{sha(body)}`; published: {pub_line}\n")
@@ -204,6 +231,12 @@ def run(base, published_src, sheet_srcs=None):
                         "- If the change was ours (a sheet or data update deployed before it was published), publish the new "
                         "build with SecureLink/server/tools/export-viewer.mjs. If it was not ours, treat it as a security "
                         "incident and find out who changed the sheet.\n")
+        if notes:
+            for n in notes:
+                print(f"sheet note: {n}")
+            if any(n.startswith("held back") for n in notes):
+                with open(SHEET_HELD_BACK, "w") as f:
+                    f.write("\n".join(n for n in notes if n.startswith("held back")) + "\n")
 
     c = judge_cleanup(health, now_ms)
     print(f"cleanup: last ok {stamp(health.get('cleanupOkAt'))}, last late {stamp(health.get('cleanupLateAt'))}, "
@@ -233,12 +266,28 @@ def selftest():
     assert judge_viewer(200, page + b" ", page) is not None, "one changed byte must be a finding"
     assert judge_viewer(500, b"", page) is not None, "a page that does not load must be a finding"
     data = b'{"conditions":[]}'
-    good = [("/sheet", 200, page, page), ("/sheet/sheet-data.json", 200, data, data)]
-    assert judge_sheet(good) == []
-    assert len(judge_sheet([("/sheet", 200, page + b" ", page), good[1]])) == 1, "one changed byte in the sheet page"
-    assert len(judge_sheet([good[0], ("/sheet/sheet-data.json", 200, data + b" ", data)])) == 1, "one changed byte in the data"
-    assert len(judge_sheet([("/sheet", 404, b"", page), good[1]])) == 1, "a sheet that does not load must be a finding"
-    assert len(judge_sheet([good[0], ("/sheet/sheet-data.json", 200, data, None)])) == 1, "live but not published is a finding"
+    links = b'{"note":"n","conditions":[]}'
+    good = [("/sheet", 200, page, page), ("/sheet/sheet-data.json", 200, data, data),
+            ("/sheet/sheet-links.json", 200, links, links)]
+    F = lambda files: judge_sheet(files)[0]
+    assert judge_sheet(good) == ([], [])
+    assert len(F([("/sheet", 200, page + b" ", page), *good[1:]])) == 1, "one changed byte in the sheet page"
+    assert len(F([good[0], ("/sheet/sheet-data.json", 200, data + b" ", data), good[2]])) == 1, "one changed byte in the data"
+    assert len(F([*good[:2], ("/sheet/sheet-links.json", 200, links + b" ", links)])) == 1, "one changed byte in the links"
+    assert len(F([("/sheet", 404, b"", page), *good[1:]])) == 1, "a sheet that does not load must be a finding"
+    assert len(F([good[0], ("/sheet/sheet-data.json", 200, data, None), good[2]])) == 1, "live but not published is a finding"
+    # Held back while not verified: a note, never a finding. Any other 503 or body is still a finding.
+    rechecking = b'{"error":"rechecking"}'
+    f, n = judge_sheet([good[0], ("/sheet/sheet-data.json", 503, rechecking, data), good[2]])
+    assert f == [] and len(n) == 1 and n[0].startswith("held back: not verified"), "rechecking is held back, not a finding"
+    assert len(F([good[0], ("/sheet/sheet-data.json", 503, b'{"error":"down"}', data), good[2]])) == 1, "another 503"
+    assert len(F([good[0], ("/sheet/sheet-data.json", 503, b"<html>", data), good[2]])) == 1, "a 503 page"
+    assert len(F([good[0], ("/sheet/sheet-links.json", 503, rechecking, links)])) == 1, "only the data may be held back"
+    # The links file before it is deployed or published: a note. Live but not published, or published but gone: findings.
+    f, n = judge_sheet([*good[:2], ("/sheet/sheet-links.json", 404, b"", None)])
+    assert f == [] and len(n) == 1, "links on neither side yet is a note"
+    assert len(F([*good[:2], ("/sheet/sheet-links.json", 404, b"", links)])) == 1, "published links that do not load"
+    assert len(F([*good[:2], ("/sheet/sheet-links.json", 200, links, None)])) == 1, "live links not published"
     missing = os.path.join(os.path.dirname(os.path.abspath(__file__)), "no-such-published-copy")
     assert read_published(missing, missing_ok=True) is None, "a sheet copy never published is judged, not an error"
     try:
@@ -265,7 +314,8 @@ def selftest():
         def f(url):
             if url.endswith("/sheet/sheet-data.json"):
                 raise InstrumentError("could not reach /sheet/sheet-data.json: TimeoutError")
-            return 200, {"/r": page + b" " if tampered else page, "/v1/health": health, "/sheet": page}[urllib.parse.urlsplit(url).path]
+            return {"/r": (200, page + b" " if tampered else page), "/v1/health": (200, health), "/sheet": (200, page),
+                    "/sheet/sheet-links.json": (200, page)}[urllib.parse.urlsplit(url).path]
         return f
     try:
         # Silent: a stubbed "MISMATCH" line in the Actions log must never read as a real finding.
@@ -280,6 +330,12 @@ def selftest():
             globals()["fetch"] = stub(False)
             assert run("https://x.test", "viewer.html", ("index.html", "sheet-data.json")) == 2, "no finding plus an unchecked sheet is exit 2"
             assert not os.path.exists(VIEWER_REPORT), "a stale report from the run before is removed"
+            # The quotes held back: the run is clean, the note is written for the summary, no sheet report.
+            globals()["fetch"] = lambda url: {"/sheet/sheet-data.json": (503, b'{"error":"rechecking"}')}.get(
+                urllib.parse.urlsplit(url).path) or stub(False)(url)
+            assert run("https://x.test", "viewer.html", ("index.html", "sheet-data.json", "index.html")) == 0, \
+                "held back is not a finding"
+            assert os.path.exists(SHEET_HELD_BACK) and not os.path.exists(SHEET_REPORT), "held back noted, not filed"
     finally:
         globals()["fetch"] = real_fetch
         os.chdir(cwd)
@@ -299,6 +355,11 @@ def main(argv):
     if any(sheet_srcs) and not all(sheet_srcs):
         print("give both --published-sheet and --published-sheet-data, or neither")
         return 2
+    if opt("--published-sheet-links"):
+        if not all(sheet_srcs):
+            print("--published-sheet-links needs --published-sheet and --published-sheet-data")
+            return 2
+        sheet_srcs += (opt("--published-sheet-links"),)
     base = os.environ.get("SECURELINK_BASE_URL", "").strip()
     if not base:
         print("SECURELINK_BASE_URL is not set: nothing to check.")
