@@ -14,7 +14,8 @@ name: Guard the AME request sheet's FAA quotes
 #      age limit takes over (about three missed runs in a row before the sheet says "rechecking"). The decision is
 #      scripts/sheet-attest-decide.py, selftested before it decides.
 #
-# SHIPS QUIET (QUIET "1", 2026-11-14). Ryan's rule: never tune a new gate in his inbox. The sources baseline was taken
+# ARMED 2026-11-14 (QUIET "0"): Ryan's rule "Nothing can ever be wrong with that data. EVER." and the first runner run
+# (43637332120) was clean on both checks. Before that it shipped QUIET. Ryan's rule: never tune a new gate in his inbox. The sources baseline was taken
 # from Ryan's Mac and neither check has a clean scheduled run from a runner yet. While QUIET is "1" a finding goes to
 # the run summary and a warning only: no issue, no email. A finding STILL writes ok false (the attest job ignores
 # QUIET), so the quotes come down silently; watch the run summaries. To arm: run workflow_dispatch, confirm both
@@ -74,7 +75,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  QUIET: "1"
+  QUIET: "0"
 
 jobs:
   check:
