@@ -92,7 +92,7 @@ jobs:
       agree: ${{ steps.checked.outputs.agree }}
     steps:
       - name: Check out the scripts
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           persist-credentials: false
 
@@ -100,7 +100,7 @@ jobs:
       # sources baseline was taken with (its "instrument" record): the PDF fingerprints are exact hashes of their
       # output, so an extractor release could "change" every PDF at once. Other versions: exit 2, never a finding.
       # To upgrade: change both pins, run workflow_dispatch, read the sources, re-baseline, commit.
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
 
@@ -173,7 +173,7 @@ jobs:
       # Only the report files leave this job: the report job files and closes from its own fresh checkout.
       - name: Hand the reports to the report job
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: sheet-reports
           path: |
@@ -195,13 +195,13 @@ jobs:
       CODE_S: ${{ needs.check.outputs.code_s }}
     steps:
       - name: Check out the scripts (fresh, not the check job's)
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           persist-credentials: false
 
       - name: Get the report files
         if: env.CODE_S == '1' || env.CODE_Q == '1'
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
           name: sheet-reports
 
@@ -281,7 +281,7 @@ jobs:
     steps:
       # Only this repo's decide script, at this run's commit: no downloaded code runs in this job.
       - name: Check out the decide script
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           persist-credentials: false
           sparse-checkout: scripts/sheet-attest-decide.py
@@ -304,7 +304,7 @@ jobs:
 
       - name: AWS credentials for the TEST stack
         if: steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_TEST != '' && vars.SHEET_TABLE_TEST != ''
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
         with:
           role-to-assume: ${{ vars.SHEET_ATTEST_ROLE_TEST }}
           role-session-name: sheet-attest-test
@@ -325,7 +325,7 @@ jobs:
       # always(): a failed TEST write must not keep the PROD verdict (above all a revocation) from landing.
       - name: AWS credentials for the PROD stack
         if: always() && steps.decide.outputs.write == 'true' && vars.SHEET_ATTEST_ROLE_PROD != '' && vars.SHEET_TABLE_PROD != ''
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4.3.1
         with:
           role-to-assume: ${{ vars.SHEET_ATTEST_ROLE_PROD }}
           role-session-name: sheet-attest-prod

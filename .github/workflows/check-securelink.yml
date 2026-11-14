@@ -8,10 +8,10 @@ name: Check secure link server
 #      A 503 {"error":"rechecking"} on the data file is "held back: not verified", noted in the summary, not a finding.
 # It DETECTS a changed page; it cannot prevent one.
 #
-# 🔇 SHIPS QUIET (2026-11-11). Ryan's rule: never tune a new gate in his inbox. While QUIET is "1" a finding goes to
-# the run summary and a warning only: no issue, no email, and an unreachable server is a warning too. After a week of
-# clean scheduled runs, set QUIET to "0": then a finding files ONE issue and ONE email (scripts/file-finding.sh) and
-# stays quiet while unchanged, and a broken instrument turns the run red.
+# 🔔 ARMED (2026-11-14). It shipped quiet on 2026-11-11 (Ryan's rule: never tune a new gate in his inbox) and has had
+# clean scheduled runs since 11/12; Ryan wants tamper alerts in email, so QUIET is now "0". A finding files ONE issue
+# and ONE email (scripts/file-finding.sh) and stays quiet while unchanged, and a broken instrument (unreachable server)
+# turns the run red. Set QUIET back to "1" to send findings to the run summary and a warning only.
 #
 # The server address is the SECURELINK_BASE_URL secret, never committed: until 3.0 ships it is the AWS TEST stack, and
 # this repo is public. A missing secret is a warning, not a finding.
@@ -28,7 +28,7 @@ permissions:
   issues: write
 
 env:
-  QUIET: "1"
+  QUIET: "0"
   # The published copy of the page (written by SecureLink/server/tools/export-viewer.mjs in the app repo).
   PUBLISHED_VIEWER: https://raw.githubusercontent.com/ryancolby-pixel/pmg-securelink-viewer/main/viewer.html
   # The published copy of the request sheet, written by the same exporter.
