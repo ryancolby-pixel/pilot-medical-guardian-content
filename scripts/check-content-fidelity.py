@@ -360,6 +360,33 @@ def own_link_urls(entry: dict) -> list[str]:
             out.append(u)
     return out
 
+def cited_source_urls(v1: Path = V1) -> list[str]:
+    """Every document the content cites, first-seen order: each entry's `envelope.sourceURL` and its own
+    `links[]` (host-bounded by own_link_urls), across every v1 file. main() builds its tier-3 corpus from this,
+    and scripts/archive-faa-sources.py archives the same list, so the two cannot drift apart."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for p in sorted(v1.glob("*.json")):
+        if p.name == "manifest.json":
+            continue
+        try:
+            data = json.loads(p.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(data, list):
+            continue
+        for e in data:
+            # A document an entry cites through its own `links[]` is cited by this project too,
+            # so it belongs in the tier-3 corpus. Added 2026-10-05 when 45 medication entries moved
+            # their single `sourceURL` to the FAA MedGuide and kept older FAA wording, recorded in
+            # `links[]`; without this, a sibling quoting the same older document lost its match.
+            for u in [(e.get("envelope") or {}).get("sourceURL")] + own_link_urls(e):
+                if u and u not in seen:
+                    seen.add(u)
+                    out.append(u)
+    return out
+
+
 # Extracted text, memoized per process. The disk cache saves the DOWNLOAD; this saves the
 # pdfplumber EXTRACTION, which is the slow half and which tier 3 would otherwise repeat
 # across every entry that reaches it.
@@ -658,26 +685,7 @@ def main() -> int:
     # CHECKED; it must not change the VERDICT on what is checked. Building this from the
     # scoped set would make `--file medications.json` fail spans that a full run passes,
     # which is the shape of bug that makes a checker untrustworthy rather than merely wrong.
-    all_source_urls: list[str] = []
-    _seen_urls: set[str] = set()
-    for p in sorted(V1.glob("*.json")):
-        if p.name == "manifest.json":
-            continue
-        try:
-            data = json.loads(p.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-        if not isinstance(data, list):
-            continue
-        for e in data:
-            # A document an entry cites through its own `links[]` is cited by this project too,
-            # so it belongs in the tier-3 corpus. Added 2026-10-05 when 45 medication entries moved
-            # their single `sourceURL` to the FAA MedGuide and kept older FAA wording, recorded in
-            # `links[]`; without this, a sibling quoting the same older document lost its match.
-            for u in [(e.get("envelope") or {}).get("sourceURL")] + own_link_urls(e):
-                if u and u not in _seen_urls:
-                    _seen_urls.add(u)
-                    all_source_urls.append(u)
+    all_source_urls = cited_source_urls()
 
     # 📄 LINK-ONLY FILES (2026-10-13). A record here is the FAA's own title, date and link and
     # nothing else: the app shows those three and the pilot reads the FAA's document. It makes no

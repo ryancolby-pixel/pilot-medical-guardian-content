@@ -1,0 +1,117 @@
+name: Archive FAA sources
+
+# Daily dated archive of every FAA document the app and the AME request sheet quote (2026-11-14).
+# scripts/archive-faa-sources.py: the sheet's sources (published sheet-data.json at one pmg-securelink-viewer commit)
+# plus every source check-content-fidelity.py reads, faa.gov / ecfr.gov / medxpress.faa.gov only, downloaded with the
+# fidelity check's own downloader. A new version of a document is stored in S3 under
+# faa/<host>/<path>/<YYYY-MM-DD>_<sha256 first 16>.<pdf|html|json>; an unchanged one is not uploaded again.
+#
+# NO CREDENTIALS WHILE FETCHING. Two jobs. The fetch job (FAA downloads, the sheet data from another repo) has
+# contents: read only, so it cannot mint a GitHub OIDC token and never sees AWS credentials. It hands plan.json and the
+# downloaded files to the upload job as an artifact. Only the upload job has id-token: write; it checks out this repo
+# fresh, configures credentials, and only reads the plan and those files; it runs no downloaded code. Same pattern as
+# check-sheet-quotes.yml (id-token only on its attest job).
+#
+# COLOURS. A failed upload or listing is red. A source that could not be fetched, or came back as a block or error
+# page, is a warning and is tried again the next day; it never turns the run red. Discovery failing (exit 2) is red.
+#
+# AWS: GitHub OIDC. Repo variables FAA_ARCHIVE_ROLE (role trusted for this repo's main branch, allowed
+# s3:ListBucket on the bucket with prefix faa/ and s3:PutObject on faa/*) and FAA_ARCHIVE_BUCKET. Unset: the run is
+# skipped with a warning.
+#
+# CRON 16:20 UTC, away from the sheet guard's 13:10 / 01:10 fetches.
+
+on:
+  schedule:
+    - cron: "20 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: faa-archive
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: read
+    outputs:
+      ok: ${{ steps.config.outputs.ok }}
+    steps:
+      - name: Check configuration
+        id: config
+        run: |
+          if [ -z "${{ vars.FAA_ARCHIVE_ROLE }}" ] || [ -z "${{ vars.FAA_ARCHIVE_BUCKET }}" ]; then
+            echo "::warning title=FAA archive skipped::FAA_ARCHIVE_ROLE or FAA_ARCHIVE_BUCKET is not set."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out
+        if: steps.config.outputs.ok == 'true'
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        if: steps.config.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Selftest
+        if: steps.config.outputs.ok == 'true'
+        run: python3 scripts/archive-faa-sources.py --selftest
+
+      - name: Fetch (no AWS credentials, no OIDC token in this job)
+        if: steps.config.outputs.ok == 'true'
+        run: python3 scripts/archive-faa-sources.py --fetch "$RUNNER_TEMP/faa-archive"
+
+      - name: Hand the plan and files to the upload job
+        if: steps.config.outputs.ok == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: faa-archive
+          path: ${{ runner.temp }}/faa-archive
+          if-no-files-found: error
+          retention-days: 3
+
+  upload:
+    needs: fetch
+    if: needs.fetch.outputs.ok == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Check out the script (fresh, not the fetch job's)
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Get the plan and files
+        uses: actions/download-artifact@v4
+        with:
+          name: faa-archive
+          path: ${{ runner.temp }}/faa-archive
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.FAA_ARCHIVE_ROLE }}
+          role-session-name: faa-archive
+          aws-region: us-east-1
+
+      - name: Upload new versions
+        env:
+          FAA_ARCHIVE_BUCKET: ${{ vars.FAA_ARCHIVE_BUCKET }}
+        run: python3 scripts/archive-faa-sources.py --upload "$RUNNER_TEMP/faa-archive"
