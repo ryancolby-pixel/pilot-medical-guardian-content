@@ -1,6 +1,7 @@
 {
-  "contentVersion": "2026-11-11.2",
-  "generatedAt": "2026-11-11T16:39:39Z",
+  "contentVersion": "2026-11-14.1",
+  "generatedAt": "2026-11-14T17:20:05Z",
+  "windowsSetupLive": true,
   "files": [
     {
       "filename": "ame_directory.json",
