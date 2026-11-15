@@ -77,6 +77,18 @@ jobs:
       # CNAME and .nojekyll MUST be copied across: CNAME holds the custom domain
       # pilotmedicalguardian.com, and without .nojekyll GitHub would run Jekyll over
       # the site. Losing either one breaks the published site.
+      # FREE FAA LOOKUP PAGES (live 2026-11-15): faa-medications/, faa-conditions/,
+      # aviation-medical-examiners/, the homepage lookup section and the sitemap block are
+      # GENERATED from v1/ and never edited by hand. Rebuilding here means a data fix reaches
+      # every page in the same deploy, and pages more than 120 days past their last check
+      # get the "Re-check pending" line. The --check step then BLOCKS the deploy if any
+      # medication page's FAA text differs from the JSON. Stdlib only, no installs.
+      - name: Rebuild the FAA lookup pages from v1/
+        run: python3 scripts/gen_faa_pages.py
+
+      - name: Check every medication page matches the data (blocks the deploy)
+        run: python3 scripts/gen_faa_pages.py --check
+
       - name: Stage the site
         run: |
           mkdir -p _site
