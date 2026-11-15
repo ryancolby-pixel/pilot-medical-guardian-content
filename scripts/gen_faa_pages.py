@@ -60,6 +60,12 @@ def iso_nice(iso):
     y, m, d = iso[:10].split("-"); return nice_date(y, m, d)
 def iso_short(iso):
     y, m, d = iso[:10].split("-"); return short_date(y, m, d)
+def checked_stamp(items, what):
+    ds = sorted(x["envelope"]["lastVerified"][:10] for x in items)
+    lo, hi = ds[0], ds[-1]
+    rng = iso_nice(lo) if lo == hi else f"{iso_nice(lo)} and {iso_nice(hi)}"
+    word = "on" if lo == hi else "between"
+    return f'<p class="src-meta">I checked every {what} against the FAA source {word} {rng}. Each {what} shows its own dates.</p>'
 def cap1(s): return s[:1].upper() + s[1:]
 def sort_key(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -341,7 +347,7 @@ def med_index():
             "and its date. Free, no account. Information, not advice.")
     body = tool_band(filter_bar("dl", "dl-none", "Filter medications by brand or generic name", "Filter by brand or generic name", len(MEDS), "medications"))
     body += "\n" + head_block(crumb_html, "FAA medication lookup",
-                              "Every entry shows the FAA reference text the app uses, the FAA document it cites, and its date when the FAA gives one. Information, not advice: your AME decides.")
+                              "Every entry shows the FAA reference text the app uses, the FAA document it cites, and its date when the FAA gives one. Information, not advice: your AME decides.", checked_stamp(MEDS, "entry"))
     body += f"""
   <main class="v2-main" id="main">
     <div class="wrap wide">
@@ -395,7 +401,7 @@ def cond_index():
             "to the FAA document, with its exam item number and the FAA's date where the FAA gives one. Free, no account.")
     body = tool_band(filter_bar("cl", "cl-none", "Filter FAA conditions by name or exam item", "Filter by condition or exam item", len(DISPO) + len(SI), "entries"))
     body += "\n" + head_block(crumb_html, "FAA conditions, A to Z",
-                              "The FAA's own disposition tables from the Guide for Aviation Medical Examiners, plus the Special Issuance conditions the app tracks. Every row opens the FAA document itself. I link, I don't paraphrase.")
+                              "The FAA's own disposition tables from the Guide for Aviation Medical Examiners, plus the Special Issuance conditions the app tracks. Every row opens the FAA document itself. I link, I don't paraphrase.", checked_stamp(DISPO + SI, "row"))
     body += f"""
   <main class="v2-main" id="main">
     <div class="wrap wide">
