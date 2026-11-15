@@ -244,7 +244,8 @@
           <div class="step step-key">
             <div class="step-num">4</div>
             <div class="step-body">
-              <h4>Allow it on medxpress.faa.gov: the step most people miss</h4>
+              <h4>Choose &ldquo;Always Allow&rdquo; on medxpress.faa.gov: the step most people miss</h4>
+              <p><strong>Safari&rsquo;s big blue button is &ldquo;Allow for One Day.&rdquo; Don&rsquo;t tap it.</strong> It expires and the autofill quietly stops. Tap <strong>Always Allow</strong>.</p>
               <p><strong>This is the step that silently breaks everything.</strong> The extension can look switched on but do nothing until you allow it on the FAA site. On a new setup the reliable way is <strong>right on the page</strong>:</p>
               <p>1. Open <strong>medxpress.faa.gov</strong> in Safari.<br>2. Open Safari's extensions menu. On <strong>iPhone</strong> it's the button at the <strong>left end</strong> of the address bar. On <strong>iPad</strong> it's the <strong>puzzle piece</strong> at the <strong>right end</strong> of the address bar.<br>3. Tap <strong>Pilot Medical Guardian Autofill</strong>, then <strong>Always Allow</strong>.</p>
               <div class="shot-pair">
@@ -275,8 +276,8 @@
       <div class="step">
         <div class="step-num">5</div>
         <div class="step-body">
-          <h4>Enter your records in the app, then open it once</h4>
-          <p>The extension fills from a private snapshot of your data that the app saves on your device, so your application details, medications, visits and Item 18 answers need to be in Pilot Medical Guardian. <strong>Important: after you switch the extension on, open the app once</strong> so it writes that snapshot. Otherwise you'll see an &ldquo;Open Pilot Medical Guardian first&rdquo; message and nothing fills.</p>
+          <h4>Enter your records in the app</h4>
+          <p>The extension fills from a private snapshot of your data that the app saves on your device, so your application details, medications, visits and Item 18 answers need to be in Pilot Medical Guardian. The app saves that snapshot each time you open it or leave it.</p>
         </div>
       </div>
       <div class="step">
@@ -317,7 +318,7 @@
           <div class="step step-key">
             <div class="step-num">3</div>
             <div class="step-body">
-              <h4>Allow it on medxpress.faa.gov: the step most people miss</h4>
+              <h4>Choose &ldquo;Always Allow on This Website&rdquo; for medxpress.faa.gov: the step most people miss</h4>
               <p><strong>This is the step that silently breaks everything.</strong> The extension can look switched on but do nothing until you allow it on the FAA site.</p>
               <p>Safari asks the first time you open <strong>medxpress.faa.gov</strong> with the extension switched on. It offers two buttons, and the one that looks like the obvious choice is the wrong one.</p>
               <div class="permbox" role="img" aria-label="Safari's permission sheet: choose Always Allow on This Website, not the blue Allow for One Day, which expires">
@@ -466,6 +467,11 @@
       <p>This is almost always the per-site permission. On <strong>medxpress.faa.gov</strong>, open Safari's extensions menu (the left-end button on iPhone, the puzzle piece on iPad) &rarr; <strong>Pilot Medical Guardian Autofill</strong>, and make sure it's set to <strong>Always Allow</strong>, not &ldquo;Allow for One Day&rdquo; (which expires) or &ldquo;Ask.&rdquo; On &ldquo;Ask,&rdquo; the extension looks enabled but never runs on the form. On a Mac, set it to Allow under <code>Safari &rarr; Settings &rarr; Extensions</code> &rarr; Edit Websites&hellip;</p>
     </details>
     <details>
+      <summary>It worked before, and now nothing happens</summary>
+      <p>Safari is probably asking for permission on medxpress.faa.gov again, for example after a one-day permission ran out. On the MedXPress page, open Safari's extensions menu (the left-end button on iPhone, the puzzle piece on iPad), tap <strong>Pilot Medical Guardian Autofill</strong>, and choose <strong>Always Allow</strong>. To reopen the setup steps in the app: <strong>MedXPress Prep</strong>, then <strong>Autofill setup and help</strong>.</p>
+      <p>On a Mac: in Safari choose <code>Safari &rarr; Settings &rarr; Extensions</code>, select Pilot Medical Guardian Autofill, click <strong>Edit Websites&hellip;</strong>, and set medxpress.faa.gov to <strong>Allow</strong>.</p>
+    </details>
+    <details>
       <summary>medxpress.faa.gov isn't in the permission list in Settings</summary>
       <p>That's normal on a new setup. A site only appears there after the extension has run on it once. Do it on the page instead: open medxpress.faa.gov, open Safari's extensions menu, tap Pilot Medical Guardian Autofill, and choose Always Allow.</p>
     </details>
@@ -482,8 +488,13 @@
       <p>It shows on the <strong>General, Demographics, Prior Certification, Medication, Medical History, and Medical Visits</strong> pages (Items 1 to 19), not on the welcome or declarations pages.</p>
     </details>
     <details>
-      <summary>It says &ldquo;Open Pilot Medical Guardian first&rdquo;</summary>
+      <summary>It says &ldquo;Open Pilot Medical Guardian first&rdquo; or &ldquo;Load your records first&rdquo;</summary>
       <p>Open the app once after you enable the extension. It saves a fresh, private snapshot of your data on your device that the extension reads. That snapshot has to exist before it can fill anything.</p>
+      <p>On a Windows PC (Chrome or Edge) there is no app to open. Click the extension's icon in the browser toolbar (it may be under the puzzle piece), sign in with your Apple Account or open your file, then click Fill on MedXPress again.</p>
+    </details>
+    <details>
+      <summary>Chrome or Edge: saving my confirmation number</summary>
+      <p>On a computer the extension can't save into the app. Copy or write down the confirmation number from MedXPress's last page, then add it in Pilot Medical Guardian on your iPhone, iPad, or Mac: <strong>MedXPress Prep</strong>, then <strong>Add your confirmation number</strong> (or <strong>Edit or clear</strong>, if an older number is there). Your AME needs it to open your application.</p>
     </details>
     <details>
       <summary>MedXPress keeps logging me out</summary>
