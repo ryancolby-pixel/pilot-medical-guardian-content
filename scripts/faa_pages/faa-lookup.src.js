@@ -195,3 +195,15 @@
   [].forEach.call(document.querySelectorAll('table.ame-t'), Table);
   [].forEach.call(document.querySelectorAll('[data-copy]'), Copy);
 })();
+
+/* Sticky A to Z bar on phones: sit exactly under the sticky lookup band, whatever its real height. */
+(function () {
+  var band = document.querySelector(".tool-band"), az = document.querySelector(".az");
+  if (!band || !az) return;
+  function place() {
+    var top = (parseFloat(getComputedStyle(band).top) || 0) + band.offsetHeight;
+    document.documentElement.style.setProperty("--v-az-top", top + "px");
+  }
+  place();
+  window.addEventListener("resize", place);
+})();

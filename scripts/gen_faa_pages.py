@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261114b"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261115a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""
