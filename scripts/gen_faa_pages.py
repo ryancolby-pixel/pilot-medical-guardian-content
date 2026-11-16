@@ -313,8 +313,9 @@ def med_page(m):
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "MedicalWebPage", "name": title, "description": desc,
         "url": f"{SITE}/faa-medications/{slug}.html", "lastReviewed": env["lastVerified"][:10],
-        "about": {"@type": "Drug", "name": g, **({"alternateName": brands} if brands else {}),
-                  "drugClass": {"@type": "DrugClass", "name": m["category"]}},
+        # Substance, not Drug: schema.org Drug is a Product subtype, so Google read every page as a
+        # Product snippet missing offers/review/aggregateRating (Rich Results Test 2026-11-16). We sell nothing here.
+        "about": {"@type": "Substance", "name": g, **({"alternateName": brands} if brands else {})},
         "citation": [{"@type": "CreativeWork", "name": t, "url": env["sourceURL"]} for t, _ in parts],
         "publisher": {"@type": "Organization", "name": "Pilot Medical Guardian", "url": SITE + "/"},
     }]}
