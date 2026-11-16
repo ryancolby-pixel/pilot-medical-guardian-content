@@ -506,7 +506,7 @@ def ame_state(st):
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc,
         "url": f"{SITE}/aviation-medical-examiners/{state_slug(st)}.html",
-        "isBasedOn": {"@type": "Dataset", "name": "FAA Designee Locator", "url": LOCATOR}, "numberOfItems": n}]}
+        "isBasedOn": {"@type": "WebPage", "name": "FAA Designee Locator", "url": LOCATOR}, "numberOfItems": n}]}
     return page(f"/aviation-medical-examiners/{state_slug(st)}.html", title, desc, body, ld, "seo-ame", "ame", AMES[0]["envelope"]["lastVerified"][:10])
 
 def ame_index():
@@ -534,7 +534,7 @@ def ame_index():
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc, "url": SITE + "/aviation-medical-examiners/",
-        "isBasedOn": {"@type": "Dataset", "name": "FAA Designee Locator", "url": LOCATOR}, "numberOfItems": total}]}
+        "isBasedOn": {"@type": "WebPage", "name": "FAA Designee Locator", "url": LOCATOR}, "numberOfItems": total}]}
     return page("/aviation-medical-examiners/index.html", title, desc, body, ld, "seo-ame", "ame", AMES[0]["envelope"]["lastVerified"][:10]), total, hims
 
 # ---------------------------------------------------------------- lookup index + JS
