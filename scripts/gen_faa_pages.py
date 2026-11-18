@@ -343,11 +343,11 @@ def med_index():
                         f'<span class="d-r">{e(m["category"])}</span></a></li>')
         secs.append(f'<section class="dg" data-group id="l-{"num" if L == "#" else L}"><h2 class="dg-h">{L}</h2><ul class="dense">{"".join(rows)}</ul></section>')
     crumb_html, crumb_ld = crumbs([("Home", "/"), ("FAA medications", None)])
-    title = "FAA Medication Lookup for Pilots: 594 Medications A to Z"
+    title = f"Medication List for FAA Medicals: {len(MEDS)} Medications, A to Z"
     desc = ("Look up a medication by brand or generic name and see the FAA reference text, the FAA source document, "
             "and its date. Free, no account. Information, not advice.")
     body = tool_band(filter_bar("dl", "dl-none", "Filter medications by brand or generic name", "Filter by brand or generic name", len(MEDS), "medications"))
-    body += "\n" + head_block(crumb_html, "FAA medication lookup",
+    body += "\n" + head_block(crumb_html, "Medication list for FAA medicals",
                               "Every entry shows the FAA reference text the app uses, the FAA document it cites, and its date when the FAA gives one. Information, not advice: your AME decides.", checked_stamp(MEDS, "entry"))
     body += f"""
   <main class="v2-main" id="main">
