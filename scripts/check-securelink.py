@@ -21,7 +21,7 @@ someone looking:
      held back) is compared the same way when --published-sheet-links is given; while neither the live server nor
      the published copy has it yet (both 404) it is noted, not a finding. The server now serves the FAA quotes
      (/sheet/sheet-data.json) only while the twice daily sheet guard (check-sheet-quotes.yml) has attested them; until
-     then it answers 503 {"error":"rechecking"}. That is reported as "held back: not verified" (run summary, file
+     then it answers 409 {"error":"rechecking"} (503 before 2026-11-16; both accepted). That is reported as "held back: not verified" (run summary, file
      securelink-sheet-held-back), NOT a sheet-changed finding: the guard workflow already alerts on its cause.
 
 usage:
@@ -113,8 +113,9 @@ def judge_viewer(live_status, live_body, published_body):
 
 
 def held_back(path, live_status, live_body):
-    """The server withholding the FAA quotes until the sheet guard attests them: 503 {"error": "rechecking"}."""
-    if path != DATA_PATH or live_status != 503:
+    """The server withholding the FAA quotes until the sheet guard attests them: {"error": "rechecking"} with 409
+    (the server since 2026-11-16, v3 6f5017e7, so a deliberate hold does not trip its 5xx alarm) or 503 (before)."""
+    if path != DATA_PATH or live_status not in (409, 503):
         return False
     try:
         return json.loads(live_body).get("error") == "rechecking"
@@ -128,7 +129,7 @@ def judge_sheet(files):
     out, notes = [], []
     for path, live_status, live_body, published_body in files:
         if held_back(path, live_status, live_body):
-            notes.append(f"held back: not verified. {path} answered 503 rechecking, so the sheet shows no FAA quotes "
+            notes.append(f"held back: not verified. {path} answered {live_status} rechecking, so the sheet shows no FAA quotes "
                          "right now. The sheet guard workflow (check-sheet-quotes.yml) alerts on the cause.")
         elif path == LINKS_PATH and live_status == 404 and published_body is None:
             notes.append(f"{path} is not on the server or in the published copy yet (deploy pending).")
@@ -278,8 +279,10 @@ def selftest():
     assert len(F([good[0], ("/sheet/sheet-data.json", 200, data, None), good[2]])) == 1, "live but not published is a finding"
     # Held back while not verified: a note, never a finding. Any other 503 or body is still a finding.
     rechecking = b'{"error":"rechecking"}'
-    f, n = judge_sheet([good[0], ("/sheet/sheet-data.json", 503, rechecking, data), good[2]])
-    assert f == [] and len(n) == 1 and n[0].startswith("held back: not verified"), "rechecking is held back, not a finding"
+    for code in (409, 503):
+        f, n = judge_sheet([good[0], ("/sheet/sheet-data.json", code, rechecking, data), good[2]])
+        assert f == [] and len(n) == 1 and n[0].startswith("held back: not verified"), f"{code} rechecking is held back"
+    assert len(F([good[0], ("/sheet/sheet-data.json", 409, b'{"error":"down"}', data), good[2]])) == 1, "another 409"
     assert len(F([good[0], ("/sheet/sheet-data.json", 503, b'{"error":"down"}', data), good[2]])) == 1, "another 503"
     assert len(F([good[0], ("/sheet/sheet-data.json", 503, b"<html>", data), good[2]])) == 1, "a 503 page"
     assert len(F([good[0], ("/sheet/sheet-links.json", 503, rechecking, links)])) == 1, "only the data may be held back"
