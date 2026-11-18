@@ -41,12 +41,13 @@ Shape: {"ios": {"version": "2.5.0", "minimumOS": "18.0", "notes": ["...", "..."]
 platform ONLY after the App Store shows that version on that platform (/release-day), and the notes are
 public copy Ryan reviews first. Older builds ignore the key; builds that read it decode it leniently.
 
-    APP_UPDATE_IOS='{"notes":["Line one.","Line two."]}' CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
+    APP_UPDATE_IOS='{"version":"2.5.0","notes":["Line one.","Line two."]}' CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
     APP_UPDATE_MAC=none python3 scripts/gen_manifest.py      # removes the Mac entry (pull)
 
-version and minimumOS are FILLED FROM APPLE'S STORE LOOKUP for that platform (iOS: the plain lookup; Mac:
-entity=desktopSoftware), so a typo or the other platform's number can never ship (Hub 11/18). If the JSON
-gives either one, it must equal the lookup, or nothing is written. No lookup answer: nothing is written.
+version is REQUIRED (the release's own number) and must EQUAL Apple's store lookup for that platform (iOS: the
+plain lookup; Mac: entity=desktopSoftware), so a typo, the other platform's number or a lookup still showing the
+previous release stops the run (Hub 11/18). minimumOS is filled from the same lookup (or must equal it if given).
+No lookup answer: nothing is written.
 The script also refuses notes that are not 1 to 3 single lines of at most 160 characters, an em dash, an
 en dash or "--", and any other key. Plain rebuilds (no APP_UPDATE env) never call the lookup.
 
@@ -210,10 +211,15 @@ def _store_lookup(platform):
         out = subprocess.run(["curl", "-sS", "--fail", "--max-time", "20", STORE_LOOKUP[platform]],
                              capture_output=True, text=True, check=True).stdout
         data = json.loads(out)
-        hit = next(r for r in data.get("results", []) if r.get("trackId") == APP_ID)
-        version, minimum = str(hit["version"]), str(hit["minimumOsVersion"])
+    except subprocess.CalledProcessError as e:
+        fail(f"could not read the {platform} store lookup (curl exit {e.returncode}: {e.stderr.strip()}). Nothing written.")
     except Exception as e:
-        fail(f"could not read the {platform} store lookup ({e}). Nothing written.")
+        fail(f"could not read the {platform} store lookup ({type(e).__name__}: {e}). Nothing written.")
+    hit = next((r for r in data.get("results", []) if r.get("trackId") == APP_ID), None)
+    if hit is None or "version" not in hit or "minimumOsVersion" not in hit:
+        fail(f"the {platform} store lookup has no result for trackId {APP_ID} "
+             f"(resultCount {data.get('resultCount')}). Nothing written.")
+    version, minimum = str(hit["version"]), str(hit["minimumOsVersion"])
     if not (VERSION.fullmatch(version) and VERSION.fullmatch(minimum)):
         fail(f"the {platform} store lookup gave {version!r} / {minimum!r}. Nothing written.")
     return {"version": version, "minimumOS": minimum}
@@ -232,6 +238,9 @@ for _platform, _env in (("ios", "APP_UPDATE_IOS"), ("mac", "APP_UPDATE_MAC")):
             fail(f"{_env} is not JSON ({e}). Nothing written.")
         if not isinstance(_entry, dict):
             fail(f"{_env} must be a JSON object. Nothing written.")
+        if not isinstance(_entry.get("version"), str):
+            fail(f"{_env} must give the release's version, e.g. \"version\":\"2.5.0\" (checked against the "
+                 f"{_platform} store lookup, so a lookup still on the old release stops here). Nothing written.")
         _live = _store_lookup(_platform)
         for _key in ("version", "minimumOS"):
             if _key in _entry and _entry[_key] != _live[_key]:
