@@ -35,6 +35,19 @@ Windows switch, and App Store 2.3.8 reads it: setting it would show 2.3.8's OLD 
 is never set again, so every build up to 2.3.8 stays hidden. Still preserved if present, and
 PC_EXTENSION_LIVE=true|false still works (with a warning), only so nothing that calls it breaks.
 
+appUpdate: the latest App Store version per platform, for the app's one-per-version "Update Available"
+alert (2026-11-18, Ryan: "I want it in this build"; app side UpdateAvailable.swift, ReferenceManifest.appUpdate).
+Shape: {"ios": {"version": "2.5.0", "minimumOS": "18.0", "notes": ["...", "..."]}, "mac": {...}}. Set each
+platform ONLY after the App Store shows that version on that platform (/release-day), and the notes are
+public copy Ryan reviews first. Older builds ignore the key; builds that read it decode it leniently.
+
+    APP_UPDATE_IOS='{"version":"2.5.0","minimumOS":"18.0","notes":["Line one.","Line two."]}' \
+        CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
+    APP_UPDATE_MAC=none python3 scripts/gen_manifest.py      # removes the Mac entry
+
+The script refuses (nothing written) a version or minimumOS that is not digits and dots, notes that
+are not 1 to 3 short lines, a dash the house style bans, or any other key.
+
 Any OTHER top-level key already in the manifest is kept as it is, so a future switch cannot be
 wiped by a rebuild before this script learns its name.
 
@@ -62,7 +75,7 @@ MANIFEST = V1 / "manifest.json"
 # Keys this script computes. Everything else at the top level is preserved.
 GENERATED_KEYS = ("contentVersion", "generatedAt", "files")
 # Switches the app decodes (ReferenceManifest.swift), in the order they are written.
-KNOWN_FLAGS = ("paywallActiveDate", "pcExtensionLive", "windowsSetupLive")
+KNOWN_FLAGS = ("paywallActiveDate", "pcExtensionLive", "windowsSetupLive", "appUpdate")
 
 # What JSONDecoder's .iso8601 strategy accepts: whole seconds, Z or a numeric offset.
 ISO8601 = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})$")
@@ -152,6 +165,58 @@ def _is_real_iso8601(value):
         return False
     return True
 
+VERSION = re.compile(r"^\d{1,6}(\.\d{1,6}){0,3}$")
+UPDATE_PLATFORMS = ("ios", "mac")
+UPDATE_ENTRY_KEYS = {"version", "minimumOS", "notes"}
+
+def _update_entry_problem(platform, entry):
+    """Why the app could not use this entry, or None. Stricter than the app, which reads a bad
+    entry as no alert: this script stops instead, so a typo never ships silently."""
+    if not isinstance(entry, dict):
+        return f"{platform} must be an object"
+    extra = set(entry) - UPDATE_ENTRY_KEYS
+    if extra:
+        return f"{platform} has unknown keys {sorted(extra)}"
+    if not (isinstance(entry.get("version"), str) and VERSION.match(entry["version"])):
+        return f"{platform}.version must look like 2.5.0, got {entry.get('version')!r}"
+    if "minimumOS" in entry and not (isinstance(entry["minimumOS"], str) and VERSION.match(entry["minimumOS"])):
+        return f"{platform}.minimumOS must look like 18.0, got {entry['minimumOS']!r}"
+    notes = entry.get("notes", [])
+    if not (isinstance(notes, list) and 1 <= len(notes) <= 3):
+        return f"{platform}.notes must be a list of 1 to 3 lines"
+    for line in notes:
+        if not (isinstance(line, str) and line.strip() and len(line) <= 160):
+            return f"{platform}.notes lines must be non-empty text of at most 160 characters, got {line!r}"
+        if "\u2014" in line or "\u2013" in line:
+            return f"{platform}.notes must not use an em or en dash (house style): {line!r}"
+    return None
+
+for _platform, _env in (("ios", "APP_UPDATE_IOS"), ("mac", "APP_UPDATE_MAC")):
+    _raw = os.environ.get(_env)
+    if _raw is None:
+        continue
+    _update = dict(flags.get("appUpdate") or {})
+    if _raw.strip().lower() == "none":
+        _update.pop(_platform, None)
+    else:
+        try:
+            _update[_platform] = json.loads(_raw)
+        except json.JSONDecodeError as e:
+            fail(f"{_env} is not JSON ({e}). Nothing written.")
+    if _update:
+        flags["appUpdate"] = _update
+    else:
+        flags.pop("appUpdate", None)
+
+if "appUpdate" in flags:
+    _au = flags["appUpdate"]
+    if not isinstance(_au, dict) or not _au or set(_au) - set(UPDATE_PLATFORMS):
+        fail(f"appUpdate must be an object with only ios and/or mac, got {_au!r}. Nothing written.")
+    for _platform, _entry in _au.items():
+        _problem = _update_entry_problem(_platform, _entry)
+        if _problem:
+            fail(f"appUpdate: {_problem}. Nothing written.")
+
 if "paywallActiveDate" in flags and not _is_real_iso8601(flags["paywallActiveDate"]):
     fail(f"paywallActiveDate is {flags['paywallActiveDate']!r}; the app reads only a real ISO-8601 "
          "time like 2026-07-10T00:00:00Z. Nothing written.")
@@ -214,7 +279,8 @@ pc_label = json.dumps(flags["pcExtensionLive"]) if "pcExtensionLive" in flags el
 ws_label = json.dumps(flags["windowsSetupLive"]) if "windowsSetupLive" in flags else "(none)"
 print(f"wrote {MANIFEST.relative_to(ROOT)}  version={version}  files={len(entries)}  "
       f"paywallActiveDate={flags.get('paywallActiveDate') or '(none)'}  windowsSetupLive={ws_label}  "
-      f"pcExtensionLive={pc_label} (retired)")
+      f"pcExtensionLive={pc_label} (retired)  "
+      f"appUpdate={json.dumps(flags['appUpdate']) if 'appUpdate' in flags else '(none)'}")
 if flags_changed:
     print(f"   switch changed, generatedAt restamped to {generated_at} so installed apps fetch it")
 if others:
