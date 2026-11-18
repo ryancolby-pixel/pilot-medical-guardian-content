@@ -215,7 +215,9 @@ def _store_lookup(platform):
         fail(f"could not read the {platform} store lookup (curl exit {e.returncode}: {e.stderr.strip()}). Nothing written.")
     except Exception as e:
         fail(f"could not read the {platform} store lookup ({type(e).__name__}: {e}). Nothing written.")
-    hit = next((r for r in data.get("results", []) if r.get("trackId") == APP_ID), None)
+    if not isinstance(data, dict) or not isinstance(data.get("results"), list):
+        fail(f"the {platform} store lookup did not return the expected JSON object. Nothing written.")
+    hit = next((r for r in data["results"] if isinstance(r, dict) and r.get("trackId") == APP_ID), None)
     if hit is None or "version" not in hit or "minimumOsVersion" not in hit:
         fail(f"the {platform} store lookup has no result for trackId {APP_ID} "
              f"(resultCount {data.get('resultCount')}). Nothing written.")
