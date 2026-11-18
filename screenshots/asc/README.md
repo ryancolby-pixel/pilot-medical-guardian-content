@@ -148,6 +148,26 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-18 — STAGED on branch `shots-next-2x-1x` (NOT uploaded): next iOS 2.x / Mac 1.x polish pass
+Builds: `next-ios` a14abea6 and `next-mac` c86f0b66, Debug, from detached worktrees. Same setup as 11/13 (fresh install,
+`-PMGSeedDemoData` once, `-compedPro YES -PMGHidePCRows YES`, `--time 9:41`, iPad `2026-11-13T14:41:00.000Z`). Home now reads
+255 days (date drift, not a UI change). "Changed" = the screen visibly differs from the 11/13 raw; "kept" = same apart from dates.
+- **iPhone (iPhone 17 sim, 27.2):** changed 1 Prep (Item 18/19 icons), 2 Home (prep card icon, one-line counts), 3 Item 18
+  (card icons), 4 SI (title truncates, new ... menu), 6 My Medical (darker caption gray only), 7 Health (one-color chart, row
+  chevrons). Kept 5 (PDF preview; the PDF builder is untouched) and 8 (pixel-identical once a 33 px scroll offset is aligned).
+- **iPad (iPad Pro 13" M5, 27.2): all 8 re-taken.** 7 changed (8500 "Import a saved application" row on Prep, sentence-case
+  headings, Share rows reordered, small blue Connect, one-color chart). Slot 8 (FAA search sheet) is unchanged in the app but was
+  re-taken so the set matches: the 27.2 runtime draws the app name in the iPad status bar and a full-height sidebar.
+- **Duo (iPhone Duo sim E4C2CCC4, 27.1; poses set with the simulator tool, no Device Hub needed):** outer changed 1, 2, 3, 4, 6,
+  7 (kept 5 and 8, same views as iPhone). Health now keeps its "Health" title bar while scrolled, so the BP card sits under it.
+  **Inner: all 8 new in the 11/13 order** (first complete inner set since 10/16; slot 5 = PDF preview, legible at this width).
+- **Mac (Debug, light, screenshot store, `-PMGStartLeaf` + background AX clicks, window brought forward per capture with Ryan's
+  OK): all 8 changed.** Sidebar Find an AME icon (7 of 8), redesigned Prep, title-case buttons, "About This Screen",
+  "Your authorization", Share window uses checkboxes. 18h row active blue (one Tab moved focus off the sidebar).
+- **Header asset** rebuilt from `header/home-255-raw.png` (certificate-only on My Medical): 255 / expires Jul 31, 2027.
+- Website images staged on the same branch: home, medxpress, si, health, documents, basicmed, mac-medxpress (cache keys
+  `?v=20261118`). faa-reference and renewal-countdown unchanged. Headlines: all 8 still match their screens.
+
 ### 2026-11-13 — NEW ORDER, 8 slots: iPhone, iPad and Duo outer re-captured for iOS 2.4.0 (70)
 Ryan 11/13 (UX review section 9 item 1): "autofill slot first and a Share with my AME slot 5, same order on every set".
 Order: **1 MedXPress Prep · 2 Home · 3 Item 18 · 4 Special Issuance · 5 Share with my AME · 6 My Medical · 7 Health ·

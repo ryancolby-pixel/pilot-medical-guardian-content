@@ -179,19 +179,19 @@ def shots(files):
     assert len(files) == len(SLOTS)
     return [(f, e, h) for f, (e, h) in zip(files, SLOTS)]
 
-# iPad Pro 13" (M5), all eight re-captured 2026-11-13 from ux-fixes 96db082, reached through the
+# iPad Pro 13" (M5), all eight re-captured 2026-11-18 from next-ios a14abea6 (11/13: ux-fixes 96db082), reached through the
 # sidebar. 08-share-with-ame is the Share sheet (records toggles); its PDF preview is a small
 # card on iPad and unreadable at listing size.
 IPAD = shots(["03-medxpress-prep.png", "01-home.png", "09-item18.png", "06-special-issuance.png",
               "08-share-with-ame.png", "07-my-medical.png", "05-health-bp.png", "02-faa-reference.png"])
 
-# screenshots/iphone-new/, iPhone 17 simulator (1206x2622), all eight 2026-11-13. share-ame.png is
+# screenshots/iphone-new/, iPhone 17 simulator (1206x2622), 2026-11-13; six re-taken 2026-11-18 (all but share-ame and faa-reference). share-ame.png is
 # the "Prepared for my AME" PDF preview (demo pilot).
 IPHONE = shots(["medxpress.png", "home.png", "item18.png", "si.png",
                 "share-ame.png", "certificate.png", "health.png", "faa-reference.png"])
 
 # iPhone Duo (PMG-Duo, iOS 27.1). duo-outer/ = closed outer display (1398x2034), re-captured
-# 2026-11-13. duo-inner/ = inner display, fully open and wide (2853x2007); the open pose is set by
+# 2026-11-13; six re-taken 2026-11-18 on sim E4C2CCC4. duo-inner/ = inner display, fully open and wide (2853x2007), all 8 on 11/18; the open pose was set by
 # hand in Device Hub, so the inner set is rebuilt only when every raw below exists (see README).
 DUO = IPHONE
 
