@@ -41,12 +41,14 @@ Shape: {"ios": {"version": "2.5.0", "minimumOS": "18.0", "notes": ["...", "..."]
 platform ONLY after the App Store shows that version on that platform (/release-day), and the notes are
 public copy Ryan reviews first. Older builds ignore the key; builds that read it decode it leniently.
 
-    APP_UPDATE_IOS='{"version":"2.5.0","minimumOS":"18.0","notes":["Line one.","Line two."]}' \
-        CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
-    APP_UPDATE_MAC=none python3 scripts/gen_manifest.py      # removes the Mac entry
+    APP_UPDATE_IOS='{"notes":["Line one.","Line two."]}' CONTENT_VERSION=YYYY-MM-DD.N python3 scripts/gen_manifest.py
+    APP_UPDATE_MAC=none python3 scripts/gen_manifest.py      # removes the Mac entry (pull)
 
-The script refuses (nothing written) a version or minimumOS that is not digits and dots, notes that
-are not 1 to 3 short lines, a dash the house style bans, or any other key.
+version and minimumOS are FILLED FROM APPLE'S STORE LOOKUP for that platform (iOS: the plain lookup; Mac:
+entity=desktopSoftware), so a typo or the other platform's number can never ship (Hub 11/18). If the JSON
+gives either one, it must equal the lookup, or nothing is written. No lookup answer: nothing is written.
+The script also refuses notes that are not 1 to 3 single lines of at most 160 characters, an em dash, an
+en dash or "--", and any other key. Plain rebuilds (no APP_UPDATE env) never call the lookup.
 
 Any OTHER top-level key already in the manifest is kept as it is, so a future switch cannot be
 wiped by a rebuild before this script learns its name.
@@ -165,7 +167,7 @@ def _is_real_iso8601(value):
         return False
     return True
 
-VERSION = re.compile(r"^\d{1,6}(\.\d{1,6}){0,3}$")
+VERSION = re.compile(r"[0-9]{1,6}(\.[0-9]{1,6}){0,3}")   # use fullmatch: ASCII digits, no trailing newline
 UPDATE_PLATFORMS = ("ios", "mac")
 UPDATE_ENTRY_KEYS = {"version", "minimumOS", "notes"}
 
@@ -177,19 +179,44 @@ def _update_entry_problem(platform, entry):
     extra = set(entry) - UPDATE_ENTRY_KEYS
     if extra:
         return f"{platform} has unknown keys {sorted(extra)}"
-    if not (isinstance(entry.get("version"), str) and VERSION.match(entry["version"])):
+    if not (isinstance(entry.get("version"), str) and VERSION.fullmatch(entry["version"])):
         return f"{platform}.version must look like 2.5.0, got {entry.get('version')!r}"
-    if "minimumOS" in entry and not (isinstance(entry["minimumOS"], str) and VERSION.match(entry["minimumOS"])):
-        return f"{platform}.minimumOS must look like 18.0, got {entry['minimumOS']!r}"
+    if not (isinstance(entry.get("minimumOS"), str) and VERSION.fullmatch(entry["minimumOS"])):
+        return f"{platform}.minimumOS is required and must look like 18.6, got {entry.get('minimumOS')!r}"
     notes = entry.get("notes", [])
     if not (isinstance(notes, list) and 1 <= len(notes) <= 3):
         return f"{platform}.notes must be a list of 1 to 3 lines"
     for line in notes:
         if not (isinstance(line, str) and line.strip() and len(line) <= 160):
             return f"{platform}.notes lines must be non-empty text of at most 160 characters, got {line!r}"
-        if "\u2014" in line or "\u2013" in line:
-            return f"{platform}.notes must not use an em or en dash (house style): {line!r}"
+        if "\n" in line or "\r" in line:
+            return f"{platform}.notes lines must be single lines: {line!r}"
+        if "\u2014" in line or "\u2013" in line or "--" in line:
+            return f"{platform}.notes must not use an em dash, en dash or -- (house style): {line!r}"
     return None
+
+APP_ID = 6772534988
+STORE_LOOKUP = {
+    "ios": f"https://itunes.apple.com/lookup?id={APP_ID}&country=us",
+    "mac": f"https://itunes.apple.com/lookup?id={APP_ID}&country=us&entity=desktopSoftware",
+}
+
+def _store_lookup(platform):
+    """The live App Store version and minimum OS for one platform, or stop. Public data, no secrets."""
+    # System curl, not urllib: a python.org Python on macOS often has no CA bundle and cannot verify
+    # Apple's certificate (seen 11/18); curl uses the Mac's own trust store.
+    import subprocess
+    try:
+        out = subprocess.run(["curl", "-sS", "--fail", "--max-time", "20", STORE_LOOKUP[platform]],
+                             capture_output=True, text=True, check=True).stdout
+        data = json.loads(out)
+        hit = next(r for r in data.get("results", []) if r.get("trackId") == APP_ID)
+        version, minimum = str(hit["version"]), str(hit["minimumOsVersion"])
+    except Exception as e:
+        fail(f"could not read the {platform} store lookup ({e}). Nothing written.")
+    if not (VERSION.fullmatch(version) and VERSION.fullmatch(minimum)):
+        fail(f"the {platform} store lookup gave {version!r} / {minimum!r}. Nothing written.")
+    return {"version": version, "minimumOS": minimum}
 
 for _platform, _env in (("ios", "APP_UPDATE_IOS"), ("mac", "APP_UPDATE_MAC")):
     _raw = os.environ.get(_env)
@@ -200,9 +227,18 @@ for _platform, _env in (("ios", "APP_UPDATE_IOS"), ("mac", "APP_UPDATE_MAC")):
         _update.pop(_platform, None)
     else:
         try:
-            _update[_platform] = json.loads(_raw)
+            _entry = json.loads(_raw)
         except json.JSONDecodeError as e:
             fail(f"{_env} is not JSON ({e}). Nothing written.")
+        if not isinstance(_entry, dict):
+            fail(f"{_env} must be a JSON object. Nothing written.")
+        _live = _store_lookup(_platform)
+        for _key in ("version", "minimumOS"):
+            if _key in _entry and _entry[_key] != _live[_key]:
+                fail(f"{_env} {_key} {_entry[_key]!r} does not match the {_platform} store lookup ({_live[_key]!r}). "
+                     "Set it only after the store shows that version. Nothing written.")
+        _update[_platform] = {"version": _live["version"], "minimumOS": _live["minimumOS"],
+                              **{k: v for k, v in _entry.items() if k not in ("version", "minimumOS")}}
     if _update:
         flags["appUpdate"] = _update
     else:
