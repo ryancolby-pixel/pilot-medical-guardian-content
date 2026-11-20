@@ -172,8 +172,17 @@ Same setup as 11/18 (same three sims, fresh install, seeded once, `--time`). Onl
   re-runs `build-mac-v2.py`. On iPhone and Duo outer "source" sits alone on line 2, as slots 1 and 7 already do with
   "down" and "threshold" (greedy wrap; balancing is Ryan's style call).
 - Website staged (cache keys `?v=20261120`): medxpress, si, health, faa-reference, documents, basicmed. home.webp kept.
-- Mac set: waits for the final `review-fixes-mac` tip (sidebar rebuild). mac-medxpress.webp's cache key was left at
-  20261113 on 11/18 by mistake; bump it with the Mac pass.
+- ✅ **Mac set re-captured 11/20 from the final `review-fixes-mac` 161878c0** (Option A sidebar: normal rows; Application
+  Details, Doctors and Turn On MedXPress Autofill gone from the sidebar; fit pass: tighter headings, one-line FAA status bar).
+  All 8 slots, every raw checked for the active look (red close button). `-PMGStartLeaf item18` no longer exists in this build:
+  slot 3 is reached by a sidebar click, then Tab moves focus so 18h draws in active blue (same for the Health metric row).
+  slot 8 carries Ryan's new headline. Website `mac-medxpress.webp` re-encoded, cache key `?v=20261120` (the 11/18 miss is
+  fixed); its alt text still matches the shot (Items 1 to 16 tab open), so it was not changed. Ryan's OK to bring the window
+  forward (asked again 11/20). He went full screen once mid-pass; the window was put back and that slot re-taken.
+  ⚠️ **Mac Debug + `-PMGSeedDemoData` writes REAL settings:** the seeder set `flyingPathway` = both and the Prep tab
+  click set `medxpressPrepItem` (plus 2 StoreKit timestamps). Restored from a full `defaults export` taken before the run;
+  diff = none after. Restore doubles with `defaults write <domain> <key> '<real>N</real>'` (`-float` truncates).
+  Do the full export/diff every Mac pass, not just the five Pro/review keys.
 
 ### 2026-11-18 — STAGED on branch `shots-next-2x-1x` (NOT uploaded): next iOS 2.x / Mac 1.x polish pass
 Builds: `next-ios` a14abea6 and `next-mac` c86f0b66, Debug, from detached worktrees. Same setup as 11/13 (fresh install,
