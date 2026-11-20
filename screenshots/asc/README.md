@@ -148,6 +148,29 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-20 — iOS re-checked against the review-fix build (`review-fixes-ios` 67eb5c7f, contains next-ios); STAGED, NOT uploaded
+Ryan 11/20 thought nothing changed; every slot was captured fresh and compared with the 11/18 shot by two independent
+judges per slot (one listing differences, one skeptic; date drift and small scroll offsets ignored). They agreed on all 24.
+Same setup as 11/18 (same three sims, fresh install, seeded once, `--time`). Only slots that changed were replaced:
+- **iPhone:** changed 1 Prep (new "MedXPress confirmation number" section on top, pushes Item 19 below the footer),
+  3 Item 18 (explanation box shows all 4 lines), 4 SI ("Tap a row to set a due date or reminder."), 5 PDF preview (Contents
+  order: Item 18 before Visits, W46), 6 My Medical (Next exam "Same as required (Class 1)"), 7 Health (60 to 160 scale, one
+  combined BP FAA row, "Show all 4 readings"), 8 FAA Reference (heading "Summary of the FAA source", title "systolic and
+  diastolic"). **Kept 2 Home.**
+- **iPad:** changed 1 Prep, 2 Home (Explore the app above "How this app protects", Autofill row gone), 3 Item 18 (short intro),
+  4 SI (down chevrons, footer), 5 Share sheet (title "Share with AME/FAA", "Preview", new "Special Issuance exam only" row),
+  6 My Medical (class privilege rows + ICAO block on the card), 7 Health. **Kept 8 FAA Reference (identical).**
+- **Duo inner:** changed 1 Prep, 4 SI, 6 My Medical, 7 Health, 8 FAA Reference (renamed starter question, new footer).
+  **Kept 2 Home, 3 Item 18, 5 PDF preview** (the Contents line change is unreadable at this size).
+- **Duo outer and header asset:** not touched (Duo outer is not uploaded; Home is unchanged).
+- ⚠️ **Wording still waiting on Ryan:** slot 8 everywhere shows W56 ("Summary of the FAA source", "plain-language summaries"),
+  and the baked slot 8 headline "The FAA's own words, with the source" may no longer fit it. iPad slot 5 shows the S15 name
+  and the 5a row. If Ryan changes any of that wording, re-take those slots.
+- Website staged (cache keys `?v=20261120`): medxpress, si, health, faa-reference, documents, basicmed. home.webp kept.
+  The faa-reference alt text still says "showing what the FAA says"; it flips with W56, after Ryan's review.
+- Mac set: waits for the final `review-fixes-mac` tip (sidebar rebuild). mac-medxpress.webp's cache key was left at
+  20261113 on 11/18 by mistake; bump it with the Mac pass.
+
 ### 2026-11-18 — STAGED on branch `shots-next-2x-1x` (NOT uploaded): next iOS 2.x / Mac 1.x polish pass
 Builds: `next-ios` a14abea6 and `next-mac` c86f0b66, Debug, from detached worktrees. Same setup as 11/13 (fresh install,
 `-PMGSeedDemoData` once, `-compedPro YES -PMGHidePCRows YES`, `--time 9:41`, iPad `2026-11-13T14:41:00.000Z`). Home now reads
