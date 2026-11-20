@@ -172,7 +172,7 @@ SLOTS = [
     ("SHARE WITH MY AME", "Your records in one PDF for your AME"),
     ("MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
     ("HEALTH",            "Your readings beside the FAA threshold"),
-    ("FAA REFERENCE",     "The FAA's own words, with the source"),
+    ("FAA REFERENCE",     "FAA rules in plain words, with the source"),  # Ryan 11/20; replaces the retracted quoted-words headline (W56)
 ]
 
 def shots(files):
