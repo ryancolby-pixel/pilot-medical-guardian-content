@@ -149,6 +149,9 @@ still holds and this shot does not violate it.
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
 ### 2026-11-20 — iOS re-checked against the review-fix build (`review-fixes-ios` 67eb5c7f, contains next-ios); STAGED, NOT uploaded
+📦 **These ARE the release sets for iOS 2.4.2 (77) and Mac 1.3.1 (42).** The bumped tips (iOS `3538ef76` on main, Mac
+`e14baed3` on mac-companion) differ from the captured code (67eb5c7f / 161878c0) only in MARKETING_VERSION,
+CURRENT_PROJECT_VERSION and the ReleaseNotes version label, none of which appears in any slot (checked with git diff).
 Ryan 11/20 thought nothing changed; every slot was captured fresh and compared with the 11/18 shot by two independent
 judges per slot (one listing differences, one skeptic; date drift and small scroll offsets ignored). They agreed on all 24.
 Same setup as 11/18 (same three sims, fresh install, seeded once, `--time`). Only slots that changed were replaced:
