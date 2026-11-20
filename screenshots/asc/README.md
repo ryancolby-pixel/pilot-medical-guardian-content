@@ -163,11 +163,14 @@ Same setup as 11/18 (same three sims, fresh install, seeded once, `--time`). Onl
 - **Duo inner:** changed 1 Prep, 4 SI, 6 My Medical, 7 Health, 8 FAA Reference (renamed starter question, new footer).
   **Kept 2 Home, 3 Item 18, 5 PDF preview** (the Contents line change is unreadable at this size).
 - **Duo outer and header asset:** not touched (Duo outer is not uploaded; Home is unchanged).
-- ⚠️ **Wording still waiting on Ryan:** slot 8 everywhere shows W56 ("Summary of the FAA source", "plain-language summaries"),
-  and the baked slot 8 headline "The FAA's own words, with the source" may no longer fit it. iPad slot 5 shows the S15 name
-  and the 5a row. If Ryan changes any of that wording, re-take those slots.
+- In-app wording on these slots is FINAL: W56, the S15 names and the 5a row were in the 11/19 wording batch Ryan approved
+  ("Approve, keep OTC line", FEEDBACK.md 11/19). No re-takes for them.
+- ⚠️ **OPEN: slot 8's baked headline "The FAA's own words, with the source"** now contradicts the app, which calls these
+  plain-language summaries (W56 retracted the "quoted" claim; a retracted claim flips everywhere together). Ryan picks the new
+  headline (Support is asking); then edit `SLOTS` in `build-mobile-v2.py` and `SHOTS` in `build-mac-v2.py` and re-run both, so
+  slot 8 is re-baked on every set. Do not upload slot 8 until then.
 - Website staged (cache keys `?v=20261120`): medxpress, si, health, faa-reference, documents, basicmed. home.webp kept.
-  The faa-reference alt text still says "showing what the FAA says"; it flips with W56, after Ryan's review.
+  OPEN with the headline: the faa-reference alt text still says "showing what the FAA says".
 - Mac set: waits for the final `review-fixes-mac` tip (sidebar rebuild). mac-medxpress.webp's cache key was left at
   20261113 on 11/18 by mistake; bump it with the Mac pass.
 
