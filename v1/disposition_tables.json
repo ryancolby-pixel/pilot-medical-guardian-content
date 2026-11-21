@@ -255,18 +255,18 @@
     "envelope": {
       "code": "dispo-path-status-summary-anxiety-depression-related-conditions",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions PATH Status Summary (updated 07/29/2026)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/PATH_Status_Summary_Anxiety_Depression_Related_Conditions.pdf"
+      "lastVerified": "2026-11-21T13:33:39Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Status Summary - Recertification (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Status_Summary_Anxiety_Depression_Related_Conditions_Recertification.pdf"
     },
-    "title": "Anxiety, Depression, and Related Conditions PATH Status Summary",
+    "title": "Anxiety, Depression, and Related Conditions Status Summary - Recertification",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2026-07-29",
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
@@ -1084,18 +1084,18 @@
     "envelope": {
       "code": "dispo-faa-certification-aid-ssri-initial-certification",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA Certification Aid - SSRI Initial Certification/Clearance (updated 08/26/2026)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf"
+      "lastVerified": "2026-11-21T13:33:39Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA Certification Aid - Antidepressant Initial Certification (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_Antidepressant_Initial_Certification.pdf"
     },
-    "title": "FAA Certification Aid - SSRI Initial Certification/Clearance",
+    "title": "FAA Certification Aid - Antidepressant Initial Certification",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2026-08-26",
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
@@ -4208,26 +4208,26 @@
     "envelope": {
       "code": "dispo-situational-depression-decision-tool",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situation Depression Decision Tool for the AME (updated 07/27/2022)",
+      "lastVerified": "2026-11-21T13:33:39Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situational Depression Decision Tool for the AME (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Situational-Depression-Decision-Tool.pdf"
     },
-    "title": "Situation Depression Decision Tool for the AME",
+    "title": "Situational Depression Decision Tool for the AME",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2022-07-27",
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
     "envelope": {
       "code": "dispo-situationaldepression",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situational Depression",
+      "lastVerified": "2026-11-21T13:33:39Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Situational Depression (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/SituationalDepression.pdf"
     },
     "title": "Situational Depression",
@@ -4237,8 +4237,8 @@
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": null,
-    "dateWord": null
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
   },
   {
     "envelope": {

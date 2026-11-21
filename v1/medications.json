@@ -1570,17 +1570,17 @@
     ],
     "category": "Corticosteroid (nasal; oral or enema for colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Nasal: allowed in MedGuide. Oral or enema for colitis: CACI worksheet.\n\nForm: nasal\nBrands: Rhinocort\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026) lists \"oral budesonide 9mg or less\" and \"steroid foams or enemas/ budesonide enema\".\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026), cause of colitis: \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\". Symptoms: \"None or mild diarrhea (less than 4 bowel movements/day)\".\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Nasal: allowed in MedGuide. Oral or enema for colitis: CACI worksheet.\n\nForm: nasal\nBrands: Rhinocort\nUnderlying condition: Allergic rhinitis\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026) lists \"Oral budesonide 9 mg or less\" and \"Steroid foams or enemas / budesonide enema\".\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026), cause of colitis: \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\". Symptoms: \"None or mild diarrhea (less than 4 bowel movements/day)\".\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.\"\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-budesonide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-03T00:03:26Z",
-      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-21T15:10:00Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -1612,12 +1612,12 @@
     ],
     "category": "Atypical antidepressant",
     "treatedConditionNote": "Concern is the underlying condition; handled through FAA review rather than the AME's desk.",
-    "faaStatusDescription": "Which FAA answer applies depends on your product: Wellbutrin SR/ER for depression, Wellbutrin IR, Zyban for smoking cessation, or Contrave for weight loss. Open the one you take. The FAA publishes a different status for each, and only the SR/ER antidepressant use has a certification pathway.",
+    "faaStatusDescription": "Which FAA answer applies depends on your product: Wellbutrin SR/ER for depression, Wellbutrin IR, Zyban for smoking cessation, or Contrave for weight loss. Open the one you take. The FAA lists each one separately.",
     "envelope": {
       "code": "med-bupropion",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (08/27/2025), Smoking Cessation Medications (04/29/2026), and Weight Loss Medication (04/29/2026)",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (11/18/2026), Smoking Cessation Medications (11/18/2026), and Weight Loss Medication (08/26/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
     "informationalOnly": false
@@ -1656,8 +1656,8 @@
     "envelope": {
       "code": "med-bupropion-ir",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025)",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
     "faaStatus": "notAcceptable"
@@ -4185,12 +4185,12 @@
     ],
     "category": "GC-C agonist (IBS/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"linaclotide(Linzess)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for linaclotide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"linaclotide (Linzess)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for linaclotide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-linaclotide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-21T15:10:00Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
@@ -5028,17 +5028,17 @@
     ],
     "category": "Tricyclic antidepressant",
     "faaStatus": "notAcceptable",
-    "faaStatusDescription": "Unacceptable on the FAA's smoking cessation and antidepressant lists.\n\nSmoking Cessation page: \"nortriptyline (Pamelor)\" under \"UNACCEPTABLE Smoking Cessation Medications\".\nOn that page, the 7-day no-fly once treatment is complete is listed for bupropion SR (Zyban), not for nortriptyline.\nAntidepressant page: \"All tricyclic antidepressants (TCAs)\" under \"UNACCEPTABLE Antidepressant Medications\". Nortriptyline is a tricyclic antidepressant.\nAntidepressants also sit under DO NOT ISSUE, in the \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which the FAA applies \"Even when used for conditions other than mental health\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nSource: FAA Smoking Cessation Medications, updated April 29, 2026; FAA Antidepressant Medications, updated August 27, 2025; FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Unacceptable on the FAA's smoking cessation and antidepressant lists.\n\nSmoking Cessation page: \"nortriptyline (Pamelor)\" under \"UNACCEPTABLE Smoking Cessation Medications\".\nAntidepressant page: \"All tricyclic antidepressants (TCAs)\" under \"UNACCEPTABLE Antidepressant Medications\". Nortriptyline is a tricyclic antidepressant.\nAntidepressants also sit under DO NOT ISSUE, in the \"PSYCHIATRIC OR PSYCHOTROPIC MEDICATIONS\" group, which the FAA applies \"Even when used for conditions other than mental health\".\nFAA rule: \"If the applicant is taking any of the following medications, AMEs should DEFER the exam.\"\n\nSource: FAA Smoking Cessation Medications, updated November 18, 2026; FAA Antidepressant Medications, updated November 18, 2026; FAA Do Not Issue - Do Not Fly, updated September 30, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nortriptyline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T16:59:26Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Smoking Cessation Medications (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 08/27/2025); FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Smoking Cessation Medications (updated 11/18/2026); FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 11/18/2026); FAA Guide for Aviation Medical Examiners, Do Not Issue - Do Not Fly (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 08/27/2025)",
+        "title": "FAA Guide for Aviation Medical Examiners: Antidepressant Medications (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
       },
       {
@@ -6844,15 +6844,15 @@
     ],
     "category": "Smoking cessation aid",
     "isCACI": false,
-    "faaStatusDescription": "For smoking cessation the FAA lists bupropion SR (Zyban) as UNACCEPTABLE. On a first treatment course no medical is issued during active treatment, and a 7 day no-fly runs from the last dose once treatment is complete. Recurrent treatment, or extended therapy longer than 6 months, is referred to the FAA's \"Anxiety, Depression and Related Conditions Table\".\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "For smoking cessation the FAA says Zyban \"*Requires SI\". It lists \"bupropion SR (Zyban)\" under \"CONDITIONALLY ACCEPTABLE Smoking Cessation Medications\", with an \"Initial observation\" (\"Ground Trial\") of \"4 weeks\" and a \"Subsequent dose wait time\" of \"None\". For a \"FIRST treatment course (12 weeks)\" it says \"See Antidepressant Medications for Non-Mental Health Conditions\". For \"Recurrent or extended treatment\" it says the AME \"must confirm use is not related to a mental health condition. See Item 47.\"\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-zyban",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026)",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
-    "faaStatus": "notAcceptable"
+    "faaStatus": "caseByCase"
   },
   {
     "genericName": "bupropion SR/ER (as an antidepressant)",
@@ -7775,8 +7775,8 @@
     "envelope": {
       "code": "med-esketamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
@@ -8211,8 +8211,8 @@
     "envelope": {
       "code": "med-fluvoxamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
@@ -8690,8 +8690,8 @@
     "envelope": {
       "code": "med-levomilnacipran",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
@@ -9436,11 +9436,11 @@
       "Nicorette"
     ],
     "category": "Nicotine replacement",
-    "faaStatusDescription": "Patch: wait 24 hours in the FAA MedGuide. Gum, lozenge: no wait listed.\n\nForm: patch\nBrands: Nicoderm CQ Patch, Habitrol [INTL]\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nForm: nasal spray\nBrands: Nicotrol NS\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nSmoking Cessation Medications page, updated April 29, 2026:\nForm: gum, lozenge, patch\nInitial wait (after first dose): None\nSubsequent wait (after each dose): None\n\nSmoking Cessation Medications page, updated April 29, 2026:\nForm: nasal spray\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Patch: wait 24 hours in the FAA MedGuide. Gum, lozenge: no wait listed.\n\nForm: patch\nBrands: Nicoderm CQ Patch, Habitrol [INTL]\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 24 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nForm: nasal spray\nBrands: Nicotrol NS\nUnderlying condition: Smoking cessation\nFrequency limit: Per label directions\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nSmoking Cessation Medications page, updated November 18, 2026:\nForm: gum, lozenge, patch\nInitial wait (after first dose): None\nSubsequent wait (after each dose): None\n\nSmoking Cessation Medications page, updated November 18, 2026:\nForm: nasal spray\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-nicotine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-03T00:03:26Z",
+      "lastVerified": "2026-11-21T14:28:21Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -9449,7 +9449,7 @@
     "isCACI": false,
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026), ACCEPTABLE Smoking Cessation Medications table",
+        "title": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 11/18/2026), ACCEPTABLE Smoking Cessation Medications table",
         "url": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
       }
     ]
@@ -9678,8 +9678,8 @@
     "envelope": {
       "code": "med-paroxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
@@ -10951,12 +10951,12 @@
       "Chantix"
     ],
     "category": "Smoking cessation",
-    "faaStatusDescription": "The FAA lists varenicline (Chantix) as acceptable, and the AME can issue if no history of psychiatric condition(s) or concerns. It is on the FAA's ACCEPTABLE Smoking Cessation Medications table, which gives a 1 week initial observation (ground trial) and no post-dose no-fly time, and its instruction to the AME is to annotate Item 60. If it is used as an antidepressant instead, the FAA sends the AME to its Anxiety, Depression and Related Conditions Table. The FAA's Do Not Issue table separately notes that smoking cessation aid varenicline (Chantix) is allowed. The same FAA page gives usual treatment duration as 12 weeks and says extended maintenance therapy up to one year may have additional guidance.\n\nMedGuide (October 27, 2026) lists varenicline only as a nasal spray (Tyrvaya), for dry eye disease. That is a different product from Chantix, with its own entry: varenicline (nasal).\n\nThat is what the FAA publishes, not a determination about you. Do not change a medication on your own; ask the physician who prescribed it.",
+    "faaStatusDescription": "The FAA lists varenicline (Chantix) as acceptable, and the AME can issue if no history of psychiatric condition(s) or concerns. It is on the FAA's ACCEPTABLE Smoking Cessation Medications table, which gives an \"Initial observation\" (\"Ground Trial\") of \"1 week\" and a \"Subsequent dose wait time\" of \"None\", and its instruction to the AME is to annotate Item 60. The FAA's Do Not Issue table separately notes that smoking cessation aid varenicline (Chantix) is allowed. The Smoking Cessation Medications page says \"Standard treatment is 12 weeks, with an occasional repeat course up to 24 weeks total. Any longer treatment (rarely up to one year) should prompt closer review to confirm the medication is not being used to manage an underlying mental health condition.\"\n\nMedGuide (October 27, 2026) lists varenicline only as a nasal spray (Tyrvaya), for dry eye disease. That is a different product from Chantix, with its own entry: varenicline (nasal).\n\nThat is what the FAA publishes, not a determination about you. Do not change a medication on your own; ask the physician who prescribed it.",
     "envelope": {
       "code": "med-varenicline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-03T00:03:26Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 04/29/2026): ACCEPTABLE Smoking Cessation Medications table, varenicline (oral) (Chantix) row, for the acceptable listing, the 1 week initial observation (ground trial), the None post-dose observation, the Item 60 annotation and the antidepressant routing; Section V Pharmaceutical Considerations for the 12 week and extended therapy statement; DO NOT ISSUE (DNI) Medications table (updated 06/28/2023) for the note that smoking cessation aid varenicline (Chantix) is allowed",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Smoking Cessation Medications (updated 11/18/2026): ACCEPTABLE Smoking Cessation Medications table, varenicline (oral) (Chantix) row, for the acceptable listing, the 1 week initial observation (ground trial), the None subsequent dose wait time and the Item 60 annotation; Section V Pharmaceutical Considerations for the standard treatment statement; DO NOT ISSUE (DNI) Medications table (updated 09/30/2026) for the note that smoking cessation aid varenicline (Chantix) is allowed",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Smoking_Cessation_Medications.pdf"
     },
     "informationalOnly": false,
@@ -11132,8 +11132,8 @@
     "envelope": {
       "code": "med-vortioxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 08/27/2025), UNACCEPTABLE Antidepressant Medications",
+      "lastVerified": "2026-11-21T14:28:21Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), UNACCEPTABLE Antidepressant Medications",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },

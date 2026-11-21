@@ -161,11 +161,11 @@
     "envelope": {
       "code": "si-ssri-aasi-path",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-27T11:02:06Z",
-      "sourceCitation": "FAA AASI for Anxiety, Depression, and Related Conditions PATH, updated 08/26/2026",
+      "lastVerified": "2026-11-21T13:33:39Z",
+      "sourceCitation": "FAA AASI for Anxiety, Depression, and Related Conditions, updated 11/18/2026",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Anxiety_Depression_Related_Conditions.pdf"
     },
-    "requirementText": "Applies only if your Authorization letter says AASI PATH has been approved. PATH is a follow-up route, not a first issuance: the FAA's PATH page (updated 08/26/2026) says \"An FAA physician provides the initial certification decision,\" and for a first-time application \"the AME must defer.\" After that, an AME may reissue under your Authorization only if you bring \"An Authorization granted by the FAA that states that AASI PATH has been approved.\" You also bring clinic progress notes \"EVERY 6 months (or more often as clinically indicated),\" at least one of them from a physician (MD/DO), with the most recent \"no more than 90 days before the AME exam,\" plus the PATH Status Summary completed by your treating physician and the AME. That is the minimum. The AME must defer instead of reissuing if anything new appears, such as new symptoms, a new diagnosis or new substance use, if the condition progresses, or if the AME or your doctors have concerns, and must notify the FAA of any significant clinical deterioration. If your letter does not mention AASI PATH, mark this item Not in my letter."
+    "requirementText": "This is the AME Assisted Special Issuance (AASI) follow-up route for anxiety, depression, and related conditions, not a first issuance: the FAA's \"AASI for Anxiety, Depression, and Related Conditions\" (updated 11/18/2026) says \"An FAA physician provides the initial certification decision,\" and for a first-time application \"the AME must defer.\" After that, an AME may reissue under your Authorization only if you bring \"An Authorization granted by the FAA that states that AASI Anxiety, Depression and Related Conditions has been approved (look for AME Assisted Special Issuance in the title, of the Authorization letter) or a notation that the AME can issue the follow-up certification.\" You also bring clinic progress notes \"EVERY 6 months (or more often as clinically indicated),\" at least one of them from a physician (MD/DO), with the most recent \"no more than 90 days before the AME exam,\" plus the \"Anxiety, Depression, and Related Conditions Status Summary - Recertification\" completed by your treating physician and the AME. That is the minimum. The FAA says the \"AME must defer and describe in Block 60 what item(s) caused the deferral if the psychiatrist, treating physician, or AME identifies any of the following:\" \"Any NEW 'Yes*' answers on the Anxiety, Depression, and Related Conditions Status Summary - Recertification;\" \"Any new (or not previously reported) psychiatric symptoms, signs, or diagnosis;\" \"Any new history of substance use disorder or FAA substance dependence;\" \"Any progression (change in symptoms that persist despite modifications to medication and/or therapy) of the disease;\" and/or \"AME, treating physician, or treating provider has concerns.\" It adds: \"The AME must notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in my client's cognition, judgment, emotional stability, or insight.\" If your letter has neither \"AME Assisted Special Issuance in the title\" nor \"a notation that the AME can issue the follow-up certification,\" mark this item Not in my letter."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -779,7 +779,7 @@
     "envelope": {
       "code": "si-adhd-med-free",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, ADHD Disposition Table",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_disposition_table.pdf"
     },
@@ -791,11 +791,11 @@
     "envelope": {
       "code": "si-adhd-neuropsych",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, Standard Track FAA ADHD Evaluation, General Information for Pilots and ATCS",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf"
     },
-    "requirementText": "Which testing you need depends on your track. If you have had no ADHD symptoms, treatment, medication or instability in the past four years and no other psychiatric diagnosis, current or historical, the FAA's Fast Track is a records review and clinical interview with no test battery (the FAA allows one exception, for anxiety, depression and related conditions that qualify for their own Fast Track pathway). Testing can still be added: the FAA lists a battery as required if a clear determination cannot be reached on the Fast Track, if your AME or the evaluator has concerns, or if the FAA requests it. Otherwise you are on the Standard Track, where the FAA states the \"evaluation and testing must be performed IN-PERSON by a HIMS neuropsychologist within 90 days of the AME exam.\" That 90-day clock is not Standard Track only: the ADHD Document Checklist, which the FAA says applies to \"both FAST TRACK and STANDARD TRACK,\" and the Fast Track report requirements both state that \"The evaluation and report must be performed within 90 days of the AME exam,\" so on either track the evaluation is timed to your exam rather than done early and held. The FAA does not publish the test list. It states the \"testing specifications required by the FAA are listed on an FAA secure site used by professionals with training regarding the specifications,\" so your HIMS neuropsychologist obtains them directly and there is no public battery for you to look up. Standard Track testing also requires a drug screen, and the timing is unforgiving: \"complete a urinalysis for amphetamines and methylphenidate within 24 hours after completing testing.\" Set the lab order up before your testing day. The FAA tells pilots to \"verify if the evaluating HIMS Neuropsychologist has the ability to order the urinalysis,\" because that varies by state, and if not to \"coordinate with your AME or your primary care physician to order the laboratory test.\" Order both tests, because the FAA warns \"they are two different tests/different test batteries,\" and get the lab paperwork itself, because \"actual laboratory results are required (not clinical summary of results)\" and \"testing data cannot be used without the supporting urinalysis and may result in deferral and/or request for re-evaluation.\""
+    "requirementText": "Which testing you need depends on your track. If you have had no ADHD symptoms, treatment, medication or instability in the past four years and no other psychiatric diagnosis, current or historical, the FAA's Fast Track is a records review and clinical interview with no test battery (the FAA allows one exception, for anxiety, depression and related conditions that qualify for their own Fast Track pathway). Testing can still be added: the FAA lists a battery as required if a clear determination cannot be reached on the Fast Track, if your AME or the evaluator has concerns, or if the FAA requests it. Otherwise you are on the Standard Track, where the FAA states the \"evaluation and testing must be performed IN-PERSON by a FAAR Neuropsychologist within 90 days of the AME exam.\" That 90-day clock is not Standard Track only: the ADHD Document Checklist, which the FAA says applies to \"both FAST TRACK and STANDARD TRACK,\" and the Fast Track report requirements both state that \"The evaluation and report must be performed within 90 days of the AME exam,\" so on either track the evaluation is timed to your exam rather than done early and held. The FAA does not publish the test list. It states the \"testing specifications required by the FAA are listed on an FAA secure site used by professionals with training regarding the specifications,\" so your FAAR Neuropsychologist obtains them directly and there is no public battery for you to look up. Standard Track testing also requires a drug screen, and the timing is unforgiving: \"complete a urinalysis for amphetamines and methylphenidate within 24 hours after completing testing.\" Set the lab order up before your testing day. The FAA tells pilots to \"verify if the evaluating FAAR Neuropsychologist has the ability to order the urinalysis,\" because that varies by state, and if not to \"coordinate with your AME or your primary care physician to order the laboratory test.\" Order both tests, because the FAA warns \"they are two different tests/different test batteries,\" and get the lab paperwork itself, because \"actual laboratory results are required (not clinical summary of results)\" and \"testing data cannot be used without the supporting urinalysis and may result in deferral and/or request for re-evaluation.\""
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -803,11 +803,11 @@
     "envelope": {
       "code": "si-adhd-specialist-eval",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA ADHD Document Checklist",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_document_checklist.pdf"
     },
-    "requirementText": "This is the evaluator's report, and the FAA is specific about who writes it and what must reach them first. On the Fast Track the evaluator is a \"doctoral level (PhD or PsyD) psychologist or neuropsychologist with training and experience in the evaluation of ADHD.\" On the Standard Track it must be an FAA HIMS Neuropsychologist. The FAA's ADHD Document Checklist lists what you send that evaluator before the appointment: pharmacy records within the last four years; medical records for the ADHD diagnosis and treatment; records from any psychiatrist, psychologist, therapist, school counselor, education specialist or teacher, speech therapist or occupational therapist; records for any non-ADHD condition treated with an ADHD medication; driver's license records from every state that licensed you in the past four years; academic records including all transcripts through your highest grade or degree, any Section 504 Plan, any IEP and any record of academic or occupational accommodations; and a personal statement, \"typed, signed, and dated,\" covering every item on the FAA ADHD Personal Statement Guidelines. The FAA adds: \"make a copy of all the records above as you will also need to bring a copy to your AME to upload into your FAA record.\" The evaluation and the report are both on a 90-day clock: \"The evaluation and report must be performed within 90 days of the AME exam.\" If the evaluator asks for your entire FAA medical file, FAA Form 8065-2 has the agency send those records directly to the psychologist or neuropsychologist. On the Fast Track, also ask the evaluator to complete the FAA ADHD Summary form; the FAA says it is \"NOT required, however, it will help to streamline and significantly DECREASE FAA review time.\" Read that against the disposition table, because leaving it out changes which row you are in rather than just how fast the mail moves. Row A is the ISSUE row, and its own note reads: \"If FAA ADHD Summary is not provided, any 'YES' answers, any AME concerns, or unable to verify history, go to Row B.\" Row B is DEFER, and it \"requires HIMS neuropsychology evaluation and testing\" completed \"in person by a HIMS neuropsychologist.\" The FAA's Fast Track sheet also tells you to coordinate with your AME so everything is uploaded to the FAA within 14 days, and warns that \"partial or incomplete packages will NOT be reviewed and will cause a DELAY.\""
+    "requirementText": "This is the evaluator's report, and the FAA is specific about who writes it and what must reach them first. On the Fast Track the evaluator is a \"doctoral level (PhD or PsyD) psychologist or neuropsychologist with training and experience in the evaluation of ADHD.\" On the Standard Track, the FAA states \"Standard Track evaluation must be completed by an FAA Recognized (FAAR) Neuropsychologist.\" The FAA's ADHD Document Checklist lists what you send that evaluator before the appointment: pharmacy records within the last four years; medical records for the ADHD diagnosis and treatment; records from any psychiatrist, psychologist, therapist, school counselor, education specialist or teacher, speech therapist or occupational therapist; records for any non-ADHD condition treated with an ADHD medication; driver's license records from every state that licensed you in the past four years; academic records including all transcripts through your highest grade or degree, any Section 504 Plan, any IEP and any record of academic or occupational accommodations; and a personal statement, \"typed, signed, and dated,\" covering every item on the FAA ADHD Personal Statement Guidelines. The FAA adds: \"make a copy of all the records above, as you will also need to bring a copy to your AME to upload into your FAA record.\" The evaluation and the report are both on a 90-day clock: \"The evaluation and report must be performed within 90 days of the AME exam.\" If the evaluator asks for your entire FAA medical file, FAA Form 8065-2 has the agency send those records directly to the psychologist or neuropsychologist. On the Fast Track, also ask the evaluator to complete the FAA ADHD Summary form; the FAA says it is \"NOT required, however, it will help to streamline and significantly DECREASE FAA review time.\" Read that against the disposition table, because leaving it out changes which row you are in rather than just how fast the mail moves. Row A is the ISSUE row, and its own note reads: \"If FAA ADHD Summary is not provided, any 'YES' answers, any AME concerns, or unable to verify history, go to Row B.\" Row B is DEFER, and it \"requires evaluation and testing by a FAA Recognized Neuropsychologist (FAAR Neuropsychologist)\" completed \"in person by a FAAR Neuropsychologist.\" The FAA's Fast Track sheet also tells you to coordinate with your AME so everything is uploaded to the FAA within 14 days, and warns that \"partial or incomplete packages will NOT be reviewed and will cause a DELAY.\""
   },
   {
     "cadenceRaw": "everyExam",
@@ -1103,7 +1103,7 @@
     "envelope": {
       "code": "si-hims-sponsor-monthly",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
     },
@@ -1127,7 +1127,7 @@
     "envelope": {
       "code": "si-hims-aftercare",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
     },
@@ -1139,11 +1139,11 @@
     "envelope": {
       "code": "si-hims-psych-quarterly",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
     },
-    "requirementText": "This is a yearly report, not a quarterly one. The FAA's recertification checklist says a treating psychiatrist report or HIMS psychiatrist report is \"Required EVERY 12 months for ALL CLASSES unless a different time interval is specifically stated in the Authorization Letter,\" and the checklist lets the AME mark it \"Not Due\" at the alternate visit, since the HIMS AME evaluation comes around more often. The report should summarize the clinical findings and how you are doing, note any clinical concerns or changes in the treatment plan, give recommendations for additional treatment or monitoring, and state the psychiatrist's agreement to notify the FAA or your AME immediately if your condition changes. Interval treatment records such as clinic or hospital notes go with it, and like every report in the package it must be current within the last 90 days."
+    "requirementText": "This is a yearly report, not a quarterly one. The FAA's recertification checklist says \"TREATING PSYCHIATRIST REPORT or FAAR PSYCHIATRIST REPORT: Required EVERY 12 months for ALL CLASSES unless a different time interval is specifically stated in the Authorization Letter,\" and the checklist lets the AME mark it \"Not Due\" at the alternate visit, since the HIMS AME evaluation comes around more often. The report should summarize the clinical findings and how you are doing, note any clinical concerns or changes in the treatment plan, give recommendations for additional treatment or monitoring, and state the psychiatrist's agreement to notify the FAA or your AME immediately if your condition changes. Interval treatment records such as clinic or hospital notes go with it, and like every report in the package it must be current within the last 90 days."
   },
   {
     "cadenceRaw": "other",
@@ -1151,7 +1151,7 @@
     "envelope": {
       "code": "si-hims-ame-annual",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-08-14T00:00:00Z",
+      "lastVerified": "2026-11-21T13:33:39Z",
       "sourceCitation": "FAA Guide for Aviation Medical Examiners, HIMS AME Checklist, Drug and Alcohol Monitoring Recertification",
       "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_Drug_Alcohol_Monitoring_Checklist.pdf"
     },
