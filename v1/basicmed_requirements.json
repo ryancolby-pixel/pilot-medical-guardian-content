@@ -143,10 +143,10 @@
     "envelope": {
       "code": "basicmed-not-advice",
       "sourceCitation": "Pilot Medical Guardian",
-      "lastVerified": "2026-11-11T12:41:18Z",
+      "lastVerified": "2026-11-17T22:16:04Z",
       "contentVersion": "2026-07-05"
     },
     "cardTitle": "Information, not advice",
-    "body": "Pilot Medical Guardian is a record-keeping and information tool. It shows what the FAA requires, cites the section, and links you to the FAA's own source so you can read it yourself. It does not give medical advice, it is not FAA compliance certification, and it never tells you whether you qualify for BasicMed or whether you are fit to fly. Whether any requirement applies to you, and every eligibility and disclosure decision, is a determination for you and your physician. Your data stays encrypted on your own device and iCloud; the developer can never see it. Always confirm anything here against the current FAA source before you rely on it."
+    "body": "Pilot Medical Guardian is a record-keeping and information tool. It shows what the FAA requires, cites the section, and links you to the FAA's own source so you can read it yourself. It does not give medical advice, it is not FAA compliance certification, and it never tells you whether you qualify for BasicMed or whether you are fit to fly. Whether any requirement applies to you, and every eligibility and disclosure decision, is a determination for you and your physician. Your data is stored on your own device and synced only through your own iCloud; the developer can never see it. Always confirm anything here against the current FAA source before you rely on it."
   }
 ]
