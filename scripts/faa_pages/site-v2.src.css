@@ -310,3 +310,11 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
   .neutral { border-left-color: #000 !important; }
   .ame-t thead { position: static; width: auto; height: auto; clip: auto; }
 }
+
+/* Index "FAA sources checked" stamp (Ryan 11/21): its own line under the H1, easy to see */
+.stamp { display: inline-flex; align-items: flex-start; gap: 8px; margin: 12px 0 0; padding: 8px 14px; max-width: 68ch;
+  font-size: .9375rem; line-height: 1.45; color: var(--v-ink-2); background: var(--v-tint);
+  border: 1px solid var(--v-line); border-left: 3px solid var(--v-accent); border-radius: var(--v-r); }
+.stamp strong { color: var(--v-ink); font-weight: 650; }
+.stamp-i { flex: none; width: 16px; height: 16px; margin-top: 3px; fill: none; stroke: var(--v-accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+@media print { .stamp { border: 1px solid #000 !important; } }

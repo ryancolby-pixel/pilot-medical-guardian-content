@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261115a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261121a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""
@@ -61,11 +61,18 @@ def iso_nice(iso):
 def iso_short(iso):
     y, m, d = iso[:10].split("-"); return short_date(y, m, d)
 def checked_stamp(items, what):
+    # Index-page stamp, worded by Ryan 11/21 ("FAA sources checked [date range]. Dates on individual
+    # entries when the FAA provides one."), shown as its own line under the H1 so it reads at a glance.
     ds = sorted(x["envelope"]["lastVerified"][:10] for x in items)
     lo, hi = ds[0], ds[-1]
-    rng = iso_nice(lo) if lo == hi else f"{iso_nice(lo)} and {iso_nice(hi)}"
-    word = "on" if lo == hi else "between"
-    return f'<p class="src-meta">I checked every {what} against the FAA source {word} {rng}. Each {what} shows its own dates.</p>'
+    if lo == hi:
+        rng = iso_nice(lo)
+    elif lo[:4] == hi[:4]:
+        y, m, d = lo.split("-"); rng = f"{MONTHS[int(m) - 1]} {int(d)} to {iso_nice(hi)}"
+    else:
+        rng = f"{iso_nice(lo)} to {iso_nice(hi)}"
+    return (f'<p class="stamp"><svg class="stamp-i" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>'
+            f'<span><strong>FAA sources checked {rng}.</strong> Dates on individual entries when the FAA provides one.</span></p>')
 def cap1(s): return s[:1].upper() + s[1:]
 def sort_key(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -212,7 +219,7 @@ def head_block(crumb_html, h1, sub=None, extra=""):
     <div class="wrap wide">
       {crumb_html}
       <h1>{h1}</h1>
-      {s}{extra}
+      {extra if 'class="stamp"' in extra else ""}{s}{"" if 'class="stamp"' in extra else extra}
     </div>
   </header>"""
 
