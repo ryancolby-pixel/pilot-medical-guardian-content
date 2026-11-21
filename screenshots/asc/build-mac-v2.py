@@ -92,7 +92,7 @@ SHOTS = [
     ("05-share-with-ame.png",   "SHARE WITH MY AME", "Your records in one PDF for your AME", 0.0),  # own window: its buttons sit in the bottom 6%
     ("06-my-medical.png",       "MY MEDICAL",        "Class 1, 2, 3 and BasicMed together"),
     ("07-health.png",           "HEALTH",            "Your readings beside the FAA threshold"),
-    ("08-faa-reference.png",    "FAA REFERENCE",     "The FAA's own words, with the source"),
+    ("08-faa-reference.png",    "FAA REFERENCE",     "FAA rules in plain words, with the source"),  # Ryan 11/20 (W56)
 ]
 
 WIN_H = 1424

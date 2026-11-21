@@ -148,6 +148,65 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-20 — iOS re-checked against the review-fix build (`review-fixes-ios` 67eb5c7f, contains next-ios); STAGED, NOT uploaded
+📦 **These ARE the release sets for iOS 2.4.2 (77) and Mac 1.3.1 (42).** The bumped tips (iOS `3538ef76` on main, Mac
+`e14baed3` on mac-companion) differ from the captured code (67eb5c7f / 161878c0) only in MARKETING_VERSION,
+CURRENT_PROJECT_VERSION and the ReleaseNotes version label, none of which appears in any slot (checked with git diff).
+Ryan 11/20 thought nothing changed; every slot was captured fresh and compared with the 11/18 shot by two independent
+judges per slot (one listing differences, one skeptic; date drift and small scroll offsets ignored). They agreed on all 24.
+Same setup as 11/18 (same three sims, fresh install, seeded once, `--time`). Only slots that changed were replaced:
+- **iPhone:** changed 1 Prep (new "MedXPress confirmation number" section on top, pushes Item 19 below the footer),
+  3 Item 18 (explanation box shows all 4 lines), 4 SI ("Tap a row to set a due date or reminder."), 5 PDF preview (Contents
+  order: Item 18 before Visits, W46), 6 My Medical (Next exam "Same as required (Class 1)"), 7 Health (60 to 160 scale, one
+  combined BP FAA row, "Show all 4 readings"), 8 FAA Reference (heading "Summary of the FAA source", title "systolic and
+  diastolic"). **Kept 2 Home.**
+- **iPad:** changed 1 Prep, 2 Home (Explore the app above "How this app protects", Autofill row gone), 3 Item 18 (short intro),
+  4 SI (down chevrons, footer), 5 Share sheet (title "Share with AME/FAA", "Preview", new "Special Issuance exam only" row),
+  6 My Medical (class privilege rows + ICAO block on the card), 7 Health. **Kept 8 FAA Reference (identical).**
+- **Duo inner:** changed 1 Prep, 4 SI, 6 My Medical, 7 Health, 8 FAA Reference (renamed starter question, new footer).
+  **Kept 2 Home, 3 Item 18, 5 PDF preview** (the Contents line change is unreadable at this size).
+- **Duo outer and header asset:** not touched (Duo outer is not uploaded; Home is unchanged).
+- In-app wording on these slots is FINAL: W56, the S15 names and the 5a row were in the 11/19 wording batch Ryan approved
+  ("Approve, keep OTC line", FEEDBACK.md 11/19). No re-takes for them.
+- ✅ **Slot 8 headline flipped (Ryan 11/20 wording call): "FAA rules in plain words, with the source"**, replacing the
+  quoted-words headline that W56 retracted. Changed together: `build-mobile-v2.py`, `build-mac-v2.py`, docs
+  `LAUNCH_ASC_DRAFTS.md` table, and the index.html faa-reference alt text. Slot 8 re-baked on iphone-v2, iphone-69-v2,
+  ipad-v2, duo-outer-v2, duo-inner-v2 (nothing else changed). `mac-v2/08` still carries the old headline until the Mac pass
+  re-runs `build-mac-v2.py`. On iPhone and Duo outer "source" sits alone on line 2, as slots 1 and 7 already do with
+  "down" and "threshold" (greedy wrap; balancing is Ryan's style call).
+- Website staged (cache keys `?v=20261120`): medxpress, si, health, faa-reference, documents, basicmed. home.webp kept.
+- ✅ **Mac set re-captured 11/20 from the final `review-fixes-mac` 161878c0** (Option A sidebar: normal rows; Application
+  Details, Doctors and Turn On MedXPress Autofill gone from the sidebar; fit pass: tighter headings, one-line FAA status bar).
+  All 8 slots, every raw checked for the active look (red close button). `-PMGStartLeaf item18` no longer exists in this build:
+  slot 3 is reached by a sidebar click, then Tab moves focus so 18h draws in active blue (same for the Health metric row).
+  slot 8 carries Ryan's new headline. Website `mac-medxpress.webp` re-encoded, cache key `?v=20261120` (the 11/18 miss is
+  fixed); its alt text still matches the shot (Items 1 to 16 tab open), so it was not changed. Ryan's OK to bring the window
+  forward (asked again 11/20). He went full screen once mid-pass; the window was put back and that slot re-taken.
+  ⚠️ **Mac Debug + `-PMGSeedDemoData` writes REAL settings:** the seeder set `flyingPathway` = both and the Prep tab
+  click set `medxpressPrepItem` (plus 2 StoreKit timestamps). Restored from a full `defaults export` taken before the run;
+  diff = none after. Restore doubles with `defaults write <domain> <key> '<real>N</real>'` (`-float` truncates).
+  Do the full export/diff every Mac pass, not just the five Pro/review keys.
+
+### 2026-11-18 — STAGED on branch `shots-next-2x-1x` (NOT uploaded): next iOS 2.x / Mac 1.x polish pass
+Builds: `next-ios` a14abea6 and `next-mac` c86f0b66, Debug, from detached worktrees. Same setup as 11/13 (fresh install,
+`-PMGSeedDemoData` once, `-compedPro YES -PMGHidePCRows YES`, `--time 9:41`, iPad `2026-11-13T14:41:00.000Z`). Home now reads
+255 days (date drift, not a UI change). "Changed" = the screen visibly differs from the 11/13 raw; "kept" = same apart from dates.
+- **iPhone (iPhone 17 sim, 27.2):** changed 1 Prep (Item 18/19 icons), 2 Home (prep card icon, one-line counts), 3 Item 18
+  (card icons), 4 SI (title truncates, new ... menu), 6 My Medical (darker caption gray only), 7 Health (one-color chart, row
+  chevrons). Kept 5 (PDF preview; the PDF builder is untouched) and 8 (pixel-identical once a 33 px scroll offset is aligned).
+- **iPad (iPad Pro 13" M5, 27.2): all 8 re-taken.** 7 changed (8500 "Import a saved application" row on Prep, sentence-case
+  headings, Share rows reordered, small blue Connect, one-color chart). Slot 8 (FAA search sheet) is unchanged in the app but was
+  re-taken so the set matches: the 27.2 runtime draws the app name in the iPad status bar and a full-height sidebar.
+- **Duo (iPhone Duo sim E4C2CCC4, 27.1; poses set with the simulator tool, no Device Hub needed):** outer changed 1, 2, 3, 4, 6,
+  7 (kept 5 and 8, same views as iPhone). Health now keeps its "Health" title bar while scrolled, so the BP card sits under it.
+  **Inner: all 8 new in the 11/13 order** (first complete inner set since 10/16; slot 5 = PDF preview, legible at this width).
+- **Mac (Debug, light, screenshot store, `-PMGStartLeaf` + background AX clicks, window brought forward per capture with Ryan's
+  OK): all 8 changed.** Sidebar Find an AME icon (7 of 8), redesigned Prep, title-case buttons, "About This Screen",
+  "Your authorization", Share window uses checkboxes. 18h row active blue (one Tab moved focus off the sidebar).
+- **Header asset** rebuilt from `header/home-255-raw.png` (certificate-only on My Medical): 255 / expires Jul 31, 2027.
+- Website images staged on the same branch: home, medxpress, si, health, documents, basicmed, mac-medxpress (cache keys
+  `?v=20261118`). faa-reference and renewal-countdown unchanged. Headlines: all 8 still match their screens.
+
 ### 2026-11-13 — NEW ORDER, 8 slots: iPhone, iPad and Duo outer re-captured for iOS 2.4.0 (70)
 Ryan 11/13 (UX review section 9 item 1): "autofill slot first and a Share with my AME slot 5, same order on every set".
 Order: **1 MedXPress Prep · 2 Home · 3 Item 18 · 4 Special Issuance · 5 Share with my AME · 6 My Medical · 7 Health ·

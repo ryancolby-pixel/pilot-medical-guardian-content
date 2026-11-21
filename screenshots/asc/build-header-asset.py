@@ -34,10 +34,12 @@ WHITE = (255, 255, 255)
 # iPhone 17 sim (same 1206x2622 as the 17 Pro), demo data, certificate-only pathway chosen on My
 # Medical (no seeder edit this time), 9:41. The number and date are the ones the captured screen
 # shows that day; they must always match the phone in the picture.
-RAW = "home-260-raw.png"           # 10/06 source kept beside it: home-267-raw.png
-CARD_BOTTOM_RAW = 1509             # bottom of the MedXPress prep card in RAW (10/06 raw: 1846)
+# 2026-11-18 re-capture for the next 2.x (polish pass: new MedXPress prep icon, one-line counts), same
+# setup, next-ios a14abea6. 11/13 source kept beside it: home-260-raw.png.
+RAW = "home-255-raw.png"           # 10/06 source kept beside it: home-267-raw.png
+CARD_BOTTOM_RAW = 1448             # bottom of the MedXPress prep card in RAW (11/13 raw: 1509, 10/06 raw: 1846)
 PHONE_SCALE = (1430 - 700) / 1846  # the 10/06 phone size, so the text column keeps its width
-DAYS, EXPIRES = "260", "expires Jul 31, 2027"
+DAYS, EXPIRES = "255", "expires Jul 31, 2027"
 
 
 def font(size, weight):
