@@ -148,6 +148,31 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-22 — In-app fill ("Fill MedXPress"): STAGED on branch `shots-inapp-fill`, NOT uploaded, NOT live (Ryan reviews the art)
+Marketing's job (Ryan 11/22 via Support). Builds: `inapp-fill-ios` 81f63c0d and `inapp-fill-mac` 2c2196a3, Debug (the
+project-level Debug configuration defines `PMG_INAPP_FILL`), same sims and setup as 11/20 (fresh install, `-PMGSeedDemoData`
+once, `-compedPro YES`, `--time`). The FAA web view and the Share with AME screen appear in no shot.
+- **Slot 1 MedXPress Prep, re-taken on iPhone, iPad, Duo inner, Mac.** iOS bar: Fill MedXPress (filled), Autofill on a
+  PC, More ways to fill. Mac: "Ready to fill MedXPress" replaces the setup card; bar Share with AME/FAA, More Ways to Fill,
+  Fill MedXPress (default). iPhone and Duo inner are scrolled so all four form rows (Items 1 to 19) clear the taller bar (the
+  intro line sits under the title; on Duo inner the page title scrolls off). Headline unchanged, still true.
+- ⚖️ **"Autofill on a PC" is SHOWN now.** The live manifest has `windowsSetupLive: true` since 11/14, so store pilots see it;
+  the 11/18 and 11/20 Prep shots hid it with `-PMGHidePCRows YES`. Variants without it (raws only) are in
+  `variants-inapp-fill/` if Ryan prefers the one-button look; swap the raw and re-run the script.
+- **Also changed by this build, re-taken:** Mac slot 2 Home (toolbar "Fill MedXPress" instead of "Open MedXPress in Safari";
+  What's next is now the CACI worksheet step, the autofill step is gone) and iPad slot 2 Home (What's next "Step 2 of 4",
+  was "of 5"). iPhone and Duo inner Home don't show What's next: unchanged. Header asset unchanged (its Home prep card is
+  identical; the drawn line "MedXPress, filled from your own records." still holds).
+- 🔧 **iPad bottom trim 5% to 2%** (`build-mobile-v2.py`): 5% cut the new Prep bar in half. 2% still drops the home
+  indicator; all 8 iPad images re-baked from the same raws so every device frame stays 1717 px wide. iPad slot 5 is only
+  re-cropped (no new Share capture).
+- Duo outer set NOT touched (not uploaded; its slot 1 now shows the old bar).
+- Website: `medxpress.webp` and `mac-medxpress.webp` re-encoded, cache keys `?v=20261122`; iPhone alt text now ends "with the
+  Fill MedXPress button pinned at the bottom" (it said "Open MedXPress in Safari", already stale since 11/18). Mac alt still
+  accurate. Marketing stages the page copy on `inapp-fill-web`; these two index.html lines (624, 648) live here.
+- Mac run: window brought forward with Ryan's OK (11/22). Seeder again set real `flyingPathway` = both; restored from a full
+  export, diff = none. Extension list = /Applications only.
+
 ### 2026-11-20 — iOS re-checked against the review-fix build (`review-fixes-ios` 67eb5c7f, contains next-ios); STAGED, NOT uploaded
 📦 **These ARE the release sets for iOS 2.4.2 (77) and Mac 1.3.1 (42).** The bumped tips (iOS `3538ef76` on main, Mac
 `e14baed3` on mac-companion) differ from the captured code (67eb5c7f / 161878c0) only in MARKETING_VERSION,
