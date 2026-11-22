@@ -175,7 +175,7 @@
         "depression",
         "ssri"
       ],
-      "why": "si-ssri is 'Depression / anxiety on an approved SSRI'",
+      "why": "si-ssri is 'Depression / anxiety on an approved antidepressant'; 'ssri' stays an alias so pilots who type it still find the condition (Ryan 11/22)",
       "confidence": "high",
       "weight": 1.0
     },
