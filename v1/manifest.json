@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-11-21.2",
-  "generatedAt": "2026-11-21T19:03:39Z",
+  "contentVersion": "2026-11-22.1",
+  "generatedAt": "2026-11-22T15:52:05Z",
   "windowsSetupLive": true,
   "files": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "filename": "disposition_tables.json",
-      "size": 164154,
-      "checksum": "2472956cd845b83419d4f6ef814dee67105ddcbf6f6a43f5dc3b7c82897bf222"
+      "size": 168011,
+      "checksum": "8100c538e794d6bc5cc1bf20b2403e620a5a8e0dcb18b58df5a6db2993f46c7b"
     },
     {
       "filename": "faa_submission_addresses.json",
@@ -45,8 +45,8 @@
     },
     {
       "filename": "medications.json",
-      "size": 1003096,
-      "checksum": "735fb266ba2a7f116f9230e1ead4d53645faea157b9f4f52cbf795e32a6e5fc4"
+      "size": 992459,
+      "checksum": "1f67748f3e085d354edecff76a1733d358fa990c574791026625fd1048d42db3"
     },
     {
       "filename": "regulation_notices.json",

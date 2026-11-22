@@ -1,6 +1,24 @@
 [
   {
     "envelope": {
+      "code": "dispo-aasi-anxiety-depression-related-conditions",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: AASI for Anxiety, Depression, and Related Conditions (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Anxiety_Depression_Related_Conditions.pdf"
+    },
+    "title": "AASI for Anxiety, Depression, and Related Conditions",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-acousticneuromasdispositiontable",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -91,24 +109,6 @@
   },
   {
     "envelope": {
-      "code": "dispo-ssri-follow-up-path",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Airman SSRI Follow-Up Path for the HIMS AME",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Follow_Up_Path.pdf"
-    },
-    "title": "Airman SSRI Follow-Up Path for the HIMS AME",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": null,
-    "dateWord": null
-  },
-  {
-    "envelope": {
       "code": "dispo-allergies-anaphylaxis",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -181,6 +181,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-ame-mental-health-quick-decision-guide",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: AME Mental Health Quick Decision Guide (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/AME_Mental_Health_Quick_Decision_Guide.pdf"
+    },
+    "title": "AME Mental Health Quick Decision Guide",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-als",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -199,56 +217,128 @@
   },
   {
     "envelope": {
-      "code": "dispo-anxiety-depression-decision-tool",
+      "code": "dispo-antidepressant-initial-document-checklist",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Decision Tool for the AME (updated 09/25/2024)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Decision_Tool.pdf"
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Antidepressant Initial Document Checklist (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Initial_Document_Checklist.pdf"
     },
-    "title": "Anxiety, Depression, and Related Conditions Decision Tool for the AME",
+    "title": "Antidepressant Initial Document Checklist",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2024-09-25",
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
     "envelope": {
-      "code": "dispo-anxiety-depression-disposition-table",
+      "code": "dispo-dispo-table-antidepressant-meds-non-mental-health",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Disposition Table (updated 06/26/2024)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Disposition_Table.pdf"
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Antidepressant Medication for Non-Mental Health Conditions Disposition Table (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Antidepressant_Meds_Non_Mental_Health.pdf"
     },
-    "title": "Anxiety, Depression, and Related Conditions Disposition Table",
+    "title": "Antidepressant Medication for Non-Mental Health Conditions Disposition Table",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2024-06-26",
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
     "envelope": {
-      "code": "dispo-anxiety-depression-fast-track-pathway",
+      "code": "dispo-antidepressant-medications",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-13T15:31:35Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions Fast Track Pathway (updated 09/25/2024)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Fast_Track_Pathway.pdf"
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Antidepressant Medications (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
-    "title": "Anxiety, Depression, and Related Conditions Fast Track Pathway",
+    "title": "Antidepressant Medications",
     "examItems": [
       "47"
     ],
     "item18Codes": [
       "item18-mental"
     ],
-    "updated": "2024-09-25",
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-anxiety-depression-off-treatment",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions (Off Treatment) Disposition Table (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Anxiety_Depression_OFF_Treatment.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions (Off Treatment) Disposition Table",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-anxiety-depression-off-treatment-fast-track-for-ame",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions (Off Treatment) Fast Track Pathway for the AME (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_OFF_Treatment_FAST_Track_for_AME.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions (Off Treatment) Fast Track Pathway for the AME",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-dispo-table-anxiety-depression-on-treatment",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions (On Treatment) (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Dispo_Table_Anxiety_Depression_ON_Treatment.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions (On Treatment)",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-anxiety-depression-related-conditions-list",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Anxiety, Depression, and Related Conditions List (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Related_Conditions_List.pdf"
+    },
+    "title": "Anxiety, Depression, and Related Conditions List",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
     "dateWord": "Updated"
   },
   {
@@ -1010,24 +1100,6 @@
   },
   {
     "envelope": {
-      "code": "dispo-ssrimedsspecs",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications (updated 01/29/2020)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf"
-    },
-    "title": "Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2020-01-29",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
       "code": "dispo-dystonia",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -1096,24 +1168,6 @@
       "item18-mental"
     ],
     "updated": "2026-11-18",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
-      "code": "dispo-ssri-recertification-aid",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: FAA Certification Aid - SSRI Recertification/Follow-Up Clearance (updated 08/26/2026)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf"
-    },
-    "title": "FAA Certification Aid - SSRI Recertification/Follow-Up Clearance",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2026-08-26",
     "dateWord": "Updated"
   },
   {
@@ -1511,6 +1565,24 @@
     ],
     "updated": null,
     "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-info-for-psychotherapists-treating-pilots-atcs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Information for Psychotherapists Treating Pilots and ATCS (updated 06/24/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Info_for_Psychotherapists_Treating_Pilots_ATCS.pdf"
+    },
+    "title": "Information for Psychotherapists Treating Pilots and ATCS",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-06-24",
+    "dateWord": "Updated"
   },
   {
     "envelope": {
@@ -3462,6 +3534,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-mental-health-history-checklist",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Mental Health History Checklist (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Mental_Health_History_Checklist.pdf"
+    },
+    "title": "Mental Health History Checklist",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-middle-ear-abnormalities",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -3880,6 +3970,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-pilot-information-anxiety-depression-on-treatment",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Pilot Information: Certification Steps for Anxiety, Depression, and Related Conditions (On Treatment) (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pilot_Information_Anxiety_Depression_ON_Treatment.pdf"
+    },
+    "title": "Pilot Information: Certification Steps for Anxiety, Depression, and Related Conditions (On Treatment)",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-dispo-table-pituitary-adenoma",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-17T16:12:25Z",
@@ -4278,60 +4386,6 @@
   },
   {
     "envelope": {
-      "code": "dispo-ssri-decision-path-i",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Decision Path I (updated 08/27/2025)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-I.pdf"
-    },
-    "title": "SSRI Decision Path I",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2025-08-27",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
-      "code": "dispo-ssri-decision-path-ii",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Decision Path-II (updated 12/03/2025)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-II.pdf"
-    },
-    "title": "SSRI Decision Path-II",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2025-12-03",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
-      "code": "dispo-ssri-recert-np-change-faqs",
-      "contentVersion": "2026.0",
-      "lastVerified": "2026-10-17T16:12:25Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: SSRI Recertification - Neuropsychological Report Changes and FAQs (updated 12/28/2022)",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/SSRI_Recert_NP_change_FAQs.pdf"
-    },
-    "title": "SSRI Recertification - Neuropsychological Report Changes and FAQs",
-    "examItems": [
-      "47"
-    ],
-    "item18Codes": [
-      "item18-mental"
-    ],
-    "updated": "2022-12-28",
-    "dateWord": "Updated"
-  },
-  {
-    "envelope": {
       "code": "dispo-stroke-cva-tia",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",
@@ -4394,6 +4448,24 @@
       "sourceURL": "https://www.faa.gov/ame_guide/media/Therapy_Psychotherapy_Counseling_Info_Pilots_ATCS.pdf"
     },
     "title": "Therapy, Psychotherapy, and Counseling",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-05-27",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
+      "code": "dispo-therapy-psychotherapy-and-counseling-faqs-for-pilots-and-atcs",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Therapy, Psychotherapy, and Counseling FAQs for Pilots and ATCS (updated 05/27/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Therapy_Psychotherapy_And_Counseling_FAQs_For_Pilots_And_ATCS.pdf"
+    },
+    "title": "Therapy, Psychotherapy, and Counseling FAQs for Pilots and ATCS",
     "examItems": [
       "47"
     ],
@@ -4493,6 +4565,24 @@
     ],
     "updated": null,
     "dateWord": null
+  },
+  {
+    "envelope": {
+      "code": "dispo-navigating-faa-mental-health-evaluators",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Who Do I Need to See? Navigating FAA Mental Health Evaluators (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Navigating_FAA_Mental_Health_Evaluators.pdf"
+    },
+    "title": "Who Do I Need to See? Navigating FAA Mental Health Evaluators",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
   },
   {
     "envelope": {
