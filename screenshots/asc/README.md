@@ -148,6 +148,18 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-22 (later) — iOS 2.5.0 / Mac 1.4.0: demo AME renamed; slots 5 and 6 re-taken on all four sets, uploaded to ASC
+From `inapp-fill-ios` 0abf287e / `inapp-fill-mac` cbfd1361 (Support; Ryan: "upload them to ASC", confirmed in this session).
+The Share placeholder is now "e.g. Dr. Jane Doe, MD" and the demo certificate's AME is "Dr. Doe" (both were a real AME's name).
+- **Changed, replaced:** slot 5 (iPhone and Duo inner: the PDF preview's AME line; iPad and Mac: the Share placeholder) and slot
+  6 My Medical (AME row) on iPhone 6.9, iPad, Duo inner and Mac. **Unchanged:** slot 4 SI on every set (only a due date moved;
+  the SI wording changes are in the antidepressant condition, not the hypertension one in the shot), slot 8 on iPhone
+  (pixel-identical); iPad / Duo / Mac slot 8 re-checked on the round 3 final tips.
+- Website `documents.webp`/`.png` (the Share sheet) re-encoded, `?v=20261122`.
+- ⚠️ Not a screenshot, flagged: the public `ame-sample.pdf` still shows "AME: Dr. Patel".
+- ⚠️ Sim state: after the earlier runs the iPhone and Duo sims drew the home-indicator pill in captures; a sim reboot cleared it.
+  Check the bottom of a raw before baking.
+
 ### 2026-11-22 — In-app fill ("Fill MedXPress"): STAGED on branch `shots-inapp-fill`, NOT uploaded, NOT live (Ryan reviews the art)
 Marketing's job (Ryan 11/22 via Support). Builds: `inapp-fill-ios` 81f63c0d and `inapp-fill-mac` 2c2196a3, Debug (the
 project-level Debug configuration defines `PMG_INAPP_FILL`), same sims and setup as 11/20 (fresh install, `-PMGSeedDemoData`
