@@ -5,7 +5,8 @@ disappears. The phone is a blur. The MedXPress line is gone." So search gets its
 (`build-header-asset.py`, unchanged). In ASC: uncheck "Use header asset in search results" and upload this on the
 Search Results tab, which accepts 5244 x 2950, 3840 x 2560 or 1920 x 1280.
 
-Spec, exact: blue field #1C66D9, white type. 267, large. Under it: Days remaining / Class 1 medical / expires Jun 30, 2027.
+Spec, exact: blue field #1C66D9, white type. The number, large. Under it: Days remaining / Class 1 medical / expires <date>.
+(Was 267 / Jun 30, 2027 on 10/07; since 11/22 DAYS and EXPIRES below, matching the header asset.)
 Under the date, ONE line: "MedXPress, filled from your own records." No phone, no Mac, no second feature, no price, URL,
 FAA approval, fit-to-fly wording or em dash.
 
@@ -19,7 +20,11 @@ type on the asset is that line, at about 4% of the asset's width.
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-OUT = os.path.expanduser("~/pilot-medical-guardian-content/screenshots/asc/search")
+# 11/22: the script's own folder (the old hard-coded ~/pilot-medical-guardian-content path wrote into the main checkout
+# from any worktree, the same trap build-header-asset.py hit on 11/13).
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search")
+# The number and date match the header asset (build-header-asset.py DAYS, EXPIRES) so search and product page agree.
+DAYS, EXPIRES = "255", "expires Jul 31, 2027"
 SF = "/System/Library/Fonts/SFNS.ttf"
 BLUE = (0x1C, 0x66, 0xD9)
 WHITE = (255, 255, 255)
@@ -51,7 +56,7 @@ def draw_stack(canvas, box):
     line_f = font(s, 600)
     rows = [("Days remaining", font(s * 1.30, 600), s * 0.45),
             ("Class 1 medical", font(s * 1.06, 440), s * 0.32),
-            ("expires Jun 30, 2027", font(s * 1.06, 440), s * 0.70),
+            (EXPIRES, font(s * 1.06, 440), s * 0.70),
             (LINE, line_f, 0)]
     rows_h = sum(f.getbbox(t)[3] - f.getbbox(t)[1] + g for t, f, g in rows)
 
@@ -61,15 +66,15 @@ def draw_stack(canvas, box):
     big_s = 3000
     while True:
         bf = font(big_s, 700)
-        bb = bf.getbbox("267")
-        if bb[3] - bb[1] <= avail and d.textlength("267", font=bf) <= width:
+        bb = bf.getbbox(DAYS)
+        if bb[3] - bb[1] <= avail and d.textlength(DAYS, font=bf) <= width:
             break
         big_s -= 2
-    bb = bf.getbbox("267")
+    bb = bf.getbbox(DAYS)
     total = (bb[3] - bb[1]) + gap_after_big + rows_h
     y = y0 + (bh - total) / 2
     x = x0 + mx
-    d.text((x - bb[0] * 0.5, y - bb[1]), "267", font=bf, fill=WHITE)
+    d.text((x - bb[0] * 0.5, y - bb[1]), DAYS, font=bf, fill=WHITE)
     y += (bb[3] - bb[1]) + gap_after_big
     for text, f, gap in rows:
         b = f.getbbox(text)
@@ -86,7 +91,7 @@ def build(w, h, box, name):
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, name)
     c.save(path, optimize=True)
-    print(f"wrote {name} {c.size} line {info['line_px']}px ({info['line_px'] / (box[2] - box[0]):.1%} of box width), 267 at {info['big_px']}px")
+    print(f"wrote {name} {c.size} line {info['line_px']}px ({info['line_px'] / (box[2] - box[0]):.1%} of box width), number at {info['big_px']}px")
     return c
 
 
