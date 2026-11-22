@@ -148,6 +148,14 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-22 — Header and Search Results assets replaced on the iOS 2.5.0 page (Ryan: "Your call")
+ASC still showed the 10/06 "267 / expires Jun 30, 2027" header (old Home with the logo) and search asset; the 11/13 and 11/18
+rebuilds had never been uploaded. Uploaded `header/pmg-universal-5244x2950.png` (255 / Jul 31, 2027, current Home card, which
+is unchanged in 2.5.0) to Header, and `search/pmg-search-3840x2560.png` to Search Results, rebuilt to match it:
+`build-search-asset.py` now takes DAYS / EXPIRES (same values as the header script) and writes to its own folder (it was
+hard-coded to the main checkout). ASC auto-saved both. The macOS page has no header or search slot.
+⇒ When the header's Home re-capture changes DAYS / EXPIRES, change both scripts and upload both assets.
+
 ### 2026-11-22 — 🚨 ASC iPhone boxes: the Face ID (6.5") box is now EMPTY on purpose (Ryan: "Yes, fix it")
 The REQUIRED "iPhone with Dynamic Island (medium display)" box (6.1"/6.3", most iPhones) has no assets of its own: it shows
 "Using Existing Assets". On the 2.5.0 page it was borrowing the "iPhone with Face ID (large display)" box, which still held an OLD
