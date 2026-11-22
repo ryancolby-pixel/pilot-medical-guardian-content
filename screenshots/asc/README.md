@@ -148,6 +148,16 @@ still holds and this shot does not violate it.
 
 ### The eight slots (order since 2026-11-13), and what is actually IN frame
 
+### 2026-11-22 — 🚨 ASC iPhone boxes: the Face ID (6.5") box is now EMPTY on purpose (Ryan: "Yes, fix it")
+The REQUIRED "iPhone with Dynamic Island (medium display)" box (6.1"/6.3", most iPhones) has no assets of its own: it shows
+"Using Existing Assets". On the 2.5.0 page it was borrowing the "iPhone with Face ID (large display)" box, which still held an OLD
+`iphone-v2` upload (Home first, 260 days, old Prep bar, Dr. Patel), so most iPhone shoppers saw stale art while the 6.9" box was
+current. Fix: removed those 8 (one at a time; that box had no preview of its own). Now the Face ID box and the 6.1"/6.3" box both
+borrow the 6.9" set (`iphone-69-v2`) in the right order, checked after a reload. Not re-uploaded `iphone-v2` on purpose: an empty
+box follows every future 6.9" update, so this cannot go stale again.
+⇒ **Upload `iphone-69-v2` only. Keep the Face ID box empty.** `iphone-v2` is still built by the script but is not uploaded.
+The same stale Face ID set may exist on the live 2.4.2 record; the 2.5.0 page is the one that ships next.
+
 ### 2026-11-22 (later) — iOS 2.5.0 / Mac 1.4.0: demo AME renamed; slots 5 and 6 re-taken on all four sets, uploaded to ASC
 From `inapp-fill-ios` 0abf287e / `inapp-fill-mac` cbfd1361 (Support; Ryan: "upload them to ASC", confirmed in this session).
 The Share placeholder is now "e.g. Dr. Jane Doe, MD" and the demo certificate's AME is "Dr. Doe" (both were a real AME's name).
