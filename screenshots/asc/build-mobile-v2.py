@@ -227,6 +227,6 @@ for outdir, cw, ch, srcdir, shots, corner, eb, hs, tp, sp, bp, tk in jobs:
         name = "%02d-%s" % (i, stem)
         dw, dh, nl = build(cw, ch, os.path.join(srcdir, fn), eyebrow, headline,
                            os.path.join(out, name), corner, eb, hs, tp, sp, bp, tk,
-                           fixed_lines=maxlines, bottom_crop=(0.05 if "ipad" in outdir else 0.0))
+                           fixed_lines=maxlines, bottom_crop=(0.02 if "ipad" in outdir else 0.0))  # iPad: 2% drops the home indicator; 5% cut the in-app Prep bar (11/22)
         print("  %-30s device %dx%d  headline lines=%d" % (name, dw, dh, nl))
 print("\ndone")
