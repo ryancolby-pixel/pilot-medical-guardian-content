@@ -145,20 +145,18 @@
     "envelope": {
       "code": "si-ssri",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-27T11:02:06Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Use of Antidepressant Medications (Antidepressant Protocol)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T14:46:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47. Psychiatric Conditions, Anxiety, Depression, and Related Conditions (last updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd"
     },
     "displayName": "Depression / anxiety on an approved antidepressant",
-    "summary": "Track your antidepressant (SSRI) Special Issuance. The first one goes through a HIMS AME and the FAA, and the AME cannot issue it; after that, HIMS AME and psychiatrist reports are due every 6 months while you stay on the medication.",
+    "summary": "Track your antidepressant Special Issuance: the first package, AASI recertification, and medication or dose changes, each quoted from the FAA's Item 47 documents. Your Authorization letter is the authority on your own schedule.",
     "pathGuidance": "",
     "requirementCodes": [
       "si-ssri-stability-period",
       "si-ssri-initial-package",
-      "si-ssri-monthly-checkin",
-      "si-ssri-physician-letter",
-      "si-ssri-specialist-eval",
-      "si-ssri-aasi-path"
+      "si-ssri-aasi-path",
+      "si-ssri-medication-changes"
     ]
   },
   {
