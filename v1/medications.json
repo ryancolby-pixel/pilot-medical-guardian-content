@@ -6862,13 +6862,13 @@
     ],
     "category": "NDRI antidepressant",
     "isCACI": false,
-    "faaStatusDescription": "The FAA states the AME may not issue for bupropion (Wellbutrin) SR/ER. As an antidepressant it lists SR/ER formulations ONLY as conditionally acceptable with a Special Issuance, used as a single agent.\n\nIts criteria include at least 3 continuous months clinically stable on a stable dose and a HIMS AME evaluation.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. As an antidepressant the FAA lists \"buproprion (Wellbutrin) SR/ER formulations ONLY\" under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\"\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".",
     "envelope": {
       "code": "med-bupropion-sr-er",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Item 47 Psychiatric: Use of Antidepressant Medications, with the Antidepressant Medications table (updated 08/27/2025)",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     },
     "faaStatus": "caseByCase"
   },
@@ -7103,14 +7103,14 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"citalopram (Celexa)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable with SI on its Antidepressant Medications page.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"citalopram (Celexa)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-citalopram",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -7349,13 +7349,13 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"desvenlafaxine (Pristiq)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"desvenlafaxine (Pristiq)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-desvenlafaxine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -7633,13 +7633,13 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"duloxetine (Cymbalta)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"duloxetine (Cymbalta)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-duloxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -7753,14 +7753,14 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"escitalopram (Lexapro)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable with SI on its Antidepressant Medications page.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"escitalopram (Lexapro)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-escitalopram",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -8140,14 +8140,14 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying depression/anxiety and its stability; this is one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"fluoxetine (Prozac; Sarafem)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying depression/anxiety and its stability; this is one of the four SSRIs the FAA lists as conditionally acceptable with SI on its Antidepressant Medications page.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"fluoxetine (Prozac; Sarafem)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-fluoxetine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -10126,14 +10126,14 @@
     "category": "SSRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable under the Antidepressant Protocol.",
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"sertraline (Zoloft)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "treatedConditionNote": "Concern is the underlying condition and its stability; one of the four SSRIs the FAA lists as conditionally acceptable with SI on its Antidepressant Medications page.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"sertraline (Zoloft)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-sertraline",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -11015,13 +11015,13 @@
     "category": "SNRI antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"venlafaxine (Effexor)\".\n\nOn Item 47 the FAA states \"The AME may not issue\" and that \"The Authorization decision is made on a case-by-case basis.\" Its criteria start with the diagnosis: \"The applicant has one of the following diagnoses: Major depressive disorder (mild to moderate) either single episode or recurrent episode\", \"Dysthymic disorder\", \"Adjustment disorder with depressed mood\", or \"Any non-depression related condition for which the SSRI is used\". Then \"For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms\"; the medication must be one of the conditionally acceptable ones, \"single use only; not in combination\"; and the applicant \"must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.\" It also requires that \"The applicant DOES NOT have symptoms or history of\" psychosis, suicidal ideation, electro convulsive therapy, treatment with multiple SSRIs concurrently, or multi-agent drug protocol use.\n\nStopping the medication before an exam is its own path, not a shortcut. Where an airman \"opts to discontinue use of the SSRI\", the FAA says \"the Examiner must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance\", and to reapply for regular issuance the applicant \"must be off the medication for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects\".\n\nThe FAA renamed this pathway the Antidepressant Protocol; older references to an SSRI protocol are \"considered encompassed in the Antidepressant Protocol\".\n\nConfirm against the current AME Guide and a qualified AME.",
+    "faaStatusDescription": "Conditional on a Special Issuance, and only as a single agent. The FAA lists it under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" It names the drug \"venlafaxine (Effexor)\".\n\nThe same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\".\n\nConfirm against the current AME Guide and a qualified AME.",
     "envelope": {
       "code": "med-venlafaxine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Item 47 Psychiatric Conditions, Use of Antidepressant Medications (last updated 12/03/2025); Antidepressant Medications table (updated 08/27/2025), CONDITIONALLY Acceptable Antidepressant Medications with SI",
-      "sourceURL": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
   {
@@ -11081,12 +11081,12 @@
     "category": "SSRI / 5-HT1A partial agonist antidepressant",
     "faaStatus": "caseByCase",
     "isCACI": false,
-    "faaStatusDescription": "The FAA lists vilazodone (Viibryd) under CONDITIONALLY Acceptable Antidepressant Medications with SI, used as a single agent, if otherwise qualified. Its policy states the Authorization decision is case by case and the AME may not issue. That is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "The FAA lists \"vilazodone (Viibryd)\" under \"CONDITIONALLY Acceptable Antidepressant Medications with SI\", \"Used as a single agent, if otherwise qualified.\" The same FAA Antidepressant Medications page says where to look next, by use: \"Mental health condition, see Anxiety, Depression, and Related Conditions\" and \"Non-mental health condition, see Antidepressant Medication for Non-Mental Health Conditions\". That is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-vilazodone",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T17:52:00Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (Updated 08/27/2025), CONDITIONALLY Acceptable with SI",
+      "lastVerified": "2026-11-22T15:13:15Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Antidepressant Medications table (updated 11/18/2026), CONDITIONALLY Acceptable Antidepressant Medications with SI",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf"
     }
   },
