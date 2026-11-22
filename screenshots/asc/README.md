@@ -156,9 +156,9 @@ once, `-compedPro YES`, `--time`). The FAA web view and the Share with AME scree
   PC, More ways to fill. Mac: "Ready to fill MedXPress" replaces the setup card; bar Share with AME/FAA, More Ways to Fill,
   Fill MedXPress (default). iPhone and Duo inner are scrolled so all four form rows (Items 1 to 19) clear the taller bar (the
   intro line sits under the title; on Duo inner the page title scrolls off). Headline unchanged, still true.
-- ⚖️ **"Autofill on a PC" is SHOWN now.** The live manifest has `windowsSetupLive: true` since 11/14, so store pilots see it;
-  the 11/18 and 11/20 Prep shots hid it with `-PMGHidePCRows YES`. Variants without it (raws only) are in
-  `variants-inapp-fill/` if Ryan prefers the one-button look; swap the raw and re-run the script.
+- ✅ **"Autofill on a PC" is SHOWN (Ryan 11/22: "Show it").** The live manifest has `windowsSetupLive: true` since 11/14, so
+  store pilots see it; the 11/18 and 11/20 Prep shots hid it with `-PMGHidePCRows YES`. 🚫 From now on, capture WITHOUT
+  `-PMGHidePCRows` (the flag only made sense before the Windows rows went live). The no-button variants were removed.
 - **Also changed by this build, re-taken:** Mac slot 2 Home (toolbar "Fill MedXPress" instead of "Open MedXPress in Safari";
   What's next is now the CACI worksheet step, the autofill step is gone) and iPad slot 2 Home (What's next "Step 2 of 4",
   was "of 5"). iPhone and Duo inner Home don't show What's next: unchanged. Header asset unchanged (its Home prep card is
