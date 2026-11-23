@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-11-23.1",
-  "generatedAt": "2026-11-23T21:26:35Z",
+  "contentVersion": "2026-11-23.2",
+  "generatedAt": "2026-11-23T22:51:32Z",
   "windowsSetupLive": true,
   "appUpdate": {
     "mac": {
@@ -10,6 +10,15 @@
         "Fill MedXPress now opens the FAA's MedXPress site right inside the app, with no Safari setup.",
         "Your records fill the form, and you review every answer and submit it yourself.",
         "Prefer Safari? It's still under More Ways to Fill."
+      ]
+    },
+    "ios": {
+      "version": "2.5.0",
+      "minimumOS": "18.6",
+      "notes": [
+        "Fill MedXPress now opens the FAA's MedXPress site right inside the app, with no Safari setup.",
+        "Your records fill the form, and you review every answer and submit it yourself.",
+        "Prefer Safari? It's still under More ways to fill."
       ]
     }
   },
