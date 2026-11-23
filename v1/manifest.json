@@ -1,7 +1,18 @@
 {
-  "contentVersion": "2026-11-22.1",
-  "generatedAt": "2026-11-22T15:52:05Z",
+  "contentVersion": "2026-11-23.1",
+  "generatedAt": "2026-11-23T21:26:35Z",
   "windowsSetupLive": true,
+  "appUpdate": {
+    "mac": {
+      "version": "1.4.0",
+      "minimumOS": "15.6",
+      "notes": [
+        "Fill MedXPress now opens the FAA's MedXPress site right inside the app, with no Safari setup.",
+        "Your records fill the form, and you review every answer and submit it yourself.",
+        "Prefer Safari? It's still under More Ways to Fill."
+      ]
+    }
+  },
   "files": [
     {
       "filename": "ame_directory.json",
