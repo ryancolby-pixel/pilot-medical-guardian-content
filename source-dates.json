@@ -2399,7 +2399,7 @@
    }
   },
   "https://www.faa.gov/ame_guide": {
-   "faaLastUpdated": "2026-10-28",
+   "faaLastUpdated": "2026-11-18",
    "entryCount": 1,
    "citedBy": {
     "si_conditions.json": [
@@ -2408,7 +2408,7 @@
    }
   },
   "https://www.faa.gov/ame_guide/": {
-   "faaLastUpdated": "2026-10-28",
+   "faaLastUpdated": "2026-11-18",
    "entryCount": 4,
    "citedBy": {
     "medications.json": [
