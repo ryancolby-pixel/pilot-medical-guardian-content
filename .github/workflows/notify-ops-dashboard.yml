@@ -65,18 +65,28 @@ jobs:
           # Up to three tries, 20 s apart (Ryan 2026-10-14: "just go ahead and do that"). One GitHub API 502
           # on 10/14 turned a successful Pages deploy's relay red and sent an email; the next relays went
           # through. Three straight failures is a broken relay and stays red.
-          for attempt in 1 2 3; do
-            if gh api -X POST repos/ryancolby-pixel/pilot-medical-guardian/dispatches \
+          # 2026-11-24 (Ryan: "WHy does it always say this"): 3 failures in 400 runs since 10/07, all GitHub's
+          # own network (10/14 HTTP 502, 11/24 three i/o timeouts in 40 s). Same rule, wider window: five
+          # tries over about 7.5 minutes (waits 15, 60, 135, 240 s), so a short GitHub outage no longer
+          # emails. A refusal (HTTP 401/403/404/422: token or target broken) is red at once, no retries.
+          for attempt in 1 2 3 4 5; do
+            if out=$(gh api -X POST repos/ryancolby-pixel/pilot-medical-guardian/dispatches \
                  -f event_type=ci-finished \
                  -F "client_payload[source]=$SOURCE" \
-                 -F "client_payload[result]=$RESULT"; then
+                 -F "client_payload[result]=$RESULT" 2>&1); then
               echo "Notified the dashboard: $SOURCE -> $RESULT (attempt $attempt)"
               exit 0
             fi
-            if [ "$attempt" -lt 3 ]; then
-              echo "::warning::Dashboard dispatch attempt $attempt failed; retrying in 20 s."
-              sleep 20
+            echo "$out"
+            if echo "$out" | grep -qE 'HTTP 4(01|03|04|22)'; then
+              echo "::error::Dashboard dispatch refused: the token or the target repo is broken."
+              exit 1
+            fi
+            if [ "$attempt" -lt 5 ]; then
+              wait=$((attempt * attempt * 15))
+              echo "::warning::Dashboard dispatch attempt $attempt failed; retrying in $wait s."
+              sleep "$wait"
             fi
           done
-          echo "::error::Dashboard dispatch failed 3 times."
+          echo "::error::Dashboard dispatch failed 5 times over about 7.5 minutes."
           exit 1
