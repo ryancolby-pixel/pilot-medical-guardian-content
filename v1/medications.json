@@ -176,12 +176,12 @@
     ],
     "category": "TNF blocker (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"adalimumab (Humira)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"adalimumab (Humira)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-adalimumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -190,7 +190,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -657,17 +657,17 @@
     ],
     "category": "Digestive enzyme + antispasmodic",
     "faaStatus": "acceptable",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. No wait listed after a dose.\n\nBrands: Kutrase\nUnderlying condition: Supplement\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"hyoscyamine - use 1-2 times a week with no side effects and no-fly 48 hours after use\".\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. No wait listed after a dose.\n\nBrands: Kutrase\nUnderlying condition: Supplement\nFrequency limit: Per label directions\nInitial and subsequent wait: None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide says \"medications with minimal systemic effects may be shortened.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"hyoscyamine - use 1-2 times a week with no side effects and no-fly 48 hours after use\".\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-amylase-lipase-protease-cellulase-hyoscyamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-03T00:03:26Z",
-      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -964,17 +964,17 @@
     ],
     "category": "Immunosuppressant (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"azathioprine (Imuran)\" under acceptable medications.\nColitis worksheet lists \"azathioprine (Imuran)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for azathioprine.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"azathioprine (Imuran)\" under acceptable medications.\nColitis worksheet lists \"azathioprine (Imuran)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for azathioprine.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-azathioprine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -1907,12 +1907,12 @@
     ],
     "category": "TNF blocker (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"certolizumab (Cimzia)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"certolizumab (Cimzia)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-certolizumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -1921,7 +1921,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -3455,12 +3455,12 @@
     ],
     "category": "TNF blocker (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"golimumab (Simponi)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"golimumab (Simponi)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-golimumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -3469,7 +3469,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -3565,12 +3565,12 @@
     ],
     "category": "Interleukin inhibitor (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"guselkumab (Tremfya)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"guselkumab (Tremfya)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-guselkumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -3579,7 +3579,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -3717,12 +3717,12 @@
     ],
     "category": "Antispasmodic (IBS / colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI: 1-2 times a week, no side effects, no-fly 48 hours after use.\n\nColitis worksheet lists \"hyoscyamine - use 1-2 times a week with no side effects and no-fly 48 hours after use\" among medications for the condition.\nIt covers a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\", with \"None or mild diarrhea (less than 4 bowel movements/day)\".\nOn that worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI: 1-2 times a week, no side effects, no-fly 48 hours after use.\n\nColitis worksheet lists \"hyoscyamine - use 1-2 times a week with no side effects and no-fly 48 hours after use\" among medications for the condition.\nIt covers a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\", with \"None or mild diarrhea (less than 4 bowel movements/day)\".\nOn that worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-hyoscyamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-07T13:54:08Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
@@ -3807,16 +3807,18 @@
     "brandNames": [
       "Remicade",
       "Inflectra",
-      "Renflexis"
+      "Renflexis",
+      "Avsola",
+      "Zymfentra"
     ],
     "category": "TNF blocker (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 24-hour no-fly after each dose.\n\nFAA biologics list: \"infliximab (Inflectra; Remicade; Renflexis)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 24 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 24-hour no-fly after each dose.\n\nFAA biologics list: \"infliximab (Inflectra; Remicade; Renflexis)\" under \"Tumor Necrosis Factor (TNF) Blocking Agent\".\nNo-fly after each dose: 24 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-infliximab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -3825,7 +3827,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -4529,12 +4531,12 @@
     ],
     "category": "Immunosuppressant (colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"mercaptopurine (6-MP)\" among medications for the condition.\nIt covers a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\", with \"None or mild diarrhea (less than 4 bowel movements/day)\".\nOn that worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe worksheet lists no ground trial or wait for mercaptopurine.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"mercaptopurine (6-MP)\" among medications for the condition.\nIt covers a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\", with \"None or mild diarrhea (less than 4 bowel movements/day)\".\nOn that worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\nThe worksheet lists no ground trial or wait for mercaptopurine.\n\nSource: CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mercaptopurine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-07T13:54:08Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
@@ -4578,17 +4580,17 @@
     ],
     "category": "Immunosuppressant (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"methotrexate (Trexall)\" under acceptable medications.\nColitis worksheet lists \"methotrexate (Trexall)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for methotrexate.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis or colitis CACI drug; ALL worksheet criteria must be met.\n\nArthritis worksheet lists \"methotrexate (Trexall)\" under acceptable medications.\nColitis worksheet lists \"methotrexate (Trexall)\" among medications for the condition.\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn both worksheets, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nNeither worksheet lists a ground trial or a wait for methotrexate.\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThese worksheets cover its use for arthritis and colitis.\n\nSource: CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-methotrexate",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -4737,17 +4739,17 @@
     ],
     "category": "Interleukin inhibitor (colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"mirikizumab (Omvoh)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"mirikizumab (Omvoh)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mirikizumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -5535,12 +5537,12 @@
     ],
     "category": "GC-C agonist (IBS/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"plecanatide (Trulance)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for plecanatide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"plecanatide (Trulance)\" under \"Guanylate Cyclase-C (GC-C) Agonist\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for plecanatide.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-plecanatide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
@@ -6072,12 +6074,12 @@
     ],
     "category": "Interleukin inhibitor (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"risankizumab (Skyrizi)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"risankizumab (Skyrizi)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-risankizumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -6086,7 +6088,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -6605,12 +6607,12 @@
     ],
     "category": "NHE3 inhibitor (IBS/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"tenapanor (Ibsrela)\" under \"Sodium/Hydrogen Exchanger 3 Inhibitor\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for tenapanor.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI drug; ALL worksheet criteria must be met.\n\nColitis worksheet lists \"tenapanor (Ibsrela)\" under \"Sodium/Hydrogen Exchanger 3 Inhibitor\" among medications for the condition.\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet, the 2-week ground trial and post-dose observation times apply to the biologic and targeted drugs listed further down, such as adalimumab (Humira).\nIt lists no ground trial and no wait for tenapanor.\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nThe worksheet covers its use for colitis.\n\nSource: CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tenapanor",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
     }
   },
@@ -6753,12 +6755,12 @@
     ],
     "category": "JAK inhibitor (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"tofacitinib (Xeljanz)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"tofacitinib (Xeljanz)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-tofacitinib",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -6767,7 +6769,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -8881,8 +8883,8 @@
     "envelope": {
       "code": "med-loperamide",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
     },
     "informationalOnly": false,
@@ -9056,11 +9058,11 @@
       "Pentasa"
     ],
     "category": "Aminosalicylate (IBD)",
-    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Asacol, Apriso, Delzicol, Lialda, Pentasa, Canasa, Rowasa\nUnderlying condition: Ulcerative Colitis (UC)\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nMedGuide also has a separate row for the rectal enema:\nForm: rectal enema\nBrands: Canasa, Rowasa\nUnderlying condition: Ulcerative Colitis (UC), Ulcerative proctitis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" Among them: \"Condition is stable with no effects that would interfere with flight duties\"; \"No surgery for the condition in the last 6 (six) weeks.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 04/29/2026): \"the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam.\"\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Allowed in the FAA MedGuide. Wait 48 hours after the first dose.\n\nBrands: Asacol, Apriso, Delzicol, Lialda, Pentasa, Canasa, Rowasa\nUnderlying condition: Ulcerative Colitis (UC)\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nMedGuide also has a separate row for the rectal enema:\nForm: rectal enema\nBrands: Canasa, Rowasa\nUnderlying condition: Ulcerative Colitis (UC), Ulcerative proctitis\nFrequency limit: As prescribed\nInitial wait (after first dose): 48 hours\nSubsequent wait (after each dose): None\nDiscontinuation wait (after final dose): None\n\nThe FAA defines allowed as \"acceptable for use while performing flight or safety-related duties, provided the condition is stable/aeromedically acceptable and no adverse side effects are present.\"\n\nMedGuide adds that \"an extended observation period may be required to verify clinical stability of the condition\" and that it is not \"the sole basis in making aeromedical determinations\".\n\nOther FAA pages add:\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\" Among them: \"Condition is stable with no effects that would interfere with flight duties\"; \"No surgery for the condition in the last 6 (six) weeks.\"\n\nThe FAA's CACI - Colitis Worksheet (updated 11/18/2026): \"the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam.\"\n\nSource: FAA MedGuide, version 1.0, updated October 27, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-mesalamine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-03T00:03:26Z",
+      "lastVerified": "2026-11-24T01:45:48Z",
       "sourceCitation": "FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/medguide"
     },
@@ -9068,7 +9070,7 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -10269,8 +10271,8 @@
     "envelope": {
       "code": "med-sulfasalazine",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-14T20:48:05Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
     },
     "informationalOnly": false,
@@ -10800,12 +10802,12 @@
     ],
     "category": "JAK inhibitor (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"upadacitinib (Rinvoq)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, no wait after each dose.\n\nFAA biologics list: \"upadacitinib (Rinvoq)\" under \"Kinase Inhibitor\".\nNo-fly after each dose: none.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nThe FAA notes: \"Warn for cardiovascular events and blood clots (VTE) for all\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-upadacitinib",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -10814,7 +10816,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -10842,12 +10844,12 @@
     ],
     "category": "Interleukin inhibitor (arthritis/colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"ustekinumab (Stelara)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nListed beneath it: \"Warn for posterior reversible encephalopathy syndrome (PRES)\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Arthritis/colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"ustekinumab (Stelara)\" under \"Interleukin Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nListed beneath it: \"Warn for posterior reversible encephalopathy syndrome (PRES)\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nArthritis worksheet: osteoarthritis, or autoimmune arthritis limited to \"rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis\".\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn each worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Arthritis Worksheet, updated April 29, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-ustekinumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Arthritis Worksheet (updated 04/29/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
@@ -10856,7 +10858,7 @@
         "url": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
       },
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
@@ -10992,17 +10994,17 @@
     ],
     "category": "Selective adhesion-molecule inhibitor (colitis)",
     "faaStatus": "conditional",
-    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"vedolizumab (Entyvio)\" under \"Selective Adhesion-Molecule (SAM) Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated April 29, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
+    "faaStatusDescription": "Colitis CACI: 2-week ground trial, 4-hour no-fly after each dose.\n\nFAA biologics list: \"vedolizumab (Entyvio)\" under \"Selective Adhesion-Molecule (SAM) Inhibitor\".\nNo-fly after each dose: 4 hours.\nFirst use: \"All require a 2-week no-fly/ground trial\" to verify no side effects.\nSwitching: \"Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\"\nBiosimilars: \"FDA-approved biosimilars are also acceptable for any referenced brand name medication\".\nThe table is headed \"ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION\".\nIt says: \"Permitted if the underlying condition qualifies; consult the condition pages for details.\"\nColitis worksheet: a cause of \"Crohn's disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome\".\nOn the worksheet: \"If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue.\"\nThe AME reviews a Clinical Progress Note from a visit \"no more than 90 days prior to the AME exam\".\nHow often: annually for first or second class, and with each required exam for third class.\n\nSource: FAA Biologics, Biosimilars, Non-Biologics, updated August 26, 2026; CACI Colitis Worksheet, updated November 18, 2026.\n\nThat is what the FAA publishes, not a determination about you.",
     "envelope": {
       "code": "med-vedolizumab",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-10-06T14:40:24Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+      "lastVerified": "2026-11-24T01:45:48Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Biologics, Biosimilars, Non-Biologics (updated 08/26/2026); FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/Biologics_Biosimilars_Non-Biologics.pdf"
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 04/29/2026)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Colitis Worksheet (updated 11/18/2026)",
         "url": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
       }
     ]
