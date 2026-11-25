@@ -113,11 +113,11 @@
     "envelope": {
       "code": "si-ssri-stability-period",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-27T11:02:06Z",
-      "sourceCitation": "FAA Airman Information - SSRI (Antidepressant) Initial Certification, updated 08/26/2026",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf"
+      "lastVerified": "2026-11-22T14:46:50Z",
+      "sourceCitation": "FAA Pilot Information: Certification Steps for Anxiety, Depression, and Related Conditions (On Treatment), updated 11/18/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Pilot_Information_Anxiety_Depression_ON_Treatment.pdf"
     },
-    "requirementText": "First-time issuance goes through a HIMS AME. The FAA's airman information sheet for initial certification (updated 08/26/2026) tells you to \"Select and contact a Human Intervention Motivation Study Aviation Medical Examiner (HIMS AME) to work with you through the FAA process.\" The waiting period is 3 months: \"When you have been stable with no symptoms or side effects and on the same dose of medication for 3 months (this must be documented), you should meet with your HIMS AME to determine if it is appropriate to submit an INITIAL SSRI Special Issuance packet for FAA review.\" Until then the sheet says \"Do not fly in accordance with 14 CFR 61.53 until you have an Authorization from the FAA.\" Your HIMS AME submits the exam as deferred and sends the package within 14 days, and the FAA warns that \"Partial or incomplete packages WILL NOT BE REVIEWED and will cause a DELAY IN CERTIFICATION.\" Print the FAA's certification aid for initial certification and take the right page to each of your providers, so each report covers what the FAA needs. The same sheet notes the FAA now calls SSRIs antidepressants."
+    "requirementText": "The FAA's pilot information sheet for anxiety, depression, and related conditions on treatment (updated 11/18/2026) says \"Self-Ground: Do not fly, in accordance with 14 CFR § 61.53, until you have an Authorization from the FAA.\" It also says \"Consult Your AME: Contact your Aviation Medical Examiner (AME) early to map out the process.\" On timing: \"Reach the 90-Day Mark: Before your AME can submit your package, you must be on a stable medication dose with no symptoms and no side effects for the last 90 consecutive days.\" Under \"STEP 3: AME EXAM & FAA SUBMISSION\" it says \"Mandatory Deferral: Your AME is required to submit your exam as DEFERRED. They cannot issue a certificate in the office.\" Under \"WHAT HAPPENS NEXT?\" it says \"If the FAA needs more information to make a safety determination, you will receive a letter detailing what is required.\""
   },
   {
     "cadenceRaw": "other",
@@ -149,11 +149,25 @@
     "envelope": {
       "code": "si-ssri-initial-package",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-09-27T11:02:06Z",
-      "sourceCitation": "FAA HIMS AME Checklist - SSRI Initial Certification/Clearance (Antidepressant), updated 08/26/2026",
-      "sourceURL": "https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Initial_Certification.pdf"
+      "lastVerified": "2026-11-22T14:46:50Z",
+      "sourceCitation": "FAA Antidepressant Initial Document Checklist, updated 11/18/2026; FAA Anxiety, Depression, and Related Conditions (On Treatment) Disposition Table, updated 11/18/2026; FAA Certification Aid - Antidepressant Initial Certification, updated 11/18/2026; FAA Pilot Information: Certification Steps for Anxiety, Depression, and Related Conditions (On Treatment), updated 11/18/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Initial_Document_Checklist.pdf"
     },
-    "requirementText": "The first package is one bundle, and the FAA's HIMS AME Checklist for initial certification (updated 08/26/2026) lists what goes in it. Your own signed statement, with \"all medical/treatment records related to mental health history.\" Your HIMS AME's \"FACE-TO-FACE, IN-OFFICE EVALUATION.\" A report from your treating physician if that doctor is not a board certified psychiatrist. A \"Board Certified PSYCHIATRIST REPORT.\" A \"NEUROPSYCHOLOGIST REPORT\" with the \"CogScreen-AE computerized report is attached\" line checked. Any additional reports, such as drug testing or therapy reports. The HIMS AME, the psychiatrist and a non-psychiatrist treating physician each confirm you have been \"on the same medication at the same dose for a minimum of 3 months.\" The checklist warns: \"CERTIFICATION WILL BE DELAYED IF ANY ITEMS ARE MISSING OR ARE INCOMPLETE.\" While the FAA reviews it, keep going: HIMS AME evaluations and treating psychiatrist reports continue \"EVERY 6 months.\""
+    "links": [
+      {
+        "title": "FAA Anxiety, Depression, and Related Conditions (On Treatment) Disposition Table (updated 11/18/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Dispo_Table_Anxiety_Depression_ON_Treatment.pdf"
+      },
+      {
+        "title": "FAA Certification Aid - Antidepressant Initial Certification (updated 11/18/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_Antidepressant_Initial_Certification.pdf"
+      },
+      {
+        "title": "FAA Pilot Information: Certification Steps for Anxiety, Depression, and Related Conditions (On Treatment) (updated 11/18/2026)",
+        "url": "https://www.faa.gov/ame_guide/media/Pilot_Information_Anxiety_Depression_ON_Treatment.pdf"
+      }
+    ],
+    "requirementText": "This item tracks the whole first package. The FAA's Antidepressant Initial Document Checklist (updated 11/18/2026) lists: \"Airman Personal Statement\": \"Typed, signed, and dated. Must detail mental health history, symptoms, medication use, and current stability.\" \"FAAR Neuropsychological Evaluation\": \"A comprehensive evaluation by an FAA Recognized (FAAR) Neuropsychologist. (Requires requesting your complete FAA file first.)\" \"Complete Mental Health Records\": \"All past and present treatment, therapy, and counseling records, regardless of how long ago.\" \"Other Medical Conditions\": \"Any necessary records for other medical conditions (e.g., drug testing, therapy reports, etc.).\" \"Clinical Evaluation & Checklist\": \"Recent clinical progress note (< 90 days old) from the provider who prescribes your medication. It must include diagnosis, current meds/dosages, side effects, exam findings, and follow-up plan.\" and \"Mental Health History Checklist completed and signed by a Board-Certified (BC) Psychiatrist.\" Under \"ATTENTION: IF YOUR PRESCRIBER IS NOT A Board-Certified PSYCHIATRIST\" it adds \"You must ALSO include a comprehensive psychiatric assessment from an independent Board-Certified Psychiatrist.\" About the checklist page itself: \"This page is for the AME or aviator to confirm all required records are assembled.\" \"Do NOT submit to the FAA.\" It warns: \"If any items are missing or incomplete, certification/clearance will be delayed.\" The FAA's On Treatment disposition table (updated 11/18/2026) lists \"FAAR Neuropsychologist Evaluation: Complete report and cognitive testing battery.\" The FAA's certification aid for antidepressant initial certification (updated 11/18/2026) asks you to \"sign two release forms* for the FAA to release a complete copy of your FAA medical file to your FAAR Psychiatrist and FAAR Neuropsychologist as applicable.\" It sets out, for each report, what it \"MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING:\" and says \"All reports must be CURRENT (within the last 90 days) for FAA purposes.\" At the exam, the FAA's pilot information sheet (updated 11/18/2026) says \"Once you reach 90 days stable and your document package is 100% complete:\" \"See your AME for a new FAA 8500-8 exam (if due) and bring all documents for your AME to review.\" \"Mandatory Deferral: Your AME is required to submit your exam as DEFERRED. They cannot issue a certificate in the office.\" \"Coordinate with your AME to ensure your COMPLETE document package is uploaded to the FAA within 14 days of your exam.\" It warns: \"Partial or incomplete packages will NOT be reviewed by the FAA and will cause significant delays in your certification.\""
   },
   {
     "cadenceRaw": "other",
@@ -161,11 +175,23 @@
     "envelope": {
       "code": "si-ssri-aasi-path",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-21T13:33:39Z",
+      "lastVerified": "2026-11-22T14:46:50Z",
       "sourceCitation": "FAA AASI for Anxiety, Depression, and Related Conditions, updated 11/18/2026",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AASI_Anxiety_Depression_Related_Conditions.pdf"
     },
     "requirementText": "This is the AME Assisted Special Issuance (AASI) follow-up route for anxiety, depression, and related conditions, not a first issuance: the FAA's \"AASI for Anxiety, Depression, and Related Conditions\" (updated 11/18/2026) says \"An FAA physician provides the initial certification decision,\" and for a first-time application \"the AME must defer.\" After that, an AME may reissue under your Authorization only if you bring \"An Authorization granted by the FAA that states that AASI Anxiety, Depression and Related Conditions has been approved (look for AME Assisted Special Issuance in the title, of the Authorization letter) or a notation that the AME can issue the follow-up certification.\" You also bring clinic progress notes \"EVERY 6 months (or more often as clinically indicated),\" at least one of them from a physician (MD/DO), with the most recent \"no more than 90 days before the AME exam,\" plus the \"Anxiety, Depression, and Related Conditions Status Summary - Recertification\" completed by your treating physician and the AME. That is the minimum. The FAA says the \"AME must defer and describe in Block 60 what item(s) caused the deferral if the psychiatrist, treating physician, or AME identifies any of the following:\" \"Any NEW 'Yes*' answers on the Anxiety, Depression, and Related Conditions Status Summary - Recertification;\" \"Any new (or not previously reported) psychiatric symptoms, signs, or diagnosis;\" \"Any new history of substance use disorder or FAA substance dependence;\" \"Any progression (change in symptoms that persist despite modifications to medication and/or therapy) of the disease;\" and/or \"AME, treating physician, or treating provider has concerns.\" It adds: \"The AME must notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in my client's cognition, judgment, emotional stability, or insight.\" If your letter has neither \"AME Assisted Special Issuance in the title\" nor \"a notation that the AME can issue the follow-up certification,\" mark this item Not in my letter."
+  },
+  {
+    "cadenceRaw": "other",
+    "documentTypeNeededRaw": "physicianLetter",
+    "envelope": {
+      "code": "si-ssri-medication-changes",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T14:46:50Z",
+      "sourceCitation": "FAA Antidepressant Medication Changes With a Current FAA Authorization (AASI/SI/SC), updated 11/18/2026",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medication_Changes.pdf"
+    },
+    "requirementText": "Medication or dose changes while you hold an Authorization. The FAA's \"Antidepressant Medication Changes With a Current FAA Authorization (AASI/SI/SC)\" (updated 11/18/2026) says \"Pilots: When holding a Special Issuance (SI/AASI) for an approved antidepressant, they may resume duties after a dose change without prior FAA approval only if the authorization letter explicitly permits it. All other changes require FAA review and approval.\" Its table, row by row, read across \"Type of Change\", \"Minimum Self-Grounding\" and \"Return to Flight Decision By\": \"Dose Change\" \"(previously approved medication)\": \"30 days\" \"(and clinical stability achieved)\"; \"Treating provider (if permitted by your SI/AASI): No clinical reports need to be sent to the FAA before returning to flight duties.\" \"Medication Switch\" \"(Including a change within the same medication class)\": \"90 days\" \"(and clinical stability achieved)\"; \"FAA: Before returning to flight duties, submit a Detailed Clinical Progress Note (DCPN) outlining the symptom changes requiring the switch (and any other treatment modalities) for FAA review and approval.\" \"Additional Medication Added\": \"Grounded\" \"(AME must DEFER)\"; \"FAA: Requires FAA review and approval before returning to flight duties.\" \"Medication Discontinued\" \"(taken for a mental health condition)\": \"60 days\" \"(and clinical stability achieved)\"; \"FAA: Before returning to flight duties, submit a DCPN outlining the discontinuation of medication and subsequent clinical stability for FAA review and approval.\" Below the table: \"If the SI/AASI letter does NOT allow one to resume flight duties after a dose change, complete the 30-day recovery period and submit a DCPN from the treating provider to the AME or the FAA for review.\" On stopping a medication: \"they must self-ground for a minimum of 60 days after stopping the medication to monitor for possible recurrence of symptoms.\" and \"Pilots/ATCS should never stop medication on their own.\" It also says \"See ANXIETY, DEPRESSION, AND RELATED CONDITIONS – OFF TREATMENT for full requirements.\" Your Authorization letter is the authority on your own schedule."
   },
   {
     "cadenceRaw": "onceAtIssuance",
@@ -803,10 +829,16 @@
     "envelope": {
       "code": "si-adhd-specialist-eval",
       "contentVersion": "2026.0",
-      "lastVerified": "2026-11-21T13:33:39Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA ADHD Document Checklist",
+      "lastVerified": "2026-11-22T14:46:50Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, FAA ADHD Document Checklist; FAA Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS (updated 10/30/2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/ADHD_document_checklist.pdf"
     },
+    "links": [
+      {
+        "title": "FAST TRACK - FAA ADHD EVALUATION GENERAL INFORMATION FOR PILOTS AND ATCS (Updated 10/30/2024)",
+        "url": "https://www.faa.gov/ame_guide/media/ADHD_fast_track_eval_general_info.pdf"
+      }
+    ],
     "requirementText": "This is the evaluator's report, and the FAA is specific about who writes it and what must reach them first. On the Fast Track the evaluator is a \"doctoral level (PhD or PsyD) psychologist or neuropsychologist with training and experience in the evaluation of ADHD.\" On the Standard Track, the FAA states \"Standard Track evaluation must be completed by an FAA Recognized (FAAR) Neuropsychologist.\" The FAA's ADHD Document Checklist lists what you send that evaluator before the appointment: pharmacy records within the last four years; medical records for the ADHD diagnosis and treatment; records from any psychiatrist, psychologist, therapist, school counselor, education specialist or teacher, speech therapist or occupational therapist; records for any non-ADHD condition treated with an ADHD medication; driver's license records from every state that licensed you in the past four years; academic records including all transcripts through your highest grade or degree, any Section 504 Plan, any IEP and any record of academic or occupational accommodations; and a personal statement, \"typed, signed, and dated,\" covering every item on the FAA ADHD Personal Statement Guidelines. The FAA adds: \"make a copy of all the records above, as you will also need to bring a copy to your AME to upload into your FAA record.\" The evaluation and the report are both on a 90-day clock: \"The evaluation and report must be performed within 90 days of the AME exam.\" If the evaluator asks for your entire FAA medical file, FAA Form 8065-2 has the agency send those records directly to the psychologist or neuropsychologist. On the Fast Track, also ask the evaluator to complete the FAA ADHD Summary form; the FAA says it is \"NOT required, however, it will help to streamline and significantly DECREASE FAA review time.\" Read that against the disposition table, because leaving it out changes which row you are in rather than just how fast the mail moves. Row A is the ISSUE row, and its own note reads: \"If FAA ADHD Summary is not provided, any 'YES' answers, any AME concerns, or unable to verify history, go to Row B.\" Row B is DEFER, and it \"requires evaluation and testing by a FAA Recognized Neuropsychologist (FAAR Neuropsychologist)\" completed \"in person by a FAAR Neuropsychologist.\" The FAA's Fast Track sheet also tells you to coordinate with your AME so everything is uploaded to the FAA within 14 days, and warns that \"partial or incomplete packages will NOT be reviewed and will cause a DELAY.\""
   },
   {
