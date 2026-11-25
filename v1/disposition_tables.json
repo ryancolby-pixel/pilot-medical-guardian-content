@@ -4586,6 +4586,24 @@
   },
   {
     "envelope": {
+      "code": "dispo-antidepressant-medication-changes",
+      "contentVersion": "2026.0",
+      "lastVerified": "2026-11-22T15:18:24Z",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Aerospace Medical Dispositions, Item 47: Antidepressant Medication Changes with a Current FAA Authorization (AASI/SI/SC) (updated 11/18/2026)",
+      "sourceURL": "https://www.faa.gov/ame_guide/media/Antidepressant_Medication_Changes.pdf"
+    },
+    "title": "Antidepressant Medication Changes with a Current FAA Authorization (AASI/SI/SC)",
+    "examItems": [
+      "47"
+    ],
+    "item18Codes": [
+      "item18-mental"
+    ],
+    "updated": "2026-11-18",
+    "dateWord": "Updated"
+  },
+  {
+    "envelope": {
       "code": "dispo-dispo-table-wolff-parkinson-white",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-13T15:31:35Z",

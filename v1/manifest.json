@@ -1,6 +1,6 @@
 {
-  "contentVersion": "2026-11-23.3",
-  "generatedAt": "2026-11-24T01:46:09Z",
+  "contentVersion": "2026-11-25.1",
+  "generatedAt": "2026-11-25T17:45:58Z",
   "windowsSetupLive": true,
   "appUpdate": {
     "mac": {
@@ -50,8 +50,8 @@
     },
     {
       "filename": "disposition_tables.json",
-      "size": 168011,
-      "checksum": "8100c538e794d6bc5cc1bf20b2403e620a5a8e0dcb18b58df5a6db2993f46c7b"
+      "size": 168726,
+      "checksum": "cdf35b3184f6e31bb85ee7f9fa8e7ee6c13fa8c6e7ea07637bd0dea50f2ed0ae"
     },
     {
       "filename": "faa_submission_addresses.json",
@@ -80,18 +80,18 @@
     },
     {
       "filename": "search_synonyms.json",
-      "size": 42115,
-      "checksum": "9549dbd6a87377d320a18d85df5c0059e18d302e544e623afbe88ad63522e70b"
+      "size": 42208,
+      "checksum": "c936c4aae549733566f4d7046068e345bd8726eae1ae72b33695e2036d6df553"
     },
     {
       "filename": "si_conditions.json",
-      "size": 20437,
-      "checksum": "0a8c79b391db3684e1881a7017410e9984f45231ea884b6d2dd18810becda25a"
+      "size": 20394,
+      "checksum": "27b6d670ab0cee7fe712a8aa0f1eae8e9a9fb40f50a4a31a845afc6da976c255"
     },
     {
       "filename": "si_requirements.json",
-      "size": 176305,
-      "checksum": "d6f67b6e7986d0c8d8142a6384ba6081ce0a7b46eaf50b3bc14be97bd7ce8ec5"
+      "size": 181871,
+      "checksum": "4b788c398f6125f1df98d76d6cb4af9d6ac9b3a23da1e307d612128f671cc18e"
     },
     {
       "filename": "thresholds.json",
