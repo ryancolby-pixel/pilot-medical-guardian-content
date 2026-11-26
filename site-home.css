@@ -287,3 +287,4 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .price-list { margin: 0; padding-left: 1.2em; }
 .price-list li { margin: 7px 0; line-height: 1.45; }
 @media (max-width: 700px) { .price-grid { grid-template-columns: 1fr; } }
+.fsec-text .more-link, .fsec-text .pillar-link { margin-right: 16px; }
