@@ -608,6 +608,7 @@ def patch_home(section):
     anchor = "  <!-- PRIVACY -->"  # reorg 11/25: the strip sits between Three jobs and Privacy
     assert anchor in s, "homepage anchor missing"
     s = s.replace(anchor, section.lstrip("\n") + "\n" + anchor, 1)
+    s = re.sub(r"\n{3,}(  <!-- (?:FREE FAA LOOKUPS|PRIVACY))", r"\n\n\1", s)  # idempotent: no blank lines pile up between runs
     if "/faa-medications/" not in s.split("<footer>")[1]:
         s = s.replace("<p>Not affiliated with or endorsed by the FAA.</p>",
                       "<p>Not affiliated with or endorsed by the FAA.</p>\n      " + FOOT_LOOKUPS, 1)

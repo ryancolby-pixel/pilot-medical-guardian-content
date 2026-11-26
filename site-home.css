@@ -288,3 +288,6 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .price-list li { margin: 7px 0; line-height: 1.45; }
 @media (max-width: 700px) { .price-grid { grid-template-columns: 1fr; } }
 .fsec-text .more-link, .fsec-text .pillar-link { margin-right: 16px; }
+.hero2-devices-img { margin: 0; }
+.hero2-devices-img img { width: 100%; height: auto; display: block; border-radius: 14px; }
+.hero2-devices-img figcaption { font-size: .82rem; color: var(--muted); text-align: center; margin-top: 8px; }
