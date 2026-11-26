@@ -79,6 +79,30 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://pilotmedicalguardian.com/features.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pilotmedicalguardian.com/lookups.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilotmedicalguardian.com/guides.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pilotmedicalguardian.com/pricing.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <!-- FAA lookups -->
   <url>
     <loc>https://pilotmedicalguardian.com/faa-medications/</loc>

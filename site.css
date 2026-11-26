@@ -93,7 +93,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 /* Mobile hamburger menu (phones): collapse the nav links behind a toggle. */
 .nav-toggle { display: none; }
 .nav-toggle-cb { display: none; }
-@media (max-width: 620px) {
+@media (max-width: 860px) {  /* was 620px; five header links since the 11/25 reorg */
   .site-nav .container { position: relative; }
   .nav-toggle {
     display: inline-flex; align-items: center; justify-content: center;

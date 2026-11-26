@@ -109,8 +109,11 @@ def appstore(ct):
     return f"https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct={ct}&amp;mt=8"
 
 def nav(ct, current=None):
+    # Site header (reorg 11/25, Ryan's spec): Features, Free Lookups, Guides, Pricing, FAQ, Download.
+    # Every lookup page marks "Free Lookups" as current. Keep in step with the static pages' header.
+    cur_key = "lookups" if current in ("med", "cond", "ame") else current
     def a(href, label, key):
-        cur = ' aria-current="page"' if key == current else ""
+        cur = ' aria-current="page"' if key == cur_key else ""
         return f'<a class="nav-hide-sm" href="{href}"{cur}>{label}</a>'
     return f"""  <header class="site-nav">
     <div class="container">
@@ -118,11 +121,12 @@ def nav(ct, current=None):
       <input type="checkbox" id="navtoggle" class="nav-toggle-cb" hidden>
       <label for="navtoggle" class="nav-toggle"><span class="sr">Menu</span><span aria-hidden="true">&#9776;</span></label>
       <nav class="nav-links" aria-label="Main">
-        {a('/faa-medications/', 'Medications', 'med')}
-        {a('/faa-conditions/', 'Conditions', 'cond')}
-        {a('/aviation-medical-examiners/', 'Find an AME', 'ame')}
+        {a('/features.html', 'Features', 'features')}
+        {a('/lookups.html', 'Free Lookups', 'lookups')}
+        {a('/guides.html', 'Guides', 'guides')}
+        {a('/pricing.html', 'Pricing', 'pricing')}
         {a('/faq.html', 'FAQ', 'faq')}
-        <a class="nav-cta" href="{appstore(ct)}">Download on the App Store</a>
+        <a class="nav-cta" href="{appstore(ct)}" aria-label="Download on the App Store">Download</a>
       </nav>
     </div>
   </header>"""
@@ -159,7 +163,7 @@ def page(path, title, desc, body, ld, ct, current=None, lastmod=None):
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20260708">
+  <link rel="stylesheet" href="/site.css?v=20261125">
   <link rel="stylesheet" href="/site-v2.css?v={V}">
   <script defer src="/faa-lookup.js?v={V}"></script>
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(',', ':'))}</script>
@@ -587,6 +591,7 @@ def home_section(ame_total):
       <h2 id="lookups-h">Free FAA lookups. No account.</h2>
       {lookup_bar()}
       <p class="lk-links"><a href="/faa-medications/"><span class="num">{len(MEDS)}</span> medications</a><span aria-hidden="true">·</span><a href="/faa-conditions/#tables"><span class="num">{len(DISPO)}</span> FAA tables</a><span aria-hidden="true">·</span><a href="/faa-conditions/#si"><span class="num">{len(SI)}</span> Special Issuance conditions</a><span aria-hidden="true">·</span><a href="/aviation-medical-examiners/"><span class="num">{ame_total:,}</span> examiners</a></p>
+      <p class="lk-links lk-plain"><a href="/faa-medications/">Medications</a><span aria-hidden="true">|</span><a href="/faa-conditions/">Conditions</a><span aria-hidden="true">|</span><a href="/aviation-medical-examiners/">Find an AME</a><span aria-hidden="true">|</span><a href="/lookups.html">All free lookups &rarr;</a></p>
     </div>
   </section>
 """
@@ -600,12 +605,34 @@ def patch_home(section):
     s = s.replace("</head>", f'<link rel="stylesheet" href="/site-v2.css?v={V}">\n<script defer src="/faa-lookup.js?v={V}"></script>\n</head>', 1)
     if '<body class="v2 v2-home">' not in s:
         s = s.replace("<body>", '<body class="v2 v2-home">', 1)
-    anchor = "  <!-- WHY IT MATTERS -->"
+    anchor = "  <!-- PRIVACY -->"  # reorg 11/25: the strip sits between Three jobs and Privacy
     assert anchor in s, "homepage anchor missing"
     s = s.replace(anchor, section.lstrip("\n") + "\n" + anchor, 1)
     if "/faa-medications/" not in s.split("<footer>")[1]:
         s = s.replace("<p>Not affiliated with or endorsed by the FAA.</p>",
                       "<p>Not affiliated with or endorsed by the FAA.</p>\n      " + FOOT_LOOKUPS, 1)
+    open(p, "w", encoding="utf-8").write(s)
+
+def patch_lookups():
+    """/lookups.html: the search bar plus one card per lookup index, each card's text taken from that
+    index page's own h1 and meta description (so counts and wording stay in step with the pages)."""
+    p = os.path.join(OUT, "lookups.html")
+    if not os.path.exists(p):
+        return
+    s = open(p, encoding="utf-8").read()
+    cards = []
+    for href, f in (("/faa-medications/", "faa-medications/index.html"), ("/faa-conditions/", "faa-conditions/index.html"),
+                    ("/aviation-medical-examiners/", "aviation-medical-examiners/index.html")):
+        doc = open(os.path.join(OUT, f), encoding="utf-8").read()
+        h1 = re.sub(r"<[^>]+>", "", re.search(r"<h1[^>]*>([\s\S]*?)</h1>", doc).group(1)).strip()
+        desc = re.search(r'<meta name="description" content="([^"]*)"', doc).group(1)
+        cards.append(f'        <a class="gcard" href="{href}"><h3>{h1}</h3><p>{desc}</p><span class="gcard-go">Open &rarr;</span></a>')
+    block = ("  <!-- LOOKUP CARDS: generated by scripts/gen_faa_pages.py -->\n      " + lookup_bar() +
+             '\n      <div class="gcards lk-cards">\n' + "\n".join(cards) + "\n      </div>\n  <!-- /LOOKUP CARDS -->")
+    s = re.sub(r"  <!-- LOOKUP CARDS[\s\S]*?<!-- /LOOKUP CARDS -->", lambda m: block, s, count=1)
+    s = re.sub(r'<link rel="stylesheet" href="/site-v2\.css\?v=[^"]*">\n', "", s)
+    s = re.sub(r'<script defer src="/faa-lookup\.js\?v=[^"]*"></script>\n', "", s)
+    s = s.replace("</head>", f'<link rel="stylesheet" href="/site-v2.css?v={V}">\n<script defer src="/faa-lookup.js?v={V}"></script>\n</head>', 1)
     open(p, "w", encoding="utf-8").write(s)
 
 def sitemap(urls):
@@ -648,6 +675,7 @@ def main():
     write_index()
     write_assets()
     patch_home(home_section(total))
+    patch_lookups()
     sitemap(urls)
     print(f"meds {len(MEDS)}, conditions 1 ({len(DISPO)} tables, {len(SI)} SI), AME index + {len(ame_by_state)} states "
           f"({total} listings), sitemap +{len(urls)} urls")
