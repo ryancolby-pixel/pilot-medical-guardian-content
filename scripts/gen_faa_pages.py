@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261127f"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261127h"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 SITE_CSS_V = "20261127j"   # cache-buster for /site.css on every page (static pages via patch_shell)
 HOME_CSS_V = "20261127j"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
@@ -463,10 +463,10 @@ def cond_index():
   <div class="v2-main">
     <div class="wrap wide">
       <div id="cl">
+      {az_nav(letters)}
       {no_match('cl-none', 'Try another word from the condition’s name, or an exam item number.')}
       <section class="dg" data-group id="si"><h2 class="dg-h dg-h-l">Special Issuance conditions <span class="num">{len(SI)}</span></h2><p class="dg-note">Each opens the FAA’s page for it. More in my <a href="/special-issuance.html">FAA Special Issuance guide</a>.</p><ul class="dense dense-c">{si_rows}</ul></section>
       <h2 class="dg-h dg-h-l" id="tables">FAA disposition tables <span class="num">{len(DISPO)}</span></h2>
-      {az_nav(letters)}
       {"".join(secs)}
       </div>
       <p class="fine">Titles, item numbers and dates are as the FAA publishes them. Links open faa.gov.</p>
