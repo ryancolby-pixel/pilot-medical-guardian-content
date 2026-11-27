@@ -28,6 +28,17 @@
   --warnbg: #fff7e6;
   --warnrule: #f0d9a6;
   --warntext: #6b4e12;
+  /* Design system 11/27: layout, state, radius and type tokens */
+  --nav-h: 61px;                /* sticky header height incl. border */
+  --rule-strong: #c9d1dc;
+  --hover: #eef2f7;
+  --ok: #1a7f43;
+  --ring: 0 0 0 3px rgba(28,102,217,.28);
+  --shadow-pop: 0 1px 2px rgba(15,20,25,.06), 0 12px 32px rgba(15,20,25,.10);
+  --r-lg: 16px; --r-md: 12px; --r-sm: 8px;
+  --fs-h2: clamp(1.6rem, 1.2rem + 1.4vw, 2.1rem);
+  --fs-h3: 1.125rem;
+  --section-pad: 52px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -43,8 +54,14 @@
     --warnbg: #2a2310;
     --warnrule: #4a3d18;
     --warntext: #e8cf95;
+    --rule-strong: #343a46;
+    --hover: #1a1f29;
+    --ok: #5cc98a;
+    --ring: 0 0 0 3px rgba(91,156,240,.35);
+    --shadow-pop: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.45);
   }
 }
+@media (max-width: 600px) { :root { --section-pad: 40px; } }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -56,6 +73,13 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+/* Base (zero specificity, so every component rule below still wins). Plain body links take
+   the brand accent instead of the browser's blue / visited purple; anchored blocks clear the
+   sticky header. 17px body text everywhere except the homepage. */
+:where(a:not([class])) { color: var(--accent); text-underline-offset: 2px; }
+:where(section[id], article[id], div[id], details[id], li[id], h2[id], h3[id], p[id], table[id]) { scroll-margin-top: calc(var(--nav-h) + 16px); }
+body:not(.v2-home) { font-size: 1.0625rem; }
+h1 { font-weight: 800; }
 a { transition: color .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease, transform .15s ease, filter .15s ease; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 5px; }
 
@@ -85,7 +109,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 .nav-links a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
 .nav-links a:hover { color: var(--text); background: var(--bg); }
 .nav-links a[aria-current="page"] { color: var(--text); background: var(--bg); }
-.nav-links .nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: 10px; }
+.nav-links .nav-cta { color: #fff; background: var(--brand-grad); box-shadow: var(--shadow-cta); font-weight: 600; font-size: 0.9rem; padding: 8px 12px; border-radius: var(--radius-chip); }
 .nav-links a.nav-cta:hover { filter: brightness(1.05); color: #fff; background: var(--brand-grad); }
 /* Pre-launch "coming soon" pill (hero + closing CTA). Swap to the linked Apple
    "Download on the App Store" badge on release day. */
@@ -113,8 +137,8 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 }
 
 /* --- Section rhythm (shared by the homepage + inner pages) --- */
-.section { padding: 52px 0; }
-.section.tint { background: var(--card); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.section { padding: var(--section-pad) 0; }
+.section.tint { background: var(--accent-tint); border-top: 1px solid var(--accent-edge); border-bottom: 1px solid var(--accent-edge); }
 .section-head { max-width: 720px; margin: 0 auto 22px; text-align: center; }
 .section-head h2 { margin: 0; }
 .section-head p { color: var(--muted); margin: 8px auto 0; max-width: 60ch; }
@@ -144,12 +168,18 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
 .links.cta { margin: 16px 0 6px; }
 .card .links { margin-bottom: 0; }
-.links a { display: inline-flex; align-items: center; justify-content: center; border-radius: var(--radius-chip); padding: 13px 22px; text-decoration: none; font-weight: 600; line-height: 1; }
-.links a.primary { background: var(--brand-grad); color: #fff; border: 0; box-shadow: var(--shadow-cta); }
+.links a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; border: 1px solid transparent; border-radius: var(--radius-chip); padding: 13px 22px; text-decoration: none; font-weight: 600; line-height: 1; }
+.links a.primary { background: var(--brand-grad); color: #fff; border-color: transparent; box-shadow: var(--shadow-cta); }
 .links a.primary:hover { filter: brightness(1.04); transform: translateY(-1px); box-shadow: 0 9px 24px rgba(28,102,217,0.36); }
 .links a.primary:active { transform: translateY(0); }
 .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
 .links a.secondary:hover { border-color: var(--accent); }
+@media (prefers-color-scheme: dark) { .links a.secondary { border-color: var(--accent-edge); } }
+@media (max-width: 600px) {
+  .links a { flex: 1 1 100%; }   /* stacked, equal-width buttons on phones */
+  main.section { padding-top: 28px; }
+  main.section .wrap > :first-child { margin-top: 0; }
+}
 
 /* Narrow reading column for prose — vertical rhythm comes from the
    wrapping .section (or .page-hero), so no vertical padding here. */
@@ -158,6 +188,9 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 h2 { font-size: clamp(1.7rem, 5.5vw, 2.1rem); margin: 14px 0 6px; line-height: 1.14; letter-spacing: -0.022em; text-wrap: balance; }
 h3 { font-size: 1.1rem; margin: 0 0 8px; letter-spacing: -0.01em; line-height: 1.3; }
 p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
+/* One heading scale: section titles share --fs-h2, card titles share --fs-h3. */
+.section-head h2, .lookup-home h2, .privacy-card h2, .fgroup-h, .gsec, #also .section-head h2 { font-size: var(--fs-h2); letter-spacing: -.02em; line-height: 1.2; }
+.job h3, .gcard h3, .fcard-top h3, .also-col h3, .price-col h2 { font-size: var(--fs-h3); }
 
 /* Surface card — used for content blocks across pages. */
 .card {
@@ -173,20 +206,56 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 .card > :last-child { margin-bottom: 0; }
 
 /* Common text utilities. */
-.muted { color: var(--muted); font-size: 0.92rem; }
-.fineprint { color: var(--muted); font-size: 0.86rem; margin: 10px 0 0; }
-.disclaimer { color: var(--muted); font-size: 0.9rem; margin-top: var(--s5); }
-.meta { color: var(--muted); font-size: 0.82rem; margin-top: 4px; }
+.muted { color: var(--muted); font-size: 0.9375rem; }
+.fineprint { color: var(--muted); font-size: 0.875rem; margin: 10px 0 0; }
+.disclaimer { color: var(--muted); font-size: 0.9375rem; margin-top: var(--s5); }
+.meta { color: var(--muted); font-size: 0.875rem; margin-top: 4px; }
 
 /* Eyebrow labels + pill badge. */
 .badge {
-  display: inline-block; font-size: 0.72rem; font-weight: 700;
+  display: inline-block; font-size: 0.78rem; font-weight: 700;
   color: var(--accent); border: 1px solid var(--accent); border-radius: 999px;
   padding: 3px 12px; margin-bottom: 12px; letter-spacing: 0.06em; text-transform: uppercase;
 }
 .eyebrow {
-  display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  display: inline-block; font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
   color: var(--accent); letter-spacing: 0.06em; margin: 26px 0 2px;
+}
+
+/* Guardian Pro pill: one definition for every page (labels stay "Guardian Pro" / "Pro"). */
+.pro-tag, .pro-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .75rem; font-weight: 600; letter-spacing: .02em; line-height: 1.5; vertical-align: .12em; white-space: nowrap; color: var(--accent); background: var(--accent-tint); border: 1px solid var(--accent-edge); }
+
+/* Utilities */
+.sr, .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 16px; top: -100px; z-index: 50; padding: 8px 16px; background: var(--text); color: var(--bg); border-radius: var(--r-sm); font-weight: 600; text-decoration: none; }
+.skip:focus { top: 8px; }
+.small { font-size: .875rem; }
+.center { justify-content: center; text-align: center; }
+.press-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--text); font-weight: 600; font-size: .9rem; text-decoration: none; }
+.press-chip .press-k { font-weight: 500; color: var(--muted); text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; }
+
+/* Breadcrumbs */
+.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; margin: 0; padding: 0; font-size: .9375rem; color: var(--muted); }
+.crumbs li + li::before { content: "/"; padding: 0 8px; color: var(--rule-strong); }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Related links: a card of existing guide and lookup links, grouped under eyebrows. */
+.related-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px 32px; margin: 32px 0 0; padding: 20px 22px; background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); }
+.related-links .eyebrow { margin: 0 0 4px; }
+.related-links ul { list-style: none; margin: 0; padding: 0; }
+.related-links a { display: flex; align-items: center; min-height: 40px; font-weight: 600; color: var(--accent); text-decoration: none; }
+.related-links a:hover { text-decoration: underline; }
+
+/* Stacked table on phones: each row becomes a small card, labels from data-label. */
+@media (max-width: 600px) {
+  table.stack-sm thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.stack-sm, table.stack-sm tbody, table.stack-sm tr, table.stack-sm th, table.stack-sm td { display: block; width: auto; }
+  table.stack-sm tr { border: 1px solid var(--rule); border-radius: var(--r-md); padding: 12px 14px; margin: 0 0 10px; background: var(--card); }
+  table.stack-sm th[scope=row], table.stack-sm td:first-child { font-weight: 700; border: 0; padding: 0 0 6px; }
+  table.stack-sm td { border: 0; padding: 4px 0; }
+  table.stack-sm td[data-label]::before { content: attr(data-label); display: block; font-size: .8125rem; font-weight: 600; color: var(--muted); }
+  .table-wrap:has(> table.stack-sm) { overflow: visible; border: 0; padding: 0; }
 }
 
 footer {

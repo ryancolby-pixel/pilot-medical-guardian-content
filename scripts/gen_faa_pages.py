@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261121a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261127a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""
@@ -163,7 +163,7 @@ def page(path, title, desc, body, ld, ct, current=None, lastmod=None):
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261125">
+  <link rel="stylesheet" href="/site.css?v=20261127a">
   <link rel="stylesheet" href="/site-v2.css?v={V}">
   <script defer src="/faa-lookup.js?v={V}"></script>
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(',', ':'))}</script>

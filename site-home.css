@@ -114,7 +114,6 @@
     }
 
     /* --- Feature grid (replaces the single-column bullet list) --- */
-    .pro-tag { display:inline-block; margin-left:8px; padding:2px 8px; border-radius:999px; font-size:.68em; font-weight:600; letter-spacing:.02em; vertical-align:middle; background:rgba(28,102,217,.10); color:#1c66d9; border:1px solid rgba(28,102,217,.28); white-space:nowrap; }
     .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
     @media (max-width: 900px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 560px) { .feature-grid { grid-template-columns: 1fr; } }
@@ -202,7 +201,7 @@
     #how { scroll-margin-top: 76px; }
 .jobs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .job { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); }
-    .job h3 { margin: 0 0 8px; font-size: 1.12rem; letter-spacing: -.01em; }
+    .job h3 { margin: 0 0 8px; letter-spacing: -.01em; }
     .job p { margin: 0; color: var(--muted); line-height: 1.5; font-size: .95rem; text-wrap: pretty; }
     .jobs-more { margin: 18px 0 0; text-align: center; }
     .jobs-more a { color: var(--accent); font-weight: 600; text-decoration: none; }
@@ -220,8 +219,8 @@
     .prose-card > :first-child { margin-top: 0; }
     .prose-card > :last-child { margin-bottom: 0; }
     .prose-card h3 { font-size: 1.15rem; }
-    .fineprint { color: var(--muted); font-size: 0.86rem; margin: 10px 0 0; }
-    .disclaimer { color: var(--muted); font-size: 0.9rem; margin-top: 28px; text-align: center; }
+    .fineprint { color: var(--muted); margin: 10px 0 0; }
+    .disclaimer { color: var(--muted); margin-top: 28px; text-align: center; }
       /* MedXPress + BasicMed — two-pillar alternating rows */
     .pillars { display: grid; gap: clamp(20px, 3vw, 32px); }
     .pillar { display: grid; align-items: center; gap: clamp(22px,4vw,46px); grid-template-columns: 1.08fr 0.92fr; }
@@ -244,7 +243,7 @@
     /* Hero trailer (10/31): 16:9 video in the hero's right column; stacks with the hero under 760px. */
     .hero2-video { margin: 0; }
     .hero2-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #0d1a2e; border-radius: 14px; border: 1px solid rgba(255,255,255,.14); box-shadow: 0 18px 44px rgba(0,0,0,.35); }
-    .hero2-video figcaption { font-size: .78rem; color: var(--muted); margin-top: 8px; text-align: center; }
+    .hero2-video figcaption { font-size: .85rem; color: var(--muted); margin-top: 8px; text-align: center; }
     .hero2-video figcaption a { color: inherit; }
     .pcsteps { max-width: 720px; margin: 6px auto 18px; padding-left: 1.4em; display: grid; gap: 6px; font-size: 1.02rem; }
     .pcsteps li::marker { font-weight: 700; color: var(--accent); }
@@ -259,7 +258,7 @@
 .job-link { margin-top: auto; font-weight: 600; color: var(--accent); text-decoration: none; font-size: .93rem; }
 .job-link:hover { text-decoration: underline; }
 .lk-plain { margin-top: 8px; }
-.privacy-card h2 { font-size: 1.35rem; margin: 0 0 10px; }
+.privacy-card h2 { margin: 0 0 10px; }
 .privacy-list { margin: 0 0 12px; padding-left: 1.2em; }
 .privacy-list li { margin: 6px 0; line-height: 1.5; }
 .fsec + .fsec { padding-top: 0; }
@@ -268,21 +267,21 @@
 .fsec-text .more-link, .fsec-text .pillar-link { display: inline-block; margin-top: 4px; font-weight: 600; color: var(--accent); text-decoration: none; }
 .fsec .wrap .fsec-text { max-width: 760px; }
 body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
-.gsec { font-size: 1.25rem; margin: 6px 0 14px; }
+.gsec { margin: 6px 0 14px; }
 .gsec:not(:first-child) { margin-top: 34px; }
 .gcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .gcard { display: flex; flex-direction: column; gap: 6px; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 18px 20px; box-shadow: var(--shadow-sm); text-decoration: none; color: inherit; transition: transform .15s ease, box-shadow .15s ease; }
 .gcard:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(16,22,34,.12); }
-.gcard h3 { margin: 0; font-size: 1.05rem; color: var(--text); }
-.gcard p { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.5; }
-.gcard-go { margin-top: auto; padding-top: 4px; font-weight: 600; color: var(--accent); font-size: .92rem; }
+.gcard h3 { margin: 0; color: var(--text); }
+.gcard p { margin: 0; font-size: 1rem; color: var(--muted); line-height: 1.5; }
+.gcard-go { margin-top: auto; padding-top: 4px; font-weight: 600; color: var(--accent); font-size: .9375rem; }
 .lk-cards { margin-top: 22px; }
 @media (max-width: 900px) { .gcards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .gcards { grid-template-columns: minmax(0, 1fr); } }
 .price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
 .price-col { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
 .price-col.pro { border-color: var(--accent-edge); background: linear-gradient(160deg, var(--accent-tint), var(--card)); }
-.price-col h2 { margin: 0; font-size: 1.3rem; }
+.price-col h2 { margin: 0; }
 .price-col .price { margin: 4px 0 14px; font-size: 1.15rem; font-weight: 700; color: var(--accent); }
 .price-list { margin: 0; padding-left: 1.2em; }
 .price-list li { margin: 7px 0; line-height: 1.45; }
@@ -298,48 +297,45 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .guides-xlink a:hover { text-decoration: underline; }
 
 /* ---- Features regroup 11/27: groups, cards, Pro badge, Mac/Windows block, jump list ---- */
-.fjump { position: sticky; top: 60px; z-index: 15; background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
+.fjump { position: sticky; top: var(--nav-h); z-index: 15; background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
 .fjump .wrap { display: flex; flex-wrap: wrap; gap: 6px 10px; justify-content: center; padding-top: 10px; padding-bottom: 10px; font-size: .92rem; }
 .fjump a { color: var(--accent); font-weight: 600; text-decoration: none; }
 .fjump a:hover { text-decoration: underline; }
 .fjump span { color: var(--muted); }
 .fgroup { scroll-margin-top: 110px; }
 .fgroup + .fgroup { padding-top: 0; }
-.fgroup-h { font-size: clamp(1.45rem, 2.6vw, 1.8rem); margin: 0 0 16px; letter-spacing: -.01em; }
+.fgroup-h { margin: 0 0 16px; }
 .fcards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
 .fcard { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); scroll-margin-top: 110px; }
 .fcard-wide { grid-column: 1 / -1; }
 .fcard-wide .pillar-media.stack { grid-template-columns: 1fr 1fr; }
 .fcard-top { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; }
-.fcard-top h3 { margin: 0; font-size: 1.15rem; letter-spacing: -.01em; }
-.pro-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .72rem; font-weight: 600; letter-spacing: .02em; background: rgba(28,102,217,.10); color: #1c66d9; border: 1px solid rgba(28,102,217,.22); white-space: nowrap; }
+.fcard-top h3 { margin: 0; letter-spacing: -.01em; }
 .fcard-lead { font-weight: 600; color: var(--text); margin: 8px 0 12px; }
 .fcard .pillar-media { margin: 0 0 12px; }
 .fcard .pillar-stage img { width: min(230px, 62%); }
-.fcard-body p { font-size: .95rem; color: var(--muted); margin: 0 0 10px; text-wrap: pretty; }
+.fcard-body p { font-size: 1rem; color: var(--muted); margin: 0 0 10px; text-wrap: pretty; }
 .fcard-body .more-link, .fcard-body .pillar-link { display: inline-block; margin: 2px 16px 0 0; font-weight: 600; color: var(--accent); text-decoration: none; }
 .also-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
 .also-col { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); scroll-margin-top: 110px; }
-.also-col h3 { margin: 0 0 8px; font-size: 1.1rem; }
-.also-col > p { font-size: .95rem; color: var(--muted); }
+.also-col h3 { margin: 0 0 8px; }
+.also-col > p { font-size: 1rem; color: var(--muted); }
 .also-col .macshot { margin: 12px 0; }
 .also-col .macshot img { width: 100%; height: auto; border-radius: 12px; }
 .also-col .also-pc { max-width: 320px; margin-inline: auto; }
-.also-list { margin: 8px 0 12px; padding-left: 1.2em; font-size: .93rem; color: var(--muted); }
+.also-list { margin: 8px 0 12px; padding-left: 1.2em; font-size: .9375rem; color: var(--muted); }
 .also-list li { margin: 6px 0; }
 .also-col .links { justify-content: flex-start !important; }
 @media (max-width: 860px) { .fcards, .also-grid { grid-template-columns: 1fr; } .fcard-wide .pillar-media.stack { grid-template-columns: 1fr; } .fjump { position: static; } }
-@media (prefers-color-scheme: dark) { .pro-badge { color: #7fb0ff; background: rgba(127,176,255,.12); border-color: rgba(127,176,255,.28); } }
 
 /* ---- Site consistency 11/27: one card style, one heading scale, more air on inner pages (homepage spacing unchanged) ---- */
 .job, .prose-card, .gcard, .fcard, .price-col, .also-col, .maccard { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); box-shadow: var(--shadow-sm); padding: 20px 22px; }
 .gfeat, .price-col.pro { border-color: var(--accent-edge); background: linear-gradient(160deg, var(--accent-tint), var(--card)); }
-.fgroup-h, .gsec, .privacy-card h2, #also .section-head h2 { font-size: clamp(1.35rem, 2.4vw, 1.7rem); line-height: 1.2; letter-spacing: -.01em; margin: 0 0 16px; }
+.fgroup-h, .gsec, .privacy-card h2, #also .section-head h2 { margin: 0 0 16px; }   /* size: site.css --fs-h2 */
 .gsec:not(:first-child) { margin-top: 44px; }
 body.v2:not(.v2-home) .section { padding: 64px 0; }
 body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .section { padding-top: 44px; }
 .fgroup + .fgroup { padding-top: 64px; border-top: 1px solid var(--rule); }
-.pro-badge { font-size: .7rem; padding: 2px 8px; }
 .price-grid { align-items: stretch; }
 .price-col .price { margin-bottom: 2px; }
 .price-note { margin: 0 0 14px; font-size: .9rem; color: var(--muted); }

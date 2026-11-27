@@ -52,8 +52,6 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .v2 :focus-visible { outline: 2px solid var(--v-accent); outline-offset: 2px; border-radius: 4px; }
 .v2 svg.lk-i, .v2 svg.i-ext, .v2 .cp svg { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .i-ext { width: 12px; height: 12px; margin-left: 4px; vertical-align: -1px; opacity: .7; }
-.skip { position: absolute; left: var(--v-2); top: -100px; z-index: 50; padding: var(--v-1) var(--v-2); background: var(--v-ink); color: var(--v-bg); border-radius: var(--v-r); font-weight: 600; text-decoration: none; }
-.skip:focus { top: var(--v-1); }
 
 /* 3. LAYOUT ------------------------------------------------------------- */
 .v2 .wrap.wide { max-width: 1040px; padding: 0 var(--v-3); }
@@ -79,12 +77,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .v2-main { padding: var(--v-3) 0 var(--v-5); }
 
 /* 4. COMPONENTS ---------------------------------------------------------- */
-/* Breadcrumbs */
-.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; margin: 0; padding: 0; font-size: .875rem; color: var(--v-muted); }
-.crumbs li + li::before { content: "/"; padding: 0 var(--v-1); color: var(--v-line-strong); }
-.crumbs a { color: var(--v-muted); text-decoration: none; }
-.crumbs a:hover { color: var(--v-accent); text-decoration: underline; text-underline-offset: 3px; }
-
+/* Breadcrumbs, .skip and .sr live in site.css (design system 11/27). */
 /* Lookup field (global + filter) */
 .lk { position: relative; }
 .lk-field { position: relative; }
@@ -277,7 +270,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .v2-home .hero2 h1 { letter-spacing: -.034em; }
 .v2-home .hero2-sub { line-height: 1.6; }
 .lookup-home { padding: var(--v-6) 0 var(--v-5); }
-.lookup-home h2 { text-align: center; font-size: clamp(1.5rem, 1.2rem + 1.2vw, 1.875rem); letter-spacing: -.024em; margin: 0 0 var(--v-3); }
+.lookup-home h2 { text-align: center; font-size: var(--fs-h2); letter-spacing: -.024em; margin: 0 0 var(--v-3); }
 .lookup-home .lk { max-width: 640px; margin: 0 auto; }
 .lookup-home .lk-field input { height: 56px; border-radius: var(--v-r-l); }
 .lk-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px var(--v-1); margin: var(--v-2) auto 0; max-width: 640px; font-size: .9375rem; color: var(--muted); }
@@ -287,7 +280,6 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 @media (pointer: coarse) { .lk-links a { min-height: 44px; } }
 
 /* 6. UTILITIES ----------------------------------------------------------- */
-.sr { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 @media (prefers-reduced-motion: reduce) {
   .lk-pop { animation: none; }
   .lk-spin { animation-duration: 2s; }
