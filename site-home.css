@@ -358,8 +358,8 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .also-col .also-pc { max-width: 320px; margin-inline: auto; }
 .also-list { margin: 8px 0 12px; padding-left: 1.2em; font-size: .9375rem; color: var(--muted); }
 .also-list li { margin: 6px 0; }
-.also-col .links { justify-content: flex-start !important; }
-@media (max-width: 860px) { .fcards, .also-grid { grid-template-columns: 1fr; } .fcard-wide .pillar-media.stack { grid-template-columns: 1fr; } .fjump { position: static; } }
+.also-col .links { justify-content: flex-start; margin-top: 18px; }
+@media (max-width: 860px) { .fcards, .also-grid { grid-template-columns: 1fr; } .fcard-wide .pillar-media.stack { grid-template-columns: 1fr; } }
 
 /* ---- Site consistency 11/27: one card style, one heading scale, more air on inner pages (homepage spacing unchanged) ---- */
 .job, .prose-card, .gcard, .fcard, .price-col, .also-col, .maccard { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); box-shadow: var(--shadow-sm); padding: 20px 22px; }
@@ -376,3 +376,39 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 .price-terms p { margin: 0 0 8px; }
 .gcard-count { margin: 2px 0 4px; font-weight: 700; color: var(--text); }
 .gcard-count .num { color: var(--accent); font-size: 1.15rem; }
+
+/* ---- Features page (11/27): one card per row, screenshot beside the text, sides alternate ---- */
+.fcard-body > .pillar-link + p { margin: 10px 0 0; }
+.pillar-media img, .macshot img { background: var(--accent-tint); }
+.pillar-media.stack figure img { aspect-ratio: 1800 / 860; object-fit: cover; object-position: top; }
+@media (min-width: 861px) {
+  .fcards { grid-template-columns: 1fr; gap: 20px; }
+  .fcard-media { display: grid; grid-template-columns: minmax(0, 1fr) 300px; grid-template-rows: auto auto 1fr; column-gap: 36px; }
+  .fcard-media > .fcard-top, .fcard-media > .fcard-lead, .fcard-media > .fcard-body { grid-column: 1; }
+  .fcard-media > .pillar-media { grid-column: 2; grid-row: 1 / 4; margin: 0; align-self: center; }
+  .fcard-flip { grid-template-columns: 300px minmax(0, 1fr); }
+  .fcard-flip > .fcard-top, .fcard-flip > .fcard-lead, .fcard-flip > .fcard-body { grid-column: 2; }
+  .fcard-flip > .pillar-media { grid-column: 1; }
+  .fcard-media .pillar-stage img { width: min(184px, 100%); }   /* 400px tall: the screenshots are 1206x2622; a definite width keeps the box before the lazy image loads */
+  .fcard:not(.fcard-media):not(.fcard-wide) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); grid-template-rows: auto 1fr; align-content: start; column-gap: 36px; }
+  .fcard:not(.fcard-media):not(.fcard-wide) > .fcard-top { grid-column: 1; grid-row: 1; }
+  .fcard:not(.fcard-media):not(.fcard-wide) > .fcard-lead { grid-column: 1; grid-row: 2; align-self: start; }
+  .fcard:not(.fcard-media):not(.fcard-wide) > .fcard-body { grid-column: 2; grid-row: 1 / 3; }
+}
+@media (max-width: 860px) { .fcard .pillar-stage img { width: min(184px, 100%); margin: 0 auto; } }   /* 400px tall */
+
+/* Jump bar: pill links, the one in view highlighted (inline script in features.html). Sticky at every width. */
+.fjump .wrap { max-width: 1060px; gap: 6px; justify-content: flex-start; padding-left: 24px; padding-right: 24px; }   /* same left edge as the page hero and the cards */
+.fjump span[aria-hidden] { display: none; }
+.fjump a { display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border-radius: 999px; font-size: 1rem; }
+.fjump a:hover { background: var(--hover); text-decoration: none; }
+.fjump a[aria-current="true"] { background: var(--accent-tint); box-shadow: inset 0 0 0 1px var(--accent-edge); }
+@media (max-width: 860px) {
+  .fjump .wrap { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
+  .fjump .wrap::-webkit-scrollbar { display: none; }
+  .fjump a { flex: none; }
+}
+
+/* Features: hero, the Mac and Windows heading and the reviews share the card column's left edge. */
+.pg-features .page-hero .wrap, .pg-features .hero-quotes .wrap { max-width: 1060px; padding-left: 24px; padding-right: 24px; }
+.pg-features #also .section-head { max-width: 1060px; text-align: left; margin-left: auto; margin-right: auto; }
