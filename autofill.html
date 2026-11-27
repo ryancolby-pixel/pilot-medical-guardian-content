@@ -46,7 +46,7 @@
     .devcard:hover { border-color: var(--accent-edge); transform: translateY(-2px); box-shadow: 0 8px 22px rgba(16,22,34,0.10); }
     .devcard:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     .devcard-name { font-weight: 700; color: var(--accent); font-size: 1.06rem; }
-    .devcard-note { font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+    .devcard-note { font-size: .875rem; color: var(--muted); line-height: 1.45; }
     .devsec { scroll-margin-top: 90px; }
     .devsec-h { font-size: 1.4rem; margin: 38px 0 16px; padding-bottom: 9px; border-bottom: 2px solid var(--accent); }
     .callout {
@@ -71,7 +71,7 @@
     .step-body p { margin: 0; color: var(--muted); }
     .step-body code {
       background: var(--accent-tint); color: var(--text);
-      padding: 1px 6px; border-radius: 6px; font-size: 0.9em;
+      padding: 1px 6px; border-radius: 6px; font-size: max(.875rem, 0.9em);
     }
 
     /* Screenshots of the real setup screens (iOS 26.5 simulator, 2026-10-18; rebuilt by
@@ -80,7 +80,7 @@
     .shot img { display: block; width: 100%; max-width: 320px; height: auto;
       border-radius: 14px; border: 1px solid var(--rule); box-shadow: var(--shadow-sm); background: #fff; }
     .shot img + img { margin-top: 8px; }
-    .shot figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 7px; max-width: 320px; }
+    .shot figcaption { font-size: .875rem; color: var(--muted); margin-top: 7px; max-width: 320px; }
     .shot.sheet img { max-width: 250px; border: 0; border-radius: 0; box-shadow: none; background: transparent;
       filter: drop-shadow(0 4px 14px rgba(15, 23, 42, 0.16)); }
     .shot-pair { display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: flex-start; }
@@ -102,7 +102,7 @@
     .permrow .mark { flex: none; width: 16px; text-align: center; color: var(--muted); }
     .permrow.correct { color: var(--text); font-weight: 600; background: rgba(40,167,69,0.09); }
     .permrow.correct .mark { color: var(--ok); }
-    .permrow .note { margin-left: auto; font-size: 0.76rem; font-weight: 700; color: var(--muted); }
+    .permrow .note { margin-left: auto; font-size: .875rem; font-weight: 700; color: var(--muted); }
     .permrow.correct .note { color: var(--ok); }
 
     details {
@@ -121,7 +121,7 @@
       border-radius: 22px; background: #0b0f16;
       box-shadow: var(--shadow-sm);
     }
-    .setup-clip figcaption { text-align: center; font-size: 0.82rem; color: var(--muted); margin-top: 9px; }
+    .setup-clip figcaption { text-align: center; font-size: .875rem; color: var(--muted); margin-top: 9px; }
     .setup-clip figcaption a { color: var(--accent); font-weight: 600; display: inline-block; padding: 6px 2px; }
 
     /* Watch-and-Do panel: the video + steps 1-4 fused into one card. */
@@ -418,7 +418,7 @@
           <video controls playsinline preload="none" poster="/screenshots/autofill-chrome-poster.webp?v=1" width="1920" height="1080" style="width:100%;height:auto;border-radius:12px;border:1px solid var(--accent-edge);" aria-label="MedXPress autofill in Chrome, 75 seconds">
             <source src="/screenshots/autofill-chrome.mp4?v=1" type="video/mp4">
           </video>
-          <figcaption style="font-size:0.82rem;margin-top:6px;">Watch it fill MedXPress in Chrome (75 seconds, sample data). Music: <a href="https://soundcloud.com/galaxytones" target="_blank" rel="noopener">Bright Futures by GalaxyTones</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</figcaption>
+          <figcaption style="font-size:.875rem;margin-top:6px;">Watch it fill MedXPress in Chrome (75 seconds, sample data). Music: <a href="https://soundcloud.com/galaxytones" target="_blank" rel="noopener">Bright Futures by GalaxyTones</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a>.</figcaption>
         </figure>
 
         <div class="callout"><strong>Most people: follow steps 1 to 5.</strong><br>If sign-in doesn't work on that computer: use the file method below.</div>
