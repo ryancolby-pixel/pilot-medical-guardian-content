@@ -26,9 +26,9 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261127b"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261127c"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 SITE_CSS_V = "20261127b"   # cache-buster for /site.css on every page (static pages via patch_shell)
-HOME_CSS_V = "20261127b"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
+HOME_CSS_V = "20261127c"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""

@@ -1,6 +1,6 @@
 """Homepage hero: Mac + iPad + iPhone on the Home screen (same day, same demo data, same countdown).
 Sources: screenshots/hero-raw/*.png (captured 2026-11-27 from iOS 2.5.1 / Mac 1.4.1, 246 days on all three).
-Output: screenshots/devices-home.webp (2400x1350) used by index.html's hero. Run from the repo root."""
+Output: screenshots/devices-home.webp (2400x1350, transparent) and -800/-1200/-1600 resizes, used by index.html's hero srcset. Run from the repo root."""
 from PIL import Image, ImageDraw, ImageFilter
 import numpy as np, os
 
@@ -39,13 +39,15 @@ def place(canvas, im, pos, blur=34, alpha=95, dy=22):
     canvas.alpha_composite(im, pos)
     return canvas
 
-c = bg()
+c = Image.new("RGBA", (W, H), (0, 0, 0, 0))  # transparent (11/27): the devices float on the hero band in light and dark
 mac = rounded(screen(f"{R}/mac-home.png", 1240), 20)
 c = place(c, mac, (70, (H - mac.height) // 2 - 20))
 ipad = framed(f"{R}/ipad-home.png", 560, 20, 46, 28)
 c = place(c, ipad, (1235, BASE - ipad.height))
 phone = framed(f"{R}/iphone-home.png", 380, 15, 72, 58)
 c = place(c, phone, (1895, BASE - phone.height + 10))
-c.convert("RGB").save("screenshots/devices-home.webp", "WEBP", quality=88, method=6)
+c.save("screenshots/devices-home.webp", "WEBP", quality=88, method=6)
+for w in (800, 1200, 1600):  # srcset sizes; index.html lists these plus the 2400w original
+    c.resize((w, round(H * w / W)), Image.LANCZOS).save(f"screenshots/devices-home-{w}.webp", "WEBP", quality=88, method=6)
 c.convert("RGB").save(os.path.join(os.environ.get("TMPDIR", "/tmp"), "devices-home-check.jpg"), quality=80)
-print("wrote screenshots/devices-home.webp", c.size)
+print("wrote screenshots/devices-home.webp (+800/1200/1600)", c.size)

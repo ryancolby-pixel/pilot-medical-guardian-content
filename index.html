@@ -77,14 +77,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/site.css?v=20261127b">
-  <link rel="stylesheet" href="/site-home.css?v=20261127b">
+  <link rel="stylesheet" href="/site-home.css?v=20261127c">
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
   <meta name="apple-itunes-app" content="app-id=6772534988, affiliate-data=pt=128922811&amp;ct=web-banner&amp;mt=8">
-<link rel="stylesheet" href="/site-v2.css?v=20261127b">
-<script defer src="/faa-lookup.js?v=20261127b"></script>
+<link rel="stylesheet" href="/site-v2.css?v=20261127c">
+<script defer src="/faa-lookup.js?v=20261127c"></script>
 </head>
 <body class="v2 v2-home">
+  <a class="skip" href="#main">Skip to content</a>
 
   <header class="site-nav">
     <div class="container">
@@ -104,6 +105,8 @@
     </div>
   </header>
 
+  <main id="main">
+
   <!-- HERO -->
   <section class="hero2">
     <div class="sky" aria-hidden="true">
@@ -116,17 +119,20 @@
         <span class="badge">Now on the App Store and the Mac&nbsp;App&nbsp;Store</span>
         <h1>Protect your FAA medical.</h1>
         <p class="hero2-privacy"><strong>Built so no one but you can see your data.</strong> It stays on your device and your own iCloud. No server of mine holds it.</p>
-        <p class="press-line"><a href="https://generalaviationnews.com/2026/11/09/pilot-medical-guardian-app-simplifies-faa-medical-records/" target="_blank" rel="noopener">As seen in General Aviation News</a></p>
         <div class="links cta">
           <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=web-home&amp;mt=8">iPhone &amp; iPad &rarr;</a>
           <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=web-home&amp;mt=12">Mac &rarr;</a>
           <a class="secondary" href="#how">See what it does</a>
         </div>
-        <p class="hero2-privacy hero2-built">Built by an airline pilot. No account, no sign-up.</p>
-        <p class="hero2-qr"><img src="/assets/qr-app-store.svg" width="92" height="92" alt="QR code that opens Pilot Medical Guardian on the App Store" loading="lazy"><span>On a computer? Point your iPhone or iPad camera here to get the app.</span></p>
+        <ul class="trust-row">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c.83 0 1.5.9 1.5 2v5l7 4v2l-7-2V18l2 1.5V21L12 20l-3.5 1v-1.5l2-1.5v-4.5l-7 2v-2l7-4v-5c0-1.1.67-2 1.5-2z"/></svg>Built by an airline pilot.</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>No account, no sign-up.</li>
+          <li><a class="press-chip" href="https://generalaviationnews.com/2026/11/09/pilot-medical-guardian-app-simplifies-faa-medical-records/" target="_blank" rel="noopener"><span class="press-k">As seen in</span> General Aviation News</a></li>
+        </ul>
       </div>
       <div class="hero2-media">
-        <figure class="hero2-devices-img"><img src="/screenshots/devices-home.webp?v=20261127" width="2400" height="1350" loading="eager" fetchpriority="high" decoding="async" alt="Pilot Medical Guardian on Mac, iPad and iPhone, each on the Home screen showing the days left on the medical certificate"><figcaption>Mac, iPad and iPhone.</figcaption></figure>
+        <figure class="hero2-devices-img"><img src="/screenshots/devices-home.webp?v=20261127b" srcset="/screenshots/devices-home-800.webp?v=20261127b 800w, /screenshots/devices-home-1200.webp?v=20261127b 1200w, /screenshots/devices-home-1600.webp?v=20261127b 1600w, /screenshots/devices-home.webp?v=20261127b 2400w" sizes="(min-width: 1110px) 490px, (min-width: 761px) 50vw, 100vw" width="2400" height="1350" loading="eager" fetchpriority="high" decoding="async" alt="Pilot Medical Guardian on Mac, iPad and iPhone, each on the Home screen showing the days left on the medical certificate"><figcaption>Mac, iPad and iPhone.</figcaption></figure>
+        <p class="hero2-qr"><img src="/assets/qr-app-store.svg" width="92" height="92" alt="QR code that opens Pilot Medical Guardian on the App Store" loading="lazy"><span>On a computer? Point your iPhone or iPad camera here to get the app.</span></p>
       </div>
     </div>
   </section>
@@ -140,18 +146,18 @@
       </div>
       <div class="jobs">
         <div class="job">
-          <h3>Autofill MedXPress</h3>
+          <div class="job-h"><span class="job-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3.5h14v17H5zM8.5 8h7M8.5 12h7M8.5 16h4"/></svg></span><h3>Autofill MedXPress</h3></div>
           <p>Autofill is now one tap: Fill MedXPress opens the FAA's own MedXPress site right inside the app, with no Safari setup. Fill on each page puts your application details (Items 1 to 16), medications (Item 17), every Item 18 answer with your explanations, and doctor visits (Item 19) into the FAA form, so you are not retyping every renewal. You review every field and submit it yourself. Prefer Safari? The extension still works.</p>
           <a class="job-link" href="/features.html#autofill">How the autofill works &rarr;</a>
         </div>
         <div class="job">
-          <h3>Track dates &amp; Special Issuance</h3>
+          <div class="job-h"><span class="job-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 9.5h16M8.5 3v4M15.5 3v4"/></svg></span><h3>Track dates &amp; Special Issuance</h3></div>
           <p>Certificate expiration for first, second, or third class, with a countdown and reminders before it lapses. BasicMed too.</p>
           <p class="job-si"><span class="pro-tag">Guardian Pro</span> Special Issuance: requirements, documents, and change-alerts in one place.</p>
           <a class="job-link" href="/features.html#dates">Dates and Special Issuance &rarr;</a>
         </div>
         <div class="job">
-          <h3>Keep records ready for your AME</h3>
+          <div class="job-h"><span class="job-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></svg></span><h3>Keep records ready for your AME</h3></div>
           <p><span class="pro-tag">Guardian Pro</span> Scan, import, or share a PDF or photo, keep it organized, then bundle what you choose into one PDF and send it to your AME from your phone. The bundle is built on-device.</p>
           <a class="job-link" href="/features.html#records">Records and Share with your AME &rarr;</a>
         </div>
@@ -177,7 +183,7 @@
   <section class="lookup-home" id="lookups" aria-labelledby="lookups-h">
     <div class="wrap">
       <h2 id="lookups-h">Free FAA lookups. No account.</h2>
-      <form class="lk" action="/faa-medications/" method="get" role="search" data-lookup="/faa-lookup-index.json?v=20261127b">
+      <form class="lk" action="/faa-medications/" method="get" role="search" data-lookup="/faa-lookup-index.json?v=20261127c">
         <label class="sr" for="lk-q">Look up a medication, an FAA condition, or examiners by town</label>
         <div class="lk-field"><svg class="lk-i" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.75" cy="8.75" r="5.75"/><path d="M13 13l4.25 4.25"/></svg><input id="lk-q" name="q" type="text" inputmode="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="lk-pop" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" placeholder="Medication, condition, or town"><kbd class="lk-kbd" aria-hidden="true">/</kbd></div>
         <div class="lk-pop" id="lk-pop" role="listbox" aria-label="Lookup results" hidden></div>
@@ -211,18 +217,19 @@
         <p>Pilot Medical Guardian is on the App Store for iPhone, iPad, and Mac. It's private by design, grounded in the FAA's own published rules, and especially useful if you're flying on a Special Issuance.</p>
       </div>
       <div class="prose-card">
-        <p style="margin-top:0;"><b>Free to use</b>, with an optional Guardian Pro subscription. <a href="/pricing.html">See what's free and what Guardian Pro adds</a>.</p>
-        <div class="links" style="margin-bottom:0;">
+        <p><b>Free to use</b>, with an optional Guardian Pro subscription. <a href="/pricing.html">See what's free and what Guardian Pro adds</a>.</p>
+        <div class="links">
           <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=iphone&amp;pt=128922811&amp;ct=web-home&amp;mt=8">iPhone &amp; iPad &rarr;</a>
           <a class="primary" href="https://apps.apple.com/us/app/pilot-medical-guardian/id6772534988?platform=mac&amp;pt=128922811&amp;ct=web-home&amp;mt=12">Mac &rarr;</a>
           <a class="secondary" href="/faq.html">Read the FAQ</a>
         </div>
-        <p class="fineprint" style="margin-top:12px; margin-bottom:0;">Free to download. Your medical data stays on your device and your own iCloud, and this website never sees it. Here's <a href="/privacy.html">exactly how that works</a>.</p>
+        <p class="fineprint">Free to download. Your medical data stays on your device and your own iCloud, and this website never sees it. Here's <a href="/privacy.html">exactly how that works</a>.</p>
       </div>
 
       <p class="disclaimer">This app is an information and record-keeping tool. It is not medical, legal, or FAA compliance certification, and it is not medical advice. It helps you stay organized; your AME makes the certification decisions.</p>
     </div>
   </section>
+  </main>
 
   <footer class="site-footer">
     <div class="foot-grid">

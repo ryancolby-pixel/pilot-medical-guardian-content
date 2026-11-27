@@ -20,7 +20,7 @@
         linear-gradient(180deg, var(--accent-tint), var(--accent-tint));
       /* border-bottom removed: the tint flows into the .hero-quotes shelf below */
     }
-    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 40px; align-items: center; padding-top: 56px; padding-bottom: clamp(78px, 9vw, 108px); }
+    .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: center; padding-top: 56px; padding-bottom: 64px; }
     /* Faint aircraft motif: GA single / narrowbody / business jet =
        the three worlds of pilots I serve (Class 3 / 1 / 2). Decorative.
        Silhouettes tinted to brand blue via CSS mask so they adapt to
@@ -46,22 +46,22 @@
       .plane-b737 { width: 220px; top: 10%; left: 0; right: auto; opacity: 0.2; }
       .plane-g600 { width: 152px; top: 61%; left: 42%; right: auto; opacity: 0.13; }
     }
-    .hero2 h1 { font-size: clamp(2rem, 5.6vw, 3.05rem); line-height: 1.06; letter-spacing: -0.03em; margin: 14px 0 0; text-wrap: balance; }
+    .hero2 h1 { font-size: clamp(2.3rem, 4.4vw, 3.5rem); font-weight: 800; line-height: 1.06; letter-spacing: -0.03em; margin: 14px 0 0; text-wrap: balance; }
     .hero2-sub { font-size: clamp(1.05rem, 2.4vw, 1.22rem); line-height: 1.5; color: var(--muted); margin: 16px 0 0; max-width: 46ch; text-wrap: pretty; }
     .hero2-sub strong { color: var(--text); font-weight: 600; }
     /* The privacy promise, pulled out of the paragraph wall and given its own
        line under the buttons (Ryan 2026-09-02). Same words, smaller, quieter. */
-    .hero2-privacy { margin: 14px 0 0; font-size: 0.94rem; line-height: 1.45; color: var(--muted); text-wrap: pretty; }
-    .hero2-built { margin-top: 4px; }
+    .hero2-privacy { margin: 14px 0 0; font-size: 1.125rem; line-height: 1.45; color: var(--text); text-wrap: pretty; }
+    /* Trust row under the buttons (11/27): the old "Built by..." line and the press line, same words, one item each. */
+    .trust-row { list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; font-size: 1rem; color: var(--text); font-weight: 600; }
+    .trust-row li { display: inline-flex; align-items: center; gap: 8px; }
+    .trust-row svg { width: 20px; height: 20px; flex: none; color: var(--accent); fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
     /* QR to the App Store, desktop widths only (11/13 review): a pilot reading on a computer scans it with his phone. ct=web-home-qr. */
     .hero2-qr { display: none; }
     @media (min-width: 900px) and (hover: hover) {
-      .hero2-qr { display: flex; align-items: center; gap: 12px; margin: 16px 0 0; font-size: 0.9rem; line-height: 1.4; color: var(--muted); max-width: 34ch; }
+      .hero2-qr { display: flex; align-items: center; gap: 12px; margin: 16px auto 0; font-size: .9375rem; line-height: 1.4; color: var(--muted); max-width: 36ch; }
       .hero2-qr img { flex: none; width: 92px; height: 92px; border-radius: 8px; background: #fff; padding: 4px; }
     }
-    /* Press line (Ryan 11/11): small, muted, text only. */
-    .press-line { margin: 12px 0 0; font-size: 0.94rem; line-height: 1.45; color: var(--muted); }
-    .press-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
     .hero2 .links.cta { margin-top: 24px; }
     .hero2-media { justify-self: center; width: 100%; }
     /* min-width:0 on the grid children: an fr column has a min-content floor, and
@@ -102,6 +102,7 @@
       .hero2 .container { grid-template-columns: 1fr; gap: 28px; text-align: center; padding-top: 40px; padding-bottom: 52px; }
       .hero2-sub { margin-left: auto; margin-right: auto; }
       .hero2 .links.cta { justify-content: center; }
+      .trust-row { justify-content: center; }
       /* Phone visitors get the phone, full size. Three devices on a 390px
          screen is three unreadable thumbnails. */
       /* NOTE the descendant selector: `.device-row img` (0-1-1) outranks a bare
@@ -207,6 +208,12 @@
     .jobs-more a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .jobs-more a:hover { text-decoration: underline; }
     @media (max-width: 860px) { .jobs { grid-template-columns: 1fr; gap: 12px; } }
+    /* 11/27: the autofill card carries the most text, so it gets the wider column; small icon beside each title. */
+    @media (min-width: 861px) { .jobs { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr) minmax(0, 1fr); } }
+    .job-h { display: flex; align-items: center; gap: 10px; }
+    .job-ico { flex: none; width: 34px; height: 34px; border-radius: 10px; background: var(--accent-tint); color: var(--accent); display: grid; place-items: center; }
+    .job-ico svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .job .job-h h3 { font-size: 1.2rem; margin: 0; }
     .qcard::before { content: "\201C"; display: block; font-size: 1.9rem; line-height: .6; color: var(--accent); opacity: .5; margin-bottom: 5px; }
     /* A PARTIAL grid reads as half-empty; a COMPLETE row reads as finished. Measured at
        1440x800 the strip starts at y=725, so it lands below the fold at any layout - which
@@ -218,6 +225,8 @@
     .prose-card + .prose-card { margin-top: 16px; }
     .prose-card > :first-child { margin-top: 0; }
     .prose-card > :last-child { margin-bottom: 0; }
+    .prose-card .links { margin-bottom: 0; }
+    .prose-card .links + .fineprint { margin-top: 12px; margin-bottom: 0; }
     .prose-card h3 { font-size: 1.15rem; }
     .fineprint { color: var(--muted); margin: 10px 0 0; }
     .disclaimer { color: var(--muted); margin-top: 28px; text-align: center; }
