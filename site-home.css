@@ -420,13 +420,16 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 .pg-lookups .page-hero .wrap, .pg-guides .page-hero .wrap { max-width: 1060px; padding-left: var(--gutter); padding-right: var(--gutter); }
 .pg-lookups .lk { max-width: 640px; margin-left: 0; }
 .gcard-count .num { display: inline-block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
-.gfeat { border-top: 4px solid var(--accent); }
+/* Start here: an even 4px accent cap clipped by the card radius (a thick border-top tapered into crescents at the corners). */
+.gfeat { position: relative; overflow: hidden; padding-top: 23px; }
+.gfeat::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--accent); }
 .gfeat h3 { font-size: 1.2rem; }
 .pg-guides .guide-prose { max-width: 72ch; }
 .pg-guides .guide-prose .section-head { max-width: none; margin-left: 0; text-align: left; }
 .pg-guides .guide-prose .section-head p { margin-left: 0; }
 @media (max-width: 600px) {
   .gcard { position: relative; padding: 14px 44px 14px 16px; }
+  .gfeat { padding-top: 17px; }
   .gcard::after { content: ""; position: absolute; right: 18px; top: 50%; width: 9px; height: 9px; border: solid var(--accent); border-width: 2px 2px 0 0; transform: translateY(-50%) rotate(45deg); }
   .gcard-go { display: none; }
 }
