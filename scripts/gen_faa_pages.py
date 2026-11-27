@@ -27,6 +27,8 @@ args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
 V = "20261127a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+SITE_CSS_V = "20261127b"   # cache-buster for /site.css on every page (static pages via patch_shell)
+HOME_CSS_V = "20261127b"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""
@@ -108,22 +110,48 @@ CF = """  <script defer src='https://static.cloudflareinsights.com/beacon.min.js
 def appstore(ct):
     return f"https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct={ct}&amp;mt=8"
 
-def nav(ct, current=None):
+# ---------------------------------------------------------------- shared header + footer
+# Static headers and footers are written by patch_shell(); edit them here only. The same nav() and
+# footer() go on every generated page and every static page, so all pages share one header and footer.
+LOOKUP_LINKS = [("/faa-medications/", "FAA medication lookup"),
+                ("/faa-conditions/", "FAA conditions and disposition tables"),
+                ("/aviation-medical-examiners/", "Find an aviation medical examiner")]
+GUIDE_LINKS = [("/medxpress-guide.html", "FAA MedXPress guide"),
+               ("/medxpress-checklist.html", "MedXPress prep checklist"),
+               ("/basicmed-guide.html", "FAA BasicMed guide"),
+               ("/faa-form-8700-2.html", "FAA Form 8700-2 (CMEC)"),
+               ("/faa-medical-duration.html", "FAA medical certificate duration"),
+               ("/special-issuance.html", "FAA Special Issuance")]
+APP_LINKS = [("/autofill.html", "MedXPress autofill steps"),
+             ("/windows.html", "Autofill on a Windows PC"),
+             ("/faa-medxpress-app.html", "MedXPress autofill app")]
+SITE_LINKS = [("/features.html", "Features"), ("/pricing.html", "Pricing"),
+              ("/whats-new.html", "What's New"), ("/faq.html", "FAQ")]
+
+def nav(ct, current=None, exact=False):
     # Site header (reorg 11/25, Ryan's spec): Features, Free Lookups, Guides, Pricing, FAQ, Download.
-    # Every lookup page marks "Free Lookups" as current. Keep in step with the static pages' header.
+    # Free Lookups and Guides open a panel of their pages on desktop (hover or keyboard focus only);
+    # on phones the Menu button lists the hubs, which carry the same links.
+    # aria-current: "page" on the hub itself (exact), "true" on a page inside that section.
+    # Every lookup page marks "Free Lookups" as current.
     cur_key = "lookups" if current in ("med", "cond", "ame") else current
+    cur_val = "page" if exact else "true"
     def a(href, label, key):
-        cur = ' aria-current="page"' if key == cur_key else ""
+        cur = f' aria-current="{cur_val}"' if key == cur_key else ""
         return f'<a class="nav-hide-sm" href="{href}"{cur}>{label}</a>'
+    def sub(links):
+        return "".join(f'<a href="{h}">{l}</a>' for h, l in links)
     return f"""  <header class="site-nav">
     <div class="container">
       <a class="nav-brand" href="/"><img src="/logo-96.png" alt="Pilot Medical Guardian logo" width="30" height="30"><span>Pilot Medical Guardian</span></a>
-      <input type="checkbox" id="navtoggle" class="nav-toggle-cb" hidden>
-      <label for="navtoggle" class="nav-toggle"><span class="sr">Menu</span><span aria-hidden="true">&#9776;</span></label>
+      <input type="checkbox" id="navtoggle" class="nav-toggle-cb">
+      <label for="navtoggle" class="nav-toggle"><svg class="nav-toggle-i" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg><span>Menu</span></label>
       <nav class="nav-links" aria-label="Main">
         {a('/features.html', 'Features', 'features')}
-        {a('/lookups.html', 'Free Lookups', 'lookups')}
-        {a('/guides.html', 'Guides', 'guides')}
+        <div class="nav-item">{a('/lookups.html', 'Free Lookups', 'lookups')}
+          <div class="nav-sub">{sub(LOOKUP_LINKS)}</div></div>
+        <div class="nav-item">{a('/guides.html', 'Guides', 'guides')}
+          <div class="nav-sub nav-sub-wide"><div><p class="nav-sub-h">The FAA's medical paperwork</p>{sub(GUIDE_LINKS)}</div><div><p class="nav-sub-h">Using the app</p>{sub(APP_LINKS)}</div></div></div>
         {a('/pricing.html', 'Pricing', 'pricing')}
         {a('/faq.html', 'FAQ', 'faq')}
         <a class="nav-cta" href="{appstore(ct)}" aria-label="Download on the App Store">Download</a>
@@ -131,15 +159,18 @@ def nav(ct, current=None):
     </div>
   </header>"""
 
-FOOT_LOOKUPS = '<p>Free lookups: <a href="/faa-medications/">FAA medication lookup</a> · <a href="/faa-conditions/">FAA conditions and disposition tables</a> · <a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></p>'
-FOOTER = f"""  <footer>
-    <div class="wrap">
-      <p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p>
-      <p>Not affiliated with or endorsed by the FAA.</p>
-      {FOOT_LOOKUPS}
-      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
-      <p>Guides: <a href="/medxpress-guide.html">FAA MedXPress guide</a> · <a href="/medxpress-checklist.html">MedXPress prep checklist</a> · <a href="/basicmed-guide.html">FAA BasicMed guide</a> · <a href="/faa-medical-duration.html">FAA medical certificate duration</a> · <a href="/special-issuance.html">FAA Special Issuance</a></p>
+def footer(extra=""):
+    def ul(links):
+        return "<ul>" + "".join(f'<li><a href="{h}">{l}</a></li>' for h, l in links) + "</ul>"
+    return f"""  <footer class="site-footer">
+    <div class="foot-grid">
+      <div class="foot-brand"><a class="foot-logo" href="/"><img src="/logo-96.png" alt="" width="28" height="28" loading="lazy"><span>Pilot Medical Guardian</span></a>
+        {ul(SITE_LINKS)}</div>
+      <div><h2 class="foot-h"><a href="/lookups.html">Free lookups</a></h2>{ul(LOOKUP_LINKS)}</div>
+      <div><h2 class="foot-h"><a href="/guides.html">Guides</a></h2>{ul(GUIDE_LINKS)}</div>
+      <div><h2 class="foot-h">Using the app</h2>{ul(APP_LINKS)}</div>
     </div>
+    <div class="foot-bottom"><p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p><p>Not affiliated with or endorsed by the FAA.</p><p class="foot-legal"><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></p>{extra}</div>
   </footer>"""
 
 def page(path, title, desc, body, ld, ct, current=None, lastmod=None):
@@ -163,7 +194,7 @@ def page(path, title, desc, body, ld, ct, current=None, lastmod=None):
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127a">
+  <link rel="stylesheet" href="/site.css?v={SITE_CSS_V}">
   <link rel="stylesheet" href="/site-v2.css?v={V}">
   <script defer src="/faa-lookup.js?v={V}"></script>
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(',', ':'))}</script>
@@ -174,7 +205,7 @@ def page(path, title, desc, body, ld, ct, current=None, lastmod=None):
   <a class="skip" href="#main">Skip to content</a>
 {nav(ct, current)}
 {body}
-{FOOTER}
+{footer()}
 </body>
 </html>
 """
@@ -596,6 +627,56 @@ def home_section(ame_total):
   </section>
 """
 
+# ---------------------------------------------------------------- static pages: shared header + footer
+# page: (ct token already in that page's Download link, current header item). expire.html is a redirect stub.
+STATIC_SHELL = {
+    "index.html": ("web-home", None), "features.html": ("web-features", "features"),
+    "lookups.html": ("web-lookups", "lookups"), "guides.html": ("web-guides", "guides"),
+    "pricing.html": ("web-pricing", "pricing"), "faq.html": ("web-faq", "faq"),
+    "privacy.html": ("web-privacy", None), "terms.html": ("web-terms", None),
+    "whats-new.html": ("web-whatsnew", None), "thanks.html": ("web-thanks", None),
+    "autofill.html": ("seo-autofill", "guides"), "basicmed-guide.html": ("seo-basicmed", "guides"),
+    "faa-form-8700-2.html": ("seo-8700", "guides"), "faa-medical-duration.html": ("seo-duration", "guides"),
+    "faa-medxpress-app.html": ("seo-mxapp", "guides"), "medxpress-checklist.html": ("seo-checklist", "guides"),
+    "medxpress-guide.html": ("seo-mxguide", "guides"), "special-issuance.html": ("seo-si", "guides"),
+    "windows.html": ("windows-page", "guides"),
+}
+HUBS = {"features.html", "lookups.html", "guides.html", "pricing.html", "faq.html"}
+
+def patch_shell():
+    """Write the shared header, footer, skip link and CSS cache keys into every static page.
+    Idempotent: a second run leaves the pages unchanged."""
+    no_main = []
+    for name, (ct, current) in STATIC_SHELL.items():
+        p = os.path.join(OUT, name)
+        if not os.path.exists(p):
+            continue
+        s = open(p, encoding="utf-8").read()
+        # (a) header, guarded by the page's own App Store campaign token
+        m = re.search(r'  <header class="site-nav">[\s\S]*?</header>', s)
+        assert m and f"ct={ct}&" in m.group(0), f"{name}: header or ct={ct} missing"
+        s = s[:m.start()] + nav(ct, current, exact=name in HUBS) + s[m.end():]
+        # (b) footer: keep any page-specific plain-text line (no link, not the two shared lines)
+        m = re.search(r'  <footer[^>]*>[\s\S]*?</footer>', s)
+        assert m, f"{name}: footer missing"
+        kept = [x for x in re.findall(r'<p(?:\s[^>]*)?>([\s\S]*?)</p>', m.group(0))
+                if "<a " not in x and "YellowArc" not in x and "Not affiliated with or endorsed by the FAA." not in x]
+        extra = "".join(f'<p class="foot-note">{x}</p>' for x in kept)
+        s = s[:m.start()] + footer(extra) + s[m.end():]
+        # (c) CSS cache keys
+        s = re.sub(r'/site\.css\?v=[^"]*"', f'/site.css?v={SITE_CSS_V}"', s)
+        s = re.sub(r'/site-home\.css\?v=[^"]*"', f'/site-home.css?v={HOME_CSS_V}"', s)
+        # (d) skip link to <main id="main">
+        if re.search(r"<main(?![^>]*\sid=)[^>]*>", s) and 'id="main"' not in s:
+            s = re.sub(r"<main(?![^>]*\sid=)([^>]*)>", r'<main\1 id="main">', s, count=1)
+        if 'id="main"' in s and "Skip to content" not in s:
+            s = re.sub(r"(<body[^>]*>\n)", r'\1  <a class="skip" href="#main">Skip to content</a>\n', s, count=1)
+        if "<main" not in s:
+            no_main.append(name)
+        open(p, "w", encoding="utf-8").write(s)
+    if no_main:
+        print("static pages without <main> (no skip link yet):", ", ".join(no_main))
+
 def patch_home(section):
     p = os.path.join(OUT, "index.html")
     s = open(p, encoding="utf-8").read()
@@ -609,9 +690,6 @@ def patch_home(section):
     assert anchor in s, "homepage anchor missing"
     s = s.replace(anchor, section.lstrip("\n") + "\n" + anchor, 1)
     s = re.sub(r"\n{3,}(  <!-- (?:FREE FAA LOOKUPS|PRIVACY))", r"\n\n\1", s)  # idempotent: no blank lines pile up between runs
-    if "/faa-medications/" not in s.split("<footer>")[1]:
-        s = s.replace("<p>Not affiliated with or endorsed by the FAA.</p>",
-                      "<p>Not affiliated with or endorsed by the FAA.</p>\n      " + FOOT_LOOKUPS, 1)
     open(p, "w", encoding="utf-8").write(s)
 
 def patch_lookups():
@@ -678,6 +756,7 @@ def main():
     urls += [(ame_state(st), "0.6") for st in sorted(ame_by_state)]
     write_index()
     write_assets()
+    patch_shell()
     patch_home(home_section(total))
     patch_lookups()
     sitemap(urls)

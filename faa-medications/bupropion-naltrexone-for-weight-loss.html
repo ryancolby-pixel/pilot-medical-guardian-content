@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127a">
+  <link rel="stylesheet" href="/site.css?v=20261127b">
   <link rel="stylesheet" href="/site-v2.css?v=20261127a">
   <script defer src="/faa-lookup.js?v=20261127a"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://pilotmedicalguardian.com/"},{"@type":"ListItem","position":2,"name":"FAA medications","item":"https://pilotmedicalguardian.com/faa-medications/"}]},{"@type":"MedicalWebPage","name":"Bupropion + naltrexone (for weight loss) (Contrave) and the FAA medical","description":"Bupropion + naltrexone (for weight loss) (Contrave) and the FAA medical for pilots: the FAA reference text, the FAA source document and its date, and when I last checked it. Information, not advice.","url":"https://pilotmedicalguardian.com/faa-medications/bupropion-naltrexone-for-weight-loss.html","lastReviewed":"2026-10-06","about":{"@type":"Substance","name":"bupropion + naltrexone (for weight loss)","alternateName":["Contrave"]},"citation":[{"@type":"CreativeWork","name":"FAA Guide for Aviation Medical Examiners, Weight Loss Medication (updated 08/26/2026), UNACCEPTABLE Weight Loss Medications","url":"https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"}],"publisher":{"@type":"Organization","name":"Pilot Medical Guardian","url":"https://pilotmedicalguardian.com/"}}]}</script>
@@ -36,12 +36,14 @@
   <header class="site-nav">
     <div class="container">
       <a class="nav-brand" href="/"><img src="/logo-96.png" alt="Pilot Medical Guardian logo" width="30" height="30"><span>Pilot Medical Guardian</span></a>
-      <input type="checkbox" id="navtoggle" class="nav-toggle-cb" hidden>
-      <label for="navtoggle" class="nav-toggle"><span class="sr">Menu</span><span aria-hidden="true">&#9776;</span></label>
+      <input type="checkbox" id="navtoggle" class="nav-toggle-cb">
+      <label for="navtoggle" class="nav-toggle"><svg class="nav-toggle-i" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg><span>Menu</span></label>
       <nav class="nav-links" aria-label="Main">
         <a class="nav-hide-sm" href="/features.html">Features</a>
-        <a class="nav-hide-sm" href="/lookups.html" aria-current="page">Free Lookups</a>
-        <a class="nav-hide-sm" href="/guides.html">Guides</a>
+        <div class="nav-item"><a class="nav-hide-sm" href="/lookups.html" aria-current="true">Free Lookups</a>
+          <div class="nav-sub"><a href="/faa-medications/">FAA medication lookup</a><a href="/faa-conditions/">FAA conditions and disposition tables</a><a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></div></div>
+        <div class="nav-item"><a class="nav-hide-sm" href="/guides.html">Guides</a>
+          <div class="nav-sub nav-sub-wide"><div><p class="nav-sub-h">The FAA's medical paperwork</p><a href="/medxpress-guide.html">FAA MedXPress guide</a><a href="/medxpress-checklist.html">MedXPress prep checklist</a><a href="/basicmed-guide.html">FAA BasicMed guide</a><a href="/faa-form-8700-2.html">FAA Form 8700-2 (CMEC)</a><a href="/faa-medical-duration.html">FAA medical certificate duration</a><a href="/special-issuance.html">FAA Special Issuance</a></div><div><p class="nav-sub-h">Using the app</p><a href="/autofill.html">MedXPress autofill steps</a><a href="/windows.html">Autofill on a Windows PC</a><a href="/faa-medxpress-app.html">MedXPress autofill app</a></div></div></div>
         <a class="nav-hide-sm" href="/pricing.html">Pricing</a>
         <a class="nav-hide-sm" href="/faq.html">FAQ</a>
         <a class="nav-cta" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=seo-med&amp;mt=8" aria-label="Download on the App Store">Download</a>
@@ -82,14 +84,15 @@
       </div>
     </div>
   </main>
-  <footer>
-    <div class="wrap">
-      <p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p>
-      <p>Not affiliated with or endorsed by the FAA.</p>
-      <p>Free lookups: <a href="/faa-medications/">FAA medication lookup</a> · <a href="/faa-conditions/">FAA conditions and disposition tables</a> · <a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></p>
-      <p><a href="/whats-new.html">What's New</a> · <a href="/faq.html">FAQ</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
-      <p>Guides: <a href="/medxpress-guide.html">FAA MedXPress guide</a> · <a href="/medxpress-checklist.html">MedXPress prep checklist</a> · <a href="/basicmed-guide.html">FAA BasicMed guide</a> · <a href="/faa-medical-duration.html">FAA medical certificate duration</a> · <a href="/special-issuance.html">FAA Special Issuance</a></p>
+  <footer class="site-footer">
+    <div class="foot-grid">
+      <div class="foot-brand"><a class="foot-logo" href="/"><img src="/logo-96.png" alt="" width="28" height="28" loading="lazy"><span>Pilot Medical Guardian</span></a>
+        <ul><li><a href="/features.html">Features</a></li><li><a href="/pricing.html">Pricing</a></li><li><a href="/whats-new.html">What's New</a></li><li><a href="/faq.html">FAQ</a></li></ul></div>
+      <div><h2 class="foot-h"><a href="/lookups.html">Free lookups</a></h2><ul><li><a href="/faa-medications/">FAA medication lookup</a></li><li><a href="/faa-conditions/">FAA conditions and disposition tables</a></li><li><a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></li></ul></div>
+      <div><h2 class="foot-h"><a href="/guides.html">Guides</a></h2><ul><li><a href="/medxpress-guide.html">FAA MedXPress guide</a></li><li><a href="/medxpress-checklist.html">MedXPress prep checklist</a></li><li><a href="/basicmed-guide.html">FAA BasicMed guide</a></li><li><a href="/faa-form-8700-2.html">FAA Form 8700-2 (CMEC)</a></li><li><a href="/faa-medical-duration.html">FAA medical certificate duration</a></li><li><a href="/special-issuance.html">FAA Special Issuance</a></li></ul></div>
+      <div><h2 class="foot-h">Using the app</h2><ul><li><a href="/autofill.html">MedXPress autofill steps</a></li><li><a href="/windows.html">Autofill on a Windows PC</a></li><li><a href="/faa-medxpress-app.html">MedXPress autofill app</a></li></ul></div>
     </div>
+    <div class="foot-bottom"><p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p><p>Not affiliated with or endorsed by the FAA.</p><p class="foot-legal"><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></p></div>
   </footer>
 </body>
 </html>
