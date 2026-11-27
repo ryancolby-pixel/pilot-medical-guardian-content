@@ -66,6 +66,7 @@
 @media (max-width: 600px) { :root { --section-pad: 40px; } }
 
 * { box-sizing: border-box; }
+@font-face { font-family: "Inter"; font-style: normal; font-display: swap; font-weight: 100 900; src: url(/fonts/inter-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }   /* Inter, SIL Open Font License (/fonts/OFL.txt), self-hosted: no third-party request */
 html { scroll-behavior: smooth; }
 html, body { margin: 0; padding: 0; }
 body {
@@ -84,6 +85,7 @@ main#main { scroll-margin-top: var(--nav-h); }
 :where(main a[href^="mailto:"]) { overflow-wrap: anywhere; }   /* a long email address wraps on a 320px phone instead of pushing the page sideways */   /* skip link: the page header shows in full under the sticky nav */
 body:not(.v2-home) { font-size: 1.0625rem; }
 h1 { font-weight: 800; }
+h1, h2 { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 a { transition: color .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease, transform .15s ease, filter .15s ease; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 5px; }
 
@@ -177,7 +179,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 /* --- Section rhythm (shared by the homepage + inner pages) --- */
 .section { padding: var(--section-pad) 0; }
 .section.tint { background: var(--accent-tint); border-top: 1px solid var(--accent-edge); border-bottom: 1px solid var(--accent-edge); }
-.section-head { max-width: 720px; margin: 0 auto 22px; text-align: center; }
+.section-head { max-width: 760px; margin: 0 auto 22px; text-align: center; }
 .section-head h2 { margin: 0; }
 .section-head p { color: var(--muted); margin: 8px auto 0; max-width: 60ch; }
 .section-head .eyebrow { display: block; margin: 0 0 6px; }
@@ -212,6 +214,13 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 .links a.primary:active { transform: translateY(0); }
 .links a.secondary { background: var(--card); border: 1px solid var(--rule); color: var(--accent); box-shadow: var(--shadow-sm); }
 .links a.secondary:hover { border-color: var(--accent); }
+/* Official Apple badges (unmodified artwork; Apple's own 40px height with a mouse, 44px on touch screens; at least 12px clear space) */
+.links:has(.store-badge) { gap: 12px; }
+.links a.store-badge { padding: 0; min-height: 0; background: none; border: 0; box-shadow: none; border-radius: 9px; flex: none; line-height: 0; }
+.links a.store-badge img { display: block; height: 44px; width: auto; }
+@media (pointer: fine) { .links a.store-badge img { height: 40px; } }
+.links a.store-badge:hover { opacity: .88; }
+.links a.store-badge:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 @media (prefers-color-scheme: dark) { .links a.secondary { border-color: var(--accent-edge); } }
 @media (max-width: 600px) {
   .links a { flex: 1 1 100%; }   /* stacked, equal-width buttons on phones */
