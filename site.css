@@ -37,6 +37,7 @@
   --ring: 0 0 0 3px rgba(28,102,217,.28);
   --shadow-pop: 0 1px 2px rgba(15,20,25,.06), 0 12px 32px rgba(15,20,25,.10);
   --r-lg: 16px; --r-md: 12px; --r-sm: 8px;
+  --fs-h1: clamp(1.85rem, 5vw, 2.6rem);   /* page title on every inner page and lookup page; the homepage hero keeps its own */
   --fs-h2: clamp(1.6rem, 1.2rem + 1.4vw, 2.1rem);
   --fs-h3: 1.125rem;
   --section-pad: 52px;
@@ -175,7 +176,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 }
 .page-hero .wrap { padding-top: 44px; padding-bottom: 30px; }
 .page-hero h1 {
-  font-size: clamp(1.85rem, 5vw, 2.6rem); line-height: 1.08;
+  font-size: var(--fs-h1); line-height: 1.08;
   letter-spacing: -0.03em; margin: 10px 0 0; text-wrap: balance;
 }
 .page-hero .page-sub {

@@ -59,7 +59,7 @@ body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink
 .v2-head { padding: var(--v-4) 0 var(--v-3); position: relative; }
 /* Same tinted band as the inner-page hero in site.css (.page-hero), so lookup pages match. */
 .v2-head { background: radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,.12), transparent 60%), linear-gradient(180deg, var(--accent-tint), var(--v-bg) 85%); border-bottom: 1px solid var(--v-line); }
-.v2-head h1 { font-size: clamp(1.75rem, 1.25rem + 2.2vw, 2.5rem); line-height: 1.12; letter-spacing: -.028em; font-weight: 700; margin: var(--v-1) 0 0; text-wrap: balance; overflow-wrap: anywhere; color: var(--v-ink); }
+.v2-head h1 { font-size: var(--fs-h1); line-height: 1.12; letter-spacing: -.028em; font-weight: 700; margin: var(--v-1) 0 0; text-wrap: balance; overflow-wrap: anywhere; color: var(--v-ink); }
 .v2-sub { margin: var(--v-1) 0 0; max-width: 68ch; color: var(--v-ink-2); font-size: 1rem; }
 .v2-sub a { color: var(--v-accent); }
 .v2-main { padding: var(--v-3) 0 var(--v-5); }
