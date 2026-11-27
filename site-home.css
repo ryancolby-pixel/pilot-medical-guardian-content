@@ -13,13 +13,37 @@
        What remains here is the homepage-only hero + feature grid. */
 
     /* --- Hero: benefit headline + CTA on the left, phone on the right --- */
+    .hero2 { position: relative; overflow: hidden; }
+    /* Deep blue band (11/27, its own commit so it can be reverted alone). Every text color below
+       measures at least 4.5:1 on both gradient ends (#0c2547 and #13407e). */
     .hero2 {
-      position: relative; overflow: hidden;
       background:
-        radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,0.16), transparent 60%),
-        linear-gradient(180deg, var(--accent-tint), var(--accent-tint));
-      /* border-bottom removed: the tint flows into the .hero-quotes shelf below */
+        radial-gradient(900px 420px at 80% -10%, rgba(46,158,204,.35), transparent 60%),
+        linear-gradient(160deg, #0c2547 0%, #13407e 100%);
+      color: #fff;
     }
+    @media (prefers-color-scheme: dark) {
+      .hero2 {
+        background:
+          radial-gradient(900px 420px at 80% -10%, rgba(46,158,204,.35), transparent 60%),
+          linear-gradient(160deg, #0a1830, #0f2c52);
+      }
+    }
+    .hero2 h1 { color: #fff; }
+    .hero2 .badge { color: #cfe3ff; border-color: rgba(207,227,255,.55); }
+    .hero2 .hero2-privacy { color: rgba(255,255,255,.86); }
+    .hero2 .hero2-privacy strong { color: #fff; }
+    .hero2 .links a.secondary { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.38); color: #fff; }
+    .hero2 .links a.secondary:hover { border-color: #fff; }
+    .hero2 .plane { background: #cfe3ff; }
+    .hero2 .trust-row { color: #fff; }
+    .hero2 .trust-row svg { color: #9cc3ff; }
+    .hero2 .press-chip { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.28); color: #fff; }
+    .hero2 .press-chip .press-k { color: #cfe3ff; }
+    .hero2 .hero2-qr { color: rgba(255,255,255,.8); }
+    .hero2 .hero2-devices-img figcaption { color: rgba(255,255,255,.75); }
+    .hero2 :focus-visible { outline-color: #fff; }
+    @media (max-width: 760px) { .hero2 .plane-b737 { opacity: .08; } }
     .hero2 .container { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; align-items: center; padding-top: 56px; padding-bottom: 64px; }
     /* Faint aircraft motif: GA single / narrowbody / business jet =
        the three worlds of pilots I serve (Class 3 / 1 / 2). Decorative.
