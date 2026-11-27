@@ -169,11 +169,11 @@ body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink
   .az::-webkit-scrollbar { display: none; }
   .az a { flex: none; width: 44px; height: 44px; }
   /* Long lists on a phone: keep the letters reachable while scrolling (Ryan 11/15).
-     Sticks just under the lookup band; a soft right edge hints that it scrolls. */
-  .az { position: sticky; top: var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))); z-index: 14; background: var(--v-band);
-        -webkit-backdrop-filter: saturate(180%) blur(12px); backdrop-filter: saturate(180%) blur(12px);
-        padding-left: 8px; padding-right: 8px; margin-bottom: var(--v-2);
-        -webkit-mask-image: linear-gradient(to right, #000 85%, transparent); mask-image: linear-gradient(to right, #000 85%, transparent); }
+     Sticks just under the lookup band on an opaque background, so rows never show through.
+     The soft right edge that hints it scrolls is a sticky ::after fade, not a mask on the bar. */
+  .az { position: sticky; top: var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))); z-index: 14; background: var(--v-bg);
+        padding-left: 8px; padding-right: 8px; margin-bottom: var(--v-2); }
+  .az::after { content: ""; position: sticky; right: 0; flex: none; width: 32px; background: linear-gradient(to right, transparent, var(--v-bg)); pointer-events: none; }
   body.v2 .dg, body.v2 .dg-h-l { scroll-margin-top: calc(var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))) + 64px); }   /* 56px letter bar + 8 */
 }
 
