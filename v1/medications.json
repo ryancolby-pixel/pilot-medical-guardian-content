@@ -70,11 +70,11 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
         "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
       }
     ]
@@ -364,7 +364,7 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
+        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes",
         "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
       }
     ]
@@ -831,7 +831,7 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: CACI - Carotid / Vertebral Artery Stenosis Worksheet (updated 01/28/2026)",
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       },
       {
@@ -1549,7 +1549,7 @@
       "code": "med-brompheniramine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 09/30/2026), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": null,
@@ -2195,7 +2195,7 @@
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
+        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes",
         "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
       }
     ]
@@ -5752,7 +5752,7 @@
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes; CACI - Retained Kidney Stone(s) Worksheet (updated 04/27/2022)",
+        "title": "FAA Guide for Aviation Medical Examiners: Gout and Pseudogout, All Classes",
         "url": "https://www.faa.gov/ame_guide/app_process/exam_tech/item43/amd/gout"
       }
     ]
@@ -7040,7 +7040,7 @@
       "code": "med-chlorpheniramine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 09/30/2026); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 120,
@@ -7160,7 +7160,7 @@
       "code": "med-clemastine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 09/30/2026), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 120,
@@ -7514,7 +7514,7 @@
       "code": "med-diphenhydramine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-11-03T00:03:26Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 09/30/2026); also listed in the FAA Do Not Issue / Do Not Fly tables (updated 09/30/2026); FAA MedGuide, Guide for Aviation Medical Examiners (version 1.0, updated 10-27-2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "informationalOnly": false,
@@ -7592,7 +7592,7 @@
       "code": "med-doxylamine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners, Pharmaceuticals: Allergy, Antihistamines and Immunotherapy Medication (updated 09/30/2026), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "preFlightWaitHours": 60,
@@ -7661,8 +7661,12 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026)",
         "url": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+        "url": "https://www.faa.gov/ame_guide/pharm/ed"
       }
     ]
   },
@@ -7958,11 +7962,11 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+        "title": "FAA Guide for Aviation Medical Examiners: Pharmaceuticals, Antacids",
         "url": "https://www.faa.gov/ame_guide/pharm/antacids"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       }
     ]
@@ -8096,8 +8100,12 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026); Erectile Dysfunction and Benign Prostatic Hyperplasia Medications (updated 08/30/2017)",
+        "title": "FAA Guide for Aviation Medical Examiners: CACI - Polycystic Ovarian Syndrome (PCOS) Worksheet (updated 03/25/2026)",
         "url": "https://www.faa.gov/ame_guide/media/CACI_PCOS_worksheet.pdf"
+      },
+      {
+        "title": "FAA Guide for Aviation Medical Examiners: Erectile Dysfunction and Benign Prostatic Hyperplasia Medications",
+        "url": "https://www.faa.gov/ame_guide/pharm/ed"
       }
     ]
   },
@@ -8168,7 +8176,7 @@
       "code": "med-fluticasone-inhaled",
       "contentVersion": "2026.0",
       "lastVerified": "2026-11-03T00:03:26Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024); Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); FAA Over-the-Counter (OTC) Medications Reference Guide (updated 08-28-2024); Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     },
     "links": [
@@ -8177,7 +8185,7 @@
         "url": "https://www.faa.gov/ame_guide/medguide"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
         "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
       }
     ]
@@ -8649,7 +8657,7 @@
       "code": "med-levocetirizine",
       "contentVersion": "2026.0",
       "lastVerified": "2026-10-05T19:57:14Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026), CONDITIONALLY ACCEPTABLE (Sedating) Antihistamine Medications; FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
     },
     "informationalOnly": false,
@@ -8907,7 +8915,7 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
         "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
       }
     ]
@@ -9299,11 +9307,11 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
         "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
       }
     ]
@@ -9322,7 +9330,7 @@
       "code": "med-montelukast",
       "contentVersion": "2026.0",
       "lastVerified": "2026-09-14T23:03:40Z",
-      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+      "sourceCitation": "FAA Guide for Aviation Medical Examiners: CACI - Asthma Worksheet (updated 09/24/2025); Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
       "sourceURL": "https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf"
     }
   },
@@ -9372,11 +9380,11 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024); FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
+        "title": "FAA Over-the-Counter (OTC) Medications Reference Guide, What OTC Medications Can I Take and Still Be Safe to Fly? (updated 08-28-2024)",
         "url": "https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Guide for Aviation Medical Examiners: Migraine Medication (updated 08/26/2026)",
         "url": "https://www.faa.gov/ame_guide/media/Migraine_Medication.pdf"
       }
     ]
@@ -9606,11 +9614,11 @@
     },
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications; Weight Loss Management disposition table, All Classes (03/27/2024), row A",
+        "title": "FAA Guide for Aviation Medical Examiners: Weight Loss Medication (updated 08/26/2026), ACCEPTABLE Weight Loss Medications",
         "url": "https://www.faa.gov/ame_guide/media/Weight_loss_Pharm.pdf"
       },
       {
-        "title": "FAA source",
+        "title": "FAA Weight Loss Management disposition table",
         "url": "https://www.faa.gov/ame_guide/media/Weight_Loss_Management_Dispo_Table.pdf"
       }
     ]
@@ -9923,7 +9931,7 @@
     "faaStatus": "acceptable",
     "links": [
       {
-        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 10/26/2022)",
+        "title": "FAA Guide for Aviation Medical Examiners: Allergy - Antihistamine & Immunotherapy Medication (updated 09/30/2026)",
         "url": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
       }
     ]
