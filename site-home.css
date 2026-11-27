@@ -270,15 +270,15 @@
 body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .gsec { font-size: 1.25rem; margin: 6px 0 14px; }
 .gsec:not(:first-child) { margin-top: 34px; }
-.gcards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.gcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .gcard { display: flex; flex-direction: column; gap: 6px; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 18px 20px; box-shadow: var(--shadow-sm); text-decoration: none; color: inherit; transition: transform .15s ease, box-shadow .15s ease; }
 .gcard:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(16,22,34,.12); }
 .gcard h3 { margin: 0; font-size: 1.05rem; color: var(--text); }
 .gcard p { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.5; }
 .gcard-go { margin-top: auto; padding-top: 4px; font-weight: 600; color: var(--accent); font-size: .92rem; }
 .lk-cards { margin-top: 22px; }
-@media (max-width: 900px) { .gcards { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .gcards { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .gcards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .gcards { grid-template-columns: minmax(0, 1fr); } }
 .price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
 .price-col { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
 .price-col.pro { border-color: var(--accent-edge); background: linear-gradient(160deg, var(--accent-tint), var(--card)); }
@@ -345,5 +345,5 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 .price-note { margin: 0 0 14px; font-size: .9rem; color: var(--muted); }
 .price-terms { max-width: 720px; margin: 22px auto 0; text-align: center; font-size: .93rem; color: var(--muted); }
 .price-terms p { margin: 0 0 8px; }
-.lk-count { margin: 2px 0 4px; font-weight: 700; color: var(--text); }
-.lk-count .num { color: var(--accent); font-size: 1.15rem; }
+.gcard-count { margin: 2px 0 4px; font-weight: 700; color: var(--text); }
+.gcard-count .num { color: var(--accent); font-size: 1.15rem; }
