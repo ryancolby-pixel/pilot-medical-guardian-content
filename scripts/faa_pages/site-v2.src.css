@@ -285,6 +285,7 @@ body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink
 .lk-links:not(.lk-plain) a .num { font-size: 1.75rem; font-weight: 800; letter-spacing: -.02em; color: var(--accent); }
 .lk-plain { gap: 8px; }
 .lk-plain a { border: 1px solid var(--rule); border-radius: 999px; padding: 6px 14px; background: var(--bg); min-height: 38px; font-weight: 600; }
+@media (pointer: coarse) { .lk-plain a { min-height: 44px; } }
 @media (max-width: 600px) { .lk-links:not(.lk-plain) { display: grid; grid-template-columns: 1fr 1fr; text-align: center; } }
 
 /* 6. UTILITIES ----------------------------------------------------------- */

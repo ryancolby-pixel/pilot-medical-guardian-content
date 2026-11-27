@@ -413,6 +413,7 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 .fjump a { display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border-radius: 999px; font-size: 1rem; }
 .fjump a:hover { background: var(--hover); text-decoration: none; }
 .fjump a[aria-current="true"] { background: var(--accent-tint); box-shadow: inset 0 0 0 1px var(--accent-edge); }
+@media (pointer: coarse) { .fjump a { min-height: 44px; } }
 @media (max-width: 860px) {
   .fjump .wrap { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
   .fjump .wrap::-webkit-scrollbar { display: none; }
