@@ -26,9 +26,9 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261127e"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
-SITE_CSS_V = "20261127i"   # cache-buster for /site.css on every page (static pages via patch_shell)
-HOME_CSS_V = "20261127i"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
+V = "20261127f"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+SITE_CSS_V = "20261127j"   # cache-buster for /site.css on every page (static pages via patch_shell)
+HOME_CSS_V = "20261127j"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
 def own_note(s):
     """informationalNote is OUR wording, not the FAA's; spell out the app name publicly."""
@@ -249,8 +249,10 @@ def tool_band(inner):
     return f'  <div class="tool-band"><div class="wrap wide">{inner}</div></div>'
 
 def head_block(crumb_html, h1, sub=None, extra=""):
+    """Opens <main id="main"> so the skip link lands on the breadcrumb and H1; the page body closes it."""
     s = f'<p class="v2-sub">{sub}</p>' if sub else ""
-    return f"""  <header class="v2-head">
+    return f"""  <main id="main">
+  <header class="v2-head">
     <div class="wrap wide">
       {crumb_html}
       <h1>{h1}</h1>
@@ -342,7 +344,7 @@ def med_page(m):
             f'<a href="/faa-medications/{slugs[x["genericName"]]}.html">{e(cap1(x["genericName"]))}</a>' for x in rel) + "</p>")
     body = tool_band(lookup_bar()) + "\n" + head_block(crumb_html, e(title), extra=f'<p class="meta-line">{e(meta)}</p>{trust}{mx}')
     body += f"""
-  <main class="v2-main" id="main">
+  <div class="v2-main">
     <div class="wrap wide">
       <div class="answer">
         <section class="faa-text" aria-label="FAA reference text">
@@ -361,6 +363,7 @@ def med_page(m):
         {app_line('med', 'seo-med')}
       </div>
     </div>
+  </div>
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "MedicalWebPage", "name": title, "description": desc,
@@ -402,7 +405,7 @@ def med_index():
     body += "\n" + head_block(crumb_html, "Medication list for FAA medicals",
                               "Every entry shows the FAA reference text the app uses, the FAA document it cites, and its date when the FAA gives one. Information, not advice: your AME decides.", checked_stamp(MEDS, "entry"))
     body += f"""
-  <main class="v2-main" id="main">
+  <div class="v2-main">
     <div class="wrap wide">
       {az_nav(letters)}
       <div id="dl">
@@ -412,6 +415,7 @@ def med_index():
       <p class="neutral">{NEUTRAL}</p>
       {app_line('med', 'seo-med-index')}
     </div>
+  </div>
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc, "url": SITE + "/faa-medications/", "numberOfItems": len(MEDS)}]}
@@ -456,7 +460,7 @@ def cond_index():
     body += "\n" + head_block(crumb_html, "FAA conditions, A to Z",
                               "The FAA's own disposition tables from the Guide for Aviation Medical Examiners, plus the Special Issuance conditions the app tracks. Every row opens the FAA document itself. I link, I don't paraphrase.", checked_stamp(DISPO + SI, "row"))
     body += f"""
-  <main class="v2-main" id="main">
+  <div class="v2-main">
     <div class="wrap wide">
       <div id="cl">
       {no_match('cl-none', 'Try another word from the condition’s name, or an exam item number.')}
@@ -470,6 +474,7 @@ def cond_index():
       {related_links(("/special-issuance.html", "/faa-medical-duration.html"), ("/faa-medications/",))}
       {app_line('cond', 'seo-conditions')}
     </div>
+  </div>
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc, "url": SITE + "/faa-conditions/",
@@ -535,7 +540,7 @@ def ame_state(st):
         crumb_html, f"Aviation medical examiners in {e(name)}",
         f'{n} {exam} in {towns} {town_w}, from the <a href="{e(LOCATOR)}" rel="noopener">FAA Designee Locator</a>, retrieved {RETRIEVED}. Call the office to confirm details before you book.')
     body += f"""
-  <main class="v2-main" id="main">
+  <div class="v2-main">
     <div class="wrap wide">
       <div class="ame-tools" role="search" aria-label="Filter examiners in {e(name)}">
         <div class="lk-field sm">{I_SEARCH}<label class="sr" for="aq">Filter examiners in {e(name)} by name, clinic, or town</label><input id="aq" type="search" autocomplete="off" spellcheck="false" placeholder="Name, clinic, or town"></div>
@@ -557,6 +562,7 @@ def ame_state(st):
       {app_line('ame', 'seo-ame')}
       <p class="fine"><a href="/aviation-medical-examiners/">All states and territories</a></p>
     </div>
+  </div>
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc,
@@ -579,7 +585,7 @@ def ame_index():
         crumb_html, "Find an aviation medical examiner",
         f'{total:,} examiner listings, {hims} of them HIMS-trained, from the <a href="{e(LOCATOR)}" rel="noopener">FAA Designee Locator</a>, retrieved {RETRIEVED}. Type a town above, or pick a state.')
     body += f"""
-  <main class="v2-main" id="main">
+  <div class="v2-main">
     <div class="wrap wide">
       <h2 class="dg-h dg-h-l">States and territories <span class="num">{len(ame_by_state)}</span></h2>
       <ul class="dense dense-cols">{rows}</ul>
@@ -587,6 +593,7 @@ def ame_index():
       {related_links(("/medxpress-checklist.html", "/faa-medical-duration.html"), ("/faa-medications/",))}
       {app_line('ame', 'seo-ame-index')}
     </div>
+  </div>
   </main>"""
     ld = {"@context": "https://schema.org", "@graph": [crumb_ld, {
         "@type": "CollectionPage", "name": title, "description": desc, "url": SITE + "/aviation-medical-examiners/",
@@ -684,6 +691,21 @@ def patch_shell():
             s = re.sub(r"<main(?![^>]*\sid=)([^>]*)>", r'<main\1 id="main">', s, count=1)
         if 'id="main"' in s and "Skip to content" not in s:
             s = re.sub(r"(<body[^>]*>\n)", r'\1  <a class="skip" href="#main">Skip to content</a>\n', s, count=1)
+        # (e) <main> opens right after the site header, so the page's own header (breadcrumb and H1)
+        #     is inside it and "Skip to content" lands above the title. A page's old <main class="x">
+        #     becomes <div class="x page-main"> in place, closed where the old </main> was.
+        hdr_end = s.index("</header>", s.index('<header class="site-nav">')) + len("</header>")
+        mm = re.search(r"\n  <main\b([^>]*)>", s)
+        if mm and not s[hdr_end:].lstrip().startswith('<main id="main">'):
+            cls = re.search(r'class="([^"]*)"', mm.group(1))
+            if cls:
+                s = s[:mm.start()] + f'\n  <div class="{cls.group(1)} page-main">' + s[mm.end():]
+                close = s.index("\n  </main>", mm.start())
+                s = s[:close] + "\n  </div>" + s[close:]
+            else:
+                s = s[:mm.start()] + s[mm.end():]
+            s = s[:hdr_end] + '\n\n  <main id="main">\n' + s[hdr_end:].lstrip("\n")
+        assert s.count("<main") <= 1 and ("<main" not in s or "<h1" not in s or s.index("<main") < s.index("<h1")), f"{name}: H1 outside <main>"
         if "<main" not in s:
             no_main.append(name)
         open(p, "w", encoding="utf-8").write(s)

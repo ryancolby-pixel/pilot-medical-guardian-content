@@ -63,6 +63,7 @@ body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink
 .v2-sub { margin: var(--v-1) 0 0; max-width: 68ch; color: var(--v-ink-2); font-size: 1rem; }
 .v2-sub a { color: var(--v-accent); }
 .v2-main { padding: var(--v-3) 0 var(--v-5); }
+.tool-band + main#main { scroll-margin-top: var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))); }   /* skip link: clear the nav and the lookup band */
 
 /* 4. COMPONENTS ---------------------------------------------------------- */
 /* Breadcrumbs, .skip and .sr live in site.css (design system 11/27). */

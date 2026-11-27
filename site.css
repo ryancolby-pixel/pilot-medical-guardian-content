@@ -80,6 +80,7 @@ body {
    sticky header. 17px body text everywhere except the homepage. */
 :where(a:not([class])) { color: var(--accent); text-underline-offset: 2px; }
 :where(section[id], article[id], div[id], details[id], li[id], h2[id], h3[id], p[id], table[id]) { scroll-margin-top: calc(var(--nav-h) + 16px); }
+main#main { scroll-margin-top: var(--nav-h); }   /* skip link: the page header shows in full under the sticky nav */
 body:not(.v2-home) { font-size: 1.0625rem; }
 h1 { font-weight: 800; }
 a { transition: color .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease, transform .15s ease, filter .15s ease; }
@@ -199,8 +200,8 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
 @media (prefers-color-scheme: dark) { .links a.secondary { border-color: var(--accent-edge); } }
 @media (max-width: 600px) {
   .links a { flex: 1 1 100%; }   /* stacked, equal-width buttons on phones */
-  main.section { padding-top: 28px; }
-  main.section .wrap > :first-child { margin-top: 0; }
+  div.page-main { padding-top: 28px; }   /* the page body under the hero (was main.section) */
+  div.page-main .wrap > :first-child { margin-top: 0; }
 }
 
 /* Narrow reading column for prose — vertical rhythm comes from the

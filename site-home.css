@@ -418,7 +418,6 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 
 /* ---- Hubs (11/27): Lookups and Guides use the 1060 column, with hero, search and cards on one left edge ---- */
 .pg-lookups .page-hero .wrap, .pg-guides .page-hero .wrap { max-width: 1060px; padding-left: var(--gutter); padding-right: var(--gutter); }
-body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44px; }
 .pg-lookups .lk { max-width: 640px; margin-left: 0; }
 .gcard-count .num { display: inline-block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
 .gfeat { border-top: 4px solid var(--accent); }
@@ -433,7 +432,7 @@ body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44
 }
 
 /* ---- Pricing (11/27): one 880px column for hero, cards and terms; Pro card outlined in the accent ---- */
-.pg-pricing .page-hero .wrap, .pg-pricing main > .wrap { max-width: 880px; padding-left: var(--gutter); padding-right: var(--gutter); }
+.pg-pricing .page-hero .wrap, .pg-pricing .page-main > .wrap { max-width: 880px; padding-left: var(--gutter); padding-right: var(--gutter); }
 .pg-pricing .price-terms { max-width: 880px; }
 .pg-pricing .price-terms + .links { margin-top: 18px; }
 .price-col.pro { border: 2px solid var(--accent); box-shadow: 0 12px 32px rgba(28,102,217,.14); }

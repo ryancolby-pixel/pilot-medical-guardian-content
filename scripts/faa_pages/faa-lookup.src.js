@@ -196,10 +196,11 @@
   [].forEach.call(document.querySelectorAll('[data-copy]'), Copy);
 })();
 
-/* Sticky A to Z bar on phones: sit exactly under the sticky lookup band, whatever its real height. */
+/* Sticky A to Z bar on phones: sit exactly under the sticky lookup band, whatever its real height.
+   The same value clears the band when the skip link jumps to <main>. */
 (function () {
-  var band = document.querySelector(".tool-band"), az = document.querySelector(".az");
-  if (!band || !az) return;
+  var band = document.querySelector(".tool-band");
+  if (!band) return;
   function place() {
     var top = (parseFloat(getComputedStyle(band).top) || 0) + band.offsetHeight;
     document.documentElement.style.setProperty("--v-az-top", top + "px");
