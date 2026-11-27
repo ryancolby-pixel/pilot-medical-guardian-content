@@ -27,7 +27,7 @@ args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
 V = "20261127h"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
-SITE_CSS_V = "20261127n"   # cache-buster for /site.css on every page (static pages via patch_shell)
+SITE_CSS_V = "20261127o"   # cache-buster for /site.css on every page (static pages via patch_shell)
 HOME_CSS_V = "20261127m"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
 def own_note(s):

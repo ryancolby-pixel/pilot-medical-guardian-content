@@ -307,7 +307,7 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 /* Site footer: one column set on every page (written by scripts/gen_faa_pages.py footer()). */
 footer.site-footer { margin-top: 48px; padding: 40px 0 24px; background: var(--card); border-top: 1px solid var(--rule); color: var(--muted); font-size: .9375rem; text-align: left; }
 .foot-grid { max-width: 1060px; margin: 0 auto; padding: 0 var(--gutter); display: grid; grid-template-columns: 1fr 1.25fr 1.25fr 1fr; gap: 24px 32px; }
-.foot-h { margin: 0 0 10px; font-size: .8125rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
+.foot-h { margin: 0 0 10px; font-size: .875rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
 .foot-h a { color: inherit; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin: 0 0 6px; line-height: 1.4; }
@@ -321,7 +321,14 @@ footer.site-footer { margin-top: 48px; padding: 40px 0 24px; background: var(--c
 .foot-bottom .foot-note { flex-basis: 100%; }
 @media (max-width: 900px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .foot-grid { grid-template-columns: 1fr; gap: 20px; } .foot-bottom .foot-legal { margin-left: 0; } }
-@media (pointer: coarse) { .site-footer li a { display: inline-flex; align-items: center; min-height: 40px; } .site-footer li { margin: 0; } }
+/* Phones and touch screens: every footer link is a 44px tap target and the text is 16px. */
+@media (max-width: 860px), (pointer: coarse) {
+  footer.site-footer, .foot-bottom { font-size: 1rem; }
+  .foot-h { display: flex; align-items: center; min-height: 44px; margin: 0; }
+  .site-footer li { margin: 0; }
+  .site-footer li a, .foot-h a, .foot-logo, .foot-bottom .foot-legal a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; }
+  .foot-logo { margin-bottom: 4px; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
