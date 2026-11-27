@@ -315,9 +315,13 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .price-col { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 22px 24px; box-shadow: var(--shadow-sm); }
 .price-col.pro { border-color: var(--accent-edge); background: linear-gradient(160deg, var(--accent-tint), var(--card)); }
 .price-col h2 { margin: 0; }
-.price-col .price { margin: 4px 0 14px; font-size: 1.15rem; font-weight: 700; color: var(--accent); }
-.price-list { margin: 0; padding-left: 1.2em; }
-.price-list li { margin: 7px 0; line-height: 1.45; }
+.price-col .price { margin: 6px 0 4px; font-size: 2rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; color: var(--text); }
+.price .per { font-size: 1rem; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+.price-list { margin: 0; padding: 0; list-style: none; }
+.price-list li { position: relative; margin: 7px 0; padding-left: 28px; line-height: 1.45; }
+.price-list li::before { content: ""; position: absolute; left: 0; top: .3em; width: 16px; height: 16px; background: var(--accent);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.5' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.5' fill='none' stroke='%23000' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
 @media (max-width: 700px) { .price-grid { grid-template-columns: 1fr; } }
 .fsec-text .more-link, .fsec-text .pillar-link { margin-right: 16px; }
 .hero2-devices-img { margin: 0; }
@@ -370,7 +374,6 @@ body.v2:not(.v2-home) .section { padding: 64px 0; }
 body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .section { padding-top: 44px; }
 .fgroup + .fgroup { padding-top: 64px; border-top: 1px solid var(--rule); }
 .price-grid { align-items: stretch; }
-.price-col .price { margin-bottom: 2px; }
 .price-note { margin: 0 0 14px; font-size: .9rem; color: var(--muted); }
 .price-terms { max-width: 720px; margin: 22px auto 0; text-align: center; font-size: .93rem; color: var(--muted); }
 .price-terms p { margin: 0 0 8px; }
@@ -428,3 +431,10 @@ body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44
   .gcard::after { content: ""; position: absolute; right: 18px; top: 50%; width: 9px; height: 9px; border: solid var(--accent); border-width: 2px 2px 0 0; transform: translateY(-50%) rotate(45deg); }
   .gcard-go { display: none; }
 }
+
+/* ---- Pricing (11/27): one 880px column for hero, cards and terms; Pro card outlined in the accent ---- */
+.pg-pricing .page-hero .wrap, .pg-pricing main > .wrap { max-width: 880px; padding-left: 24px; padding-right: 24px; }
+.pg-pricing .price-terms { max-width: 880px; }
+.pg-pricing .price-terms + .links { margin-top: 18px; }
+.price-col.pro { border: 2px solid var(--accent); box-shadow: 0 12px 32px rgba(28,102,217,.14); }
+@media (max-width: 600px) { .price-terms { text-align: left; } }
