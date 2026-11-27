@@ -103,12 +103,13 @@
     pop.addEventListener('mousedown', function (e) { e.preventDefault(); });
     inp.addEventListener('blur', function () { setTimeout(function () { open(false); setAct(-1); }, 120); });
   }
-  /* "/" focuses the first search field on the page, unless typing in a field already. */
+  /* "/" focuses the first visible search field on the page, unless typing in a field already. */
   document.addEventListener('keydown', function (e) {
     if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
     var t = e.target, tag = t && t.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (t && t.isContentEditable)) return;
-    var f = document.querySelector('.lk input, #aq');
+    var fs = document.querySelectorAll('.lk input, #aq'), f = null;
+    for (var i = 0; i < fs.length && !f; i++) if (fs[i].offsetParent !== null) f = fs[i];
     if (f) { e.preventDefault(); f.focus(); }
   });
 

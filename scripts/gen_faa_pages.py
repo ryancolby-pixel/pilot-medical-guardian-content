@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261127h"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261127i"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 SITE_CSS_V = "20261127r"   # cache-buster for /site.css on every page (static pages via patch_shell)
 HOME_CSS_V = "20261127m"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
@@ -255,8 +255,8 @@ def filter_bar(target, empty_id, label, placeholder, total, unit):
         <p class="lk-count" id="lk-count" aria-live="polite" data-unit="{e(unit)}">{total:,} {e(unit)}</p>
       </div>"""
 
-def tool_band(inner):
-    return f'  <div class="tool-band"><div class="wrap wide">{inner}</div></div>'
+def tool_band(inner, hidden=False):
+    return f'  <div class="tool-band"{" hidden" if hidden else ""}><div class="wrap wide">{inner}</div></div>'
 
 def head_block(crumb_html, h1, sub=None, extra=""):
     """Opens <main id="main"> so the skip link lands on the breadcrumb and H1; the page body closes it."""
@@ -546,7 +546,9 @@ def ame_state(st):
     title = f"Aviation Medical Examiners in {name} ({n} FAA AMEs)"
     desc = (f"{n} aviation medical examiner listings in {name} from the FAA Designee Locator, by town, with phone numbers, "
             f"classes examined, Senior AME and HIMS training. Free, no account.")
-    body = tool_band(lookup_bar()) + "\n" + head_block(
+    # One search box per state page: the examiner filter (#aq) below the H1. The site lookup band
+    # stays in the markup (its ids are kept) but is hidden here.
+    body = tool_band(lookup_bar(), hidden=True) + "\n" + head_block(
         crumb_html, f"Aviation medical examiners in {e(name)}",
         f'{n} {exam} in {towns} {town_w}, from the <a href="{e(LOCATOR)}" rel="noopener">FAA Designee Locator</a>, retrieved {RETRIEVED}. Call the office to confirm details before you book.')
     body += f"""
