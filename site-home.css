@@ -296,3 +296,37 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .guides-xlink { text-align: center; font-weight: 600; margin: 8px 0 18px; }
 .guides-xlink a { color: var(--accent); text-decoration: none; }
 .guides-xlink a:hover { text-decoration: underline; }
+
+/* ---- Features regroup 11/27: groups, cards, Pro badge, Mac/Windows block, jump list ---- */
+.fjump { position: sticky; top: 60px; z-index: 15; background: color-mix(in srgb, var(--card) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
+.fjump .wrap { display: flex; flex-wrap: wrap; gap: 6px 10px; justify-content: center; padding-top: 10px; padding-bottom: 10px; font-size: .92rem; }
+.fjump a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.fjump a:hover { text-decoration: underline; }
+.fjump span { color: var(--muted); }
+.fgroup { scroll-margin-top: 110px; }
+.fgroup + .fgroup { padding-top: 0; }
+.fgroup-h { font-size: clamp(1.45rem, 2.6vw, 1.8rem); margin: 0 0 16px; letter-spacing: -.01em; }
+.fcards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
+.fcard { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); scroll-margin-top: 110px; }
+.fcard-wide { grid-column: 1 / -1; }
+.fcard-wide .pillar-media.stack { grid-template-columns: 1fr 1fr; }
+.fcard-top { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; }
+.fcard-top h3 { margin: 0; font-size: 1.15rem; letter-spacing: -.01em; }
+.pro-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .72rem; font-weight: 600; letter-spacing: .02em; background: rgba(28,102,217,.10); color: #1c66d9; border: 1px solid rgba(28,102,217,.22); white-space: nowrap; }
+.fcard-lead { font-weight: 600; color: var(--text); margin: 8px 0 12px; }
+.fcard .pillar-media { margin: 0 0 12px; }
+.fcard .pillar-stage img { width: min(230px, 62%); }
+.fcard-body p { font-size: .95rem; color: var(--muted); margin: 0 0 10px; text-wrap: pretty; }
+.fcard-body .more-link, .fcard-body .pillar-link { display: inline-block; margin: 2px 16px 0 0; font-weight: 600; color: var(--accent); text-decoration: none; }
+.also-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+.also-col { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-card); padding: 20px 22px; box-shadow: var(--shadow-sm); scroll-margin-top: 110px; }
+.also-col h3 { margin: 0 0 8px; font-size: 1.1rem; }
+.also-col > p { font-size: .95rem; color: var(--muted); }
+.also-col .macshot { margin: 12px 0; }
+.also-col .macshot img { width: 100%; height: auto; border-radius: 12px; }
+.also-col .also-pc { max-width: 320px; margin-inline: auto; }
+.also-list { margin: 8px 0 12px; padding-left: 1.2em; font-size: .93rem; color: var(--muted); }
+.also-list li { margin: 6px 0; }
+.also-col .links { justify-content: flex-start !important; }
+@media (max-width: 860px) { .fcards, .also-grid { grid-template-columns: 1fr; } .fcard-wide .pillar-media.stack { grid-template-columns: 1fr; } .fjump { position: static; } }
+@media (prefers-color-scheme: dark) { .pro-badge { color: #7fb0ff; background: rgba(127,176,255,.12); border-color: rgba(127,176,255,.28); } }
