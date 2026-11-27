@@ -128,7 +128,7 @@ a { transition: color .15s ease, background .15s ease, border-color .15s ease, b
   .nav-sub-wide { grid-template-columns: 1fr 1fr; min-width: 560px; left: auto; right: 0; }
   .nav-sub a { display: block; color: var(--text); font-weight: 500; font-size: .9375rem; padding: 9px 12px; border-radius: var(--r-sm); white-space: nowrap; }
   .nav-sub a:hover { background: var(--hover); color: var(--accent); }
-  .nav-sub-h { margin: 6px 12px 4px; font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .nav-sub-h { margin: 6px 12px 4px; font-size: .8125rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 }
 /* Mobile menu (phones): the links sit behind a Menu button. The checkbox stays focusable
    (Tab reaches it, Space opens the menu); it is only visually hidden. */
@@ -255,8 +255,8 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 .skip:focus { top: 8px; }
 .small { font-size: .875rem; }
 .center { justify-content: center; text-align: center; }
-.press-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--text); font-weight: 600; font-size: .9rem; text-decoration: none; }
-.press-chip .press-k { font-weight: 500; color: var(--muted); text-transform: uppercase; font-size: .72rem; letter-spacing: .06em; }
+.press-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--text); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+.press-chip .press-k { font-weight: 500; color: var(--muted); text-transform: uppercase; font-size: .8125rem; letter-spacing: .06em; }
 
 /* Breadcrumbs */
 .page-hero .crumbs { margin: 0 0 14px; }
@@ -290,7 +290,7 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 /* Site footer: one column set on every page (written by scripts/gen_faa_pages.py footer()). */
 footer.site-footer { margin-top: 48px; padding: 40px 0 24px; background: var(--card); border-top: 1px solid var(--rule); color: var(--muted); font-size: .9375rem; text-align: left; }
 .foot-grid { max-width: 1060px; margin: 0 auto; padding: 0 var(--gutter); display: grid; grid-template-columns: 1fr 1.25fr 1.25fr 1fr; gap: 24px 32px; }
-.foot-h { margin: 0 0 10px; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
+.foot-h { margin: 0 0 10px; font-size: .8125rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text); }
 .foot-h a { color: inherit; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin: 0 0 6px; line-height: 1.4; }
