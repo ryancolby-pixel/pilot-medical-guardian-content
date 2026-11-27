@@ -27,7 +27,7 @@ args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
 V = "20261127h"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
-SITE_CSS_V = "20261127j"   # cache-buster for /site.css on every page (static pages via patch_shell)
+SITE_CSS_V = "20261127k"   # cache-buster for /site.css on every page (static pages via patch_shell)
 HOME_CSS_V = "20261127j"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
 def own_note(s):
@@ -128,10 +128,19 @@ APP_LINKS = [("/autofill.html", "MedXPress autofill steps"),
 SITE_LINKS = [("/features.html", "Features"), ("/pricing.html", "Pricing"),
               ("/whats-new.html", "What's New"), ("/faq.html", "FAQ")]
 
+# Phone menu helper, written once into every header by nav(). Without it the checkbox still opens and
+# closes the menu; with it a tap on any menu link, a tap outside the menu, or Escape closes it.
+NAV_JS = ('<script>(function(){var t=document.getElementById("navtoggle"),m=t&&t.parentNode.querySelector(".nav-links");'
+          'if(!m)return;function x(){t.checked=false}'
+          'm.addEventListener("click",function(e){if(e.target.closest("a"))x()});'
+          'document.addEventListener("pointerdown",function(e){if(t.checked&&!e.target.closest(".nav-links,.nav-toggle,#navtoggle"))x()});'
+          'document.addEventListener("keydown",function(e){if(e.key==="Escape"&&t.checked){x();t.focus()}});'
+          'addEventListener("pageshow",x)})();</script>')
+
 def nav(ct, current=None, exact=False):
     # Site header (reorg 11/25, Ryan's spec): Features, Free Lookups, Guides, Pricing, FAQ, Download.
     # Free Lookups and Guides open a panel of their pages on desktop (hover or keyboard focus only);
-    # on phones the Menu button lists the hubs, which carry the same links.
+    # on phones the Menu button lists the hubs with those same links indented under each (site.css).
     # aria-current: "page" on the hub itself (exact), "true" on a page inside that section.
     # Every lookup page marks "Free Lookups" as current.
     cur_key = "lookups" if current in ("med", "cond", "ame") else current
@@ -157,6 +166,7 @@ def nav(ct, current=None, exact=False):
         <a class="nav-cta" href="{appstore(ct)}" aria-label="Download on the App Store">Download</a>
       </nav>
     </div>
+    {NAV_JS}
   </header>"""
 
 def footer(extra=""):
