@@ -9,21 +9,21 @@
   --v-band: rgba(255,255,255,.92);
   --v-surface: #ffffff;
   --v-hover: #f4f7fb;
-  --v-ink: #0f1419;
+  /* Shared with site.css (design system 11/27): these five follow its tokens, light and dark. */
+  --v-ink: var(--text);
+  --v-muted: var(--muted);
+  --v-line: var(--rule);
+  --v-accent: var(--accent);
+  --v-tint: var(--accent-tint);
   --v-ink-2: #3d4653;
-  --v-muted: #5b6573;                 /* 5.9:1 on white */
-  --v-line: #e3e7ee;
   --v-line-strong: #c9d1dc;
-  --v-accent: #1c66d9;                /* brand primary, 5.1:1 on white */
-  --v-teal: #2e9ecc;                  /* brand teal, used for the tick rule only */
-  --v-tint: #eef4fe;
   --v-ring: 0 0 0 3px rgba(28,102,217,.28);
   --v-pop: 0 1px 2px rgba(15,20,25,.06), 0 12px 32px rgba(15,20,25,.10);
   --v-r: 8px;
   --v-r-l: 12px;
   --v-1: 8px; --v-2: 16px; --v-3: 24px; --v-4: 32px; --v-5: 48px; --v-6: 64px;
   --v-nav: 61px;                      /* site.css sticky nav height incl. border */
-  --v-band-h: 64px;
+  --v-band-h: 49px;                   /* .tool-band measured 11/27: 48px field + 1px rule (the JS sets --v-az-top exactly) */
   --v-ease: cubic-bezier(.2,.7,.2,1);
 }
 @media (prefers-color-scheme: dark) {
@@ -32,14 +32,8 @@
     --v-band: rgba(14,16,21,.92);
     --v-surface: #15181f;
     --v-hover: #1a1f29;
-    --v-ink: #eef1f5;
     --v-ink-2: #c4cad6;
-    --v-muted: #9aa3b3;
-    --v-line: #252a33;
     --v-line-strong: #343a46;
-    --v-accent: #6aa6f2;
-    --v-teal: #4fb5dd;
-    --v-tint: #16202e;
     --v-ring: 0 0 0 3px rgba(106,166,242,.35);
     --v-pop: 0 1px 2px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.45);
   }
@@ -47,7 +41,7 @@
 
 /* 2. BASE --------------------------------------------------------------- */
 [hidden] { display: none !important; }
-body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-height: 1.6; }
+body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink); line-height: 1.6; }
 .v2 .num, .v2 time { font-variant-numeric: tabular-nums; }
 .v2 :focus-visible { outline: 2px solid var(--v-accent); outline-offset: 2px; border-radius: 4px; }
 .v2 svg.lk-i, .v2 svg.i-ext, .v2 .cp svg { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
@@ -64,13 +58,8 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .tool-band .lk-filter .lk-field { flex: 1; }
 
 .v2-head { padding: var(--v-4) 0 var(--v-3); position: relative; }
-.v2-head::after {          /* instrument tick rule */
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px;
-  background: repeating-linear-gradient(90deg, var(--v-line-strong) 0 1px, transparent 1px 8px);
-  -webkit-mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
-  mask: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
-  opacity: .7;
-}
+/* Same tinted band as the inner-page hero in site.css (.page-hero), so lookup pages match. */
+.v2-head { background: radial-gradient(1200px 480px at 78% -8%, rgba(46,158,204,.12), transparent 60%), linear-gradient(180deg, var(--accent-tint), var(--v-bg) 85%); border-bottom: 1px solid var(--v-line); }
 .v2-head h1 { font-size: clamp(1.75rem, 1.25rem + 2.2vw, 2.5rem); line-height: 1.12; letter-spacing: -.028em; font-weight: 700; margin: var(--v-1) 0 0; text-wrap: balance; overflow-wrap: anywhere; color: var(--v-ink); }
 .v2-sub { margin: var(--v-1) 0 0; max-width: 68ch; color: var(--v-ink-2); font-size: 1rem; }
 .v2-sub a { color: var(--v-accent); }
@@ -147,6 +136,16 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .src-url { color: var(--v-muted); font-size: .8125rem; overflow-wrap: anywhere; min-width: 0; }
 .neutral { margin: var(--v-3) 0 0; padding-left: 12px; border-left: 2px solid var(--v-accent); font-size: .9375rem; color: var(--v-ink); }
 .h-s { margin: var(--v-4) 0 var(--v-1); font-size: 1rem; letter-spacing: -.01em; }
+/* FAA reference card (medication pages): the FAA's own text is the visual anchor, with its
+   source attached underneath. CSS only: the faa-text markup is checked verbatim by --check.
+   Neutral colors only, never a verdict color. */
+.answer > .faa-text { background: var(--v-surface); border: 1px solid var(--v-line); border-left: 4px solid var(--v-accent); border-bottom: 0; border-radius: var(--v-r-l) var(--v-r-l) 0 0; padding: 22px 24px 6px; }
+.answer > .faa-text p { font-size: 1.125rem; }
+.answer > .src { margin-top: 0; padding: 14px 24px 16px; background: var(--v-hover); border: 1px solid var(--v-line); border-left: 4px solid var(--v-accent); border-radius: 0 0 var(--v-r-l) var(--v-r-l); font-size: .9375rem; }
+.answer > .src .src-h { font-size: .8125rem; }
+.src-url { font-size: .875rem; }
+.answer > .neutral { margin-top: var(--v-3); padding: 12px 16px; border-left: 3px solid var(--v-line-strong); background: var(--v-hover); border-radius: 0 var(--v-r) var(--v-r) 0; font-size: 1rem; }
+@media (max-width: 430px) { .answer > .faa-text, .answer > .src { padding-left: 16px; padding-right: 16px; } }
 .doc-links { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--v-line); }
 .doc-links a { display: flex; align-items: center; min-height: 44px; padding: 10px 0; border-bottom: 1px solid var(--v-line); color: var(--v-accent); text-decoration: none; font-size: .9375rem; overflow-wrap: anywhere; }
 .doc-links a:hover { text-decoration: underline; text-underline-offset: 3px; }
@@ -161,7 +160,9 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 
 /* A to Z jump bar */
 .az { display: flex; flex-wrap: wrap; gap: 2px; margin: 0 0 var(--v-2); }
-.az a { width: 32px; height: 32px; display: grid; place-items: center; border-radius: 6px; font-size: .8125rem; font-weight: 600; color: var(--v-ink-2); text-decoration: none; font-variant-numeric: tabular-nums; }
+/* Sticky under the lookup band on every width (the JS sets --v-az-top to the band's real bottom). */
+.az { position: sticky; top: var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))); z-index: 5; background: var(--v-band); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); padding: 6px 0; }
+.az a { width: 34px; height: 40px; display: grid; place-items: center; border-radius: 6px; font-size: .9375rem; font-weight: 600; color: var(--v-ink-2); text-decoration: none; font-variant-numeric: tabular-nums; }
 .az a:hover { background: var(--v-hover); color: var(--v-accent); }
 @media (max-width: 640px), (pointer: coarse) {
   .az { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin-left: -8px; margin-right: -8px; }
@@ -177,7 +178,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 }
 
 /* Dense lists */
-.dg { scroll-margin-top: calc(var(--v-nav) + var(--v-band-h) + 8px); margin: 0 0 var(--v-3); }
+.dg { scroll-margin-top: calc(var(--v-az-top, calc(var(--v-nav) + var(--v-band-h))) + 60px); margin: 0 0 var(--v-3); }   /* clears nav, band and the sticky letter bar */
 .dg-h { margin: 0 0 4px; font-size: .8125rem; font-weight: 700; letter-spacing: .04em; color: var(--v-accent); }
 .dg-h-l { display: flex; align-items: baseline; gap: var(--v-1); margin: var(--v-4) 0 var(--v-1); font-size: 1.125rem; letter-spacing: -.01em; color: var(--v-ink); scroll-margin-top: calc(var(--v-nav) + var(--v-band-h) + 8px); }
 .dg-h-l:first-child { margin-top: 0; }
@@ -197,7 +198,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 .d-s, .d-r { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .875rem; }
 .d-s { color: var(--v-ink-2); }
 .d-r { color: var(--v-muted); }
-.d-x { display: inline-flex; align-items: center; justify-content: flex-end; font-size: .75rem; color: var(--v-muted); }
+.d-x { display: inline-flex; align-items: center; justify-content: flex-end; font-size: .8125rem; color: var(--v-muted); }
 .dense-c a { grid-template-columns: minmax(0, 1fr) 8.5em 9em 4em; }
 .dense-c .d-r { text-align: right; }
 .dense-cols { columns: 3 220px; column-gap: var(--v-4); border-top: 0; }
@@ -289,7 +290,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
 /* 7. PRINT (pilots print a medication page for the AME) ------------------- */
 @media print {
   body.v2 { background: #fff !important; color: #000 !important; font-size: 11pt; }
-  .v2 .site-nav, .v2 .tool-band, .v2 footer, .v2 .skip, .v2 .app-line, .v2 .related, .v2 .cp, .v2 .az, .v2 .ame-tools, .v2 .crumbs, .v2-head::after { display: none !important; }
+  .v2 .site-nav, .v2 .tool-band, .v2 footer, .v2 .skip, .v2 .app-line, .v2 .related, .v2 .related-links, .v2 .cp, .v2 .az, .v2 .ame-tools, .v2 .crumbs { display: none !important; }
   .v2 * { color: #000 !important; background: transparent !important; box-shadow: none !important; }
   .v2-head { padding: 0 0 8pt; border-bottom: 1px solid #000; }
   .v2-head h1 { font-size: 18pt; }
@@ -298,7 +299,7 @@ body.v2:not(.v2-home) { background: var(--v-bg); color: var(--v-ink); line-heigh
   .faa-text p { font-size: 11pt; }
   .trust a::after, .src-meta a::after, .doc-links a::after { content: " (" attr(href) ")"; font-weight: 400; font-size: 9pt; overflow-wrap: anywhere; }
   .src-url { display: none; }
-  .mx, .src { border-color: #000 !important; break-inside: avoid; }
+  .mx, .src, .answer > .faa-text { border-color: #000 !important; break-inside: avoid; }
   .neutral { border-left-color: #000 !important; }
   .ame-t thead { position: static; width: auto; height: auto; clip: auto; }
 }

@@ -26,7 +26,7 @@ ap.add_argument("--check", action="store_true", help="verify built pages against
 args = ap.parse_args()
 SRC, OUT = args.src, args.out
 SITE = "https://pilotmedicalguardian.com"
-V = "20261127a"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
+V = "20261127b"   # cache-buster for site-v2.css, faa-lookup.js, index JSON
 SITE_CSS_V = "20261127b"   # cache-buster for /site.css on every page (static pages via patch_shell)
 HOME_CSS_V = "20261127b"   # cache-buster for /site-home.css (home, features, lookups, guides, pricing)
 
@@ -268,6 +268,15 @@ def app_line(kind, ct):
             f'<span>{APP_LINES[kind]} Your health data stays on your device and your own iCloud. '
             f'<a href="{appstore(ct)}">Free to download on the App Store</a></span></p>')
 
+def related_links(guides, lookups):
+    """Related-links card (site.css .related-links): existing guide and lookup labels only."""
+    def col(eyebrow, hrefs, links):
+        label = dict(links)
+        return (f'<div><p class="eyebrow">{eyebrow}</p><ul>' +
+                "".join(f'<li><a href="{h}">{label[h]}</a></li>' for h in hrefs) + "</ul></div>")
+    return (f'<nav class="related-links" aria-label="Related pages">{col("Guides", guides, GUIDE_LINKS)}'
+            f'{col("Free lookups", lookups, LOOKUP_LINKS)}</nav>')
+
 NEUTRAL = "This is what the FAA publishes, not a determination about you. Your AME decides."
 
 # ---------------------------------------------------------------- medications
@@ -348,6 +357,7 @@ def med_page(m):
         <p class="neutral">{neutral}</p>
         {links}
         {related}
+        {related_links(("/medxpress-guide.html", "/medxpress-checklist.html"), ("/aviation-medical-examiners/",))}
         {app_line('med', 'seo-med')}
       </div>
     </div>
@@ -457,6 +467,7 @@ def cond_index():
       </div>
       <p class="fine">Titles, item numbers and dates are as the FAA publishes them. Links open faa.gov.</p>
       <p class="neutral">{NEUTRAL}</p>
+      {related_links(("/special-issuance.html", "/faa-medical-duration.html"), ("/faa-medications/",))}
       {app_line('cond', 'seo-conditions')}
     </div>
   </main>"""
@@ -542,6 +553,7 @@ def ame_state(st):
         <tbody>{"".join(ame_row(c, a) for c, a in rows)}</tbody>
       </table>
       <p class="fine">Names, clinics, towns, phone numbers, classes and HIMS training are as the FAA Designee Locator lists them. I leave out street and email addresses.</p>
+      {related_links(("/medxpress-checklist.html", "/faa-medical-duration.html"), ("/faa-medications/",))}
       {app_line('ame', 'seo-ame')}
       <p class="fine"><a href="/aviation-medical-examiners/">All states and territories</a></p>
     </div>
@@ -572,6 +584,7 @@ def ame_index():
       <h2 class="dg-h dg-h-l">States and territories <span class="num">{len(ame_by_state)}</span></h2>
       <ul class="dense dense-cols">{rows}</ul>
       <p class="fine">I leave out street and email addresses.</p>
+      {related_links(("/medxpress-checklist.html", "/faa-medical-duration.html"), ("/faa-medications/",))}
       {app_line('ame', 'seo-ame-index')}
     </div>
   </main>"""
