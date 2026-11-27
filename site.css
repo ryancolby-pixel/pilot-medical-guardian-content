@@ -273,10 +273,13 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 .press-chip .press-k { font-weight: 500; color: var(--muted); text-transform: uppercase; font-size: .8125rem; letter-spacing: .06em; }
 
 /* Breadcrumbs */
-.page-hero .crumbs { margin: 0 0 14px; }
-.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; margin: 0; padding: 0; font-size: .9375rem; color: var(--muted); }
+/* Links are 44px tall tap targets; the negative top margin keeps the text where it sat before. */
+.crumbs { margin-top: -13px; }
+.page-hero .crumbs { margin: -13px 0 1px; }
+.crumbs ol { list-style: none; display: flex; flex-wrap: wrap; align-items: center; margin: 0; padding: 0; font-size: 1rem; color: var(--muted); }
+.crumbs li { display: flex; align-items: center; min-height: 44px; }
 .crumbs li + li::before { content: "/"; padding: 0 8px; color: var(--rule-strong); }
-.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; color: var(--muted); text-decoration: none; }
 .crumbs a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 
 /* Related links: a card of existing guide and lookup links, grouped under eyebrows. */
