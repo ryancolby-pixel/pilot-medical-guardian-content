@@ -140,6 +140,11 @@
     }
     .limits li:first-child { border-top: 0; }
     .limits li strong { color: var(--text); min-width: 9.5em; }
+    @media (max-width: 600px) {
+      /* Phones: the label sits above its text instead of squeezing beside it. */
+      .limits li { flex-direction: column; align-items: stretch; gap: 2px; }
+      .limits li > strong { min-width: 0; }
+    }
 
     details {
       background: var(--card); border: 1px solid var(--rule);
