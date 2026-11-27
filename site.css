@@ -261,7 +261,7 @@ p { margin: 8px 0; color: var(--text); text-wrap: pretty; }
 }
 
 /* Guardian Pro pill: one definition for every page (labels stay "Guardian Pro" / "Pro"). */
-.pro-tag, .pro-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .75rem; font-weight: 600; letter-spacing: .02em; line-height: 1.5; vertical-align: .12em; white-space: nowrap; color: var(--accent); background: var(--accent-tint); border: 1px solid var(--accent-edge); }
+.pro-tag, .pro-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: .875rem; font-weight: 600; letter-spacing: .02em; line-height: 1.3; vertical-align: .12em; white-space: nowrap; color: var(--accent); background: var(--accent-tint); border: 1px solid var(--accent-edge); }
 
 /* Utilities */
 .sr, .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
