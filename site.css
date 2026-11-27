@@ -13,8 +13,8 @@
   --muted: #545d6b;
   --rule: #e4e8ef;
   --accent: #1c66d9;            /* Brand.primary */
-  --accent-2: #2e9ecc;          /* gradient end (medical teal) */
-  --brand-grad: linear-gradient(135deg, #1c66d9 0%, #2e9ecc 100%);
+  --accent-2: #17779f;          /* gradient end (medical teal), dark enough for white text: 5.0:1, 4.6:1 at hover brightness */
+  --brand-grad: linear-gradient(135deg, #1c66d9 0%, #17779f 100%);
   --accent-tint: #eef4fe;       /* highlight callout background */
   --accent-edge: #cfe0fb;       /* highlight callout border */
   --radius-card: 16px;
