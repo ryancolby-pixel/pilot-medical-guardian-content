@@ -289,6 +289,13 @@
 .job-si { font-size: .92rem; }
 .job .pro-tag, .privacy-card .pro-tag { margin-left: 0; margin-right: 6px; }
 .job-link { margin-top: auto; font-weight: 600; color: var(--accent); text-decoration: none; font-size: .93rem; }
+/* Job cards: the main selling copy reads at 17px in a darker ink, and each "learn more" link is a
+   45px tap target. padding-block grows the link box; top:-11px with margin-bottom:-22px puts the
+   text exactly where it was, so the cards do not grow. The five sections below the hero trim
+   52px to 46px top and bottom to pay for the bigger text (phones keep their 40px). */
+#how p { font-size: 1.0625rem; line-height: 1.5; color: var(--v-ink-2, #3d4653); }
+.job-link { position: relative; top: -11px; padding-block: 11px; margin-bottom: -22px; }
+@media (min-width: 601px) { body.v2-home { --section-pad: 46px; } }
 .job-link:hover { text-decoration: underline; }
 .lk-plain { margin-top: 8px; }
 .privacy-card h2 { margin: 0 0 10px; }
