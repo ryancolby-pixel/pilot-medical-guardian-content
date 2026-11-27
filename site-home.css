@@ -412,3 +412,19 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 /* Features: hero, the Mac and Windows heading and the reviews share the card column's left edge. */
 .pg-features .page-hero .wrap, .pg-features .hero-quotes .wrap { max-width: 1060px; padding-left: 24px; padding-right: 24px; }
 .pg-features #also .section-head { max-width: 1060px; text-align: left; margin-left: auto; margin-right: auto; }
+
+/* ---- Hubs (11/27): Lookups and Guides use the 1060 column, with hero, search and cards on one left edge ---- */
+.pg-lookups .page-hero .wrap, .pg-guides .page-hero .wrap { max-width: 1060px; padding-left: 24px; padding-right: 24px; }
+body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44px; }
+.pg-lookups .lk { max-width: 640px; margin-left: 0; }
+.gcard-count .num { display: inline-block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
+.gfeat { border-top: 4px solid var(--accent); }
+.gfeat h3 { font-size: 1.2rem; }
+.pg-guides .guide-prose { max-width: 72ch; }
+.pg-guides .guide-prose .section-head { max-width: none; margin-left: 0; text-align: left; }
+.pg-guides .guide-prose .section-head p { margin-left: 0; }
+@media (max-width: 600px) {
+  .gcard { position: relative; padding: 14px 44px 14px 16px; }
+  .gcard::after { content: ""; position: absolute; right: 18px; top: 50%; width: 9px; height: 9px; border: solid var(--accent); border-width: 2px 2px 0 0; transform: translateY(-50%) rotate(45deg); }
+  .gcard-go { display: none; }
+}
