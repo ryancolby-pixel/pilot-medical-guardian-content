@@ -401,7 +401,7 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 @media (max-width: 860px) { .fcard .pillar-stage img { width: min(184px, 100%); margin: 0 auto; } }   /* 400px tall */
 
 /* Jump bar: pill links, the one in view highlighted (inline script in features.html). Sticky at every width. */
-.fjump .wrap { max-width: 1060px; gap: 6px; justify-content: flex-start; padding-left: 24px; padding-right: 24px; }   /* same left edge as the page hero and the cards */
+.fjump .wrap { max-width: 1060px; gap: 6px; justify-content: flex-start; padding-left: var(--gutter); padding-right: var(--gutter); }   /* same left edge as the page hero and the cards */
 .fjump span[aria-hidden] { display: none; }
 .fjump a { display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border-radius: 999px; font-size: 1rem; }
 .fjump a:hover { background: var(--hover); text-decoration: none; }
@@ -413,11 +413,11 @@ body.v2:not(.v2-home) .page-hero + .section, body.v2:not(.v2-home) .fjump + .sec
 }
 
 /* Features: hero, the Mac and Windows heading and the reviews share the card column's left edge. */
-.pg-features .page-hero .wrap, .pg-features .hero-quotes .wrap { max-width: 1060px; padding-left: 24px; padding-right: 24px; }
+.pg-features .page-hero .wrap, .pg-features .hero-quotes .wrap { max-width: 1060px; padding-left: var(--gutter); padding-right: var(--gutter); }
 .pg-features #also .section-head { max-width: 1060px; text-align: left; margin-left: auto; margin-right: auto; }
 
 /* ---- Hubs (11/27): Lookups and Guides use the 1060 column, with hero, search and cards on one left edge ---- */
-.pg-lookups .page-hero .wrap, .pg-guides .page-hero .wrap { max-width: 1060px; padding-left: 24px; padding-right: 24px; }
+.pg-lookups .page-hero .wrap, .pg-guides .page-hero .wrap { max-width: 1060px; padding-left: var(--gutter); padding-right: var(--gutter); }
 body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44px; }
 .pg-lookups .lk { max-width: 640px; margin-left: 0; }
 .gcard-count .num { display: inline-block; font-size: 1.75rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
@@ -433,7 +433,7 @@ body.v2:not(.v2-home) .page-hero + main > .section:first-child { padding-top: 44
 }
 
 /* ---- Pricing (11/27): one 880px column for hero, cards and terms; Pro card outlined in the accent ---- */
-.pg-pricing .page-hero .wrap, .pg-pricing main > .wrap { max-width: 880px; padding-left: 24px; padding-right: 24px; }
+.pg-pricing .page-hero .wrap, .pg-pricing main > .wrap { max-width: 880px; padding-left: var(--gutter); padding-right: var(--gutter); }
 .pg-pricing .price-terms { max-width: 880px; }
 .pg-pricing .price-terms + .links { margin-top: 18px; }
 .price-col.pro { border: 2px solid var(--accent); box-shadow: 0 12px 32px rgba(28,102,217,.14); }

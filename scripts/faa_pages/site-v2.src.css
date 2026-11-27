@@ -48,8 +48,7 @@ body.v2:not(.v2-home):not(.v2-hub) { background: var(--v-bg); color: var(--v-ink
 .i-ext { width: 12px; height: 12px; margin-left: 4px; vertical-align: -1px; opacity: .7; }
 
 /* 3. LAYOUT ------------------------------------------------------------- */
-.v2 .wrap.wide { max-width: 1040px; padding: 0 var(--v-3); }
-@media (max-width: 430px) { .v2 .wrap.wide { padding: 0 var(--v-2); } }
+.v2 .wrap.wide { max-width: 1060px; padding: 0 var(--gutter); }   /* same box as the header .container, so every left edge lines up with the logo */
 
 /* Sticky tool band under the nav: the lookup is always one thumb away. */
 .tool-band { position: sticky; top: var(--v-nav); z-index: 15; background: var(--v-band); -webkit-backdrop-filter: saturate(180%) blur(12px); backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--v-line); }
