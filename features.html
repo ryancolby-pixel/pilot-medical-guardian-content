@@ -365,7 +365,8 @@
     <div class="foot-bottom"><p>&copy; 2026 YellowArc LLC &middot; Pilot Medical Guardian</p><p>Not affiliated with or endorsed by the FAA.</p><p class="foot-legal"><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></p></div>
   </footer>
   <script>
-  /* Jump bar: mark the link whose section sits just under the bar (aria-current="true"). Without IntersectionObserver it does nothing. */
+  /* Jump bar: mark the link whose section sits just under the bar (aria-current="true"). Above the first section and below #also
+     (stats, video, reviews, Why I built this) no link is marked. Without IntersectionObserver it does nothing. */
   (function () {
     var links = [].slice.call(document.querySelectorAll('.fjump a[href^="#"]'));
     if (!('IntersectionObserver' in window) || !links.length) return;
@@ -373,7 +374,6 @@
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { seen[e.target.id] = e.isIntersecting; });
       var cur = links.filter(function (a) { return seen[a.getAttribute('href').slice(1)]; })[0];
-      if (!cur) return;
       links.forEach(function (a) { if (a === cur) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
     }, { rootMargin: '-120px 0px -60% 0px' });
     links.forEach(function (a) { var el = document.getElementById(a.getAttribute('href').slice(1)); if (el) io.observe(el); });
