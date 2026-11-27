@@ -291,3 +291,8 @@ body:not(.v2-home) .hero-quotes .wrap { margin-top: 0; }
 .hero2-devices-img { margin: 0; }
 .hero2-devices-img img { width: 100%; height: auto; display: block; border-radius: 14px; }
 .hero2-devices-img figcaption { font-size: .82rem; color: var(--muted); text-align: center; margin-top: 8px; }
+.gfeat { border-color: var(--accent-edge); background: linear-gradient(160deg, var(--accent-tint), var(--card)); }
+.gfeat h3 { font-size: 1.12rem; }
+.guides-xlink { text-align: center; font-weight: 600; margin: 8px 0 18px; }
+.guides-xlink a { color: var(--accent); text-decoration: none; }
+.guides-xlink a:hover { text-decoration: underline; }
