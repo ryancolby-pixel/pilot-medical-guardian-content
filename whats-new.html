@@ -38,10 +38,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific styles for the What's New page. */
-    h3 { font-size: 1.05rem; margin: 22px 0 6px; }
     .lede {
       background: var(--card);
       border: 1px solid var(--rule);
@@ -53,6 +52,7 @@
     .card ul { margin: 8px 0 2px; padding-left: 20px; }
     .card li { margin: 6px 0; }
     .pro-note { font-size:.92em; opacity:.85; margin-top:-4px; }
+    @media (min-width: 900px) { .now-list { columns: 2; column-gap: 40px; } .now-list li { break-inside: avoid; } }
 </style>
   <!-- Cloudflare Web Analytics (cookieless, no personal data) -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "35d3d8be8292443fa9f3a2235ccc7aea"}'></script>
@@ -81,6 +81,7 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">What's New</li></ol></nav>
       <h1>What's new, and what's next</h1>
     </div>
   </section>
@@ -93,9 +94,9 @@
 
     <span class="eyebrow">Recently shipped</span>
     <div class="card">
-      <h3>Now in the app</h3>
+      <h2>Now in the app</h2>
       <p class="pro-note">Most of this is free: your renewal countdown and reminders, unlimited record-keeping (application details, medications, Item 18 answers, doctor visits), the medication reference, Health, and the AME directory. Your first MedXPress autofill is free for 7 days from your first Fill. After that, autofill every renewal is part of Guardian Pro. The items marked <span class="pro-tag">Guardian Pro</span> are part of the optional subscription.</p>
-      <ul>
+      <ul class="now-list">
         <li><strong>Fill MedXPress, right in the app:</strong> <span class="pro-tag">Guardian Pro</span> one button, Fill MedXPress, opens the FAA's MedXPress site inside the app and fills the form from your records. Nothing to set up first. You sign in on the FAA's page, review every answer and submit it yourself. Safari still works: Fill in Safari is the first choice under More ways to fill, after its one-time setup. On iPhone and iPad from version 2.5.0, and on Mac from version 1.4.0.</li>
         <li><strong>Import your last application:</strong> choose the PDF MedXPress gave you when you submitted, from MedXPress Prep on iPhone and iPad or File &gt; Import MedXPress Application on Mac. You review every row, and nothing is added until you tap Add.</li>
         <li><strong>Save your confirmation number from Safari:</strong> on Mac, Save confirmation number on the MedXPress confirmation page now reaches your iPhone and iPad without opening the Mac app.</li>
@@ -161,7 +162,7 @@
 
     <span class="eyebrow">What I'm working on</span>
     <div class="card">
-      <h3>In progress</h3>
+      <h2>In progress</h2>
       <p class="muted">What comes next is shaped by what pilots ask for. No dates, no promises, just steady work.</p>
       <p class="muted">Tell me what you need at <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a>.</p>
     </div>

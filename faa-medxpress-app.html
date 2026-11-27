@@ -130,7 +130,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific bits for the MedXPress-app landing page (lede, callouts, steps,
        the fills/doesn't-fill comparison, FAQ). Mirrors medxpress-guide.html + autofill.html. */
@@ -174,7 +174,7 @@
       display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
       letter-spacing: 0.05em; margin-bottom: 8px;
     }
-    .fillcard.yes .tag { color: #1a8f4c; }
+    .fillcard.yes .tag { color: var(--ok); }
     .fillcard.no .tag { color: var(--muted); }
 
     details {
@@ -222,6 +222,7 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">MedXPress Autofill App</li></ol></nav>
       <span class="badge">MedXPress autofill app</span>
       <h1>Is there an app that fills out FAA MedXPress?</h1>
       <p class="page-sub"><strong>Yes, and it's one tap.</strong> <strong>Fill MedXPress</strong> opens the FAA's MedXPress site right inside the app, with nothing to set up, and autofills <strong>Items 1 to 19</strong> straight into the form: your application details, <strong>your medications (Item 17)</strong>, your Item 18 answers and <strong>your visits to health professionals (Item 19)</strong>, from records you keep on your own iPhone, iPad, or Mac. You review every entry and submit it yourself. Nothing is ever submitted for you.</p>
@@ -339,15 +340,17 @@
       <p>The app is free to use for your renewal countdown, unlimited record-keeping (application details, medications, Item 18 answers, doctor visits), the medication reference, Health, and the AME directory. Your first MedXPress autofill is free for 7 days from your first Fill. After that, autofill every renewal is part of Guardian Pro. An optional Guardian Pro subscription unlocks per-cycle MedXPress autofill and other features.</p>
     </details>
 
+    <nav class="related-links" aria-label="Related pages"><div><p class="eyebrow">Guides</p><ul><li><a href="/autofill.html">MedXPress autofill steps</a></li><li><a href="/medxpress-guide.html">FAA MedXPress guide</a></li><li><a href="/medxpress-checklist.html">MedXPress prep checklist</a></li></ul></div></nav>
+
     <span class="eyebrow">Get it</span>
     <h2>Ready to stop retyping your MedXPress form</h2>
     <div class="card">
-      <p style="margin-top:0">Pilot Medical Guardian is on the App Store for iPhone, iPad, and Mac. It's free to download, with an optional Guardian Pro subscription.</p>
+      <p>Pilot Medical Guardian is on the App Store for iPhone, iPad, and Mac. It's free to download, with an optional Guardian Pro subscription.</p>
       <div class="cta-row">
         <a class="primary" href="https://apps.apple.com/app/apple-store/id6772534988?pt=128922811&amp;ct=seo-mxapp&amp;mt=8">Download on the App Store &rarr;</a>
       </div>
       <p style="margin:10px 0 0;">Prefer to start on paper? Grab the free <a href="/medxpress-checklist.html">one-page MedXPress prep checklist</a>. No app required.</p>
-      <p class="fineprint" style="margin-bottom:0;">Free to download. Your medical data stays on your device and your own iCloud, and this website never sees it. Here's <a href="/privacy.html">exactly how that works</a>.</p>
+      <p class="fineprint">Free to download. Your medical data stays on your device and your own iCloud, and this website never sees it. Here's <a href="/privacy.html">exactly how that works</a>.</p>
     </div>
 
     <div class="links">

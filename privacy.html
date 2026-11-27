@@ -38,10 +38,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific styles for the Privacy page. */
-    h3 { font-size: 1.05rem; margin: 22px 0 6px; }
     .lede {
       background: var(--card);
       border: 1px solid var(--rule);
@@ -78,6 +77,7 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Privacy</li></ol></nav>
       <h1>Privacy Policy</h1>
       <p class="meta">Effective November 23, 2026</p>
     </div>
@@ -92,37 +92,37 @@
     <p>Pilot Medical Guardian and this website are operated by <strong>YellowArc LLC</strong>. Questions about this policy: <a href="mailto:support@pilotmedicalguardian.com">support@pilotmedicalguardian.com</a>.</p>
 
     <div class="card">
-      <h3>What I store, and where</h3>
+      <h2>What I store, and where</h2>
       <p>Your records (health readings, doctor visits, medications, medical history, Special Issuance profiles, documents, and certificates) are stored on your device and sync only through <strong>your own iCloud private database</strong>. I operate no server that holds this data and cannot query it.</p>
     </div>
 
     <div class="card">
-      <h3>Apple Health</h3>
+      <h2>Apple Health</h2>
       <p>If you connect Apple Health, the app requests <strong>read-only</strong> access to the metric types you choose. It never writes to Health, never uses health data for advertising, and never sends it to any server. It flows only: Apple Health → your device → your own iCloud.</p>
     </div>
 
     <div class="card">
-      <h3>Location</h3>
+      <h2>Location</h2>
       <p>If you tap "Use Current Location" in the AME Directory, your location is used <strong>only on your device</strong> to sort AMEs by distance. It is never stored or sent anywhere.</p>
     </div>
 
     <div class="card">
-      <h3>Documents you scan</h3>
+      <h2>Documents you scan</h2>
       <p>Scanned documents are turned into PDFs on your device and synced only through your iCloud private database. On iPhone and iPad, your records are encrypted by the device. On a Mac, macOS encrypts them on every Mac with Apple silicon or a T2 chip, and on any Mac with FileVault turned on. On-device text recognition (OCR) never leaves your device.</p>
     </div>
 
     <div class="card">
-      <h3>MedXPress inside the app</h3>
+      <h2>MedXPress inside the app</h2>
       <p>Fill MedXPress opens the FAA's own MedXPress website inside the app. You sign in on the FAA's page. Your password goes to the FAA. The app does not read or keep it. When you use Fill from Pilot Medical Guardian on a MedXPress page, the fill script runs on your device. It reads your already-saved records from the app's storage on your device and writes them into the MedXPress form fields. <strong>Nothing is sent to me.</strong> Your MedXPress sign-in, cookies and site storage stay in memory only. They are never saved to your device, and they end when you quit the app or use Erase All Data. Tapping Done does not sign you out. The fill script adds no network requests to the MedXPress page. The FAA page makes the same requests it makes in Safari, including services the FAA itself uses.</p>
     </div>
 
     <div class="card">
-      <h3>Safari Web Extension (MedXPress autofill)</h3>
+      <h2>Safari Web Extension (MedXPress autofill)</h2>
       <p>When you enable PMG's optional Safari extension, it runs <strong>only on medxpress.faa.gov</strong>. The extension reads your already-saved records (medications, doctor visits, medical history answers, and the application details you enter for MedXPress's first pages, such as address, phone, date of birth, certificates and flight time) from the same on-device storage as the main app, through Apple's shared App Group mechanism. Your data never transits any server. It writes those records into MedXPress's form fields so you don't have to retype them at every renewal. You can disable the extension any time in Safari's settings; the main app keeps working without it. The extension itself uses no analytics, sends nothing to me, and connects to no third-party service. It only reads your already-saved records and writes them into the MedXPress form fields.</p>
     </div>
 
     <div class="card">
-      <h3>Chrome and Edge extension (MedXPress autofill on a computer)</h3>
+      <h2>Chrome and Edge extension (MedXPress autofill on a computer)</h2>
       <p>PMG's optional extension for Google Chrome and Microsoft Edge runs <strong>only on medxpress.faa.gov</strong> and fills the same records as the Safari extension: your medications, doctor visits from the last 3 years, your Item 18 answers, and the application details you enter for MedXPress's first pages (such as address, phone, date of birth, certificates and flight time). It gets them one of two ways, and you choose which:</p>
       <p><strong>Sign in with your Apple Account.</strong> Apple's own sign-in page opens; your password goes to Apple, not to me. The extension then reads those records from your own iCloud private database. It is read-only and never changes anything.</p>
       <p><strong>Open a file from your iPhone or iPad.</strong> In the app, Send to a computer creates a file encrypted with a 12-character code that is shown only on your screen and never saved. You move the file yourself (email, OneDrive, a USB stick) and type the code on the computer. Without the code the file is unreadable, and it stops working after 7 days.</p>
@@ -132,19 +132,19 @@
     </div>
 
     <div class="card">
-      <h3>FAA reference content</h3>
+      <h2>FAA reference content</h2>
       <p>The app downloads public FAA reference data (thresholds, medications, requirements, AME data) as <strong>anonymous static files</strong>. These requests carry no identifier and no health data. They look like any other file download. Nothing about you is ever sent back.</p>
     </div>
 
     <div class="card">
-      <h3>No tracking, no ads, no selling in the app</h3>
+      <h2>No tracking, no ads, no selling in the app</h2>
       <p>The app has no advertising and no tracking, and I never sell your data. Not now, not ever. The only outside code built into the app is RevenueCat, which runs the Guardian Pro subscription: it receives an anonymous "is this device subscribed?" signal (never any health content, and nothing that identifies you) so Pro unlocks, renewals work, and I can see anonymous, aggregate subscription numbers. That's the one thing the App Store lists as collected. See "Subscriptions &amp; payments" below for exactly what it is and isn't. When you open MedXPress inside the app, the FAA's page runs the same code it runs in Safari.</p>
       <p><strong>This website</strong>, separate from the app, counts page views using <strong>Cloudflare Web Analytics</strong>. It's cookieless, doesn't follow you across other sites, and doesn't build a profile of you. It tells me which pages get read and roughly what country a visit came from; nothing that identifies you, and it has no access to anything in the app.</p>
       <p style="margin-bottom:0">I'm also running a small paid-search test to see whether ads are a sensible way to reach pilots, so this website currently loads <strong>Google's advertising tag</strong> as well. I'd rather tell you than have you find it. Unlike the Cloudflare counter, it does set cookies and it does let Google connect a visit here to an ad click. That is ordinary ad measurement, and it is the one thing on this site that follows you across sites. It sees pages and clicks on this website only. It has no access to anything in the app, and there is nothing about your health, medications, conditions or documents on this website for it to see: those live on your device and your own iCloud and never reach any web page. If I stop the test, the tag comes off and this paragraph goes with it.</p>
     </div>
 
     <div class="card">
-      <h3>Subscriptions &amp; payments</h3>
+      <h2>Subscriptions &amp; payments</h2>
       <p>Guardian Pro is a paid annual subscription. Apple processes the payment and is the seller of record. Apple, not I, handles your money and card details. To manage the subscription itself (unlock Pro, track renewals), the app uses a subscription provider called <strong>RevenueCat</strong>. This is part of how the subscription works. It isn't a separate feature you opt into.</p>
       <p>Here's exactly what that involves. The app checks whether this device is subscribed at launch, and when you subscribe or renew. Each time, it sends RevenueCat an anonymous app-user ID (a random string, not your name or your Apple ID) and your subscription status ("is this device subscribed, and when does it renew"). That lets your Pro features unlock, keeps renewals working, and gives me anonymous, aggregate subscription numbers (how many people subscribe, renew, or cancel) so I can run the business. That is the entire extent of it.</p>
       <p><strong>RevenueCat never receives</strong> your health readings, conditions, medications, doctor visits, medical history, Special Issuance data, documents, Apple Health data, your name, your email, or your real identity. None of that is ever sent to it.</p>
@@ -152,12 +152,12 @@
       <p style="margin-bottom:0">This is why the App Store's privacy label lists exactly one collected data type (Purchases, Purchase History), marked <strong>Not Linked to you</strong> and <strong>not used for tracking</strong>. Your health and medical data stay <strong>Not Collected</strong>. RevenueCat's own privacy policy is here: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
     </div>
     <div class="card">
-      <h3>Your control</h3>
+      <h2>Your control</h2>
       <p>You can archive or permanently delete any record, and <strong>"Erase All Data &amp; Start Over"</strong> removes everything from your device and iCloud. Because your data lives in your iCloud, it is also governed by your Apple account security.</p>
     </div>
 
     <div class="card">
-      <h3>Contact</h3>
+      <h2>Contact</h2>
       <p>Questions about this policy or how the app handles data can be emailed to <a href="mailto:support@pilotmedicalguardian.com?subject=Privacy%20question">support@pilotmedicalguardian.com</a>. You can also send feedback right from the app (About &rarr; Send feedback).</p>
     </div>
 

@@ -125,7 +125,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific bits for the Special Issuance guide. Mirrors faa-medical-duration.html. */
     .callout {
@@ -216,6 +216,7 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">FAA Special Issuance</li></ol></nav>
       <span class="badge">Pilot's guide</span>
       <h1>FAA Special Issuance: How an Authorization Works</h1>
       <p class="page-sub"><strong>A Special Issuance is the FAA saying yes to a condition that would otherwise disqualify you, on conditions, for a set period.</strong> Here is what the regulation actually says, how it differs from CACI and AASI, what you owe at each renewal, and the part nobody mentions: an Authorization can be withdrawn.</p>
@@ -269,7 +270,7 @@
 
     <div class="card">
       <div class="table-wrap">
-        <table class="si-table">
+        <table class="si-table stack-sm">
           <caption class="visually-hidden">The three certification pathways for a medical condition: CACI, AASI, and full Special Issuance</caption>
           <thead>
             <tr>
@@ -281,18 +282,18 @@
           <tbody>
             <tr>
               <th scope="row">CACI<span class="sub">Conditions an AME can issue</span></th>
-              <td>Your AME, in the office, if you meet the criteria on the FAA's worksheet for that condition.</td>
-              <td>No FAA Authorization letter. The FAA's own worksheet says documents do not need to be submitted to the FAA. You bring current information to each exam.</td>
+              <td data-label="Who issues the certificate">Your AME, in the office, if you meet the criteria on the FAA's worksheet for that condition.</td>
+              <td data-label="What you owe afterwards">No FAA Authorization letter. The FAA's own worksheet says documents do not need to be submitted to the FAA. You bring current information to each exam.</td>
             </tr>
             <tr>
               <th scope="row">AASI<span class="sub">AME Assisted Special Issuance</span></th>
-              <td>The FAA grants the Authorization first. After that, your AME may reissue in the office once the AASI criteria are met.</td>
-              <td>An Authorization with its own clock, plus the documentation its attachments call for.</td>
+              <td data-label="Who issues the certificate">The FAA grants the Authorization first. After that, your AME may reissue in the office once the AASI criteria are met.</td>
+              <td data-label="What you owe afterwards">An Authorization with its own clock, plus the documentation its attachments call for.</td>
             </tr>
             <tr>
               <th scope="row">Special Issuance<span class="sub">14 CFR 67.401</span></th>
-              <td>The FAA. Your AME defers, and the Aeromedical Certification Division or a Regional Flight Surgeon makes the determination.</td>
-              <td>A time-limited Authorization and recurring documentation on the schedule the FAA sets.</td>
+              <td data-label="Who issues the certificate">The FAA. Your AME defers, and the Aeromedical Certification Division or a Regional Flight Surgeon makes the determination.</td>
+              <td data-label="What you owe afterwards">A time-limited Authorization and recurring documentation on the schedule the FAA sets.</td>
             </tr>
           </tbody>
         </table>
@@ -367,7 +368,7 @@
 
     <div class="card">
       <div class="table-wrap">
-        <table class="si-table">
+        <table class="si-table stack-sm stack-2">
           <caption class="visually-hidden">Common aeromedical conditions, their usual FAA certification pathway, and a link to the FAA's page for each</caption>
           <thead>
             <tr>
@@ -377,37 +378,39 @@
             </tr>
           </thead>
           <tbody>
-            <tr><th scope="row">Hypertension on medication</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Obstructive sleep apnea (OSA)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Type 2 diabetes on oral or non-insulin medication</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Insulin-treated diabetes (ITDM)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Depression or anxiety on an FAA-approved antidepressant</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Coronary artery disease, post heart attack</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Coronary stent (PCI)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Coronary artery bypass graft (CABG)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Atrial fibrillation</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/afib" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Cardiac pacemaker</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Mitral valve repair</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIMitralValveRepair.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Heart valve replacement</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Stroke or transient ischemic attack (TIA)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
-            <tr><th scope="row">Migraine or chronic headache</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIMigraine.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Substance use or dependence (HIMS)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/abuse_dep/amd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Attention deficit / ADHD</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Asthma</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Chronic obstructive pulmonary disease (COPD)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Pulmonary embolism or DVT on anticoagulation</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/dvt" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Retained kidney stones</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Retained_Kidney_Stones.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Melanoma</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma" target="_blank" rel="noopener">AME Guide</a></td></tr>
-            <tr><th scope="row">Prostate cancer</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Hypothyroidism</th><td><span class="lane lane-caci">CACI</span></td><td><a href="https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Hypothyroidism.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
-            <tr><th scope="row">Seizure disorder or epilepsy</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
-            <tr><th scope="row">Traumatic brain injury (TBI)</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide/media/Head-Injury.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
-            <tr><th scope="row">Bariatric surgery</th><td><span class="lane lane-si">SI / AASI</span></td><td><a href="https://www.faa.gov/ame_guide" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Hypertension on medication</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Obstructive sleep apnea (OSA)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Type 2 diabetes on oral or non-insulin medication</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Insulin-treated diabetes (ITDM)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Depression or anxiety on an FAA-approved antidepressant</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Coronary artery disease, post heart attack</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Coronary stent (PCI)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Coronary artery bypass graft (CABG)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/third_class/chd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Atrial fibrillation</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/afib" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Cardiac pacemaker</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Mitral valve repair</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIMitralValveRepair.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Heart valve replacement</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/valvular" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Stroke or transient ischemic attack (TIA)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
+            <tr><th scope="row">Migraine or chronic headache</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIMigraine.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Substance use or dependence (HIMS)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/abuse_dep/amd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Attention deficit / ADHD</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Asthma</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/asthma" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/C-CACIAsthma.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Chronic obstructive pulmonary disease (COPD)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item35/amd/copd" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Pulmonary embolism or DVT on anticoagulation</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/dvt" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Retained kidney stones</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/special_iss/all_classes/renal_calculi" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Retained_Kidney_Stones.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Melanoma</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma" target="_blank" rel="noopener">AME Guide</a></td></tr>
+            <tr><th scope="row">Prostate cancer</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/prostatic" target="_blank" rel="noopener">AME Guide</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Hypothyroidism</th><td data-label="Usual pathway"><span class="lane lane-caci">CACI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/media/Hypothryroid_Hypothyroidism.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a> &middot; <a href="https://www.faa.gov/ame_guide/media/CACI_Hypothyroidism.pdf" target="_blank" rel="noopener">worksheet (PDF)</a></td></tr>
+            <tr><th scope="row">Seizure disorder or epilepsy</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
+            <tr><th scope="row">Traumatic brain injury (TBI)</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide/media/Head-Injury.pdf" target="_blank" rel="noopener">AME Guide (PDF)</a></td></tr>
+            <tr><th scope="row">Bariatric surgery</th><td data-label="Usual pathway"><span class="lane lane-si">SI / AASI</span></td><td data-label="FAA source"><a href="https://www.faa.gov/ame_guide" target="_blank" rel="noopener">AME Guide</a></td></tr>
           </tbody>
         </table>
       </div>
     </div>
     <p class="source-note">Every link above was checked against the FAA's live page on 2026-08-29. The FAA revises this material, sometimes without notice, so treat the FAA's page as current and this table as a directory.</p>
+
+    <nav class="related-links" aria-label="Related pages"><div><p class="eyebrow">Guides</p><ul><li><a href="/faa-medical-duration.html">FAA medical certificate duration</a></li></ul></div><div><p class="eyebrow">Free lookups</p><ul><li><a href="/faa-conditions/">FAA conditions and disposition tables</a></li><li><a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></li></ul></div></nav>
 
     <span class="eyebrow">Keeping the cycle straight</span>
     <h2>How Pilot Medical Guardian helps</h2>

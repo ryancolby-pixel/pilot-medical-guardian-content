@@ -165,7 +165,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific bits for the MedXPress guide (prose, callouts, steps, FAQ). */
     .lede { font-size: clamp(1.06rem, 2.6vw, 1.2rem); line-height: 1.5; color: var(--muted); margin: 12px 0 4px; max-width: 62ch; text-wrap: pretty; }
@@ -279,6 +279,7 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">MedXPress Guide</li></ol></nav>
       <span class="badge">Pilot's guide</span>
       <h1>FAA MedXPress Guide: How to Complete Form 8500-8</h1>
       <p class="page-sub"><strong>FAA MedXPress is the online system for Form 8500-8</strong>, the Application for Airman Medical Certificate. You fill it out before your medical exam, and your AME reviews it at the exam.</p>
@@ -381,32 +382,32 @@
     <p>Here's what each item on the form is about, in plain language, using the FAA's own item labels:</p>
     <div class="card">
       <div class="table-wrap">
-        <table class="dur-table">
+        <table class="dur-table stack-sm">
           <caption class="visually-hidden">FAA Form 8500-8, Items 1 through 20: plain-language overview</caption>
           <thead>
             <tr><th scope="col">Item</th><th scope="col">What it asks</th></tr>
           </thead>
           <tbody>
-            <tr><th scope="row">1</th><td>What you're applying for: an Airman Medical Certificate. (The FAA notes it no longer issues student pilot certificates, as of April 1, 2016.)</td></tr>
-            <tr><th scope="row">2</th><td>The class of medical certificate you're applying for: first, second, or third (see 14 CFR &sect;61.23).</td></tr>
-            <tr><th scope="row">3</th><td>Your full legal name.</td></tr>
-            <tr><th scope="row">4</th><td>Social Security number. Entering it is optional, or you can decline and the system generates a pseudo-number.</td></tr>
-            <tr><th scope="row">5</th><td>Your mailing address and telephone number.</td></tr>
-            <tr><th scope="row">6</th><td>Date of birth and citizenship.</td></tr>
-            <tr><th scope="row">7</th><td>Hair color.</td></tr>
-            <tr><th scope="row">8</th><td>Eye color.</td></tr>
-            <tr><th scope="row">9</th><td>Sex.</td></tr>
-            <tr><th scope="row">10</th><td>The airman certificate(s) you currently hold: Airline Transport, Commercial, Private, Recreational, and so on.</td></tr>
-            <tr><th scope="row">11</th><td>Your occupation. (The FAA says enter &ldquo;pilot&rdquo; only if you currently work as a pilot.)</td></tr>
-            <tr><th scope="row">12</th><td>Your employer (or &ldquo;self-employed&rdquo;).</td></tr>
-            <tr><th scope="row">13</th><td>Whether your FAA airman medical certificate has ever been denied, suspended, or revoked.</td></tr>
-            <tr><th scope="row">14</th><td>Total pilot flight time (civilian only) to date, logged or estimated.</td></tr>
-            <tr><th scope="row">15</th><td>Pilot flight time (civilian only) in the last 6 months.</td></tr>
-            <tr><th scope="row">16</th><td>The date of your last FAA medical application (or &ldquo;no prior application&rdquo;).</td></tr>
-            <tr><th scope="row">17</th><td>Medications you currently use (17a), and whether you use near-vision contact lenses while flying (17b). <a href="#item-17-19">More below.</a></td></tr>
-            <tr><th scope="row">18</th><td>Your medical history: &ldquo;Have you ever in your life been diagnosed with, had, or do you presently have any of the following?&rdquo; <a href="#item-17-19">More below.</a></td></tr>
-            <tr><th scope="row">19</th><td>Whether you've visited any health professionals in the last 3 years. <a href="#item-17-19">More below.</a></td></tr>
-            <tr><th scope="row">20</th><td>Your certifying declarations, and authorization for a National Driver Register (motor-vehicle records) check.</td></tr>
+            <tr><th scope="row">1</th><td data-label="What it asks">What you're applying for: an Airman Medical Certificate. (The FAA notes it no longer issues student pilot certificates, as of April 1, 2016.)</td></tr>
+            <tr><th scope="row">2</th><td data-label="What it asks">The class of medical certificate you're applying for: first, second, or third (see 14 CFR &sect;61.23).</td></tr>
+            <tr><th scope="row">3</th><td data-label="What it asks">Your full legal name.</td></tr>
+            <tr><th scope="row">4</th><td data-label="What it asks">Social Security number. Entering it is optional, or you can decline and the system generates a pseudo-number.</td></tr>
+            <tr><th scope="row">5</th><td data-label="What it asks">Your mailing address and telephone number.</td></tr>
+            <tr><th scope="row">6</th><td data-label="What it asks">Date of birth and citizenship.</td></tr>
+            <tr><th scope="row">7</th><td data-label="What it asks">Hair color.</td></tr>
+            <tr><th scope="row">8</th><td data-label="What it asks">Eye color.</td></tr>
+            <tr><th scope="row">9</th><td data-label="What it asks">Sex.</td></tr>
+            <tr><th scope="row">10</th><td data-label="What it asks">The airman certificate(s) you currently hold: Airline Transport, Commercial, Private, Recreational, and so on.</td></tr>
+            <tr><th scope="row">11</th><td data-label="What it asks">Your occupation. (The FAA says enter &ldquo;pilot&rdquo; only if you currently work as a pilot.)</td></tr>
+            <tr><th scope="row">12</th><td data-label="What it asks">Your employer (or &ldquo;self-employed&rdquo;).</td></tr>
+            <tr><th scope="row">13</th><td data-label="What it asks">Whether your FAA airman medical certificate has ever been denied, suspended, or revoked.</td></tr>
+            <tr><th scope="row">14</th><td data-label="What it asks">Total pilot flight time (civilian only) to date, logged or estimated.</td></tr>
+            <tr><th scope="row">15</th><td data-label="What it asks">Pilot flight time (civilian only) in the last 6 months.</td></tr>
+            <tr><th scope="row">16</th><td data-label="What it asks">The date of your last FAA medical application (or &ldquo;no prior application&rdquo;).</td></tr>
+            <tr><th scope="row">17</th><td data-label="What it asks">Medications you currently use (17a), and whether you use near-vision contact lenses while flying (17b). <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">18</th><td data-label="What it asks">Your medical history: &ldquo;Have you ever in your life been diagnosed with, had, or do you presently have any of the following?&rdquo; <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">19</th><td data-label="What it asks">Whether you've visited any health professionals in the last 3 years. <a href="#item-17-19">More below.</a></td></tr>
+            <tr><th scope="row">20</th><td data-label="What it asks">Your certifying declarations, and authorization for a National Driver Register (motor-vehicle records) check.</td></tr>
           </tbody>
         </table>
       </div>
@@ -513,6 +514,8 @@
       <summary>Can the app fill in the whole form for me?</summary>
       <p>No, and it shouldn't. Pilot Medical Guardian prefills Items 1 to 19 from what you saved in the app, including your Item 18 answers, so you don't retype them, but you review every entry and submit it yourself. Every answer is yours, following the FAA's own instructions; the app never clicks Add, Next or Submit.</p>
     </details>
+
+    <nav class="related-links" aria-label="Related pages"><div><p class="eyebrow">Guides</p><ul><li><a href="/medxpress-checklist.html">MedXPress prep checklist</a></li><li><a href="/faa-medxpress-app.html">MedXPress autofill app</a></li></ul></div><div><p class="eyebrow">Free lookups</p><ul><li><a href="/faa-medications/">FAA medication lookup</a></li><li><a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></li></ul></div></nav>
 
     <div class="card">
       <p style="margin-top:0"><strong>You just read how to fill this form. The app does most of the typing in these sections for you.</strong></p>

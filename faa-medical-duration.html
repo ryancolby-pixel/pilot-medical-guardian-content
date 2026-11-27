@@ -122,7 +122,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/site.css?v=20261127b">
+  <link rel="stylesheet" href="/site.css?v=20261127e">
   <style>
     /* Page-specific bits for the duration guide. */
     .callout {
@@ -210,9 +210,8 @@
     .calc-cta-lead { margin: 16px 0 0; }
     .calc-cta .links { margin-top: 10px; }
     @media (max-width: 699.98px) { .calc-cta .links a.calc-mac { display: none; } }
-    /* Press line (Ryan 11/11): small, muted, text only. */
-    .page-hero .press-line { margin: 8px 0 0; font-size: 0.94rem; line-height: 1.45; color: var(--muted); }
-    .page-hero .press-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    /* Press line (Ryan 11/11), now the shared .press-chip (11/27). */
+    .page-hero .press-line { margin: 14px 0 0; }
   </style>
   <!-- The calculator needs JS. Without it, hide the box so a no-JS reader sees the table and the
        disclaimer and no dead control. It is NOT hidden by default with JS on, so the browser can
@@ -245,10 +244,11 @@
 
   <section class="page-hero">
     <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">FAA Medical Duration</li></ol></nav>
       <span class="badge">Pilot's guide</span>
       <h1>FAA Medical Certificate Duration Chart (1st, 2nd &amp; 3rd Class)</h1>
-      <p class="press-line"><a href="https://generalaviationnews.com/2026/11/09/pilot-medical-guardian-app-simplifies-faa-medical-records/" target="_blank" rel="noopener">As seen in General Aviation News</a></p>
       <p class="page-sub"><strong>It depends on your class of certificate, what you're flying, and your age at the exam.</strong> Here's the plain-language breakdown for first, second, and third class, straight from 14 CFR 61.23, with a link to the FAA source for every number.</p>
+      <p class="press-line"><a class="press-chip" href="https://generalaviationnews.com/2026/11/09/pilot-medical-guardian-app-simplifies-faa-medical-records/" target="_blank" rel="noopener"><span class="press-k">As seen in</span> General Aviation News</a></p>
     </div>
   </section>
 
@@ -261,7 +261,7 @@
 
     <div class="card">
       <div class="table-wrap">
-        <table class="dur-table">
+        <table class="dur-table stack-sm stack-2">
           <caption class="visually-hidden">FAA medical certificate duration by class and age at exam, per 14 CFR 61.23(d)</caption>
           <thead>
             <tr>
@@ -273,18 +273,18 @@
           <tbody>
             <tr>
               <th scope="row">First-class<span class="sub">ATP / airline pilot-in-command</span></th>
-              <td><span class="big">12 calendar months</span></td>
-              <td><span class="big">6 calendar months</span></td>
+              <td data-label="Under 40 at exam"><span class="big">12 calendar months</span></td>
+              <td data-label="Age 40 or older"><span class="big">6 calendar months</span></td>
             </tr>
             <tr>
               <th scope="row">Second-class<span class="sub">commercial pilot operations</span></th>
-              <td><span class="big">12 calendar months</span></td>
-              <td><span class="big">12 calendar months</span></td>
+              <td data-label="Under 40 at exam"><span class="big">12 calendar months</span></td>
+              <td data-label="Age 40 or older"><span class="big">12 calendar months</span></td>
             </tr>
             <tr>
               <th scope="row">Third-class<span class="sub">private, recreational, or student</span></th>
-              <td><span class="big">60 calendar months</span> <span class="yr">(5 years)</span></td>
-              <td><span class="big">24 calendar months</span> <span class="yr">(2 years)</span></td>
+              <td data-label="Under 40 at exam"><span class="big">60 calendar months</span> <span class="yr">(5 years)</span></td>
+              <td data-label="Age 40 or older"><span class="big">24 calendar months</span> <span class="yr">(2 years)</span></td>
             </tr>
           </tbody>
         </table>
@@ -471,6 +471,8 @@
     <h2>What class of medical do I need?</h2>
     <p>That's set by the operations you fly, not by preference. Broadly, <strong>first-class</strong> for airline pilot-in-command, <strong>second-class</strong> for commercial flying, and <strong>third-class</strong> for private, recreational, or student flying. For the exact requirement, see the FAA's <a href="https://www.faa.gov/faq/what-class-medical-certificate-must-i-hold-and-how-long-it-valid" target="_blank" rel="noopener">guidance on class and validity</a>.</p>
     <p>Flying under <strong>BasicMed</strong> instead of a third-class certificate? Different clocks apply: a 24-month course and a 48-month exam, not a certificate duration. See my <a href="/basicmed-guide.html">BasicMed guide</a>.</p>
+
+    <nav class="related-links" aria-label="Related pages"><div><p class="eyebrow">Guides</p><ul><li><a href="/basicmed-guide.html">FAA BasicMed guide</a></li><li><a href="/medxpress-guide.html">FAA MedXPress guide</a></li></ul></div><div><p class="eyebrow">Free lookups</p><ul><li><a href="/aviation-medical-examiners/">Find an aviation medical examiner</a></li></ul></div></nav>
 
     <span class="eyebrow">Never get caught short</span>
     <h2>How Pilot Medical Guardian helps</h2>
