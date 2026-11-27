@@ -80,7 +80,8 @@ body {
    sticky header. 17px body text everywhere except the homepage. */
 :where(a:not([class])) { color: var(--accent); text-underline-offset: 2px; }
 :where(section[id], article[id], div[id], details[id], li[id], h2[id], h3[id], p[id], table[id]) { scroll-margin-top: calc(var(--nav-h) + 16px); }
-main#main { scroll-margin-top: var(--nav-h); }   /* skip link: the page header shows in full under the sticky nav */
+main#main { scroll-margin-top: var(--nav-h); }
+:where(main a[href^="mailto:"]) { overflow-wrap: anywhere; }   /* a long email address wraps on a 320px phone instead of pushing the page sideways */   /* skip link: the page header shows in full under the sticky nav */
 body:not(.v2-home) { font-size: 1.0625rem; }
 h1 { font-weight: 800; }
 a { transition: color .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease, transform .15s ease, filter .15s ease; }
