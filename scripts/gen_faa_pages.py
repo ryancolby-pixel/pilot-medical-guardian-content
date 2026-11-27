@@ -733,10 +733,10 @@ def patch_home(section):
     s = s.replace("</head>", f'<link rel="stylesheet" href="/site-v2.css?v={V}">\n<script defer src="/faa-lookup.js?v={V}"></script>\n</head>', 1)
     if '<body class="v2 v2-home">' not in s:
         s = s.replace("<body>", '<body class="v2 v2-home">', 1)
-    anchor = "  <!-- PRIVACY -->"  # reorg 11/25: the strip sits between Three jobs and Privacy
+    anchor = "  <!-- THREE JOBS -->"  # 11/27: the strip sits right under the hero, on the first screen at 1280x800
     assert anchor in s, "homepage anchor missing"
     s = s.replace(anchor, section.lstrip("\n") + "\n" + anchor, 1)
-    s = re.sub(r"\n{3,}(  <!-- (?:FREE FAA LOOKUPS|PRIVACY))", r"\n\n\1", s)  # idempotent: no blank lines pile up between runs
+    s = re.sub(r"\n{3,}(  <!-- (?:FREE FAA LOOKUPS|THREE JOBS|PRIVACY))", r"\n\n\1", s)  # idempotent: no blank lines pile up between runs
     open(p, "w", encoding="utf-8").write(s)
 
 def patch_lookups():
